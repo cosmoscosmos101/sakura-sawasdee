@@ -1,0 +1,452 @@
+[
+  {
+    "id": "th_con_khor_khwai",
+    "lang": "th",
+    "written": "ค",
+    "reading": "คอควาย",
+    "romanization": "kh",
+    "meaning": {
+      "en": "the buffalo — low-class (aspirated kh, same sound as ข but low-class)",
+      "th": "คอควาย — อักษรต่ำ เสียงขอ (เหมือน ข แต่อักษรต่ำ)"
+    },
+    "pos": "character",
+    "element": "stone",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "thai",
+      "consonant",
+      "low_class"
+    ],
+    "frequency": 9996,
+    "audio": "voice/th/con_khor_khwai.mp3",
+    "tone": 0,
+    "toneRule": "Low-class consonant: no tone mark = mid tone; mai ek (่) = falling; mai tho (้) = high. Pairs with ห นำ to borrow high-class rising tone.",
+    "examples": [
+      {
+        "sentence": "ควาย (khwai) — water buffalo",
+        "reading": "ควาย",
+        "translation": {
+          "en": "ค starts ควาย (water buffalo) — a beloved animal of Thai rural life.",
+          "th": "ค นำคำว่า ควาย ซึ่งเป็นสัตว์ที่รักของชีวิตชนบทไทย"
+        },
+        "context": "rice_field"
+      }
+    ],
+    "kotodama": {
+      "name": "Khwai-Rune",
+      "sprite": "kotodama/th_khor_khwai.png",
+      "description": {
+        "en": "A sturdy, patient low-class spirit with a slow, steady gait. It sounds just like ข but sits lower in the tone landscape.",
+        "th": "วิญญาณอักษรต่ำที่แข็งแกร่งและอดทน เดินช้าๆ มั่นคง ออกเสียงเหมือน ข แต่อยู่ในระดับเสียงต่ำกว่า"
+      },
+      "rarity": "common",
+      "habitat": [
+        "rice_field",
+        "old_town"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 7
+      }
+    },
+    "mnemonic": {
+      "en": "ค looks like ข with a drooping tail — the 'low' version that hangs heavier, like a buffalo in the mud.",
+      "th": "ค คล้าย ข ที่มีหางย้อยลง — เวอร์ชัน 'ต่ำ' ที่หนักกว่า เหมือนควายในโคลน"
+    }
+  },
+  {
+    "id": "th_con_ngor_ngu",
+    "lang": "th",
+    "written": "ง",
+    "reading": "งอง",
+    "romanization": "ng",
+    "meaning": {
+      "en": "the snake — low-class (ng sound, only as final consonant in initial position for many words)",
+      "th": "งอง — อักษรต่ำ เสียงงอ"
+    },
+    "pos": "character",
+    "element": "stone",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "thai",
+      "consonant",
+      "low_class"
+    ],
+    "frequency": 9997,
+    "audio": "voice/th/con_ngor_ngu.mp3",
+    "tone": 0,
+    "toneRule": "Low-class consonant: no tone mark = mid tone; mai ek (่) = falling; mai tho (้) = high.",
+    "examples": [
+      {
+        "sentence": "งาน (ngan) — work, festival",
+        "reading": "งาน",
+        "translation": {
+          "en": "ง starts งาน (work/festival) — you will hear this word constantly in daily life.",
+          "th": "ง นำคำว่า งาน ซึ่งได้ยินบ่อยมากในชีวิตประจำวัน"
+        },
+        "context": "night_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Ngu-Rune",
+      "sprite": "kotodama/th_ngor_ngu.png",
+      "description": {
+        "en": "A coiled low-class spirit shaped like a serpent at rest. The 'ng' sound lives deep in the throat — this spirit resonates there.",
+        "th": "วิญญาณอักษรต่ำที่ขดตัวเหมือนงูพักผ่อน เสียง ง อยู่ลึกในลำคอ"
+      },
+      "rarity": "common",
+      "habitat": [
+        "night_market",
+        "rice_field"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 7
+      }
+    },
+    "mnemonic": {
+      "en": "ง looks like a snake with a raised head — the circular coil is the body and the hook is the head looking up.",
+      "th": "ง ดูเหมือนงูที่เชิดหัว — วงกลมคือลำตัว ส่วนขอคือหัวที่มองขึ้น"
+    }
+  },
+  {
+    "id": "th_con_nor_nen",
+    "lang": "th",
+    "written": "ณ",
+    "reading": "ณอเณร",
+    "romanization": "n",
+    "meaning": {
+      "en": "the novice monk — low-class (n sound, Pali-origin spelling)",
+      "th": "ณอเณร — อักษรต่ำ เสียงนอ (สะกดแบบบาลี)"
+    },
+    "pos": "character",
+    "element": "stone",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "thai",
+      "consonant",
+      "low_class"
+    ],
+    "frequency": 9989,
+    "audio": "voice/th/con_nor_nen.mp3",
+    "tone": 0,
+    "toneRule": "Low-class consonant: no tone mark = mid tone; mai ek (่) = falling; mai tho (้) = high.",
+    "examples": [
+      {
+        "sentence": "เณร (nen) — novice monk",
+        "reading": "เณร",
+        "translation": {
+          "en": "ณ starts เณร (novice monk) — typically a young boy in saffron robes.",
+          "th": "ณ นำคำว่า เณร ซึ่งหมายถึงสามเณรในชุดจีวร"
+        },
+        "context": "temple"
+      }
+    ],
+    "kotodama": {
+      "name": "Nen-Rune",
+      "sprite": "kotodama/th_nor_nen.png",
+      "description": {
+        "en": "A calm, studious low-class spirit used mostly in words of Pali/Sanskrit origin. It sounds exactly like น but appears in more formal, religious vocabulary.",
+        "th": "วิญญาณอักษรต่ำที่สงบและขยัน ใช้ในคำที่มาจากบาลี/สันสกฤต ออกเสียงเหมือน น แต่พบในคำทางศาสนา"
+      },
+      "rarity": "uncommon",
+      "habitat": [
+        "temple"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 7
+      }
+    },
+    "mnemonic": {
+      "en": "ณ has an ornate extra stroke compared to น — the extra detail is like the extra devotion of a novice who studies carefully.",
+      "th": "ณ มีเส้นพิเศษเพิ่มเติมจาก น — รายละเอียดพิเศษเหมือนความทุ่มเทของสามเณรที่ตั้งใจเรียน"
+    }
+  },
+  {
+    "id": "th_con_nor_nu",
+    "lang": "th",
+    "written": "น",
+    "reading": "นอหนู",
+    "romanization": "n",
+    "meaning": {
+      "en": "the mouse — low-class (n sound, common everyday form)",
+      "th": "นอหนู — อักษรต่ำ เสียงนอ (รูปสามัญ)"
+    },
+    "pos": "character",
+    "element": "stone",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "thai",
+      "consonant",
+      "low_class"
+    ],
+    "frequency": 9998,
+    "audio": "voice/th/con_nor_nu.mp3",
+    "tone": 0,
+    "toneRule": "Low-class consonant: no tone mark = mid tone; mai ek (่) = falling; mai tho (้) = high.",
+    "examples": [
+      {
+        "sentence": "หนู (nu) — mouse; also first-person pronoun for children",
+        "reading": "หนู",
+        "translation": {
+          "en": "น starts หนู (mouse/little me) — one of the first words Thai children say about themselves.",
+          "th": "น นำคำว่า หนู ซึ่งหมายถึงหนูหรือเป็นสรรพนามของเด็กเล็ก"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Nu-Rune",
+      "sprite": "kotodama/th_nor_nu.png",
+      "description": {
+        "en": "A quick, small low-class spirit that scurries between other spirits. The n-sound is one of the most common in Thai — this Kotodama turns up everywhere.",
+        "th": "วิญญาณอักษรต่ำตัวเล็กที่วิ่งแทรกไปมา เสียง น เป็นหนึ่งในเสียงที่พบบ่อยที่สุดในภาษาไทย"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "night_market",
+        "old_town"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    },
+    "mnemonic": {
+      "en": "น looks like a little mouse peeking over a fence — the two legs below are the mouse's tiny body.",
+      "th": "น ดูเหมือนหนูตัวเล็กแอบมองข้ามรั้ว — สองขาด้านล่างคือตัวหนูน้อย"
+    }
+  },
+  {
+    "id": "th_con_por_plaa_low",
+    "lang": "th",
+    "written": "พ",
+    "reading": "พอพาน",
+    "romanization": "ph",
+    "meaning": {
+      "en": "the tray — low-class (aspirated ph, same sound as ผ but low-class)",
+      "th": "พอพาน — อักษรต่ำ เสียงผอ (เหมือน ผ แต่อักษรต่ำ)"
+    },
+    "pos": "character",
+    "element": "stone",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "thai",
+      "consonant",
+      "low_class"
+    ],
+    "frequency": 9995,
+    "audio": "voice/th/con_por_plaa.mp3",
+    "tone": 0,
+    "toneRule": "Low-class consonant: no tone mark = mid tone; mai ek (่) = falling; mai tho (้) = high.",
+    "examples": [
+      {
+        "sentence": "พ่อ (pho) — father",
+        "reading": "พ่อ",
+        "translation": {
+          "en": "พ starts พ่อ (father) — one of the most important words in Thai family vocabulary.",
+          "th": "พ นำคำว่า พ่อ ซึ่งเป็นหนึ่งในคำสำคัญที่สุดในคำศัพท์ครอบครัวไทย"
+        },
+        "context": "old_town"
+      }
+    ],
+    "kotodama": {
+      "name": "Phan-Rune",
+      "sprite": "kotodama/th_por_plaa.png",
+      "description": {
+        "en": "A broad, dependable low-class spirit that appears in many core family and social words. It sounds like ผ but carries the warmer, lower mid-tone energy.",
+        "th": "วิญญาณอักษรต่ำที่กว้างและน่าเชื่อถือ ปรากฏในคำสำคัญเกี่ยวกับครอบครัวและสังคม"
+      },
+      "rarity": "common",
+      "habitat": [
+        "old_town",
+        "fresh_market"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 7
+      }
+    },
+    "mnemonic": {
+      "en": "พ has a wide, flat shape like a tray held level — balanced and open.",
+      "th": "พ มีรูปทรงกว้างแบนเหมือนพานที่วางราบ — สมดุลและเปิดกว้าง"
+    }
+  },
+  {
+    "id": "th_con_mor_maa_low",
+    "lang": "th",
+    "written": "ม",
+    "reading": "มอม้า",
+    "romanization": "m",
+    "meaning": {
+      "en": "the horse — low-class (m sound)",
+      "th": "มอม้า — อักษรต่ำ เสียงมอ"
+    },
+    "pos": "character",
+    "element": "stone",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "thai",
+      "consonant",
+      "low_class"
+    ],
+    "frequency": 9997,
+    "audio": "voice/th/con_mor_maa.mp3",
+    "tone": 0,
+    "toneRule": "Low-class consonant: no tone mark = mid tone; mai ek (่) = falling; mai tho (้) = high.",
+    "examples": [
+      {
+        "sentence": "แม่ (mae) — mother",
+        "reading": "แม่",
+        "translation": {
+          "en": "ม starts แม่ (mother) — arguably the most emotionally important word in Thai.",
+          "th": "ม นำคำว่า แม่ ซึ่งเป็นคำที่สำคัญที่สุดทางอารมณ์ในภาษาไทย"
+        },
+        "context": "old_town"
+      }
+    ],
+    "kotodama": {
+      "name": "Maa-Rune",
+      "sprite": "kotodama/th_mor_maa.png",
+      "description": {
+        "en": "A graceful, rounded low-class spirit that hums softly. The m-sound starts แม่ (mother) and มา (come) — two of the warmest words in Thai.",
+        "th": "วิญญาณอักษรต่ำที่กลมกล่อมและฮัมเบาๆ เสียง ม เริ่มต้นคำว่า แม่ และ มา — สองคำที่อบอุ่นที่สุดในภาษาไทย"
+      },
+      "rarity": "common",
+      "habitat": [
+        "old_town",
+        "fresh_market",
+        "night_market"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    },
+    "mnemonic": {
+      "en": "ม looks like someone humming with lips pressed together — the 'm' sound is made by closing the lips.",
+      "th": "ม ดูเหมือนคนฮัมเพลงโดยปิดริมฝีปาก — เสียง ม เกิดจากการปิดปาก"
+    }
+  },
+  {
+    "id": "th_con_ror_ruea",
+    "lang": "th",
+    "written": "ร",
+    "reading": "รอเรือ",
+    "romanization": "r",
+    "meaning": {
+      "en": "the boat — low-class (r sound, often pronounced as l in casual speech)",
+      "th": "รอเรือ — อักษรต่ำ เสียงรอ (บางทีออกเสียงเป็น ล ในการพูดทั่วไป)"
+    },
+    "pos": "character",
+    "element": "stone",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "thai",
+      "consonant",
+      "low_class"
+    ],
+    "frequency": 9995,
+    "audio": "voice/th/con_ror_ruea.mp3",
+    "tone": 0,
+    "toneRule": "Low-class consonant: no tone mark = mid tone; mai ek (่) = falling; mai tho (้) = high.",
+    "examples": [
+      {
+        "sentence": "เรือ (ruea) — boat",
+        "reading": "เรือ",
+        "translation": {
+          "en": "ร starts เรือ (boat) — and like a boat, the r-sound glides fluidly.",
+          "th": "ร นำคำว่า เรือ และเหมือนเรือ เสียง ร ก็ไหลลื่น"
+        },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Ruea-Rune",
+      "sprite": "kotodama/th_ror_ruea.png",
+      "description": {
+        "en": "A flowing, river-spirit of low-class. In casual Thai speech it sometimes sounds like ล — this Kotodama is famous for its regional accent variants.",
+        "th": "วิญญาณอักษรต่ำที่ไหลลื่นเหมือนสายน้ำ ในการพูดทั่วไปบางทีออกเสียงเป็น ล ขึ้นอยู่กับภาค"
+      },
+      "rarity": "common",
+      "habitat": [
+        "pier",
+        "floating_market"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 7
+      }
+    },
+    "mnemonic": {
+      "en": "ร looks like a boat's curved hull seen from the side — the wave at the bottom, the prow curving up.",
+      "th": "ร ดูเหมือนตัวเรือโค้งที่มองจากด้านข้าง — คลื่นด้านล่าง หัวเรือโค้งขึ้น"
+    }
+  },
+  {
+    "id": "th_con_lor_ling",
+    "lang": "th",
+    "written": "ล",
+    "reading": "ลอลิง",
+    "romanization": "l",
+    "meaning": {
+      "en": "the monkey — low-class (l sound)",
+      "th": "ลอลิง — อักษรต่ำ เสียงลอ"
+    },
+    "pos": "character",
+    "element": "stone",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "thai",
+      "consonant",
+      "low_class"
+    ],
+    "frequency": 9996,
+    "audio": "voice/th/con_lor_ling.mp3",
+    "tone": 0,
+    "toneRule": "Low-class consonant: no tone mark = mid tone; mai ek (่) = falling; mai tho (้) = high.",
+    "examples": [
+      {
+        "sentence": "ลูก (luuk) — child; fruit (classifier)",
+        "reading": "ลูก",
+        "translation": {
+          "en": "ล starts ลูก (child/fruit) — a versatile, warm word used daily in Thai families.",
+          "th": "ล นำคำว่า ลูก ซึ่งใช้ได้ทั้งหมายถึงลูกหลานและผลไม้"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Ling-Rune",
+      "sprite": "kotodama/th_lor_ling.png",
+      "description": {
+        "en": "A playful low-class spirit that swings between syllables. Like the monkey, ล is agile and appears in countless everyday words.",
+        "th": "วิญญาณอักษรต่ำที่เล่นซน ชอบแกว่งไปมาระหว่างพยางค์ เหมือนลิง ล พบได้ในคำใช้รายวันมากมาย"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "old_town",
+        "night_market"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    },
+    "mnemonic": {
+      "en": "ล looks like a monkey hanging by one arm — the curved body and dangling tail.",
+      "th": "ล ดูเหมือนลิงแขวนด้วยแขนเดียว — ตัวโค้งและหางย้อย"
+    }
+  }
+]

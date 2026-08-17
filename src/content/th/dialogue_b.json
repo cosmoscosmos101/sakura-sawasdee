@@ -1,0 +1,232 @@
+[
+  {
+    "id": "monk_01",
+    "speakerNpcId": "luang_phor",
+    "speakerName": { "en": "Luang Phor", "th": "หลวงพ่อ" },
+    "lines": [
+      {
+        "l2": "สาธุ ขอต้อนรับสู่วัดแห่งนี้",
+        "reading": "saa-too, khor tawn-rap suu wat haeng nii",
+        "translation": { "en": "Blessings. Welcome to this temple.", "th": "สาธุ ขอต้อนรับสู่วัดแห่งนี้" }
+      },
+      {
+        "l2": "ก กอไก่ — พยัญชนะตัวแรกของภาษาไทย จำไว้นะ",
+        "reading": "gor-gai — pa-yan-ja-na tua raek kong paasaa-tai, jam-wai na",
+        "translation": { "en": "Gor Gai — the very first consonant of Thai. Remember it.", "th": "ก กอไก่ — พยัญชนะตัวแรกของภาษาไทย จำไว้นะ" },
+        "newWordIds": ["th_con_gor_gai"]
+      }
+    ],
+    "endsDialogue": true
+  },
+  {
+    "id": "novice_01",
+    "speakerNpcId": "novice",
+    "speakerName": { "en": "Young Novice", "th": "สามเณร" },
+    "lines": [
+      {
+        "l2": "น้องสวดมนต์อยู่ครับ แต่ยินดีต้อนรับนะครับ",
+        "reading": "nawng suad-mon yuu krap, dtae yin-dee tawn-rap na krap",
+        "translation": { "en": "I'm reciting prayers, but welcome!", "th": "น้องสวดมนต์อยู่ครับ แต่ยินดีต้อนรับนะครับ" }
+      }
+    ],
+    "endsDialogue": true
+  },
+  {
+    "id": "boat_01",
+    "speakerNpcId": "boatman",
+    "speakerName": { "en": "Boatman", "th": "คนพายเรือ" },
+    "lines": [
+      {
+        "l2": "โดยสารเรือไหมครับ? แม่น้ำสวยมากวันนี้",
+        "reading": "doi-saan ruea mai krap? mae-naam suai mak wan-nii",
+        "translation": { "en": "Want a boat ride? The river is beautiful today.", "th": "โดยสารเรือไหมครับ? แม่น้ำสวยมากวันนี้" }
+      },
+      {
+        "l2": "ด ดอเด็ก — ลูกเรือเด็กๆ ที่นี่ชอบร้องเพลง",
+        "reading": "dor-dek — luuk-ruea dek-dek tii-nii chorp rawng-pleng",
+        "translation": { "en": "Dor Dek — the young crew members here love to sing.", "th": "ด ดอเด็ก — ลูกเรือเด็กๆ ที่นี่ชอบร้องเพลง" },
+        "newWordIds": ["th_con_dor_dek"]
+      }
+    ],
+    "endsDialogue": true
+  },
+  {
+    "id": "fish2_01",
+    "speakerNpcId": "fisherman2",
+    "speakerName": { "en": "Fisherman", "th": "ชาวประมง" },
+    "lines": [
+      {
+        "l2": "เต่าตัวนั้นอยู่แม่น้ำนี้มาสิบปีแล้วครับ ต ตอเต่า",
+        "reading": "tao tua nan yuu mae-naam nii maa sip bpii laeo krap, tor-tao",
+        "translation": { "en": "That turtle has lived in this river ten years. Tor Tao!", "th": "เต่าตัวนั้นอยู่แม่น้ำนี้มาสิบปีแล้วครับ ต ตอเต่า" },
+        "newWordIds": ["th_con_tor_tao"]
+      }
+    ],
+    "endsDialogue": true
+  },
+  {
+    "id": "shop2_01",
+    "speakerNpcId": "shophouse_owner",
+    "speakerName": { "en": "Shophouse Owner", "th": "เจ้าของร้าน" },
+    "lines": [
+      {
+        "l2": "ยินดีต้อนรับค่ะ ของที่นี่ทำมือทุกชิ้น",
+        "reading": "yin-dee tawn-rap ka, kong tii-nii tam-muu took chin",
+        "translation": { "en": "Welcome! Everything here is handmade.", "th": "ยินดีต้อนรับค่ะ ของที่นี่ทำมือทุกชิ้น" }
+      },
+      {
+        "l2": "บ ดอใบไม้ — ใบไม้ตกแต่งร้านเราทุกชิ้นเลยค่ะ",
+        "reading": "bor-bai-mai — bai-mai tok-dtaeng raan-rao took-chin loei ka",
+        "translation": { "en": "Bor Bai Mai — leaves decorate every single piece in our shop.", "th": "บ ดอใบไม้ — ใบไม้ตกแต่งร้านเราทุกชิ้นเลยค่ะ" },
+        "newWordIds": ["th_con_bor_bai_mai"]
+      }
+    ],
+    "endsDialogue": true
+  },
+  {
+    "id": "vendor2_01",
+    "speakerNpcId": "street_vendor",
+    "speakerName": { "en": "Street Vendor", "th": "แม่ค้าริมทาง" },
+    "lines": [
+      {
+        "l2": "ปลาทอดร้อนๆ ค่ะ! ป ปอปลา จำไว้นะคะ",
+        "reading": "bplaa-tort ron-ron ka! bpor-bplaa, jam-wai na-ka",
+        "translation": { "en": "Hot fried fish! Por Plaa — remember that!", "th": "ปลาทอดร้อนๆ ค่ะ! ป ปอปลา จำไว้นะคะ" },
+        "newWordIds": ["th_con_por_plaa"]
+      }
+    ],
+    "endsDialogue": true
+  },
+  {
+    "id": "farmer_01",
+    "speakerNpcId": "farmer",
+    "speakerName": { "en": "Farmer", "th": "ชาวนา" },
+    "lines": [
+      {
+        "l2": "นาข้าวนี้ปลูกมาสามชั่วอายุคนแล้วครับ",
+        "reading": "naa-kaao nii bplook maa saam-chua aa-yu-kon laeo krap",
+        "translation": { "en": "This rice paddy has been farmed for three generations.", "th": "นาข้าวนี้ปลูกมาสามชั่วอายุคนแล้วครับ" }
+      },
+      {
+        "l2": "จาน ข้าวหนึ่งจาน — นั่นคือ จ จอจาน ครับ",
+        "reading": "jaan, kaao nueng-jaan — nan kuu jor-jaan krap",
+        "translation": { "en": "A plate of rice — that right there is Jor Jaan!", "th": "จาน ข้าวหนึ่งจาน — นั่นคือ จ จอจาน ครับ" },
+        "newWordIds": ["th_con_jor_jaan"]
+      }
+    ],
+    "endsDialogue": true
+  },
+  {
+    "id": "buffalo_01",
+    "speakerNpcId": "buffalo",
+    "speakerName": { "en": "Old Buffalo", "th": "ควายเฒ่า" },
+    "lines": [
+      {
+        "l2": "มึ้อออ... (ควายมองคุณด้วยดวงตาอันลึกซึ้ง)",
+        "reading": "muaa... (kwai mawng khun duai duang-dta an luek-sueng)",
+        "translation": { "en": "(The old buffalo studies you with ancient, knowing eyes.)", "th": "มึ้อออ... (ควายมองคุณด้วยดวงตาอันลึกซึ้ง)" }
+      }
+    ],
+    "endsDialogue": true
+  },
+  {
+    "id": "nv01_01",
+    "speakerNpcId": "night_vendor_01",
+    "speakerName": { "en": "Night Vendor", "th": "พ่อค้ากลางคืน" },
+    "lines": [
+      {
+        "l2": "หมูปิ้ง หมูปิ้ง! ร้อนๆ เลยนะครับ",
+        "reading": "moo-bping moo-bping! ron-ron loei na krap",
+        "translation": { "en": "Grilled pork skewers, piping hot!", "th": "หมูปิ้ง หมูปิ้ง! ร้อนๆ เลยนะครับ" }
+      },
+      {
+        "l2": "ข ขอไข่ — ไข่ปิ้งก็อร่อยไม่แพ้กันนะครับ",
+        "reading": "khor-khai — khai-bping gor a-roi mai-pae-gan na krap",
+        "translation": { "en": "Khor Khai — grilled egg is just as delicious!", "th": "ข ขอไข่ — ไข่ปิ้งก็อร่อยไม่แพ้กันนะครับ" },
+        "newWordIds": ["th_con_khor_khai"]
+      }
+    ],
+    "endsDialogue": true
+  },
+  {
+    "id": "nv02_01",
+    "speakerNpcId": "night_vendor_02",
+    "speakerName": { "en": "Drinks Vendor", "th": "แม่ค้าเครื่องดื่ม" },
+    "lines": [
+      {
+        "l2": "น้ำผลไม้สดๆ ค่ะ! ใส่น้ำแข็งด้วยไหม?",
+        "reading": "naam-pon-la-mai sod-sod ka! sai naam-kaeng duai mai?",
+        "translation": { "en": "Fresh fruit juice! Want some ice?", "th": "น้ำผลไม้สดๆ ค่ะ! ใส่น้ำแข็งด้วยไหม?" }
+      }
+    ],
+    "endsDialogue": true
+  },
+  {
+    "id": "somsri_03",
+    "speakerNpcId": "pa_somsri",
+    "speakerName": { "en": "Pa Somsri", "th": "ป้าสมศรี" },
+    "lines": [
+      {
+        "l2": "อ้าว! มาถึงตลาดกลางคืนแล้วนะ",
+        "reading": "aao! maa tueng ta-lad glang-kuen laeo na",
+        "translation": { "en": "Oh! You've made it to the night market!", "th": "อ้าว! มาถึงตลาดกลางคืนแล้วนะ" }
+      },
+      {
+        "l2": "ป้าขายของที่นี่ทุกคืน มาบ่อยๆ นะจ้า",
+        "reading": "bpaa khai-kong tii-nii took-kuen, maa boi-boi na jaa",
+        "translation": { "en": "Auntie sells here every night — come often!", "th": "ป้าขายของที่นี่ทุกคืน มาบ่อยๆ นะจ้า" }
+      }
+    ],
+    "endsDialogue": true
+  },
+  {
+    "id": "bv_01",
+    "speakerNpcId": "boat_vendor",
+    "speakerName": { "en": "Boat Vendor", "th": "พ่อค้าเรือ" },
+    "lines": [
+      {
+        "l2": "ซื้อของไหมคะ? เรือป้ามีทุกอย่างเลยนะ",
+        "reading": "sue-kong mai ka? ruea-bpaa mii took-yaang loei na",
+        "translation": { "en": "Want to buy something? My boat has everything!", "th": "ซื้อของไหมคะ? เรือป้ามีทุกอย่างเลยนะ" }
+      },
+      {
+        "l2": "ช ชอช้าง — เรือป้าชื่อ 'ช้างน้อย' ด้วยนะ",
+        "reading": "chor-chang — ruea-bpaa chuu 'chang-noi' duai na",
+        "translation": { "en": "Cho Chang — my boat is even named 'Little Elephant'!", "th": "ช ชอช้าง — เรือป้าชื่อ 'ช้างน้อย' ด้วยนะ" },
+        "newWordIds": ["th_con_chor_chang"]
+      }
+    ],
+    "endsDialogue": true
+  },
+  {
+    "id": "wml_01",
+    "speakerNpcId": "watermelon_lady",
+    "speakerName": { "en": "Watermelon Lady", "th": "ป้าแตงโม" },
+    "lines": [
+      {
+        "l2": "แตงโมหวานมากเลยนะคะ! ลองชิมดูสิคะ",
+        "reading": "taeng-mo waan-mak loei na-ka! long-chim duu si-ka",
+        "translation": { "en": "Such sweet watermelons! Please have a taste.", "th": "แตงโมหวานมากเลยนะคะ! ลองชิมดูสิคะ" }
+      }
+    ],
+    "endsDialogue": true
+  },
+  {
+    "id": "somsri_04",
+    "speakerNpcId": "pa_somsri",
+    "speakerName": { "en": "Pa Somsri", "th": "ป้าสมศรี" },
+    "lines": [
+      {
+        "l2": "ฮือฮา! ตลาดน้ำสวยกว่าทุกที่เลยนะ",
+        "reading": "hue-haa! ta-lad-naam suai gwaa took-tii loei na",
+        "translation": { "en": "Amazing! The floating market is the most beautiful place of all.", "th": "ฮือฮา! ตลาดน้ำสวยกว่าทุกที่เลยนะ" }
+      },
+      {
+        "l2": "ป้าขายของที่นี่แค่วันเสาร์อาทิตย์นะจ้า",
+        "reading": "bpaa khai-kong tii-nii kae wan-sao aa-tit na jaa",
+        "translation": { "en": "Auntie only sells here on weekends!", "th": "ป้าขายของที่นี่แค่วันเสาร์อาทิตย์นะจ้า" }
+      }
+    ],
+    "endsDialogue": true
+  }
+]

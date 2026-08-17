@@ -1,0 +1,281 @@
+[
+  {
+    "id": "ja_n5_0080",
+    "lang": "ja",
+    "written": "頭",
+    "reading": "あたま",
+    "romanization": "atama",
+    "meaning": { "th": "หัว / สมอง", "en": "head; brain (informal)" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 4,
+    "tags": ["noun", "body"],
+    "frequency": 215,
+    "audio": "voice/ja/n5_0080.mp3",
+    "examples": [
+      {
+        "sentence": "あたまがいたいです。",
+        "reading": "あたまがいたいです。",
+        "translation": { "th": "ปวดหัว", "en": "I have a headache." },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Atama",
+      "sprite": "kotodama/n5_0080.png",
+      "description": { "en": "A thoughtful round spirit that floats slightly above everything else. It hums quietly and emits small thought-bubbles when ideas occur to it." },
+      "rarity": "common",
+      "habitat": ["hanami_academy"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  },
+  {
+    "id": "ja_n5_0081",
+    "lang": "ja",
+    "written": "目",
+    "reading": "め",
+    "romanization": "me",
+    "meaning": { "th": "ตา", "en": "eye; eyes" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 4,
+    "tags": ["noun", "body"],
+    "frequency": 230,
+    "audio": "voice/ja/n5_0081.mp3",
+    "examples": [
+      {
+        "sentence": "めがおおきくてきれいですね。",
+        "reading": "めがおおきくてきれいですね。",
+        "translation": { "th": "ตาโตและสวยมากนะ", "en": "What big, beautiful eyes you have." },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Meru",
+      "sprite": "kotodama/n5_0082.png",
+      "description": { "en": "A spirit that is, itself, a perfect wide eye. It notices everything — including things that haven't happened yet." },
+      "rarity": "common",
+      "habitat": ["hanami_academy", "cherry_blossom_park"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  },
+  {
+    "id": "ja_n5_0082",
+    "lang": "ja",
+    "written": "耳",
+    "reading": "みみ",
+    "romanization": "mimi",
+    "meaning": { "th": "หู", "en": "ear; ears" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 4,
+    "tags": ["noun", "body"],
+    "frequency": 200,
+    "audio": "voice/ja/n5_0082.mp3",
+    "examples": [
+      {
+        "sentence": "ちいさいこえでいってください。みみがいたいんです。",
+        "reading": "ちいさいこえでいってください。みみがいたいんです。",
+        "translation": { "th": "พูดเบาๆ หน่อยนะ หูเจ็บอยู่", "en": "Please speak softly — my ears hurt." },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Mimiru",
+      "sprite": "kotodama/n5_0082.png",
+      "description": { "en": "A spirit shaped like two large ears. It can hear a whisper from across a crowded festival and relays sounds with perfect fidelity." },
+      "rarity": "common",
+      "habitat": ["hanami_academy", "festival_grounds"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  },
+  {
+    "id": "ja_n5_0083",
+    "lang": "ja",
+    "written": "手",
+    "reading": "て",
+    "romanization": "te",
+    "meaning": { "th": "มือ", "en": "hand; hands" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 4,
+    "tags": ["noun", "body"],
+    "frequency": 245,
+    "audio": "voice/ja/n5_0083.mp3",
+    "examples": [
+      {
+        "sentence": "てをあらってからたべましょう。",
+        "reading": "てをあらってからたべましょう。",
+        "translation": { "th": "ล้างมือก่อนกินนะ", "en": "Let's wash our hands before eating." },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Teru",
+      "sprite": "kotodama/n5_0083.png",
+      "description": { "en": "A gentle spirit made of two open hands. It is always ready to offer, receive, or wave hello — it never makes a fist." },
+      "rarity": "common",
+      "habitat": ["shopping_street", "hanami_academy"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  },
+  {
+    "id": "ja_n5_0084",
+    "lang": "ja",
+    "written": "足",
+    "reading": "あし",
+    "romanization": "ashi",
+    "meaning": { "th": "ขา / เท้า", "en": "leg; foot; feet" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 4,
+    "tags": ["noun", "body"],
+    "frequency": 210,
+    "audio": "voice/ja/n5_0084.mp3",
+    "examples": [
+      {
+        "sentence": "あしがつかれました。",
+        "reading": "あしがつかれました。",
+        "translation": { "th": "เหนื่อยขา / ขาเมื่อยล้า", "en": "My legs are tired." },
+        "context": "sakura_path"
+      }
+    ],
+    "kotodama": {
+      "name": "Ashiru",
+      "sprite": "kotodama/n5_0084.png",
+      "description": { "en": "A restless spirit that is always in motion. It paces when thinking, bounces when excited, and can never quite stay still." },
+      "rarity": "common",
+      "habitat": ["sakura_path", "cherry_blossom_park"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  },
+  {
+    "id": "ja_n5_0085",
+    "lang": "ja",
+    "written": "口",
+    "reading": "くち",
+    "romanization": "kuchi",
+    "meaning": { "th": "ปาก", "en": "mouth" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 4,
+    "tags": ["noun", "body"],
+    "frequency": 220,
+    "audio": "voice/ja/n5_0085.mp3",
+    "examples": [
+      {
+        "sentence": "くちのなかにいれてみて！",
+        "reading": "くちのなかにいれてみて！",
+        "translation": { "th": "ลองใส่ในปากดูสิ!", "en": "Try putting it in your mouth!" },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Kuchiru",
+      "sprite": "kotodama/n5_0085.png",
+      "description": { "en": "A spirit shaped like a speaking mouth. It is very rarely silent and lights up whenever language is used well." },
+      "rarity": "common",
+      "habitat": ["shopping_street", "hanami_academy"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  },
+  {
+    "id": "ja_n5_0086",
+    "lang": "ja",
+    "written": "気分",
+    "reading": "きぶん",
+    "romanization": "kibun",
+    "meaning": { "th": "อารมณ์ / ความรู้สึก / สุขภาพ (ทั่วไป)", "en": "feeling; mood; how one feels (physical and emotional)" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 4,
+    "tags": ["noun", "health", "feeling"],
+    "frequency": 190,
+    "audio": "voice/ja/n5_0086.mp3",
+    "examples": [
+      {
+        "sentence": "きょうはきぶんがいいです！",
+        "reading": "きょうはきぶんがいいです！",
+        "translation": { "th": "วันนี้อารมณ์ดีมาก!", "en": "I feel great today!" },
+        "context": "cherry_blossom_park"
+      }
+    ],
+    "kotodama": {
+      "name": "Kibun",
+      "sprite": "kotodama/n5_0086.png",
+      "description": { "en": "A shifting spirit whose colour changes with the weather and mood of those around it. On good days it glows warm gold; on hard days it dims to soft blue." },
+      "rarity": "uncommon",
+      "habitat": ["cherry_blossom_park", "hanami_academy"],
+      "evolveCondition": { "type": "combo_count", "value": 10 }
+    }
+  },
+  {
+    "id": "ja_n5_0087",
+    "lang": "ja",
+    "written": "大丈夫",
+    "reading": "だいじょうぶ",
+    "romanization": "daijoubu",
+    "meaning": { "th": "ไม่เป็นไร / โอเค / ไม่เป็นอันตราย", "en": "OK; fine; it's all right; no problem" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "N5",
+    "chapter": 4,
+    "tags": ["adjective", "health", "daily", "na-adj"],
+    "frequency": 280,
+    "audio": "voice/ja/n5_0087.mp3",
+    "examples": [
+      {
+        "sentence": "だいじょうぶですか？—はい、だいじょうぶです！",
+        "reading": "だいじょうぶですか？—はい、だいじょうぶです！",
+        "translation": { "th": "โอเคไหม? — โอเคเลย!", "en": "Are you OK? — Yes, I'm fine!" },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Daijo",
+      "sprite": "kotodama/n5_0087.png",
+      "description": { "en": "A reassuring spirit with a broad, steady glow. Whenever someone nearby is worried, Daijo floats over and emits a soft, calming warmth." },
+      "rarity": "uncommon",
+      "habitat": ["hanami_academy", "shopping_street", "sakura_station"],
+      "evolveCondition": { "type": "combo_count", "value": 10 }
+    }
+  },
+  {
+    "id": "ja_n5_0088",
+    "lang": "ja",
+    "written": "痛い",
+    "reading": "いたい",
+    "romanization": "itai",
+    "meaning": { "th": "เจ็บ / ปวด", "en": "painful; it hurts; ouch" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "N5",
+    "chapter": 4,
+    "tags": ["adjective", "health", "i-adj"],
+    "frequency": 195,
+    "audio": "voice/ja/n5_0088.mp3",
+    "examples": [
+      {
+        "sentence": "あしがいたくてあるけません。",
+        "reading": "あしがいたくてあるけません。",
+        "translation": { "th": "ขาเจ็บจนเดินไม่ได้", "en": "My leg hurts and I can't walk." },
+        "context": "sakura_path"
+      }
+    ],
+    "kotodama": {
+      "name": "Itai",
+      "sprite": "kotodama/n5_0088.png",
+      "description": { "en": "A small spiky spirit that winces dramatically at the slightest bump. It means well and is very good at warning you away from sharp things." },
+      "rarity": "common",
+      "habitat": ["hanami_academy", "sakura_path"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  }
+]

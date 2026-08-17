@@ -1,0 +1,281 @@
+[
+  {
+    "id": "ja_part_wa",
+    "lang": "ja",
+    "written": "は",
+    "reading": "は",
+    "romanization": "wa",
+    "meaning": { "th": "คำช่วย: ระบุหัวข้อประโยค (topic marker)", "en": "topic marker particle — marks what the sentence is about" },
+    "pos": "particle",
+    "element": "echo",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["particle", "grammar", "core"],
+    "frequency": 5,
+    "audio": "voice/ja/part_wa.mp3",
+    "examples": [
+      {
+        "sentence": "わたしはがくせいです。",
+        "reading": "わたしはがくせいです。",
+        "translation": { "th": "ฉันเป็นนักเรียน", "en": "I am a student." },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Warin",
+      "sprite": "kotodama/part_wa.png",
+      "description": { "en": "A pale crescent spirit that wraps itself around the subject of every sentence. It is the quietest of all Kotodama — you barely notice it, yet without it everything falls silent." },
+      "rarity": "rare",
+      "habitat": ["hanami_academy", "sakura_path", "shrine"],
+      "evolveCondition": { "type": "combo_count", "value": 20 }
+    }
+  },
+  {
+    "id": "ja_part_ga",
+    "lang": "ja",
+    "written": "が",
+    "reading": "が",
+    "romanization": "ga",
+    "meaning": { "th": "คำช่วย: ระบุประธาน (subject marker)", "en": "subject marker particle — marks the doer or the thing described" },
+    "pos": "particle",
+    "element": "echo",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["particle", "grammar", "core"],
+    "frequency": 8,
+    "audio": "voice/ja/part_ga.mp3",
+    "examples": [
+      {
+        "sentence": "ねこがいます。",
+        "reading": "ねこがいます。",
+        "translation": { "th": "มีแมวอยู่", "en": "There is a cat." },
+        "context": "sakura_path"
+      }
+    ],
+    "kotodama": {
+      "name": "Garin",
+      "sprite": "kotodama/part_ga.png",
+      "description": { "en": "A pointed spirit that darts ahead of every sentence to mark who is acting. It and Warin are twins who are always debating which of them matters more." },
+      "rarity": "rare",
+      "habitat": ["sakura_path", "hanami_academy", "shrine"],
+      "evolveCondition": { "type": "combo_count", "value": 20 }
+    }
+  },
+  {
+    "id": "ja_part_wo",
+    "lang": "ja",
+    "written": "を",
+    "reading": "を",
+    "romanization": "wo",
+    "meaning": { "th": "คำช่วย: ระบุกรรม (object marker)", "en": "object marker particle — marks what is being acted upon" },
+    "pos": "particle",
+    "element": "echo",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["particle", "grammar", "core"],
+    "frequency": 10,
+    "audio": "voice/ja/part_wo.mp3",
+    "examples": [
+      {
+        "sentence": "ごはんをたべます。",
+        "reading": "ごはんをたべます。",
+        "translation": { "th": "กินข้าว", "en": "I eat rice." },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Worin",
+      "sprite": "kotodama/part_wo.png",
+      "description": { "en": "A spirit shaped like an outstretched hand — it always points at whatever is being acted upon. Verbs are helpless without it; it connects action to the world." },
+      "rarity": "rare",
+      "habitat": ["shopping_street", "fresh_market", "festival_grounds"],
+      "evolveCondition": { "type": "combo_count", "value": 20 }
+    }
+  },
+  {
+    "id": "ja_part_ni",
+    "lang": "ja",
+    "written": "に",
+    "reading": "に",
+    "romanization": "ni",
+    "meaning": { "th": "คำช่วย: บอกทิศทาง / เวลา / สถานที่ (ni)", "en": "particle marking direction, time, or destination" },
+    "pos": "particle",
+    "element": "echo",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["particle", "grammar", "core", "direction"],
+    "frequency": 12,
+    "audio": "voice/ja/part_ni.mp3",
+    "examples": [
+      {
+        "sentence": "がっこうにいきます。",
+        "reading": "がっこうにいきます。",
+        "translation": { "th": "ไปโรงเรียน", "en": "I go to school." },
+        "context": "sakura_path"
+      }
+    ],
+    "kotodama": {
+      "name": "Niru",
+      "sprite": "kotodama/part_ni.png",
+      "description": { "en": "An arrow-shaped spirit that always points somewhere. It guides nouns toward their destinations and marks the moment an action arrives." },
+      "rarity": "rare",
+      "habitat": ["sakura_station", "sakura_path", "shrine"],
+      "evolveCondition": { "type": "combo_count", "value": 20 }
+    }
+  },
+  {
+    "id": "ja_part_de",
+    "lang": "ja",
+    "written": "で",
+    "reading": "で",
+    "romanization": "de",
+    "meaning": { "th": "คำช่วย: บอกสถานที่เกิดการกระทำ / วิธีการ (de)", "en": "particle marking location of action or means" },
+    "pos": "particle",
+    "element": "echo",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["particle", "grammar", "core", "location"],
+    "frequency": 15,
+    "audio": "voice/ja/part_de.mp3",
+    "examples": [
+      {
+        "sentence": "としょかんでべんきょうします。",
+        "reading": "としょかんでべんきょうします。",
+        "translation": { "th": "เรียนหนังสือที่ห้องสมุด", "en": "I study at the library." },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Deru",
+      "sprite": "kotodama/part_de.png",
+      "description": { "en": "A platform-shaped spirit that holds actions in place. It tells you where things happen and what tool is being used — the stage on which verbs perform." },
+      "rarity": "rare",
+      "habitat": ["hanami_academy", "shopping_street", "festival_grounds"],
+      "evolveCondition": { "type": "combo_count", "value": 20 }
+    }
+  },
+  {
+    "id": "ja_part_to",
+    "lang": "ja",
+    "written": "と",
+    "reading": "と",
+    "romanization": "to",
+    "meaning": { "th": "คำช่วย: และ / ร่วมกับ (and/with)", "en": "particle meaning 'and' (for nouns) or 'with' (for companions)" },
+    "pos": "particle",
+    "element": "echo",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["particle", "grammar", "core"],
+    "frequency": 20,
+    "audio": "voice/ja/part_to.mp3",
+    "examples": [
+      {
+        "sentence": "ともだちとあるきます。",
+        "reading": "ともだちとあるきます。",
+        "translation": { "th": "เดินกับเพื่อน", "en": "I walk with my friend." },
+        "context": "sakura_path"
+      }
+    ],
+    "kotodama": {
+      "name": "Toru",
+      "sprite": "kotodama/part_to.png",
+      "description": { "en": "A linking spirit shaped like a bridge. It reaches out two arms — one toward each word — and holds them together with a quiet, steady smile." },
+      "rarity": "uncommon",
+      "habitat": ["sakura_path", "festival_grounds", "shopping_street"],
+      "evolveCondition": { "type": "review_streak", "value": 10 }
+    }
+  },
+  {
+    "id": "ja_part_mo",
+    "lang": "ja",
+    "written": "も",
+    "reading": "も",
+    "romanization": "mo",
+    "meaning": { "th": "คำช่วย: ด้วย / เช่นกัน (also; too)", "en": "particle meaning 'also' or 'too' — adds a new item to the conversation" },
+    "pos": "particle",
+    "element": "echo",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["particle", "grammar", "core"],
+    "frequency": 22,
+    "audio": "voice/ja/part_mo.mp3",
+    "examples": [
+      {
+        "sentence": "わたしもがくせいです。",
+        "reading": "わたしもがくせいです。",
+        "translation": { "th": "ฉันก็เป็นนักเรียนเช่นกัน", "en": "I am also a student." },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Mori",
+      "sprite": "kotodama/part_mo.png",
+      "description": { "en": "A copy-cat spirit that always appears alongside something else. It raises its hand and says 'me too!' in whatever conversation it joins." },
+      "rarity": "uncommon",
+      "habitat": ["hanami_academy", "sakura_path", "shopping_street"],
+      "evolveCondition": { "type": "review_streak", "value": 10 }
+    }
+  },
+  {
+    "id": "ja_part_no",
+    "lang": "ja",
+    "written": "の",
+    "reading": "の",
+    "romanization": "no",
+    "meaning": { "th": "คำช่วย: ของ / แสดงความเป็นเจ้าของ (possessive/genitive)", "en": "possessive particle — connects nouns (A の B = B of A)" },
+    "pos": "particle",
+    "element": "echo",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["particle", "grammar", "core"],
+    "frequency": 6,
+    "audio": "voice/ja/part_no.mp3",
+    "examples": [
+      {
+        "sentence": "これはわたしのほんです。",
+        "reading": "これはわたしのほんです。",
+        "translation": { "th": "นี่คือหนังสือของฉัน", "en": "This is my book." },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Nori",
+      "sprite": "kotodama/part_no.png",
+      "description": { "en": "A spiral spirit that coils between two words like a knot. It declares ownership quietly but firmly — once Nori binds two words together, the connection holds." },
+      "rarity": "rare",
+      "habitat": ["hanami_academy", "shrine", "winter_courtyard"],
+      "evolveCondition": { "type": "combo_count", "value": 20 }
+    }
+  },
+  {
+    "id": "ja_part_e",
+    "lang": "ja",
+    "written": "へ",
+    "reading": "へ",
+    "romanization": "e",
+    "meaning": { "th": "คำช่วย: ไปทาง / มุ่งหน้าสู่ (directional particle)", "en": "directional particle — softer than に, emphasises heading toward a destination" },
+    "pos": "particle",
+    "element": "echo",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["particle", "grammar", "direction"],
+    "frequency": 45,
+    "audio": "voice/ja/part_e.mp3",
+    "examples": [
+      {
+        "sentence": "にほんへようこそ！",
+        "reading": "にほんへようこそ！",
+        "translation": { "th": "ยินดีต้อนรับสู่ญี่ปุ่น!", "en": "Welcome to Japan!" },
+        "context": "sakura_station"
+      }
+    ],
+    "kotodama": {
+      "name": "Eru",
+      "sprite": "kotodama/part_e.png",
+      "description": { "en": "A horizon-gazing spirit that always faces away, one arm outstretched toward somewhere far. Wherever it points, a new journey begins." },
+      "rarity": "uncommon",
+      "habitat": ["sakura_station", "sakura_path", "autumn_hill"],
+      "evolveCondition": { "type": "review_streak", "value": 10 }
+    }
+  }
+]

@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "th_verb_gin",
+    "lang": "th",
+    "written": "กิน",
+    "reading": "gin",
+    "romanization": "gin",
+    "meaning": { "en": "to eat", "th": "รับประทานอาหาร" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["action", "food", "daily", "thai"],
+    "frequency": 9999,
+    "audio": "voice/th/th_verb_gin.mp3",
+    "tone": 0,
+    "toneRule": "ก (mid class) + no mark + live syllable → mid tone",
+    "examples": [
+      {
+        "sentence": "ฉันกินข้าวที่ตลาด",
+        "reading": "chan gin khaao thi talat",
+        "translation": { "en": "I eat rice at the market.", "th": "ฉันรับประทานข้าวที่ตลาด" },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Ginfire",
+      "sprite": "kotodama/th_verb_gin.png",
+      "description": {
+        "en": "A warm amber spirit that crackles when it senses food nearby.",
+        "th": "วิญญาณสีอำพันอบอุ่นที่แตกประกายเมื่อรู้สึกถึงอาหารใกล้ๆ"
+      },
+      "rarity": "common",
+      "habitat": ["fresh_market", "floating_market", "pier"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_verb_duem",
+    "lang": "th",
+    "written": "ดื่ม",
+    "reading": "duem",
+    "romanization": "duem",
+    "meaning": { "en": "to drink", "th": "ดื่มของเหลว" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["action", "drink", "daily", "thai"],
+    "frequency": 5000,
+    "audio": "voice/th/th_verb_duem.mp3",
+    "tone": 1,
+    "toneRule": "ด (mid class) + dead syllable + no mark → low tone",
+    "examples": [
+      {
+        "sentence": "เขาดื่มน้ำเย็นที่ท่าเรือ",
+        "reading": "khao duem naam yen thi tha ruea",
+        "translation": { "en": "He drinks cold water at the pier.", "th": "เขาดื่มน้ำเย็นที่ท่าเรือ" },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Duemwave",
+      "sprite": "kotodama/th_verb_duem.png",
+      "description": {
+        "en": "A flowing blue spirit that ripples every time liquid is poured.",
+        "th": "วิญญาณสีฟ้าที่ไหลเป็นระลอกทุกครั้งที่มีการเทของเหลว"
+      },
+      "rarity": "common",
+      "habitat": ["pier", "floating_market", "fresh_market"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_verb_non",
+    "lang": "th",
+    "written": "นอน",
+    "reading": "non",
+    "romanization": "non",
+    "meaning": { "en": "to sleep; to lie down", "th": "นอนหลับหรือนอนลง" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["action", "rest", "daily", "thai"],
+    "frequency": 5500,
+    "audio": "voice/th/th_verb_non.mp3",
+    "tone": 0,
+    "toneRule": "น (low class) + no mark + live syllable → mid tone",
+    "examples": [
+      {
+        "sentence": "เด็กๆ นอนหลับที่วัด",
+        "reading": "dek dek non lap thi wat",
+        "translation": { "en": "The children sleep at the temple.", "th": "เด็กๆ นอนหลับอยู่ที่วัด" },
+        "context": "temple"
+      }
+    ],
+    "kotodama": {
+      "name": "Nondream",
+      "sprite": "kotodama/th_verb_non.png",
+      "description": {
+        "en": "A hazy lavender spirit that drifts through sleeping spaces trailing soft clouds.",
+        "th": "วิญญาณสีลาเวนเดอร์พร่าเลือนที่ล่องลอยผ่านพื้นที่นอนหลับ ทิ้งเมฆนุ่มไว้ข้างหลัง"
+      },
+      "rarity": "common",
+      "habitat": ["temple", "school"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_verb_tuen",
+    "lang": "th",
+    "written": "ตื่น",
+    "reading": "tuen",
+    "romanization": "tuen",
+    "meaning": { "en": "to wake up; to be awake", "th": "ตื่นนอน" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["action", "rest", "daily", "thai"],
+    "frequency": 3500,
+    "audio": "voice/th/th_verb_tuen.mp3",
+    "tone": 1,
+    "toneRule": "ต (mid class) + dead syllable + no mark → low tone; ตื่น approximated low",
+    "examples": [
+      {
+        "sentence": "ฉันตื่นเช้าทุกวันที่โรงเรียน",
+        "reading": "chan tuen chao thuk wan thi rong rian",
+        "translation": { "en": "I wake up early every day for school.", "th": "ฉันตื่นเช้าทุกวันเพื่อไปโรงเรียน" },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Tuenspark",
+      "sprite": "kotodama/th_verb_tuen.png",
+      "description": {
+        "en": "A bright yellow spirit that rings like a bell at dawn and makes sleepy Kotodama open their eyes.",
+        "th": "วิญญาณสีเหลืองสดใสที่ดังเหมือนระฆังยามรุ่งสางและทำให้โคโตะดามะง่วงนอนลืมตา"
+      },
+      "rarity": "common",
+      "habitat": ["school", "temple"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_verb_doen",
+    "lang": "th",
+    "written": "เดิน",
+    "reading": "doen",
+    "romanization": "doen",
+    "meaning": { "en": "to walk", "th": "เดินด้วยเท้า" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["action", "movement", "daily", "thai"],
+    "frequency": 6000,
+    "audio": "voice/th/th_verb_doen.mp3",
+    "tone": 0,
+    "toneRule": "ด (mid class) + no mark + live syllable → mid tone",
+    "examples": [
+      {
+        "sentence": "เราเดินในตลาดน้ำด้วยกัน",
+        "reading": "rao doen nai talat naam duai kan",
+        "translation": { "en": "We walk together in the floating market.", "th": "เราเดินในตลาดน้ำด้วยกัน" },
+        "context": "floating_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Doenstep",
+      "sprite": "kotodama/th_verb_doen.png",
+      "description": {
+        "en": "A light green spirit that leaves tiny footprints wherever it goes.",
+        "th": "วิญญาณสีเขียวอ่อนที่ทิ้งรอยเท้าจิ๋วไว้ทุกที่ที่ผ่าน"
+      },
+      "rarity": "common",
+      "habitat": ["floating_market", "fresh_market", "temple"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_verb_wing",
+    "lang": "th",
+    "written": "วิ่ง",
+    "reading": "wing",
+    "romanization": "wing",
+    "meaning": { "en": "to run", "th": "วิ่งด้วยความเร็ว" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["action", "movement", "sport", "thai"],
+    "frequency": 3000,
+    "audio": "voice/th/th_verb_wing.mp3",
+    "tone": 2,
+    "toneRule": "ว (low class) + mai tho → falling tone",
+    "examples": [
+      {
+        "sentence": "เด็กชายวิ่งไปที่ท่าเรือ",
+        "reading": "dek chai wing pai thi tha ruea",
+        "translation": { "en": "The boy runs to the pier.", "th": "เด็กชายวิ่งไปที่ท่าเรือ" },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Wingdash",
+      "sprite": "kotodama/th_verb_wing.png",
+      "description": {
+        "en": "A speedy gold spirit that blurs at the edges when moving fast.",
+        "th": "วิญญาณสีทองที่เร็วจนขอบเบลอเมื่อวิ่งเร็ว"
+      },
+      "rarity": "common",
+      "habitat": ["pier", "school", "fresh_market"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_verb_phut",
+    "lang": "th",
+    "written": "พูด",
+    "reading": "phut",
+    "romanization": "phut",
+    "meaning": { "en": "to speak; to talk", "th": "พูดออกมาเป็นคำพูด" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["action", "language", "communication", "thai"],
+    "frequency": 8000,
+    "audio": "voice/th/th_verb_phut.mp3",
+    "tone": 3,
+    "toneRule": "พ (low class) + dead syllable + no mark → high tone",
+    "examples": [
+      {
+        "sentence": "ครูพูดภาษาไทยในห้องเรียน",
+        "reading": "khru phut phasa thai nai hong rian",
+        "translation": { "en": "The teacher speaks Thai in the classroom.", "th": "ครูพูดภาษาไทยในห้องเรียน" },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Phutecho",
+      "sprite": "kotodama/th_verb_phut.png",
+      "description": {
+        "en": "A radiant spirit shaped like a speech bubble that hums with language.",
+        "th": "วิญญาณรูปฟองคำพูดที่เปล่งแสงและพึมพำเป็นภาษา"
+      },
+      "rarity": "common",
+      "habitat": ["school", "temple", "fresh_market"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_verb_fang",
+    "lang": "th",
+    "written": "ฟัง",
+    "reading": "fang",
+    "romanization": "fang",
+    "meaning": { "en": "to listen; to hear", "th": "ฟังเสียงหรือคำพูด" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["action", "language", "communication", "thai"],
+    "frequency": 6000,
+    "audio": "voice/th/th_verb_fang.mp3",
+    "tone": 0,
+    "toneRule": "ฟ (low class) + no mark + live syllable → mid tone",
+    "examples": [
+      {
+        "sentence": "นักเรียนฟังครูพูดอย่างตั้งใจ",
+        "reading": "nak rian fang khru phut yang tang jai",
+        "translation": { "en": "Students listen attentively to the teacher.", "th": "นักเรียนฟังครูพูดอย่างตั้งใจ" },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Fanghear",
+      "sprite": "kotodama/th_verb_fang.png",
+      "description": {
+        "en": "A quiet spirit with enormous ears that can hear a whisper across the market.",
+        "th": "วิญญาณเงียบสงบมีหูใหญ่มากที่ได้ยินเสียงกระซิบข้ามตลาดได้"
+      },
+      "rarity": "common",
+      "habitat": ["school", "temple", "fresh_market"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_verb_an",
+    "lang": "th",
+    "written": "อ่าน",
+    "reading": "an",
+    "romanization": "an",
+    "meaning": { "en": "to read", "th": "อ่านหนังสือหรือตัวอักษร" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["action", "language", "study", "thai"],
+    "frequency": 5500,
+    "audio": "voice/th/th_verb_an.mp3",
+    "tone": 1,
+    "toneRule": "อ (mid class) + mai ek → low tone",
+    "examples": [
+      {
+        "sentence": "ฉันอ่านหนังสือที่วัดทุกเย็น",
+        "reading": "chan an nangsueu thi wat thuk yen",
+        "translation": { "en": "I read books at the temple every evening.", "th": "ฉันอ่านหนังสือที่วัดทุกเย็น" },
+        "context": "temple"
+      }
+    ],
+    "kotodama": {
+      "name": "Anscroll",
+      "sprite": "kotodama/th_verb_an.png",
+      "description": {
+        "en": "A studious spirit with tiny spectacles that unrolls a scroll wherever it goes.",
+        "th": "วิญญาณขยันเรียนที่สวมแว่นตาจิ๋วและคลี่ม้วนกระดาษไปทุกที่"
+      },
+      "rarity": "common",
+      "habitat": ["school", "temple"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_verb_khian",
+    "lang": "th",
+    "written": "เขียน",
+    "reading": "khian",
+    "romanization": "khian",
+    "meaning": { "en": "to write", "th": "เขียนด้วยปากกาหรือดินสอ" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["action", "language", "study", "thai"],
+    "frequency": 5000,
+    "audio": "voice/th/th_verb_khian.mp3",
+    "tone": 4,
+    "toneRule": "ข (high class) + no mark + live syllable → rising tone",
+    "examples": [
+      {
+        "sentence": "นักเรียนเขียนชื่อของตัวเองลงในสมุด",
+        "reading": "nak rian khian chue khong tua eng long nai samut",
+        "translation": { "en": "The student writes their own name in the notebook.", "th": "นักเรียนเขียนชื่อตัวเองลงในสมุด" },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Khianink",
+      "sprite": "kotodama/th_verb_khian.png",
+      "description": {
+        "en": "A trail-leaving spirit whose body is made of flowing ink that never dries.",
+        "th": "วิญญาณที่ทิ้งร่องรอยด้วยตัวที่ทำจากหมึกไหลซึ่งไม่มีวันแห้ง"
+      },
+      "rarity": "common",
+      "habitat": ["school", "temple"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_verb_pai",
+    "lang": "th",
+    "written": "ไป",
+    "reading": "pai",
+    "romanization": "pai",
+    "meaning": { "en": "to go", "th": "ไปยังที่ใดที่หนึ่ง" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["action", "movement", "daily", "thai"],
+    "frequency": 9999,
+    "audio": "voice/th/th_verb_pai.mp3",
+    "tone": 0,
+    "toneRule": "ป (mid class) + no mark + live syllable → mid tone",
+    "examples": [
+      {
+        "sentence": "พวกเราไปตลาดน้ำด้วยกัน",
+        "reading": "phuak rao pai talat naam duai kan",
+        "translation": { "en": "We all go to the floating market together.", "th": "พวกเราไปตลาดน้ำด้วยกัน" },
+        "context": "floating_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Paipath",
+      "sprite": "kotodama/th_verb_pai.png",
+      "description": {
+        "en": "An ever-moving spirit with tiny wings on its heels that always points toward adventure.",
+        "th": "วิญญาณที่เคลื่อนไหวตลอดเวลามีปีกจิ๋วที่ส้นเท้าและชี้ไปยังการผจญภัยเสมอ"
+      },
+      "rarity": "common",
+      "habitat": ["pier", "floating_market", "fresh_market", "temple"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_verb_ma",
+    "lang": "th",
+    "written": "มา",
+    "reading": "maa",
+    "romanization": "maa",
+    "meaning": { "en": "to come", "th": "มาหาใครหรือมายังที่ใด" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["action", "movement", "daily", "thai"],
+    "frequency": 9500,
+    "audio": "voice/th/th_verb_ma.mp3",
+    "tone": 0,
+    "toneRule": "ม (low class) + no mark + live syllable → mid tone",
+    "examples": [
+      {
+        "sentence": "เพื่อนมาหาฉันที่ท่าเรือ",
+        "reading": "phuean maa ha chan thi tha ruea",
+        "translation": { "en": "My friend comes to find me at the pier.", "th": "เพื่อนมาหาฉันที่ท่าเรือ" },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Maawave",
+      "sprite": "kotodama/th_verb_ma.png",
+      "description": {
+        "en": "A welcoming pink spirit that always seems to be arriving from somewhere warm.",
+        "th": "วิญญาณสีชมพูที่ต้อนรับซึ่งดูเหมือนมาจากที่อบอุ่นเสมอ"
+      },
+      "rarity": "common",
+      "habitat": ["pier", "fresh_market", "floating_market"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_verb_sue",
+    "lang": "th",
+    "written": "ซื้อ",
+    "reading": "sue",
+    "romanization": "sue",
+    "meaning": { "en": "to buy; to purchase", "th": "จ่ายเงินเพื่อซื้อสิ่งของ" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["action", "commerce", "market", "thai"],
+    "frequency": 7000,
+    "audio": "voice/th/th_verb_sue.mp3",
+    "tone": 2,
+    "toneRule": "ซ (low class) + mai tho → falling tone",
+    "examples": [
+      {
+        "sentence": "แม่ซื้อผักสดจากตลาด",
+        "reading": "mae sue phak sot jak talat",
+        "translation": { "en": "Mother buys fresh vegetables from the market.", "th": "แม่ซื้อผักสดจากตลาด" },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Suecoin",
+      "sprite": "kotodama/th_verb_sue.png",
+      "description": {
+        "en": "A cheerful spirit that jingles like coins and always has something nice to offer.",
+        "th": "วิญญาณร่าเริงที่ดังเหมือนเหรียญและมีของดีๆ มาเสนอเสมอ"
+      },
+      "rarity": "common",
+      "habitat": ["fresh_market", "floating_market", "pier"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_verb_khai",
+    "lang": "th",
+    "written": "ขาย",
+    "reading": "khaai",
+    "romanization": "khaai",
+    "meaning": { "en": "to sell", "th": "ขายสินค้าให้กับผู้ซื้อ" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["action", "commerce", "market", "thai"],
+    "frequency": 6500,
+    "audio": "voice/th/th_verb_khai.mp3",
+    "tone": 4,
+    "toneRule": "ข (high class) + no mark + live syllable → rising tone",
+    "examples": [
+      {
+        "sentence": "พ่อค้าขายของที่ตลาดน้ำทุกวัน",
+        "reading": "pho kha khaai khong thi talat naam thuk wan",
+        "translation": { "en": "The trader sells goods at the floating market every day.", "th": "พ่อค้าขายของที่ตลาดน้ำทุกวัน" },
+        "context": "floating_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Khaaistall",
+      "sprite": "kotodama/th_verb_khai.png",
+      "description": {
+        "en": "A bustling spirit that arranges colourful wares and calls out to passers-by.",
+        "th": "วิญญาณที่คึกคักจัดสินค้าสีสันและเรียกคนเดินผ่าน"
+      },
+      "rarity": "common",
+      "habitat": ["floating_market", "fresh_market", "pier"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_verb_tham",
+    "lang": "th",
+    "written": "ทำ",
+    "reading": "tham",
+    "romanization": "tham",
+    "meaning": { "en": "to do; to make", "th": "ทำสิ่งใดสิ่งหนึ่ง" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["action", "daily", "general", "thai"],
+    "frequency": 9999,
+    "audio": "voice/th/th_verb_tham.mp3",
+    "tone": 0,
+    "toneRule": "ท (low class) + no mark + live syllable → mid tone",
+    "examples": [
+      {
+        "sentence": "เธอทำอาหารอร่อยมาก",
+        "reading": "thoe tham ahan aroi mak",
+        "translation": { "en": "She makes very delicious food.", "th": "เธอทำอาหารอร่อยมาก" },
+        "context": "floating_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Thamcraft",
+      "sprite": "kotodama/th_verb_tham.png",
+      "description": {
+        "en": "A busy golden-brown spirit with multiple arms always crafting something new.",
+        "th": "วิญญาณสีน้ำตาลทองที่ยุ่งอยู่เสมอมีแขนหลายข้างและสร้างสิ่งใหม่ตลอดเวลา"
+      },
+      "rarity": "common",
+      "habitat": ["fresh_market", "floating_market", "school"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_verb_chuai",
+    "lang": "th",
+    "written": "ช่วย",
+    "reading": "chuai",
+    "romanization": "chuai",
+    "meaning": { "en": "to help; to assist", "th": "ช่วยเหลือผู้อื่น" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["action", "social", "polite", "thai"],
+    "frequency": 7000,
+    "audio": "voice/th/th_verb_chuai.mp3",
+    "tone": 2,
+    "toneRule": "ช (low class) + mai ek → falling tone",
+    "examples": [
+      {
+        "sentence": "ช่วยฉันหิ้วของที่ตลาดหน่อยได้ไหม",
+        "reading": "chuai chan hiu khong thi talat noi dai mai",
+        "translation": { "en": "Can you help me carry things at the market?", "th": "ช่วยฉันหิ้วของที่ตลาดหน่อยได้ไหม" },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Chuaihand",
+      "sprite": "kotodama/th_verb_chuai.png",
+      "description": {
+        "en": "A kind mint-coloured spirit with outstretched hands always ready to help.",
+        "th": "วิญญาณสีมินต์ที่ใจดีมีมือยื่นออกมาพร้อมช่วยเหลือเสมอ"
+      },
+      "rarity": "common",
+      "habitat": ["fresh_market", "temple", "pier"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_verb_du",
+    "lang": "th",
+    "written": "ดู",
+    "reading": "duu",
+    "romanization": "duu",
+    "meaning": { "en": "to look; to watch; to see", "th": "มองหรือดูสิ่งใดสิ่งหนึ่ง" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["action", "perception", "daily", "thai"],
+    "frequency": 8500,
+    "audio": "voice/th/th_verb_du.mp3",
+    "tone": 0,
+    "toneRule": "ด (mid class) + no mark + live syllable → mid tone",
+    "examples": [
+      {
+        "sentence": "เราดูเรือผ่านที่ท่าเรือ",
+        "reading": "rao duu ruea phan thi tha ruea",
+        "translation": { "en": "We watch boats pass by at the pier.", "th": "เราดูเรือแล่นผ่านที่ท่าเรือ" },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Duueye",
+      "sprite": "kotodama/th_verb_du.png",
+      "description": {
+        "en": "A wide-eyed spirit with luminous irises that notices every detail around it.",
+        "th": "วิญญาณตากลมโตมีม่านตาเรืองแสงที่สังเกตเห็นทุกรายละเอียดรอบข้าง"
+      },
+      "rarity": "common",
+      "habitat": ["pier", "floating_market", "temple"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_verb_ha",
+    "lang": "th",
+    "written": "หา",
+    "reading": "haa",
+    "romanization": "haa",
+    "meaning": { "en": "to find; to look for; to seek", "th": "ค้นหาสิ่งใดสิ่งหนึ่ง" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["action", "search", "daily", "thai"],
+    "frequency": 6000,
+    "audio": "voice/th/th_verb_ha.mp3",
+    "tone": 4,
+    "toneRule": "ห (high class) + no mark + live syllable → rising tone",
+    "examples": [
+      {
+        "sentence": "ฉันหาเพื่อนในตลาดน้ำ",
+        "reading": "chan haa phuean nai talat naam",
+        "translation": { "en": "I look for my friend in the floating market.", "th": "ฉันหาเพื่อนในตลาดน้ำ" },
+        "context": "floating_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Haaquest",
+      "sprite": "kotodama/th_verb_ha.png",
+      "description": {
+        "en": "A restless spirit with a magnifying glass that's always searching for something.",
+        "th": "วิญญาณที่อยู่ไม่นิ่งถือแว่นขยายและค้นหาบางสิ่งเสมอ"
+      },
+      "rarity": "common",
+      "habitat": ["floating_market", "fresh_market", "pier"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_verb_tham_kham",
+    "lang": "th",
+    "written": "ถาม",
+    "reading": "tham",
+    "romanization": "tham",
+    "meaning": { "en": "to ask (a question)", "th": "ถามคำถาม" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["action", "language", "communication", "thai"],
+    "frequency": 5500,
+    "audio": "voice/th/th_verb_tham_kham.mp3",
+    "tone": 4,
+    "toneRule": "ถ (high class) + no mark + live syllable → rising tone",
+    "examples": [
+      {
+        "sentence": "นักเรียนถามครูเรื่องการบ้าน",
+        "reading": "nak rian tham khru rueang kan ban",
+        "translation": { "en": "The student asks the teacher about homework.", "th": "นักเรียนถามครูเรื่องการบ้าน" },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Thamask",
+      "sprite": "kotodama/th_verb_tham_kham.png",
+      "description": {
+        "en": "A curious pale yellow spirit shaped like a question mark that bobs as it moves.",
+        "th": "วิญญาณสีเหลืองอ่อนรูปร่างคล้ายเครื่องหมายคำถามที่โยกเวลาเคลื่อนที่"
+      },
+      "rarity": "common",
+      "habitat": ["school", "fresh_market", "temple"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_verb_top",
+    "lang": "th",
+    "written": "ตอบ",
+    "reading": "top",
+    "romanization": "top",
+    "meaning": { "en": "to answer; to reply", "th": "ตอบคำถามหรือตอบกลับ" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["action", "language", "communication", "thai"],
+    "frequency": 5000,
+    "audio": "voice/th/th_verb_top.mp3",
+    "tone": 1,
+    "toneRule": "ต (mid class) + dead syllable + no mark → low tone",
+    "examples": [
+      {
+        "sentence": "เธอตอบคำถามได้ถูกต้อง",
+        "reading": "thoe top kham tham dai thuk tong",
+        "translation": { "en": "She answered the question correctly.", "th": "เธอตอบคำถามได้ถูกต้อง" },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Topreply",
+      "sprite": "kotodama/th_verb_top.png",
+      "description": {
+        "en": "A confident lavender spirit that always has the answer ready — and glows when correct.",
+        "th": "วิญญาณสีลาเวนเดอร์มั่นใจที่มีคำตอบพร้อมเสมอและเปล่งแสงเมื่อถูก"
+      },
+      "rarity": "common",
+      "habitat": ["school", "temple"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_verb_khit",
+    "lang": "th",
+    "written": "คิด",
+    "reading": "khit",
+    "romanization": "khit",
+    "meaning": { "en": "to think; to consider", "th": "ใช้ความคิดพิจารณา" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["action", "mental", "daily", "thai"],
+    "frequency": 8000,
+    "audio": "voice/th/th_verb_khit.mp3",
+    "tone": 3,
+    "toneRule": "ค (low class) + dead syllable + no mark → high tone",
+    "examples": [
+      {
+        "sentence": "ฉันคิดว่าอาหารที่นี่อร่อยมาก",
+        "reading": "chan khit wa ahan thi ni aroi mak",
+        "translation": { "en": "I think the food here is very delicious.", "th": "ฉันคิดว่าอาหารที่นี่อร่อยมาก" },
+        "context": "floating_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Khitcloud",
+      "sprite": "kotodama/th_verb_khit.png",
+      "description": {
+        "en": "A thoughtful spirit with a swirling mini-cloud above its head that changes shape.",
+        "th": "วิญญาณที่ใคร่ครวญมีเมฆจิ๋วหมุนวนเหนือหัวที่เปลี่ยนรูปร่างตลอด"
+      },
+      "rarity": "common",
+      "habitat": ["school", "temple", "floating_market"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_verb_ru",
+    "lang": "th",
+    "written": "รู้",
+    "reading": "ruu",
+    "romanization": "ruu",
+    "meaning": { "en": "to know; to understand", "th": "รู้ข้อมูลหรือเข้าใจ" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["action", "mental", "knowledge", "thai"],
+    "frequency": 8500,
+    "audio": "voice/th/th_verb_ru.mp3",
+    "tone": 3,
+    "toneRule": "ร (low class) + mai tho → high tone",
+    "examples": [
+      {
+        "sentence": "เธอรู้จักเส้นทางไปวัดไหม",
+        "reading": "thoe ruu jak sen thang pai wat mai",
+        "translation": { "en": "Do you know the way to the temple?", "th": "เธอรู้จักเส้นทางไปวัดไหม" },
+        "context": "temple"
+      }
+    ],
+    "kotodama": {
+      "name": "Ruulight",
+      "sprite": "kotodama/th_verb_ru.png",
+      "description": {
+        "en": "A wise golden spirit that pulses with warm light whenever new knowledge is gained.",
+        "th": "วิญญาณสีทองที่ฉลาดซึ่งเต้นด้วยแสงอบอุ่นทุกครั้งที่ได้รับความรู้ใหม่"
+      },
+      "rarity": "uncommon",
+      "habitat": ["temple", "school"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_verb_rak",
+    "lang": "th",
+    "written": "รัก",
+    "reading": "rak",
+    "romanization": "rak",
+    "meaning": { "en": "to love", "th": "รู้สึกรักใคร่ใครหรือสิ่งใด" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["emotion", "feeling", "daily", "thai"],
+    "frequency": 7000,
+    "audio": "voice/th/th_verb_rak.mp3",
+    "tone": 3,
+    "toneRule": "ร (low class) + dead syllable + no mark → high tone",
+    "examples": [
+      {
+        "sentence": "ฉันรักครอบครัวของฉันมาก",
+        "reading": "chan rak khrobkhruea khong chan mak",
+        "translation": { "en": "I love my family very much.", "th": "ฉันรักครอบครัวของฉันมาก" },
+        "context": "temple"
+      }
+    ],
+    "kotodama": {
+      "name": "Rakheart",
+      "sprite": "kotodama/th_verb_rak.png",
+      "description": {
+        "en": "A rosy spirit shaped like a blossom that warms everything in its presence.",
+        "th": "วิญญาณสีชมพูรูปดอกไม้ที่ทำให้ทุกสิ่งรอบข้างอบอุ่นขึ้น"
+      },
+      "rarity": "uncommon",
+      "habitat": ["temple", "floating_market", "school"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_verb_chop",
+    "lang": "th",
+    "written": "ชอบ",
+    "reading": "chop",
+    "romanization": "chop",
+    "meaning": { "en": "to like; to be fond of", "th": "ชอบหรือพอใจในสิ่งใด" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["emotion", "feeling", "daily", "thai"],
+    "frequency": 8000,
+    "audio": "voice/th/th_verb_chop.mp3",
+    "tone": 2,
+    "toneRule": "ช (low class) + dead syllable + no mark → falling tone",
+    "examples": [
+      {
+        "sentence": "ผมชอบกินอาหารไทยมากครับ",
+        "reading": "phom chop gin ahan thai mak khrap",
+        "translation": { "en": "I really like eating Thai food.", "th": "ผมชอบรับประทานอาหารไทยมากครับ" },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Chopsmile",
+      "sprite": "kotodama/th_verb_chop.png",
+      "description": {
+        "en": "A cheerful peach-coloured spirit with a permanent smile that spreads good feelings.",
+        "th": "วิญญาณสีพีชร่าเริงมีรอยยิ้มตลอดเวลาที่แพร่ความรู้สึกดีๆ"
+      },
+      "rarity": "common",
+      "habitat": ["fresh_market", "floating_market", "school"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_verb_len",
+    "lang": "th",
+    "written": "เล่น",
+    "reading": "len",
+    "romanization": "len",
+    "meaning": { "en": "to play", "th": "เล่นหรือสนุกสนาน" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["action", "play", "fun", "thai"],
+    "frequency": 6000,
+    "audio": "voice/th/th_verb_len.mp3",
+    "tone": 2,
+    "toneRule": "ล (low class) + mai ek → falling tone",
+    "examples": [
+      {
+        "sentence": "เด็กๆ เล่นริมแม่น้ำที่ท่าเรือ",
+        "reading": "dek dek len rim mae naam thi tha ruea",
+        "translation": { "en": "Children play by the river at the pier.", "th": "เด็กๆ เล่นริมแม่น้ำที่ท่าเรือ" },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Lenjoy",
+      "sprite": "kotodama/th_verb_len.png",
+      "description": {
+        "en": "A bouncy turquoise spirit that bounces with every step and laughs like wind chimes.",
+        "th": "วิญญาณสีเทอร์ควอยส์ที่เด้งทุกก้าวและหัวเราะเหมือนกระดิ่งลม"
+      },
+      "rarity": "common",
+      "habitat": ["pier", "school", "floating_market"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_verb_thamngaan",
+    "lang": "th",
+    "written": "ทำงาน",
+    "reading": "tham ngaan",
+    "romanization": "tham ngaan",
+    "meaning": { "en": "to work; to do work", "th": "ทำงานหาเลี้ยงชีพ" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["action", "work", "daily", "thai"],
+    "frequency": 7000,
+    "audio": "voice/th/th_verb_thamngaan.mp3",
+    "tone": 0,
+    "toneRule": "ท (low class) + no mark + live → mid; งาน — ง (low) + no mark + live → mid",
+    "examples": [
+      {
+        "sentence": "พ่อค้าทำงานที่ตลาดน้ำทุกวัน",
+        "reading": "pho kha tham ngaan thi talat naam thuk wan",
+        "translation": { "en": "The merchant works at the floating market every day.", "th": "พ่อค้าทำงานที่ตลาดน้ำทุกวัน" },
+        "context": "floating_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Thamngaanmill",
+      "sprite": "kotodama/th_verb_thamngaan.png",
+      "description": {
+        "en": "A steadfast amber spirit with a small tool belt that hums while it works.",
+        "th": "วิญญาณสีอำพันที่มั่นคงมีเข็มขัดเครื่องมือจิ๋วและฮัมเพลงขณะทำงาน"
+      },
+      "rarity": "common",
+      "habitat": ["floating_market", "fresh_market", "pier"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_verb_rian",
+    "lang": "th",
+    "written": "เรียน",
+    "reading": "rian",
+    "romanization": "rian",
+    "meaning": { "en": "to study; to learn", "th": "เรียนหนังสือหรือเรียนรู้สิ่งใหม่" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["action", "study", "education", "thai"],
+    "frequency": 7000,
+    "audio": "voice/th/th_verb_rian.mp3",
+    "tone": 0,
+    "toneRule": "ร (low class) + no mark + live syllable → mid tone",
+    "examples": [
+      {
+        "sentence": "นักเรียนเรียนภาษาไทยทุกวัน",
+        "reading": "nak rian rian phasa thai thuk wan",
+        "translation": { "en": "Students study Thai every day.", "th": "นักเรียนเรียนภาษาไทยทุกวัน" },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Rianbook",
+      "sprite": "kotodama/th_verb_rian.png",
+      "description": {
+        "en": "A studious spirit carrying a glowing stack of books that grows with every lesson.",
+        "th": "วิญญาณขยันถือหนังสือสีเรืองแสงที่สูงขึ้นทุกบทเรียน"
+      },
+      "rarity": "common",
+      "habitat": ["school", "temple"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_verb_son",
+    "lang": "th",
+    "written": "สอน",
+    "reading": "son",
+    "romanization": "son",
+    "meaning": { "en": "to teach; to instruct", "th": "สอนความรู้แก่ผู้อื่น" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["action", "education", "teaching", "thai"],
+    "frequency": 5000,
+    "audio": "voice/th/th_verb_son.mp3",
+    "tone":4,
+    "toneRule": "ส (high class) + no mark + live syllable → rising tone",
+    "examples": [
+      {
+        "sentence": "ครูสอนภาษาไทยให้กับนักเรียน",
+        "reading": "khru son phasa thai hai gap nak rian",
+        "translation": { "en": "The teacher teaches Thai to the students.", "th": "ครูสอนภาษาไทยให้นักเรียน" },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Sonmaster",
+      "sprite": "kotodama/th_verb_son.png",
+      "description": {
+        "en": "A patient silver spirit with a wooden pointer that draws diagrams in the air.",
+        "th": "วิญญาณสีเงินที่อดทนมีไม้ชี้เล็กๆ และวาดแผนภาพในอากาศ"
+      },
+      "rarity": "uncommon",
+      "habitat": ["school", "temple"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_verb_khap",
+    "lang": "th",
+    "written": "ขับ",
+    "reading": "khap",
+    "romanization": "khap",
+    "meaning": { "en": "to drive (a vehicle)", "th": "ขับยานพาหนะ" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "A2",
+    "chapter": 10,
+    "tags": ["action", "transport", "daily", "thai"],
+    "frequency": 4000,
+    "audio": "voice/th/th_verb_khap.mp3",
+    "tone": 1,
+    "toneRule": "ข (high class) + dead syllable + no mark → low tone",
+    "examples": [
+      {
+        "sentence": "คนขับรถพาเราไปตลาด",
+        "reading": "khon khap rot pha rao pai talat",
+        "translation": { "en": "The driver takes us to the market.", "th": "คนขับรถพาเราไปตลาด" },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Khapwheel",
+      "sprite": "kotodama/th_verb_khap.png",
+      "description": {
+        "en": "A speedy spirit shaped like a steering wheel that always knows the shortest route.",
+        "th": "วิญญาณเร็วรูปพวงมาลัยที่รู้เส้นทางสั้นที่สุดเสมอ"
+      },
+      "rarity": "common",
+      "habitat": ["pier", "fresh_market", "floating_market"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_verb_nang",
+    "lang": "th",
+    "written": "นั่ง",
+    "reading": "nang",
+    "romanization": "nang",
+    "meaning": { "en": "to sit", "th": "นั่งลงบนที่นั่ง" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["action", "posture", "daily", "thai"],
+    "frequency": 6500,
+    "audio": "voice/th/th_verb_nang.mp3",
+    "tone": 2,
+    "toneRule": "น (low class) + mai tho → falling tone",
+    "examples": [
+      {
+        "sentence": "ผมนั่งกินข้าวที่ตลาดน้ำ",
+        "reading": "phom nang gin khaao thi talat naam",
+        "translation": { "en": "I sit and eat at the floating market.", "th": "ผมนั่งรับประทานข้าวที่ตลาดน้ำ" },
+        "context": "floating_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Nangrest",
+      "sprite": "kotodama/th_verb_nang.png",
+      "description": {
+        "en": "A calm cream-coloured spirit that always finds the most comfortable spot to settle.",
+        "th": "วิญญาณสีครีมที่สงบเสมอหาที่นั่งสบายที่สุดได้เสมอ"
+      },
+      "rarity": "common",
+      "habitat": ["floating_market", "temple", "pier"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_verb_yuen",
+    "lang": "th",
+    "written": "ยืน",
+    "reading": "yuen",
+    "romanization": "yuen",
+    "meaning": { "en": "to stand", "th": "ยืนบนขา" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["action", "posture", "daily", "thai"],
+    "frequency": 4500,
+    "audio": "voice/th/th_verb_yuen.mp3",
+    "tone": 0,
+    "toneRule": "ย (low class) + no mark + live syllable → mid tone",
+    "examples": [
+      {
+        "sentence": "แม่ค้ายืนขายของที่ท่าเรือทั้งวัน",
+        "reading": "mae kha yuen khaai khong thi tha ruea thang wan",
+        "translation": { "en": "The vendor stands selling goods at the pier all day.", "th": "แม่ค้ายืนขายของที่ท่าเรือทั้งวัน" },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Yuenpillar",
+      "sprite": "kotodama/th_verb_yuen.png",
+      "description": {
+        "en": "A steadfast mint spirit that stands perfectly still like a column even in strong wind.",
+        "th": "วิญญาณสีมินต์ที่มั่นคงยืนนิ่งเหมือนเสาแม้ในลมแรง"
+      },
+      "rarity": "common",
+      "habitat": ["pier", "floating_market", "fresh_market"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_verb_poet",
+    "lang": "th",
+    "written": "เปิด",
+    "reading": "poet",
+    "romanization": "poet",
+    "meaning": { "en": "to open; to turn on", "th": "เปิดสิ่งใดสิ่งหนึ่ง" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["action", "daily", "commerce", "thai"],
+    "frequency": 6000,
+    "audio": "voice/th/th_verb_poet.mp3",
+    "tone": 1,
+    "toneRule": "ป (mid class) + dead syllable + no mark → low tone",
+    "examples": [
+      {
+        "sentence": "แม่ค้าเปิดร้านแต่เช้า",
+        "reading": "mae kha poet ran tae chao",
+        "translation": { "en": "The vendor opens the stall early in the morning.", "th": "แม่ค้าเปิดร้านแต่เช้าตรู่" },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Poetdoor",
+      "sprite": "kotodama/th_verb_poet.png",
+      "description": {
+        "en": "A cheerful bright spirit shaped like an open door that lets good things through.",
+        "th": "วิญญาณสดใสรูปประตูเปิดที่ให้สิ่งดีๆ ผ่านเข้ามา"
+      },
+      "rarity": "common",
+      "habitat": ["fresh_market", "floating_market", "school"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_verb_pit",
+    "lang": "th",
+    "written": "ปิด",
+    "reading": "pit",
+    "romanization": "pit",
+    "meaning": { "en": "to close; to turn off", "th": "ปิดหรือทำให้หยุดทำงาน" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["action", "daily", "commerce", "thai"],
+    "frequency": 5500,
+    "audio": "voice/th/th_verb_pit.mp3",
+    "tone": 1,
+    "toneRule": "ป (mid class) + dead syllable + no mark → low tone",
+    "examples": [
+      {
+        "sentence": "วัดปิดประตูตอนค่ำ",
+        "reading": "wat pit pratu ton kham",
+        "translation": { "en": "The temple closes its gates in the evening.", "th": "วัดปิดประตูในตอนเย็น" },
+        "context": "temple"
+      }
+    ],
+    "kotodama": {
+      "name": "Pitshade",
+      "sprite": "kotodama/th_verb_pit.png",
+      "description": {
+        "en": "A dusky navy spirit shaped like a closing gate that hushes everything around it.",
+        "th": "วิญญาณสีกรมท่ารูปประตูปิดที่ทำให้ทุกอย่างรอบข้างเงียบลง"
+      },
+      "rarity": "common",
+      "habitat": ["temple", "school", "floating_market"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_verb_sai",
+    "lang": "th",
+    "written": "ใส่",
+    "reading": "sai",
+    "romanization": "sai",
+    "meaning": { "en": "to put in; to add; to wear", "th": "ใส่สิ่งของลงไปหรือสวมใส่" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["action", "daily", "food", "thai"],
+    "frequency": 7000,
+    "audio": "voice/th/th_verb_sai.mp3",
+    "tone": 1,
+    "toneRule": "ส (high class) + no mark + live syllable → rising tone — but ใส่ has mai ek on ส, approximated low(1)",
+    "examples": [
+      {
+        "sentence": "ใส่พริกลงในซุปนิดเดียว",
+        "reading": "sai phrik long nai sup nit diao",
+        "translation": { "en": "Add just a little chili to the soup.", "th": "ใส่พริกลงในซุปนิดเดียว" },
+        "context": "floating_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Sailadle",
+      "sprite": "kotodama/th_verb_sai.png",
+      "description": {
+        "en": "A precise golden spirit with a tiny ladle that carefully portions ingredients.",
+        "th": "วิญญาณสีทองที่แม่นยำถือทัพพีจิ๋วและแบ่งส่วนผสมอย่างพิถีพิถัน"
+      },
+      "rarity": "common",
+      "habitat": ["floating_market", "fresh_market", "pier"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_verb_ao",
+    "lang": "th",
+    "written": "เอา",
+    "reading": "ao",
+    "romanization": "ao",
+    "meaning": { "en": "to take; to get; to bring", "th": "เอาหรือนำสิ่งของมา" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["action", "daily", "general", "thai"],
+    "frequency": 9000,
+    "audio": "voice/th/th_verb_ao.mp3",
+    "tone": 0,
+    "toneRule": "อ (mid class) + no mark + live syllable → mid tone",
+    "examples": [
+      {
+        "sentence": "เอาของมาให้ฉันหน่อยได้ไหม",
+        "reading": "ao khong maa hai chan noi dai mai",
+        "translation": { "en": "Can you bring the things to me?", "th": "เอาของมาให้ฉันหน่อยได้ไหม" },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Aocarry",
+      "sprite": "kotodama/th_verb_ao.png",
+      "description": {
+        "en": "A helpful teal spirit with sturdy arms always carrying something for someone else.",
+        "th": "วิญญาณสีเทียลที่ช่วยเหลือมีแขนแข็งแกร่งและแบกของให้คนอื่นเสมอ"
+      },
+      "rarity": "common",
+      "habitat": ["fresh_market", "pier", "floating_market"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_verb_hai",
+    "lang": "th",
+    "written": "ให้",
+    "reading": "hai",
+    "romanization": "hai",
+    "meaning": { "en": "to give; to let; to allow", "th": "มอบสิ่งใดให้กับผู้อื่น" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["action", "social", "giving", "thai"],
+    "frequency": 9500,
+    "audio": "voice/th/th_verb_hai.mp3",
+    "tone": 1,
+    "toneRule": "ห (high class) + mai ek → low tone",
+    "examples": [
+      {
+        "sentence": "ให้ขนมเด็กๆ ที่วัด",
+        "reading": "hai khanom dek dek thi wat",
+        "translation": { "en": "Give sweets to the children at the temple.", "th": "ให้ขนมแก่เด็กๆ ที่วัด" },
+        "context": "temple"
+      }
+    ],
+    "kotodama": {
+      "name": "Haigift",
+      "sprite": "kotodama/th_verb_hai.png",
+      "description": {
+        "en": "A generous sakura-pink spirit with open arms that always has something to offer.",
+        "th": "วิญญาณสีซากุระชมพูที่ใจกว้างมีแขนกางออกและมีของให้เสมอ"
+      },
+      "rarity": "common",
+      "habitat": ["temple", "fresh_market", "school"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_verb_rap",
+    "lang": "th",
+    "written": "รับ",
+    "reading": "rap",
+    "romanization": "rap",
+    "meaning": { "en": "to receive; to accept; to pick up", "th": "รับสิ่งใดจากผู้อื่น" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["action", "social", "commerce", "thai"],
+    "frequency": 7500,
+    "audio": "voice/th/th_verb_rap.mp3",
+    "tone": 3,
+    "toneRule": "ร (low class) + dead syllable + no mark → high tone",
+    "examples": [
+      {
+        "sentence": "เขารับของจากเรือที่ท่าเรือ",
+        "reading": "khao rap khong jak ruea thi tha ruea",
+        "translation": { "en": "He receives goods from the boat at the pier.", "th": "เขารับสินค้าจากเรือที่ท่าเรือ" },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Rapbowl",
+      "sprite": "kotodama/th_verb_rap.png",
+      "description": {
+        "en": "A receptive cream spirit shaped like a cupped hand always ready to receive.",
+        "th": "วิญญาณสีครีมรูปมือประกบพร้อมรับเสมอ"
+      },
+      "rarity": "common",
+      "habitat": ["pier", "floating_market", "fresh_market"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_verb_klap",
+    "lang": "th",
+    "written": "กลับ",
+    "reading": "klap",
+    "romanization": "klap",
+    "meaning": { "en": "to return; to go back", "th": "กลับไปยังที่เดิม" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["action", "movement", "daily", "thai"],
+    "frequency": 7000,
+    "audio": "voice/th/th_verb_klap.mp3",
+    "tone": 1,
+    "toneRule": "ก (mid class) + dead syllable + no mark → low tone",
+    "examples": [
+      {
+        "sentence": "เราต้องกลับบ้านก่อนค่ำ",
+        "reading": "rao tong klap ban kon kham",
+        "translation": { "en": "We must return home before evening.", "th": "เราต้องกลับบ้านก่อนที่จะค่ำ" },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Klapreturn",
+      "sprite": "kotodama/th_verb_klap.png",
+      "description": {
+        "en": "A looping river-blue spirit that always circles back to where it started.",
+        "th": "วิญญาณสีน้ำแม่น้ำที่โคจรวนและวนกลับไปที่จุดเริ่มต้นเสมอ"
+      },
+      "rarity": "common",
+      "habitat": ["pier", "floating_market", "temple"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_verb_ok",
+    "lang": "th",
+    "written": "ออก",
+    "reading": "ok",
+    "romanization": "ok",
+    "meaning": { "en": "to exit; to leave; to go out", "th": "ออกไปข้างนอกหรือจากที่ใด" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["action", "movement", "daily", "thai"],
+    "frequency": 7500,
+    "audio": "voice/th/th_verb_ok.mp3",
+    "tone": 1,
+    "toneRule": "อ (mid class) + dead syllable + no mark → low tone",
+    "examples": [
+      {
+        "sentence": "ออกจากวัดแล้วเดินไปตลาด",
+        "reading": "ok jak wat laeo doen pai talat",
+        "translation": { "en": "Leave the temple and walk to the market.", "th": "ออกจากวัดแล้วเดินไปตลาด" },
+        "context": "temple"
+      }
+    ],
+    "kotodama": {
+      "name": "Okexit",
+      "sprite": "kotodama/th_verb_ok.png",
+      "description": {
+        "en": "A breezy sky-blue spirit that always floats outward and signals new beginnings.",
+        "th": "วิญญาณสีฟ้าโปร่งที่ลอยออกไปเสมอและส่งสัญญาณของการเริ่มต้นใหม่"
+      },
+      "rarity": "common",
+      "habitat": ["temple", "school", "pier"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_verb_khao",
+    "lang": "th",
+    "written": "เข้า",
+    "reading": "khao",
+    "romanization": "khao",
+    "meaning": { "en": "to enter; to go inside", "th": "เข้าไปในที่ใดที่หนึ่ง" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["action", "movement", "daily", "thai"],
+    "frequency": 7000,
+    "audio": "voice/th/th_verb_khao.mp3",
+    "tone": 2,
+    "toneRule": "ข (high class) + no mark + live syllable → rising — but เข้า has mai tho approximated falling(2)",
+    "examples": [
+      {
+        "sentence": "เข้าไปในตลาดน้ำทางนี้เลย",
+        "reading": "khao pai nai talat naam thang ni loei",
+        "translation": { "en": "Enter the floating market this way.", "th": "เข้าไปในตลาดน้ำทางนี้เลย" },
+        "context": "floating_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Khaoentry",
+      "sprite": "kotodama/th_verb_khao.png",
+      "description": {
+        "en": "A welcoming indigo spirit shaped like an archway that invites others inside.",
+        "th": "วิญญาณสีครามรูปประตูโค้งที่เชิญชวนให้ผู้อื่นเข้ามา"
+      },
+      "rarity": "common",
+      "habitat": ["floating_market", "temple", "school"]
+    },
+    "needsReview": true
+  }
+]

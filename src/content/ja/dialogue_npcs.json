@@ -1,0 +1,265 @@
+[
+  {
+    "id": "station_01",
+    "speakerNpcId": "station_master",
+    "speakerName": { "th": "นายสถานี", "en": "Station Master" },
+    "lines": [
+      {
+        "l2": "いらっしゃいませ！さくらえきへ ようこそ。",
+        "reading": "いらっしゃいませ！さくらえきへ ようこそ。",
+        "translation": { "th": "ยินดีต้อนรับสู่ สถานีซากุระ!", "en": "Welcome to Sakura Station!" }
+      },
+      {
+        "l2": "みなみに いくと、さくらみちが あります。",
+        "reading": "みなみに いくと、さくらみちが あります。",
+        "translation": { "th": "ถ้าเดินไปทางใต้ จะพบ ทางเดินซากุระ", "en": "Go south and you'll find the Sakura Path." },
+        "newWordIds": ["ja_n5_minami"]
+      }
+    ],
+    "endsDialogue": true
+  },
+  {
+    "id": "momo_01",
+    "speakerNpcId": "momo",
+    "speakerName": { "th": "โมโม", "en": "Momo" },
+    "lines": [
+      {
+        "l2": "ねえねえ！ことだまが いるよ！",
+        "reading": "ねえねえ！ことだまが いるよ！",
+        "translation": { "th": "เฮ้เฮ้! มีโคโตดามะอยู่ด้วยนะ!", "en": "Hey hey! There are Kotodama here!" }
+      },
+      {
+        "l2": "ことばを おぼえると、ことだまは つよく なるよ！",
+        "reading": "ことばを おぼえると、ことだまは つよく なるよ！",
+        "translation": { "th": "ถ้าจำคำศัพท์ได้ โคโตดามะก็จะแข็งแกร่งขึ้น!", "en": "When you remember words, Kotodama grow stronger!" },
+        "newWordIds": ["ja_n5_kotoba"]
+      }
+    ],
+    "endsDialogue": true
+  },
+  {
+    "id": "fisherman_01",
+    "speakerNpcId": "fisherman",
+    "speakerName": { "th": "ชาวประมง", "en": "Fisherman" },
+    "lines": [
+      {
+        "l2": "こんにちは。さかなを つっています。",
+        "reading": "こんにちは。さかなを つっています。",
+        "translation": { "th": "สวัสดีครับ กำลังตกปลาอยู่", "en": "Hello. I'm fishing." },
+        "newWordIds": ["ja_n5_sakana"]
+      },
+      {
+        "l2": "このかわは きれいですよ。",
+        "reading": "このかわは きれいですよ。",
+        "translation": { "th": "แม่น้ำสายนี้สวยมากนะ", "en": "This river is beautiful." }
+      }
+    ],
+    "endsDialogue": true
+  },
+  {
+    "id": "grandma_01",
+    "speakerNpcId": "grandma",
+    "speakerName": { "th": "คุณยาย", "en": "Grandma" },
+    "lines": [
+      {
+        "l2": "まあ、わかいひとね。どこから きたの？",
+        "reading": "まあ、わかいひとね。どこから きたの？",
+        "translation": { "th": "โอ้ คนหนุ่มน้อย มาจากไหนนะ?", "en": "Oh, young one. Where are you from?" },
+        "newWordIds": ["ja_n5_wakai"]
+      }
+    ],
+    "choices": [
+      {
+        "label": { "th": "มาจากไทยค่ะ/ครับ", "en": "From Thailand." },
+        "l2Response": "タイから きました。",
+        "nextId": "grandma_02"
+      }
+    ]
+  },
+  {
+    "id": "grandma_02",
+    "speakerNpcId": "grandma",
+    "speakerName": { "th": "คุณยาย", "en": "Grandma" },
+    "lines": [
+      {
+        "l2": "タイ！すてきね。にほんごを べんきょうしているの？",
+        "reading": "タイ！すてきね。にほんごを べんきょうしているの？",
+        "translation": { "th": "ไทย! ดีจังเลย กำลังเรียนภาษาญี่ปุ่นอยู่ใช่มั้ย?", "en": "Thailand! How lovely. Are you studying Japanese?" }
+      },
+      {
+        "l2": "がんばってね！ことばは たからものよ。",
+        "reading": "がんばってね！ことばは たからものよ。",
+        "translation": { "th": "สู้ๆ นะ! ภาษาคือสมบัติ", "en": "Keep it up! Words are treasure." }
+      }
+    ],
+    "endsDialogue": true
+  },
+  {
+    "id": "miko_01",
+    "speakerNpcId": "shrine_maiden",
+    "speakerName": { "th": "ไมโกะ", "en": "Shrine Maiden" },
+    "lines": [
+      {
+        "l2": "おまいりに いらっしゃいましたか？",
+        "reading": "おまいりに いらっしゃいましたか？",
+        "translation": { "th": "มาไหว้พระที่ศาลเจ้าหรือเปล่า?", "en": "Have you come to pray?" }
+      },
+      {
+        "l2": "おみくじも ありますよ。いかがですか？",
+        "reading": "おみくじも ありますよ。いかがですか？",
+        "translation": { "th": "มีโอมิกุจิด้วยนะ สนใจมั้ย?", "en": "There are omikuji too. Would you like one?" }
+      }
+    ],
+    "endsDialogue": true
+  },
+  {
+    "id": "visitor_01",
+    "speakerNpcId": "visitor",
+    "speakerName": { "th": "ผู้มาเยือน", "en": "Visitor" },
+    "lines": [
+      {
+        "l2": "このじんじゃは ゆうめいですよ。",
+        "reading": "このじんじゃは ゆうめいですよ。",
+        "translation": { "th": "ศาลเจ้าแห่งนี้มีชื่อเสียงมากนะ", "en": "This shrine is famous." },
+        "newWordIds": ["ja_n5_yuumei"]
+      }
+    ],
+    "endsDialogue": true
+  },
+  {
+    "id": "chef_01",
+    "speakerNpcId": "ramen_chef",
+    "speakerName": { "th": "เชฟราเมน", "en": "Ramen Chef" },
+    "lines": [
+      {
+        "l2": "らーめん いかがですか！あついですよ！",
+        "reading": "らーめん いかがですか！あついですよ！",
+        "translation": { "th": "ราเมนมั้ยครับ! ร้อนๆ นะ!", "en": "How about some ramen! It's hot!" },
+        "newWordIds": ["ja_n5_atsui"]
+      }
+    ],
+    "endsDialogue": true
+  },
+  {
+    "id": "shop_01",
+    "speakerNpcId": "shopkeeper",
+    "speakerName": { "th": "เจ้าของร้าน", "en": "Shopkeeper" },
+    "lines": [
+      {
+        "l2": "いらっしゃい！なにを さがしていますか？",
+        "reading": "いらっしゃい！なにを さがしていますか？",
+        "translation": { "th": "ยินดีต้อนรับ! กำลังหาอะไรอยู่?", "en": "Welcome! What are you looking for?" }
+      }
+    ],
+    "endsDialogue": true
+  },
+  {
+    "id": "student_01",
+    "speakerNpcId": "student",
+    "speakerName": { "th": "นักเรียน", "en": "Student" },
+    "lines": [
+      {
+        "l2": "あー！テストが あるんだ。べんきょうしなきゃ！",
+        "reading": "あー！テストが あるんだ。べんきょうしなきゃ！",
+        "translation": { "th": "อ้า! มีสอบด้วย ต้องอ่านหนังสือแล้ว!", "en": "Ahh! I have a test. I have to study!" }
+      }
+    ],
+    "endsDialogue": true
+  },
+  {
+    "id": "snow_01",
+    "speakerNpcId": "snowman_kid",
+    "speakerName": { "th": "เด็กหิมะ", "en": "Snowman Kid" },
+    "lines": [
+      {
+        "l2": "ゆきだるまを つくったよ！みて みて！",
+        "reading": "ゆきだるまを つくったよ！みて みて！",
+        "translation": { "th": "สร้างตุ๊กตาหิมะได้แล้ว! ดูๆ ดูๆ!", "en": "I made a snowman! Look look!" },
+        "newWordIds": ["ja_n5_yuki_snow"]
+      }
+    ],
+    "endsDialogue": true
+  },
+  {
+    "id": "elder_01",
+    "speakerNpcId": "elder",
+    "speakerName": { "th": "ผู้อาวุโส", "en": "Elder" },
+    "lines": [
+      {
+        "l2": "ふゆは しずかで きれいだ。まるで ことばの ように。",
+        "reading": "ふゆは しずかで きれいだ。まるで ことばの ように。",
+        "translation": { "th": "ฤดูหนาวสงบงดงาม เหมือนดังภาษา", "en": "Winter is quiet and beautiful. Just like words." },
+        "newWordIds": ["ja_n5_fuyu", "ja_n5_shizuka"]
+      }
+    ],
+    "endsDialogue": true
+  },
+  {
+    "id": "vendor_01",
+    "speakerNpcId": "yatai_vendor",
+    "speakerName": { "th": "พ่อค้าแผงลอย", "en": "Yatai Vendor" },
+    "lines": [
+      {
+        "l2": "たこやき どうぞ！まつりの あじですよ！",
+        "reading": "たこやき どうぞ！まつりの あじですよ！",
+        "translation": { "th": "ทาโกยากิเลยครับ! รสชาติแห่งเทศกาล!", "en": "Please try takoyaki! It's the taste of the festival!" }
+      }
+    ],
+    "endsDialogue": true
+  },
+  {
+    "id": "dancer_01",
+    "speakerNpcId": "dancer",
+    "speakerName": { "th": "นักเต้น", "en": "Dancer" },
+    "lines": [
+      {
+        "l2": "おどりは たのしい！いっしょに おどりませんか？",
+        "reading": "おどりは たのしい！いっしょに おどりませんか？",
+        "translation": { "th": "การเต้นสนุกมาก! จะมาเต้นด้วยกันมั้ย?", "en": "Dancing is fun! Won't you dance with me?" },
+        "newWordIds": ["ja_n5_tanoshii"]
+      }
+    ],
+    "endsDialogue": true
+  },
+  {
+    "id": "drum_01",
+    "speakerNpcId": "drummer",
+    "speakerName": { "th": "คนตีกลอง", "en": "Drummer" },
+    "lines": [
+      {
+        "l2": "どん、どん、どん！まつりの こえを きいて！",
+        "reading": "どん、どん、どん！まつりの こえを きいて！",
+        "translation": { "th": "ดัง ดัง ดัง! ฟังเสียงเทศกาล!", "en": "Don, don, don! Listen to the festival's voice!" }
+      }
+    ],
+    "endsDialogue": true
+  },
+  {
+    "id": "poet_01",
+    "speakerNpcId": "leaf_poet",
+    "speakerName": { "th": "กวีใบไม้", "en": "Leaf Poet" },
+    "lines": [
+      {
+        "l2": "あかい はっぱ。ことばは きえても、こころに のこる。",
+        "reading": "あかい はっぱ。ことばは きえても、こころに のこる。",
+        "translation": { "th": "ใบไม้แดง แม้คำจะเลือนหาย แต่หัวใจยังจำ", "en": "Red leaves. Even if words fade, they remain in the heart." },
+        "newWordIds": ["ja_n5_akai", "ja_n5_kokoro"]
+      }
+    ],
+    "endsDialogue": true
+  },
+  {
+    "id": "hiker_01",
+    "speakerNpcId": "hiker",
+    "speakerName": { "th": "นักเดินป่า", "en": "Hiker" },
+    "lines": [
+      {
+        "l2": "このやまから のけしきは さいこうです！",
+        "reading": "このやまから のけしきは さいこうです！",
+        "translation": { "th": "วิวจากภูเขานี้ดีที่สุดเลย!", "en": "The view from this mountain is the best!" },
+        "newWordIds": ["ja_n5_yama"]
+      }
+    ],
+    "endsDialogue": true
+  }
+]

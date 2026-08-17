@@ -1,0 +1,206 @@
+[
+  {
+    "id": "th_con_khor_khai",
+    "lang": "th",
+    "written": "ข",
+    "reading": "ขอไข่",
+    "romanization": "kh",
+    "meaning": { "en": "the egg — high-class (kh sound)", "th": "ขอไข่ — อักษรสูง เสียงขอ" },
+    "pos": "character",
+    "element": "stone",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["thai", "consonant", "high_class"],
+    "frequency": 9999,
+    "audio": "voice/th/con_khor_khai.mp3",
+    "tone": 3,
+    "toneRule": "High-class consonant: no tone mark = rising tone (จัตวา); mai ek (่) = low; mai tho (้) = falling. High class NEVER gives mid or high tones with just a mark.",
+    "examples": [
+      {
+        "sentence": "ไข่ (khai) — egg",
+        "reading": "ไข่",
+        "translation": { "en": "ข leads ไข่ (egg) — the extra aspirated breath is what makes it high class.", "th": "ข นำคำว่า ไข่ (ไข่) — ลมพ่นออกมามากกว่าทำให้เป็นอักษรสูง" },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Khai-Rune",
+      "sprite": "kotodama/th_khor_khai.png",
+      "description": { "en": "A high-class spirit that floats high above the others. Its rising tone makes it sound eager and questioning.", "th": "วิญญาณอักษรสูงที่ล่องลอยสูงกว่าตัวอื่น เสียงจัตวาทำให้มันฟังดูกระตือรือร้น" },
+      "rarity": "uncommon",
+      "habitat": ["fresh_market"],
+      "evolveCondition": { "type": "review_streak", "value": 14 }
+    },
+    "mnemonic": { "en": "ข has an extra hook at the top — the 'extra breath' of aspiration that marks it as high class.", "th": "ข มีขอที่ยื่นออกไปด้านบน — คือลม 'พ่นพิเศษ' ที่บอกว่าเป็นอักษรสูง" }
+  },
+  {
+    "id": "th_con_sor_rua",
+    "lang": "th",
+    "written": "ส",
+    "reading": "สอเสือ",
+    "romanization": "s",
+    "meaning": { "en": "the tiger — high-class (s sound)", "th": "สอเสือ — อักษรสูง เสียงสอ" },
+    "pos": "character",
+    "element": "stone",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["thai", "consonant", "high_class"],
+    "frequency": 9999,
+    "audio": "voice/th/con_sor_rua.mp3",
+    "tone": 3,
+    "toneRule": "High-class consonant: no tone mark = rising tone (จัตวา); mai ek (่) = low; mai tho (้) = falling.",
+    "examples": [
+      {
+        "sentence": "สวัสดี (sa-wat-dee) — hello",
+        "reading": "สวัสดี",
+        "translation": { "en": "ส starts สวัสดี — the most important word in Thai!", "th": "ส ขึ้นต้นคำว่า สวัสดี — คำที่สำคัญที่สุดในภาษาไทย!" },
+        "context": "tuktuk_terminal"
+      }
+    ],
+    "kotodama": {
+      "name": "Suea-Rune",
+      "sprite": "kotodama/th_sor_suea.png",
+      "description": { "en": "A striped high-class spirit with a tiger's grace. It always greets you with a rising tone.", "th": "วิญญาณอักษรสูงที่มีลายเสือ มันทักทายคุณด้วยเสียงจัตวาเสมอ" },
+      "rarity": "uncommon",
+      "habitat": ["tuktuk_terminal"],
+      "evolveCondition": { "type": "review_streak", "value": 14 }
+    },
+    "mnemonic": { "en": "ส looks like a coiled tiger — the S-curve is the body ready to spring.", "th": "ส ดูเหมือนเสือขดตัว — เส้นโค้ง S คือลำตัวที่พร้อมจะโจน" }
+  },
+  {
+    "id": "th_con_mor_maa",
+    "lang": "th",
+    "written": "ม",
+    "reading": "มอม้า",
+    "romanization": "m",
+    "meaning": { "en": "the horse — low-class (m sound)", "th": "มอม้า — อักษรต่ำ เสียงมอ" },
+    "pos": "character",
+    "element": "stone",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["thai", "consonant", "low_class"],
+    "frequency": 9999,
+    "audio": "voice/th/con_mor_maa.mp3",
+    "tone": 0,
+    "toneRule": "Low-class consonant: no tone mark = mid tone (สามัญ); mai tho (้) = high; mai ek (่) = falling. Low class can give high tone — the opposite of high class!",
+    "examples": [
+      {
+        "sentence": "มะม่วง (ma-muang) — mango",
+        "reading": "มะม่วง",
+        "translation": { "en": "ม leads มะม่วง (mango) — the most beloved Thai fruit!", "th": "ม นำคำว่า มะม่วง (มะม่วง) — ผลไม้ที่คนไทยรักมากที่สุด!" },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Maa-Rune",
+      "sprite": "kotodama/th_mor_maa.png",
+      "description": { "en": "A low-class spirit that gallops. Despite being 'low class', it can reach the highest tones with mai tho!", "th": "วิญญาณอักษรต่ำที่วิ่งเหมือนม้า แม้จะเป็น 'อักษรต่ำ' แต่สามารถเป็นวรรณยุกต์สูงได้ด้วยไม้โท!" },
+      "rarity": "common",
+      "habitat": ["fresh_market"],
+      "evolveCondition": { "type": "review_streak", "value": 7 }
+    },
+    "mnemonic": { "en": "ม looks like a horse's head and mane from the front.", "th": "ม ดูเหมือนหัวและแผงคอม้าที่มองจากด้านหน้า" }
+  },
+  {
+    "id": "th_con_wor_waen",
+    "lang": "th",
+    "written": "ว",
+    "reading": "วอแหวน",
+    "romanization": "w",
+    "meaning": { "en": "the ring — low-class (w sound)", "th": "วอแหวน — อักษรต่ำ เสียงวอ" },
+    "pos": "character",
+    "element": "stone",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["thai", "consonant", "low_class"],
+    "frequency": 9999,
+    "audio": "voice/th/con_wor_waen.mp3",
+    "tone": 0,
+    "toneRule": "Low-class consonant: no tone mark = mid tone; mai tho (้) = high; mai ek (่) = falling.",
+    "examples": [
+      {
+        "sentence": "แหวน (waen) — ring",
+        "reading": "แหวน",
+        "translation": { "en": "ว leads แหวน (ring) — its circular shape matches its name.", "th": "ว นำคำว่า แหวน (แหวน) — รูปร่างกลมสอดคล้องกับความหมาย" },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Waen-Rune",
+      "sprite": "kotodama/th_wor_waen.png",
+      "description": { "en": "A low-class spirit shaped like a ring. It rolls around and links other Kotodama in sentence combos.", "th": "วิญญาณอักษรต่ำที่มีรูปร่างเหมือนแหวน มันกลิ้งไปมาและเชื่อมโยงโคโตดามะในคอมโบประโยค" },
+      "rarity": "common",
+      "habitat": ["tuktuk_terminal", "fresh_market"],
+      "evolveCondition": { "type": "combo_count", "value": 5 }
+    },
+    "mnemonic": { "en": "ว is a perfect circle — just like the แหวน (ring) it represents.", "th": "ว เป็นวงกลมสมบูรณ์ — เหมือนแหวนที่มันเป็นตัวแทน" }
+  },
+  {
+    "id": "th_con_yor_ying",
+    "lang": "th",
+    "written": "ย",
+    "reading": "ยอหญิง",
+    "romanization": "y",
+    "meaning": { "en": "the woman — low-class (y sound)", "th": "ยอหญิง — อักษรต่ำ เสียงยอ" },
+    "pos": "character",
+    "element": "stone",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["thai", "consonant", "low_class"],
+    "frequency": 9999,
+    "audio": "voice/th/con_yor_ying.mp3",
+    "tone": 0,
+    "toneRule": "Low-class consonant: no tone mark = mid tone; mai tho (้) = high; mai ek (่) = falling.",
+    "examples": [
+      {
+        "sentence": "ยี่สิบ (yii-sip) — twenty",
+        "reading": "ยี่สิบ",
+        "translation": { "en": "ย starts ยี่สิบ (twenty) — useful for bargaining at the market!", "th": "ย ขึ้นต้นคำว่า ยี่สิบ (ยี่สิบ) — มีประโยชน์สำหรับการต่อรองราคาในตลาด!" },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Ying-Rune",
+      "sprite": "kotodama/th_yor_ying.png",
+      "description": { "en": "A graceful low-class spirit. It counts things carefully and never forgets a number.", "th": "วิญญาณอักษรต่ำที่สง่างาม มันนับของอย่างระมัดระวังและไม่เคยลืมตัวเลข" },
+      "rarity": "common",
+      "habitat": ["fresh_market"],
+      "evolveCondition": { "type": "review_streak", "value": 7 }
+    },
+    "mnemonic": { "en": "ย has a descending tail — like a woman bowing gracefully.", "th": "ย มีหางที่ลงมาด้านล่าง — เหมือนผู้หญิงที่โค้งคำนับอย่างสง่างาม" }
+  },
+  {
+    "id": "th_con_chor_chang",
+    "lang": "th",
+    "written": "ช",
+    "reading": "ชอช้าง",
+    "romanization": "ch",
+    "meaning": { "en": "the elephant — low-class (ch sound)", "th": "ชอช้าง — อักษรต่ำ เสียงชอ" },
+    "pos": "character",
+    "element": "stone",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["thai", "consonant", "low_class"],
+    "frequency": 9999,
+    "audio": "voice/th/con_chor_chang.mp3",
+    "tone": 0,
+    "toneRule": "Low-class consonant: no tone mark = mid tone; mai tho (้) = high; mai ek (่) = falling.",
+    "examples": [
+      {
+        "sentence": "ช้าง (chaang) — elephant",
+        "reading": "ช้าง",
+        "translation": { "en": "ช leads ช้าง (elephant) — the symbol of Thailand itself!", "th": "ช นำคำว่า ช้าง (ช้าง) — สัญลักษณ์ของประเทศไทย!" },
+        "context": "tuktuk_terminal"
+      }
+    ],
+    "kotodama": {
+      "name": "Chang-Rune",
+      "sprite": "kotodama/th_chor_chang.png",
+      "description": { "en": "The largest of all Thai consonant spirits. It moves slowly but its memory is perfect — it never forgets a word it has learned.", "th": "วิญญาณพยัญชนะไทยที่ตัวใหญ่ที่สุด เคลื่อนที่ช้าแต่จำทุกอย่างได้ไม่มีลืม" },
+      "rarity": "uncommon",
+      "habitat": ["tuktuk_terminal"],
+      "evolveCondition": { "type": "chapter", "value": 11 }
+    },
+    "mnemonic": { "en": "ช has a trunk-like curve at the bottom — look for the elephant's nose.", "th": "ช มีส่วนโค้งที่ด้านล่างเหมือนงวงช้าง — มองหางวงช้างในตัวอักษร" }
+  }
+]

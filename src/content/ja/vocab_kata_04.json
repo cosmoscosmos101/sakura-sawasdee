@@ -1,0 +1,290 @@
+[
+  {
+    "id": "ja_kata_fu",
+    "lang": "ja",
+    "written": "フ",
+    "reading": "フ",
+    "romanization": "fu",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 'fu'", "en": "katakana for 'fu' — used in foreign loanwords" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "h_row"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_fu.mp3",
+    "examples": [
+      {
+        "sentence": "フルーツ (furuutsu) — fruit",
+        "reading": "フルーツ",
+        "translation": { "th": "ผลไม้ — フ เริ่มต้น!", "en": "Fruit — フ starts it!" },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Furu",
+      "sprite": "kotodama/kata_fu.png",
+      "description": { "en": "A hooked spirit shaped like フ. It swoops to grab fruit from the highest branches and never drops a single piece." },
+      "rarity": "common",
+      "habitat": ["fresh_market", "shopping_street"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "フ is an F-hook — FUshia blossom hanging from its stem, or a fisherman's hook." }
+  },
+  {
+    "id": "ja_kata_he",
+    "lang": "ja",
+    "written": "ヘ",
+    "reading": "ヘ",
+    "romanization": "he",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 'he'", "en": "katakana for 'he' — used in foreign loanwords" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "h_row"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_he.mp3",
+    "examples": [
+      {
+        "sentence": "ヘルメット (herumetto) — helmet",
+        "reading": "ヘルメット",
+        "translation": { "th": "หมวกกันน็อค — ヘ เริ่มต้น!", "en": "Helmet — ヘ starts it!" },
+        "context": "festival_grounds"
+      }
+    ],
+    "kotodama": {
+      "name": "Hene",
+      "sprite": "kotodama/kata_he.png",
+      "description": { "en": "A mountain-peak spirit shaped like ヘ. It perches at the highest point of any landscape and surveys the view below." },
+      "rarity": "common",
+      "habitat": ["autumn_hill", "festival_grounds"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "ヘ is a mountain peak — the HEight of a hill, perfectly pointed at the top." }
+  },
+  {
+    "id": "ja_kata_ho",
+    "lang": "ja",
+    "written": "ホ",
+    "reading": "ホ",
+    "romanization": "ho",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 'ho'", "en": "katakana for 'ho' — used in foreign loanwords" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "h_row"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_ho.mp3",
+    "examples": [
+      {
+        "sentence": "ホテル (hoteru) — hotel",
+        "reading": "ホテル",
+        "translation": { "th": "โรงแรม — ホ เริ่มต้น!", "en": "Hotel — ホ starts it!" },
+        "context": "airport"
+      }
+    ],
+    "kotodama": {
+      "name": "Horu",
+      "sprite": "kotodama/kata_ho.png",
+      "description": { "en": "A welcoming spirit shaped like ホ — a cross with outstretched arms. It always has a room ready for tired travellers." },
+      "rarity": "common",
+      "habitat": ["airport"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "ホ is a palm tree in a HOtel courtyard — trunk, crossbar, and two leaves spreading wide." }
+  },
+  {
+    "id": "ja_kata_ma",
+    "lang": "ja",
+    "written": "マ",
+    "reading": "マ",
+    "romanization": "ma",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 'ma'", "en": "katakana for 'ma' — used in foreign loanwords" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "m_row"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_ma.mp3",
+    "examples": [
+      {
+        "sentence": "マスク (masuku) — mask",
+        "reading": "マスク",
+        "translation": { "th": "หน้ากาก — マ เริ่มต้น!", "en": "Mask — マ starts it!" },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Maru",
+      "sprite": "kotodama/kata_ma.png",
+      "description": { "en": "A maternal spirit shaped like マ — a bun with a tail. It protects everything it cares for and always wears a mask to stay healthy." },
+      "rarity": "common",
+      "habitat": ["shopping_street"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "マ looks like a MA-mma's hair bun with a hairpin — a maternal ma shape." }
+  },
+  {
+    "id": "ja_kata_mi",
+    "lang": "ja",
+    "written": "ミ",
+    "reading": "ミ",
+    "romanization": "mi",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 'mi'", "en": "katakana for 'mi' — used in foreign loanwords" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "m_row"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_mi.mp3",
+    "examples": [
+      {
+        "sentence": "ミルク (miruku) — milk",
+        "reading": "ミルク",
+        "translation": { "th": "นม — ミ เริ่มต้น!", "en": "Milk — ミ starts it!" },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Miru",
+      "sprite": "kotodama/kata_mi.png",
+      "description": { "en": "A triple-striped spirit shaped like ミ. It flows in smooth parallel streams and always smells of fresh milk." },
+      "rarity": "common",
+      "habitat": ["fresh_market", "shopping_street"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "ミ is three horizontal lines — three MIlk ripples spreading across a calm surface." }
+  },
+  {
+    "id": "ja_kata_mu",
+    "lang": "ja",
+    "written": "ム",
+    "reading": "ム",
+    "romanization": "mu",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 'mu'", "en": "katakana for 'mu' — used in foreign loanwords" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "m_row"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_mu.mp3",
+    "examples": [
+      {
+        "sentence": "ムービー (muubii) — movie",
+        "reading": "ムービー",
+        "translation": { "th": "ภาพยนตร์ — ム เริ่มต้น!", "en": "Movie — ム starts it!" },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Muru",
+      "sprite": "kotodama/kata_mu.png",
+      "description": { "en": "A mood-setting spirit shaped like ム. It projects tiny films from its eyes and fills every room with atmosphere." },
+      "rarity": "common",
+      "habitat": ["shopping_street"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "ム looks like a MUsed cow's head from the front — a MU-stache and two horns." }
+  },
+  {
+    "id": "ja_kata_me",
+    "lang": "ja",
+    "written": "メ",
+    "reading": "メ",
+    "romanization": "me",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 'me'", "en": "katakana for 'me' — used in foreign loanwords" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "m_row"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_me.mp3",
+    "examples": [
+      {
+        "sentence": "メニュー (menyuu) — menu",
+        "reading": "メニュー",
+        "translation": { "th": "เมนู — メ เริ่มต้น!", "en": "Menu — メ starts it!" },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Mene",
+      "sprite": "kotodama/kata_me.png",
+      "description": { "en": "An X-eyed spirit shaped like メ. It reads every menu in every restaurant and memorises the entire dish list." },
+      "rarity": "common",
+      "habitat": ["fresh_market", "shopping_street"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "メ is an X with a dot — an MEye (crossed eyes) staring at the menu trying to choose." }
+  },
+  {
+    "id": "ja_kata_mo",
+    "lang": "ja",
+    "written": "モ",
+    "reading": "モ",
+    "romanization": "mo",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 'mo'", "en": "katakana for 'mo' — used in foreign loanwords" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "m_row"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_mo.mp3",
+    "examples": [
+      {
+        "sentence": "モデル (moderu) — model",
+        "reading": "モデル",
+        "translation": { "th": "นางแบบ / โมเดล — モ เริ่มต้น!", "en": "Model — モ starts it!" },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Moru",
+      "sprite": "kotodama/kata_mo.png",
+      "description": { "en": "A multi-layered spirit shaped like モ — more strokes than ミ, more presence. It always wants MORE." },
+      "rarity": "common",
+      "habitat": ["shopping_street"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "モ is like ミ with an extra stroke at the bottom — MO-re lines, MO-re style." }
+  },
+  {
+    "id": "ja_kata_ya",
+    "lang": "ja",
+    "written": "ヤ",
+    "reading": "ヤ",
+    "romanization": "ya",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 'ya'", "en": "katakana for 'ya' — used in foreign loanwords" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "y_row"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_ya.mp3",
+    "examples": [
+      {
+        "sentence": "ヤクルト (Yakuruto) — Yakult (yogurt drink)",
+        "reading": "ヤクルト",
+        "translation": { "th": "ยาคูลท์ — ヤ เริ่มต้น!", "en": "Yakult — ヤ starts it!" },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Yaru",
+      "sprite": "kotodama/kata_ya.png",
+      "description": { "en": "A forked spirit shaped like ヤ. It branches into two paths at every crossroads and still manages to pick the better one." },
+      "rarity": "common",
+      "habitat": ["fresh_market", "shopping_street"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "ヤ is a Y-shaped tree branch — a YArd tree forking at the top." }
+  }
+]

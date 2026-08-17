@@ -1,0 +1,27 @@
+# Cursor rules for Sakura & Sawasdee
+
+Read `CLAUDE.md` at the project root before writing any code. It is the project
+constitution and overrides anything that conflicts with it.
+
+Quick reference — the rules most often broken:
+
+1. `src/learning/` must not import from `game/`, `ui/`, Phaser or React. Pure logic only.
+2. `src/game/` must not import React. `src/ui/` must not import Phaser at runtime
+   (`import type` and dynamic `import()` are fine).
+3. Phaser and React communicate ONLY through `src/state/eventBus.ts` and Zustand stores.
+4. No file over 300 lines. No `any`. No `@ts-ignore`.
+5. Colours come from `src/game/palette.ts`. Never hardcode a hex value.
+   Never use pure black or pure white.
+6. Never hardcode Thai or Japanese text in code — it lives in `src/content/` or `src/i18n/`.
+7. Every function in `src/learning/` needs a Vitest unit test.
+8. Never write a TODO, placeholder or mock without saying so explicitly in your reply.
+
+Design pillars every feature must satisfy:
+
+- **Always gentle** — wrong answers must not punish; fleeing always works
+- **Every mechanic teaches** — no minigame unrelated to language
+- **Living pastel** — every scene has something always in motion
+- **Comprehensible from day one** — dialogue adapts to known words
+- **Culture as mechanic** — politeness, keigo and tones are real systems
+
+Build order lives in `docs/02_Prompt_Pack.md`. Do not skip phases.

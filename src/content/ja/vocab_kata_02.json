@@ -1,0 +1,290 @@
+[
+  {
+    "id": "ja_kata_ko",
+    "lang": "ja",
+    "written": "コ",
+    "reading": "コ",
+    "romanization": "ko",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 'ko'", "en": "katakana for 'ko' — used in foreign loanwords" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "k_row"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_ko.mp3",
+    "examples": [
+      {
+        "sentence": "コーヒー (koohii) — coffee",
+        "reading": "コーヒー",
+        "translation": { "th": "กาแฟ — コ เริ่มต้น!", "en": "Coffee — コ starts it!" },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Koru",
+      "sprite": "kotodama/kata_ko.png",
+      "description": { "en": "A blocky spirit shaped like コ. It smells of coffee and appears wherever there is a café or convenience store nearby." },
+      "rarity": "common",
+      "habitat": ["shopping_street"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "コ looks like a sideways C — a COffeecup seen from the side, handle included." }
+  },
+  {
+    "id": "ja_kata_sa",
+    "lang": "ja",
+    "written": "サ",
+    "reading": "サ",
+    "romanization": "sa",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 'sa'", "en": "katakana for 'sa' — used in foreign loanwords" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "s_row"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_sa.mp3",
+    "examples": [
+      {
+        "sentence": "サラダ (sarada) — salad",
+        "reading": "サラダ",
+        "translation": { "th": "สลัด — サ เริ่มต้น!", "en": "Salad — サ starts it!" },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Sara",
+      "sprite": "kotodama/kata_sa.png",
+      "description": { "en": "A three-stroke spirit shaped like サ. It loves fresh vegetables and dances between the market stalls." },
+      "rarity": "common",
+      "habitat": ["fresh_market", "shopping_street"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "サ is like three people bowing — a SALute from three SAmuRAi." }
+  },
+  {
+    "id": "ja_kata_shi",
+    "lang": "ja",
+    "written": "シ",
+    "reading": "シ",
+    "romanization": "shi",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 'shi'", "en": "katakana for 'shi' — used in foreign loanwords" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "s_row"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_shi.mp3",
+    "examples": [
+      {
+        "sentence": "シャツ (shatsu) — shirt",
+        "reading": "シャツ",
+        "translation": { "th": "เสื้อเชิ้ต — シ เริ่มต้น!", "en": "Shirt — シ starts it!" },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Shiu",
+      "sprite": "kotodama/kata_shi.png",
+      "description": { "en": "A smiley spirit shaped like シ — two dots for eyes and a curved mouth. It always looks pleased to see you." },
+      "rarity": "common",
+      "habitat": ["shopping_street"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "シ is a SHEEpish smiley face: two eyes (dots) and a curved mouth, lying on its side." }
+  },
+  {
+    "id": "ja_kata_su",
+    "lang": "ja",
+    "written": "ス",
+    "reading": "ス",
+    "romanization": "su",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 'su'", "en": "katakana for 'su' — used in foreign loanwords" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "s_row"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_su.mp3",
+    "examples": [
+      {
+        "sentence": "スポーツ (supootsu) — sports",
+        "reading": "スポーツ",
+        "translation": { "th": "กีฬา — ス เริ่มต้น!", "en": "Sports — ス starts it!" },
+        "context": "festival_grounds"
+      }
+    ],
+    "kotodama": {
+      "name": "Suru",
+      "sprite": "kotodama/kata_su.png",
+      "description": { "en": "A sporty spirit shaped like ス. It leans forward like a sprinter in the starting blocks, always ready to dash." },
+      "rarity": "common",
+      "habitat": ["festival_grounds", "shopping_street"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "ス is a SPoon leaning forward — SUmmons the soup, leans in to scoop." }
+  },
+  {
+    "id": "ja_kata_se",
+    "lang": "ja",
+    "written": "セ",
+    "reading": "セ",
+    "romanization": "se",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 'se'", "en": "katakana for 'se' — used in foreign loanwords" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "s_row"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_se.mp3",
+    "examples": [
+      {
+        "sentence": "セーター (seetaa) — sweater",
+        "reading": "セーター",
+        "translation": { "th": "เสื้อกันหนาว — セ เริ่มต้น!", "en": "Sweater — セ starts it!" },
+        "context": "winter_courtyard"
+      }
+    ],
+    "kotodama": {
+      "name": "Sene",
+      "sprite": "kotodama/kata_se.png",
+      "description": { "en": "A cozy spirit shaped like セ. It trails a warm woollen thread wherever it goes and wraps visitors against the cold." },
+      "rarity": "common",
+      "habitat": ["winter_courtyard", "shopping_street"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "セ looks like an F mirrored — it SEams like it's sewing a sweater with that needle stroke." }
+  },
+  {
+    "id": "ja_kata_so",
+    "lang": "ja",
+    "written": "ソ",
+    "reading": "ソ",
+    "romanization": "so",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 'so'", "en": "katakana for 'so' — used in foreign loanwords" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "s_row"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_so.mp3",
+    "examples": [
+      {
+        "sentence": "ソース (soosu) — sauce",
+        "reading": "ソース",
+        "translation": { "th": "ซอส — ソ เริ่มต้น!", "en": "Sauce — ソ starts it!" },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Soru",
+      "sprite": "kotodama/kata_so.png",
+      "description": { "en": "A dripping spirit shaped like ソ — two strokes trailing down like sauce poured over noodles." },
+      "rarity": "common",
+      "habitat": ["fresh_market", "shopping_street"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "ソ is two drops of SOda dripping down from a can — SO refreshing!" }
+  },
+  {
+    "id": "ja_kata_ta",
+    "lang": "ja",
+    "written": "タ",
+    "reading": "タ",
+    "romanization": "ta",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 'ta'", "en": "katakana for 'ta' — used in foreign loanwords" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "t_row"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_ta.mp3",
+    "examples": [
+      {
+        "sentence": "タクシー (takushii) — taxi",
+        "reading": "タクシー",
+        "translation": { "th": "แท็กซี่ — タ เริ่มต้น!", "en": "Taxi — タ starts it!" },
+        "context": "sakura_station"
+      }
+    ],
+    "kotodama": {
+      "name": "Taru",
+      "sprite": "kotodama/kata_ta.png",
+      "description": { "en": "A fast-moving spirit shaped like タ. It zooms through city streets and always knows the shortest route." },
+      "rarity": "common",
+      "habitat": ["sakura_station", "shopping_street"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "タ looks like a clock with one hand pointing down — TAxi, it's time to go!" }
+  },
+  {
+    "id": "ja_kata_chi",
+    "lang": "ja",
+    "written": "チ",
+    "reading": "チ",
+    "romanization": "chi",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 'chi'", "en": "katakana for 'chi' — used in foreign loanwords" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "t_row"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_chi.mp3",
+    "examples": [
+      {
+        "sentence": "チーズ (chiizu) — cheese",
+        "reading": "チーズ",
+        "translation": { "th": "ชีส — チ เริ่มต้น!", "en": "Cheese — チ starts it!" },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Chiru",
+      "sprite": "kotodama/kata_chi.png",
+      "description": { "en": "A melty spirit shaped like チ. It stretches like warm cheese and loves to form bridges between Kotodama." },
+      "rarity": "common",
+      "habitat": ["shopping_street"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "チ looks like a CHIcken's beak open wide — CHEEse, please!" }
+  },
+  {
+    "id": "ja_kata_tsu",
+    "lang": "ja",
+    "written": "ツ",
+    "reading": "ツ",
+    "romanization": "tsu",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 'tsu'", "en": "katakana for 'tsu' — used in foreign loanwords" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "t_row"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_tsu.mp3",
+    "examples": [
+      {
+        "sentence": "ツアー (tsuaa) — tour",
+        "reading": "ツアー",
+        "translation": { "th": "ทัวร์ — ツ เริ่มต้น!", "en": "Tour — ツ starts it!" },
+        "context": "airport"
+      }
+    ],
+    "kotodama": {
+      "name": "Tsuru",
+      "sprite": "kotodama/kata_tsu.png",
+      "description": { "en": "A wave-crested spirit shaped like ツ. It crashes forward like a TSunami and carries you on tours you never expected." },
+      "rarity": "common",
+      "habitat": ["airport", "sakura_station"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "ツ has two dots above a swooping line — a TSUnami's two waves crashing onto shore." }
+  }
+]

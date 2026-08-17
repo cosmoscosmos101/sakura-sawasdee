@@ -1,0 +1,1262 @@
+[
+  {
+    "id": "th_adj_di",
+    "lang": "th",
+    "written": "ดี",
+    "reading": "di",
+    "romanization": "di",
+    "meaning": { "en": "good", "th": "มีคุณภาพหรือคุณสมบัติที่ดี" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["adjective", "quality", "thai"],
+    "frequency": 9000,
+    "audio": "voice/th/th_adj_di.mp3",
+    "tone": 0,
+    "toneRule": "ด (mid class) + no mark + live → mid(0)",
+    "examples": [
+      {
+        "sentence": "เขาเป็นคนดีมาก",
+        "reading": "khao pen khon di mak",
+        "translation": { "en": "He is a very good person.", "th": "เขาเป็นคนที่ดีมาก" },
+        "context": "neighbourhood"
+      }
+    ],
+    "kotodama": {
+      "name": "Diglow",
+      "sprite": "kotodama/th_adj_di.png",
+      "description": {
+        "en": "A soft golden spirit that radiates warmth whenever someone does the right thing.",
+        "th": "วิญญาณสีทองอ่อนที่แผ่ความอบอุ่นเมื่อใดก็ตามที่มีคนทำสิ่งที่ถูกต้อง"
+      },
+      "rarity": "common",
+      "habitat": ["temple", "neighbourhood"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_adj_mai_di",
+    "lang": "th",
+    "written": "ไม่ดี",
+    "reading": "mai di",
+    "romanization": "mai di",
+    "meaning": { "en": "bad; not good", "th": "ไม่มีคุณภาพหรือไม่ดีพอ" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["adjective", "quality", "negation", "thai"],
+    "frequency": 5000,
+    "audio": "voice/th/th_adj_mai_di.mp3",
+    "tone": 2,
+    "toneRule": "ไม่ — ม (low class) + mai ek → falling(2); ดี — mid(0). Compound: falling(2) on negator",
+    "examples": [
+      {
+        "sentence": "อากาศวันนี้ไม่ดีเลย",
+        "reading": "akat wan ni mai di loei",
+        "translation": { "en": "The weather today is really bad.", "th": "สภาพอากาศวันนี้ไม่ดีเลย" },
+        "context": "neighbourhood"
+      }
+    ],
+    "kotodama": {
+      "name": "Maidifog",
+      "sprite": "kotodama/th_adj_mai_di.png",
+      "description": {
+        "en": "A grey foggy spirit that sulks in corners but cheers up quickly with kindness.",
+        "th": "วิญญาณหมอกสีเทาที่ngอยู่มุมห้อง แต่ฟื้นตัวเร็วด้วยความเมตตา"
+      },
+      "rarity": "common",
+      "habitat": ["old_town", "neighbourhood"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_adj_mai",
+    "lang": "th",
+    "written": "ใหม่",
+    "reading": "mai",
+    "romanization": "mai",
+    "meaning": { "en": "new", "th": "ยังไม่เคยใช้หรือเพิ่งเกิดขึ้น" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["adjective", "quality", "thai"],
+    "frequency": 7000,
+    "audio": "voice/th/th_adj_mai.mp3",
+    "tone": 4,
+    "toneRule": "ม (low class) + no mark + live → mid(0); ใหม่ carries rising(4) via vowel pattern ใ + live",
+    "examples": [
+      {
+        "sentence": "รองเท้าใหม่ของฉันสวยมาก",
+        "reading": "rong thao mai khong chan suai mak",
+        "translation": { "en": "My new shoes are very pretty.", "th": "รองเท้าใหม่ของฉันสวยมาก" },
+        "context": "old_town"
+      }
+    ],
+    "kotodama": {
+      "name": "Maishine",
+      "sprite": "kotodama/th_adj_mai.png",
+      "description": {
+        "en": "A sparkling spirit that smells of fresh paint and crisp packaging.",
+        "th": "วิญญาณแวววาวที่มีกลิ่นสีทาใหม่และกล่องบรรจุภัณฑ์กรอบ"
+      },
+      "rarity": "common",
+      "habitat": ["old_town", "neighbourhood"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_adj_kao",
+    "lang": "th",
+    "written": "เก่า",
+    "reading": "kao",
+    "romanization": "kao",
+    "meaning": { "en": "old; worn; ancient", "th": "ใช้มานานหรือมีอายุมาก" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["adjective", "quality", "thai"],
+    "frequency": 5500,
+    "audio": "voice/th/th_adj_kao.mp3",
+    "tone": 1,
+    "toneRule": "ก (mid class) + mai ek → low(1)",
+    "examples": [
+      {
+        "sentence": "บ้านเก่าหลังนั้นมีประวัติยาวนาน",
+        "reading": "baan kao lang nan mi prawat yao naan",
+        "translation": { "en": "That old house has a long history.", "th": "บ้านเก่าหลังนั้นมีประวัติยาวนาน" },
+        "context": "old_town"
+      }
+    ],
+    "kotodama": {
+      "name": "Kaoworn",
+      "sprite": "kotodama/th_adj_kao.png",
+      "description": {
+        "en": "A faded amber spirit covered in tiny cracks that each hold a story.",
+        "th": "วิญญาณอำพันซีดที่มีรอยแตกเล็กๆ ซึ่งแต่ละรอยเก็บเรื่องราว"
+      },
+      "rarity": "common",
+      "habitat": ["old_town", "temple"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_adj_yai",
+    "lang": "th",
+    "written": "ใหญ่",
+    "reading": "yai",
+    "romanization": "yai",
+    "meaning": { "en": "big; large", "th": "มีขนาดใหญ่" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["adjective", "size", "thai"],
+    "frequency": 8000,
+    "audio": "voice/th/th_adj_yai.mp3",
+    "tone": 1,
+    "toneRule": "ย (low class) + mai ek → low(1)",
+    "examples": [
+      {
+        "sentence": "ตลาดใหญ่มีของขายเยอะมาก",
+        "reading": "talat yai mi khong khai yoe mak",
+        "translation": { "en": "A big market has many things for sale.", "th": "ตลาดใหญ่มีสินค้าขายเยอะมาก" },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Yaibig",
+      "sprite": "kotodama/th_adj_yai.png",
+      "description": {
+        "en": "A large expanding spirit that puffs up when proud and needs lots of space.",
+        "th": "วิญญาณที่ขยายใหญ่โตเมื่อภูมิใจและต้องการพื้นที่มาก"
+      },
+      "rarity": "common",
+      "habitat": ["fresh_market", "old_town"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_adj_lek",
+    "lang": "th",
+    "written": "เล็ก",
+    "reading": "lek",
+    "romanization": "lek",
+    "meaning": { "en": "small; little", "th": "มีขนาดเล็ก" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["adjective", "size", "thai"],
+    "frequency": 7000,
+    "audio": "voice/th/th_adj_lek.mp3",
+    "tone": 3,
+    "toneRule": "ล (low class) + dead syllable + no mark → high(3)",
+    "examples": [
+      {
+        "sentence": "ลูกแมวตัวเล็กน่ารักมาก",
+        "reading": "luk maeo tua lek na rak mak",
+        "translation": { "en": "The kitten is small and very cute.", "th": "ลูกแมวตัวเล็กน่ารักมาก" },
+        "context": "neighbourhood"
+      }
+    ],
+    "kotodama": {
+      "name": "Lektiny",
+      "sprite": "kotodama/th_adj_lek.png",
+      "description": {
+        "en": "A tiny spirit that fits in a teacup and squeaks when startled.",
+        "th": "วิญญาณจิ๋วที่ใส่ในถ้วยชาได้และส่งเสียงจี๊ดเมื่อตกใจ"
+      },
+      "rarity": "common",
+      "habitat": ["neighbourhood", "temple"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_adj_sung",
+    "lang": "th",
+    "written": "สูง",
+    "reading": "sung",
+    "romanization": "sung",
+    "meaning": { "en": "tall; high", "th": "มีความสูงมาก" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["adjective", "size", "height", "thai"],
+    "frequency": 5000,
+    "audio": "voice/th/th_adj_sung.mp3",
+    "tone": 4,
+    "toneRule": "ส (high class) + no mark + live → rising(4)",
+    "examples": [
+      {
+        "sentence": "ตึกนั้นสูงมากจนมองไม่เห็นยอด",
+        "reading": "tuek nan sung mak chon mong mai hen yot",
+        "translation": { "en": "That building is so tall you can't see the top.", "th": "ตึกนั้นสูงมากจนมองไม่เห็นยอด" },
+        "context": "old_town"
+      }
+    ],
+    "kotodama": {
+      "name": "Sungtower",
+      "sprite": "kotodama/th_adj_sung.png",
+      "description": {
+        "en": "A tall slender spirit that stretches upward and loves cloud-watching.",
+        "th": "วิญญาณสูงบางที่ยืดตัวขึ้นไปและรักการชมเมฆ"
+      },
+      "rarity": "common",
+      "habitat": ["old_town", "temple"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_adj_tia",
+    "lang": "th",
+    "written": "เตี้ย",
+    "reading": "tia",
+    "romanization": "tia",
+    "meaning": { "en": "short; low (in height)", "th": "มีความสูงน้อย" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["adjective", "size", "height", "thai"],
+    "frequency": 2500,
+    "audio": "voice/th/th_adj_tia.mp3",
+    "tone": 2,
+    "toneRule": "ต (mid class) + mai tho → falling(2)",
+    "examples": [
+      {
+        "sentence": "โต๊ะเตี้ยนี้เหมาะสำหรับเด็กเล็ก",
+        "reading": "to tia ni mao samrap dek lek",
+        "translation": { "en": "This low table is suitable for small children.", "th": "โต๊ะเตี้ยนี้เหมาะสำหรับเด็กเล็ก" },
+        "context": "neighbourhood"
+      }
+    ],
+    "kotodama": {
+      "name": "Tialowly",
+      "sprite": "kotodama/th_adj_tia.png",
+      "description": {
+        "en": "A squat little spirit that hides under furniture and knows every low corner.",
+        "th": "วิญญาณเตี้ยๆ ที่ซ่อนอยู่ใต้เฟอร์นิเจอร์และรู้จักทุกมุมต่ำ"
+      },
+      "rarity": "common",
+      "habitat": ["neighbourhood", "old_town"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_adj_yao",
+    "lang": "th",
+    "written": "ยาว",
+    "reading": "yao",
+    "romanization": "yao",
+    "meaning": { "en": "long", "th": "มีความยาวมาก" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["adjective", "length", "thai"],
+    "frequency": 4500,
+    "audio": "voice/th/th_adj_yao.mp3",
+    "tone": 0,
+    "toneRule": "ย (low class) + no mark + live → mid(0)",
+    "examples": [
+      {
+        "sentence": "แม่น้ำโขงยาวมากที่สุดในอาเซียน",
+        "reading": "mae nam khong yao mak thi sut nai asean",
+        "translation": { "en": "The Mekong River is the longest in ASEAN.", "th": "แม่น้ำโขงยาวมากที่สุดในอาเซียน" },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Yaostretch",
+      "sprite": "kotodama/th_adj_yao.png",
+      "description": {
+        "en": "A ribbon-like spirit that stretches to any length and loves winding rivers.",
+        "th": "วิญญาณรูปริบบิ้นที่ยืดออกได้ทุกความยาวและรักแม่น้ำคดเคี้ยว"
+      },
+      "rarity": "common",
+      "habitat": ["pier", "rice_field"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_adj_san",
+    "lang": "th",
+    "written": "สั้น",
+    "reading": "san",
+    "romanization": "san",
+    "meaning": { "en": "short (length)", "th": "มีความยาวน้อย" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["adjective", "length", "thai"],
+    "frequency": 3500,
+    "audio": "voice/th/th_adj_san.mp3",
+    "tone": 2,
+    "toneRule": "ส (high class) + mai tho → falling(2)",
+    "examples": [
+      {
+        "sentence": "เส้นทางสั้นกว่าที่คิด",
+        "reading": "sen thang san kwa thi khit",
+        "translation": { "en": "The route is shorter than I thought.", "th": "เส้นทางสั้นกว่าที่คิด" },
+        "context": "neighbourhood"
+      }
+    ],
+    "kotodama": {
+      "name": "Sansnip",
+      "sprite": "kotodama/th_adj_san.png",
+      "description": {
+        "en": "A compact spirit that moves quickly and never takes the long way around.",
+        "th": "วิญญาณกะทัดรัดที่เคลื่อนไหวเร็วและไม่เคยไปวนทางยาว"
+      },
+      "rarity": "common",
+      "habitat": ["neighbourhood", "old_town"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_adj_nak",
+    "lang": "th",
+    "written": "หนัก",
+    "reading": "nak",
+    "romanization": "nak",
+    "meaning": { "en": "heavy", "th": "มีน้ำหนักมาก" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["adjective", "weight", "thai"],
+    "frequency": 4000,
+    "audio": "voice/th/th_adj_nak.mp3",
+    "tone": 1,
+    "toneRule": "ห (high class) + dead syllable + no mark → low(1)",
+    "examples": [
+      {
+        "sentence": "กระเป๋าใบนี้หนักมากเลย",
+        "reading": "krapao bai ni nak mak loei",
+        "translation": { "en": "This bag is really heavy.", "th": "กระเป๋าใบนี้หนักมากเลย" },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Nakstone",
+      "sprite": "kotodama/th_adj_nak.png",
+      "description": {
+        "en": "A dense grey spirit that sinks straight to the ground and holds everything still.",
+        "th": "วิญญาณสีเทาหนาแน่นที่จมลงสู่พื้นทันทีและยึดทุกอย่างให้อยู่กับที่"
+      },
+      "rarity": "common",
+      "habitat": ["fresh_market", "pier"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_adj_bao",
+    "lang": "th",
+    "written": "เบา",
+    "reading": "bao",
+    "romanization": "bao",
+    "meaning": { "en": "light (weight); soft (sound)", "th": "มีน้ำหนักเบาหรือเสียงเบา" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["adjective", "weight", "sound", "thai"],
+    "frequency": 4000,
+    "audio": "voice/th/th_adj_bao.mp3",
+    "tone": 0,
+    "toneRule": "บ (mid class) + no mark + live → mid(0)",
+    "examples": [
+      {
+        "sentence": "ขนนกเบามากจนลมพัดปลิว",
+        "reading": "khon nok bao mak chon lom phat pliw",
+        "translation": { "en": "The feather is so light the wind blows it away.", "th": "ขนนกเบามากจนลมพัดปลิว" },
+        "context": "rice_field"
+      }
+    ],
+    "kotodama": {
+      "name": "Baodrift",
+      "sprite": "kotodama/th_adj_bao.png",
+      "description": {
+        "en": "A feather-light spirit that floats at the slightest breeze and never lands hard.",
+        "th": "วิญญาณเบาเหมือนขนนกที่ล่องลอยตามลมเล็กน้อยและไม่เคยลงจอดหนัก"
+      },
+      "rarity": "common",
+      "habitat": ["rice_field", "neighbourhood"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_adj_ron",
+    "lang": "th",
+    "written": "ร้อน",
+    "reading": "ron",
+    "romanization": "ron",
+    "meaning": { "en": "hot", "th": "มีอุณหภูมิสูง" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["adjective", "temperature", "thai"],
+    "frequency": 6000,
+    "audio": "voice/th/th_adj_ron.mp3",
+    "tone": 3,
+    "toneRule": "ร (low class) + mai tho → high(3)",
+    "examples": [
+      {
+        "sentence": "อากาศร้อนมากในฤดูร้อน",
+        "reading": "akat ron mak nai rueduu ron",
+        "translation": { "en": "It is very hot in summer.", "th": "อากาศร้อนมากในฤดูร้อน" },
+        "context": "neighbourhood"
+      }
+    ],
+    "kotodama": {
+      "name": "Ronflare",
+      "sprite": "kotodama/th_adj_ron.png",
+      "description": {
+        "en": "A shimmering heat-haze spirit that makes the air wobble around it.",
+        "th": "วิญญาณระยิบระยับเหมือนอากาศร้อนที่ทำให้อากาศโดยรอบสั่นไหว"
+      },
+      "rarity": "common",
+      "habitat": ["rice_field", "old_town"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_adj_yen",
+    "lang": "th",
+    "written": "เย็น",
+    "reading": "yen",
+    "romanization": "yen",
+    "meaning": { "en": "cold; cool", "th": "มีอุณหภูมิต่ำ" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["adjective", "temperature", "thai"],
+    "frequency": 5500,
+    "audio": "voice/th/th_adj_yen.mp3",
+    "tone": 0,
+    "toneRule": "ย (low class) + no mark + live → mid(0)",
+    "examples": [
+      {
+        "sentence": "น้ำเย็นๆ ช่วยคลายร้อนได้",
+        "reading": "nam yen yen chuai khlai ron dai",
+        "translation": { "en": "Cold water helps relieve the heat.", "th": "น้ำเย็นๆ ช่วยคลายร้อนได้" },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Yenchill",
+      "sprite": "kotodama/th_adj_yen.png",
+      "description": {
+        "en": "A pale blue spirit that leaves tiny frost crystals wherever it rests.",
+        "th": "วิญญาณสีฟ้าซีดที่ทิ้งผลึกน้ำแข็งจิ๋วไว้ทุกที่ที่มันพัก"
+      },
+      "rarity": "common",
+      "habitat": ["pier", "floating_market"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_adj_un",
+    "lang": "th",
+    "written": "อุ่น",
+    "reading": "un",
+    "romanization": "un",
+    "meaning": { "en": "warm", "th": "มีอุณหภูมิอบอุ่น" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["adjective", "temperature", "thai"],
+    "frequency": 3000,
+    "audio": "voice/th/th_adj_un.mp3",
+    "tone": 1,
+    "toneRule": "อ (mid class) + mai ek → low(1)",
+    "examples": [
+      {
+        "sentence": "ชาร้อนทำให้รู้สึกอุ่นดี",
+        "reading": "chaa ron tham hai ruu suek un di",
+        "translation": { "en": "Hot tea makes you feel nicely warm.", "th": "ชาร้อนทำให้รู้สึกอบอุ่น" },
+        "context": "old_town"
+      }
+    ],
+    "kotodama": {
+      "name": "Unwarm",
+      "sprite": "kotodama/th_adj_un.png",
+      "description": {
+        "en": "A gentle amber spirit that wraps around shoulders like a warm blanket.",
+        "th": "วิญญาณอำพันอ่อนโยนที่พันรอบไหล่เหมือนผ้าห่มอุ่น"
+      },
+      "rarity": "common",
+      "habitat": ["temple", "neighbourhood", "old_town"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_adj_suai",
+    "lang": "th",
+    "written": "สวย",
+    "reading": "suai",
+    "romanization": "suai",
+    "meaning": { "en": "beautiful; pretty", "th": "มีรูปลักษณ์ที่งดงาม" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["adjective", "appearance", "thai"],
+    "frequency": 7500,
+    "audio": "voice/th/th_adj_suai.mp3",
+    "tone": 4,
+    "toneRule": "ส (high class) + no mark + live → rising(4)",
+    "examples": [
+      {
+        "sentence": "ดอกบัวในวัดสวยมาก",
+        "reading": "dok bua nai wat suai mak",
+        "translation": { "en": "The lotus flowers in the temple are very beautiful.", "th": "ดอกบัวในวัดสวยมาก" },
+        "context": "temple"
+      }
+    ],
+    "kotodama": {
+      "name": "Suaipetal",
+      "sprite": "kotodama/th_adj_suai.png",
+      "description": {
+        "en": "A rosy spirit that scatters sakura petals wherever it goes.",
+        "th": "วิญญาณสีชมพูที่โปรยกลีบดอกซากุระทุกที่ที่เดินผ่าน"
+      },
+      "rarity": "uncommon",
+      "habitat": ["temple", "neighbourhood", "floating_market"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_adj_lo",
+    "lang": "th",
+    "written": "หล่อ",
+    "reading": "lo",
+    "romanization": "lo",
+    "meaning": { "en": "handsome", "th": "มีรูปลักษณ์ที่ดูดีสำหรับผู้ชาย" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["adjective", "appearance", "thai"],
+    "frequency": 3500,
+    "audio": "voice/th/th_adj_lo.mp3",
+    "tone": 1,
+    "toneRule": "ห (high class) leads ห+ล cluster → high class; หล่อ = high class + mai ek → low(1)",
+    "examples": [
+      {
+        "sentence": "นักแสดงคนนั้นหล่อมากเลย",
+        "reading": "nak sadaeng khon nan lo mak loei",
+        "translation": { "en": "That actor is really handsome.", "th": "นักแสดงคนนั้นหล่อมากเลย" },
+        "context": "old_town"
+      }
+    ],
+    "kotodama": {
+      "name": "Locharm",
+      "sprite": "kotodama/th_adj_lo.png",
+      "description": {
+        "en": "A dashing spirit that always has perfectly groomed hair and a confident smile.",
+        "th": "วิญญาณหล่อเหลาที่มีผมเรียบร้อยสมบูรณ์แบบและรอยยิ้มมั่นใจเสมอ"
+      },
+      "rarity": "uncommon",
+      "habitat": ["old_town", "neighbourhood"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_adj_na_kliat",
+    "lang": "th",
+    "written": "น่าเกลียด",
+    "reading": "na kliat",
+    "romanization": "na kliat",
+    "meaning": { "en": "ugly; unattractive", "th": "มีรูปลักษณ์ที่ไม่น่ามอง" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["adjective", "appearance", "thai"],
+    "frequency": 2000,
+    "audio": "voice/th/th_adj_na_kliat.mp3",
+    "tone": 2,
+    "toneRule": "น่า — น (low class) + mai ek → falling(2); เกลียด — ก (mid class) + dead → low(1). Compound: falling(2)",
+    "examples": [
+      {
+        "sentence": "เขาไม่ได้น่าเกลียดเลย แค่แตกต่าง",
+        "reading": "khao mai dai na kliat loei khae taek tang",
+        "translation": { "en": "He is not ugly at all — just different.", "th": "เขาไม่ได้น่าเกลียดเลย เพียงแค่แตกต่าง" },
+        "context": "neighbourhood"
+      }
+    ],
+    "kotodama": {
+      "name": "Kliatwilt",
+      "sprite": "kotodama/th_adj_na_kliat.png",
+      "description": {
+        "en": "A crumpled spirit with a kind heart who has learned that looks are not everything.",
+        "th": "วิญญาณย่นๆ ที่มีจิตใจดีและได้เรียนรู้ว่ารูปลักษณ์ไม่ใช่ทุกอย่าง"
+      },
+      "rarity": "common",
+      "habitat": ["old_town", "neighbourhood"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_adj_reo",
+    "lang": "th",
+    "written": "เร็ว",
+    "reading": "reo",
+    "romanization": "reo",
+    "meaning": { "en": "fast; quick", "th": "มีความเร็วสูง" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["adjective", "speed", "thai"],
+    "frequency": 5500,
+    "audio": "voice/th/th_adj_reo.mp3",
+    "tone": 3,
+    "toneRule": "ร (low class) + dead syllable + no mark → high(3)",
+    "examples": [
+      {
+        "sentence": "รถตุ๊กตุ๊กวิ่งเร็วมากในกรุงเทพ",
+        "reading": "rot tuk tuk wing reo mak nai krung thep",
+        "translation": { "en": "Tuk-tuks go very fast in Bangkok.", "th": "รถตุ๊กตุ๊กวิ่งเร็วมากในกรุงเทพ" },
+        "context": "old_town"
+      }
+    ],
+    "kotodama": {
+      "name": "Reoflash",
+      "sprite": "kotodama/th_adj_reo.png",
+      "description": {
+        "en": "A streaking mint spirit that leaves a trail of speed lines wherever it goes.",
+        "th": "วิญญาณสีเขียวมิ้นต์ที่พุ่งผ่านและทิ้งเส้นความเร็วไว้เสมอ"
+      },
+      "rarity": "common",
+      "habitat": ["old_town", "pier"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_adj_cha",
+    "lang": "th",
+    "written": "ช้า",
+    "reading": "chaa",
+    "romanization": "chaa",
+    "meaning": { "en": "slow", "th": "มีความเร็วต่ำ" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["adjective", "speed", "thai"],
+    "frequency": 4000,
+    "audio": "voice/th/th_adj_cha.mp3",
+    "tone": 3,
+    "toneRule": "ช (low class) + mai tho → high(3)",
+    "examples": [
+      {
+        "sentence": "เต่าเดินช้ามาก",
+        "reading": "tao doen chaa mak",
+        "translation": { "en": "The turtle walks very slowly.", "th": "เต่าเดินช้ามาก" },
+        "context": "rice_field"
+      }
+    ],
+    "kotodama": {
+      "name": "Chaastroll",
+      "sprite": "kotodama/th_adj_cha.png",
+      "description": {
+        "en": "A leisurely spirit that takes the scenic route everywhere and never rushes.",
+        "th": "วิญญาณสบายๆ ที่ไปทางวิวทุกที่และไม่เคยรีบ"
+      },
+      "rarity": "common",
+      "habitat": ["rice_field", "floating_market"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_adj_phaeng",
+    "lang": "th",
+    "written": "แพง",
+    "reading": "phaeng",
+    "romanization": "phaeng",
+    "meaning": { "en": "expensive", "th": "มีราคาสูง" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["adjective", "price", "thai"],
+    "frequency": 5000,
+    "audio": "voice/th/th_adj_phaeng.mp3",
+    "tone": 0,
+    "toneRule": "พ (low class) + no mark + live → mid(0)",
+    "examples": [
+      {
+        "sentence": "ห้องโรงแรมริมทะเลแพงมากในหน้าร้อน",
+        "reading": "hong rong raem rim thale phaeng mak nai na ron",
+        "translation": { "en": "Beachfront hotel rooms are very expensive in summer.", "th": "ห้องโรงแรมริมทะเลแพงมากในหน้าร้อน" },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Phaenggold",
+      "sprite": "kotodama/th_adj_phaeng.png",
+      "description": {
+        "en": "A glittering spirit draped in gold coins that jingles when it moves.",
+        "th": "วิญญาณประดับด้วยเหรียญทองที่ส่งเสียงกระทบเมื่อเคลื่อนไหว"
+      },
+      "rarity": "uncommon",
+      "habitat": ["old_town", "pier"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_adj_thuk",
+    "lang": "th",
+    "written": "ถูก",
+    "reading": "thuk",
+    "romanization": "thuk",
+    "meaning": { "en": "cheap; inexpensive; correct", "th": "มีราคาต่ำหรือถูกต้อง" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["adjective", "price", "thai"],
+    "frequency": 5500,
+    "audio": "voice/th/th_adj_thuk.mp3",
+    "tone": 1,
+    "toneRule": "ถ (high class) + dead syllable + no mark → low(1)",
+    "examples": [
+      {
+        "sentence": "ข้าวผัดร้านนี้อร่อยและถูกมาก",
+        "reading": "khaao phat ran ni aroi lae thuk mak",
+        "translation": { "en": "This shop's fried rice is tasty and very cheap.", "th": "ข้าวผัดร้านนี้อร่อยและถูกมาก" },
+        "context": "night_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Thukdeal",
+      "sprite": "kotodama/th_adj_thuk.png",
+      "description": {
+        "en": "A cheerful bargain spirit that appears near price tags and high-fives shoppers.",
+        "th": "วิญญาณสุดคุ้มร่าเริงที่ปรากฏใกล้ป้ายราคาและไฮไฟว์กับนักช้อป"
+      },
+      "rarity": "common",
+      "habitat": ["fresh_market", "night_market", "floating_market"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_adj_ruai",
+    "lang": "th",
+    "written": "รวย",
+    "reading": "ruai",
+    "romanization": "ruai",
+    "meaning": { "en": "rich; wealthy", "th": "มีทรัพย์สินมาก" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["adjective", "wealth", "thai"],
+    "frequency": 3500,
+    "audio": "voice/th/th_adj_ruai.mp3",
+    "tone": 0,
+    "toneRule": "ร (low class) + no mark + live → mid(0)",
+    "examples": [
+      {
+        "sentence": "ไม่ต้องรวยก็มีความสุขได้",
+        "reading": "mai tong ruai ko mi khwam suk dai",
+        "translation": { "en": "You don't need to be rich to be happy.", "th": "ไม่ต้องรวยก็มีความสุขได้" },
+        "context": "neighbourhood"
+      }
+    ],
+    "kotodama": {
+      "name": "Ruaigold",
+      "sprite": "kotodama/th_adj_ruai.png",
+      "description": {
+        "en": "A plump golden spirit surrounded by floating coins and a smile that says it all.",
+        "th": "วิญญาณกลมสีทองล้อมรอบด้วยเหรียญล่องลอยและรอยยิ้มที่บอกทุกอย่าง"
+      },
+      "rarity": "uncommon",
+      "habitat": ["old_town", "temple"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_adj_jon",
+    "lang": "th",
+    "written": "จน",
+    "reading": "jon",
+    "romanization": "jon",
+    "meaning": { "en": "poor; impoverished", "th": "มีทรัพย์สินน้อย" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["adjective", "wealth", "thai"],
+    "frequency": 3000,
+    "audio": "voice/th/th_adj_jon.mp3",
+    "tone": 0,
+    "toneRule": "จ (mid class) + dead syllable + no mark → low(1). Approximated to mid(0) in common speech.",
+    "examples": [
+      {
+        "sentence": "แม้จนแต่เขาก็ใจดีเสมอ",
+        "reading": "mae jon tae khao ko chai di samoe",
+        "translation": { "en": "Even though he is poor he is always kind.", "th": "แม้จะจนแต่เขาก็ใจดีเสมอ" },
+        "context": "neighbourhood"
+      }
+    ],
+    "kotodama": {
+      "name": "Jonheart",
+      "sprite": "kotodama/th_adj_jon.png",
+      "description": {
+        "en": "A simple, patched spirit with a huge generous heart and empty pockets.",
+        "th": "วิญญาณเรียบง่ายมีรอยปะที่มีใจกว้างใหญ่และกระเป๋าว่าง"
+      },
+      "rarity": "common",
+      "habitat": ["neighbourhood", "rice_field"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_adj_sa_aat",
+    "lang": "th",
+    "written": "สะอาด",
+    "reading": "sa aat",
+    "romanization": "sa aat",
+    "meaning": { "en": "clean", "th": "ไม่มีสิ่งสกปรก" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["adjective", "hygiene", "thai"],
+    "frequency": 4500,
+    "audio": "voice/th/th_adj_sa_aat.mp3",
+    "tone": 1,
+    "toneRule": "ส (high class) + dead → low(1) first syllable",
+    "examples": [
+      {
+        "sentence": "ห้องน้ำสะอาดมากจนมองดูน่าอยู่",
+        "reading": "hong nam sa aat mak chon mong du na yuu",
+        "translation": { "en": "The bathroom is so clean it looks inviting.", "th": "ห้องน้ำสะอาดมากจนมองดูน่าอยู่" },
+        "context": "neighbourhood"
+      }
+    ],
+    "kotodama": {
+      "name": "Saatshine",
+      "sprite": "kotodama/th_adj_sa_aat.png",
+      "description": {
+        "en": "A sparkling spirit that leaves a subtle mint fragrance wherever it cleans.",
+        "th": "วิญญาณแวววาวที่ทิ้งกลิ่นมิ้นต์อ่อนๆ ไว้ทุกที่ที่ทำความสะอาด"
+      },
+      "rarity": "common",
+      "habitat": ["temple", "neighbourhood"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_adj_sokkaprok",
+    "lang": "th",
+    "written": "สกปรก",
+    "reading": "sokkaprok",
+    "romanization": "sokkaprok",
+    "meaning": { "en": "dirty; filthy", "th": "มีสิ่งสกปรกติดอยู่" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["adjective", "hygiene", "thai"],
+    "frequency": 2500,
+    "audio": "voice/th/th_adj_sokkaprok.mp3",
+    "tone": 1,
+    "toneRule": "ส (high class) + dead → low(1); compound stays low(1)",
+    "examples": [
+      {
+        "sentence": "รองเท้าสกปรกหลังเดินในป่า",
+        "reading": "rong thao sokkaprok lang doen nai paa",
+        "translation": { "en": "The shoes are dirty after walking in the forest.", "th": "รองเท้าสกปรกหลังเดินในป่า" },
+        "context": "rice_field"
+      }
+    ],
+    "kotodama": {
+      "name": "Sokkamud",
+      "sprite": "kotodama/th_adj_sokkaprok.png",
+      "description": {
+        "en": "A muddy spirit that loves splashing in puddles and is oddly proud of every stain.",
+        "th": "วิญญาณโคลนที่ชอบกระโดดในน้ำขังและภาคภูมิใจในทุกคราบโดยไม่ประหลาดใจ"
+      },
+      "rarity": "common",
+      "habitat": ["rice_field", "old_town"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_adj_ngai",
+    "lang": "th",
+    "written": "ง่าย",
+    "reading": "ngai",
+    "romanization": "ngai",
+    "meaning": { "en": "easy; simple", "th": "ไม่ยากหรือไม่ซับซ้อน" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["adjective", "difficulty", "thai"],
+    "frequency": 5000,
+    "audio": "voice/th/th_adj_ngai.mp3",
+    "tone": 2,
+    "toneRule": "ง (low class) + mai tho → high(3). Note: ง่าย = ง + mai ek → falling(2)",
+    "examples": [
+      {
+        "sentence": "คำถามนี้ง่ายมากสำหรับเด็ก",
+        "reading": "kham tham ni ngai mak samrap dek",
+        "translation": { "en": "This question is very easy for children.", "th": "คำถามนี้ง่ายมากสำหรับเด็ก" },
+        "context": "neighbourhood"
+      }
+    ],
+    "kotodama": {
+      "name": "Ngaibreezy",
+      "sprite": "kotodama/th_adj_ngai.png",
+      "description": {
+        "en": "A carefree spirit that untangles knots with a single breath.",
+        "th": "วิญญาณสบายๆ ที่แก้ปมด้วยลมหายใจเดียว"
+      },
+      "rarity": "common",
+      "habitat": ["neighbourhood", "temple"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_adj_yak",
+    "lang": "th",
+    "written": "ยาก",
+    "reading": "yak",
+    "romanization": "yak",
+    "meaning": { "en": "difficult; hard", "th": "ต้องใช้ความพยายามมาก" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["adjective", "difficulty", "thai"],
+    "frequency": 5000,
+    "audio": "voice/th/th_adj_yak.mp3",
+    "tone": 3,
+    "toneRule": "ย (low class) + dead syllable + no mark → high(3)",
+    "examples": [
+      {
+        "sentence": "ภาษาไทยยากแต่สนุกมาก",
+        "reading": "phasa thai yak tae sanuk mak",
+        "translation": { "en": "Thai is difficult but very fun.", "th": "ภาษาไทยยากแต่สนุกมาก" },
+        "context": "neighbourhood"
+      }
+    ],
+    "kotodama": {
+      "name": "Yakwall",
+      "sprite": "kotodama/th_adj_yak.png",
+      "description": {
+        "en": "A stubborn rocky spirit that blocks the path — but smiles when you finally pass.",
+        "th": "วิญญาณหินดื้อรั้นที่ขวางทาง แต่ยิ้มเมื่อคุณผ่านไปได้ในที่สุด"
+      },
+      "rarity": "uncommon",
+      "habitat": ["temple", "rice_field"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_adj_klai",
+    "lang": "th",
+    "written": "ไกล",
+    "reading": "klai",
+    "romanization": "klai",
+    "meaning": { "en": "far; distant", "th": "อยู่ห่างออกไปมาก" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["adjective", "distance", "thai"],
+    "frequency": 4500,
+    "audio": "voice/th/th_adj_klai.mp3",
+    "tone": 0,
+    "toneRule": "ก (mid class) + no mark + live → mid(0)",
+    "examples": [
+      {
+        "sentence": "สนามบินไกลจากใจกลางเมือง",
+        "reading": "sanam bin klai chak chai klang mueang",
+        "translation": { "en": "The airport is far from the city centre.", "th": "สนามบินอยู่ไกลจากใจกลางเมือง" },
+        "context": "old_town"
+      }
+    ],
+    "kotodama": {
+      "name": "Klaihorizon",
+      "sprite": "kotodama/th_adj_klai.png",
+      "description": {
+        "en": "A misty spirit always on the horizon that recedes when you approach.",
+        "th": "วิญญาณหมอกที่อยู่บนขอบฟ้าเสมอและถอยออกเมื่อคุณเข้าใกล้"
+      },
+      "rarity": "uncommon",
+      "habitat": ["rice_field", "pier"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_adj_klai_near",
+    "lang": "th",
+    "written": "ใกล้",
+    "reading": "klai",
+    "romanization": "klai",
+    "meaning": { "en": "near; close", "th": "อยู่ไม่ห่างมาก" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["adjective", "distance", "thai"],
+    "frequency": 5000,
+    "audio": "voice/th/th_adj_klai_near.mp3",
+    "tone": 3,
+    "toneRule": "ก (mid class) + mai tho → falling(2). Note: ใกล้ = mai tho on ก → falling tone, but the sara ใ pattern gives high(3) in common reference. Mark high(3).",
+    "examples": [
+      {
+        "sentence": "ร้านสะดวกซื้ออยู่ใกล้บ้านฉัน",
+        "reading": "ran sadouak sue yuu klai baan chan",
+        "translation": { "en": "The convenience store is close to my house.", "th": "ร้านสะดวกซื้ออยู่ใกล้บ้านฉัน" },
+        "context": "neighbourhood"
+      }
+    ],
+    "kotodama": {
+      "name": "Klainear",
+      "sprite": "kotodama/th_adj_klai_near.png",
+      "description": {
+        "en": "A cozy spirit that is always one step away and loves familiar faces.",
+        "th": "วิญญาณอบอุ่นที่อยู่ห่างเพียงก้าวเดียวและรักหน้าคุ้นเคย"
+      },
+      "rarity": "common",
+      "habitat": ["neighbourhood", "fresh_market"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_adj_tem",
+    "lang": "th",
+    "written": "เต็ม",
+    "reading": "tem",
+    "romanization": "tem",
+    "meaning": { "en": "full; filled up", "th": "มีของจนเต็มพื้นที่" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["adjective", "capacity", "thai"],
+    "frequency": 5000,
+    "audio": "voice/th/th_adj_tem.mp3",
+    "tone": 0,
+    "toneRule": "ต (mid class) + dead syllable + no mark → low(1). In standard speech เต็ม approximated mid(0).",
+    "examples": [
+      {
+        "sentence": "ตะกร้าเต็มไปด้วยมะม่วงสุก",
+        "reading": "takra tem pai duai mamuang suk",
+        "translation": { "en": "The basket is full of ripe mangoes.", "th": "ตะกร้าเต็มไปด้วยมะม่วงสุก" },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Temfull",
+      "sprite": "kotodama/th_adj_tem.png",
+      "description": {
+        "en": "A round, bulging spirit that can barely contain its excitement — or its contents.",
+        "th": "วิญญาณกลมพองที่แทบไม่สามารถกักความตื่นเต้นหรือสิ่งที่อยู่ข้างในได้"
+      },
+      "rarity": "common",
+      "habitat": ["fresh_market", "floating_market"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_adj_wang",
+    "lang": "th",
+    "written": "ว่าง",
+    "reading": "wang",
+    "romanization": "wang",
+    "meaning": { "en": "empty; free (available)", "th": "ไม่มีอะไรอยู่ภายใน หรือไม่มีธุระ" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["adjective", "capacity", "time", "thai"],
+    "frequency": 4500,
+    "audio": "voice/th/th_adj_wang.mp3",
+    "tone": 2,
+    "toneRule": "ว (low class) + mai tho → high(3). Note: ว่าง = mai ek → falling(2)",
+    "examples": [
+      {
+        "sentence": "คืนนี้ฉันว่างไปกินข้าวด้วยกันไหม",
+        "reading": "khueen ni chan wang pai gin khaao duai kan mai",
+        "translation": { "en": "I am free tonight — shall we go eat together?", "th": "คืนนี้ฉันว่างไปกินข้าวด้วยกันไหม" },
+        "context": "neighbourhood"
+      }
+    ],
+    "kotodama": {
+      "name": "Wangopen",
+      "sprite": "kotodama/th_adj_wang.png",
+      "description": {
+        "en": "A light airy spirit that expands to fill silence and welcomes whatever arrives.",
+        "th": "วิญญาณเบาโปร่งที่ขยายตามความเงียบและต้อนรับทุกสิ่งที่มาถึง"
+      },
+      "rarity": "common",
+      "habitat": ["neighbourhood", "temple"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_adj_trong",
+    "lang": "th",
+    "written": "ตรง",
+    "reading": "trong",
+    "romanization": "trong",
+    "meaning": { "en": "straight; direct; correct", "th": "ไม่คดเคี้ยวหรือถูกต้อง" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["adjective", "direction", "correctness", "thai"],
+    "frequency": 4000,
+    "audio": "voice/th/th_adj_trong.mp3",
+    "tone": 0,
+    "toneRule": "ต (mid class) + dead syllable + no mark → low(1). In polysyllabic context approximated mid(0).",
+    "examples": [
+      {
+        "sentence": "เดินตรงไปแล้วจะเห็นวัด",
+        "reading": "doen trong pai laeo cha hen wat",
+        "translation": { "en": "Walk straight ahead and you will see the temple.", "th": "เดินตรงไปแล้วจะเห็นวัด" },
+        "context": "old_town"
+      }
+    ],
+    "kotodama": {
+      "name": "Trongarrow",
+    "sprite": "kotodama/th_adj_trong.png",
+      "description": {
+        "en": "A laser-straight spirit that cannot tolerate curves and always points true north.",
+        "th": "วิญญาณตรงดิ่งที่ทนเส้นโค้งไม่ได้และชี้ไปทางเหนือแท้เสมอ"
+      },
+      "rarity": "common",
+      "habitat": ["old_town", "neighbourhood"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_adj_kong",
+    "lang": "th",
+    "written": "โกง",
+    "reading": "kong",
+    "romanization": "kong",
+    "meaning": { "en": "crooked; dishonest; to cheat", "th": "ไม่ซื่อตรงหรือโกงกิน" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["adjective", "character", "thai"],
+    "frequency": 2500,
+    "audio": "voice/th/th_adj_kong.mp3",
+    "tone": 0,
+    "toneRule": "ก (mid class) + no mark + live → mid(0)",
+    "examples": [
+      {
+        "sentence": "อย่าโกงในการสอบ มันไม่ยุติธรรม",
+        "reading": "ya kong nai kan sop man mai yuttitham",
+        "translation": { "en": "Do not cheat in exams — it is not fair.", "th": "อย่าโกงในการสอบ มันไม่ยุติธรรม" },
+        "context": "neighbourhood"
+      }
+    ],
+    "kotodama": {
+      "name": "Kongtwist",
+      "sprite": "kotodama/th_adj_kong.png",
+      "description": {
+        "en": "A crooked spirit that moves in zigzags and avoids direct eye contact.",
+        "th": "วิญญาณคดๆ ที่เคลื่อนไหวเป็นเส้นซิกแซกและหลีกเลี่ยงการสบตา"
+      },
+      "rarity": "uncommon",
+      "habitat": ["old_town", "night_market"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_adj_sot",
+    "lang": "th",
+    "written": "สด",
+    "reading": "sot",
+    "romanization": "sot",
+    "meaning": { "en": "fresh", "th": "ยังสดใหม่ ไม่เก่า ไม่เน่า" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["adjective", "food", "quality", "thai"],
+    "frequency": 5000,
+    "audio": "voice/th/th_adj_sot.mp3",
+    "tone": 1,
+    "toneRule": "ส (high class) + dead syllable + no mark → low(1)",
+    "examples": [
+      {
+        "sentence": "ผักสดจากตลาดเช้ารสชาติดีกว่ามาก",
+        "reading": "phak sot chak talat chao rot chat di kwa mak",
+        "translation": { "en": "Fresh vegetables from the morning market taste much better.", "th": "ผักสดจากตลาดเช้ารสชาติดีกว่ามาก" },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Sotdew",
+      "sprite": "kotodama/th_adj_sot.png",
+      "description": {
+        "en": "A dewy mint-green spirit that smells of early morning and keeps everything crisp.",
+        "th": "วิญญาณสีเขียวมิ้นต์ชุ่มน้ำค้างที่มีกลิ่นยามเช้าตรู่และทำให้ทุกอย่างสดชื่น"
+      },
+      "rarity": "common",
+      "habitat": ["fresh_market", "rice_field", "floating_market"]
+    },
+    "needsReview": true
+  }
+]

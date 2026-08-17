@@ -1,0 +1,240 @@
+[
+  {
+    "id": "th_con_gor_gai",
+    "lang": "th",
+    "written": "ก",
+    "reading": "กอไก่",
+    "romanization": "g",
+    "meaning": { "en": "the chicken — mid-class (g/k sound)", "th": "กอไก่ — อักษรกลาง เสียงกอ" },
+    "pos": "character",
+    "element": "stone",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["thai", "consonant", "mid_class"],
+    "frequency": 9999,
+    "audio": "voice/th/con_gor_gai.mp3",
+    "tone": 0,
+    "toneRule": "Mid-class consonant: no tone mark = mid tone (สามัญ); mai ek (่) = low; mai tho (้) = falling.",
+    "examples": [
+      {
+        "sentence": "ไก่ (gai) — chicken",
+        "reading": "ไก่",
+        "translation": { "en": "ก leads the word ไก่ (chicken), its own mascot!", "th": "ก นำคำว่า ไก่ ซึ่งเป็นสัญลักษณ์ของตัวเอง" },
+        "context": "tuktuk_terminal"
+      }
+    ],
+    "kotodama": {
+      "name": "Gai-Rune",
+      "sprite": "kotodama/th_gor_gai.png",
+      "description": { "en": "A small golden spirit shaped like ก. It clucks softly when it sees other mid-class consonants.", "th": "วิญญาณสีทองรูปร่างคล้าย ก ที่ส่งเสียงขันเบาๆ เมื่อเจอพยัญชนะอักษรกลางตัวอื่น" },
+      "rarity": "common",
+      "habitat": ["tuktuk_terminal", "fresh_market"],
+      "evolveCondition": { "type": "review_streak", "value": 7 }
+    },
+    "mnemonic": { "en": "ก looks like a chicken pecking at the ground — the head is the hook at the top.", "th": "ก เหมือนไก่กำลังจิกอาหาร — ส่วนโค้งด้านบนคือหัวไก่" }
+  },
+  {
+    "id": "th_con_jor_jaan",
+    "lang": "th",
+    "written": "จ",
+    "reading": "จอจาน",
+    "romanization": "j",
+    "meaning": { "en": "the plate — mid-class (j sound)", "th": "จอจาน — อักษรกลาง เสียงจอ" },
+    "pos": "character",
+    "element": "stone",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["thai", "consonant", "mid_class"],
+    "frequency": 9999,
+    "audio": "voice/th/con_jor_jaan.mp3",
+    "tone": 0,
+    "toneRule": "Mid-class consonant: no tone mark = mid tone (สามัญ); mai ek (่) = low; mai tho (้) = falling.",
+    "examples": [
+      {
+        "sentence": "จาน (jaan) — plate / dish",
+        "reading": "จาน",
+        "translation": { "en": "จ leads จาน (plate) — great for market scenes!", "th": "จ นำคำว่า จาน (จาน) เห็นบ่อยในตลาด" },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Jaan-Rune",
+      "sprite": "kotodama/th_jor_jaan.png",
+      "description": { "en": "A mid-class spirit that spins like a plate. If you catch its eye, it balances on the tip of your finger.", "th": "วิญญาณอักษรกลางที่หมุนได้เหมือนจาน ถ้าจับตามันได้มันจะทรงตัวบนปลายนิ้ว" },
+      "rarity": "common",
+      "habitat": ["fresh_market"],
+      "evolveCondition": { "type": "review_streak", "value": 7 }
+    },
+    "mnemonic": { "en": "จ curves like a plate seen from the side.", "th": "จ โค้งเหมือนจานที่มองจากด้านข้าง" }
+  },
+  {
+    "id": "th_con_dor_dek",
+    "lang": "th",
+    "written": "ด",
+    "reading": "ดอเด็ก",
+    "romanization": "d",
+    "meaning": { "en": "the child — mid-class (d sound)", "th": "ดอเด็ก — อักษรกลาง เสียงดอ" },
+    "pos": "character",
+    "element": "stone",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["thai", "consonant", "mid_class"],
+    "frequency": 9999,
+    "audio": "voice/th/con_dor_dek.mp3",
+    "tone": 0,
+    "toneRule": "Mid-class consonant: no tone mark = mid tone (สามัญ); mai ek (่) = low; mai tho (้) = falling.",
+    "examples": [
+      {
+        "sentence": "เด็ก (dek) — child",
+        "reading": "เด็ก",
+        "translation": { "en": "ด leads เด็ก (child/kid) — very common in Thai.", "th": "ด นำคำว่า เด็ก (เด็ก) ที่ใช้บ่อยมากในภาษาไทย" },
+        "context": "tuktuk_terminal"
+      }
+    ],
+    "kotodama": {
+      "name": "Dek-Rune",
+      "sprite": "kotodama/th_dor_dek.png",
+      "description": { "en": "A playful mid-class spirit that runs in circles. It has enormous energy for its tiny size.", "th": "วิญญาณอักษรกลางที่ซนและวิ่งวนเป็นวงกลม มีพลังงานมากเกินตัว" },
+      "rarity": "common",
+      "habitat": ["tuktuk_terminal", "fresh_market"],
+      "evolveCondition": { "type": "review_streak", "value": 7 }
+    },
+    "mnemonic": { "en": "ด has a little loop like a child curled up playing.", "th": "ด มีวงเล็กๆ เหมือนเด็กนั่งขดเล่น" }
+  },
+  {
+    "id": "th_con_tor_tao",
+    "lang": "th",
+    "written": "ต",
+    "reading": "ตอเต่า",
+    "romanization": "t",
+    "meaning": { "en": "the turtle — mid-class (t sound)", "th": "ตอเต่า — อักษรกลาง เสียงตอ" },
+    "pos": "character",
+    "element": "stone",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["thai", "consonant", "mid_class"],
+    "frequency": 9999,
+    "audio": "voice/th/con_tor_tao.mp3",
+    "tone": 0,
+    "toneRule": "Mid-class consonant: no tone mark = mid tone (สามัญ); mai ek (่) = low; mai tho (้) = falling.",
+    "examples": [
+      {
+        "sentence": "เต่า (tao) — turtle",
+        "reading": "เต่า",
+        "translation": { "en": "ต leads เต่า (turtle) — a slow, gentle animal, just like this tone.", "th": "ต นำคำว่า เต่า (เต่า) — สัตว์ช้าๆ น่ารัก เหมือนสีเสียงของตัว" },
+        "context": "tuktuk_terminal"
+      }
+    ],
+    "kotodama": {
+      "name": "Tao-Rune",
+      "sprite": "kotodama/th_tor_tao.png",
+      "description": { "en": "A slow-moving mid-class spirit shaped like a turtle shell. Very patient — will wait years for the right combo.", "th": "วิญญาณอักษรกลางที่เคลื่อนที่ช้าๆ รูปร่างคล้ายกระดองเต่า อดทนรอคอยอยู่ตลอดเวลา" },
+      "rarity": "common",
+      "habitat": ["tuktuk_terminal"],
+      "evolveCondition": { "type": "combo_count", "value": 10 }
+    },
+    "mnemonic": { "en": "ต has a flat top like a turtle shell.", "th": "ต มีส่วนบนแบนเหมือนกระดองเต่า" }
+  },
+  {
+    "id": "th_con_bor_bai_mai",
+    "lang": "th",
+    "written": "บ",
+    "reading": "บอใบไม้",
+    "romanization": "b",
+    "meaning": { "en": "the leaf — mid-class (b sound)", "th": "บอใบไม้ — อักษรกลาง เสียงบอ" },
+    "pos": "character",
+    "element": "stone",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["thai", "consonant", "mid_class"],
+    "frequency": 9999,
+    "audio": "voice/th/con_bor_bai_mai.mp3",
+    "tone": 0,
+    "toneRule": "Mid-class consonant: no tone mark = mid tone (สามัญ); mai ek (่) = low; mai tho (้) = falling.",
+    "examples": [
+      {
+        "sentence": "ใบไม้ (bai mai) — leaf",
+        "reading": "ใบไม้",
+        "translation": { "en": "บ leads ใบไม้ (leaf) — you see them everywhere in the market.", "th": "บ นำคำว่า ใบไม้ (ใบไม้) — เห็นได้ทั่วไปในตลาด" },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Bai-Rune",
+      "sprite": "kotodama/th_bor_bai.png",
+      "description": { "en": "A mid-class spirit that floats like a leaf on the wind. It changes colour with the seasons.", "th": "วิญญาณอักษรกลางที่ลอยเหมือนใบไม้ตามลม เปลี่ยนสีไปตามฤดูกาล" },
+      "rarity": "common",
+      "habitat": ["fresh_market"],
+      "evolveCondition": { "type": "review_streak", "value": 7 }
+    },
+    "mnemonic": { "en": "บ has a stem and leaf shape — the bump is the leaf attached to the stalk.", "th": "บ มีก้านและรูปร่างคล้ายใบไม้ — ส่วนนูนคือใบที่ติดก้าน" }
+  },
+  {
+    "id": "th_con_por_plaa",
+    "lang": "th",
+    "written": "ป",
+    "reading": "ปอปลา",
+    "romanization": "bp",
+    "meaning": { "en": "the fish — mid-class (b/p sound)", "th": "ปอปลา — อักษรกลาง เสียงปอ" },
+    "pos": "character",
+    "element": "stone",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["thai", "consonant", "mid_class"],
+    "frequency": 9999,
+    "audio": "voice/th/con_por_plaa.mp3",
+    "tone": 0,
+    "toneRule": "Mid-class consonant: no tone mark = mid tone (สามัญ); mai ek (่) = low; mai tho (้) = falling.",
+    "examples": [
+      {
+        "sentence": "ปลา (plaa) — fish",
+        "reading": "ปลา",
+        "translation": { "en": "ป leads ปลา (fish) — sold fresh in every Thai market.", "th": "ป นำคำว่า ปลา (ปลา) — ขายสดๆ ในตลาดไทยทุกแห่ง" },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Plaa-Rune",
+      "sprite": "kotodama/th_por_plaa.png",
+      "description": { "en": "A sleek mid-class spirit that glides through the air like a fish in water.", "th": "วิญญาณอักษรกลางที่ลื่นไหลในอากาศเหมือนปลาในน้ำ" },
+      "rarity": "common",
+      "habitat": ["fresh_market"],
+      "evolveCondition": { "type": "review_streak", "value": 7 }
+    },
+    "mnemonic": { "en": "ป has a loop like a fish's body — the stem is its tail.", "th": "ป มีวงกลมเหมือนตัวปลา — ส่วนก้านคือหางปลา" }
+  },
+  {
+    "id": "th_con_or_ang",
+    "lang": "th",
+    "written": "อ",
+    "reading": "ออ่าง",
+    "romanization": "aw",
+    "meaning": { "en": "the basin — mid-class (vowel carrier / glottal)", "th": "ออ่าง — อักษรกลาง ตัวออออ" },
+    "pos": "character",
+    "element": "stone",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["thai", "consonant", "mid_class", "vowel_carrier"],
+    "frequency": 9999,
+    "audio": "voice/th/con_or_ang.mp3",
+    "tone": 0,
+    "toneRule": "Mid-class consonant used as a vowel carrier or silent initial. When อ starts a word with a vowel, it is silent; the vowel sound is what you hear.",
+    "examples": [
+      {
+        "sentence": "อ่าง (aang) — basin / bowl",
+        "reading": "อ่าง",
+        "translation": { "en": "อ acts as the initial carrier here. The mai ek (่) gives low tone.", "th": "อ ทำหน้าที่เป็นตัวนำ ไม้เอก (่) ทำให้เสียงเป็นวรรณยุกต์เอก" },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Or-Rune",
+      "sprite": "kotodama/th_or_ang.png",
+      "description": { "en": "A silent mid-class spirit — the quietest of all consonants. It holds vowels and lets them speak instead.", "th": "วิญญาณอักษรกลางที่เงียบที่สุด มันอุ้มสระและให้สระเป็นฝ่ายพูดแทน" },
+      "rarity": "uncommon",
+      "habitat": ["tuktuk_terminal", "fresh_market"],
+      "evolveCondition": { "type": "review_streak", "value": 14 }
+    },
+    "mnemonic": { "en": "อ is shaped like a bowl (อ่าง) — open at the top, ready to be filled with any vowel sound.", "th": "อ มีรูปร่างเหมือนอ่าง — เปิดด้านบน รอรับเสียงสระ" }
+  }
+]

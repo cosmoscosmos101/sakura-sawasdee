@@ -1,0 +1,172 @@
+[
+  {
+    "id": "ja_n5_0026",
+    "lang": "ja",
+    "written": "食べる",
+    "reading": "たべる",
+    "romanization": "taberu",
+    "meaning": { "th": "กิน / รับประทาน", "en": "to eat" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["verb", "daily", "ichidan"],
+    "frequency": 120,
+    "audio": "voice/ja/n5_0026.mp3",
+    "conjugationGroup": "ichidan",
+    "particleAffinity": ["を"],
+    "examples": [
+      {
+        "sentence": "ごはんを食べます。",
+        "reading": "ごはんをたべます。",
+        "translation": { "th": "กินข้าว", "en": "I eat a meal." },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Taberun",
+      "sprite": "kotodama/n5_0026.png",
+      "description": { "en": "A tiny golden spark spirit that darts toward any food it sees. Its energy flares brightly whenever a meal is shared between friends." },
+      "rarity": "common",
+      "habitat": ["shopping_street", "festival_grounds", "fresh_market"],
+      "evolveCondition": { "type": "combo_count", "value": 10 }
+    },
+    "mnemonic": { "en": "食 = eat + food radical: a person (人) opening their mouth (口) under a lid — someone lifting a pot lid to eat." }
+  },
+  {
+    "id": "ja_n5_0027",
+    "lang": "ja",
+    "written": "飲む",
+    "reading": "のむ",
+    "romanization": "nomu",
+    "meaning": { "th": "ดื่ม", "en": "to drink" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["verb", "daily", "godan"],
+    "frequency": 155,
+    "audio": "voice/ja/n5_0027.mp3",
+    "conjugationGroup": "godan",
+    "particleAffinity": ["を"],
+    "examples": [
+      {
+        "sentence": "お茶を飲みます。",
+        "reading": "おちゃをのみます。",
+        "translation": { "th": "ดื่มชา", "en": "I drink tea." },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Nomiru",
+      "sprite": "kotodama/n5_0027.png",
+      "description": { "en": "A swirling liquid spirit that spirals into cups. It takes on the colour of whatever drink surrounds it, shifting from pale green to deep amber." },
+      "rarity": "common",
+      "habitat": ["hanami_academy", "shrine", "festival_grounds"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "飲 = food radical + yawn radical: a thirsty creature (欠, a yawning mouth) reaching for drink (食 side)." }
+  },
+  {
+    "id": "ja_n5_0028",
+    "lang": "ja",
+    "written": "見る",
+    "reading": "みる",
+    "romanization": "miru",
+    "meaning": { "th": "ดู / มอง", "en": "to see; to look at; to watch" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["verb", "daily", "ichidan", "perception"],
+    "frequency": 95,
+    "audio": "voice/ja/n5_0028.mp3",
+    "conjugationGroup": "ichidan",
+    "particleAffinity": ["を"],
+    "examples": [
+      {
+        "sentence": "テレビを見ます。",
+        "reading": "テレビをみます。",
+        "translation": { "th": "ดูทีวี", "en": "I watch TV." },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Mirun",
+      "sprite": "kotodama/n5_0028.png",
+      "description": { "en": "A bright-eyed spirit with enormous round eyes that rotate independently. It notices everything — a falling petal, a distant lantern, a shy Kotodama hiding in the grass." },
+      "rarity": "common",
+      "habitat": ["shopping_street", "sakura_path", "autumn_hill"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "見 = 目 (eye) on legs — an eyeball walking around, looking at everything." }
+  },
+  {
+    "id": "ja_n5_0029",
+    "lang": "ja",
+    "written": "聞く",
+    "reading": "きく",
+    "romanization": "kiku",
+    "meaning": { "th": "ฟัง / ถาม", "en": "to listen; to hear; to ask" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["verb", "daily", "godan", "perception"],
+    "frequency": 110,
+    "audio": "voice/ja/n5_0029.mp3",
+    "conjugationGroup": "godan",
+    "particleAffinity": ["を", "に"],
+    "examples": [
+      {
+        "sentence": "音楽を聞きます。",
+        "reading": "おんがくをききます。",
+        "translation": { "th": "ฟังดนตรี", "en": "I listen to music." },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Kikuri",
+      "sprite": "kotodama/n5_0029.png",
+      "description": { "en": "A long-eared spirit that tilts its head and perks up at every sound. Its ears can hear a whisper from across the map and a melody through stone walls." },
+      "rarity": "common",
+      "habitat": ["hanami_academy", "festival_grounds", "shrine"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "聞 = gate (門) with an ear (耳) inside — pressing your ear to a closed gate to hear what's happening beyond." }
+  },
+  {
+    "id": "ja_n5_0030",
+    "lang": "ja",
+    "written": "話す",
+    "reading": "はなす",
+    "romanization": "hanasu",
+    "meaning": { "th": "พูด / คุย", "en": "to speak; to talk" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["verb", "daily", "godan", "speech"],
+    "frequency": 130,
+    "audio": "voice/ja/n5_0030.mp3",
+    "conjugationGroup": "godan",
+    "particleAffinity": ["と", "に"],
+    "examples": [
+      {
+        "sentence": "日本語で話します。",
+        "reading": "にほんごではなします。",
+        "translation": { "th": "พูดภาษาญี่ปุ่น", "en": "I speak in Japanese." },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Hanasu",
+      "sprite": "kotodama/n5_0030.png",
+      "description": { "en": "A bubbly spirit with tiny speech bubbles drifting from its mouth. The bubbles carry the words of languages it has heard — pop one open and a voice comes out." },
+      "rarity": "common",
+      "habitat": ["hanami_academy", "shopping_street", "sakura_station"],
+      "evolveCondition": { "type": "combo_count", "value": 10 }
+    },
+    "mnemonic": { "en": "話 = words (言) + tongue (舌) — a tongue inside speech. Talking means letting your tongue make words." }
+  }
+]

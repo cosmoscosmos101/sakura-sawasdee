@@ -1,0 +1,221 @@
+[
+  {
+    "id": "ja_kana_ha",
+    "lang": "ja",
+    "written": "は",
+    "reading": "は",
+    "romanization": "ha",
+    "meaning": { "th": "เสียง ฮะ (อักษรฮิรางานะ)", "en": "ha (hiragana character)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character", "hanami_gakuen"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_ha.mp3",
+    "examples": [
+      {
+        "sentence": "は・な・み・が・く・え・ん",
+        "reading": "は・な・み・が・く・え・ん",
+        "translation": { "th": "ฮะ-นะ-มิ-กะ-คุ-เอ-น = โรงเรียนฮานามิ", "en": "ha-na-mi-ga-ku-e-n = Hanami Academy" },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Hahane",
+      "sprite": "kotodama/hahane.png",
+      "description": { "en": "A gentle spirit shaped like the curve of は. It breathes out a soft 'ha' sound when it floats past." },
+      "rarity": "common",
+      "habitat": ["sakura_station", "hanami_academy"],
+      "evolveCondition": { "type": "review_streak", "value": 7 }
+    },
+    "mnemonic": { "en": "は looks like a person sitting cross-legged saying 'haaaa'." }
+  },
+  {
+    "id": "ja_kana_na",
+    "lang": "ja",
+    "written": "な",
+    "reading": "な",
+    "romanization": "na",
+    "meaning": { "th": "เสียง นะ (อักษรฮิรางานะ)", "en": "na (hiragana character)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character", "hanami_gakuen"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_na.mp3",
+    "examples": [
+      {
+        "sentence": "花 → はな (hana = flower)",
+        "reading": "はな",
+        "translation": { "th": "ดอกไม้ → ฮะ-นะ", "en": "flower → ha-na" },
+        "context": "sakura_path"
+      }
+    ],
+    "kotodama": {
+      "name": "Nanami",
+      "sprite": "kotodama/nanami.png",
+      "description": { "en": "A whispering spirit that drifts near flowers. The strokes of な remind it of petals caught mid-spin." },
+      "rarity": "common",
+      "habitat": ["sakura_path", "hanami_academy"]
+    },
+    "mnemonic": { "en": "な looks like a person kneeling — they bow and say 'na'." }
+  },
+  {
+    "id": "ja_kana_mi",
+    "lang": "ja",
+    "written": "み",
+    "reading": "み",
+    "romanization": "mi",
+    "meaning": { "th": "เสียง มิ (อักษรฮิรางานะ)", "en": "mi (hiragana character)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character", "hanami_gakuen"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_mi.mp3",
+    "examples": [
+      {
+        "sentence": "見る → みる (to see / look)",
+        "reading": "みる",
+        "translation": { "th": "ดู/มอง → มิ-รุ", "en": "to see → mi-ru" },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Mimiru",
+      "sprite": "kotodama/mimiru.png",
+      "description": { "en": "A curious spirit with wide eyes. It always looks around, taking in everything — just like the word 見る means 'to see'." },
+      "rarity": "common",
+      "habitat": ["hanami_academy", "shrine"]
+    },
+    "mnemonic": { "en": "み has two curves that look like a pair of eyes watching you." }
+  },
+  {
+    "id": "ja_kana_ga",
+    "lang": "ja",
+    "written": "が",
+    "reading": "が",
+    "romanization": "ga",
+    "meaning": { "th": "เสียง กะ (อักษรฮิรางานะ พร้อมเครื่องหมาย dakuten)", "en": "ga (voiced hiragana character)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character", "dakuten", "hanami_gakuen"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_ga.mp3",
+    "examples": [
+      {
+        "sentence": "猫が好き (neko ga suki = I like cats)",
+        "reading": "ねこがすき",
+        "translation": { "th": "ชอบแมว → เน-โกะ-กะ-สุ-กิ", "en": "I like cats → ne-ko-ga-su-ki" },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Gagane",
+      "sprite": "kotodama/gagane.png",
+      "description": { "en": "A lively spirit with two small marks that float beside it like sparks. Those marks, called dakuten, turn the soft か into the buzzing が." },
+      "rarity": "common",
+      "habitat": ["hanami_academy", "shopping_street"]
+    },
+    "mnemonic": { "en": "が is か with two dots — the dots add voice, like turning a whisper into speech." }
+  },
+  {
+    "id": "ja_kana_ku",
+    "lang": "ja",
+    "written": "く",
+    "reading": "く",
+    "romanization": "ku",
+    "meaning": { "th": "เสียง คุ (อักษรฮิรางานะ)", "en": "ku (hiragana character)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character", "hanami_gakuen"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_ku.mp3",
+    "examples": [
+      {
+        "sentence": "来る → くる (to come)",
+        "reading": "くる",
+        "translation": { "th": "มา → คุ-รุ", "en": "to come → ku-ru" },
+        "context": "sakura_station"
+      }
+    ],
+    "kotodama": {
+      "name": "Kukuri",
+      "sprite": "kotodama/kukuri.png",
+      "description": { "en": "A darting spirit that always seems to be arriving from somewhere. Its shape — a single angled stroke — looks like a bird landing." },
+      "rarity": "common",
+      "habitat": ["sakura_station", "sakura_path"]
+    },
+    "mnemonic": { "en": "く looks like a bird beak opening to say 'ku'." }
+  },
+  {
+    "id": "ja_kana_e",
+    "lang": "ja",
+    "written": "え",
+    "reading": "え",
+    "romanization": "e",
+    "meaning": { "th": "เสียง เอ (อักษรฮิรางานะ)", "en": "e (hiragana character)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character", "hanami_gakuen"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_e.mp3",
+    "examples": [
+      {
+        "sentence": "絵 → え (picture / drawing)",
+        "reading": "え",
+        "translation": { "th": "ภาพวาด → เอ", "en": "picture → e" },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Eefu",
+      "sprite": "kotodama/eefu.png",
+      "description": { "en": "A creative spirit that trails colour wherever it goes. Its shape is said to resemble a paintbrush mid-stroke." },
+      "rarity": "common",
+      "habitat": ["hanami_academy", "shrine"]
+    },
+    "mnemonic": { "en": "え looks like a person holding up a picture frame — they say 'ee!' in delight." }
+  },
+  {
+    "id": "ja_kana_n",
+    "lang": "ja",
+    "written": "ん",
+    "reading": "ん",
+    "romanization": "n",
+    "meaning": { "th": "เสียง น (พยัญชนะปิดท้าย อักษรฮิรางานะ)", "en": "n (syllabic nasal, hiragana)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character", "nasal", "hanami_gakuen"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_n.mp3",
+    "examples": [
+      {
+        "sentence": "はなみがくえん → Hanami Gakuen",
+        "reading": "はなみがくえん",
+        "translation": { "th": "โรงเรียนฮานามิ", "en": "Hanami Academy" },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Nnn",
+      "sprite": "kotodama/nnn.png",
+      "description": { "en": "A quiet, humming spirit. It is the only character that can stand alone as a syllable — ending words with a gentle resonance." },
+      "rarity": "uncommon",
+      "habitat": ["hanami_academy", "shrine"],
+      "evolveCondition": { "type": "review_streak", "value": 14 }
+    },
+    "mnemonic": { "en": "ん looks like a person leaning forward, humming 'nnn' to themselves." }
+  }
+]

@@ -1,0 +1,281 @@
+[
+  {
+    "id": "ja_kana_ya",
+    "lang": "ja",
+    "written": "や",
+    "reading": "や",
+    "romanization": "ya",
+    "meaning": { "th": "เสียง ยะ (อักษรฮิรางานะ)", "en": "ya (hiragana character)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_ya.mp3",
+    "examples": [
+      {
+        "sentence": "やま (yama = mountain)",
+        "reading": "やま",
+        "translation": { "th": "ภูเขา → ยะ-มะ", "en": "mountain → ya-ma" },
+        "context": "autumn_hill"
+      }
+    ],
+    "kotodama": {
+      "name": "Yama",
+      "sprite": "kotodama/yama.png",
+      "description": { "en": "A wide, stable spirit with sloping shoulders like a mountain peak. It never hurries — it has been sitting on the same hill for centuries." },
+      "rarity": "common",
+      "habitat": ["autumn_hill", "shrine"]
+    },
+    "mnemonic": { "en": "や looks like a mountain with a wide base and a pointed peak — strong and immovable." }
+  },
+  {
+    "id": "ja_kana_yu",
+    "lang": "ja",
+    "written": "ゆ",
+    "reading": "ゆ",
+    "romanization": "yu",
+    "meaning": { "th": "เสียง ยุ (อักษรฮิรางานะ)", "en": "yu (hiragana character)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_yu.mp3",
+    "examples": [
+      {
+        "sentence": "ゆき (yuki = snow)",
+        "reading": "ゆき",
+        "translation": { "th": "หิมะ → ยุ-คิ", "en": "snow → yu-ki" },
+        "context": "winter_courtyard"
+      }
+    ],
+    "kotodama": {
+      "name": "Yukine",
+      "sprite": "kotodama/yukine.png",
+      "description": { "en": "A gentle spirit that drifts down softly like a snowflake. Its curved loop billows as it descends — it brings quiet wherever it lands." },
+      "rarity": "uncommon",
+      "habitat": ["winter_courtyard", "sakura_path"]
+    },
+    "mnemonic": { "en": "ゆ looks like snow drifting into a bowl — a soft curve collecting what falls from above." }
+  },
+  {
+    "id": "ja_kana_yo",
+    "lang": "ja",
+    "written": "よ",
+    "reading": "よ",
+    "romanization": "yo",
+    "meaning": { "th": "เสียง โยะ (อักษรฮิรางานะ)", "en": "yo (hiragana character)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_yo.mp3",
+    "examples": [
+      {
+        "sentence": "よる (yoru = night)",
+        "reading": "よる",
+        "translation": { "th": "กลางคืน → โยะ-รุ", "en": "night → yo-ru" },
+        "context": "festival_grounds"
+      }
+    ],
+    "kotodama": {
+      "name": "Yoru",
+      "sprite": "kotodama/yoru.png",
+      "description": { "en": "A night spirit that only appears after sunset at the festival grounds. Its branching shape looks like a lantern pole — the light swings at the end." },
+      "rarity": "common",
+      "habitat": ["festival_grounds", "shrine"]
+    },
+    "mnemonic": { "en": "よ looks like a Y-branch — a lantern pole with a swinging light, seen against the night sky." }
+  },
+  {
+    "id": "ja_kana_ra",
+    "lang": "ja",
+    "written": "ら",
+    "reading": "ら",
+    "romanization": "ra",
+    "meaning": { "th": "เสียง ระ (อักษรฮิรางานะ)", "en": "ra (hiragana character)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_ra.mp3",
+    "examples": [
+      {
+        "sentence": "らーめん (ramen = ramen noodles)",
+        "reading": "らーめん",
+        "translation": { "th": "ราเมน → ระ-เม-น", "en": "ramen → ra-me-n" },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Ramen",
+      "sprite": "kotodama/ramen.png",
+      "description": { "en": "A warm, steaming spirit that smells of broth. Its shape is like a noodle draped over a chopstick — it lives wherever good food is served." },
+      "rarity": "common",
+      "habitat": ["shopping_street", "festival_grounds"]
+    },
+    "mnemonic": { "en": "ら looks like a bowl with a single noodle draped over the rim." }
+  },
+  {
+    "id": "ja_kana_ri",
+    "lang": "ja",
+    "written": "り",
+    "reading": "り",
+    "romanization": "ri",
+    "meaning": { "th": "เสียง ริ (อักษรฮิรางานะ)", "en": "ri (hiragana character)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_ri.mp3",
+    "examples": [
+      {
+        "sentence": "りんご (ringo = apple)",
+        "reading": "りんご",
+        "translation": { "th": "แอปเปิ้ล → ริ-น-โกะ", "en": "apple → ri-n-go" },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Ringo",
+      "sprite": "kotodama/ringo.png",
+      "description": { "en": "A cheerful red spirit that bounces in pairs. Its two strokes drop side by side like apple seeds falling from a tree." },
+      "rarity": "common",
+      "habitat": ["shopping_street", "hanami_academy"]
+    },
+    "mnemonic": { "en": "り looks like two drops falling — apple seeds tumbling from the tree." }
+  },
+  {
+    "id": "ja_kana_ru",
+    "lang": "ja",
+    "written": "る",
+    "reading": "る",
+    "romanization": "ru",
+    "meaning": { "th": "เสียง รุ (อักษรฮิรางานะ)", "en": "ru (hiragana character)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_ru.mp3",
+    "examples": [
+      {
+        "sentence": "くる (kuru = to come)",
+        "reading": "くる",
+        "translation": { "th": "มา → คุ-รุ", "en": "to come → ku-ru" },
+        "context": "sakura_station"
+      }
+    ],
+    "kotodama": {
+      "name": "Rupo",
+      "sprite": "kotodama/rupo.png",
+      "description": { "en": "A looping spirit that always circles back. However far it wanders, it returns — the loop in its shape is a promise to come back." },
+      "rarity": "common",
+      "habitat": ["sakura_station", "sakura_path"]
+    },
+    "mnemonic": { "en": "る makes a loop that comes back around — like someone who always returns home." }
+  },
+  {
+    "id": "ja_kana_re",
+    "lang": "ja",
+    "written": "れ",
+    "reading": "れ",
+    "romanization": "re",
+    "meaning": { "th": "เสียง เระ (อักษรฮิรางานะ)", "en": "re (hiragana character)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_re.mp3",
+    "examples": [
+      {
+        "sentence": "れきし (rekishi = history)",
+        "reading": "れきし",
+        "translation": { "th": "ประวัติศาสตร์ → เระ-คิ-ชิ", "en": "history → re-ki-shi" },
+        "context": "shrine"
+      }
+    ],
+    "kotodama": {
+      "name": "Reki",
+      "sprite": "kotodama/reki.png",
+      "description": { "en": "An ancient spirit with an elegant, flowing stroke. It has been in every era of history — its loop at the bottom is like the tail of an old calligraphy brush." },
+      "rarity": "uncommon",
+      "habitat": ["shrine", "hanami_academy"]
+    },
+    "mnemonic": { "en": "れ has a graceful sweeping tail — the handwriting of a scholar recording history." }
+  },
+  {
+    "id": "ja_kana_ro",
+    "lang": "ja",
+    "written": "ろ",
+    "reading": "ろ",
+    "romanization": "ro",
+    "meaning": { "th": "เสียง โระ (อักษรฮิรางานะ)", "en": "ro (hiragana character)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_ro.mp3",
+    "examples": [
+      {
+        "sentence": "ろうか (rouka = hallway / corridor)",
+        "reading": "ろうか",
+        "translation": { "th": "ทางเดิน → โระ-อุ-คะ", "en": "hallway → ro-u-ka" },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Rojo",
+      "sprite": "kotodama/rojo.png",
+      "description": { "en": "A looping spirit that loves wandering long corridors. It rolls quietly and slowly — its circular shape echoes through empty hallways." },
+      "rarity": "common",
+      "habitat": ["hanami_academy", "sakura_station"]
+    },
+    "mnemonic": { "en": "ろ is like る but without the tail — a corridor that loops back without leaving a trace." }
+  },
+  {
+    "id": "ja_kana_wa",
+    "lang": "ja",
+    "written": "わ",
+    "reading": "わ",
+    "romanization": "wa",
+    "meaning": { "th": "เสียง วะ (อักษรฮิรางานะ)", "en": "wa (hiragana character)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_wa.mp3",
+    "examples": [
+      {
+        "sentence": "わたし (watashi = I / me)",
+        "reading": "わたし",
+        "translation": { "th": "ฉัน/ผม → วะ-ตะ-ชิ", "en": "I / me → wa-ta-shi" },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Wata",
+      "sprite": "kotodama/wata.png",
+      "description": { "en": "A self-assured spirit that introduces itself to everyone it meets. Its shape looks like a bowing figure — because in Japanese, you always bow when you say わたし." },
+      "rarity": "common",
+      "habitat": ["hanami_academy", "sakura_path"]
+    },
+    "mnemonic": { "en": "わ looks like a person bowing politely — they're saying 'watashi' (I/me) as they introduce themselves." }
+  }
+]

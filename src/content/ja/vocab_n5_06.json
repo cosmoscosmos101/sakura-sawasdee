@@ -1,0 +1,281 @@
+[
+  {
+    "id": "ja_n5_0044",
+    "lang": "ja",
+    "written": "今日",
+    "reading": "きょう",
+    "romanization": "kyou",
+    "meaning": { "th": "วันนี้", "en": "today" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["noun", "time", "daily"],
+    "frequency": 120,
+    "audio": "voice/ja/n5_0044.mp3",
+    "examples": [
+      {
+        "sentence": "きょうはいいてんきですね。",
+        "reading": "きょうはいいてんきですね。",
+        "translation": { "th": "วันนี้อากาศดีนะ", "en": "The weather is nice today, isn't it?" },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Kyouru",
+      "sprite": "kotodama/n5_0044.png",
+      "description": { "en": "A spirit that always lives in the present moment. It glows brightest at noon and fades at midnight — only to be reborn tomorrow." },
+      "rarity": "common",
+      "habitat": ["hanami_academy", "shopping_street"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  },
+  {
+    "id": "ja_n5_0045",
+    "lang": "ja",
+    "written": "明日",
+    "reading": "あした",
+    "romanization": "ashita",
+    "meaning": { "th": "พรุ่งนี้", "en": "tomorrow" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["noun", "time", "daily"],
+    "frequency": 130,
+    "audio": "voice/ja/n5_0045.mp3",
+    "examples": [
+      {
+        "sentence": "あしたもいっしょにべんきょうしましょう。",
+        "reading": "あしたもいっしょにべんきょうしましょう。",
+        "translation": { "th": "พรุ่งนี้มาเรียนด้วยกันอีกนะ", "en": "Let's study together again tomorrow." },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Ashitu",
+      "sprite": "kotodama/n5_0045.png",
+      "description": { "en": "A spirit that always faces forward, never backward. It glimmers faintly in the evening sky, growing brighter as the night deepens." },
+      "rarity": "common",
+      "habitat": ["hanami_academy", "cherry_blossom_park"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  },
+  {
+    "id": "ja_n5_0046",
+    "lang": "ja",
+    "written": "昨日",
+    "reading": "きのう",
+    "romanization": "kinou",
+    "meaning": { "th": "เมื่อวาน", "en": "yesterday" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["noun", "time", "daily"],
+    "frequency": 115,
+    "audio": "voice/ja/n5_0046.mp3",
+    "examples": [
+      {
+        "sentence": "きのうなにをたべましたか？",
+        "reading": "きのうなにをたべましたか？",
+        "translation": { "th": "เมื่อวานกินอะไร?", "en": "What did you eat yesterday?" },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Kinoru",
+      "sprite": "kotodama/n5_0046.png",
+      "description": { "en": "A misty spirit with a soft amber glow. It always looks slightly backward, trailing wisps of memory wherever it floats." },
+      "rarity": "common",
+      "habitat": ["cherry_blossom_park", "shopping_street"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  },
+  {
+    "id": "ja_n5_0047",
+    "lang": "ja",
+    "written": "今",
+    "reading": "いま",
+    "romanization": "ima",
+    "meaning": { "th": "ตอนนี้ / เดี๋ยวนี้", "en": "now; right now" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["noun", "time", "daily"],
+    "frequency": 200,
+    "audio": "voice/ja/n5_0047.mp3",
+    "examples": [
+      {
+        "sentence": "いまなんじですか？",
+        "reading": "いまなんじですか？",
+        "translation": { "th": "ตอนนี้กี่โมง?", "en": "What time is it now?" },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Imann",
+      "sprite": "kotodama/n5_0047.png",
+      "description": { "en": "A spirit of pure presence — it exists only in the flash between past and future. It never stands still, pulsing like a heartbeat." },
+      "rarity": "uncommon",
+      "habitat": ["hanami_academy", "sakura_station", "shopping_street"],
+      "evolveCondition": { "type": "combo_count", "value": 10 }
+    }
+  },
+  {
+    "id": "ja_n5_0048",
+    "lang": "ja",
+    "written": "何時",
+    "reading": "なんじ",
+    "romanization": "nanji",
+    "meaning": { "th": "กี่โมง?", "en": "what time? (asking the hour)" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["noun", "time", "question_word"],
+    "frequency": 180,
+    "audio": "voice/ja/n5_0048.mp3",
+    "examples": [
+      {
+        "sentence": "がっこうはなんじにはじまりますか？",
+        "reading": "がっこうはなんじにはじまりますか？",
+        "translation": { "th": "โรงเรียนเริ่มกี่โมง?", "en": "What time does school start?" },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Nanji",
+      "sprite": "kotodama/n5_0048.png",
+      "description": { "en": "A spirit shaped like a question mark made of clock hands. It hovers near hourly transitions, always asking, never answering." },
+      "rarity": "uncommon",
+      "habitat": ["hanami_academy", "sakura_station"],
+      "evolveCondition": { "type": "combo_count", "value": 10 }
+    }
+  },
+  {
+    "id": "ja_n5_0049",
+    "lang": "ja",
+    "written": "午前",
+    "reading": "ごぜん",
+    "romanization": "gozen",
+    "meaning": { "th": "ช่วงเช้า / ก่อนเที่ยง (AM)", "en": "morning; AM (before noon)" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["noun", "time"],
+    "frequency": 160,
+    "audio": "voice/ja/n5_0049.mp3",
+    "examples": [
+      {
+        "sentence": "ごぜんじゅうじにあいましょう。",
+        "reading": "ごぜんじゅうじにあいましょう。",
+        "translation": { "th": "มาเจอกันสิบโมงเช้านะ", "en": "Let's meet at 10 AM." },
+        "context": "sakura_station"
+      }
+    ],
+    "kotodama": {
+      "name": "Gozenya",
+      "sprite": "kotodama/n5_0049.png",
+      "description": { "en": "A golden spirit with a sunrise motif on its wings. It only appears before noon and dissolves in the midday heat, scattering sparks of warm light." },
+      "rarity": "common",
+      "habitat": ["sakura_station", "cherry_blossom_park"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  },
+  {
+    "id": "ja_n5_0050",
+    "lang": "ja",
+    "written": "午後",
+    "reading": "ごご",
+    "romanization": "gogo",
+    "meaning": { "th": "ช่วงบ่าย / หลังเที่ยง (PM)", "en": "afternoon; PM (after noon)" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["noun", "time"],
+    "frequency": 155,
+    "audio": "voice/ja/n5_0050.mp3",
+    "examples": [
+      {
+        "sentence": "ごごにかいものにいきます。",
+        "reading": "ごごにかいものにいきます。",
+        "translation": { "th": "ช่วงบ่ายจะไปช้อปปิ้ง", "en": "I'll go shopping in the afternoon." },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Gogora",
+      "sprite": "kotodama/n5_0050.png",
+      "description": { "en": "A warm amber spirit with long afternoon shadows trailing behind it. It moves slowly across the sky and yawns dramatically at sunset." },
+      "rarity": "common",
+      "habitat": ["shopping_street", "cherry_blossom_park"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  },
+  {
+    "id": "ja_n5_0051",
+    "lang": "ja",
+    "written": "毎日",
+    "reading": "まいにち",
+    "romanization": "mainichi",
+    "meaning": { "th": "ทุกวัน", "en": "every day" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["noun", "time", "daily"],
+    "frequency": 175,
+    "audio": "voice/ja/n5_0051.mp3",
+    "examples": [
+      {
+        "sentence": "まいにちにほんごをべんきょうします。",
+        "reading": "まいにちにほんごをべんきょうします。",
+        "translation": { "th": "เรียนภาษาญี่ปุ่นทุกวัน", "en": "I study Japanese every day." },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Mainiru",
+      "sprite": "kotodama/n5_0051.png",
+      "description": { "en": "A steady, calm spirit that appears at dawn and never skips a day. Students who practice daily often find it sitting quietly beside them." },
+      "rarity": "uncommon",
+      "habitat": ["hanami_academy", "cherry_blossom_park"],
+      "evolveCondition": { "type": "review_streak", "value": 7 }
+    }
+  },
+  {
+    "id": "ja_n5_0052",
+    "lang": "ja",
+    "written": "来週",
+    "reading": "らいしゅう",
+    "romanization": "raishuu",
+    "meaning": { "th": "อาทิตย์หน้า", "en": "next week" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["noun", "time"],
+    "frequency": 145,
+    "audio": "voice/ja/n5_0052.mp3",
+    "examples": [
+      {
+        "sentence": "らいしゅうのどようびにいっしょにでかけましょう。",
+        "reading": "らいしゅうのどようびにいっしょにでかけましょう。",
+        "translation": { "th": "อาทิตย์หน้าวันเสาร์ไปด้วยกันนะ", "en": "Let's go out together next Saturday." },
+        "context": "cherry_blossom_park"
+      }
+    ],
+    "kotodama": {
+      "name": "Raishu",
+      "sprite": "kotodama/n5_0052.png",
+      "description": { "en": "A forward-leaning spirit that always seems to be planning ahead. It carries a tiny calendar that only shows the next seven days." },
+      "rarity": "common",
+      "habitat": ["cherry_blossom_park", "hanami_academy"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  }
+]

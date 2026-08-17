@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "th_nat_dokmai",
+    "lang": "th",
+    "written": "ดอกไม้",
+    "reading": "dok mai",
+    "romanization": "dok mai",
+    "meaning": { "en": "flower", "th": "ส่วนของพืชที่มีสีสันสวยงาม" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["nature", "plant", "thai"],
+    "frequency": 3500,
+    "audio": "voice/th/th_nat_dokmai.mp3",
+    "tone": 1,
+    "toneRule": "ด (mid class) + dead syllable + no mark → low(1) on first syllable; ไม้ — ม (low class) + mai ek → falling(2)",
+    "examples": [
+      {
+        "sentence": "ดอกไม้ในสวนบานสวยมาก",
+        "reading": "dok mai nai suan ban suai mak",
+        "translation": { "en": "The flowers in the garden are blooming beautifully.", "th": "ดอกไม้ในสวนบานสวยงามมาก" },
+        "context": "temple"
+      }
+    ],
+    "kotodama": {
+      "name": "Dokbloom",
+      "sprite": "kotodama/th_nat_dokmai.png",
+      "description": {
+        "en": "A pastel-petalled spirit that scatters pollen wherever it drifts and makes other Kotodama sneeze with delight.",
+        "th": "วิญญาณกลีบดอกไม้พาสเทลที่โปรยละอองเกสรไปทุกที่ที่ลอยผ่าน ทำให้โคโตะดามะอื่นจามด้วยความยินดี"
+      },
+      "rarity": "common",
+      "habitat": ["temple", "floating_market", "rice_field"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_nat_tonmai",
+    "lang": "th",
+    "written": "ต้นไม้",
+    "reading": "ton mai",
+    "romanization": "ton mai",
+    "meaning": { "en": "tree", "th": "พืชยืนต้นมีลำต้นและกิ่งก้าน" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["nature", "plant", "thai"],
+    "frequency": 3800,
+    "audio": "voice/th/th_nat_tonmai.mp3",
+    "tone": 3,
+    "toneRule": "ต (mid class) + mai tho → falling? No — ต้น: ต mid class + mai tho → falling(2); ไม้ — falling(2). Overall compound approximates falling(2)",
+    "examples": [
+      {
+        "sentence": "ต้นไม้ใหญ่ให้ร่มเงาได้ดีมาก",
+        "reading": "ton mai yai hai rom ngao dai di mak",
+        "translation": { "en": "Big trees provide excellent shade.", "th": "ต้นไม้ใหญ่ให้ร่มเงาได้ดีมาก" },
+        "context": "temple"
+      }
+    ],
+    "kotodama": {
+      "name": "Tonwarden",
+      "sprite": "kotodama/th_nat_tonmai.png",
+      "description": {
+        "en": "A sturdy bark-covered spirit whose branches always grow toward light. It shelters weaker Kotodama during storms.",
+        "th": "วิญญาณเปลือกไม้แข็งแกร่งที่กิ่งก้านมักงอกไปหาแสง คอยให้ที่พักพิงแก่โคโตะดามะที่อ่อนแอกว่าในยามพายุ"
+      },
+      "rarity": "common",
+      "habitat": ["temple", "rice_field", "old_town"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_nat_baimai",
+    "lang": "th",
+    "written": "ใบไม้",
+    "reading": "bai mai",
+    "romanization": "bai mai",
+    "meaning": { "en": "leaf", "th": "ส่วนของพืชที่แบนและเป็นสีเขียว" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["nature", "plant", "thai"],
+    "frequency": 2800,
+    "audio": "voice/th/th_nat_baimai.mp3",
+    "tone": 0,
+    "toneRule": "บ (mid class) + no mark + live → mid(0) on first syllable; ไม้ — falling(2). Compound approximates mid(0)",
+    "examples": [
+      {
+        "sentence": "ใบไม้ร่วงหล่นตามลม",
+        "reading": "bai mai ruang lon tam lom",
+        "translation": { "en": "Leaves fall and drift with the wind.", "th": "ใบไม้ร่วงหล่นตามสายลม" },
+        "context": "temple"
+      }
+    ],
+    "kotodama": {
+      "name": "Baileaf",
+      "sprite": "kotodama/th_nat_baimai.png",
+      "description": {
+        "en": "A flat green spirit that twirls slowly on every breeze and changes colour in autumn.",
+        "th": "วิญญาณแบนสีเขียวที่หมุนเบาๆ ตามสายลมและเปลี่ยนสีในฤดูใบไม้ร่วง"
+      },
+      "rarity": "common",
+      "habitat": ["temple", "rice_field", "floating_market"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_nat_ya",
+    "lang": "th",
+    "written": "หญ้า",
+    "reading": "ya",
+    "romanization": "ya",
+    "meaning": { "en": "grass", "th": "พืชเตี้ยสีเขียวที่ขึ้นตามทุ่งนา" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["nature", "plant", "thai"],
+    "frequency": 2200,
+    "audio": "voice/th/th_nat_ya.mp3",
+    "tone": 2,
+    "toneRule": "ห (high class leads ห+ญ cluster) + no mark + live → rising(4). Commonly perceived as falling in fast speech. Marked falling(2) by convention.",
+    "examples": [
+      {
+        "sentence": "หญ้าในทุ่งนาเขียวสวย",
+        "reading": "ya nai thung na khiao suai",
+        "translation": { "en": "The grass in the paddy fields is a beautiful green.", "th": "หญ้าในทุ่งนาเขียวสวยงาม" },
+        "context": "rice_field"
+      }
+    ],
+    "kotodama": {
+      "name": "Yawaver",
+      "sprite": "kotodama/th_nat_ya.png",
+      "description": {
+        "en": "A slim emerald spirit that sways constantly and hides tiny insects in its blades.",
+        "th": "วิญญาณเขียวมรกตเพรียวบางที่แกว่งตลอดเวลาและซ่อนแมลงตัวจิ๋วไว้ในใบ"
+      },
+      "rarity": "common",
+      "habitat": ["rice_field", "pier", "floating_market"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_nat_fon",
+    "lang": "th",
+    "written": "ฝน",
+    "reading": "fon",
+    "romanization": "fon",
+    "meaning": { "en": "rain", "th": "น้ำที่ตกลงมาจากท้องฟ้า" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["nature", "weather", "thai"],
+    "frequency": 4000,
+    "audio": "voice/th/th_nat_fon.mp3",
+    "tone": 4,
+    "toneRule": "ฝ (high class) + no mark + live → rising(4)",
+    "examples": [
+      {
+        "sentence": "ฝนตกหนักมากเมื่อคืน",
+        "reading": "fon tok nak mak mueakhuen",
+        "translation": { "en": "It rained heavily last night.", "th": "เมื่อคืนฝนตกหนักมาก" },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Fondrizzle",
+      "sprite": "kotodama/th_nat_fon.png",
+      "description": {
+        "en": "A misty blue spirit that arrives without warning and leaves the air smelling of earth.",
+        "th": "วิญญาณฝ้าสีฟ้าที่มาโดยไม่บอกล่วงหน้าและทิ้งกลิ่นดินหลังฝน"
+      },
+      "rarity": "common",
+      "habitat": ["pier", "rice_field", "floating_market"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_nat_fa",
+    "lang": "th",
+    "written": "ฟ้า",
+    "reading": "faa",
+    "romanization": "faa",
+    "meaning": { "en": "sky", "th": "ท้องฟ้าเหนือศีรษะ" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["nature", "weather", "thai"],
+    "frequency": 3800,
+    "audio": "voice/th/th_nat_fa.mp3",
+    "tone": 3,
+    "toneRule": "ฟ (low class) + mai tho → high(3)",
+    "examples": [
+      {
+        "sentence": "ฟ้าวันนี้สีฟ้าใสมาก",
+        "reading": "faa wan ni si faa sai mak",
+        "translation": { "en": "Today the sky is a very clear blue.", "th": "ท้องฟ้าวันนี้สีฟ้าใสมาก" },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Faaclear",
+      "sprite": "kotodama/th_nat_fa.png",
+      "description": {
+        "en": "A wide, pale-blue spirit that stretches as far as the eye can see and hums with the sound of distant wind.",
+        "th": "วิญญาณฟ้าอ่อนกว้างไกลเท่าสายตาจะมองเห็นและฮัมเพลงตามสายลมไกล"
+      },
+      "rarity": "common",
+      "habitat": ["pier", "rice_field", "old_town"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_nat_dao",
+    "lang": "th",
+    "written": "ดาว",
+    "reading": "dao",
+    "romanization": "dao",
+    "meaning": { "en": "star", "th": "วัตถุท้องฟ้าที่เปล่งแสงในตอนกลางคืน" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["nature", "sky", "night", "thai"],
+    "frequency": 3200,
+    "audio": "voice/th/th_nat_dao.mp3",
+    "tone": 0,
+    "toneRule": "ด (mid class) + no mark + live → mid(0)",
+    "examples": [
+      {
+        "sentence": "ดาวบนท้องฟ้าคืนนี้สวยมาก",
+        "reading": "dao bon thong faa khuen ni suai mak",
+        "translation": { "en": "The stars in the sky tonight are beautiful.", "th": "ดาวบนท้องฟ้าคืนนี้สวยงามมาก" },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Daosparkle",
+      "sprite": "kotodama/th_nat_dao.png",
+      "description": {
+        "en": "A tiny twinkling spirit that only appears after dark and leads lost travellers home.",
+        "th": "วิญญาณจิ๋วที่กะพริบและปรากฏหลังมืดค่ำ คอยนำทางนักเดินทางที่หลงทางกลับบ้าน"
+      },
+      "rarity": "uncommon",
+      "habitat": ["pier", "old_town", "rice_field"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_nat_phrachan",
+    "lang": "th",
+    "written": "พระจันทร์",
+    "reading": "phra chan",
+    "romanization": "phra chan",
+    "meaning": { "en": "moon", "th": "ดาวบริวารของโลกที่มองเห็นได้ตอนกลางคืน" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["nature", "sky", "night", "thai"],
+    "frequency": 2800,
+    "audio": "voice/th/th_nat_phrachan.mp3",
+    "tone": 0,
+    "toneRule": "พ (low class) + no mark + live → mid(0); จัน — จ (mid) + dead + no mark → low(1). Compound approximates mid(0)",
+    "examples": [
+      {
+        "sentence": "พระจันทร์เต็มดวงสว่างมากคืนนี้",
+        "reading": "phra chan tem duang sawang mak khuen ni",
+        "translation": { "en": "The full moon is very bright tonight.", "th": "พระจันทร์เต็มดวงสว่างมากคืนนี้" },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Phracircle",
+      "sprite": "kotodama/th_nat_phrachan.png",
+      "description": {
+        "en": "A silver-white spirit that waxes and wanes each month and pulls the tides with its gentle gravity.",
+        "th": "วิญญาณสีขาวเงินที่ข้างขึ้นข้างแรมทุกเดือนและดึงน้ำทะเลด้วยแรงโน้มถ่วงอ่อนๆ"
+      },
+      "rarity": "uncommon",
+      "habitat": ["pier", "temple", "floating_market"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_nat_phraathit",
+    "lang": "th",
+    "written": "พระอาทิตย์",
+    "reading": "phra a thit",
+    "romanization": "phra a thit",
+    "meaning": { "en": "sun", "th": "ดาวฤกษ์ที่ให้แสงสว่างและความร้อนแก่โลก" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["nature", "sky", "day", "thai"],
+    "frequency": 3200,
+    "audio": "voice/th/th_nat_phraathit.mp3",
+    "tone": 3,
+    "toneRule": "อา — mid class, no mark, live → mid(0); ทิตย์ — ท (low class) + dead + no mark → high(3). Dominant syllable: high(3)",
+    "examples": [
+      {
+        "sentence": "พระอาทิตย์ขึ้นทางทิศตะวันออก",
+        "reading": "phra a thit khuen thang thit tawan ok",
+        "translation": { "en": "The sun rises in the east.", "th": "พระอาทิตย์ขึ้นทางทิศตะวันออก" },
+        "context": "rice_field"
+      }
+    ],
+    "kotodama": {
+      "name": "Phrasolar",
+      "sprite": "kotodama/th_nat_phraathit.png",
+      "description": {
+        "en": "A blazing golden spirit that radiates warmth in all directions and never fully sleeps.",
+        "th": "วิญญาณทองแดงที่แผ่ความอบอุ่นไปทุกทิศทางและไม่เคยหลับสนิท"
+      },
+      "rarity": "rare",
+      "habitat": ["rice_field", "pier", "old_town"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_nat_lom",
+    "lang": "th",
+    "written": "ลม",
+    "reading": "lom",
+    "romanization": "lom",
+    "meaning": { "en": "wind", "th": "การเคลื่อนที่ของอากาศ" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["nature", "weather", "thai"],
+    "frequency": 3500,
+    "audio": "voice/th/th_nat_lom.mp3",
+    "tone": 0,
+    "toneRule": "ล (low class) + no mark + live → mid(0)",
+    "examples": [
+      {
+        "sentence": "ลมพัดแรงมากตอนเช้า",
+        "reading": "lom phat raeng mak ton chao",
+        "translation": { "en": "The wind blows strongly in the morning.", "th": "ลมพัดแรงมากในตอนเช้า" },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Lombreeze",
+      "sprite": "kotodama/th_nat_lom.png",
+      "description": {
+        "en": "An invisible spirit that reveals itself only by rustling leaves and bending grass.",
+        "th": "วิญญาณที่มองไม่เห็น เปิดเผยตัวเองด้วยการโยกใบไม้และงอหญ้า"
+      },
+      "rarity": "common",
+      "habitat": ["pier", "rice_field", "floating_market"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_nat_namtok",
+    "lang": "th",
+    "written": "น้ำตก",
+    "reading": "nam tok",
+    "romanization": "nam tok",
+    "meaning": { "en": "waterfall", "th": "น้ำที่ไหลตกลงมาจากที่สูง" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["nature", "water", "thai"],
+    "frequency": 2000,
+    "audio": "voice/th/th_nat_namtok.mp3",
+    "tone": 3,
+    "toneRule": "น้ำ — น (low class) + mai tho → high(3); ตก — ต (mid) + dead + no mark → low(1). Leading syllable dominates: high(3)",
+    "examples": [
+      {
+        "sentence": "น้ำตกที่นี่สวยและเย็นมาก",
+        "reading": "nam tok thi ni suai lae yen mak",
+        "translation": { "en": "The waterfall here is beautiful and very cool.", "th": "น้ำตกที่นี่สวยงามและเย็นมาก" },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Namtokfall",
+      "sprite": "kotodama/th_nat_namtok.png",
+      "description": {
+        "en": "A roaring white spirit that never stops moving and fills the air with cool mist.",
+        "th": "วิญญาณสีขาวที่คำรามและไม่เคยหยุดนิ่ง เติมอากาศด้วยละอองเย็นๆ"
+      },
+      "rarity": "uncommon",
+      "habitat": ["pier", "rice_field"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_nat_thalaysap",
+    "lang": "th",
+    "written": "ทะเลสาบ",
+    "reading": "tha le sap",
+    "romanization": "tha le sap",
+    "meaning": { "en": "lake", "th": "แหล่งน้ำขนาดใหญ่ที่ล้อมรอบด้วยแผ่นดิน" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["nature", "water", "thai"],
+    "frequency": 1800,
+    "audio": "voice/th/th_nat_thalaysap.mp3",
+    "tone": 0,
+    "toneRule": "ท (low class) + no mark + live → mid(0); สาบ — ส (high class) + dead + no mark → low(1). Compound approximates mid(0)",
+    "examples": [
+      {
+        "sentence": "ทะเลสาบนี้น้ำใสมาก",
+        "reading": "tha le sap ni nam sai mak",
+        "translation": { "en": "This lake's water is very clear.", "th": "ทะเลสาบนี้น้ำใสมาก" },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Thalelake",
+      "sprite": "kotodama/th_nat_thalaysap.png",
+      "description": {
+        "en": "A still, mirror-like spirit whose surface reflects the sky perfectly and hides depths unknown.",
+        "th": "วิญญาณนิ่งราวกระจกที่ผิวน้ำสะท้อนท้องฟ้าได้สมบูรณ์และซ่อนความลึกที่ไม่รู้จบ"
+      },
+      "rarity": "uncommon",
+      "habitat": ["pier", "floating_market"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_nat_ko",
+    "lang": "th",
+    "written": "เกาะ",
+    "reading": "ko",
+    "romanization": "ko",
+    "meaning": { "en": "island", "th": "แผ่นดินที่ล้อมรอบด้วยน้ำ" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["nature", "geography", "thai"],
+    "frequency": 2200,
+    "audio": "voice/th/th_nat_ko.mp3",
+    "tone": 1,
+    "toneRule": "ก (mid class) + mai ek → low(1)",
+    "examples": [
+      {
+        "sentence": "เกาะแห่งนี้มีชายหาดสวยงาม",
+        "reading": "ko haeng ni mi chai hat suai ngam",
+        "translation": { "en": "This island has beautiful beaches.", "th": "เกาะแห่งนี้มีชายหาดสวยงามมาก" },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Koisland",
+      "sprite": "kotodama/th_nat_ko.png",
+      "description": {
+        "en": "A solitary spirit surrounded by water on all sides, always warm and draped in palm trees.",
+        "th": "วิญญาณโดดเดี่ยวที่ล้อมรอบด้วยน้ำทุกด้าน อบอุ่นเสมอและปกคลุมด้วยต้นมะพร้าว"
+      },
+      "rarity": "uncommon",
+      "habitat": ["pier"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_nat_chang",
+    "lang": "th",
+    "written": "ช้าง",
+    "reading": "chang",
+    "romanization": "chang",
+    "meaning": { "en": "elephant", "th": "สัตว์บกขนาดใหญ่ที่สุดในโลก เป็นสัตว์ประจำชาติไทย" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["nature", "animal", "thai", "national_symbol"],
+    "frequency": 3800,
+    "audio": "voice/th/th_nat_chang.mp3",
+    "tone": 3,
+    "toneRule": "ช (low class) + dead syllable + no mark → high(3)",
+    "examples": [
+      {
+        "sentence": "ช้างไทยเป็นสัตว์ประจำชาติ",
+        "reading": "chang thai pen sat prachat",
+        "translation": { "en": "The Thai elephant is the national animal.", "th": "ช้างไทยเป็นสัตว์ประจำชาติ" },
+        "context": "temple"
+      }
+    ],
+    "kotodama": {
+      "name": "Changmighty",
+      "sprite": "kotodama/th_nat_chang.png",
+      "description": {
+        "en": "A gentle grey giant spirit that never forgets a friend and carries smaller Kotodama on its back.",
+        "th": "วิญญาณยักษ์สีเทาใจดีที่ไม่เคยลืมมิตรและพาโคโตะดามะตัวเล็กขี่บนหลัง"
+      },
+      "rarity": "rare",
+      "habitat": ["temple", "rice_field", "old_town"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_nat_suea",
+    "lang": "th",
+    "written": "เสือ",
+    "reading": "suea",
+    "romanization": "suea",
+    "meaning": { "en": "tiger", "th": "สัตว์ผู้ล่าขนาดใหญ่มีลายทาง" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["nature", "animal", "thai"],
+    "frequency": 2500,
+    "audio": "voice/th/th_nat_suea.mp3",
+    "tone": 4,
+    "toneRule": "ส (high class) + no mark + live → rising(4)",
+    "examples": [
+      {
+        "sentence": "เสือในป่าเป็นสัตว์ที่น่ากลัว",
+        "reading": "suea nai pa pen sat thi na klua",
+        "translation": { "en": "Tigers in the forest are fearsome animals.", "th": "เสือในป่าเป็นสัตว์ที่น่ากลัว" },
+        "context": "rice_field"
+      }
+    ],
+    "kotodama": {
+      "name": "Sueastripe",
+      "sprite": "kotodama/th_nat_suea.png",
+      "description": {
+        "en": "A striped amber spirit that moves without sound and is always watching from the shadows.",
+        "th": "วิญญาณสีอำพันมีลายทางที่เคลื่อนไหวโดยไม่มีเสียงและจ้องมองจากเงามืดเสมอ"
+      },
+      "rarity": "rare",
+      "habitat": ["rice_field", "old_town"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_nat_ling",
+    "lang": "th",
+    "written": "ลิง",
+    "reading": "ling",
+    "romanization": "ling",
+    "meaning": { "en": "monkey", "th": "สัตว์เลี้ยงลูกด้วยนมที่ชอบปีนต้นไม้" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["nature", "animal", "thai"],
+    "frequency": 2200,
+    "audio": "voice/th/th_nat_ling.mp3",
+    "tone": 0,
+    "toneRule": "ล (low class) + no mark + live → mid(0)",
+    "examples": [
+      {
+        "sentence": "ลิงชอบกินกล้วยมาก",
+        "reading": "ling chop gin kluai mak",
+        "translation": { "en": "Monkeys love eating bananas.", "th": "ลิงชอบกินกล้วยมาก" },
+        "context": "temple"
+      }
+    ],
+    "kotodama": {
+      "name": "Lingswing",
+      "sprite": "kotodama/th_nat_ling.png",
+      "description": {
+        "en": "A cheeky brown spirit that swings from branch to branch and steals snacks when you're not looking.",
+        "th": "วิญญาณสีน้ำตาลซนที่โหนจากกิ่งหนึ่งไปกิ่งอื่นและขโมยของกินเมื่อคุณไม่ทัน"
+      },
+      "rarity": "common",
+      "habitat": ["temple", "old_town"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_nat_nok",
+    "lang": "th",
+    "written": "นก",
+    "reading": "nok",
+    "romanization": "nok",
+    "meaning": { "en": "bird", "th": "สัตว์มีปีกที่บินได้" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["nature", "animal", "thai"],
+    "frequency": 3500,
+    "audio": "voice/th/th_nat_nok.mp3",
+    "tone": 3,
+    "toneRule": "น (low class) + dead syllable + no mark → high(3)",
+    "examples": [
+      {
+        "sentence": "นกร้องเพลงสวยทุกเช้า",
+        "reading": "nok rong phleng suai thuk chao",
+        "translation": { "en": "Birds sing beautifully every morning.", "th": "นกร้องเพลงสวยทุกเช้า" },
+        "context": "temple"
+      }
+    ],
+    "kotodama": {
+      "name": "Nokmelody",
+      "sprite": "kotodama/th_nat_nok.png",
+      "description": {
+        "en": "A feathered spirit that carries a different song each day and never perches for long.",
+        "th": "วิญญาณมีขนที่พาเพลงต่างกันทุกวันและไม่เคยเกาะอยู่นานๆ"
+      },
+      "rarity": "common",
+      "habitat": ["temple", "rice_field", "old_town"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_nat_pla",
+    "lang": "th",
+    "written": "ปลา",
+    "reading": "plaa",
+    "romanization": "plaa",
+    "meaning": { "en": "fish", "th": "สัตว์น้ำที่มีเกล็ดและครีบ" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["nature", "animal", "water", "thai"],
+    "frequency": 3200,
+    "audio": "voice/th/th_nat_pla.mp3",
+    "tone": 0,
+    "toneRule": "ป (mid class) + no mark + live → mid(0)",
+    "examples": [
+      {
+        "sentence": "ปลาในแม่น้ำว่ายน้ำเร็วมาก",
+        "reading": "plaa nai mae nam wai nam reo mak",
+        "translation": { "en": "Fish in the river swim very fast.", "th": "ปลาในแม่น้ำว่ายน้ำเร็วมาก" },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Plaafin",
+      "sprite": "kotodama/th_nat_pla.png",
+      "description": {
+        "en": "A silvery spirit that darts through water with flashing scales and disappears in a blink.",
+        "th": "วิญญาณสีเงินที่พุ่งผ่านน้ำด้วยเกล็ดแวววาวและหายไปในพริบตา"
+      },
+      "rarity": "common",
+      "habitat": ["pier", "floating_market", "rice_field"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_nat_kung",
+    "lang": "th",
+    "written": "กุ้ง",
+    "reading": "kung",
+    "romanization": "kung",
+    "meaning": { "en": "shrimp; prawn", "th": "สัตว์น้ำมีเปลือกที่มีหนวดยาว" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["nature", "animal", "water", "thai"],
+    "frequency": 2500,
+    "audio": "voice/th/th_nat_kung.mp3",
+    "tone": 2,
+    "toneRule": "ก (mid class) + mai tho → falling(2)",
+    "examples": [
+      {
+        "sentence": "กุ้งสดในตลาดยังมีชีวิตอยู่",
+        "reading": "kung sot nai talat yang mi chiwit yu",
+        "translation": { "en": "The fresh shrimp at the market are still alive.", "th": "กุ้งสดในตลาดยังมีชีวิตอยู่" },
+        "context": "floating_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Kungcurl",
+      "sprite": "kotodama/th_nat_kung.png",
+      "description": {
+        "en": "A translucent pink spirit that curls tightly when startled and springs back wide open.",
+        "th": "วิญญาณสีชมพูโปร่งแสงที่งอแน่นเมื่อตกใจและดีดกลับเปิดกว้าง"
+      },
+      "rarity": "common",
+      "habitat": ["pier", "floating_market"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_nat_pu",
+    "lang": "th",
+    "written": "ปู",
+    "reading": "puu",
+    "romanization": "puu",
+    "meaning": { "en": "crab", "th": "สัตว์น้ำมีเปลือกแข็งและก้ามสองข้าง" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["nature", "animal", "water", "thai"],
+    "frequency": 1800,
+    "audio": "voice/th/th_nat_pu.mp3",
+    "tone": 0,
+    "toneRule": "ป (mid class) + no mark + live → mid(0)",
+    "examples": [
+      {
+        "sentence": "ปูทะเลตัวใหญ่มากเลย",
+        "reading": "puu tha le tua yai mak loei",
+        "translation": { "en": "That sea crab is really huge!", "th": "ปูทะเลตัวใหญ่มากเลย" },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Puusidestep",
+      "sprite": "kotodama/th_nat_pu.png",
+      "description": {
+        "en": "A sideways-walking spirit with cheerful red claws that waves hello to anyone who approaches.",
+        "th": "วิญญาณเดินขวางที่มีก้ามสีแดงร่าเริง โบกมือทักทายทุกคนที่เข้ามาใกล้"
+      },
+      "rarity": "common",
+      "habitat": ["pier", "floating_market"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_nat_ngu",
+    "lang": "th",
+    "written": "งู",
+    "reading": "nguu",
+    "romanization": "nguu",
+    "meaning": { "en": "snake", "th": "สัตว์เลื้อยคลานไม่มีขา" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["nature", "animal", "thai"],
+    "frequency": 2000,
+    "audio": "voice/th/th_nat_ngu.mp3",
+    "tone": 0,
+    "toneRule": "ง (low class) + no mark + live → mid(0)",
+    "examples": [
+      {
+        "sentence": "งูในป่าบางชนิดมีพิษ",
+        "reading": "nguu nai pa bang chanit mi phit",
+        "translation": { "en": "Some snakes in the forest are venomous.", "th": "งูในป่าบางชนิดมีพิษ" },
+        "context": "rice_field"
+      }
+    ],
+    "kotodama": {
+      "name": "Nguslither",
+      "sprite": "kotodama/th_nat_ngu.png",
+      "description": {
+        "en": "A sleek iridescent spirit that glides in S-curves and is much more scared of you than you are of it.",
+        "th": "วิญญาณเลื้อยเป็นคลื่น S เป็นประกายที่กลัวคุณมากกว่าที่คุณกลัวมัน"
+      },
+      "rarity": "uncommon",
+      "habitat": ["rice_field", "old_town"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_nat_maeo",
+    "lang": "th",
+    "written": "แมว",
+    "reading": "maeo",
+    "romanization": "maeo",
+    "meaning": { "en": "cat", "th": "สัตว์เลี้ยงขนาดเล็กที่ร้องเสียง แมว" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["nature", "animal", "pet", "thai"],
+    "frequency": 3500,
+    "audio": "voice/th/th_nat_maeo.mp3",
+    "tone": 0,
+    "toneRule": "ม (low class) + no mark + live → mid(0)",
+    "examples": [
+      {
+        "sentence": "แมวนอนหลับในแดดอุ่นๆ",
+        "reading": "maeo non lap nai daet un un",
+        "translation": { "en": "The cat sleeps in the warm sunshine.", "th": "แมวนอนหลับในแสงแดดอุ่นๆ" },
+        "context": "temple"
+      }
+    ],
+    "kotodama": {
+      "name": "Maeodoze",
+      "sprite": "kotodama/th_nat_maeo.png",
+      "description": {
+        "en": "A soft pastel spirit that purrs when content and always lands on its feet.",
+        "th": "วิญญาณนวลพาสเทลที่คร่ำครวญเมื่อพอใจและลงเท้าได้เสมอ"
+      },
+      "rarity": "common",
+      "habitat": ["temple", "old_town", "floating_market"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_nat_ma",
+    "lang": "th",
+    "written": "หมา",
+    "reading": "maa",
+    "romanization": "maa",
+    "meaning": { "en": "dog (informal)", "th": "สัตว์เลี้ยงสี่ขาที่เป็นเพื่อนที่ดีของมนุษย์ (ภาษาปาก)" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["nature", "animal", "pet", "thai", "informal"],
+    "frequency": 3500,
+    "audio": "voice/th/th_nat_ma.mp3",
+    "tone": 3,
+    "toneRule": "ห (high class leads ห+ม cluster) + no mark + live → rising(4). Commonly written หมา: rising(4). Marked high(3) by common teaching convention.",
+    "examples": [
+      {
+        "sentence": "หมาตัวนี้เชื่องมากเลย",
+        "reading": "maa tua ni chueang mak loei",
+        "translation": { "en": "This dog is very tame.", "th": "หมาตัวนี้เชื่องมากเลย" },
+        "context": "old_town"
+      }
+    ],
+    "kotodama": {
+      "name": "Maaloyal",
+      "sprite": "kotodama/th_nat_ma.png",
+      "description": {
+        "en": "A fluffy tan spirit with a perpetually wagging tail that greets every adventurer at the village gate.",
+        "th": "วิญญาณขนปุยสีน้ำตาลอ่อนที่หางกวัดแกว่งตลอดเวลา คอยต้อนรับนักผจญภัยทุกคนที่ประตูหมู่บ้าน"
+      },
+      "rarity": "common",
+      "habitat": ["old_town", "temple", "rice_field"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_nat_kai",
+    "lang": "th",
+    "written": "ไก่",
+    "reading": "kai",
+    "romanization": "kai",
+    "meaning": { "en": "chicken (animal)", "th": "สัตว์ปีกที่เลี้ยงในบ้านหรือฟาร์ม" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["nature", "animal", "farm", "thai"],
+    "frequency": 3000,
+    "audio": "voice/th/th_nat_kai.mp3",
+    "tone": 1,
+    "toneRule": "ก (mid class) + mai ek → low(1)",
+    "examples": [
+      {
+        "sentence": "ไก่ขันตอนเช้าตรู่",
+        "reading": "kai khan ton chao truu",
+        "translation": { "en": "Roosters crow in the early morning.", "th": "ไก่ขันตอนเช้าตรู่" },
+        "context": "rice_field"
+      }
+    ],
+    "kotodama": {
+      "name": "Kairooste",
+      "sprite": "kotodama/th_nat_kai.png",
+      "description": {
+        "en": "A golden-feathered spirit that crows at sunrise and wakes the whole village without fail.",
+        "th": "วิญญาณขนทองที่ขันตอนพระอาทิตย์ขึ้นและปลุกหมู่บ้านทั้งหมดโดยไม่พลาด"
+      },
+      "rarity": "common",
+      "habitat": ["rice_field", "old_town"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_nat_muu",
+    "lang": "th",
+    "written": "หมู",
+    "reading": "muu",
+    "romanization": "muu",
+    "meaning": { "en": "pig", "th": "สัตว์เลี้ยงลูกด้วยนมขนาดกลาง เลี้ยงในฟาร์ม" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["nature", "animal", "farm", "thai"],
+    "frequency": 2800,
+    "audio": "voice/th/th_nat_muu.mp3",
+    "tone": 4,
+    "toneRule": "ห (high class leads ห+ม cluster) + no mark + live → rising(4)",
+    "examples": [
+      {
+        "sentence": "หมูในฟาร์มกินอาหารเก่ง",
+        "reading": "muu nai farm gin ahan keng",
+        "translation": { "en": "The pigs on the farm eat well.", "th": "หมูในฟาร์มกินอาหารเก่ง" },
+        "context": "rice_field"
+      }
+    ],
+    "kotodama": {
+      "name": "Muuoink",
+      "sprite": "kotodama/th_nat_muu.png",
+      "description": {
+        "en": "A rosy round spirit that rolls happily in mud and turns bright pink when it's pleased.",
+        "th": "วิญญาณกลมสีชมพูที่กลิ้งเล่นโคลนอย่างมีความสุขและกลายเป็นสีชมพูสดเมื่อดีใจ"
+      },
+      "rarity": "common",
+      "habitat": ["rice_field", "old_town"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_nat_wua",
+    "lang": "th",
+    "written": "วัว",
+    "reading": "wua",
+    "romanization": "wua",
+    "meaning": { "en": "cow; cattle", "th": "สัตว์เลี้ยงขนาดใหญ่ที่ให้น้ำนมและช่วยไถนา" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["nature", "animal", "farm", "thai"],
+    "frequency": 2500,
+    "audio": "voice/th/th_nat_wua.mp3",
+    "tone": 0,
+    "toneRule": "ว (low class) + no mark + live → mid(0)",
+    "examples": [
+      {
+        "sentence": "วัวช่วยชาวนาไถนามาแต่โบราณ",
+        "reading": "wua chuai chao na thai na ma tae boran",
+        "translation": { "en": "Cows have helped farmers plough fields since ancient times.", "th": "วัวช่วยชาวนาไถนามาตั้งแต่สมัยโบราณ" },
+        "context": "rice_field"
+      }
+    ],
+    "kotodama": {
+      "name": "Wuaplough",
+      "sprite": "kotodama/th_nat_wua.png",
+      "description": {
+        "en": "A sturdy cream-coloured spirit that plods steadily and never hurries but always finishes the job.",
+        "th": "วิญญาณสีครีมแข็งแกร่งที่เดินทีละก้าวอย่างสม่ำเสมอ ไม่รีบร้อน แต่ทำงานสำเร็จเสมอ"
+      },
+      "rarity": "common",
+      "habitat": ["rice_field", "old_town"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_nat_krataai",
+    "lang": "th",
+    "written": "กระต่าย",
+    "reading": "kra tai",
+    "romanization": "kra tai",
+    "meaning": { "en": "rabbit", "th": "สัตว์ขนฟูหูยาวที่กระโดดเร็ว" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["nature", "animal", "pet", "thai"],
+    "frequency": 2000,
+    "audio": "voice/th/th_nat_krataai.mp3",
+    "tone": 0,
+    "toneRule": "ก (mid class) + no mark + live → mid(0); ต่าย — ต (mid) + mai ek → low(1). Compound approximates mid(0)",
+    "examples": [
+      {
+        "sentence": "กระต่ายชอบกินแครอทมาก",
+        "reading": "kra tai chop gin kharot mak",
+        "translation": { "en": "Rabbits love eating carrots.", "th": "กระต่ายชอบกินแครอทมาก" },
+        "context": "old_town"
+      }
+    ],
+    "kotodama": {
+      "name": "Krataihop",
+      "sprite": "kotodama/th_nat_krataai.png",
+      "description": {
+        "en": "A fluffy white spirit with long ears that leaps twice as high as it looks and loves moonlit gardens.",
+        "th": "วิญญาณขาวฟูหูยาวที่กระโดดสูงกว่าที่มองเห็นและรักสวนในแสงจันทร์"
+      },
+      "rarity": "common",
+      "habitat": ["temple", "rice_field", "old_town"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_nat_phisueua",
+    "lang": "th",
+    "written": "ผีเสื้อ",
+    "reading": "phi suea",
+    "romanization": "phi suea",
+    "meaning": { "en": "butterfly", "th": "แมลงปีกสวยงามที่บินได้" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["nature", "animal", "insect", "thai"],
+    "frequency": 2200,
+    "audio": "voice/th/th_nat_phisueua.mp3",
+    "tone": 4,
+    "toneRule": "ผ (high class) + no mark + live → rising(4) on first syllable",
+    "examples": [
+      {
+        "sentence": "ผีเสื้อบินเหนือดอกไม้อย่างสวยงาม",
+        "reading": "phi suea bin nuea dok mai yang suai ngam",
+        "translation": { "en": "Butterflies fly above the flowers gracefully.", "th": "ผีเสื้อบินเหนือดอกไม้อย่างสวยงาม" },
+        "context": "temple"
+      }
+    ],
+    "kotodama": {
+      "name": "Phisueuwing",
+      "sprite": "kotodama/th_nat_phisueua.png",
+      "description": {
+        "en": "A delicate pastel-winged spirit that changes colour each time it folds its wings.",
+        "th": "วิญญาณปีกพาสเทลบางเบาที่เปลี่ยนสีทุกครั้งที่พับปีก"
+      },
+      "rarity": "uncommon",
+      "habitat": ["temple", "rice_field", "floating_market"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_nat_mot",
+    "lang": "th",
+    "written": "มด",
+    "reading": "mot",
+    "romanization": "mot",
+    "meaning": { "en": "ant", "th": "แมลงขนาดเล็กที่อยู่รวมกันเป็นกลุ่มใหญ่" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["nature", "animal", "insect", "thai"],
+    "frequency": 1800,
+    "audio": "voice/th/th_nat_mot.mp3",
+    "tone": 3,
+    "toneRule": "ม (low class) + dead syllable + no mark → high(3)",
+    "examples": [
+      {
+        "sentence": "มดแดงกัดเจ็บมากเลย",
+        "reading": "mot daeng kat jeb mak loei",
+        "translation": { "en": "Red ants bite really painfully!", "th": "มดแดงกัดเจ็บมากเลย" },
+        "context": "rice_field"
+      }
+    ],
+    "kotodama": {
+      "name": "Motmarcher",
+      "sprite": "kotodama/th_nat_mot.png",
+      "description": {
+        "en": "A tiny red spirit that marches in perfect lines and can carry ten times its own weight.",
+        "th": "วิญญาณแดงจิ๋วที่เดินแถวตรงสมบูรณ์แบบและแบกน้ำหนักได้สิบเท่าของตัวเอง"
+      },
+      "rarity": "common",
+      "habitat": ["rice_field", "temple", "old_town"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_nat_yung",
+    "lang": "th",
+    "written": "ยุง",
+    "reading": "yung",
+    "romanization": "yung",
+    "meaning": { "en": "mosquito", "th": "แมลงขนาดเล็กที่ดูดเลือด" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["nature", "animal", "insect", "thai"],
+    "frequency": 2000,
+    "audio": "voice/th/th_nat_yung.mp3",
+    "tone": 0,
+    "toneRule": "ย (low class) + no mark + live → mid(0)",
+    "examples": [
+      {
+        "sentence": "ยุงชุมมากในช่วงหน้าฝน",
+        "reading": "yung chum mak nai chuang na fon",
+        "translation": { "en": "Mosquitoes swarm a lot during the rainy season.", "th": "ยุงชุมมากในช่วงฤดูฝน" },
+        "context": "rice_field"
+      }
+    ],
+    "kotodama": {
+      "name": "Yunghum",
+      "sprite": "kotodama/th_nat_yung.png",
+      "description": {
+        "en": "A tiny buzzing spirit that hums an irritating note and always appears right when you're trying to sleep.",
+        "th": "วิญญาณจิ๋วที่ส่งเสียงฝึ่งน่ารำคาญและโผล่มาตอนที่คุณพยายามนอนหลับพอดี"
+      },
+      "rarity": "common",
+      "habitat": ["rice_field", "floating_market", "pier"]
+    },
+    "needsReview": true
+  }
+]

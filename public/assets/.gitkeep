@@ -1,0 +1,10 @@
+# Real art, audio and Tiled maps land here starting in prompt P1.1.
+#
+# Expected layout:
+#   tilesets/   japan_spring.png, thai_market.png ...
+#   sprites/    player/, kotodama/, npc/
+#   audio/      bgm/, sfx/, voice/ja/, voice/th/
+#   ui/
+#   maps/       hanami_school.json (Tiled format)
+#
+# Until then, every texture is generated in code in BootScene.makePlaceholderTextures().

@@ -1,0 +1,290 @@
+[
+  {
+    "id": "ja_kata_yu",
+    "lang": "ja",
+    "written": "ユ",
+    "reading": "ユ",
+    "romanization": "yu",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 'yu'", "en": "katakana for 'yu' — used in foreign loanwords" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "y_row"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_yu.mp3",
+    "examples": [
+      {
+        "sentence": "ユニフォーム (yunifoomu) — uniform",
+        "reading": "ユニフォーム",
+        "translation": { "th": "ชุดยูนิฟอร์ม — ユ เริ่มต้น!", "en": "Uniform — ユ starts it!" },
+        "context": "festival_grounds"
+      }
+    ],
+    "kotodama": {
+      "name": "Yuru",
+      "sprite": "kotodama/kata_yu.png",
+      "description": { "en": "A container-shaped spirit that holds things together, just like a uniform ties a group into one. It fits everyone perfectly." },
+      "rarity": "common",
+      "habitat": ["festival_grounds", "shopping_street"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "ユ is a U-shape with one arm extended — YoU reaching out of a container." }
+  },
+  {
+    "id": "ja_kata_yo",
+    "lang": "ja",
+    "written": "ヨ",
+    "reading": "ヨ",
+    "romanization": "yo",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 'yo'", "en": "katakana for 'yo' — used in foreign loanwords" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "y_row"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_yo.mp3",
+    "examples": [
+      {
+        "sentence": "ヨーロッパ (Yooroppa) — Europe",
+        "reading": "ヨーロッパ",
+        "translation": { "th": "ยุโรป — ヨ เริ่มต้น!", "en": "Europe — ヨ starts it!" },
+        "context": "airport"
+      }
+    ],
+    "kotodama": {
+      "name": "Yoru",
+      "sprite": "kotodama/kata_yo.png",
+      "description": { "en": "A globe-trotting spirit shaped like ヨ. It has visited every country in Europe and recites their names as a lullaby." },
+      "rarity": "common",
+      "habitat": ["airport"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "ヨ looks like a sideways comb with three teeth — a YO-yo string wrapped around it three times." }
+  },
+  {
+    "id": "ja_kata_ra",
+    "lang": "ja",
+    "written": "ラ",
+    "reading": "ラ",
+    "romanization": "ra",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 'ra'", "en": "katakana for 'ra' — used in foreign loanwords" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "r_row"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_ra.mp3",
+    "examples": [
+      {
+        "sentence": "ラーメン (raamen) — ramen",
+        "reading": "ラーメン",
+        "translation": { "th": "ราเมน — ラ เริ่มต้น!", "en": "Ramen — ラ starts it!" },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Raru",
+      "sprite": "kotodama/kata_ra.png",
+      "description": { "en": "A slurping spirit shaped like ラ. It trails a noodle behind it everywhere and warms up cold Kotodama with a bowl of broth." },
+      "rarity": "common",
+      "habitat": ["shopping_street", "sakura_station"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "ラ is like hiragana ら with the loop cut off — a RAmen noodle uncoiling from a bowl." }
+  },
+  {
+    "id": "ja_kata_ri",
+    "lang": "ja",
+    "written": "リ",
+    "reading": "リ",
+    "romanization": "ri",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 'ri'", "en": "katakana for 'ri' — used in foreign loanwords" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "r_row"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_ri.mp3",
+    "examples": [
+      {
+        "sentence": "リモコン (rimokon) — remote control",
+        "reading": "リモコン",
+        "translation": { "th": "รีโมทคอนโทรล — リ เริ่มต้น!", "en": "Remote control — リ starts it!" },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Riru",
+      "sprite": "kotodama/kata_ri.png",
+      "description": { "en": "A twin-pillar spirit shaped like リ. It operates from a distance and changes the channel whenever things get boring." },
+      "rarity": "common",
+      "habitat": ["shopping_street"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "リ is two parallel lines — two REEds standing side by side in a RI-verbed." }
+  },
+  {
+    "id": "ja_kata_ru",
+    "lang": "ja",
+    "written": "ル",
+    "reading": "ル",
+    "romanization": "ru",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 'ru'", "en": "katakana for 'ru' — used in foreign loanwords" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "r_row"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_ru.mp3",
+    "examples": [
+      {
+        "sentence": "ルール (ruuru) — rule",
+        "reading": "ルール",
+        "translation": { "th": "กฎ — ル ขนาบทั้งสองข้าง!", "en": "Rule — ル wraps both sides!" },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Ruru",
+      "sprite": "kotodama/kata_ru.png",
+      "description": { "en": "A loop-running spirit shaped like ル. It follows every rule and loops back to correct any mistake it notices." },
+      "rarity": "common",
+      "habitat": ["hanami_academy", "shopping_street"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "ル is a RUn on a looping track — the lower curve is the corner you sprint around." }
+  },
+  {
+    "id": "ja_kata_re",
+    "lang": "ja",
+    "written": "レ",
+    "reading": "レ",
+    "romanization": "re",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 're'", "en": "katakana for 're' — used in foreign loanwords" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "r_row"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_re.mp3",
+    "examples": [
+      {
+        "sentence": "レストラン (resutoran) — restaurant",
+        "reading": "レストラン",
+        "translation": { "th": "ร้านอาหาร — レ เริ่มต้น!", "en": "Restaurant — レ starts it!" },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Rene",
+      "sprite": "kotodama/kata_re.png",
+      "description": { "en": "A sweeping spirit shaped like レ. It sets an elegant table wherever it lands and REfines the atmosphere of any restaurant." },
+      "rarity": "common",
+      "habitat": ["shopping_street"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "レ is an L that leans back to REturn — a bowing REceptionist at a restaurant door." }
+  },
+  {
+    "id": "ja_kata_ro",
+    "lang": "ja",
+    "written": "ロ",
+    "reading": "ロ",
+    "romanization": "ro",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 'ro'", "en": "katakana for 'ro' — used in foreign loanwords" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "r_row"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_ro.mp3",
+    "examples": [
+      {
+        "sentence": "ロボット (robotto) — robot",
+        "reading": "ロボット",
+        "translation": { "th": "หุ่นยนต์ — ロ เริ่มต้น!", "en": "Robot — ロ starts it!" },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Roru",
+      "sprite": "kotodama/kata_ro.png",
+      "description": { "en": "A square, mechanical spirit shaped like ロ. It moves in perfect right angles and never deviates from its programmed path." },
+      "rarity": "common",
+      "habitat": ["shopping_street"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "ロ is a perfect square — a ROck, a RObot's head, or the frame of a ROom." }
+  },
+  {
+    "id": "ja_kata_wa",
+    "lang": "ja",
+    "written": "ワ",
+    "reading": "ワ",
+    "romanization": "wa",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 'wa'", "en": "katakana for 'wa' — used in foreign loanwords" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "w_row"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_wa.mp3",
+    "examples": [
+      {
+        "sentence": "ワイン (wain) — wine",
+        "reading": "ワイン",
+        "translation": { "th": "ไวน์ — ワ เริ่มต้น!", "en": "Wine — ワ starts it!" },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Waru",
+      "sprite": "kotodama/kata_wa.png",
+      "description": { "en": "A swirling spirit shaped like ワ. It spins elegantly like wine in a glass and leaves a pleasant fragrance wherever it passes." },
+      "rarity": "common",
+      "habitat": ["shopping_street"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "ワ looks like ウ (u) with an arm sweeping down — a WAve of water, WArm and welcome." }
+  },
+  {
+    "id": "ja_kata_n",
+    "lang": "ja",
+    "written": "ン",
+    "reading": "ン",
+    "romanization": "n",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 'n' (จมูก)", "en": "katakana for the nasal 'n' — appears only at the end of syllables" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "nasal"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_n.mp3",
+    "examples": [
+      {
+        "sentence": "パン (pan) — bread",
+        "reading": "パン",
+        "translation": { "th": "ขนมปัง — ン อยู่ท้าย!", "en": "Bread — ン closes it!" },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Nune",
+      "sprite": "kotodama/kata_n.png",
+      "description": { "en": "A closing spirit shaped like ン. It never starts a word — only ends one, humming softly through the nose as the syllable fades." },
+      "rarity": "uncommon",
+      "habitat": ["sakura_station", "fresh_market"],
+      "evolveCondition": { "type": "combo_count", "value": 10 }
+    },
+    "mnemonic": { "en": "ン is ソ (so) flipped — when 'so' runs out of breath and turns upside-down, you get the nasal 'n'." }
+  }
+]

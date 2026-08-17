@@ -1,0 +1,70 @@
+[
+  {
+    "id": "th_con_dor_chada",
+    "lang": "th",
+    "written": "ฎ",
+    "reading": "ฎอชฎา",
+    "romanization": "d",
+    "meaning": { "en": "the headdress — mid-class (d sound, archaic form)", "th": "ฎอชฎา — อักษรกลาง เสียงดอ (รูปเก่า)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["thai", "consonant", "mid_class"],
+    "frequency": 9990,
+    "audio": "voice/th/con_dor_chada.mp3",
+    "tone": 0,
+    "toneRule": "Mid-class consonant: no tone mark = mid tone (สามัญ); mai ek (่) = low; mai tho (้) = falling.",
+    "examples": [
+      {
+        "sentence": "ชฎา (cha-da) — headdress",
+        "reading": "ชฎา",
+        "translation": { "en": "ฎ appears in ชฎา (the royal headdress), an ornate Thai crown.", "th": "ฎ ปรากฏในคำว่า ชฎา ซึ่งเป็นมงกุฎแบบไทย" },
+        "context": "temple"
+      }
+    ],
+    "kotodama": {
+      "name": "Chada-Rune",
+      "sprite": "kotodama/th_dor_chada.png",
+      "description": { "en": "A golden mid-class spirit wearing a miniature royal headdress. It rarely appears in modern text but carries great ceremonial dignity.", "th": "วิญญาณอักษรกลางสวมชฎาจำลอง ปรากฏในตัวอักษรพิธีการสำคัญ" },
+      "rarity": "uncommon",
+      "habitat": ["temple"],
+      "evolveCondition": { "type": "review_streak", "value": 7 }
+    },
+    "mnemonic": { "en": "ฎ looks like a curled scroll — the looped tail is like the spiral decoration on a Thai headdress.", "th": "ฎ มีลักษณะคล้ายม้วนกระดาษ — หางม้วนเหมือนลวดลายบนชฎาไทย" }
+  },
+  {
+    "id": "th_con_tor_patak",
+    "lang": "th",
+    "written": "ฏ",
+    "reading": "ฏอปฏัก",
+    "romanization": "t",
+    "meaning": { "en": "the goad — mid-class (t sound, archaic form)", "th": "ฏอปฏัก — อักษรกลาง เสียงตอ (รูปเก่า)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["thai", "consonant", "mid_class"],
+    "frequency": 9990,
+    "audio": "voice/th/con_tor_patak.mp3",
+    "tone": 0,
+    "toneRule": "Mid-class consonant: no tone mark = mid tone (สามัญ); mai ek (่) = low; mai tho (้) = falling.",
+    "examples": [
+      {
+        "sentence": "ปฏัก (pa-tak) — elephant goad",
+        "reading": "ปฏัก",
+        "translation": { "en": "ฏ appears in ปฏัก, the hooked stick once used by mahouts.", "th": "ฏ ปรากฏในคำว่า ปฏัก ซึ่งเป็นไม้ขอของควาญช้าง" },
+        "context": "temple"
+      }
+    ],
+    "kotodama": {
+      "name": "Patak-Rune",
+      "sprite": "kotodama/th_tor_patak.png",
+      "description": { "en": "A sturdy mid-class spirit shaped like a curved hook. It is direct and precise — it points at exactly what it means.", "th": "วิญญาณอักษรกลางรูปขอโค้ง ตรงไปตรงมาและแม่นยำ" },
+      "rarity": "uncommon",
+      "habitat": ["temple"],
+      "evolveCondition": { "type": "review_streak", "value": 7 }
+    },
+    "mnemonic": { "en": "ฏ is a wide ต — both are mid-class 't' sounds. The wide base is like the goad handle you grip firmly.", "th": "ฏ คือ ต ที่กว้างกว่า — ทั้งคู่เป็นเสียง ต อักษรกลาง ฐานกว้างเหมือนด้ามปฏัก" }
+  }
+]

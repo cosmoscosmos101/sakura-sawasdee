@@ -1,0 +1,138 @@
+[
+  {
+    "id": "ja_n5_0031",
+    "lang": "ja",
+    "written": "歩く",
+    "reading": "あるく",
+    "romanization": "aruku",
+    "meaning": { "th": "เดิน", "en": "to walk" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["verb", "movement", "daily", "godan"],
+    "frequency": 200,
+    "audio": "voice/ja/n5_0031.mp3",
+    "conjugationGroup": "godan",
+    "particleAffinity": ["を", "で"],
+    "examples": [
+      {
+        "sentence": "さくらみちを歩きます。",
+        "reading": "さくらみちをあるきます。",
+        "translation": { "th": "เดินตามเส้นทางซากุระ", "en": "I walk along the sakura path." },
+        "context": "sakura_path"
+      }
+    ],
+    "kotodama": {
+      "name": "Aruku",
+      "sprite": "kotodama/n5_0031.png",
+      "description": { "en": "A small spirit with two tiny legs that tap rhythmically as it moves. It leaves faint footprints in the shape of hiragana wherever it walks." },
+      "rarity": "common",
+      "habitat": ["sakura_path", "shrine", "autumn_hill"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "歩 = 止 (stop) + 少 (few) — a few steps before stopping, the rhythm of walking." }
+  },
+  {
+    "id": "ja_n5_0032",
+    "lang": "ja",
+    "written": "書く",
+    "reading": "かく",
+    "romanization": "kaku",
+    "meaning": { "th": "เขียน", "en": "to write" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["verb", "daily", "godan", "study"],
+    "frequency": 145,
+    "audio": "voice/ja/n5_0032.mp3",
+    "conjugationGroup": "godan",
+    "particleAffinity": ["を", "に"],
+    "examples": [
+      {
+        "sentence": "てがみを書きます。",
+        "reading": "てがみをかきます。",
+        "translation": { "th": "เขียนจดหมาย", "en": "I write a letter." },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Kakuri",
+      "sprite": "kotodama/n5_0032.png",
+      "description": { "en": "A pen-shaped spirit with an ink-stained tip. Wherever it wanders it leaves a trail of kanji in the air that slowly fade after a minute." },
+      "rarity": "common",
+      "habitat": ["hanami_academy", "shrine", "shopping_street"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "書 = 聿 (writing brush) over 日 (sun/day) — a brush writing words every day." }
+  },
+  {
+    "id": "ja_n5_0033",
+    "lang": "ja",
+    "written": "買う",
+    "reading": "かう",
+    "romanization": "kau",
+    "meaning": { "th": "ซื้อ", "en": "to buy" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["verb", "daily", "godan", "commerce"],
+    "frequency": 175,
+    "audio": "voice/ja/n5_0033.mp3",
+    "conjugationGroup": "godan",
+    "particleAffinity": ["を", "で"],
+    "examples": [
+      {
+        "sentence": "パンを買います。",
+        "reading": "パンをかいます。",
+        "translation": { "th": "ซื้อขนมปัง", "en": "I buy bread." },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Kaurin",
+      "sprite": "kotodama/n5_0033.png",
+      "description": { "en": "A coin-shaped spirit that spins and rings when you find a good deal. It hovers near shop displays and tugs at sleeves when it spots something worth buying." },
+      "rarity": "common",
+      "habitat": ["shopping_street", "festival_grounds", "fresh_market"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "買 = net (罒) over shell-money (貝) — using a net to scoop up valuable shells as currency." }
+  },
+  {
+    "id": "ja_n5_0034",
+    "lang": "ja",
+    "written": "行く",
+    "reading": "いく",
+    "romanization": "iku",
+    "meaning": { "th": "ไป", "en": "to go" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["verb", "movement", "daily", "godan"],
+    "frequency": 80,
+    "audio": "voice/ja/n5_0034.mp3",
+    "conjugationGroup": "godan",
+    "particleAffinity": ["に", "へ", "で"],
+    "examples": [
+      {
+        "sentence": "がっこうに行きます。",
+        "reading": "がっこうにいきます。",
+        "translation": { "th": "ไปโรงเรียน", "en": "I go to school." },
+        "context": "sakura_path"
+      }
+    ],
+    "kotodama": {
+      "name": "Ikuru",
+      "sprite": "kotodama/n5_0034.png",
+      "description": { "en": "An always-moving spirit with arrow-shaped wings pointing forward. It never looks back, always pressing toward the next destination, cheering others to follow." },
+      "rarity": "common",
+      "habitat": ["sakura_path", "sakura_station", "shopping_street"],
+      "evolveCondition": { "type": "combo_count", "value": 10 }
+    },
+    "mnemonic": { "en": "行 = crossroads + steps: the kanji shows an intersection — you pick a direction and go." }
+  }
+]

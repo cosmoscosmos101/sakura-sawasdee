@@ -1,0 +1,138 @@
+[
+  {
+    "id": "th_con_for_fa",
+    "lang": "th",
+    "written": "ฝ",
+    "reading": "ฝอฝา",
+    "romanization": "f",
+    "meaning": { "en": "the lid — high-class (f sound)", "th": "ฝอฝา — อักษรสูง เสียงฝอ" },
+    "pos": "character",
+    "element": "stone",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["thai", "consonant", "high_class"],
+    "frequency": 9991,
+    "audio": "voice/th/con_for_fa.mp3",
+    "tone": 0,
+    "toneRule": "High-class consonant: no tone mark = rising tone (จัตวา); mai ek (่) = low; mai tho (้) = falling.",
+    "examples": [
+      {
+        "sentence": "ฝา (fa) — lid, cover",
+        "reading": "ฝา",
+        "translation": { "en": "ฝ starts ฝา (lid/cover) — the f-sound that keeps things sealed.", "th": "ฝ นำคำว่า ฝา ซึ่งแปลว่า ฝาปิด" },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Fa-Rune",
+      "sprite": "kotodama/th_for_fa.png",
+      "description": { "en": "A sealed, compact high-class spirit that keeps its thoughts carefully contained. It exhales when it speaks — the fricative 'f' is like breath escaping through a small gap.", "th": "วิญญาณอักษรสูงที่ปิดสนิท เก็บความคิดไว้อย่างระมัดระวัง" },
+      "rarity": "common",
+      "habitat": ["fresh_market", "old_town"],
+      "evolveCondition": { "type": "review_streak", "value": 7 }
+    },
+    "mnemonic": { "en": "ฝ is like a pot with a lid — the curved top closes off the shape just as a lid closes a container.", "th": "ฝ เหมือนหม้อที่มีฝาปิด — ส่วนโค้งด้านบนปิดทับรูปร่างเหมือนฝาหม้อ" }
+  },
+  {
+    "id": "th_con_sor_sala",
+    "lang": "th",
+    "written": "ศ",
+    "reading": "ศอศาลา",
+    "romanization": "s",
+    "meaning": { "en": "the pavilion — high-class (s sound)", "th": "ศอศาลา — อักษรสูง เสียงซอ (ศาลา)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["thai", "consonant", "high_class"],
+    "frequency": 9993,
+    "audio": "voice/th/con_sor_sala.mp3",
+    "tone": 0,
+    "toneRule": "High-class consonant: no tone mark = rising tone (จัตวา); mai ek (่) = low; mai tho (้) = falling.",
+    "examples": [
+      {
+        "sentence": "ศาลา (sala) — pavilion, rest area",
+        "reading": "ศาลา",
+        "translation": { "en": "ศ starts ศาลา (open pavilion) — a shaded rest stop, often found at temples.", "th": "ศ นำคำว่า ศาลา ซึ่งเป็นที่พักมีหลังคา มักพบในวัด" },
+        "context": "temple"
+      }
+    ],
+    "kotodama": {
+      "name": "Sala-Rune",
+      "sprite": "kotodama/th_sor_sala.png",
+      "description": { "en": "A graceful high-class spirit with an open, airy form — like the pavilion it represents. It offers shelter without walls.", "th": "วิญญาณอักษรสูงที่โปร่งโล่ง เหมือนศาลาที่พักร่มรื่น มีหลังคาแต่ไม่มีผนัง" },
+      "rarity": "uncommon",
+      "habitat": ["temple", "pier"],
+      "evolveCondition": { "type": "review_streak", "value": 7 }
+    },
+    "mnemonic": { "en": "ศ has an elaborate, almost decorative shape — like the carved woodwork of a traditional Thai sala.", "th": "ศ มีรูปทรงซับซ้อนคล้ายลวดลายไม้แกะสลักของศาลาไทยแบบดั้งเดิม" }
+  },
+  {
+    "id": "th_con_sor_ruesi",
+    "lang": "th",
+    "written": "ษ",
+    "reading": "ษอฤๅษี",
+    "romanization": "s",
+    "meaning": { "en": "the hermit — high-class (s sound, rare)", "th": "ษอฤๅษี — อักษรสูง เสียงซอ (ฤๅษี)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["thai", "consonant", "high_class"],
+    "frequency": 9985,
+    "audio": "voice/th/con_sor_ruesi.mp3",
+    "tone": 0,
+    "toneRule": "High-class consonant: no tone mark = rising tone (จัตวา); mai ek (่) = low; mai tho (้) = falling.",
+    "examples": [
+      {
+        "sentence": "ฤๅษี (rue-si) — hermit, ascetic",
+        "reading": "ฤๅษี",
+        "translation": { "en": "ษ represents the hermit (ฤๅษี) — a wise recluse of Thai legend.", "th": "ษ แทนฤๅษี — ผู้ปฏิบัติธรรมที่มีปัญญาในตำนานไทย" },
+        "context": "temple"
+      }
+    ],
+    "kotodama": {
+      "name": "Ruesi-Rune",
+      "sprite": "kotodama/th_sor_ruesi.png",
+      "description": { "en": "A rare, ancient high-class spirit found only in sacred or formal words. Like the hermit, it keeps to itself and appears mainly in Pali-derived vocabulary.", "th": "วิญญาณอักษรสูงที่หายากและโบราณ พบได้เฉพาะในคำศักดิ์สิทธิ์หรือทางการ" },
+      "rarity": "rare",
+      "habitat": ["temple"],
+      "evolveCondition": { "type": "review_streak", "value": 10 }
+    },
+    "mnemonic": { "en": "ษ and ศ look similar and sound the same — ษ is the rarer hermit who lives deep in the forest of formal vocabulary.", "th": "ษ และ ศ หน้าตาคล้ายกันและออกเสียงเหมือนกัน — ษ คือฤๅษีที่หายากกว่า อยู่ในคำทางการ" }
+  },
+  {
+    "id": "th_con_hor_hip",
+    "lang": "th",
+    "written": "ห",
+    "reading": "หอหีบ",
+    "romanization": "h",
+    "meaning": { "en": "the chest — high-class (h sound, also a tone modifier)", "th": "หอหีบ — อักษรสูง เสียงหอ (ยังใช้เป็นตัวนำ)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["thai", "consonant", "high_class"],
+    "frequency": 9998,
+    "audio": "voice/th/con_hor_hip.mp3",
+    "tone": 0,
+    "toneRule": "High-class consonant: no tone mark = rising tone (จัตวา); mai ek (่) = low; mai tho (้) = falling. Special: ห before a low-class consonant makes it behave like high-class — this is the ห นำ (leading ห) rule.",
+    "examples": [
+      {
+        "sentence": "หมา (maa) — dog (ห นำ ม makes mid tone rise)",
+        "reading": "หมา",
+        "translation": { "en": "ห leads ม in หมา — the ห นำ rule lifts the low-class ม to a rising tone.", "th": "ห นำ ม ในคำว่า หมา — กฎ ห นำ ทำให้ ม อักษรต่ำมีเสียงจัตวา" },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Hip-Rune",
+      "sprite": "kotodama/th_hor_hip.png",
+      "description": { "en": "The most important high-class spirit — it can 'lead' low-class spirits and lend them its high-class tone rules. Think of it as a tone conductor.", "th": "วิญญาณอักษรสูงที่สำคัญที่สุด — สามารถ 'นำ' อักษรต่ำ และให้กฎเสียงอักษรสูงแก่พวกมัน" },
+      "rarity": "uncommon",
+      "habitat": ["temple", "old_town", "fresh_market"],
+      "evolveCondition": { "type": "combo_count", "value": 15 }
+    },
+    "mnemonic": { "en": "ห has an open arch — like the open lid of a chest. And just as a chest holds things inside, ห นำ contains the tone of the consonant that follows.", "th": "ห มีรูปโค้งเปิด เหมือนฝาหีบที่เปิดอยู่ และเหมือนหีบที่เก็บของ ห นำ ก็กักเก็บเสียงของพยัญชนะที่ตามมา" }
+  }
+]

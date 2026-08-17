@@ -1,0 +1,169 @@
+[
+  {
+    "id": "driver_01",
+    "speakerNpcId": "tuktuk_driver",
+    "speakerName": { "en": "Tuk-tuk Driver", "th": "คนขับตุ๊กตุ๊ก" },
+    "lines": [
+      {
+        "l2": "สวัสดีครับ!",
+        "reading": "sa-wat-dee krap",
+        "translation": { "en": "Hello!", "th": "สวัสดีครับ!" },
+        "newWordIds": ["th_con_sor_rua", "th_con_wor_waen"]
+      },
+      {
+        "l2": "ไปไหนครับ?",
+        "reading": "bpai nai krap",
+        "translation": { "en": "Where are you going?", "th": "ไปไหนครับ?" }
+      }
+    ],
+    "choices": [
+      {
+        "label": { "en": "To the market, please.", "th": "ไปตลาดครับ" },
+        "l2Response": "ไปตลาดครับ",
+        "nextId": "driver_02_market"
+      },
+      {
+        "label": { "en": "Just looking around.", "th": "แค่เดินเล่นครับ" },
+        "l2Response": "แค่เดินเล่นครับ",
+        "nextId": "driver_02_browse"
+      }
+    ]
+  },
+  {
+    "id": "driver_02_market",
+    "speakerNpcId": "tuktuk_driver",
+    "speakerName": { "en": "Tuk-tuk Driver", "th": "คนขับตุ๊กตุ๊ก" },
+    "lines": [
+      {
+        "l2": "โอเคครับ! ตลาดอยู่ทางใต้ครับ",
+        "reading": "oh-kay krap! ta-lat yuu taang tai krap",
+        "translation": { "en": "OK! The market is to the south.", "th": "โอเคครับ! ตลาดอยู่ทางใต้ครับ" }
+      }
+    ],
+    "endsDialogue": true
+  },
+  {
+    "id": "driver_02_browse",
+    "speakerNpcId": "tuktuk_driver",
+    "speakerName": { "en": "Tuk-tuk Driver", "th": "คนขับตุ๊กตุ๊ก" },
+    "lines": [
+      {
+        "l2": "ได้เลยครับ! ยินดีต้อนรับ!",
+        "reading": "dai loei krap! yin-dee tawn-rap",
+        "translation": { "en": "Of course! Welcome!", "th": "ได้เลยครับ! ยินดีต้อนรับ!" }
+      }
+    ],
+    "endsDialogue": true
+  },
+  {
+    "id": "somsri_01",
+    "speakerNpcId": "pa_somsri",
+    "speakerName": { "en": "Pa Somsri", "th": "ป้าสมศรี" },
+    "lines": [
+      {
+        "l2": "หวัดดีจ้า!",
+        "reading": "wat-dee jaa",
+        "translation": { "en": "Hey there!", "th": "หวัดดีจ้า!" }
+      },
+      {
+        "l2": "ป้าชื่อสมศรี ขายของที่ตลาดด้วยนะ",
+        "reading": "bpaa chuu som-sii khai kong tii ta-lat duai na",
+        "translation": { "en": "My name is Somsri — I sell things at the market too.", "th": "ป้าชื่อสมศรี ขายของที่ตลาดด้วยนะ" },
+        "newWordIds": ["th_con_chor_chang"]
+      }
+    ],
+    "endsDialogue": true
+  },
+  {
+    "id": "somsri_02",
+    "speakerNpcId": "pa_somsri",
+    "speakerName": { "en": "Pa Somsri", "th": "ป้าสมศรี" },
+    "lines": [
+      {
+        "l2": "ลองชิมดูไหม? อร่อยมากเลยนะ!",
+        "reading": "long chim duu mai? a-roi maak loei na",
+        "translation": { "en": "Want to try some? It's really delicious!", "th": "ลองชิมดูไหม? อร่อยมากเลยนะ!" },
+        "newWordIds": ["th_con_or_ang"]
+      }
+    ],
+    "endsDialogue": true
+  },
+  {
+    "id": "noodle_01",
+    "speakerNpcId": "noodle_vendor",
+    "speakerName": { "en": "Noodle Vendor", "th": "แม่ค้าก๋วยเตี๋ยว" },
+    "lines": [
+      {
+        "l2": "ก๋วยเตี๋ยวอร่อยๆ มีทุกชนิดเลยค่ะ!",
+        "reading": "guay-tiaw a-roi a-roi mii took cha-nit loei ka",
+        "translation": { "en": "Delicious noodles — every kind!", "th": "ก๋วยเตี๋ยวอร่อยๆ มีทุกชนิดเลยค่ะ!" }
+      }
+    ],
+    "endsDialogue": true
+  },
+  {
+    "id": "fruit_01",
+    "speakerNpcId": "fruit_stall",
+    "speakerName": { "en": "Fruit Vendor", "th": "แม่ค้าผลไม้" },
+    "lines": [
+      {
+        "l2": "มะม่วงสุกๆ ราคาถูกๆ ค่ะ!",
+        "reading": "ma-muang suk-suk ra-kaa tuuk-tuuk ka",
+        "translation": { "en": "Ripe mangoes, cheap price!", "th": "มะม่วงสุกๆ ราคาถูกๆ ค่ะ!" },
+        "newWordIds": ["th_con_mor_maa"]
+      }
+    ],
+    "choices": [
+      {
+        "label": { "en": "How much?", "th": "ราคาเท่าไหร่ครับ?" },
+        "l2Response": "ราคาเท่าไหร่ครับ?",
+        "nextId": "fruit_02_price"
+      }
+    ]
+  },
+  {
+    "id": "fruit_02_price",
+    "speakerNpcId": "fruit_stall",
+    "speakerName": { "en": "Fruit Vendor", "th": "แม่ค้าผลไม้" },
+    "lines": [
+      {
+        "l2": "ยี่สิบบาทค่ะ",
+        "reading": "yii-sip baat ka",
+        "translation": { "en": "Twenty baht.", "th": "ยี่สิบบาทค่ะ" },
+        "newWordIds": ["th_con_yor_ying"]
+      }
+    ],
+    "endsDialogue": true
+  },
+  {
+    "id": "checkin_01",
+    "speakerNpcId": "check_in",
+    "speakerName": { "en": "Check-in Staff", "th": "พนักงาน" },
+    "lines": [
+      {
+        "l2": "ようこそ！この空港は、日本とタイを結ぶゲートウェイです。",
+        "reading": "ようこそ！このくうこうは、にほんとタイをむすぶゲートウェイです。",
+        "translation": { "en": "Welcome! This airport connects Japan and Thailand.", "th": "ยินดีต้อนรับ! สนามบินนี้เชื่อมต่อระหว่างญี่ปุ่นและไทย" }
+      },
+      {
+        "l2": "東のゲートはタイへ、西のゲートは日本に戻ります。",
+        "reading": "ひがしのゲートはタイへ、にしのゲートはにほんにもどります。",
+        "translation": { "en": "East gate leads to Thailand; west gate returns to Japan.", "th": "ประตูทิศตะวันออกไปไทย ประตูทิศตะวันตกกลับญี่ปุ่น" }
+      }
+    ],
+    "endsDialogue": true
+  },
+  {
+    "id": "customs_01",
+    "speakerNpcId": "customs",
+    "speakerName": { "en": "Customs Officer", "th": "เจ้าหน้าที่" },
+    "lines": [
+      {
+        "l2": "パスポートを見せてください。",
+        "reading": "パスポートをみせてください。",
+        "translation": { "en": "Please show your passport.", "th": "กรุณาแสดงหนังสือเดินทาง" }
+      }
+    ],
+    "endsDialogue": true
+  }
+]

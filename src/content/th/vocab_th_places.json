@@ -1,0 +1,1262 @@
+[
+  {
+    "id": "th_place_ban",
+    "lang": "th",
+    "written": "บ้าน",
+    "reading": "baan",
+    "romanization": "baan",
+    "meaning": { "en": "home; house", "th": "ที่อยู่อาศัย" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["place", "home", "thai"],
+    "frequency": 9500,
+    "audio": "voice/th/th_place_ban.mp3",
+    "tone": 2,
+    "toneRule": "บ (mid class) + mai tho → falling tone",
+    "examples": [
+      {
+        "sentence": "ฉันอยู่บ้านทุกวัน",
+        "reading": "chan yuu baan thuk wan",
+        "translation": { "en": "I stay home every day.", "th": "ฉันอยู่ที่บ้านทุกวัน" },
+        "context": "neighbourhood"
+      }
+    ],
+    "kotodama": {
+      "name": "Baanhome",
+      "sprite": "kotodama/th_place_ban.png",
+      "description": {
+        "en": "A warm amber spirit shaped like a little roof. It glows softly at dusk and hums lullabies.",
+        "th": "วิญญาณสีอำพันอบอุ่นรูปหลังคาเล็กๆ เปล่งแสงอ่อนๆ ยามพลบค่ำและฮัมเพลงกล่อมเด็ก"
+      },
+      "rarity": "common",
+      "habitat": ["neighbourhood", "rice_field"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_place_hong",
+    "lang": "th",
+    "written": "ห้อง",
+    "reading": "hong",
+    "romanization": "hong",
+    "meaning": { "en": "room", "th": "ห้องในอาคาร" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["place", "indoor", "thai"],
+    "frequency": 6000,
+    "audio": "voice/th/th_place_hong.mp3",
+    "tone": 3,
+    "toneRule": "ห (high class) + no mark + live → rising tone. Note: in isolation 'ห้อง' carries falling due to mai tho — falling(2).",
+    "examples": [
+      {
+        "sentence": "ห้องนี้กว้างมาก",
+        "reading": "hong ni kwang mak",
+        "translation": { "en": "This room is very spacious.", "th": "ห้องนี้กว้างมาก" },
+        "context": "neighbourhood"
+      }
+    ],
+    "kotodama": {
+      "name": "Hongspace",
+      "sprite": "kotodama/th_place_hong.png",
+      "description": {
+        "en": "A quiet rectangular spirit that expands when you need more space and shrinks to a corner when you need coziness.",
+        "th": "วิญญาณสี่เหลี่ยมเงียบที่ขยายเมื่อคุณต้องการพื้นที่ และหดเล็กลงมุมเมื่อคุณต้องการความอบอุ่น"
+      },
+      "rarity": "common",
+      "habitat": ["neighbourhood", "old_town"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_place_hong_non",
+    "lang": "th",
+    "written": "ห้องนอน",
+    "reading": "hong non",
+    "romanization": "hong non",
+    "meaning": { "en": "bedroom", "th": "ห้องสำหรับนอนหลับ" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["place", "indoor", "home", "thai"],
+    "frequency": 3500,
+    "audio": "voice/th/th_place_hong_non.mp3",
+    "tone": 0,
+    "toneRule": "ห้อง falling(2) + นอน mid(0) — compound approximation: mid(0)",
+    "examples": [
+      {
+        "sentence": "ห้องนอนของฉันเล็กแต่สบาย",
+        "reading": "hong non khong chan lek tae sabai",
+        "translation": { "en": "My bedroom is small but comfortable.", "th": "ห้องนอนของฉันเล็กแต่สบาย" },
+        "context": "neighbourhood"
+      }
+    ],
+    "kotodama": {
+      "name": "Nondream",
+      "sprite": "kotodama/th_place_hong_non.png",
+      "description": {
+        "en": "A lavender spirit that drifts above pillows and sprinkles dream dust.",
+        "th": "วิญญาณสีลาเวนเดอร์ที่ล่องลอยเหนือหมอนและโรยฝุ่นฝัน"
+      },
+      "rarity": "common",
+      "habitat": ["neighbourhood"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_place_hong_khrua",
+    "lang": "th",
+    "written": "ห้องครัว",
+    "reading": "hong khrua",
+    "romanization": "hong khrua",
+    "meaning": { "en": "kitchen", "th": "ห้องทำอาหาร" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["place", "indoor", "home", "thai"],
+    "frequency": 2800,
+    "audio": "voice/th/th_place_hong_khrua.mp3",
+    "tone": 0,
+    "toneRule": "ห้อง falling(2) + ครัว mid(0) — compound: mid(0)",
+    "examples": [
+      {
+        "sentence": "แม่อยู่ในห้องครัว",
+        "reading": "mae yuu nai hong khrua",
+        "translation": { "en": "Mum is in the kitchen.", "th": "แม่อยู่ในห้องครัว" },
+        "context": "neighbourhood"
+      }
+    ],
+    "kotodama": {
+      "name": "Khruaflame",
+      "sprite": "kotodama/th_place_hong_khrua.png",
+      "description": {
+        "en": "A smoky, warm spirit that lives near woks and always smells of garlic.",
+        "th": "วิญญาณควันอุ่นๆ ที่อาศัยอยู่ใกล้กระทะและมีกลิ่นกระเทียมเสมอ"
+      },
+      "rarity": "common",
+      "habitat": ["neighbourhood", "fresh_market"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_place_hong_nam",
+    "lang": "th",
+    "written": "ห้องน้ำ",
+    "reading": "hong nam",
+    "romanization": "hong nam",
+    "meaning": { "en": "bathroom; toilet", "th": "ห้องสุขา" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["place", "indoor", "home", "thai"],
+    "frequency": 4000,
+    "audio": "voice/th/th_place_hong_nam.mp3",
+    "tone": 3,
+    "toneRule": "ห้อง falling(2) + น้ำ high(3) — compound approximation: high(3)",
+    "examples": [
+      {
+        "sentence": "ห้องน้ำอยู่ทางขวามือ",
+        "reading": "hong nam yuu thang khwa mue",
+        "translation": { "en": "The bathroom is on the right.", "th": "ห้องน้ำอยู่ทางขวามือ" },
+        "context": "old_town"
+      }
+    ],
+    "kotodama": {
+      "name": "Namclean",
+      "sprite": "kotodama/th_place_hong_nam.png",
+      "description": {
+        "en": "A misty blue spirit that lingers after showers and loves the sound of running water.",
+        "th": "วิญญาณสีฟ้าหมอกที่ลอยอยู่หลังอาบน้ำและชอบเสียงน้ำไหล"
+      },
+      "rarity": "common",
+      "habitat": ["neighbourhood", "old_town"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_place_rong_rian",
+    "lang": "th",
+    "written": "โรงเรียน",
+    "reading": "rong rian",
+    "romanization": "rong rian",
+    "meaning": { "en": "school", "th": "สถานศึกษาระดับประถมและมัธยม" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["place", "education", "thai"],
+    "frequency": 7000,
+    "audio": "voice/th/th_place_rong_rian.mp3",
+    "tone": 0,
+    "toneRule": "ร (low class) + no mark + live → mid(0); เรียน — mid(0)",
+    "examples": [
+      {
+        "sentence": "โรงเรียนของฉันอยู่ใกล้บ้าน",
+        "reading": "rong rian khong chan yuu klai baan",
+        "translation": { "en": "My school is near my house.", "th": "โรงเรียนของฉันอยู่ใกล้บ้าน" },
+        "context": "neighbourhood"
+      }
+    ],
+    "kotodama": {
+      "name": "Rianstar",
+      "sprite": "kotodama/th_place_rong_rian.png",
+      "description": {
+        "en": "A bright yellow spirit that rings like a school bell and leaves chalk-dust trails.",
+        "th": "วิญญาณสีเหลืองสดใสที่ดังเหมือนกระดิ่งโรงเรียนและทิ้งร่องรอยฝุ่นชอล์ก"
+      },
+      "rarity": "common",
+      "habitat": ["neighbourhood", "old_town"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_place_mahawitthayalai",
+    "lang": "th",
+    "written": "มหาวิทยาลัย",
+    "reading": "maha witthayalai",
+    "romanization": "maha witthayalai",
+    "meaning": { "en": "university", "th": "สถาบันอุดมศึกษา" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["place", "education", "thai"],
+    "frequency": 3500,
+    "audio": "voice/th/th_place_mahawitthayalai.mp3",
+    "tone": 0,
+    "toneRule": "ม (low class) + no mark + live → mid(0); compound word, dominant mid(0)",
+    "examples": [
+      {
+        "sentence": "พี่สาวเรียนอยู่มหาวิทยาลัย",
+        "reading": "phi sao rian yuu maha witthayalai",
+        "translation": { "en": "My older sister studies at university.", "th": "พี่สาวกำลังเรียนอยู่ที่มหาวิทยาลัย" },
+        "context": "old_town"
+      }
+    ],
+    "kotodama": {
+      "name": "Mahagown",
+      "sprite": "kotodama/th_place_mahawitthayalai.png",
+      "description": {
+        "en": "A tall, dignified spirit wearing a tiny graduation cap. It reads constantly.",
+        "th": "วิญญาณสูงสง่าสวมหมวกรับปริญญาจิ๋ว มันอ่านหนังสือตลอดเวลา"
+      },
+      "rarity": "uncommon",
+      "habitat": ["old_town", "neighbourhood"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_place_wat",
+    "lang": "th",
+    "written": "วัด",
+    "reading": "wat",
+    "romanization": "wat",
+    "meaning": { "en": "Buddhist temple", "th": "สถานที่ประกอบพิธีกรรมทางพุทธศาสนา" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["place", "religion", "culture", "thai"],
+    "frequency": 5500,
+    "audio": "voice/th/th_place_wat.mp3",
+    "tone": 3,
+    "toneRule": "ว (low class) + dead syllable + no mark → high tone",
+    "examples": [
+      {
+        "sentence": "ทุกเช้าพระสวดมนต์ที่วัด",
+        "reading": "thuk chao phra suat mon thi wat",
+        "translation": { "en": "Every morning monks chant at the temple.", "th": "ทุกเช้าพระสงฆ์สวดมนต์ที่วัด" },
+        "context": "temple"
+      }
+    ],
+    "kotodama": {
+      "name": "Watglow",
+      "sprite": "kotodama/th_place_wat.png",
+      "description": {
+        "en": "A golden spirit shaped like a chedi that hums temple bells and smells of incense.",
+        "th": "วิญญาณสีทองรูปเจดีย์ที่ฮัมเสียงระฆังวัดและมีกลิ่นธูป"
+      },
+      "rarity": "uncommon",
+      "habitat": ["temple", "old_town"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_place_talat",
+    "lang": "th",
+    "written": "ตลาด",
+    "reading": "talat",
+    "romanization": "talat",
+    "meaning": { "en": "market", "th": "สถานที่ซื้อขายสินค้า" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["place", "commerce", "thai"],
+    "frequency": 6500,
+    "audio": "voice/th/th_place_talat.mp3",
+    "tone": 1,
+    "toneRule": "ต (mid class) + dead syllable + no mark → low(1) on first syllable",
+    "examples": [
+      {
+        "sentence": "ตลาดเช้าเต็มไปด้วยผักสด",
+        "reading": "talat chao tem pai duai phak sot",
+        "translation": { "en": "The morning market is full of fresh vegetables.", "th": "ตลาดเช้าเต็มไปด้วยผักสด" },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Talatbustle",
+      "sprite": "kotodama/th_place_talat.png",
+      "description": {
+        "en": "A colourful, chatty spirit that is loudest at dawn and loves to haggle.",
+        "th": "วิญญาณสีสันสดใสช่างพูดที่ดังที่สุดในยามรุ่งสางและชอบต่อรองราคา"
+      },
+      "rarity": "common",
+      "habitat": ["fresh_market", "floating_market", "night_market"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_place_supermarket",
+    "lang": "th",
+    "written": "ซูเปอร์มาร์เก็ต",
+    "reading": "supoe maket",
+    "romanization": "supoe maket",
+    "meaning": { "en": "supermarket", "th": "ร้านค้าปลีกขนาดใหญ่" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["place", "commerce", "loanword", "thai"],
+    "frequency": 3000,
+    "audio": "voice/th/th_place_supermarket.mp3",
+    "tone": 0,
+    "toneRule": "English loanword; mid(0) approximation across syllables",
+    "examples": [
+      {
+        "sentence": "ฉันซื้อของที่ซูเปอร์มาร์เก็ต",
+        "reading": "chan sue khong thi supoe maket",
+        "translation": { "en": "I buy things at the supermarket.", "th": "ฉันซื้อของที่ซูเปอร์มาร์เก็ต" },
+        "context": "old_town"
+      }
+    ],
+    "kotodama": {
+      "name": "Supercarttroll",
+      "sprite": "kotodama/th_place_supermarket.png",
+      "description": {
+        "en": "A shiny trolley-shaped spirit that squeaks on one wheel and always finds the best deals.",
+        "th": "วิญญาณรูปรถเข็นวาวที่ล้อหนึ่งดังเอี๊ยดและหาของลดราคาได้เสมอ"
+      },
+      "rarity": "common",
+      "habitat": ["old_town", "neighbourhood"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_place_ran_ahan",
+    "lang": "th",
+    "written": "ร้านอาหาร",
+    "reading": "ran ahan",
+    "romanization": "ran ahan",
+    "meaning": { "en": "restaurant", "th": "สถานที่ขายอาหารพร้อมรับประทาน" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["place", "food", "commerce", "thai"],
+    "frequency": 5500,
+    "audio": "voice/th/th_place_ran_ahan.mp3",
+    "tone": 3,
+    "toneRule": "ร้าน — ร (low class) + mai tho → high(3) first syllable",
+    "examples": [
+      {
+        "sentence": "ร้านอาหารนี้อร่อยและถูกมาก",
+        "reading": "ran ahan ni aroi lae thuk mak",
+        "translation": { "en": "This restaurant is delicious and very cheap.", "th": "ร้านอาหารนี้อร่อยและราคาถูกมาก" },
+        "context": "night_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Ransteam",
+      "sprite": "kotodama/th_place_ran_ahan.png",
+      "description": {
+        "en": "A warm spirit that always has a menu in one hand and a smile on its face.",
+        "th": "วิญญาณอบอุ่นที่มือหนึ่งถือเมนูและมีรอยยิ้มบนใบหน้าเสมอ"
+      },
+      "rarity": "common",
+      "habitat": ["night_market", "old_town", "floating_market"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_place_rong_phayaban",
+    "lang": "th",
+    "written": "โรงพยาบาล",
+    "reading": "rong phayaban",
+    "romanization": "rong phayaban",
+    "meaning": { "en": "hospital", "th": "สถานพยาบาลขนาดใหญ่" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["place", "health", "thai"],
+    "frequency": 4500,
+    "audio": "voice/th/th_place_rong_phayaban.mp3",
+    "tone": 0,
+    "toneRule": "ร (low) + live → mid(0); compound dominant: mid(0)",
+    "examples": [
+      {
+        "sentence": "เขาไปโรงพยาบาลเพราะไม่สบาย",
+        "reading": "khao pai rong phayaban phro mai sabai",
+        "translation": { "en": "He went to the hospital because he was unwell.", "th": "เขาไปโรงพยาบาลเพราะไม่สบาย" },
+        "context": "old_town"
+      }
+    ],
+    "kotodama": {
+      "name": "Phayabancare",
+      "sprite": "kotodama/th_place_rong_phayaban.png",
+      "description": {
+        "en": "A gentle white spirit with a tiny red cross that soothes any ailing Kotodama.",
+        "th": "วิญญาณสีขาวอ่อนโยนมีกากบาทแดงจิ๋วที่ปลอบโคโตะดามะที่เจ็บป่วย"
+      },
+      "rarity": "uncommon",
+      "habitat": ["old_town", "neighbourhood"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_place_sathanee_tamruat",
+    "lang": "th",
+    "written": "สถานีตำรวจ",
+    "reading": "sathanee tamruat",
+    "romanization": "sathanee tamruat",
+    "meaning": { "en": "police station", "th": "ที่ทำการตำรวจ" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["place", "civic", "thai"],
+    "frequency": 2500,
+    "audio": "voice/th/th_place_sathanee_tamruat.mp3",
+    "tone": 0,
+    "toneRule": "ส (high class) + no mark + live → rising(4) on first syllable; compound approximation: mid(0)",
+    "examples": [
+      {
+        "sentence": "สถานีตำรวจอยู่ตรงกลางเมือง",
+        "reading": "sathanee tamruat yuu trong klang mueang",
+        "translation": { "en": "The police station is in the centre of town.", "th": "สถานีตำรวจอยู่ตรงกลางเมือง" },
+        "context": "old_town"
+      }
+    ],
+    "kotodama": {
+      "name": "Tamruatwatch",
+      "sprite": "kotodama/th_place_sathanee_tamruat.png",
+      "description": {
+        "en": "A stern but kind spirit wearing a tiny badge that shines whenever justice is served.",
+        "th": "วิญญาณเคร่งขรึมแต่ใจดีสวมตราสัญลักษณ์จิ๋วที่เปล่งแสงเมื่อความยุติธรรมเกิดขึ้น"
+      },
+      "rarity": "uncommon",
+      "habitat": ["old_town", "neighbourhood"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_place_thanakhan",
+    "lang": "th",
+    "written": "ธนาคาร",
+    "reading": "thanakhan",
+    "romanization": "thanakhan",
+    "meaning": { "en": "bank", "th": "สถาบันการเงิน" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["place", "finance", "thai"],
+    "frequency": 3500,
+    "audio": "voice/th/th_place_thanakhan.mp3",
+    "tone": 0,
+    "toneRule": "ธ (low class) + no mark + live → mid(0)",
+    "examples": [
+      {
+        "sentence": "ฉันต้องไปธนาคารพรุ่งนี้",
+        "reading": "chan tong pai thanakhan phrung ni",
+        "translation": { "en": "I need to go to the bank tomorrow.", "th": "ฉันต้องไปธนาคารพรุ่งนี้" },
+        "context": "old_town"
+      }
+    ],
+    "kotodama": {
+      "name": "Thanacoin",
+      "sprite": "kotodama/th_place_thanakhan.png",
+      "description": {
+        "en": "A round golden spirit that rolls quietly and keeps meticulous records of everything.",
+        "th": "วิญญาณกลมสีทองที่กลิ้งเงียบๆ และจดบันทึกทุกอย่างอย่างละเอียด"
+      },
+      "rarity": "uncommon",
+      "habitat": ["old_town", "neighbourhood"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_place_praisani",
+    "lang": "th",
+    "written": "ไปรษณีย์",
+    "reading": "praisani",
+    "romanization": "praisani",
+    "meaning": { "en": "post office", "th": "สำนักงานไปรษณีย์" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["place", "civic", "thai"],
+    "frequency": 2000,
+    "audio": "voice/th/th_place_praisani.mp3",
+    "tone": 0,
+    "toneRule": "ป (mid class) + no mark + live → mid(0)",
+    "examples": [
+      {
+        "sentence": "ส่งพัสดุที่ไปรษณีย์ได้เลย",
+        "reading": "song phatsadu thi praisani dai loei",
+        "translation": { "en": "You can send parcels at the post office.", "th": "ส่งพัสดุที่ไปรษณีย์ได้เลย" },
+        "context": "old_town"
+      }
+    ],
+    "kotodama": {
+      "name": "Praisaniletter",
+      "sprite": "kotodama/th_place_praisani.png",
+      "description": {
+        "en": "A sky-blue spirit that folds itself into an envelope shape and loves carrying messages.",
+        "th": "วิญญาณสีฟ้าอากาศที่พับตัวเองเป็นรูปซอง และรักการพาข้อความไปส่ง"
+      },
+      "rarity": "common",
+      "habitat": ["old_town", "neighbourhood"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_place_sanam_bin",
+    "lang": "th",
+    "written": "สนามบิน",
+    "reading": "sanam bin",
+    "romanization": "sanam bin",
+    "meaning": { "en": "airport", "th": "ท่าอากาศยาน" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["place", "transport", "thai"],
+    "frequency": 4000,
+    "audio": "voice/th/th_place_sanam_bin.mp3",
+    "tone": 0,
+    "toneRule": "ส (high class) + no mark + live → rising(4) first syllable; บิน — บ (mid) + live → mid(0). Compound: mid(0) approximation",
+    "examples": [
+      {
+        "sentence": "สนามบินสุวรรณภูมิใหญ่มาก",
+        "reading": "sanam bin suwannaphum yai mak",
+        "translation": { "en": "Suvarnabhumi Airport is very large.", "th": "สนามบินสุวรรณภูมิใหญ่มาก" },
+        "context": "old_town"
+      }
+    ],
+    "kotodama": {
+      "name": "Bincloud",
+      "sprite": "kotodama/th_place_sanam_bin.png",
+      "description": {
+        "en": "A jet-white spirit that zooms overhead leaving a contrail of sakura petals.",
+        "th": "วิญญาณสีขาวสนิทที่พุ่งผ่านศีรษะและทิ้งควันกลีบดอกซากุระไว้"
+      },
+      "rarity": "uncommon",
+      "habitat": ["old_town", "neighbourhood"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_place_sathanee_rot_fai",
+    "lang": "th",
+    "written": "สถานีรถไฟ",
+    "reading": "sathanee rot fai",
+    "romanization": "sathanee rot fai",
+    "meaning": { "en": "train station", "th": "สถานีสำหรับรถไฟ" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["place", "transport", "thai"],
+    "frequency": 3000,
+    "audio": "voice/th/th_place_sathanee_rot_fai.mp3",
+    "tone": 0,
+    "toneRule": "สถานี — rising(4) approximation; compound dominant: mid(0)",
+    "examples": [
+      {
+        "sentence": "รถไฟออกจากสถานีตอนหกโมงเช้า",
+        "reading": "rot fai ok chak sathanee ton hok mong chao",
+        "translation": { "en": "The train leaves the station at six in the morning.", "th": "รถไฟออกจากสถานีตอนหกโมงเช้า" },
+        "context": "old_town"
+      }
+    ],
+    "kotodama": {
+      "name": "Rotfairail",
+      "sprite": "kotodama/th_place_sathanee_rot_fai.png",
+      "description": {
+        "en": "A steam-puffing spirit that runs on invisible tracks and always arrives exactly on time.",
+        "th": "วิญญาณพ่นไอน้ำที่วิ่งบนรางล่องหนและมาถึงตรงเวลาเสมอ"
+      },
+      "rarity": "uncommon",
+      "habitat": ["old_town", "pier"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_place_thanon",
+    "lang": "th",
+    "written": "ถนน",
+    "reading": "thanon",
+    "romanization": "thanon",
+    "meaning": { "en": "road; street", "th": "เส้นทางสำหรับยานพาหนะ" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["place", "transport", "thai"],
+    "frequency": 5000,
+    "audio": "voice/th/th_place_thanon.mp3",
+    "tone": 4,
+    "toneRule": "ถ (high class) + no mark + live → rising(4)",
+    "examples": [
+      {
+        "sentence": "ถนนนี้รถติดตอนเช้า",
+        "reading": "thanon ni rot tit ton chao",
+        "translation": { "en": "This road has traffic jams in the morning.", "th": "ถนนนี้มีรถติดตอนเช้า" },
+        "context": "old_town"
+      }
+    ],
+    "kotodama": {
+      "name": "Thanonpath",
+      "sprite": "kotodama/th_place_thanon.png",
+      "description": {
+        "en": "A long flat spirit that stretches endlessly and loves the hum of tuk-tuks.",
+        "th": "วิญญาณแบนยาวที่ยืดออกไปไม่รู้จบและรักเสียงตุ๊กตุ๊ก"
+      },
+      "rarity": "common",
+      "habitat": ["old_town", "neighbourhood"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_place_saphan",
+    "lang": "th",
+    "written": "สะพาน",
+    "reading": "saphan",
+    "romanization": "saphan",
+    "meaning": { "en": "bridge", "th": "สิ่งก่อสร้างเชื่อมสองฝั่ง" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["place", "structure", "thai"],
+    "frequency": 2500,
+    "audio": "voice/th/th_place_saphan.mp3",
+    "tone": 4,
+    "toneRule": "ส (high class) + no mark + live → rising(4)",
+    "examples": [
+      {
+        "sentence": "สะพานข้ามแม่น้ำสวยมาก",
+        "reading": "saphan kham mae nam suai mak",
+        "translation": { "en": "The bridge over the river is very beautiful.", "th": "สะพานข้ามแม่น้ำสวยมาก" },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Saphanarch",
+      "sprite": "kotodama/th_place_saphan.png",
+      "description": {
+        "en": "A graceful arching spirit that spans rivers and invites travellers to cross.",
+        "th": "วิญญาณโค้งงดงามที่พาดข้ามแม่น้ำและเชื้อเชิญนักเดินทางให้ข้าม"
+      },
+      "rarity": "uncommon",
+      "habitat": ["pier", "floating_market"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_place_tha_ruea",
+    "lang": "th",
+    "written": "ท่าเรือ",
+    "reading": "tha ruea",
+    "romanization": "tha ruea",
+    "meaning": { "en": "pier; dock; harbour", "th": "ที่จอดเรือริมน้ำ" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["place", "water", "transport", "thai"],
+    "frequency": 2800,
+    "audio": "voice/th/th_place_tha_ruea.mp3",
+    "tone": 3,
+    "toneRule": "ท่า — ท (low class) + mai ek → falling(2); เรือ — mid(0). Compound: high(3) approximation for prominence",
+    "examples": [
+      {
+        "sentence": "เรือออกจากท่าเรือทุกชั่วโมง",
+        "reading": "ruea ok chak tha ruea thuk chua mong",
+        "translation": { "en": "Boats leave the pier every hour.", "th": "เรือออกจากท่าเรือทุกชั่วโมง" },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Tharuawave",
+      "sprite": "kotodama/th_place_tha_ruea.png",
+      "description": {
+        "en": "A salt-breeze spirit that smells of river water and always has a rope in hand.",
+        "th": "วิญญาณสายลมเกลือที่มีกลิ่นน้ำแม่น้ำและถือเชือกไว้ในมือเสมอ"
+      },
+      "rarity": "common",
+      "habitat": ["pier", "floating_market"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_place_mae_nam",
+    "lang": "th",
+    "written": "แม่น้ำ",
+    "reading": "mae nam",
+    "romanization": "mae nam",
+    "meaning": { "en": "river", "th": "แหล่งน้ำขนาดใหญ่ที่ไหลตลอดเวลา" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["place", "nature", "water", "thai"],
+    "frequency": 4500,
+    "audio": "voice/th/th_place_mae_nam.mp3",
+    "tone": 3,
+    "toneRule": "แม่ — ม (low class) + mai ek → falling(2); น้ำ — high(3). Compound: high(3)",
+    "examples": [
+      {
+        "sentence": "แม่น้ำเจ้าพระยาไหลผ่านกรุงเทพ",
+        "reading": "mae nam chao phraya lai phan krung thep",
+        "translation": { "en": "The Chao Phraya River flows through Bangkok.", "th": "แม่น้ำเจ้าพระยาไหลผ่านกรุงเทพ" },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Maenameflow",
+      "sprite": "kotodama/th_place_mae_nam.png",
+      "description": {
+        "en": "A shimmering teal spirit that never stops moving and carries reflections of the sky.",
+        "th": "วิญญาณสีฟิโรซเขียวแววที่ไม่เคยหยุดนิ่งและพาภาพสะท้อนของท้องฟ้า"
+      },
+      "rarity": "common",
+      "habitat": ["pier", "floating_market", "rice_field"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_place_thale",
+    "lang": "th",
+    "written": "ทะเล",
+    "reading": "thale",
+    "romanization": "thale",
+    "meaning": { "en": "sea; ocean", "th": "มหาสมุทรและน้ำเค็มกว้างใหญ่" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["place", "nature", "water", "thai"],
+    "frequency": 4000,
+    "audio": "voice/th/th_place_thale.mp3",
+    "tone": 3,
+    "toneRule": "ท (low class) + dead → high(3) first syllable",
+    "examples": [
+      {
+        "sentence": "ทะเลไทยน้ำใสมากในฤดูร้อน",
+        "reading": "thale thai nam sai mak nai rueduu ron",
+        "translation": { "en": "The Thai sea is very clear in summer.", "th": "ทะเลไทยน้ำใสมากในฤดูร้อน" },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Thalecrest",
+      "sprite": "kotodama/th_place_thale.png",
+      "description": {
+        "en": "A vast blue spirit whose waves never exactly repeat — every crest is unique.",
+        "th": "วิญญาณสีน้ำเงินกว้างใหญ่ที่คลื่นไม่เคยซ้ำกัน — ทุกยอดคลื่นเป็นเอกลักษณ์"
+      },
+      "rarity": "uncommon",
+      "habitat": ["pier"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_place_chaiyahat",
+    "lang": "th",
+    "written": "ชายหาด",
+    "reading": "chai hat",
+    "romanization": "chai hat",
+    "meaning": { "en": "beach", "th": "ชายฝั่งทะเลที่เป็นทราย" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["place", "nature", "water", "thai"],
+    "frequency": 3500,
+    "audio": "voice/th/th_place_chaiyahat.mp3",
+    "tone": 2,
+    "toneRule": "ช (low class) + dead → high(3); หาด — ห (high class) + dead → low(1). Compound approximation: falling(2)",
+    "examples": [
+      {
+        "sentence": "ชายหาดพัทยาเต็มไปด้วยนักท่องเที่ยว",
+        "reading": "chai hat phattaya tem pai duai nak thong thiao",
+        "translation": { "en": "Pattaya beach is full of tourists.", "th": "ชายหาดพัทยาเต็มไปด้วยนักท่องเที่ยว" },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Hatsand",
+      "sprite": "kotodama/th_place_chaiyahat.png",
+      "description": {
+        "en": "A sandy golden spirit that leaves a trail of tiny shells and hums the sound of waves.",
+        "th": "วิญญาณทรายสีทองที่ทิ้งร่องรอยหอยเล็กๆ และฮัมเสียงคลื่น"
+      },
+      "rarity": "common",
+      "habitat": ["pier"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_place_phukhao",
+    "lang": "th",
+    "written": "ภูเขา",
+    "reading": "phukao",
+    "romanization": "phukao",
+    "meaning": { "en": "mountain", "th": "ที่สูงขนาดใหญ่เป็นหินและดิน" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["place", "nature", "thai"],
+    "frequency": 3000,
+    "audio": "voice/th/th_place_phukhao.mp3",
+    "tone": 3,
+    "toneRule": "ภ (low class) + dead → high(3) first syllable",
+    "examples": [
+      {
+        "sentence": "ภูเขาทางเหนือปกคลุมไปด้วยหมอก",
+        "reading": "phukao thang nuea pok khlum pai duai mok",
+        "translation": { "en": "The northern mountains are covered in mist.", "th": "ภูเขาทางเหนือปกคลุมด้วยหมอก" },
+        "context": "rice_field"
+      }
+    ],
+    "kotodama": {
+      "name": "Phukaopeak",
+      "sprite": "kotodama/th_place_phukhao.png",
+      "description": {
+        "en": "A towering misty spirit whose summit is always hidden in clouds.",
+        "th": "วิญญาณสูงใหญ่หมอกปกคลุมที่ยอดของมันซ่อนอยู่ในก้อนเมฆเสมอ"
+      },
+      "rarity": "uncommon",
+      "habitat": ["rice_field", "temple"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_place_pa",
+    "lang": "th",
+    "written": "ป่า",
+    "reading": "paa",
+    "romanization": "paa",
+    "meaning": { "en": "forest; jungle", "th": "พื้นที่ปกคลุมด้วยต้นไม้หนาแน่น" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["place", "nature", "thai"],
+    "frequency": 3500,
+    "audio": "voice/th/th_place_pa.mp3",
+    "tone": 2,
+    "toneRule": "ป (mid class) + mai tho → falling(2)",
+    "examples": [
+      {
+        "sentence": "ป่าฝนเมืองไทยอุดมสมบูรณ์มาก",
+        "reading": "paa fon mueang thai udom sombun mak",
+        "translation": { "en": "Thailand's rainforest is very abundant.", "th": "ป่าฝนเมืองไทยอุดมสมบูรณ์มาก" },
+        "context": "rice_field"
+      }
+    ],
+    "kotodama": {
+      "name": "Paacanopy",
+      "sprite": "kotodama/th_place_pa.png",
+      "description": {
+        "en": "A deep green spirit that rustles with bird calls and hides secret paths.",
+        "th": "วิญญาณสีเขียวเข้มที่กรอบแกรบด้วยเสียงนกและซ่อนเส้นทางลับ"
+      },
+      "rarity": "common",
+      "habitat": ["rice_field", "temple"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_place_suan",
+    "lang": "th",
+    "written": "สวน",
+    "reading": "suan",
+    "romanization": "suan",
+    "meaning": { "en": "garden; orchard", "th": "พื้นที่ปลูกต้นไม้หรือผลผลิต" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["place", "nature", "thai"],
+    "frequency": 3200,
+    "audio": "voice/th/th_place_suan.mp3",
+    "tone": 4,
+    "toneRule": "ส (high class) + no mark + live → rising(4)",
+    "examples": [
+      {
+        "sentence": "ดอกไม้ในสวนบานสวยมาก",
+        "reading": "dok mai nai suan ban suai mak",
+        "translation": { "en": "The flowers in the garden are blooming beautifully.", "th": "ดอกไม้ในสวนบานสวยมาก" },
+        "context": "neighbourhood"
+      }
+    ],
+    "kotodama": {
+      "name": "Suanblossom",
+      "sprite": "kotodama/th_place_suan.png",
+      "description": {
+        "en": "A fragrant green spirit that coaxes every seed it touches into bloom.",
+        "th": "วิญญาณสีเขียวหอมกรุ่นที่ช่วยให้เมล็ดพืชทุกเมล็ดที่สัมผัสออกดอก"
+      },
+      "rarity": "common",
+      "habitat": ["neighbourhood", "temple", "rice_field"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_place_suan_satharana",
+    "lang": "th",
+    "written": "สวนสาธารณะ",
+    "reading": "suan satharana",
+    "romanization": "suan satharana",
+    "meaning": { "en": "public park", "th": "สวนสาธารณะสำหรับทุกคน" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["place", "nature", "civic", "thai"],
+    "frequency": 2500,
+    "audio": "voice/th/th_place_suan_satharana.mp3",
+    "tone": 4,
+    "toneRule": "สวน — rising(4); สาธารณะ — ส (high class) + no mark + live → rising(4)",
+    "examples": [
+      {
+        "sentence": "คนออกกำลังกายที่สวนสาธารณะตอนเช้า",
+        "reading": "khon ok kamlang kai thi suan satharana ton chao",
+        "translation": { "en": "People exercise at the public park in the morning.", "th": "คนออกกำลังกายที่สวนสาธารณะตอนเช้า" },
+        "context": "neighbourhood"
+      }
+    ],
+    "kotodama": {
+      "name": "Satharanapark",
+      "sprite": "kotodama/th_place_suan_satharana.png",
+      "description": {
+        "en": "A gentle breeze spirit that keeps benches shaded and fountains splashing.",
+        "th": "วิญญาณสายลมอ่อนโยนที่ทำให้ม้านั่งมีร่มเงาและน้ำพุพุ่งพล่าน"
+      },
+      "rarity": "common",
+      "habitat": ["neighbourhood", "old_town"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_place_hang_sapsin",
+    "lang": "th",
+    "written": "ห้างสรรพสินค้า",
+    "reading": "hang sapphasinkhaa",
+    "romanization": "hang sapphasinkhaa",
+    "meaning": { "en": "shopping mall; department store", "th": "ศูนย์การค้าขนาดใหญ่" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["place", "commerce", "thai"],
+    "frequency": 4000,
+    "audio": "voice/th/th_place_hang_sapsin.mp3",
+    "tone": 2,
+    "toneRule": "ห้าง — ห (high class) + mai tho → falling(2)",
+    "examples": [
+      {
+        "sentence": "ห้างสรรพสินค้าเปิดทุกวัน",
+        "reading": "hang sapphasinkhaa poet thuk wan",
+        "translation": { "en": "The shopping mall is open every day.", "th": "ห้างสรรพสินค้าเปิดทุกวัน" },
+        "context": "old_town"
+      }
+    ],
+    "kotodama": {
+      "name": "Hangshop",
+      "sprite": "kotodama/th_place_hang_sapsin.png",
+      "description": {
+        "en": "A gleaming multi-floored spirit that echoes with escalator music.",
+        "th": "วิญญาณวาวหลายชั้นที่ก้องด้วยเพลงบันไดเลื่อน"
+      },
+      "rarity": "uncommon",
+      "habitat": ["old_town", "neighbourhood"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_place_rong_raem",
+    "lang": "th",
+    "written": "โรงแรม",
+    "reading": "rong raem",
+    "romanization": "rong raem",
+    "meaning": { "en": "hotel", "th": "ที่พักสำหรับนักท่องเที่ยว" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["place", "accommodation", "thai"],
+    "frequency": 3800,
+    "audio": "voice/th/th_place_rong_raem.mp3",
+    "tone": 0,
+    "toneRule": "ร (low class) + live → mid(0); compound: mid(0)",
+    "examples": [
+      {
+        "sentence": "โรงแรมนี้ใกล้ทะเลมาก",
+        "reading": "rong raem ni klai thale mak",
+        "translation": { "en": "This hotel is very close to the sea.", "th": "โรงแรมนี้ใกล้ทะเลมาก" },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Raembell",
+      "sprite": "kotodama/th_place_rong_raem.png",
+      "description": {
+        "en": "A polite spirit in a tiny bellhop uniform that always holds a room key.",
+        "th": "วิญญาณสุภาพในชุดพนักงานยกกระเป๋าจิ๋วที่ถือกุญแจห้องเสมอ"
+      },
+      "rarity": "uncommon",
+      "habitat": ["old_town", "pier"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_place_sathanthi",
+    "lang": "th",
+    "written": "สถานที่",
+    "reading": "sathanhi",
+    "romanization": "sathanhi",
+    "meaning": { "en": "place; location; venue", "th": "สถานที่ทั่วไป" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["place", "general", "thai"],
+    "frequency": 4500,
+    "audio": "voice/th/th_place_sathanthi.mp3",
+    "tone": 4,
+    "toneRule": "ส (high class) + no mark + live → rising(4) first syllable",
+    "examples": [
+      {
+        "sentence": "สถานที่นี้สวยมาก",
+        "reading": "sathanhi ni suai mak",
+        "translation": { "en": "This place is very beautiful.", "th": "สถานที่นี้สวยมาก" },
+        "context": "temple"
+      }
+    ],
+    "kotodama": {
+      "name": "Sathispot",
+      "sprite": "kotodama/th_place_sathanthi.png",
+      "description": {
+        "en": "A pin-shaped spirit that marks points of interest on invisible maps.",
+        "th": "วิญญาณรูปหมุดที่ทำเครื่องหมายจุดน่าสนใจบนแผนที่ล่องหน"
+      },
+      "rarity": "common",
+      "habitat": ["old_town", "temple", "neighbourhood"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_place_thi",
+    "lang": "th",
+    "written": "ที่",
+    "reading": "thi",
+    "romanization": "thi",
+    "meaning": { "en": "place; location (general)", "th": "คำระบุสถานที่" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["place", "general", "thai"],
+    "frequency": 9000,
+    "audio": "voice/th/th_place_thi.mp3",
+    "tone": 3,
+    "toneRule": "ท (low class) + dead syllable + no mark → high(3)",
+    "examples": [
+      {
+        "sentence": "คุณอยู่ที่ไหน",
+        "reading": "khun yuu thi nai",
+        "translation": { "en": "Where are you?", "th": "คุณอยู่ที่ไหน" },
+        "context": "neighbourhood"
+      }
+    ],
+    "kotodama": {
+      "name": "Thimarker",
+      "sprite": "kotodama/th_place_thi.png",
+      "description": {
+        "en": "A tiny floating arrow spirit that always points to the nearest interesting place.",
+        "th": "วิญญาณลูกศรล่องลอยจิ๋วที่ชี้ไปยังสถานที่น่าสนใจที่ใกล้ที่สุดเสมอ"
+      },
+      "rarity": "common",
+      "habitat": ["old_town", "neighbourhood", "temple", "fresh_market"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_place_khang_nai",
+    "lang": "th",
+    "written": "ข้างใน",
+    "reading": "khang nai",
+    "romanization": "khang nai",
+    "meaning": { "en": "inside; interior", "th": "ด้านในของสถานที่" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["place", "direction", "preposition", "thai"],
+    "frequency": 4500,
+    "audio": "voice/th/th_place_khang_nai.mp3",
+    "tone": 3,
+    "toneRule": "ข (high class) + no mark + live → rising(4); นาย — approximation high(3) compound",
+    "examples": [
+      {
+        "sentence": "แมวอยู่ข้างในบ้าน",
+        "reading": "maeo yuu khang nai baan",
+        "translation": { "en": "The cat is inside the house.", "th": "แมวอยู่ข้างในบ้าน" },
+        "context": "neighbourhood"
+      }
+    ],
+    "kotodama": {
+      "name": "Naicozy",
+      "sprite": "kotodama/th_place_khang_nai.png",
+      "description": {
+        "en": "A sheltered spirit that lives in warm interiors and hides treasures behind curtains.",
+        "th": "วิญญาณที่อยู่ในที่ร่มอบอุ่นและซ่อนสมบัติไว้หลังม่าน"
+      },
+      "rarity": "common",
+      "habitat": ["neighbourhood", "old_town"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_place_khang_nok",
+    "lang": "th",
+    "written": "ข้างนอก",
+    "reading": "khang nok",
+    "romanization": "khang nok",
+    "meaning": { "en": "outside; exterior", "th": "ด้านนอกของสถานที่" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["place", "direction", "preposition", "thai"],
+    "frequency": 4000,
+    "audio": "voice/th/th_place_khang_nok.mp3",
+    "tone": 3,
+    "toneRule": "ข (high class) + live → rising(4); นอก — น (low) + dead → high(3). Compound: high(3)",
+    "examples": [
+      {
+        "sentence": "เด็กๆ เล่นข้างนอก",
+        "reading": "dek dek len khang nok",
+        "translation": { "en": "The children are playing outside.", "th": "เด็กๆ เล่นอยู่ข้างนอก" },
+        "context": "neighbourhood"
+      }
+    ],
+    "kotodama": {
+      "name": "Nokbreezy",
+      "sprite": "kotodama/th_place_khang_nok.png",
+      "description": {
+        "en": "A windy open-air spirit that constantly carries the smell of fresh air and open skies.",
+        "th": "วิญญาณกลางแจ้งสายลมพัดที่พาอากาศบริสุทธิ์และท้องฟ้าเปิดกว้างเสมอ"
+      },
+      "rarity": "common",
+      "habitat": ["neighbourhood", "rice_field"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_place_khang_bon",
+    "lang": "th",
+    "written": "ข้างบน",
+    "reading": "khang bon",
+    "romanization": "khang bon",
+    "meaning": { "en": "above; upstairs; on top", "th": "ด้านบนหรือชั้นบน" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["place", "direction", "thai"],
+    "frequency": 4500,
+    "audio": "voice/th/th_place_khang_bon.mp3",
+    "tone": 0,
+    "toneRule": "ข้าง — rising(4); บน — บ (mid) + live → mid(0). Compound: mid(0)",
+    "examples": [
+      {
+        "sentence": "ห้องนอนอยู่ข้างบน",
+        "reading": "hong non yuu khang bon",
+        "translation": { "en": "The bedroom is upstairs.", "th": "ห้องนอนอยู่ชั้นบน" },
+        "context": "neighbourhood"
+      }
+    ],
+    "kotodama": {
+      "name": "Bonheight",
+      "sprite": "kotodama/th_place_khang_bon.png",
+      "description": {
+        "en": "A cloud-drifting spirit that floats just above rooftops and loves high places.",
+        "th": "วิญญาณล่องลอยบนเมฆที่ลอยอยู่เหนือหลังคาและรักที่สูง"
+      },
+      "rarity": "common",
+      "habitat": ["neighbourhood", "temple"]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "th_place_khang_lang",
+    "lang": "th",
+    "written": "ข้างล่าง",
+    "reading": "khang lang",
+    "romanization": "khang lang",
+    "meaning": { "en": "below; downstairs; underneath", "th": "ด้านล่างหรือชั้นล่าง" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": ["place", "direction", "thai"],
+    "frequency": 4000,
+    "audio": "voice/th/th_place_khang_lang.mp3",
+    "tone": 2,
+    "toneRule": "ข้าง — rising(4); ล่าง — ล (low class) + mai ek → falling(2). Compound: falling(2)",
+    "examples": [
+      {
+        "sentence": "ครัวอยู่ข้างล่าง",
+        "reading": "khrua yuu khang lang",
+        "translation": { "en": "The kitchen is downstairs.", "th": "ครัวอยู่ชั้นล่าง" },
+        "context": "neighbourhood"
+      }
+    ],
+    "kotodama": {
+      "name": "Langground",
+      "sprite": "kotodama/th_place_khang_lang.png",
+      "description": {
+        "en": "A grounded earthy spirit that hugs the floor and knows every basement secret.",
+        "th": "วิญญาณดินที่ยึดติดพื้นและรู้ทุกความลับของห้องใต้ดิน"
+      },
+      "rarity": "common",
+      "habitat": ["neighbourhood", "old_town"]
+    },
+    "needsReview": true
+  }
+]

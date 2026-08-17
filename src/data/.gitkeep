@@ -1,0 +1,2 @@
+# Dexie (IndexedDB) layer lands here in prompt P1.4.
+# Nothing else in the codebase may touch IndexedDB directly. See CLAUDE.md §4.5.
