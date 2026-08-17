@@ -7,7 +7,8 @@
     "romanization": "kh",
     "meaning": {
       "en": "the buffalo — low-class (aspirated kh, same sound as ข but low-class)",
-      "th": "คอควาย — อักษรต่ำ เสียงขอ (เหมือน ข แต่อักษรต่ำ)"
+      "th": "คอควาย — อักษรต่ำ เสียงขอ (เหมือน ข แต่อักษรต่ำ)",
+      "ja": "水牛 — 低子音クラス (有気kh音、高子音のkhと同音)"
     },
     "pos": "character",
     "element": "stone",
@@ -53,7 +54,8 @@
     "mnemonic": {
       "en": "ค looks like ข with a drooping tail — the 'low' version that hangs heavier, like a buffalo in the mud.",
       "th": "ค คล้าย ข ที่มีหางย้อยลง — เวอร์ชัน 'ต่ำ' ที่หนักกว่า เหมือนควายในโคลน"
-    }
+    },
+    "needsReview": false
   },
   {
     "id": "th_con_ngor_ngu",
@@ -63,7 +65,8 @@
     "romanization": "ng",
     "meaning": {
       "en": "the snake — low-class (ng sound, only as final consonant in initial position for many words)",
-      "th": "งอง — อักษรต่ำ เสียงงอ"
+      "th": "งอง — อักษรต่ำ เสียงงอ",
+      "ja": "蛇 — 低子音クラス (ng音、語末のみ)"
     },
     "pos": "character",
     "element": "stone",
@@ -109,7 +112,8 @@
     "mnemonic": {
       "en": "ง looks like a snake with a raised head — the circular coil is the body and the hook is the head looking up.",
       "th": "ง ดูเหมือนงูที่เชิดหัว — วงกลมคือลำตัว ส่วนขอคือหัวที่มองขึ้น"
-    }
+    },
+    "needsReview": false
   },
   {
     "id": "th_con_nor_nen",
@@ -119,7 +123,8 @@
     "romanization": "n",
     "meaning": {
       "en": "the novice monk — low-class (n sound, Pali-origin spelling)",
-      "th": "ณอเณร — อักษรต่ำ เสียงนอ (สะกดแบบบาลี)"
+      "th": "ณอเณร — อักษรต่ำ เสียงนอ (สะกดแบบบาลี)",
+      "ja": "沙弥（しゃみ） — 低子音クラス (n音、パーリ語由来)"
     },
     "pos": "character",
     "element": "stone",
@@ -164,7 +169,8 @@
     "mnemonic": {
       "en": "ณ has an ornate extra stroke compared to น — the extra detail is like the extra devotion of a novice who studies carefully.",
       "th": "ณ มีเส้นพิเศษเพิ่มเติมจาก น — รายละเอียดพิเศษเหมือนความทุ่มเทของสามเณรที่ตั้งใจเรียน"
-    }
+    },
+    "needsReview": false
   },
   {
     "id": "th_con_nor_nu",
@@ -174,7 +180,8 @@
     "romanization": "n",
     "meaning": {
       "en": "the mouse — low-class (n sound, common everyday form)",
-      "th": "นอหนู — อักษรต่ำ เสียงนอ (รูปสามัญ)"
+      "th": "นอหนู — อักษรต่ำ เสียงนอ (รูปสามัญ)",
+      "ja": "ネズミ — 低子音クラス (n音、一般的な語形)"
     },
     "pos": "character",
     "element": "stone",
@@ -221,7 +228,8 @@
     "mnemonic": {
       "en": "น looks like a little mouse peeking over a fence — the two legs below are the mouse's tiny body.",
       "th": "น ดูเหมือนหนูตัวเล็กแอบมองข้ามรั้ว — สองขาด้านล่างคือตัวหนูน้อย"
-    }
+    },
+    "needsReview": false
   },
   {
     "id": "th_con_por_plaa_low",
@@ -231,7 +239,8 @@
     "romanization": "ph",
     "meaning": {
       "en": "the tray — low-class (aspirated ph, same sound as ผ but low-class)",
-      "th": "พอพาน — อักษรต่ำ เสียงผอ (เหมือน ผ แต่อักษรต่ำ)"
+      "th": "พอพาน — อักษรต่ำ เสียงผอ (เหมือน ผ แต่อักษรต่ำ)",
+      "ja": "トレイ — 低子音クラス (有気ph音、高子音phと同音)"
     },
     "pos": "character",
     "element": "stone",
@@ -277,7 +286,8 @@
     "mnemonic": {
       "en": "พ has a wide, flat shape like a tray held level — balanced and open.",
       "th": "พ มีรูปทรงกว้างแบนเหมือนพานที่วางราบ — สมดุลและเปิดกว้าง"
-    }
+    },
+    "needsReview": false
   },
   {
     "id": "th_con_mor_maa_low",
@@ -287,7 +297,8 @@
     "romanization": "m",
     "meaning": {
       "en": "the horse — low-class (m sound)",
-      "th": "มอม้า — อักษรต่ำ เสียงมอ"
+      "th": "มอม้า — อักษรต่ำ เสียงมอ",
+      "ja": "馬 — 低子音クラス (m音)"
     },
     "pos": "character",
     "element": "stone",
@@ -334,7 +345,8 @@
     "mnemonic": {
       "en": "ม looks like someone humming with lips pressed together — the 'm' sound is made by closing the lips.",
       "th": "ม ดูเหมือนคนฮัมเพลงโดยปิดริมฝีปาก — เสียง ม เกิดจากการปิดปาก"
-    }
+    },
+    "needsReview": false
   },
   {
     "id": "th_con_ror_ruea",
@@ -344,7 +356,8 @@
     "romanization": "r",
     "meaning": {
       "en": "the boat — low-class (r sound, often pronounced as l in casual speech)",
-      "th": "รอเรือ — อักษรต่ำ เสียงรอ (บางทีออกเสียงเป็น ล ในการพูดทั่วไป)"
+      "th": "รอเรือ — อักษรต่ำ เสียงรอ (บางทีออกเสียงเป็น ล ในการพูดทั่วไป)",
+      "ja": "ボート — 低子音クラス (r音、現代語ではl音として発音されることも)"
     },
     "pos": "character",
     "element": "stone",
@@ -390,7 +403,8 @@
     "mnemonic": {
       "en": "ร looks like a boat's curved hull seen from the side — the wave at the bottom, the prow curving up.",
       "th": "ร ดูเหมือนตัวเรือโค้งที่มองจากด้านข้าง — คลื่นด้านล่าง หัวเรือโค้งขึ้น"
-    }
+    },
+    "needsReview": false
   },
   {
     "id": "th_con_lor_ling",
@@ -400,7 +414,8 @@
     "romanization": "l",
     "meaning": {
       "en": "the monkey — low-class (l sound)",
-      "th": "ลอลิง — อักษรต่ำ เสียงลอ"
+      "th": "ลอลิง — อักษรต่ำ เสียงลอ",
+      "ja": "猿 — 低子音クラス (l音)"
     },
     "pos": "character",
     "element": "stone",
@@ -447,6 +462,7 @@
     "mnemonic": {
       "en": "ล looks like a monkey hanging by one arm — the curved body and dangling tail.",
       "th": "ล ดูเหมือนลิงแขวนด้วยแขนเดียว — ตัวโค้งและหางย้อย"
-    }
+    },
+    "needsReview": false
   }
 ]

@@ -1,28 +1,1321 @@
 [
-  {"id":"th_obj_thorasap","lang":"th","written":"โทรศัพท์","reading":"thorasap","romanization":"thorasap","meaning":{"en":"telephone; mobile phone","th":"โทรศัพท์"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["object","technology","daily"],"frequency":9500,"audio":"voice/th/th_obj_thorasap.mp3","tone":0,"toneRule":"ท (low) + compound syllables → mid approximation","examples":[{"sentence":"โทรศัพท์ฉันหาย","reading":"thorasap chan haai","translation":{"en":"My phone is lost.","th":"โทรศัพท์ของฉันหาย"},"context":"pier"}],"kotodama":{"name":"Thoraring","sprite":"kotodama/th_obj_thorasap.png","description":{"en":"A buzzing rectangular spark that rings unexpectedly.","th":"ประกายสี่เหลี่ยมที่สั่นและดังเสียงเรียกโดยไม่คาดคิด"},"rarity":"common","habitat":["school","pier","fresh_market"]},"needsReview":true},
-  {"id":"th_obj_khomphiutoe","lang":"th","written":"คอมพิวเตอร์","reading":"khomphiutoe","romanization":"khomphiutoe","meaning":{"en":"computer","th":"คอมพิวเตอร์"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["object","technology","school"],"frequency":8500,"audio":"voice/th/th_obj_khomphiutoe.mp3","tone":0,"toneRule":"ค (low) + compound loanword → mid approximation throughout","examples":[{"sentence":"ฉันใช้คอมพิวเตอร์ทำการบ้าน","reading":"chan chai khomphiutoe tham kanbaan","translation":{"en":"I use a computer to do homework.","th":"ฉันใช้คอมพิวเตอร์ทำการบ้าน"},"context":"school"}],"kotodama":{"name":"Khomglow","sprite":"kotodama/th_obj_khomphiutoe.png","description":{"en":"A screen-faced spark that projects information into the air.","th":"ประกายหน้าจอที่ฉายข้อมูลออกมาในอากาศ"},"rarity":"uncommon","habitat":["school","temple"]},"needsReview":true},
-  {"id":"th_obj_nangsuea","lang":"th","written":"หนังสือ","reading":"nangsuea","romanization":"nangsuea","meaning":{"en":"book","th":"หนังสือ (สิ่งพิมพ์)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["object","reading","school"],"frequency":9000,"audio":"voice/th/th_obj_nangsuea.mp3","tone":4,"toneRule":"ห (high) + no mark → rising; สื (low+mai tho→high), อ dead short → low, approx rising leading","examples":[{"sentence":"ฉันชอบอ่านหนังสือก่อนนอน","reading":"chan chop an nangsuea kon non","translation":{"en":"I like to read books before sleeping.","th":"ฉันชอบอ่านหนังสือก่อนเข้านอน"},"context":"school"}],"kotodama":{"name":"Nangsuealit","sprite":"kotodama/th_obj_nangsuea.png","description":{"en":"A book-shaped spark with pages that flutter on their own.","th":"ประกายรูปหนังสือมีหน้ากระดาษที่พลิกเองได้"},"rarity":"common","habitat":["school","temple"]},"needsReview":true},
-  {"id":"th_obj_kradaat","lang":"th","written":"กระดาษ","reading":"kradaat","romanization":"kradaat","meaning":{"en":"paper","th":"กระดาษ"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["object","stationery","school"],"frequency":8000,"audio":"voice/th/th_obj_kradaat.mp3","tone":1,"toneRule":"ก (mid) + no mark + dead short → low; ด (mid) + dead short → low","examples":[{"sentence":"ขอกระดาษหน่อยได้ไหม","reading":"kho kradaat noi dai mai","translation":{"en":"Can I have some paper?","th":"ขอกระดาษหน่อยได้ไหม"},"context":"school"}],"kotodama":{"name":"Kradaatsheet","sprite":"kotodama/th_obj_kradaat.png","description":{"en":"A thin flat spark that glides on air currents.","th":"ประกายแบนบางที่ล่องตามกระแสอากาศ"},"rarity":"common","habitat":["school","temple"]},"needsReview":true},
-  {"id":"th_obj_pakka","lang":"th","written":"ปากกา","reading":"pakka","romanization":"pakka","meaning":{"en":"pen","th":"ปากกา"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["object","stationery","school"],"frequency":8500,"audio":"voice/th/th_obj_pakka.mp3","tone":1,"toneRule":"ป (mid) + no mark + dead short → low; ก (mid) + no mark + live → mid","examples":[{"sentence":"ยืมปากกาหน่อยได้ไหมครับ","reading":"yuem pakka noi dai mai khrap","translation":{"en":"May I borrow a pen?","th":"ขอยืมปากกาหน่อยได้ไหมครับ"},"context":"school"}],"kotodama":{"name":"Pakkawrite","sprite":"kotodama/th_obj_pakka.png","description":{"en":"A pen-shaped spark that draws glowing lines in the air.","th":"ประกายรูปปากกาที่เขียนเส้นเรืองแสงในอากาศ"},"rarity":"common","habitat":["school","temple"]},"needsReview":true},
-  {"id":"th_obj_dinson","lang":"th","written":"ดินสอ","reading":"dinson","romanization":"dinson","meaning":{"en":"pencil","th":"ดินสอ"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["object","stationery","school"],"frequency":8000,"audio":"voice/th/th_obj_dinson.mp3","tone":0,"toneRule":"ด (mid) + no mark + live syllable → mid; ส (high) + no mark + live → rising","examples":[{"sentence":"นักเรียนเขียนด้วยดินสอ","reading":"nakrian khian duai dinson","translation":{"en":"Students write with pencils.","th":"นักเรียนเขียนหนังสือด้วยดินสอ"},"context":"school"}],"kotodama":{"name":"Dinsonscribe","sprite":"kotodama/th_obj_dinson.png","description":{"en":"A spark tipped like a pencil point, leaving erasable marks.","th":"ประกายปลายแหลมคล้ายดินสอ ทิ้งรอยที่ลบได้"},"rarity":"common","habitat":["school","temple"]},"needsReview":true},
-  {"id":"th_obj_krapao","lang":"th","written":"กระเป๋า","reading":"krapao","romanization":"krapao","meaning":{"en":"bag; purse","th":"กระเป๋า"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["object","clothing","daily"],"frequency":8500,"audio":"voice/th/th_obj_krapao.mp3","tone":1,"toneRule":"ก (mid) + no mark + dead short → low; เป๋า (ป mid + mai tho → high... complex)","examples":[{"sentence":"กระเป๋าของฉันหนักมาก","reading":"krapao khong chan nak mak","translation":{"en":"My bag is very heavy.","th":"กระเป๋าของฉันหนักมาก"},"context":"pier"}],"kotodama":{"name":"Krapaocarry","sprite":"kotodama/th_obj_krapao.png","description":{"en":"A plump spark with a zipper-like opening that stores tiny things.","th":"ประกายอ้วนมีช่องเปิดคล้ายซิปที่เก็บของเล็กๆ ได้"},"rarity":"common","habitat":["pier","fresh_market","floating_market"]},"needsReview":true},
-  {"id":"th_obj_kuncae","lang":"th","written":"กุญแจ","reading":"kuncae","romanization":"kuncae","meaning":{"en":"key","th":"กุญแจ (ดอกกุญแจ)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["object","daily","home"],"frequency":7500,"audio":"voice/th/th_obj_kuncae.mp3","tone":0,"toneRule":"ก (mid) + no mark + dead short → low; แจ (จ mid + live → mid)","examples":[{"sentence":"ลืมกุญแจบ้านไว้ในรถ","reading":"luem kuncae baan wai nai rot","translation":{"en":"I left the house key in the car.","th":"ลืมกุญแจบ้านทิ้งไว้ในรถ"},"context":"school"}],"kotodama":{"name":"Kuncaelock","sprite":"kotodama/th_obj_kuncae.png","description":{"en":"A key-shaped spark that unlocks glowing doors wherever it goes.","th":"ประกายรูปกุญแจที่เปิดประตูเรืองแสงทุกที่"},"rarity":"uncommon","habitat":["temple","school","pier"]},"needsReview":true},
-  {"id":"th_obj_naaligaa","lang":"th","written":"นาฬิกา","reading":"naaligaa","romanization":"naaligaa","meaning":{"en":"clock; watch","th":"นาฬิกา"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["object","time","daily"],"frequency":8000,"audio":"voice/th/th_obj_naaligaa.mp3","tone":0,"toneRule":"น (low) + compound syllables → mid approximation","examples":[{"sentence":"นาฬิกาแขวนอยู่บนผนัง","reading":"naaligaa khwaen yu bon phnaang","translation":{"en":"The clock is hanging on the wall.","th":"นาฬิกาแขวนอยู่บนผนัง"},"context":"school"}],"kotodama":{"name":"Naaligatick","sprite":"kotodama/th_obj_naaligaa.png","description":{"en":"A round spark with two tiny hands that always point somewhere.","th":"ประกายกลมมีเข็มเล็กสองเล่มที่ชี้ไปที่ใดที่หนึ่งเสมอ"},"rarity":"common","habitat":["school","temple","pier"]},"needsReview":true},
-  {"id":"th_obj_waentaa","lang":"th","written":"แว่นตา","reading":"waentaa","romanization":"waentaa","meaning":{"en":"glasses; spectacles","th":"แว่นตา"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["object","vision","daily"],"frequency":7500,"audio":"voice/th/th_obj_waentaa.mp3","tone":2,"toneRule":"แว่น (ว low + mai ek → falling); ตา (ต mid + live → mid)","examples":[{"sentence":"ครูสวมแว่นตาเสมอ","reading":"khru suam waentaa samoe","translation":{"en":"The teacher always wears glasses.","th":"ครูสวมแว่นตาอยู่เสมอ"},"context":"school"}],"kotodama":{"name":"Waentaasee","sprite":"kotodama/th_obj_waentaa.png","description":{"en":"A lens-shaped spark that reveals hidden details around it.","th":"ประกายรูปเลนส์ที่เผยรายละเอียดที่ซ่อนอยู่รอบๆ"},"rarity":"uncommon","habitat":["school","temple"]},"needsReview":true},
-  {"id":"th_obj_rom","lang":"th","written":"ร่ม","reading":"rom","romanization":"rom","meaning":{"en":"umbrella; shade","th":"ร่ม (กันฝน/กันแดด)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["object","weather","daily"],"frequency":7500,"audio":"voice/th/th_obj_rom.mp3","tone":2,"toneRule":"ร (low class) + mai ek (่) → falling tone","examples":[{"sentence":"เอาร่มไปด้วยเพราะฝนจะตก","reading":"ao rom pai duai phro fon cha tok","translation":{"en":"Take an umbrella because it will rain.","th":"เอาร่มไปด้วยเพราะฝนจะตก"},"context":"pier"}],"kotodama":{"name":"Rommshield","sprite":"kotodama/th_obj_rom.png","description":{"en":"A canopy spark that protects those beneath it from weather.","th":"ประกายรูปเพิงที่ป้องกันคนข้างล่างจากสภาพอากาศ"},"rarity":"common","habitat":["pier","fresh_market","floating_market"]},"needsReview":true},
-  {"id":"th_obj_si_daeng","lang":"th","written":"สีแดง","reading":"si daeng","romanization":"si daeng","meaning":{"en":"red (color)","th":"สีแดง"},"pos":"adjective","element":"flow","level":"A1","chapter":10,"tags":["color","daily","description"],"frequency":9000,"audio":"voice/th/th_obj_si_daeng.mp3","tone":4,"toneRule":"ส (high) + no mark + live → rising; ด (mid) + no mark + live → mid","examples":[{"sentence":"ดอกไม้สีแดงสวยมาก","reading":"dokmai si daeng suai mak","translation":{"en":"The red flowers are very beautiful.","th":"ดอกไม้สีแดงสวยมาก"},"context":"temple"}],"kotodama":{"name":"Sidaengflame","sprite":"kotodama/th_obj_si_daeng.png","description":{"en":"A vivid red spark that pulses like a heartbeat.","th":"ประกายแดงสดที่เต้นเหมือนหัวใจ"},"rarity":"common","habitat":["temple","fresh_market","floating_market"]},"needsReview":true},
-  {"id":"th_obj_si_khiao","lang":"th","written":"สีเขียว","reading":"si khiao","romanization":"si khiao","meaning":{"en":"green (color)","th":"สีเขียว"},"pos":"adjective","element":"flow","level":"A1","chapter":10,"tags":["color","daily","description"],"frequency":8500,"audio":"voice/th/th_obj_si_khiao.mp3","tone":4,"toneRule":"ส (high) + no mark → rising; ข (high) + no mark + live → rising","examples":[{"sentence":"ใบไม้สีเขียวสวยงาม","reading":"baimai si khiao suai ngaam","translation":{"en":"The green leaves are beautiful.","th":"ใบไม้สีเขียวสวยงาม"},"context":"temple"}],"kotodama":{"name":"Sikhiaolea","sprite":"kotodama/th_obj_si_khiao.png","description":{"en":"A leafy green spark that smells of rain and earth.","th":"ประกายเขียวใบไม้มีกลิ่นฝนและดิน"},"rarity":"common","habitat":["temple","fresh_market","pier"]},"needsReview":true},
-  {"id":"th_obj_si_lueng","lang":"th","written":"สีเหลือง","reading":"si lueang","romanization":"si lueang","meaning":{"en":"yellow (color)","th":"สีเหลือง"},"pos":"adjective","element":"flow","level":"A1","chapter":10,"tags":["color","daily","description"],"frequency":8500,"audio":"voice/th/th_obj_si_lueng.mp3","tone":4,"toneRule":"ส (high) + no mark → rising; ล (low) + no mark + live → mid","examples":[{"sentence":"รถตุ๊กตุ๊กสีเหลืองจอดอยู่ข้างหน้า","reading":"rot tuktuk si lueang chot yu khaang naa","translation":{"en":"A yellow tuk-tuk is parked ahead.","th":"รถตุ๊กตุ๊กสีเหลืองจอดอยู่ข้างหน้า"},"context":"pier"}],"kotodama":{"name":"Siluangsun","sprite":"kotodama/th_obj_si_lueng.png","description":{"en":"A warm sunny spark that brightens any dark corner.","th":"ประกายอบอุ่นเหมือนแดดที่ทำให้มุมมืดสว่างขึ้น"},"rarity":"common","habitat":["pier","fresh_market","temple"]},"needsReview":true},
-  {"id":"th_obj_si_dam","lang":"th","written":"สีดำ","reading":"si dam","romanization":"si dam","meaning":{"en":"black (color)","th":"สีดำ"},"pos":"adjective","element":"flow","level":"A1","chapter":10,"tags":["color","daily","description"],"frequency":8500,"audio":"voice/th/th_obj_si_dam.mp3","tone":4,"toneRule":"ส (high) + no mark → rising; ด (mid) + no mark + live → mid","examples":[{"sentence":"แมวสีดำวิ่งผ่านไป","reading":"maeo si dam wing phan pai","translation":{"en":"A black cat ran past.","th":"แมวสีดำวิ่งผ่านไป"},"context":"temple"}],"kotodama":{"name":"Sidamnight","sprite":"kotodama/th_obj_si_dam.png","description":{"en":"A sleek dark spark that absorbs light around it.","th":"ประกายดำเรียบที่ดูดซับแสงรอบข้าง"},"rarity":"uncommon","habitat":["temple","pier","school"]},"needsReview":true},
-  {"id":"th_obj_si_khao","lang":"th","written":"สีขาว","reading":"si khao","romanization":"si khao","meaning":{"en":"white (color)","th":"สีขาว"},"pos":"adjective","element":"flow","level":"A1","chapter":10,"tags":["color","daily","description"],"frequency":8500,"audio":"voice/th/th_obj_si_khao.mp3","tone":4,"toneRule":"ส (high) + no mark → rising; ข (high) + no mark + dead → falling","examples":[{"sentence":"ดอกไม้สีขาวหอมมาก","reading":"dokmai si khao hom mak","translation":{"en":"White flowers smell very fragrant.","th":"ดอกไม้สีขาวมีกลิ่นหอมมาก"},"context":"temple"}],"kotodama":{"name":"Sikhaocloud","sprite":"kotodama/th_obj_si_khao.png","description":{"en":"A pure white spark as fluffy as a cloud.","th":"ประกายขาวบริสุทธิ์นุ่มฟูเหมือนเมฆ"},"rarity":"common","habitat":["temple","school","floating_market"]},"needsReview":true},
-  {"id":"th_obj_si_chomphu","lang":"th","written":"สีชมพู","reading":"si chomphu","romanization":"si chomphu","meaning":{"en":"pink (color)","th":"สีชมพู"},"pos":"adjective","element":"flow","level":"A1","chapter":10,"tags":["color","daily","description"],"frequency":8000,"audio":"voice/th/th_obj_si_chomphu.mp3","tone":4,"toneRule":"ส (high) + no mark → rising; ช (low) + no mark + live → mid; พ (low) + no mark + live → mid","examples":[{"sentence":"ดอกซากุระมีสีชมพูสวยงาม","reading":"dok sakura mi si chomphu suai ngaam","translation":{"en":"Cherry blossoms are a beautiful pink.","th":"ดอกซากุระมีสีชมพูสวยงาม"},"context":"temple"}],"kotodama":{"name":"Sichomphubloom","sprite":"kotodama/th_obj_si_chomphu.png","description":{"en":"A sakura-pink spark that drifts like petals in spring.","th":"ประกายชมพูซากุระที่ลอยเหมือนกลีบดอกในฤดูใบไม้ผลิ"},"rarity":"common","habitat":["temple","school","floating_market"]},"needsReview":true},
-  {"id":"th_obj_suea","lang":"th","written":"เสื้อ","reading":"suea","romanization":"suea","meaning":{"en":"shirt; top; clothing (upper body)","th":"เสื้อ (เสื้อผ้าส่วนบน)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["clothing","object","daily"],"frequency":8500,"audio":"voice/th/th_obj_suea.mp3","tone":2,"toneRule":"ส (high) + mai ek (่) → low... but เสื้อ has mai tho = high class + mai tho = falling","examples":[{"sentence":"เสื้อตัวนี้ราคาเท่าไหร่","reading":"suea tua ni raakhaa thaorai","translation":{"en":"How much is this shirt?","th":"เสื้อตัวนี้ราคาเท่าไหร่"},"context":"floating_market"}],"kotodama":{"name":"Sueafabric","sprite":"kotodama/th_obj_suea.png","description":{"en":"A fabric-textured spark that shifts colors like a chameleon.","th":"ประกายเนื้อผ้าที่เปลี่ยนสีได้เหมือนกิ้งก่า"},"rarity":"common","habitat":["floating_market","fresh_market"]},"needsReview":true},
-  {"id":"th_obj_kaangkeng","lang":"th","written":"กางเกง","reading":"kaangkeng","romanization":"kaangkeng","meaning":{"en":"pants; trousers","th":"กางเกง"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["clothing","object","daily"],"frequency":8000,"audio":"voice/th/th_obj_kaangkeng.mp3","tone":0,"toneRule":"ก (mid) + no mark + live → mid; ก (mid) + no mark + live → mid","examples":[{"sentence":"กางเกงขายาวใส่สบาย","reading":"kaangkeng kha yaao sai sabaai","translation":{"en":"Long trousers are comfortable to wear.","th":"กางเกงขายาวใส่แล้วสบาย"},"context":"floating_market"}],"kotodama":{"name":"Kaangkengleg","sprite":"kotodama/th_obj_kaangkeng.png","description":{"en":"A two-legged spark that walks on its own.","th":"ประกายสองขาที่เดินเองได้"},"rarity":"common","habitat":["floating_market","fresh_market","school"]},"needsReview":true},
-  {"id":"th_obj_rong_thao","lang":"th","written":"รองเท้า","reading":"rong thao","romanization":"rong thao","meaning":{"en":"shoes; footwear","th":"รองเท้า"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["clothing","object","daily"],"frequency":8500,"audio":"voice/th/th_obj_rong_thao.mp3","tone":0,"toneRule":"ร (low) + no mark + live → mid; ท (low) + no mark + live → mid","examples":[{"sentence":"ถอดรองเท้าก่อนเข้าวัด","reading":"thot rong thao kon khao wat","translation":{"en":"Remove your shoes before entering the temple.","th":"ถอดรองเท้าก่อนเข้าวัด"},"context":"temple"}],"kotodama":{"name":"Rongthaofoot","sprite":"kotodama/th_obj_rong_thao.png","description":{"en":"A pair of sparks that always move in sync.","th":"ประกายคู่ที่เคลื่อนไหวพร้อมกันเสมอ"},"rarity":"common","habitat":["temple","fresh_market","pier"]},"needsReview":true},
-  {"id":"th_obj_muak","lang":"th","written":"หมวก","reading":"muak","romanization":"muak","meaning":{"en":"hat; cap","th":"หมวก"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["clothing","object","daily"],"frequency":7500,"audio":"voice/th/th_obj_muak.mp3","tone":2,"toneRule":"ห (high) + no mark + dead short → falling tone","examples":[{"sentence":"ใส่หมวกกันแดดด้วยนะ","reading":"sai muak kan daet duai na","translation":{"en":"Wear a sun hat too, okay?","th":"ใส่หมวกกันแดดด้วยนะ"},"context":"pier"}],"kotodama":{"name":"Muaktop","sprite":"kotodama/th_obj_muak.png","description":{"en":"A hat-shaped spark that perches on top of other sparks.","th":"ประกายรูปหมวกที่เกาะบนจอมประกายอื่น"},"rarity":"common","habitat":["pier","fresh_market","temple"]},"needsReview":true},
-  {"id":"th_obj_ngoen","lang":"th","written":"เงิน","reading":"ngoen","romanization":"ngoen","meaning":{"en":"money; silver","th":"เงิน (ทรัพย์สิน)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["object","market","daily"],"frequency":9500,"audio":"voice/th/th_obj_ngoen.mp3","tone":0,"toneRule":"ง (low class) + no mark + live syllable → mid tone","examples":[{"sentence":"ฉันไม่มีเงินพอซื้อ","reading":"chan mai mi ngoen pho sue","translation":{"en":"I don't have enough money to buy it.","th":"ฉันไม่มีเงินพอที่จะซื้อ"},"context":"fresh_market"}],"kotodama":{"name":"Ngoencoin","sprite":"kotodama/th_obj_ngoen.png","description":{"en":"A silver coin spark that jingles when it moves.","th":"ประกายเหรียญเงินที่ส่งเสียงกระทบกันขณะเคลื่อนที่"},"rarity":"common","habitat":["fresh_market","floating_market","bargaining"]},"needsReview":true},
-  {"id":"th_obj_ko_ang","lang":"th","written":"เก้าอี้","reading":"kaoii","romanization":"kaoii","meaning":{"en":"chair","th":"เก้าอี้"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["object","furniture","daily"],"frequency":8000,"audio":"voice/th/th_obj_kaoii.mp3","tone":3,"toneRule":"ก (mid) + mai tho → high; อี compound","examples":[{"sentence":"นั่งลงบนเก้าอี้ตัวนั้นเถอะ","reading":"nang long bon kaoii tua nan thoe","translation":{"en":"Sit down on that chair.","th":"นั่งลงบนเก้าอี้ตัวนั้นเถอะ"},"context":"school"}],"kotodama":{"name":"Kaoiiseat","sprite":"kotodama/th_obj_kaoii.png","description":{"en":"A four-legged spark that invites any tired traveler to rest.","th":"ประกายสี่ขาที่เชิญชวนนักเดินทางที่เหนื่อยให้พัก"},"rarity":"common","habitat":["school","temple","fresh_market"]},"needsReview":true},
-  {"id":"th_obj_toh","lang":"th","written":"โต๊ะ","reading":"toh","romanization":"toh","meaning":{"en":"table; desk","th":"โต๊ะ"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["object","furniture","daily"],"frequency":8000,"audio":"voice/th/th_obj_toh.mp3","tone":1,"toneRule":"ต (mid) + mai ek (่) implied by spelling → low tone","examples":[{"sentence":"วางของไว้บนโต๊ะได้เลย","reading":"waang khong wai bon toh dai loei","translation":{"en":"You can put things on the table.","th":"วางของไว้บนโต๊ะได้เลย"},"context":"school"}],"kotodama":{"name":"Tohtable","sprite":"kotodama/th_obj_toh.png","description":{"en":"A flat spark that always keeps its surface perfectly level.","th":"ประกายแบนที่คงพื้นผิวระนาบสมบูรณ์เสมอ"},"rarity":"common","habitat":["school","fresh_market","temple"]},"needsReview":true},
-  {"id":"th_obj_pratu","lang":"th","written":"ประตู","reading":"pratu","romanization":"pratu","meaning":{"en":"door; gate","th":"ประตู"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["object","building","daily"],"frequency":8000,"audio":"voice/th/th_obj_pratu.mp3","tone":0,"toneRule":"ป (mid) + compound → mid; ต (mid) + live → mid","examples":[{"sentence":"ปิดประตูด้วยนะครับ","reading":"pit pratu duai na khrap","translation":{"en":"Please close the door.","th":"ปิดประตูด้วยนะครับ"},"context":"school"}],"kotodama":{"name":"Pratudoor","sprite":"kotodama/th_obj_pratu.png","description":{"en":"A spark shaped like a doorway that opens to unexpected places.","th":"ประกายรูปวงกบประตูที่เปิดไปยังสถานที่ไม่คาดฝัน"},"rarity":"uncommon","habitat":["temple","school","pier"]},"needsReview":true},
-  {"id":"th_obj_si_namdeng","lang":"th","written":"สีน้ำเงิน","reading":"si nam ngoen","romanization":"si nam ngoen","meaning":{"en":"blue (color)","th":"สีน้ำเงิน"},"pos":"adjective","element":"flow","level":"A1","chapter":10,"tags":["color","daily","description"],"frequency":8000,"audio":"voice/th/th_obj_si_namdeng.mp3","tone":4,"toneRule":"ส (high) + no mark → rising; น (low) + no mark + live → mid; ง (low) + no mark + live → mid","examples":[{"sentence":"ท้องฟ้าสีน้ำเงินสดใส","reading":"thongfaa si nam ngoen sot sai","translation":{"en":"The sky is a bright blue.","th":"ท้องฟ้าสีน้ำเงินสดใส"},"context":"pier"}],"kotodama":{"name":"Sinamngoenskky","sprite":"kotodama/th_obj_si_namdeng.png","description":{"en":"A deep ocean-blue spark that pulses with tidal rhythm.","th":"ประกายน้ำเงินลึกเหมือนมหาสมุทร ที่เต้นตามจังหวะน้ำขึ้นน้ำลง"},"rarity":"common","habitat":["pier","floating_market","temple"]},"needsReview":true}
+  {
+    "id": "th_obj_thorasap",
+    "lang": "th",
+    "written": "โทรศัพท์",
+    "reading": "thorasap",
+    "romanization": "thorasap",
+    "meaning": {
+      "en": "telephone; mobile phone",
+      "th": "โทรศัพท์",
+      "ja": "電話；携帯電話"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "object",
+      "technology",
+      "daily"
+    ],
+    "frequency": 9500,
+    "audio": "voice/th/th_obj_thorasap.mp3",
+    "tone": 0,
+    "toneRule": "ท (low) + compound syllables → mid approximation",
+    "examples": [
+      {
+        "sentence": "โทรศัพท์ฉันหาย",
+        "reading": "thorasap chan haai",
+        "translation": {
+          "en": "My phone is lost.",
+          "th": "โทรศัพท์ของฉันหาย"
+        },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Thoraring",
+      "sprite": "kotodama/th_obj_thorasap.png",
+      "description": {
+        "en": "A buzzing rectangular spark that rings unexpectedly.",
+        "th": "ประกายสี่เหลี่ยมที่สั่นและดังเสียงเรียกโดยไม่คาดคิด"
+      },
+      "rarity": "common",
+      "habitat": [
+        "school",
+        "pier",
+        "fresh_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_obj_khomphiutoe",
+    "lang": "th",
+    "written": "คอมพิวเตอร์",
+    "reading": "khomphiutoe",
+    "romanization": "khomphiutoe",
+    "meaning": {
+      "en": "computer",
+      "th": "คอมพิวเตอร์",
+      "ja": "コンピューター"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "object",
+      "technology",
+      "school"
+    ],
+    "frequency": 8500,
+    "audio": "voice/th/th_obj_khomphiutoe.mp3",
+    "tone": 0,
+    "toneRule": "ค (low) + compound loanword → mid approximation throughout",
+    "examples": [
+      {
+        "sentence": "ฉันใช้คอมพิวเตอร์ทำการบ้าน",
+        "reading": "chan chai khomphiutoe tham kanbaan",
+        "translation": {
+          "en": "I use a computer to do homework.",
+          "th": "ฉันใช้คอมพิวเตอร์ทำการบ้าน"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Khomglow",
+      "sprite": "kotodama/th_obj_khomphiutoe.png",
+      "description": {
+        "en": "A screen-faced spark that projects information into the air.",
+        "th": "ประกายหน้าจอที่ฉายข้อมูลออกมาในอากาศ"
+      },
+      "rarity": "uncommon",
+      "habitat": [
+        "school",
+        "temple"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_obj_nangsuea",
+    "lang": "th",
+    "written": "หนังสือ",
+    "reading": "nangsuea",
+    "romanization": "nangsuea",
+    "meaning": {
+      "en": "book",
+      "th": "หนังสือ (สิ่งพิมพ์)",
+      "ja": "本"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "object",
+      "reading",
+      "school"
+    ],
+    "frequency": 9000,
+    "audio": "voice/th/th_obj_nangsuea.mp3",
+    "tone": 4,
+    "toneRule": "ห (high) + no mark → rising; สื (low+mai tho→high), อ dead short → low, approx rising leading",
+    "examples": [
+      {
+        "sentence": "ฉันชอบอ่านหนังสือก่อนนอน",
+        "reading": "chan chop an nangsuea kon non",
+        "translation": {
+          "en": "I like to read books before sleeping.",
+          "th": "ฉันชอบอ่านหนังสือก่อนเข้านอน"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Nangsuealit",
+      "sprite": "kotodama/th_obj_nangsuea.png",
+      "description": {
+        "en": "A book-shaped spark with pages that flutter on their own.",
+        "th": "ประกายรูปหนังสือมีหน้ากระดาษที่พลิกเองได้"
+      },
+      "rarity": "common",
+      "habitat": [
+        "school",
+        "temple"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_obj_kradaat",
+    "lang": "th",
+    "written": "กระดาษ",
+    "reading": "kradaat",
+    "romanization": "kradaat",
+    "meaning": {
+      "en": "paper",
+      "th": "กระดาษ",
+      "ja": "紙"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "object",
+      "stationery",
+      "school"
+    ],
+    "frequency": 8000,
+    "audio": "voice/th/th_obj_kradaat.mp3",
+    "tone": 1,
+    "toneRule": "ก (mid) + no mark + dead short → low; ด (mid) + dead short → low",
+    "examples": [
+      {
+        "sentence": "ขอกระดาษหน่อยได้ไหม",
+        "reading": "kho kradaat noi dai mai",
+        "translation": {
+          "en": "Can I have some paper?",
+          "th": "ขอกระดาษหน่อยได้ไหม"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Kradaatsheet",
+      "sprite": "kotodama/th_obj_kradaat.png",
+      "description": {
+        "en": "A thin flat spark that glides on air currents.",
+        "th": "ประกายแบนบางที่ล่องตามกระแสอากาศ"
+      },
+      "rarity": "common",
+      "habitat": [
+        "school",
+        "temple"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_obj_pakka",
+    "lang": "th",
+    "written": "ปากกา",
+    "reading": "pakka",
+    "romanization": "pakka",
+    "meaning": {
+      "en": "pen",
+      "th": "ปากกา",
+      "ja": "ペン"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "object",
+      "stationery",
+      "school"
+    ],
+    "frequency": 8500,
+    "audio": "voice/th/th_obj_pakka.mp3",
+    "tone": 1,
+    "toneRule": "ป (mid) + no mark + dead short → low; ก (mid) + no mark + live → mid",
+    "examples": [
+      {
+        "sentence": "ยืมปากกาหน่อยได้ไหมครับ",
+        "reading": "yuem pakka noi dai mai khrap",
+        "translation": {
+          "en": "May I borrow a pen?",
+          "th": "ขอยืมปากกาหน่อยได้ไหมครับ"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Pakkawrite",
+      "sprite": "kotodama/th_obj_pakka.png",
+      "description": {
+        "en": "A pen-shaped spark that draws glowing lines in the air.",
+        "th": "ประกายรูปปากกาที่เขียนเส้นเรืองแสงในอากาศ"
+      },
+      "rarity": "common",
+      "habitat": [
+        "school",
+        "temple"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_obj_dinson",
+    "lang": "th",
+    "written": "ดินสอ",
+    "reading": "dinson",
+    "romanization": "dinson",
+    "meaning": {
+      "en": "pencil",
+      "th": "ดินสอ",
+      "ja": "鉛筆"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "object",
+      "stationery",
+      "school"
+    ],
+    "frequency": 8000,
+    "audio": "voice/th/th_obj_dinson.mp3",
+    "tone": 0,
+    "toneRule": "ด (mid) + no mark + live syllable → mid; ส (high) + no mark + live → rising",
+    "examples": [
+      {
+        "sentence": "นักเรียนเขียนด้วยดินสอ",
+        "reading": "nakrian khian duai dinson",
+        "translation": {
+          "en": "Students write with pencils.",
+          "th": "นักเรียนเขียนหนังสือด้วยดินสอ"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Dinsonscribe",
+      "sprite": "kotodama/th_obj_dinson.png",
+      "description": {
+        "en": "A spark tipped like a pencil point, leaving erasable marks.",
+        "th": "ประกายปลายแหลมคล้ายดินสอ ทิ้งรอยที่ลบได้"
+      },
+      "rarity": "common",
+      "habitat": [
+        "school",
+        "temple"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_obj_krapao",
+    "lang": "th",
+    "written": "กระเป๋า",
+    "reading": "krapao",
+    "romanization": "krapao",
+    "meaning": {
+      "en": "bag; purse",
+      "th": "กระเป๋า",
+      "ja": "カバン；財布"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "object",
+      "clothing",
+      "daily"
+    ],
+    "frequency": 8500,
+    "audio": "voice/th/th_obj_krapao.mp3",
+    "tone": 1,
+    "toneRule": "ก (mid) + no mark + dead short → low; เป๋า (ป mid + mai tho → high... complex)",
+    "examples": [
+      {
+        "sentence": "กระเป๋าของฉันหนักมาก",
+        "reading": "krapao khong chan nak mak",
+        "translation": {
+          "en": "My bag is very heavy.",
+          "th": "กระเป๋าของฉันหนักมาก"
+        },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Krapaocarry",
+      "sprite": "kotodama/th_obj_krapao.png",
+      "description": {
+        "en": "A plump spark with a zipper-like opening that stores tiny things.",
+        "th": "ประกายอ้วนมีช่องเปิดคล้ายซิปที่เก็บของเล็กๆ ได้"
+      },
+      "rarity": "common",
+      "habitat": [
+        "pier",
+        "fresh_market",
+        "floating_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_obj_kuncae",
+    "lang": "th",
+    "written": "กุญแจ",
+    "reading": "kuncae",
+    "romanization": "kuncae",
+    "meaning": {
+      "en": "key",
+      "th": "กุญแจ (ดอกกุญแจ)",
+      "ja": "鍵"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "object",
+      "daily",
+      "home"
+    ],
+    "frequency": 7500,
+    "audio": "voice/th/th_obj_kuncae.mp3",
+    "tone": 0,
+    "toneRule": "ก (mid) + no mark + dead short → low; แจ (จ mid + live → mid)",
+    "examples": [
+      {
+        "sentence": "ลืมกุญแจบ้านไว้ในรถ",
+        "reading": "luem kuncae baan wai nai rot",
+        "translation": {
+          "en": "I left the house key in the car.",
+          "th": "ลืมกุญแจบ้านทิ้งไว้ในรถ"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Kuncaelock",
+      "sprite": "kotodama/th_obj_kuncae.png",
+      "description": {
+        "en": "A key-shaped spark that unlocks glowing doors wherever it goes.",
+        "th": "ประกายรูปกุญแจที่เปิดประตูเรืองแสงทุกที่"
+      },
+      "rarity": "uncommon",
+      "habitat": [
+        "temple",
+        "school",
+        "pier"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_obj_naaligaa",
+    "lang": "th",
+    "written": "นาฬิกา",
+    "reading": "naaligaa",
+    "romanization": "naaligaa",
+    "meaning": {
+      "en": "clock; watch",
+      "th": "นาฬิกา",
+      "ja": "時計"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "object",
+      "time",
+      "daily"
+    ],
+    "frequency": 8000,
+    "audio": "voice/th/th_obj_naaligaa.mp3",
+    "tone": 0,
+    "toneRule": "น (low) + compound syllables → mid approximation",
+    "examples": [
+      {
+        "sentence": "นาฬิกาแขวนอยู่บนผนัง",
+        "reading": "naaligaa khwaen yu bon phnaang",
+        "translation": {
+          "en": "The clock is hanging on the wall.",
+          "th": "นาฬิกาแขวนอยู่บนผนัง"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Naaligatick",
+      "sprite": "kotodama/th_obj_naaligaa.png",
+      "description": {
+        "en": "A round spark with two tiny hands that always point somewhere.",
+        "th": "ประกายกลมมีเข็มเล็กสองเล่มที่ชี้ไปที่ใดที่หนึ่งเสมอ"
+      },
+      "rarity": "common",
+      "habitat": [
+        "school",
+        "temple",
+        "pier"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_obj_waentaa",
+    "lang": "th",
+    "written": "แว่นตา",
+    "reading": "waentaa",
+    "romanization": "waentaa",
+    "meaning": {
+      "en": "glasses; spectacles",
+      "th": "แว่นตา",
+      "ja": "眼鏡"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "object",
+      "vision",
+      "daily"
+    ],
+    "frequency": 7500,
+    "audio": "voice/th/th_obj_waentaa.mp3",
+    "tone": 2,
+    "toneRule": "แว่น (ว low + mai ek → falling); ตา (ต mid + live → mid)",
+    "examples": [
+      {
+        "sentence": "ครูสวมแว่นตาเสมอ",
+        "reading": "khru suam waentaa samoe",
+        "translation": {
+          "en": "The teacher always wears glasses.",
+          "th": "ครูสวมแว่นตาอยู่เสมอ"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Waentaasee",
+      "sprite": "kotodama/th_obj_waentaa.png",
+      "description": {
+        "en": "A lens-shaped spark that reveals hidden details around it.",
+        "th": "ประกายรูปเลนส์ที่เผยรายละเอียดที่ซ่อนอยู่รอบๆ"
+      },
+      "rarity": "uncommon",
+      "habitat": [
+        "school",
+        "temple"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_obj_rom",
+    "lang": "th",
+    "written": "ร่ม",
+    "reading": "rom",
+    "romanization": "rom",
+    "meaning": {
+      "en": "umbrella; shade",
+      "th": "ร่ม (กันฝน/กันแดด)",
+      "ja": "傘；日よけ"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "object",
+      "weather",
+      "daily"
+    ],
+    "frequency": 7500,
+    "audio": "voice/th/th_obj_rom.mp3",
+    "tone": 2,
+    "toneRule": "ร (low class) + mai ek (่) → falling tone",
+    "examples": [
+      {
+        "sentence": "เอาร่มไปด้วยเพราะฝนจะตก",
+        "reading": "ao rom pai duai phro fon cha tok",
+        "translation": {
+          "en": "Take an umbrella because it will rain.",
+          "th": "เอาร่มไปด้วยเพราะฝนจะตก"
+        },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Rommshield",
+      "sprite": "kotodama/th_obj_rom.png",
+      "description": {
+        "en": "A canopy spark that protects those beneath it from weather.",
+        "th": "ประกายรูปเพิงที่ป้องกันคนข้างล่างจากสภาพอากาศ"
+      },
+      "rarity": "common",
+      "habitat": [
+        "pier",
+        "fresh_market",
+        "floating_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_obj_si_daeng",
+    "lang": "th",
+    "written": "สีแดง",
+    "reading": "si daeng",
+    "romanization": "si daeng",
+    "meaning": {
+      "en": "red (color)",
+      "th": "สีแดง",
+      "ja": "赤（色）"
+    },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "color",
+      "daily",
+      "description"
+    ],
+    "frequency": 9000,
+    "audio": "voice/th/th_obj_si_daeng.mp3",
+    "tone": 4,
+    "toneRule": "ส (high) + no mark + live → rising; ด (mid) + no mark + live → mid",
+    "examples": [
+      {
+        "sentence": "ดอกไม้สีแดงสวยมาก",
+        "reading": "dokmai si daeng suai mak",
+        "translation": {
+          "en": "The red flowers are very beautiful.",
+          "th": "ดอกไม้สีแดงสวยมาก"
+        },
+        "context": "temple"
+      }
+    ],
+    "kotodama": {
+      "name": "Sidaengflame",
+      "sprite": "kotodama/th_obj_si_daeng.png",
+      "description": {
+        "en": "A vivid red spark that pulses like a heartbeat.",
+        "th": "ประกายแดงสดที่เต้นเหมือนหัวใจ"
+      },
+      "rarity": "common",
+      "habitat": [
+        "temple",
+        "fresh_market",
+        "floating_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_obj_si_khiao",
+    "lang": "th",
+    "written": "สีเขียว",
+    "reading": "si khiao",
+    "romanization": "si khiao",
+    "meaning": {
+      "en": "green (color)",
+      "th": "สีเขียว",
+      "ja": "緑（色）"
+    },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "color",
+      "daily",
+      "description"
+    ],
+    "frequency": 8500,
+    "audio": "voice/th/th_obj_si_khiao.mp3",
+    "tone": 4,
+    "toneRule": "ส (high) + no mark → rising; ข (high) + no mark + live → rising",
+    "examples": [
+      {
+        "sentence": "ใบไม้สีเขียวสวยงาม",
+        "reading": "baimai si khiao suai ngaam",
+        "translation": {
+          "en": "The green leaves are beautiful.",
+          "th": "ใบไม้สีเขียวสวยงาม"
+        },
+        "context": "temple"
+      }
+    ],
+    "kotodama": {
+      "name": "Sikhiaolea",
+      "sprite": "kotodama/th_obj_si_khiao.png",
+      "description": {
+        "en": "A leafy green spark that smells of rain and earth.",
+        "th": "ประกายเขียวใบไม้มีกลิ่นฝนและดิน"
+      },
+      "rarity": "common",
+      "habitat": [
+        "temple",
+        "fresh_market",
+        "pier"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_obj_si_lueng",
+    "lang": "th",
+    "written": "สีเหลือง",
+    "reading": "si lueang",
+    "romanization": "si lueang",
+    "meaning": {
+      "en": "yellow (color)",
+      "th": "สีเหลือง",
+      "ja": "黄色（色）"
+    },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "color",
+      "daily",
+      "description"
+    ],
+    "frequency": 8500,
+    "audio": "voice/th/th_obj_si_lueng.mp3",
+    "tone": 4,
+    "toneRule": "ส (high) + no mark → rising; ล (low) + no mark + live → mid",
+    "examples": [
+      {
+        "sentence": "รถตุ๊กตุ๊กสีเหลืองจอดอยู่ข้างหน้า",
+        "reading": "rot tuktuk si lueang chot yu khaang naa",
+        "translation": {
+          "en": "A yellow tuk-tuk is parked ahead.",
+          "th": "รถตุ๊กตุ๊กสีเหลืองจอดอยู่ข้างหน้า"
+        },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Siluangsun",
+      "sprite": "kotodama/th_obj_si_lueng.png",
+      "description": {
+        "en": "A warm sunny spark that brightens any dark corner.",
+        "th": "ประกายอบอุ่นเหมือนแดดที่ทำให้มุมมืดสว่างขึ้น"
+      },
+      "rarity": "common",
+      "habitat": [
+        "pier",
+        "fresh_market",
+        "temple"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_obj_si_dam",
+    "lang": "th",
+    "written": "สีดำ",
+    "reading": "si dam",
+    "romanization": "si dam",
+    "meaning": {
+      "en": "black (color)",
+      "th": "สีดำ",
+      "ja": "黒（色）"
+    },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "color",
+      "daily",
+      "description"
+    ],
+    "frequency": 8500,
+    "audio": "voice/th/th_obj_si_dam.mp3",
+    "tone": 4,
+    "toneRule": "ส (high) + no mark → rising; ด (mid) + no mark + live → mid",
+    "examples": [
+      {
+        "sentence": "แมวสีดำวิ่งผ่านไป",
+        "reading": "maeo si dam wing phan pai",
+        "translation": {
+          "en": "A black cat ran past.",
+          "th": "แมวสีดำวิ่งผ่านไป"
+        },
+        "context": "temple"
+      }
+    ],
+    "kotodama": {
+      "name": "Sidamnight",
+      "sprite": "kotodama/th_obj_si_dam.png",
+      "description": {
+        "en": "A sleek dark spark that absorbs light around it.",
+        "th": "ประกายดำเรียบที่ดูดซับแสงรอบข้าง"
+      },
+      "rarity": "uncommon",
+      "habitat": [
+        "temple",
+        "pier",
+        "school"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_obj_si_khao",
+    "lang": "th",
+    "written": "สีขาว",
+    "reading": "si khao",
+    "romanization": "si khao",
+    "meaning": {
+      "en": "white (color)",
+      "th": "สีขาว",
+      "ja": "白（色）"
+    },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "color",
+      "daily",
+      "description"
+    ],
+    "frequency": 8500,
+    "audio": "voice/th/th_obj_si_khao.mp3",
+    "tone": 4,
+    "toneRule": "ส (high) + no mark → rising; ข (high) + no mark + dead → falling",
+    "examples": [
+      {
+        "sentence": "ดอกไม้สีขาวหอมมาก",
+        "reading": "dokmai si khao hom mak",
+        "translation": {
+          "en": "White flowers smell very fragrant.",
+          "th": "ดอกไม้สีขาวมีกลิ่นหอมมาก"
+        },
+        "context": "temple"
+      }
+    ],
+    "kotodama": {
+      "name": "Sikhaocloud",
+      "sprite": "kotodama/th_obj_si_khao.png",
+      "description": {
+        "en": "A pure white spark as fluffy as a cloud.",
+        "th": "ประกายขาวบริสุทธิ์นุ่มฟูเหมือนเมฆ"
+      },
+      "rarity": "common",
+      "habitat": [
+        "temple",
+        "school",
+        "floating_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_obj_si_chomphu",
+    "lang": "th",
+    "written": "สีชมพู",
+    "reading": "si chomphu",
+    "romanization": "si chomphu",
+    "meaning": {
+      "en": "pink (color)",
+      "th": "สีชมพู",
+      "ja": "ピンク（色）"
+    },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "color",
+      "daily",
+      "description"
+    ],
+    "frequency": 8000,
+    "audio": "voice/th/th_obj_si_chomphu.mp3",
+    "tone": 4,
+    "toneRule": "ส (high) + no mark → rising; ช (low) + no mark + live → mid; พ (low) + no mark + live → mid",
+    "examples": [
+      {
+        "sentence": "ดอกซากุระมีสีชมพูสวยงาม",
+        "reading": "dok sakura mi si chomphu suai ngaam",
+        "translation": {
+          "en": "Cherry blossoms are a beautiful pink.",
+          "th": "ดอกซากุระมีสีชมพูสวยงาม"
+        },
+        "context": "temple"
+      }
+    ],
+    "kotodama": {
+      "name": "Sichomphubloom",
+      "sprite": "kotodama/th_obj_si_chomphu.png",
+      "description": {
+        "en": "A sakura-pink spark that drifts like petals in spring.",
+        "th": "ประกายชมพูซากุระที่ลอยเหมือนกลีบดอกในฤดูใบไม้ผลิ"
+      },
+      "rarity": "common",
+      "habitat": [
+        "temple",
+        "school",
+        "floating_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_obj_suea",
+    "lang": "th",
+    "written": "เสื้อ",
+    "reading": "suea",
+    "romanization": "suea",
+    "meaning": {
+      "en": "shirt; top; clothing (upper body)",
+      "th": "เสื้อ (เสื้อผ้าส่วนบน)",
+      "ja": "シャツ；トップス；上着"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "clothing",
+      "object",
+      "daily"
+    ],
+    "frequency": 8500,
+    "audio": "voice/th/th_obj_suea.mp3",
+    "tone": 2,
+    "toneRule": "ส (high) + mai ek (่) → low... but เสื้อ has mai tho = high class + mai tho = falling",
+    "examples": [
+      {
+        "sentence": "เสื้อตัวนี้ราคาเท่าไหร่",
+        "reading": "suea tua ni raakhaa thaorai",
+        "translation": {
+          "en": "How much is this shirt?",
+          "th": "เสื้อตัวนี้ราคาเท่าไหร่"
+        },
+        "context": "floating_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Sueafabric",
+      "sprite": "kotodama/th_obj_suea.png",
+      "description": {
+        "en": "A fabric-textured spark that shifts colors like a chameleon.",
+        "th": "ประกายเนื้อผ้าที่เปลี่ยนสีได้เหมือนกิ้งก่า"
+      },
+      "rarity": "common",
+      "habitat": [
+        "floating_market",
+        "fresh_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_obj_kaangkeng",
+    "lang": "th",
+    "written": "กางเกง",
+    "reading": "kaangkeng",
+    "romanization": "kaangkeng",
+    "meaning": {
+      "en": "pants; trousers",
+      "th": "กางเกง",
+      "ja": "ズボン；パンツ"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "clothing",
+      "object",
+      "daily"
+    ],
+    "frequency": 8000,
+    "audio": "voice/th/th_obj_kaangkeng.mp3",
+    "tone": 0,
+    "toneRule": "ก (mid) + no mark + live → mid; ก (mid) + no mark + live → mid",
+    "examples": [
+      {
+        "sentence": "กางเกงขายาวใส่สบาย",
+        "reading": "kaangkeng kha yaao sai sabaai",
+        "translation": {
+          "en": "Long trousers are comfortable to wear.",
+          "th": "กางเกงขายาวใส่แล้วสบาย"
+        },
+        "context": "floating_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Kaangkengleg",
+      "sprite": "kotodama/th_obj_kaangkeng.png",
+      "description": {
+        "en": "A two-legged spark that walks on its own.",
+        "th": "ประกายสองขาที่เดินเองได้"
+      },
+      "rarity": "common",
+      "habitat": [
+        "floating_market",
+        "fresh_market",
+        "school"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_obj_rong_thao",
+    "lang": "th",
+    "written": "รองเท้า",
+    "reading": "rong thao",
+    "romanization": "rong thao",
+    "meaning": {
+      "en": "shoes; footwear",
+      "th": "รองเท้า",
+      "ja": "靴；履き物"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "clothing",
+      "object",
+      "daily"
+    ],
+    "frequency": 8500,
+    "audio": "voice/th/th_obj_rong_thao.mp3",
+    "tone": 0,
+    "toneRule": "ร (low) + no mark + live → mid; ท (low) + no mark + live → mid",
+    "examples": [
+      {
+        "sentence": "ถอดรองเท้าก่อนเข้าวัด",
+        "reading": "thot rong thao kon khao wat",
+        "translation": {
+          "en": "Remove your shoes before entering the temple.",
+          "th": "ถอดรองเท้าก่อนเข้าวัด"
+        },
+        "context": "temple"
+      }
+    ],
+    "kotodama": {
+      "name": "Rongthaofoot",
+      "sprite": "kotodama/th_obj_rong_thao.png",
+      "description": {
+        "en": "A pair of sparks that always move in sync.",
+        "th": "ประกายคู่ที่เคลื่อนไหวพร้อมกันเสมอ"
+      },
+      "rarity": "common",
+      "habitat": [
+        "temple",
+        "fresh_market",
+        "pier"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_obj_muak",
+    "lang": "th",
+    "written": "หมวก",
+    "reading": "muak",
+    "romanization": "muak",
+    "meaning": {
+      "en": "hat; cap",
+      "th": "หมวก",
+      "ja": "帽子；キャップ"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "clothing",
+      "object",
+      "daily"
+    ],
+    "frequency": 7500,
+    "audio": "voice/th/th_obj_muak.mp3",
+    "tone": 2,
+    "toneRule": "ห (high) + no mark + dead short → falling tone",
+    "examples": [
+      {
+        "sentence": "ใส่หมวกกันแดดด้วยนะ",
+        "reading": "sai muak kan daet duai na",
+        "translation": {
+          "en": "Wear a sun hat too, okay?",
+          "th": "ใส่หมวกกันแดดด้วยนะ"
+        },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Muaktop",
+      "sprite": "kotodama/th_obj_muak.png",
+      "description": {
+        "en": "A hat-shaped spark that perches on top of other sparks.",
+        "th": "ประกายรูปหมวกที่เกาะบนจอมประกายอื่น"
+      },
+      "rarity": "common",
+      "habitat": [
+        "pier",
+        "fresh_market",
+        "temple"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_obj_ngoen",
+    "lang": "th",
+    "written": "เงิน",
+    "reading": "ngoen",
+    "romanization": "ngoen",
+    "meaning": {
+      "en": "money; silver",
+      "th": "เงิน (ทรัพย์สิน)",
+      "ja": "お金；銀"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "object",
+      "market",
+      "daily"
+    ],
+    "frequency": 9500,
+    "audio": "voice/th/th_obj_ngoen.mp3",
+    "tone": 0,
+    "toneRule": "ง (low class) + no mark + live syllable → mid tone",
+    "examples": [
+      {
+        "sentence": "ฉันไม่มีเงินพอซื้อ",
+        "reading": "chan mai mi ngoen pho sue",
+        "translation": {
+          "en": "I don't have enough money to buy it.",
+          "th": "ฉันไม่มีเงินพอที่จะซื้อ"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Ngoencoin",
+      "sprite": "kotodama/th_obj_ngoen.png",
+      "description": {
+        "en": "A silver coin spark that jingles when it moves.",
+        "th": "ประกายเหรียญเงินที่ส่งเสียงกระทบกันขณะเคลื่อนที่"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "floating_market",
+        "bargaining"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_obj_ko_ang",
+    "lang": "th",
+    "written": "เก้าอี้",
+    "reading": "kaoii",
+    "romanization": "kaoii",
+    "meaning": {
+      "en": "chair",
+      "th": "เก้าอี้",
+      "ja": "椅子"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "object",
+      "furniture",
+      "daily"
+    ],
+    "frequency": 8000,
+    "audio": "voice/th/th_obj_kaoii.mp3",
+    "tone": 3,
+    "toneRule": "ก (mid) + mai tho → high; อี compound",
+    "examples": [
+      {
+        "sentence": "นั่งลงบนเก้าอี้ตัวนั้นเถอะ",
+        "reading": "nang long bon kaoii tua nan thoe",
+        "translation": {
+          "en": "Sit down on that chair.",
+          "th": "นั่งลงบนเก้าอี้ตัวนั้นเถอะ"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Kaoiiseat",
+      "sprite": "kotodama/th_obj_kaoii.png",
+      "description": {
+        "en": "A four-legged spark that invites any tired traveler to rest.",
+        "th": "ประกายสี่ขาที่เชิญชวนนักเดินทางที่เหนื่อยให้พัก"
+      },
+      "rarity": "common",
+      "habitat": [
+        "school",
+        "temple",
+        "fresh_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_obj_toh",
+    "lang": "th",
+    "written": "โต๊ะ",
+    "reading": "toh",
+    "romanization": "toh",
+    "meaning": {
+      "en": "table; desk",
+      "th": "โต๊ะ",
+      "ja": "テーブル；机"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "object",
+      "furniture",
+      "daily"
+    ],
+    "frequency": 8000,
+    "audio": "voice/th/th_obj_toh.mp3",
+    "tone": 1,
+    "toneRule": "ต (mid) + mai ek (่) implied by spelling → low tone",
+    "examples": [
+      {
+        "sentence": "วางของไว้บนโต๊ะได้เลย",
+        "reading": "waang khong wai bon toh dai loei",
+        "translation": {
+          "en": "You can put things on the table.",
+          "th": "วางของไว้บนโต๊ะได้เลย"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Tohtable",
+      "sprite": "kotodama/th_obj_toh.png",
+      "description": {
+        "en": "A flat spark that always keeps its surface perfectly level.",
+        "th": "ประกายแบนที่คงพื้นผิวระนาบสมบูรณ์เสมอ"
+      },
+      "rarity": "common",
+      "habitat": [
+        "school",
+        "fresh_market",
+        "temple"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_obj_pratu",
+    "lang": "th",
+    "written": "ประตู",
+    "reading": "pratu",
+    "romanization": "pratu",
+    "meaning": {
+      "en": "door; gate",
+      "th": "ประตู",
+      "ja": "ドア；門"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "object",
+      "building",
+      "daily"
+    ],
+    "frequency": 8000,
+    "audio": "voice/th/th_obj_pratu.mp3",
+    "tone": 0,
+    "toneRule": "ป (mid) + compound → mid; ต (mid) + live → mid",
+    "examples": [
+      {
+        "sentence": "ปิดประตูด้วยนะครับ",
+        "reading": "pit pratu duai na khrap",
+        "translation": {
+          "en": "Please close the door.",
+          "th": "ปิดประตูด้วยนะครับ"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Pratudoor",
+      "sprite": "kotodama/th_obj_pratu.png",
+      "description": {
+        "en": "A spark shaped like a doorway that opens to unexpected places.",
+        "th": "ประกายรูปวงกบประตูที่เปิดไปยังสถานที่ไม่คาดฝัน"
+      },
+      "rarity": "uncommon",
+      "habitat": [
+        "temple",
+        "school",
+        "pier"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_obj_si_namdeng",
+    "lang": "th",
+    "written": "สีน้ำเงิน",
+    "reading": "si nam ngoen",
+    "romanization": "si nam ngoen",
+    "meaning": {
+      "en": "blue (color)",
+      "th": "สีน้ำเงิน",
+      "ja": "青（色）"
+    },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "color",
+      "daily",
+      "description"
+    ],
+    "frequency": 8000,
+    "audio": "voice/th/th_obj_si_namdeng.mp3",
+    "tone": 4,
+    "toneRule": "ส (high) + no mark → rising; น (low) + no mark + live → mid; ง (low) + no mark + live → mid",
+    "examples": [
+      {
+        "sentence": "ท้องฟ้าสีน้ำเงินสดใส",
+        "reading": "thongfaa si nam ngoen sot sai",
+        "translation": {
+          "en": "The sky is a bright blue.",
+          "th": "ท้องฟ้าสีน้ำเงินสดใส"
+        },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Sinamngoenskky",
+      "sprite": "kotodama/th_obj_si_namdeng.png",
+      "description": {
+        "en": "A deep ocean-blue spark that pulses with tidal rhythm.",
+        "th": "ประกายน้ำเงินลึกเหมือนมหาสมุทร ที่เต้นตามจังหวะน้ำขึ้นน้ำลง"
+      },
+      "rarity": "common",
+      "habitat": [
+        "pier",
+        "floating_market",
+        "temple"
+      ]
+    },
+    "needsReview": false
+  }
 ]

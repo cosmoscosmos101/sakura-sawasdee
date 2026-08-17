@@ -5,12 +5,20 @@
     "written": "ดอกไม้",
     "reading": "dok mai",
     "romanization": "dok mai",
-    "meaning": { "en": "flower", "th": "ส่วนของพืชที่มีสีสันสวยงาม" },
+    "meaning": {
+      "en": "flower",
+      "th": "ส่วนของพืชที่มีสีสันสวยงาม",
+      "ja": "花"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["nature", "plant", "thai"],
+    "tags": [
+      "nature",
+      "plant",
+      "thai"
+    ],
     "frequency": 3500,
     "audio": "voice/th/th_nat_dokmai.mp3",
     "tone": 1,
@@ -19,7 +27,10 @@
       {
         "sentence": "ดอกไม้ในสวนบานสวยมาก",
         "reading": "dok mai nai suan ban suai mak",
-        "translation": { "en": "The flowers in the garden are blooming beautifully.", "th": "ดอกไม้ในสวนบานสวยงามมาก" },
+        "translation": {
+          "en": "The flowers in the garden are blooming beautifully.",
+          "th": "ดอกไม้ในสวนบานสวยงามมาก"
+        },
         "context": "temple"
       }
     ],
@@ -31,9 +42,13 @@
         "th": "วิญญาณกลีบดอกไม้พาสเทลที่โปรยละอองเกสรไปทุกที่ที่ลอยผ่าน ทำให้โคโตะดามะอื่นจามด้วยความยินดี"
       },
       "rarity": "common",
-      "habitat": ["temple", "floating_market", "rice_field"]
+      "habitat": [
+        "temple",
+        "floating_market",
+        "rice_field"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_nat_tonmai",
@@ -41,12 +56,20 @@
     "written": "ต้นไม้",
     "reading": "ton mai",
     "romanization": "ton mai",
-    "meaning": { "en": "tree", "th": "พืชยืนต้นมีลำต้นและกิ่งก้าน" },
+    "meaning": {
+      "en": "tree",
+      "th": "พืชยืนต้นมีลำต้นและกิ่งก้าน",
+      "ja": "木"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["nature", "plant", "thai"],
+    "tags": [
+      "nature",
+      "plant",
+      "thai"
+    ],
     "frequency": 3800,
     "audio": "voice/th/th_nat_tonmai.mp3",
     "tone": 3,
@@ -55,7 +78,10 @@
       {
         "sentence": "ต้นไม้ใหญ่ให้ร่มเงาได้ดีมาก",
         "reading": "ton mai yai hai rom ngao dai di mak",
-        "translation": { "en": "Big trees provide excellent shade.", "th": "ต้นไม้ใหญ่ให้ร่มเงาได้ดีมาก" },
+        "translation": {
+          "en": "Big trees provide excellent shade.",
+          "th": "ต้นไม้ใหญ่ให้ร่มเงาได้ดีมาก"
+        },
         "context": "temple"
       }
     ],
@@ -67,9 +93,13 @@
         "th": "วิญญาณเปลือกไม้แข็งแกร่งที่กิ่งก้านมักงอกไปหาแสง คอยให้ที่พักพิงแก่โคโตะดามะที่อ่อนแอกว่าในยามพายุ"
       },
       "rarity": "common",
-      "habitat": ["temple", "rice_field", "old_town"]
+      "habitat": [
+        "temple",
+        "rice_field",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_nat_baimai",
@@ -77,12 +107,20 @@
     "written": "ใบไม้",
     "reading": "bai mai",
     "romanization": "bai mai",
-    "meaning": { "en": "leaf", "th": "ส่วนของพืชที่แบนและเป็นสีเขียว" },
+    "meaning": {
+      "en": "leaf",
+      "th": "ส่วนของพืชที่แบนและเป็นสีเขียว",
+      "ja": "葉っぱ；葉"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["nature", "plant", "thai"],
+    "tags": [
+      "nature",
+      "plant",
+      "thai"
+    ],
     "frequency": 2800,
     "audio": "voice/th/th_nat_baimai.mp3",
     "tone": 0,
@@ -91,7 +129,10 @@
       {
         "sentence": "ใบไม้ร่วงหล่นตามลม",
         "reading": "bai mai ruang lon tam lom",
-        "translation": { "en": "Leaves fall and drift with the wind.", "th": "ใบไม้ร่วงหล่นตามสายลม" },
+        "translation": {
+          "en": "Leaves fall and drift with the wind.",
+          "th": "ใบไม้ร่วงหล่นตามสายลม"
+        },
         "context": "temple"
       }
     ],
@@ -103,9 +144,13 @@
         "th": "วิญญาณแบนสีเขียวที่หมุนเบาๆ ตามสายลมและเปลี่ยนสีในฤดูใบไม้ร่วง"
       },
       "rarity": "common",
-      "habitat": ["temple", "rice_field", "floating_market"]
+      "habitat": [
+        "temple",
+        "rice_field",
+        "floating_market"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_nat_ya",
@@ -113,12 +158,20 @@
     "written": "หญ้า",
     "reading": "ya",
     "romanization": "ya",
-    "meaning": { "en": "grass", "th": "พืชเตี้ยสีเขียวที่ขึ้นตามทุ่งนา" },
+    "meaning": {
+      "en": "grass",
+      "th": "พืชเตี้ยสีเขียวที่ขึ้นตามทุ่งนา",
+      "ja": "草"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["nature", "plant", "thai"],
+    "tags": [
+      "nature",
+      "plant",
+      "thai"
+    ],
     "frequency": 2200,
     "audio": "voice/th/th_nat_ya.mp3",
     "tone": 2,
@@ -127,7 +180,10 @@
       {
         "sentence": "หญ้าในทุ่งนาเขียวสวย",
         "reading": "ya nai thung na khiao suai",
-        "translation": { "en": "The grass in the paddy fields is a beautiful green.", "th": "หญ้าในทุ่งนาเขียวสวยงาม" },
+        "translation": {
+          "en": "The grass in the paddy fields is a beautiful green.",
+          "th": "หญ้าในทุ่งนาเขียวสวยงาม"
+        },
         "context": "rice_field"
       }
     ],
@@ -139,9 +195,13 @@
         "th": "วิญญาณเขียวมรกตเพรียวบางที่แกว่งตลอดเวลาและซ่อนแมลงตัวจิ๋วไว้ในใบ"
       },
       "rarity": "common",
-      "habitat": ["rice_field", "pier", "floating_market"]
+      "habitat": [
+        "rice_field",
+        "pier",
+        "floating_market"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_nat_fon",
@@ -149,12 +209,20 @@
     "written": "ฝน",
     "reading": "fon",
     "romanization": "fon",
-    "meaning": { "en": "rain", "th": "น้ำที่ตกลงมาจากท้องฟ้า" },
+    "meaning": {
+      "en": "rain",
+      "th": "น้ำที่ตกลงมาจากท้องฟ้า",
+      "ja": "雨"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["nature", "weather", "thai"],
+    "tags": [
+      "nature",
+      "weather",
+      "thai"
+    ],
     "frequency": 4000,
     "audio": "voice/th/th_nat_fon.mp3",
     "tone": 4,
@@ -163,7 +231,10 @@
       {
         "sentence": "ฝนตกหนักมากเมื่อคืน",
         "reading": "fon tok nak mak mueakhuen",
-        "translation": { "en": "It rained heavily last night.", "th": "เมื่อคืนฝนตกหนักมาก" },
+        "translation": {
+          "en": "It rained heavily last night.",
+          "th": "เมื่อคืนฝนตกหนักมาก"
+        },
         "context": "pier"
       }
     ],
@@ -175,9 +246,13 @@
         "th": "วิญญาณฝ้าสีฟ้าที่มาโดยไม่บอกล่วงหน้าและทิ้งกลิ่นดินหลังฝน"
       },
       "rarity": "common",
-      "habitat": ["pier", "rice_field", "floating_market"]
+      "habitat": [
+        "pier",
+        "rice_field",
+        "floating_market"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_nat_fa",
@@ -185,12 +260,20 @@
     "written": "ฟ้า",
     "reading": "faa",
     "romanization": "faa",
-    "meaning": { "en": "sky", "th": "ท้องฟ้าเหนือศีรษะ" },
+    "meaning": {
+      "en": "sky",
+      "th": "ท้องฟ้าเหนือศีรษะ",
+      "ja": "空"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["nature", "weather", "thai"],
+    "tags": [
+      "nature",
+      "weather",
+      "thai"
+    ],
     "frequency": 3800,
     "audio": "voice/th/th_nat_fa.mp3",
     "tone": 3,
@@ -199,7 +282,10 @@
       {
         "sentence": "ฟ้าวันนี้สีฟ้าใสมาก",
         "reading": "faa wan ni si faa sai mak",
-        "translation": { "en": "Today the sky is a very clear blue.", "th": "ท้องฟ้าวันนี้สีฟ้าใสมาก" },
+        "translation": {
+          "en": "Today the sky is a very clear blue.",
+          "th": "ท้องฟ้าวันนี้สีฟ้าใสมาก"
+        },
         "context": "pier"
       }
     ],
@@ -211,9 +297,13 @@
         "th": "วิญญาณฟ้าอ่อนกว้างไกลเท่าสายตาจะมองเห็นและฮัมเพลงตามสายลมไกล"
       },
       "rarity": "common",
-      "habitat": ["pier", "rice_field", "old_town"]
+      "habitat": [
+        "pier",
+        "rice_field",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_nat_dao",
@@ -221,12 +311,21 @@
     "written": "ดาว",
     "reading": "dao",
     "romanization": "dao",
-    "meaning": { "en": "star", "th": "วัตถุท้องฟ้าที่เปล่งแสงในตอนกลางคืน" },
+    "meaning": {
+      "en": "star",
+      "th": "วัตถุท้องฟ้าที่เปล่งแสงในตอนกลางคืน",
+      "ja": "星"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["nature", "sky", "night", "thai"],
+    "tags": [
+      "nature",
+      "sky",
+      "night",
+      "thai"
+    ],
     "frequency": 3200,
     "audio": "voice/th/th_nat_dao.mp3",
     "tone": 0,
@@ -235,7 +334,10 @@
       {
         "sentence": "ดาวบนท้องฟ้าคืนนี้สวยมาก",
         "reading": "dao bon thong faa khuen ni suai mak",
-        "translation": { "en": "The stars in the sky tonight are beautiful.", "th": "ดาวบนท้องฟ้าคืนนี้สวยงามมาก" },
+        "translation": {
+          "en": "The stars in the sky tonight are beautiful.",
+          "th": "ดาวบนท้องฟ้าคืนนี้สวยงามมาก"
+        },
         "context": "pier"
       }
     ],
@@ -247,9 +349,13 @@
         "th": "วิญญาณจิ๋วที่กะพริบและปรากฏหลังมืดค่ำ คอยนำทางนักเดินทางที่หลงทางกลับบ้าน"
       },
       "rarity": "uncommon",
-      "habitat": ["pier", "old_town", "rice_field"]
+      "habitat": [
+        "pier",
+        "old_town",
+        "rice_field"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_nat_phrachan",
@@ -257,12 +363,21 @@
     "written": "พระจันทร์",
     "reading": "phra chan",
     "romanization": "phra chan",
-    "meaning": { "en": "moon", "th": "ดาวบริวารของโลกที่มองเห็นได้ตอนกลางคืน" },
+    "meaning": {
+      "en": "moon",
+      "th": "ดาวบริวารของโลกที่มองเห็นได้ตอนกลางคืน",
+      "ja": "月"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["nature", "sky", "night", "thai"],
+    "tags": [
+      "nature",
+      "sky",
+      "night",
+      "thai"
+    ],
     "frequency": 2800,
     "audio": "voice/th/th_nat_phrachan.mp3",
     "tone": 0,
@@ -271,7 +386,10 @@
       {
         "sentence": "พระจันทร์เต็มดวงสว่างมากคืนนี้",
         "reading": "phra chan tem duang sawang mak khuen ni",
-        "translation": { "en": "The full moon is very bright tonight.", "th": "พระจันทร์เต็มดวงสว่างมากคืนนี้" },
+        "translation": {
+          "en": "The full moon is very bright tonight.",
+          "th": "พระจันทร์เต็มดวงสว่างมากคืนนี้"
+        },
         "context": "pier"
       }
     ],
@@ -283,9 +401,13 @@
         "th": "วิญญาณสีขาวเงินที่ข้างขึ้นข้างแรมทุกเดือนและดึงน้ำทะเลด้วยแรงโน้มถ่วงอ่อนๆ"
       },
       "rarity": "uncommon",
-      "habitat": ["pier", "temple", "floating_market"]
+      "habitat": [
+        "pier",
+        "temple",
+        "floating_market"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_nat_phraathit",
@@ -293,12 +415,21 @@
     "written": "พระอาทิตย์",
     "reading": "phra a thit",
     "romanization": "phra a thit",
-    "meaning": { "en": "sun", "th": "ดาวฤกษ์ที่ให้แสงสว่างและความร้อนแก่โลก" },
+    "meaning": {
+      "en": "sun",
+      "th": "ดาวฤกษ์ที่ให้แสงสว่างและความร้อนแก่โลก",
+      "ja": "太陽"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["nature", "sky", "day", "thai"],
+    "tags": [
+      "nature",
+      "sky",
+      "day",
+      "thai"
+    ],
     "frequency": 3200,
     "audio": "voice/th/th_nat_phraathit.mp3",
     "tone": 3,
@@ -307,7 +438,10 @@
       {
         "sentence": "พระอาทิตย์ขึ้นทางทิศตะวันออก",
         "reading": "phra a thit khuen thang thit tawan ok",
-        "translation": { "en": "The sun rises in the east.", "th": "พระอาทิตย์ขึ้นทางทิศตะวันออก" },
+        "translation": {
+          "en": "The sun rises in the east.",
+          "th": "พระอาทิตย์ขึ้นทางทิศตะวันออก"
+        },
         "context": "rice_field"
       }
     ],
@@ -319,9 +453,13 @@
         "th": "วิญญาณทองแดงที่แผ่ความอบอุ่นไปทุกทิศทางและไม่เคยหลับสนิท"
       },
       "rarity": "rare",
-      "habitat": ["rice_field", "pier", "old_town"]
+      "habitat": [
+        "rice_field",
+        "pier",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_nat_lom",
@@ -329,12 +467,20 @@
     "written": "ลม",
     "reading": "lom",
     "romanization": "lom",
-    "meaning": { "en": "wind", "th": "การเคลื่อนที่ของอากาศ" },
+    "meaning": {
+      "en": "wind",
+      "th": "การเคลื่อนที่ของอากาศ",
+      "ja": "風"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["nature", "weather", "thai"],
+    "tags": [
+      "nature",
+      "weather",
+      "thai"
+    ],
     "frequency": 3500,
     "audio": "voice/th/th_nat_lom.mp3",
     "tone": 0,
@@ -343,7 +489,10 @@
       {
         "sentence": "ลมพัดแรงมากตอนเช้า",
         "reading": "lom phat raeng mak ton chao",
-        "translation": { "en": "The wind blows strongly in the morning.", "th": "ลมพัดแรงมากในตอนเช้า" },
+        "translation": {
+          "en": "The wind blows strongly in the morning.",
+          "th": "ลมพัดแรงมากในตอนเช้า"
+        },
         "context": "pier"
       }
     ],
@@ -355,9 +504,13 @@
         "th": "วิญญาณที่มองไม่เห็น เปิดเผยตัวเองด้วยการโยกใบไม้และงอหญ้า"
       },
       "rarity": "common",
-      "habitat": ["pier", "rice_field", "floating_market"]
+      "habitat": [
+        "pier",
+        "rice_field",
+        "floating_market"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_nat_namtok",
@@ -365,12 +518,20 @@
     "written": "น้ำตก",
     "reading": "nam tok",
     "romanization": "nam tok",
-    "meaning": { "en": "waterfall", "th": "น้ำที่ไหลตกลงมาจากที่สูง" },
+    "meaning": {
+      "en": "waterfall",
+      "th": "น้ำที่ไหลตกลงมาจากที่สูง",
+      "ja": "滝"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["nature", "water", "thai"],
+    "tags": [
+      "nature",
+      "water",
+      "thai"
+    ],
     "frequency": 2000,
     "audio": "voice/th/th_nat_namtok.mp3",
     "tone": 3,
@@ -379,7 +540,10 @@
       {
         "sentence": "น้ำตกที่นี่สวยและเย็นมาก",
         "reading": "nam tok thi ni suai lae yen mak",
-        "translation": { "en": "The waterfall here is beautiful and very cool.", "th": "น้ำตกที่นี่สวยงามและเย็นมาก" },
+        "translation": {
+          "en": "The waterfall here is beautiful and very cool.",
+          "th": "น้ำตกที่นี่สวยงามและเย็นมาก"
+        },
         "context": "pier"
       }
     ],
@@ -391,9 +555,12 @@
         "th": "วิญญาณสีขาวที่คำรามและไม่เคยหยุดนิ่ง เติมอากาศด้วยละอองเย็นๆ"
       },
       "rarity": "uncommon",
-      "habitat": ["pier", "rice_field"]
+      "habitat": [
+        "pier",
+        "rice_field"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_nat_thalaysap",
@@ -401,12 +568,20 @@
     "written": "ทะเลสาบ",
     "reading": "tha le sap",
     "romanization": "tha le sap",
-    "meaning": { "en": "lake", "th": "แหล่งน้ำขนาดใหญ่ที่ล้อมรอบด้วยแผ่นดิน" },
+    "meaning": {
+      "en": "lake",
+      "th": "แหล่งน้ำขนาดใหญ่ที่ล้อมรอบด้วยแผ่นดิน",
+      "ja": "湖"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["nature", "water", "thai"],
+    "tags": [
+      "nature",
+      "water",
+      "thai"
+    ],
     "frequency": 1800,
     "audio": "voice/th/th_nat_thalaysap.mp3",
     "tone": 0,
@@ -415,7 +590,10 @@
       {
         "sentence": "ทะเลสาบนี้น้ำใสมาก",
         "reading": "tha le sap ni nam sai mak",
-        "translation": { "en": "This lake's water is very clear.", "th": "ทะเลสาบนี้น้ำใสมาก" },
+        "translation": {
+          "en": "This lake's water is very clear.",
+          "th": "ทะเลสาบนี้น้ำใสมาก"
+        },
         "context": "pier"
       }
     ],
@@ -427,9 +605,12 @@
         "th": "วิญญาณนิ่งราวกระจกที่ผิวน้ำสะท้อนท้องฟ้าได้สมบูรณ์และซ่อนความลึกที่ไม่รู้จบ"
       },
       "rarity": "uncommon",
-      "habitat": ["pier", "floating_market"]
+      "habitat": [
+        "pier",
+        "floating_market"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_nat_ko",
@@ -437,12 +618,20 @@
     "written": "เกาะ",
     "reading": "ko",
     "romanization": "ko",
-    "meaning": { "en": "island", "th": "แผ่นดินที่ล้อมรอบด้วยน้ำ" },
+    "meaning": {
+      "en": "island",
+      "th": "แผ่นดินที่ล้อมรอบด้วยน้ำ",
+      "ja": "島"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["nature", "geography", "thai"],
+    "tags": [
+      "nature",
+      "geography",
+      "thai"
+    ],
     "frequency": 2200,
     "audio": "voice/th/th_nat_ko.mp3",
     "tone": 1,
@@ -451,7 +640,10 @@
       {
         "sentence": "เกาะแห่งนี้มีชายหาดสวยงาม",
         "reading": "ko haeng ni mi chai hat suai ngam",
-        "translation": { "en": "This island has beautiful beaches.", "th": "เกาะแห่งนี้มีชายหาดสวยงามมาก" },
+        "translation": {
+          "en": "This island has beautiful beaches.",
+          "th": "เกาะแห่งนี้มีชายหาดสวยงามมาก"
+        },
         "context": "pier"
       }
     ],
@@ -463,9 +655,11 @@
         "th": "วิญญาณโดดเดี่ยวที่ล้อมรอบด้วยน้ำทุกด้าน อบอุ่นเสมอและปกคลุมด้วยต้นมะพร้าว"
       },
       "rarity": "uncommon",
-      "habitat": ["pier"]
+      "habitat": [
+        "pier"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_nat_chang",
@@ -473,12 +667,21 @@
     "written": "ช้าง",
     "reading": "chang",
     "romanization": "chang",
-    "meaning": { "en": "elephant", "th": "สัตว์บกขนาดใหญ่ที่สุดในโลก เป็นสัตว์ประจำชาติไทย" },
+    "meaning": {
+      "en": "elephant",
+      "th": "สัตว์บกขนาดใหญ่ที่สุดในโลก เป็นสัตว์ประจำชาติไทย",
+      "ja": "象"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["nature", "animal", "thai", "national_symbol"],
+    "tags": [
+      "nature",
+      "animal",
+      "thai",
+      "national_symbol"
+    ],
     "frequency": 3800,
     "audio": "voice/th/th_nat_chang.mp3",
     "tone": 3,
@@ -487,7 +690,10 @@
       {
         "sentence": "ช้างไทยเป็นสัตว์ประจำชาติ",
         "reading": "chang thai pen sat prachat",
-        "translation": { "en": "The Thai elephant is the national animal.", "th": "ช้างไทยเป็นสัตว์ประจำชาติ" },
+        "translation": {
+          "en": "The Thai elephant is the national animal.",
+          "th": "ช้างไทยเป็นสัตว์ประจำชาติ"
+        },
         "context": "temple"
       }
     ],
@@ -499,9 +705,13 @@
         "th": "วิญญาณยักษ์สีเทาใจดีที่ไม่เคยลืมมิตรและพาโคโตะดามะตัวเล็กขี่บนหลัง"
       },
       "rarity": "rare",
-      "habitat": ["temple", "rice_field", "old_town"]
+      "habitat": [
+        "temple",
+        "rice_field",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_nat_suea",
@@ -509,12 +719,20 @@
     "written": "เสือ",
     "reading": "suea",
     "romanization": "suea",
-    "meaning": { "en": "tiger", "th": "สัตว์ผู้ล่าขนาดใหญ่มีลายทาง" },
+    "meaning": {
+      "en": "tiger",
+      "th": "สัตว์ผู้ล่าขนาดใหญ่มีลายทาง",
+      "ja": "虎"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["nature", "animal", "thai"],
+    "tags": [
+      "nature",
+      "animal",
+      "thai"
+    ],
     "frequency": 2500,
     "audio": "voice/th/th_nat_suea.mp3",
     "tone": 4,
@@ -523,7 +741,10 @@
       {
         "sentence": "เสือในป่าเป็นสัตว์ที่น่ากลัว",
         "reading": "suea nai pa pen sat thi na klua",
-        "translation": { "en": "Tigers in the forest are fearsome animals.", "th": "เสือในป่าเป็นสัตว์ที่น่ากลัว" },
+        "translation": {
+          "en": "Tigers in the forest are fearsome animals.",
+          "th": "เสือในป่าเป็นสัตว์ที่น่ากลัว"
+        },
         "context": "rice_field"
       }
     ],
@@ -535,9 +756,12 @@
         "th": "วิญญาณสีอำพันมีลายทางที่เคลื่อนไหวโดยไม่มีเสียงและจ้องมองจากเงามืดเสมอ"
       },
       "rarity": "rare",
-      "habitat": ["rice_field", "old_town"]
+      "habitat": [
+        "rice_field",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_nat_ling",
@@ -545,12 +769,20 @@
     "written": "ลิง",
     "reading": "ling",
     "romanization": "ling",
-    "meaning": { "en": "monkey", "th": "สัตว์เลี้ยงลูกด้วยนมที่ชอบปีนต้นไม้" },
+    "meaning": {
+      "en": "monkey",
+      "th": "สัตว์เลี้ยงลูกด้วยนมที่ชอบปีนต้นไม้",
+      "ja": "猿"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["nature", "animal", "thai"],
+    "tags": [
+      "nature",
+      "animal",
+      "thai"
+    ],
     "frequency": 2200,
     "audio": "voice/th/th_nat_ling.mp3",
     "tone": 0,
@@ -559,7 +791,10 @@
       {
         "sentence": "ลิงชอบกินกล้วยมาก",
         "reading": "ling chop gin kluai mak",
-        "translation": { "en": "Monkeys love eating bananas.", "th": "ลิงชอบกินกล้วยมาก" },
+        "translation": {
+          "en": "Monkeys love eating bananas.",
+          "th": "ลิงชอบกินกล้วยมาก"
+        },
         "context": "temple"
       }
     ],
@@ -571,9 +806,12 @@
         "th": "วิญญาณสีน้ำตาลซนที่โหนจากกิ่งหนึ่งไปกิ่งอื่นและขโมยของกินเมื่อคุณไม่ทัน"
       },
       "rarity": "common",
-      "habitat": ["temple", "old_town"]
+      "habitat": [
+        "temple",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_nat_nok",
@@ -581,12 +819,20 @@
     "written": "นก",
     "reading": "nok",
     "romanization": "nok",
-    "meaning": { "en": "bird", "th": "สัตว์มีปีกที่บินได้" },
+    "meaning": {
+      "en": "bird",
+      "th": "สัตว์มีปีกที่บินได้",
+      "ja": "鳥"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["nature", "animal", "thai"],
+    "tags": [
+      "nature",
+      "animal",
+      "thai"
+    ],
     "frequency": 3500,
     "audio": "voice/th/th_nat_nok.mp3",
     "tone": 3,
@@ -595,7 +841,10 @@
       {
         "sentence": "นกร้องเพลงสวยทุกเช้า",
         "reading": "nok rong phleng suai thuk chao",
-        "translation": { "en": "Birds sing beautifully every morning.", "th": "นกร้องเพลงสวยทุกเช้า" },
+        "translation": {
+          "en": "Birds sing beautifully every morning.",
+          "th": "นกร้องเพลงสวยทุกเช้า"
+        },
         "context": "temple"
       }
     ],
@@ -607,9 +856,13 @@
         "th": "วิญญาณมีขนที่พาเพลงต่างกันทุกวันและไม่เคยเกาะอยู่นานๆ"
       },
       "rarity": "common",
-      "habitat": ["temple", "rice_field", "old_town"]
+      "habitat": [
+        "temple",
+        "rice_field",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_nat_pla",
@@ -617,12 +870,21 @@
     "written": "ปลา",
     "reading": "plaa",
     "romanization": "plaa",
-    "meaning": { "en": "fish", "th": "สัตว์น้ำที่มีเกล็ดและครีบ" },
+    "meaning": {
+      "en": "fish",
+      "th": "สัตว์น้ำที่มีเกล็ดและครีบ",
+      "ja": "魚"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["nature", "animal", "water", "thai"],
+    "tags": [
+      "nature",
+      "animal",
+      "water",
+      "thai"
+    ],
     "frequency": 3200,
     "audio": "voice/th/th_nat_pla.mp3",
     "tone": 0,
@@ -631,7 +893,10 @@
       {
         "sentence": "ปลาในแม่น้ำว่ายน้ำเร็วมาก",
         "reading": "plaa nai mae nam wai nam reo mak",
-        "translation": { "en": "Fish in the river swim very fast.", "th": "ปลาในแม่น้ำว่ายน้ำเร็วมาก" },
+        "translation": {
+          "en": "Fish in the river swim very fast.",
+          "th": "ปลาในแม่น้ำว่ายน้ำเร็วมาก"
+        },
         "context": "pier"
       }
     ],
@@ -643,9 +908,13 @@
         "th": "วิญญาณสีเงินที่พุ่งผ่านน้ำด้วยเกล็ดแวววาวและหายไปในพริบตา"
       },
       "rarity": "common",
-      "habitat": ["pier", "floating_market", "rice_field"]
+      "habitat": [
+        "pier",
+        "floating_market",
+        "rice_field"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_nat_kung",
@@ -653,12 +922,21 @@
     "written": "กุ้ง",
     "reading": "kung",
     "romanization": "kung",
-    "meaning": { "en": "shrimp; prawn", "th": "สัตว์น้ำมีเปลือกที่มีหนวดยาว" },
+    "meaning": {
+      "en": "shrimp; prawn",
+      "th": "สัตว์น้ำมีเปลือกที่มีหนวดยาว",
+      "ja": "エビ"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["nature", "animal", "water", "thai"],
+    "tags": [
+      "nature",
+      "animal",
+      "water",
+      "thai"
+    ],
     "frequency": 2500,
     "audio": "voice/th/th_nat_kung.mp3",
     "tone": 2,
@@ -667,7 +945,10 @@
       {
         "sentence": "กุ้งสดในตลาดยังมีชีวิตอยู่",
         "reading": "kung sot nai talat yang mi chiwit yu",
-        "translation": { "en": "The fresh shrimp at the market are still alive.", "th": "กุ้งสดในตลาดยังมีชีวิตอยู่" },
+        "translation": {
+          "en": "The fresh shrimp at the market are still alive.",
+          "th": "กุ้งสดในตลาดยังมีชีวิตอยู่"
+        },
         "context": "floating_market"
       }
     ],
@@ -679,9 +960,12 @@
         "th": "วิญญาณสีชมพูโปร่งแสงที่งอแน่นเมื่อตกใจและดีดกลับเปิดกว้าง"
       },
       "rarity": "common",
-      "habitat": ["pier", "floating_market"]
+      "habitat": [
+        "pier",
+        "floating_market"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_nat_pu",
@@ -689,12 +973,21 @@
     "written": "ปู",
     "reading": "puu",
     "romanization": "puu",
-    "meaning": { "en": "crab", "th": "สัตว์น้ำมีเปลือกแข็งและก้ามสองข้าง" },
+    "meaning": {
+      "en": "crab",
+      "th": "สัตว์น้ำมีเปลือกแข็งและก้ามสองข้าง",
+      "ja": "カニ"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["nature", "animal", "water", "thai"],
+    "tags": [
+      "nature",
+      "animal",
+      "water",
+      "thai"
+    ],
     "frequency": 1800,
     "audio": "voice/th/th_nat_pu.mp3",
     "tone": 0,
@@ -703,7 +996,10 @@
       {
         "sentence": "ปูทะเลตัวใหญ่มากเลย",
         "reading": "puu tha le tua yai mak loei",
-        "translation": { "en": "That sea crab is really huge!", "th": "ปูทะเลตัวใหญ่มากเลย" },
+        "translation": {
+          "en": "That sea crab is really huge!",
+          "th": "ปูทะเลตัวใหญ่มากเลย"
+        },
         "context": "pier"
       }
     ],
@@ -715,9 +1011,12 @@
         "th": "วิญญาณเดินขวางที่มีก้ามสีแดงร่าเริง โบกมือทักทายทุกคนที่เข้ามาใกล้"
       },
       "rarity": "common",
-      "habitat": ["pier", "floating_market"]
+      "habitat": [
+        "pier",
+        "floating_market"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_nat_ngu",
@@ -725,12 +1024,20 @@
     "written": "งู",
     "reading": "nguu",
     "romanization": "nguu",
-    "meaning": { "en": "snake", "th": "สัตว์เลื้อยคลานไม่มีขา" },
+    "meaning": {
+      "en": "snake",
+      "th": "สัตว์เลื้อยคลานไม่มีขา",
+      "ja": "蛇"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["nature", "animal", "thai"],
+    "tags": [
+      "nature",
+      "animal",
+      "thai"
+    ],
     "frequency": 2000,
     "audio": "voice/th/th_nat_ngu.mp3",
     "tone": 0,
@@ -739,7 +1046,10 @@
       {
         "sentence": "งูในป่าบางชนิดมีพิษ",
         "reading": "nguu nai pa bang chanit mi phit",
-        "translation": { "en": "Some snakes in the forest are venomous.", "th": "งูในป่าบางชนิดมีพิษ" },
+        "translation": {
+          "en": "Some snakes in the forest are venomous.",
+          "th": "งูในป่าบางชนิดมีพิษ"
+        },
         "context": "rice_field"
       }
     ],
@@ -751,9 +1061,12 @@
         "th": "วิญญาณเลื้อยเป็นคลื่น S เป็นประกายที่กลัวคุณมากกว่าที่คุณกลัวมัน"
       },
       "rarity": "uncommon",
-      "habitat": ["rice_field", "old_town"]
+      "habitat": [
+        "rice_field",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_nat_maeo",
@@ -761,12 +1074,21 @@
     "written": "แมว",
     "reading": "maeo",
     "romanization": "maeo",
-    "meaning": { "en": "cat", "th": "สัตว์เลี้ยงขนาดเล็กที่ร้องเสียง แมว" },
+    "meaning": {
+      "en": "cat",
+      "th": "สัตว์เลี้ยงขนาดเล็กที่ร้องเสียง แมว",
+      "ja": "猫"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["nature", "animal", "pet", "thai"],
+    "tags": [
+      "nature",
+      "animal",
+      "pet",
+      "thai"
+    ],
     "frequency": 3500,
     "audio": "voice/th/th_nat_maeo.mp3",
     "tone": 0,
@@ -775,7 +1097,10 @@
       {
         "sentence": "แมวนอนหลับในแดดอุ่นๆ",
         "reading": "maeo non lap nai daet un un",
-        "translation": { "en": "The cat sleeps in the warm sunshine.", "th": "แมวนอนหลับในแสงแดดอุ่นๆ" },
+        "translation": {
+          "en": "The cat sleeps in the warm sunshine.",
+          "th": "แมวนอนหลับในแสงแดดอุ่นๆ"
+        },
         "context": "temple"
       }
     ],
@@ -787,9 +1112,13 @@
         "th": "วิญญาณนวลพาสเทลที่คร่ำครวญเมื่อพอใจและลงเท้าได้เสมอ"
       },
       "rarity": "common",
-      "habitat": ["temple", "old_town", "floating_market"]
+      "habitat": [
+        "temple",
+        "old_town",
+        "floating_market"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_nat_ma",
@@ -797,12 +1126,22 @@
     "written": "หมา",
     "reading": "maa",
     "romanization": "maa",
-    "meaning": { "en": "dog (informal)", "th": "สัตว์เลี้ยงสี่ขาที่เป็นเพื่อนที่ดีของมนุษย์ (ภาษาปาก)" },
+    "meaning": {
+      "en": "dog (informal)",
+      "th": "สัตว์เลี้ยงสี่ขาที่เป็นเพื่อนที่ดีของมนุษย์ (ภาษาปาก)",
+      "ja": "犬（インフォーマル）"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["nature", "animal", "pet", "thai", "informal"],
+    "tags": [
+      "nature",
+      "animal",
+      "pet",
+      "thai",
+      "informal"
+    ],
     "frequency": 3500,
     "audio": "voice/th/th_nat_ma.mp3",
     "tone": 3,
@@ -811,7 +1150,10 @@
       {
         "sentence": "หมาตัวนี้เชื่องมากเลย",
         "reading": "maa tua ni chueang mak loei",
-        "translation": { "en": "This dog is very tame.", "th": "หมาตัวนี้เชื่องมากเลย" },
+        "translation": {
+          "en": "This dog is very tame.",
+          "th": "หมาตัวนี้เชื่องมากเลย"
+        },
         "context": "old_town"
       }
     ],
@@ -823,9 +1165,13 @@
         "th": "วิญญาณขนปุยสีน้ำตาลอ่อนที่หางกวัดแกว่งตลอดเวลา คอยต้อนรับนักผจญภัยทุกคนที่ประตูหมู่บ้าน"
       },
       "rarity": "common",
-      "habitat": ["old_town", "temple", "rice_field"]
+      "habitat": [
+        "old_town",
+        "temple",
+        "rice_field"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_nat_kai",
@@ -833,12 +1179,21 @@
     "written": "ไก่",
     "reading": "kai",
     "romanization": "kai",
-    "meaning": { "en": "chicken (animal)", "th": "สัตว์ปีกที่เลี้ยงในบ้านหรือฟาร์ม" },
+    "meaning": {
+      "en": "chicken (animal)",
+      "th": "สัตว์ปีกที่เลี้ยงในบ้านหรือฟาร์ม",
+      "ja": "鶏（動物）"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["nature", "animal", "farm", "thai"],
+    "tags": [
+      "nature",
+      "animal",
+      "farm",
+      "thai"
+    ],
     "frequency": 3000,
     "audio": "voice/th/th_nat_kai.mp3",
     "tone": 1,
@@ -847,7 +1202,10 @@
       {
         "sentence": "ไก่ขันตอนเช้าตรู่",
         "reading": "kai khan ton chao truu",
-        "translation": { "en": "Roosters crow in the early morning.", "th": "ไก่ขันตอนเช้าตรู่" },
+        "translation": {
+          "en": "Roosters crow in the early morning.",
+          "th": "ไก่ขันตอนเช้าตรู่"
+        },
         "context": "rice_field"
       }
     ],
@@ -859,9 +1217,12 @@
         "th": "วิญญาณขนทองที่ขันตอนพระอาทิตย์ขึ้นและปลุกหมู่บ้านทั้งหมดโดยไม่พลาด"
       },
       "rarity": "common",
-      "habitat": ["rice_field", "old_town"]
+      "habitat": [
+        "rice_field",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_nat_muu",
@@ -869,12 +1230,21 @@
     "written": "หมู",
     "reading": "muu",
     "romanization": "muu",
-    "meaning": { "en": "pig", "th": "สัตว์เลี้ยงลูกด้วยนมขนาดกลาง เลี้ยงในฟาร์ม" },
+    "meaning": {
+      "en": "pig",
+      "th": "สัตว์เลี้ยงลูกด้วยนมขนาดกลาง เลี้ยงในฟาร์ม",
+      "ja": "豚"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["nature", "animal", "farm", "thai"],
+    "tags": [
+      "nature",
+      "animal",
+      "farm",
+      "thai"
+    ],
     "frequency": 2800,
     "audio": "voice/th/th_nat_muu.mp3",
     "tone": 4,
@@ -883,7 +1253,10 @@
       {
         "sentence": "หมูในฟาร์มกินอาหารเก่ง",
         "reading": "muu nai farm gin ahan keng",
-        "translation": { "en": "The pigs on the farm eat well.", "th": "หมูในฟาร์มกินอาหารเก่ง" },
+        "translation": {
+          "en": "The pigs on the farm eat well.",
+          "th": "หมูในฟาร์มกินอาหารเก่ง"
+        },
         "context": "rice_field"
       }
     ],
@@ -895,9 +1268,12 @@
         "th": "วิญญาณกลมสีชมพูที่กลิ้งเล่นโคลนอย่างมีความสุขและกลายเป็นสีชมพูสดเมื่อดีใจ"
       },
       "rarity": "common",
-      "habitat": ["rice_field", "old_town"]
+      "habitat": [
+        "rice_field",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_nat_wua",
@@ -905,12 +1281,21 @@
     "written": "วัว",
     "reading": "wua",
     "romanization": "wua",
-    "meaning": { "en": "cow; cattle", "th": "สัตว์เลี้ยงขนาดใหญ่ที่ให้น้ำนมและช่วยไถนา" },
+    "meaning": {
+      "en": "cow; cattle",
+      "th": "สัตว์เลี้ยงขนาดใหญ่ที่ให้น้ำนมและช่วยไถนา",
+      "ja": "牛；cattle"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["nature", "animal", "farm", "thai"],
+    "tags": [
+      "nature",
+      "animal",
+      "farm",
+      "thai"
+    ],
     "frequency": 2500,
     "audio": "voice/th/th_nat_wua.mp3",
     "tone": 0,
@@ -919,7 +1304,10 @@
       {
         "sentence": "วัวช่วยชาวนาไถนามาแต่โบราณ",
         "reading": "wua chuai chao na thai na ma tae boran",
-        "translation": { "en": "Cows have helped farmers plough fields since ancient times.", "th": "วัวช่วยชาวนาไถนามาตั้งแต่สมัยโบราณ" },
+        "translation": {
+          "en": "Cows have helped farmers plough fields since ancient times.",
+          "th": "วัวช่วยชาวนาไถนามาตั้งแต่สมัยโบราณ"
+        },
         "context": "rice_field"
       }
     ],
@@ -931,9 +1319,12 @@
         "th": "วิญญาณสีครีมแข็งแกร่งที่เดินทีละก้าวอย่างสม่ำเสมอ ไม่รีบร้อน แต่ทำงานสำเร็จเสมอ"
       },
       "rarity": "common",
-      "habitat": ["rice_field", "old_town"]
+      "habitat": [
+        "rice_field",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_nat_krataai",
@@ -941,12 +1332,21 @@
     "written": "กระต่าย",
     "reading": "kra tai",
     "romanization": "kra tai",
-    "meaning": { "en": "rabbit", "th": "สัตว์ขนฟูหูยาวที่กระโดดเร็ว" },
+    "meaning": {
+      "en": "rabbit",
+      "th": "สัตว์ขนฟูหูยาวที่กระโดดเร็ว",
+      "ja": "ウサギ"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["nature", "animal", "pet", "thai"],
+    "tags": [
+      "nature",
+      "animal",
+      "pet",
+      "thai"
+    ],
     "frequency": 2000,
     "audio": "voice/th/th_nat_krataai.mp3",
     "tone": 0,
@@ -955,7 +1355,10 @@
       {
         "sentence": "กระต่ายชอบกินแครอทมาก",
         "reading": "kra tai chop gin kharot mak",
-        "translation": { "en": "Rabbits love eating carrots.", "th": "กระต่ายชอบกินแครอทมาก" },
+        "translation": {
+          "en": "Rabbits love eating carrots.",
+          "th": "กระต่ายชอบกินแครอทมาก"
+        },
         "context": "old_town"
       }
     ],
@@ -967,9 +1370,13 @@
         "th": "วิญญาณขาวฟูหูยาวที่กระโดดสูงกว่าที่มองเห็นและรักสวนในแสงจันทร์"
       },
       "rarity": "common",
-      "habitat": ["temple", "rice_field", "old_town"]
+      "habitat": [
+        "temple",
+        "rice_field",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_nat_phisueua",
@@ -977,12 +1384,21 @@
     "written": "ผีเสื้อ",
     "reading": "phi suea",
     "romanization": "phi suea",
-    "meaning": { "en": "butterfly", "th": "แมลงปีกสวยงามที่บินได้" },
+    "meaning": {
+      "en": "butterfly",
+      "th": "แมลงปีกสวยงามที่บินได้",
+      "ja": "蝶々"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["nature", "animal", "insect", "thai"],
+    "tags": [
+      "nature",
+      "animal",
+      "insect",
+      "thai"
+    ],
     "frequency": 2200,
     "audio": "voice/th/th_nat_phisueua.mp3",
     "tone": 4,
@@ -991,7 +1407,10 @@
       {
         "sentence": "ผีเสื้อบินเหนือดอกไม้อย่างสวยงาม",
         "reading": "phi suea bin nuea dok mai yang suai ngam",
-        "translation": { "en": "Butterflies fly above the flowers gracefully.", "th": "ผีเสื้อบินเหนือดอกไม้อย่างสวยงาม" },
+        "translation": {
+          "en": "Butterflies fly above the flowers gracefully.",
+          "th": "ผีเสื้อบินเหนือดอกไม้อย่างสวยงาม"
+        },
         "context": "temple"
       }
     ],
@@ -1003,9 +1422,13 @@
         "th": "วิญญาณปีกพาสเทลบางเบาที่เปลี่ยนสีทุกครั้งที่พับปีก"
       },
       "rarity": "uncommon",
-      "habitat": ["temple", "rice_field", "floating_market"]
+      "habitat": [
+        "temple",
+        "rice_field",
+        "floating_market"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_nat_mot",
@@ -1013,12 +1436,21 @@
     "written": "มด",
     "reading": "mot",
     "romanization": "mot",
-    "meaning": { "en": "ant", "th": "แมลงขนาดเล็กที่อยู่รวมกันเป็นกลุ่มใหญ่" },
+    "meaning": {
+      "en": "ant",
+      "th": "แมลงขนาดเล็กที่อยู่รวมกันเป็นกลุ่มใหญ่",
+      "ja": "アリ"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["nature", "animal", "insect", "thai"],
+    "tags": [
+      "nature",
+      "animal",
+      "insect",
+      "thai"
+    ],
     "frequency": 1800,
     "audio": "voice/th/th_nat_mot.mp3",
     "tone": 3,
@@ -1027,7 +1459,10 @@
       {
         "sentence": "มดแดงกัดเจ็บมากเลย",
         "reading": "mot daeng kat jeb mak loei",
-        "translation": { "en": "Red ants bite really painfully!", "th": "มดแดงกัดเจ็บมากเลย" },
+        "translation": {
+          "en": "Red ants bite really painfully!",
+          "th": "มดแดงกัดเจ็บมากเลย"
+        },
         "context": "rice_field"
       }
     ],
@@ -1039,9 +1474,13 @@
         "th": "วิญญาณแดงจิ๋วที่เดินแถวตรงสมบูรณ์แบบและแบกน้ำหนักได้สิบเท่าของตัวเอง"
       },
       "rarity": "common",
-      "habitat": ["rice_field", "temple", "old_town"]
+      "habitat": [
+        "rice_field",
+        "temple",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_nat_yung",
@@ -1049,12 +1488,21 @@
     "written": "ยุง",
     "reading": "yung",
     "romanization": "yung",
-    "meaning": { "en": "mosquito", "th": "แมลงขนาดเล็กที่ดูดเลือด" },
+    "meaning": {
+      "en": "mosquito",
+      "th": "แมลงขนาดเล็กที่ดูดเลือด",
+      "ja": "蚊"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["nature", "animal", "insect", "thai"],
+    "tags": [
+      "nature",
+      "animal",
+      "insect",
+      "thai"
+    ],
     "frequency": 2000,
     "audio": "voice/th/th_nat_yung.mp3",
     "tone": 0,
@@ -1063,7 +1511,10 @@
       {
         "sentence": "ยุงชุมมากในช่วงหน้าฝน",
         "reading": "yung chum mak nai chuang na fon",
-        "translation": { "en": "Mosquitoes swarm a lot during the rainy season.", "th": "ยุงชุมมากในช่วงฤดูฝน" },
+        "translation": {
+          "en": "Mosquitoes swarm a lot during the rainy season.",
+          "th": "ยุงชุมมากในช่วงฤดูฝน"
+        },
         "context": "rice_field"
       }
     ],
@@ -1075,8 +1526,12 @@
         "th": "วิญญาณจิ๋วที่ส่งเสียงฝึ่งน่ารำคาญและโผล่มาตอนที่คุณพยายามนอนหลับพอดี"
       },
       "rarity": "common",
-      "habitat": ["rice_field", "floating_market", "pier"]
+      "habitat": [
+        "rice_field",
+        "floating_market",
+        "pier"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   }
 ]

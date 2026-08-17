@@ -5,12 +5,19 @@
     "written": "หัว",
     "reading": "hua",
     "romanization": "hua",
-    "meaning": { "en": "head", "th": "ส่วนบนสุดของร่างกาย" },
+    "meaning": {
+      "en": "head",
+      "th": "ส่วนบนสุดของร่างกาย",
+      "ja": "頭"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["body", "thai"],
+    "tags": [
+      "body",
+      "thai"
+    ],
     "frequency": 4500,
     "audio": "voice/th/th_body_hua.mp3",
     "tone": 4,
@@ -19,7 +26,10 @@
       {
         "sentence": "หัวของฉันปวดมาก",
         "reading": "hua khong chan pueat mak",
-        "translation": { "en": "My head hurts a lot.", "th": "ศีรษะของฉันปวดมาก" },
+        "translation": {
+          "en": "My head hurts a lot.",
+          "th": "ศีรษะของฉันปวดมาก"
+        },
         "context": "temple"
       }
     ],
@@ -31,9 +41,12 @@
         "th": "วิญญาณกลมที่ลอยอยู่เหนือไหล่เล็กน้อย คอยหันมาฟังเสมอ"
       },
       "rarity": "common",
-      "habitat": ["temple", "old_town"]
+      "habitat": [
+        "temple",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_body_phom",
@@ -41,12 +54,19 @@
     "written": "ผม",
     "reading": "phom",
     "romanization": "phom",
-    "meaning": { "en": "hair (on head)", "th": "เส้นขนบนหัว" },
+    "meaning": {
+      "en": "hair (on head)",
+      "th": "เส้นขนบนหัว",
+      "ja": "髪；髪の毛"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["body", "thai"],
+    "tags": [
+      "body",
+      "thai"
+    ],
     "frequency": 3200,
     "audio": "voice/th/th_body_phom.mp3",
     "tone": 4,
@@ -55,7 +75,10 @@
       {
         "sentence": "ผมของเธอยาวและดำสวย",
         "reading": "phom khong thoe yao lae dam suai",
-        "translation": { "en": "Her hair is long and beautifully black.", "th": "ผมของเธอยาวและดำสวย" },
+        "translation": {
+          "en": "Her hair is long and beautifully black.",
+          "th": "ผมของเธอยาวและดำสวย"
+        },
         "context": "old_town"
       }
     ],
@@ -67,9 +90,12 @@
         "th": "วิญญาณสีเข้มที่เส้นสายพริ้วไหวตามสายลม"
       },
       "rarity": "common",
-      "habitat": ["old_town", "fresh_market"]
+      "habitat": [
+        "old_town",
+        "fresh_market"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_body_ta",
@@ -77,12 +103,19 @@
     "written": "ตา",
     "reading": "taa",
     "romanization": "taa",
-    "meaning": { "en": "eye", "th": "อวัยวะสำหรับมองเห็น" },
+    "meaning": {
+      "en": "eye",
+      "th": "อวัยวะสำหรับมองเห็น",
+      "ja": "目"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["body", "thai"],
+    "tags": [
+      "body",
+      "thai"
+    ],
     "frequency": 5000,
     "audio": "voice/th/th_body_ta.mp3",
     "tone": 0,
@@ -91,7 +124,10 @@
       {
         "sentence": "ตาของเขาสีน้ำตาล",
         "reading": "taa khong khao si nam tan",
-        "translation": { "en": "His eyes are brown.", "th": "ตาของเขาสีน้ำตาล" },
+        "translation": {
+          "en": "His eyes are brown.",
+          "th": "ตาของเขาสีน้ำตาล"
+        },
         "context": "old_town"
       }
     ],
@@ -103,9 +139,13 @@
         "th": "วิญญาณสว่างไสวรูปดวงตาที่ไม่เคยกะพริบ"
       },
       "rarity": "common",
-      "habitat": ["temple", "old_town", "floating_market"]
+      "habitat": [
+        "temple",
+        "old_town",
+        "floating_market"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_body_hu",
@@ -113,12 +153,19 @@
     "written": "หู",
     "reading": "huu",
     "romanization": "huu",
-    "meaning": { "en": "ear", "th": "อวัยวะสำหรับฟังเสียง" },
+    "meaning": {
+      "en": "ear",
+      "th": "อวัยวะสำหรับฟังเสียง",
+      "ja": "耳"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["body", "thai"],
+    "tags": [
+      "body",
+      "thai"
+    ],
     "frequency": 3800,
     "audio": "voice/th/th_body_hu.mp3",
     "tone": 4,
@@ -127,7 +174,10 @@
       {
         "sentence": "หูของฉันได้ยินเสียงดนตรี",
         "reading": "huu khong chan dai yin siang don tri",
-        "translation": { "en": "My ears can hear the music.", "th": "หูของฉันได้ยินเสียงดนตรี" },
+        "translation": {
+          "en": "My ears can hear the music.",
+          "th": "หูของฉันได้ยินเสียงดนตรี"
+        },
         "context": "temple"
       }
     ],
@@ -139,9 +189,12 @@
         "th": "วิญญาณโค้งที่ฮัมเบาๆ คอยรับฟังเสียงจากระยะไกล"
       },
       "rarity": "common",
-      "habitat": ["temple", "old_town"]
+      "habitat": [
+        "temple",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_body_jamuk",
@@ -149,12 +202,19 @@
     "written": "จมูก",
     "reading": "jamuk",
     "romanization": "jamuk",
-    "meaning": { "en": "nose", "th": "อวัยวะสำหรับดมกลิ่นและหายใจ" },
+    "meaning": {
+      "en": "nose",
+      "th": "อวัยวะสำหรับดมกลิ่นและหายใจ",
+      "ja": "鼻"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["body", "thai"],
+    "tags": [
+      "body",
+      "thai"
+    ],
     "frequency": 3000,
     "audio": "voice/th/th_body_jamuk.mp3",
     "tone": 1,
@@ -163,7 +223,10 @@
       {
         "sentence": "จมูกของฉันได้กลิ่นดอกไม้",
         "reading": "jamuk khong chan dai klin dok mai",
-        "translation": { "en": "My nose smells the flowers.", "th": "จมูกของฉันได้กลิ่นดอกไม้" },
+        "translation": {
+          "en": "My nose smells the flowers.",
+          "th": "จมูกของฉันได้กลิ่นดอกไม้"
+        },
         "context": "temple"
       }
     ],
@@ -175,9 +238,13 @@
         "th": "วิญญาณจิ๋วที่กระดิกทุกครั้งที่มีกลิ่นหอมผ่านมา"
       },
       "rarity": "common",
-      "habitat": ["fresh_market", "temple", "floating_market"]
+      "habitat": [
+        "fresh_market",
+        "temple",
+        "floating_market"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_body_pak",
@@ -185,12 +252,19 @@
     "written": "ปาก",
     "reading": "pak",
     "romanization": "pak",
-    "meaning": { "en": "mouth", "th": "อวัยวะสำหรับพูดและรับประทานอาหาร" },
+    "meaning": {
+      "en": "mouth",
+      "th": "อวัยวะสำหรับพูดและรับประทานอาหาร",
+      "ja": "口"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["body", "thai"],
+    "tags": [
+      "body",
+      "thai"
+    ],
     "frequency": 4200,
     "audio": "voice/th/th_body_pak.mp3",
     "tone": 1,
@@ -199,7 +273,10 @@
       {
         "sentence": "อย่าพูดตอนอาหารอยู่ในปาก",
         "reading": "ya phut ton ahan yu nai pak",
-        "translation": { "en": "Don't talk with food in your mouth.", "th": "อย่าพูดตอนมีอาหารอยู่ในปาก" },
+        "translation": {
+          "en": "Don't talk with food in your mouth.",
+          "th": "อย่าพูดตอนมีอาหารอยู่ในปาก"
+        },
         "context": "fresh_market"
       }
     ],
@@ -211,9 +288,13 @@
         "th": "วิญญาณแจ่มใสที่เปล่งแสงทุกครั้งที่มีคนพูดชัดเจน"
       },
       "rarity": "common",
-      "habitat": ["old_town", "fresh_market", "night_market"]
+      "habitat": [
+        "old_town",
+        "fresh_market",
+        "night_market"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_body_fan",
@@ -221,12 +302,19 @@
     "written": "ฟัน",
     "reading": "fan",
     "romanization": "fan",
-    "meaning": { "en": "tooth; teeth", "th": "กระดูกแข็งในปากสำหรับเคี้ยวอาหาร" },
+    "meaning": {
+      "en": "tooth; teeth",
+      "th": "กระดูกแข็งในปากสำหรับเคี้ยวอาหาร",
+      "ja": "歯"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["body", "thai"],
+    "tags": [
+      "body",
+      "thai"
+    ],
     "frequency": 2800,
     "audio": "voice/th/th_body_fan.mp3",
     "tone": 0,
@@ -235,7 +323,10 @@
       {
         "sentence": "แปรงฟันทุกเช้าและเย็น",
         "reading": "praeng fan thuk chao lae yen",
-        "translation": { "en": "Brush your teeth every morning and evening.", "th": "แปรงฟันทุกเช้าและเย็น" },
+        "translation": {
+          "en": "Brush your teeth every morning and evening.",
+          "th": "แปรงฟันทุกเช้าและเย็น"
+        },
         "context": "old_town"
       }
     ],
@@ -247,9 +338,12 @@
         "th": "วิญญาณสีขาวมุกที่ส่องแสงเมื่อยิ้ม"
       },
       "rarity": "common",
-      "habitat": ["old_town", "temple"]
+      "habitat": [
+        "old_town",
+        "temple"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_body_kho",
@@ -257,12 +351,19 @@
     "written": "คอ",
     "reading": "kho",
     "romanization": "kho",
-    "meaning": { "en": "neck; throat", "th": "ส่วนที่เชื่อมต่อระหว่างหัวและลำตัว" },
+    "meaning": {
+      "en": "neck; throat",
+      "th": "ส่วนที่เชื่อมต่อระหว่างหัวและลำตัว",
+      "ja": "首；喉"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["body", "thai"],
+    "tags": [
+      "body",
+      "thai"
+    ],
     "frequency": 2600,
     "audio": "voice/th/th_body_kho.mp3",
     "tone": 0,
@@ -271,7 +372,10 @@
       {
         "sentence": "เธอสวมสร้อยคอสวยงาม",
         "reading": "thoe suam sroi kho suai ngam",
-        "translation": { "en": "She wears a beautiful necklace.", "th": "เธอสวมสร้อยคอสวยงาม" },
+        "translation": {
+          "en": "She wears a beautiful necklace.",
+          "th": "เธอสวมสร้อยคอสวยงาม"
+        },
         "context": "old_town"
       }
     ],
@@ -283,9 +387,12 @@
         "th": "วิญญาณเรียวที่แกว่งงดงาม คอยประดับด้วยวงแสง"
       },
       "rarity": "common",
-      "habitat": ["temple", "old_town"]
+      "habitat": [
+        "temple",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_body_lai",
@@ -293,12 +400,19 @@
     "written": "ไหล่",
     "reading": "lai",
     "romanization": "lai",
-    "meaning": { "en": "shoulder", "th": "ส่วนต่อระหว่างคอและแขน" },
+    "meaning": {
+      "en": "shoulder",
+      "th": "ส่วนต่อระหว่างคอและแขน",
+      "ja": "肩"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["body", "thai"],
+    "tags": [
+      "body",
+      "thai"
+    ],
     "frequency": 2400,
     "audio": "voice/th/th_body_lai.mp3",
     "tone": 1,
@@ -307,7 +421,10 @@
       {
         "sentence": "เขาแบกกระเป๋าบนไหล่",
         "reading": "khao baek krapao bon lai",
-        "translation": { "en": "He carries a bag on his shoulder.", "th": "เขาแบกกระเป๋าบนไหล่" },
+        "translation": {
+          "en": "He carries a bag on his shoulder.",
+          "th": "เขาแบกกระเป๋าบนไหล่"
+        },
         "context": "pier"
       }
     ],
@@ -319,9 +436,12 @@
         "th": "วิญญาณกว้างแข็งแกร่งที่ชอบแบกสิ่งของให้คนอื่น"
       },
       "rarity": "common",
-      "habitat": ["pier", "fresh_market"]
+      "habitat": [
+        "pier",
+        "fresh_market"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_body_khaen",
@@ -329,12 +449,19 @@
     "written": "แขน",
     "reading": "khaen",
     "romanization": "khaen",
-    "meaning": { "en": "arm", "th": "ส่วนของร่างกายจากไหล่ถึงมือ" },
+    "meaning": {
+      "en": "arm",
+      "th": "ส่วนของร่างกายจากไหล่ถึงมือ",
+      "ja": "腕"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["body", "thai"],
+    "tags": [
+      "body",
+      "thai"
+    ],
     "frequency": 3000,
     "audio": "voice/th/th_body_khaen.mp3",
     "tone": 4,
@@ -343,7 +470,10 @@
       {
         "sentence": "แขนของฉันเจ็บหลังออกกำลังกาย",
         "reading": "khaen khong chan jep lang ok kamlang kai",
-        "translation": { "en": "My arms are sore after exercising.", "th": "แขนของฉันเจ็บหลังออกกำลังกาย" },
+        "translation": {
+          "en": "My arms are sore after exercising.",
+          "th": "แขนของฉันเจ็บหลังออกกำลังกาย"
+        },
         "context": "old_town"
       }
     ],
@@ -355,9 +485,12 @@
         "th": "วิญญาณยาวที่ยืดเข้าหาทุกสิ่งที่น่าสนใจ"
       },
       "rarity": "common",
-      "habitat": ["floating_market", "fresh_market"]
+      "habitat": [
+        "floating_market",
+        "fresh_market"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_body_mue",
@@ -365,12 +498,19 @@
     "written": "มือ",
     "reading": "mue",
     "romanization": "mue",
-    "meaning": { "en": "hand", "th": "ส่วนปลายแขนสำหรับจับสิ่งของ" },
+    "meaning": {
+      "en": "hand",
+      "th": "ส่วนปลายแขนสำหรับจับสิ่งของ",
+      "ja": "手"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["body", "thai"],
+    "tags": [
+      "body",
+      "thai"
+    ],
     "frequency": 5500,
     "audio": "voice/th/th_body_mue.mp3",
     "tone": 0,
@@ -379,7 +519,10 @@
       {
         "sentence": "ล้างมือก่อนกินข้าวทุกครั้ง",
         "reading": "lang mue kon gin khaao thuk khrang",
-        "translation": { "en": "Wash your hands before eating every time.", "th": "ล้างมือก่อนกินข้าวทุกครั้ง" },
+        "translation": {
+          "en": "Wash your hands before eating every time.",
+          "th": "ล้างมือก่อนกินข้าวทุกครั้ง"
+        },
         "context": "fresh_market"
       }
     ],
@@ -391,9 +534,13 @@
         "th": "วิญญาณห้านิ้วคล่องแคล่วที่สร้างรูปร่างได้จากสิ่งที่สัมผัส"
       },
       "rarity": "common",
-      "habitat": ["fresh_market", "floating_market", "old_town"]
+      "habitat": [
+        "fresh_market",
+        "floating_market",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_body_niu",
@@ -401,12 +548,19 @@
     "written": "นิ้ว",
     "reading": "niu",
     "romanization": "niu",
-    "meaning": { "en": "finger", "th": "ส่วนปลายมือแต่ละข้อ" },
+    "meaning": {
+      "en": "finger",
+      "th": "ส่วนปลายมือแต่ละข้อ",
+      "ja": "指"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["body", "thai"],
+    "tags": [
+      "body",
+      "thai"
+    ],
     "frequency": 2200,
     "audio": "voice/th/th_body_niu.mp3",
     "tone": 3,
@@ -415,7 +569,10 @@
       {
         "sentence": "ฉันมีนิ้วสิบนิ้ว",
         "reading": "chan mi niu sip niu",
-        "translation": { "en": "I have ten fingers.", "th": "ฉันมีนิ้วสิบนิ้ว" },
+        "translation": {
+          "en": "I have ten fingers.",
+          "th": "ฉันมีนิ้วสิบนิ้ว"
+        },
         "context": "old_town"
       }
     ],
@@ -427,9 +584,12 @@
         "th": "วิญญาณเรียวที่คอยชี้ทางไปยังคำศัพท์ที่ซ่อนอยู่"
       },
       "rarity": "common",
-      "habitat": ["temple", "old_town"]
+      "habitat": [
+        "temple",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_body_na_ok",
@@ -437,12 +597,19 @@
     "written": "หน้าอก",
     "reading": "na ok",
     "romanization": "na ok",
-    "meaning": { "en": "chest", "th": "ส่วนหน้าของลำตัวระหว่างคอและท้อง" },
+    "meaning": {
+      "en": "chest",
+      "th": "ส่วนหน้าของลำตัวระหว่างคอและท้อง",
+      "ja": "胸"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["body", "thai"],
+    "tags": [
+      "body",
+      "thai"
+    ],
     "frequency": 2000,
     "audio": "voice/th/th_body_naok.mp3",
     "tone": 2,
@@ -451,7 +618,10 @@
       {
         "sentence": "หัวใจอยู่ในหน้าอกทางซ้าย",
         "reading": "hua jai yu nai na ok thang sai",
-        "translation": { "en": "The heart is in the chest on the left side.", "th": "หัวใจอยู่ในหน้าอกทางซ้าย" },
+        "translation": {
+          "en": "The heart is in the chest on the left side.",
+          "th": "หัวใจอยู่ในหน้าอกทางซ้าย"
+        },
         "context": "temple"
       }
     ],
@@ -463,9 +633,12 @@
         "th": "วิญญาณกว้างที่ฮัมตามเสียงหัวใจและปกป้องผู้อยู่ใกล้"
       },
       "rarity": "common",
-      "habitat": ["temple", "old_town"]
+      "habitat": [
+        "temple",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_body_thong",
@@ -473,12 +646,19 @@
     "written": "ท้อง",
     "reading": "thong",
     "romanization": "thong",
-    "meaning": { "en": "stomach; belly; abdomen", "th": "ส่วนล่างของลำตัวใต้หน้าอก" },
+    "meaning": {
+      "en": "stomach; belly; abdomen",
+      "th": "ส่วนล่างของลำตัวใต้หน้าอก",
+      "ja": "お腹；腹；腹部"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["body", "thai"],
+    "tags": [
+      "body",
+      "thai"
+    ],
     "frequency": 3500,
     "audio": "voice/th/th_body_thong.mp3",
     "tone": 3,
@@ -487,7 +667,10 @@
       {
         "sentence": "ท้องหิวมากตอนเที่ยง",
         "reading": "thong hiu mak ton thiang",
-        "translation": { "en": "The stomach is very hungry at noon.", "th": "ท้องหิวมากตอนเที่ยง" },
+        "translation": {
+          "en": "The stomach is very hungry at noon.",
+          "th": "ท้องหิวมากตอนเที่ยง"
+        },
         "context": "fresh_market"
       }
     ],
@@ -499,9 +682,13 @@
         "th": "วิญญาณกลมที่ส่งเสียงครวญคราง ยิ่งหิวยิ่งดัง"
       },
       "rarity": "common",
-      "habitat": ["fresh_market", "floating_market", "night_market"]
+      "habitat": [
+        "fresh_market",
+        "floating_market",
+        "night_market"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_body_lang",
@@ -509,12 +696,19 @@
     "written": "หลัง",
     "reading": "lang",
     "romanization": "lang",
-    "meaning": { "en": "back (of body)", "th": "ส่วนหลังของลำตัว" },
+    "meaning": {
+      "en": "back (of body)",
+      "th": "ส่วนหลังของลำตัว",
+      "ja": "背中"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["body", "thai"],
+    "tags": [
+      "body",
+      "thai"
+    ],
     "frequency": 3000,
     "audio": "voice/th/th_body_lang.mp3",
     "tone": 4,
@@ -523,7 +717,10 @@
       {
         "sentence": "หลังของเขาเจ็บหลังนั่งนาน",
         "reading": "lang khong khao jep lang nang nan",
-        "translation": { "en": "His back hurts after sitting for a long time.", "th": "หลังของเขาเจ็บหลังนั่งนาน" },
+        "translation": {
+          "en": "His back hurts after sitting for a long time.",
+          "th": "หลังของเขาเจ็บหลังนั่งนาน"
+        },
         "context": "old_town"
       }
     ],
@@ -535,9 +732,12 @@
         "th": "วิญญาณสูงแข็งแกร่งที่ยืดตัวตรงและไม่เคยงอ"
       },
       "rarity": "common",
-      "habitat": ["temple", "rice_field"]
+      "habitat": [
+        "temple",
+        "rice_field"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_body_kha",
@@ -545,12 +745,19 @@
     "written": "ขา",
     "reading": "khaa",
     "romanization": "khaa",
-    "meaning": { "en": "leg", "th": "ส่วนของร่างกายสำหรับเดิน" },
+    "meaning": {
+      "en": "leg",
+      "th": "ส่วนของร่างกายสำหรับเดิน",
+      "ja": "脚；足"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["body", "thai"],
+    "tags": [
+      "body",
+      "thai"
+    ],
     "frequency": 3800,
     "audio": "voice/th/th_body_kha.mp3",
     "tone": 4,
@@ -559,7 +766,10 @@
       {
         "sentence": "ขาของนักวิ่งแข็งแรงมาก",
         "reading": "khaa khong nak wing khaeng raeng mak",
-        "translation": { "en": "A runner's legs are very strong.", "th": "ขาของนักวิ่งแข็งแรงมาก" },
+        "translation": {
+          "en": "A runner's legs are very strong.",
+          "th": "ขาของนักวิ่งแข็งแรงมาก"
+        },
         "context": "old_town"
       }
     ],
@@ -571,9 +781,12 @@
         "th": "วิญญาณคล่องที่วิ่งแซงโคโตะดามะทุกตัวบนพื้นราบ"
       },
       "rarity": "common",
-      "habitat": ["rice_field", "old_town"]
+      "habitat": [
+        "rice_field",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_body_khao",
@@ -581,12 +794,19 @@
     "written": "เข่า",
     "reading": "khao",
     "romanization": "khao",
-    "meaning": { "en": "knee", "th": "ข้อต่อตรงกลางขา" },
+    "meaning": {
+      "en": "knee",
+      "th": "ข้อต่อตรงกลางขา",
+      "ja": "膝"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["body", "thai"],
+    "tags": [
+      "body",
+      "thai"
+    ],
     "frequency": 1800,
     "audio": "voice/th/th_body_khao.mp3",
     "tone": 1,
@@ -595,7 +815,10 @@
       {
         "sentence": "เข่าเจ็บเวลาขึ้นบันได",
         "reading": "khao jep wela khuen bandai",
-        "translation": { "en": "The knee hurts when climbing stairs.", "th": "เข่าเจ็บตอนขึ้นบันได" },
+        "translation": {
+          "en": "The knee hurts when climbing stairs.",
+          "th": "เข่าเจ็บตอนขึ้นบันได"
+        },
         "context": "temple"
       }
     ],
@@ -607,9 +830,12 @@
         "th": "วิญญาณมีบานพับที่ส่งเสียงพริ้วเมื่องอ"
       },
       "rarity": "common",
-      "habitat": ["temple", "rice_field"]
+      "habitat": [
+        "temple",
+        "rice_field"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_body_thao",
@@ -617,12 +843,19 @@
     "written": "เท้า",
     "reading": "thao",
     "romanization": "thao",
-    "meaning": { "en": "foot", "th": "ส่วนปลายขาสำหรับเดิน" },
+    "meaning": {
+      "en": "foot",
+      "th": "ส่วนปลายขาสำหรับเดิน",
+      "ja": "足（足の甲）"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["body", "thai"],
+    "tags": [
+      "body",
+      "thai"
+    ],
     "frequency": 3200,
     "audio": "voice/th/th_body_thao.mp3",
     "tone": 3,
@@ -631,7 +864,10 @@
       {
         "sentence": "ถอดรองเท้าก่อนเข้าวัด",
         "reading": "thot rong thao kon khao wat",
-        "translation": { "en": "Take off your shoes before entering the temple.", "th": "ถอดรองเท้าก่อนเข้าวัด" },
+        "translation": {
+          "en": "Take off your shoes before entering the temple.",
+          "th": "ถอดรองเท้าก่อนเข้าวัด"
+        },
         "context": "temple"
       }
     ],
@@ -643,9 +879,13 @@
         "th": "วิญญาณที่มั่นคงซึ่งทิ้งรอยเท้าเปล่งแสงไว้ทุกที่ที่เดิน"
       },
       "rarity": "common",
-      "habitat": ["temple", "floating_market", "rice_field"]
+      "habitat": [
+        "temple",
+        "floating_market",
+        "rice_field"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_body_niu_thao",
@@ -653,12 +893,19 @@
     "written": "นิ้วเท้า",
     "reading": "niu thao",
     "romanization": "niu thao",
-    "meaning": { "en": "toe", "th": "นิ้วที่อยู่ที่เท้า" },
+    "meaning": {
+      "en": "toe",
+      "th": "นิ้วที่อยู่ที่เท้า",
+      "ja": "足の指；つま先"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["body", "thai"],
+    "tags": [
+      "body",
+      "thai"
+    ],
     "frequency": 1200,
     "audio": "voice/th/th_body_niuthao.mp3",
     "tone": 3,
@@ -667,7 +914,10 @@
       {
         "sentence": "นิ้วเท้าโดนกระแทกเจ็บมาก",
         "reading": "niu thao don krataep jep mak",
-        "translation": { "en": "The toe got bumped and it hurts a lot.", "th": "นิ้วเท้าโดนกระแทกเจ็บมาก" },
+        "translation": {
+          "en": "The toe got bumped and it hurts a lot.",
+          "th": "นิ้วเท้าโดนกระแทกเจ็บมาก"
+        },
         "context": "old_town"
       }
     ],
@@ -679,9 +929,12 @@
         "th": "วิญญาณจิ๋วที่กระดิกเมื่อจั๊กจี้และซ่อนอยู่ใต้รองเท้าแตะ"
       },
       "rarity": "common",
-      "habitat": ["temple", "floating_market"]
+      "habitat": [
+        "temple",
+        "floating_market"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_body_hua_jai",
@@ -689,12 +942,20 @@
     "written": "หัวใจ",
     "reading": "hua jai",
     "romanization": "hua jai",
-    "meaning": { "en": "heart", "th": "อวัยวะสำคัญที่สูบฉีดเลือด" },
+    "meaning": {
+      "en": "heart",
+      "th": "อวัยวะสำคัญที่สูบฉีดเลือด",
+      "ja": "心臓；心"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["body", "organ", "thai"],
+    "tags": [
+      "body",
+      "organ",
+      "thai"
+    ],
     "frequency": 4000,
     "audio": "voice/th/th_body_huajai.mp3",
     "tone": 4,
@@ -703,7 +964,10 @@
       {
         "sentence": "หัวใจเต้นเร็วเมื่อวิ่ง",
         "reading": "hua jai ten reo muea wing",
-        "translation": { "en": "The heart beats fast when running.", "th": "หัวใจเต้นเร็วเมื่อวิ่ง" },
+        "translation": {
+          "en": "The heart beats fast when running.",
+          "th": "หัวใจเต้นเร็วเมื่อวิ่ง"
+        },
         "context": "rice_field"
       }
     ],
@@ -715,9 +979,13 @@
         "th": "วิญญาณสีแดงเรืองแสงที่เต้นเป็นจังหวะสม่ำเสมอเห็นได้ชัด"
       },
       "rarity": "uncommon",
-      "habitat": ["temple", "rice_field", "old_town"]
+      "habitat": [
+        "temple",
+        "rice_field",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_body_tap",
@@ -725,12 +993,20 @@
     "written": "ตับ",
     "reading": "tap",
     "romanization": "tap",
-    "meaning": { "en": "liver", "th": "อวัยวะภายในสำหรับกรองสารพิษ" },
+    "meaning": {
+      "en": "liver",
+      "th": "อวัยวะภายในสำหรับกรองสารพิษ",
+      "ja": "肝臓"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["body", "organ", "thai"],
+    "tags": [
+      "body",
+      "organ",
+      "thai"
+    ],
     "frequency": 1400,
     "audio": "voice/th/th_body_tap.mp3",
     "tone": 1,
@@ -739,7 +1015,10 @@
       {
         "sentence": "ตับทำหน้าที่กรองสารพิษออกจากเลือด",
         "reading": "tap tham na thi kron san phit ok jak lueat",
-        "translation": { "en": "The liver filters toxins from the blood.", "th": "ตับทำหน้าที่กรองสารพิษออกจากเลือด" },
+        "translation": {
+          "en": "The liver filters toxins from the blood.",
+          "th": "ตับทำหน้าที่กรองสารพิษออกจากเลือด"
+        },
         "context": "temple"
       }
     ],
@@ -751,9 +1030,12 @@
         "th": "วิญญาณสีแดงเข้มที่ชำระทุกสิ่งที่ผ่านอย่างเงียบๆ"
       },
       "rarity": "uncommon",
-      "habitat": ["temple", "old_town"]
+      "habitat": [
+        "temple",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_body_pueat",
@@ -761,12 +1043,20 @@
     "written": "ปอด",
     "reading": "pueat",
     "romanization": "pueat",
-    "meaning": { "en": "lung", "th": "อวัยวะสำหรับหายใจ" },
+    "meaning": {
+      "en": "lung",
+      "th": "อวัยวะสำหรับหายใจ",
+      "ja": "肺"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["body", "organ", "thai"],
+    "tags": [
+      "body",
+      "organ",
+      "thai"
+    ],
     "frequency": 1500,
     "audio": "voice/th/th_body_pueat.mp3",
     "tone": 1,
@@ -775,7 +1065,10 @@
       {
         "sentence": "ปอดขยายตัวเมื่อหายใจเข้า",
         "reading": "pueat khayai tua muea hai jai khao",
-        "translation": { "en": "The lungs expand when breathing in.", "th": "ปอดขยายตัวเมื่อหายใจเข้า" },
+        "translation": {
+          "en": "The lungs expand when breathing in.",
+          "th": "ปอดขยายตัวเมื่อหายใจเข้า"
+        },
         "context": "rice_field"
       }
     ],
@@ -787,9 +1080,12 @@
         "th": "วิญญาณสีชมพูอ่อนที่พองและยุบเหมือนลูกสูบจิ๋ว"
       },
       "rarity": "uncommon",
-      "habitat": ["rice_field", "temple"]
+      "habitat": [
+        "rice_field",
+        "temple"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_body_samong",
@@ -797,12 +1093,20 @@
     "written": "สมอง",
     "reading": "samong",
     "romanization": "samong",
-    "meaning": { "en": "brain", "th": "อวัยวะในกะโหลกศีรษะสำหรับคิด" },
+    "meaning": {
+      "en": "brain",
+      "th": "อวัยวะในกะโหลกศีรษะสำหรับคิด",
+      "ja": "脳"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["body", "organ", "thai"],
+    "tags": [
+      "body",
+      "organ",
+      "thai"
+    ],
     "frequency": 2000,
     "audio": "voice/th/th_body_samong.mp3",
     "tone": 4,
@@ -811,7 +1115,10 @@
       {
         "sentence": "สมองต้องการการพักผ่อนเช่นเดียวกับร่างกาย",
         "reading": "samong tongkan kan phak phon chen diao kap rang kai",
-        "translation": { "en": "The brain needs rest just like the body.", "th": "สมองต้องการการพักผ่อนเช่นเดียวกับร่างกาย" },
+        "translation": {
+          "en": "The brain needs rest just like the body.",
+          "th": "สมองต้องการการพักผ่อนเช่นเดียวกับร่างกาย"
+        },
         "context": "temple"
       }
     ],
@@ -823,9 +1130,12 @@
         "th": "วิญญาณสีเทานวลที่มีรอยพับวกวนและประกายไฟเมื่อแก้ปริศนาได้"
       },
       "rarity": "rare",
-      "habitat": ["temple", "old_town"]
+      "habitat": [
+        "temple",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_body_na",
@@ -833,12 +1143,19 @@
     "written": "หน้า",
     "reading": "na",
     "romanization": "na",
-    "meaning": { "en": "face", "th": "ส่วนหน้าของหัว" },
+    "meaning": {
+      "en": "face",
+      "th": "ส่วนหน้าของหัว",
+      "ja": "顔"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["body", "thai"],
+    "tags": [
+      "body",
+      "thai"
+    ],
     "frequency": 5500,
     "audio": "voice/th/th_body_na.mp3",
     "tone": 2,
@@ -847,7 +1164,10 @@
       {
         "sentence": "หน้าของเธอสวยงามมาก",
         "reading": "na khong thoe suai ngam mak",
-        "translation": { "en": "Her face is very beautiful.", "th": "หน้าของเธอสวยงามมาก" },
+        "translation": {
+          "en": "Her face is very beautiful.",
+          "th": "หน้าของเธอสวยงามมาก"
+        },
         "context": "old_town"
       }
     ],
@@ -859,9 +1179,13 @@
         "th": "วิญญาณคล้ายกระจกที่สีหน้าเปลี่ยนตามผู้ที่มอง"
       },
       "rarity": "common",
-      "habitat": ["old_town", "temple", "floating_market"]
+      "habitat": [
+        "old_town",
+        "temple",
+        "floating_market"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_body_na_phak",
@@ -869,12 +1193,19 @@
     "written": "หน้าผาก",
     "reading": "na phak",
     "romanization": "na phak",
-    "meaning": { "en": "forehead", "th": "ส่วนบนของหน้าเหนือคิ้ว" },
+    "meaning": {
+      "en": "forehead",
+      "th": "ส่วนบนของหน้าเหนือคิ้ว",
+      "ja": "額；おでこ"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["body", "thai"],
+    "tags": [
+      "body",
+      "thai"
+    ],
     "frequency": 1600,
     "audio": "voice/th/th_body_naphak.mp3",
     "tone": 2,
@@ -883,7 +1214,10 @@
       {
         "sentence": "แม่วางมือที่หน้าผากเพื่อเช็คไข้",
         "reading": "mae wang mue thi na phak phue chek khai",
-        "translation": { "en": "Mom placed her hand on the forehead to check for fever.", "th": "แม่วางมือที่หน้าผากเพื่อเช็คไข้" },
+        "translation": {
+          "en": "Mom placed her hand on the forehead to check for fever.",
+          "th": "แม่วางมือที่หน้าผากเพื่อเช็คไข้"
+        },
         "context": "old_town"
       }
     ],
@@ -895,8 +1229,11 @@
         "th": "วิญญาณกว้างเรียบที่เปล่งแสงอบอุ่นเมื่อทุกอย่างปกติดี"
       },
       "rarity": "common",
-      "habitat": ["temple", "old_town"]
+      "habitat": [
+        "temple",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   }
 ]

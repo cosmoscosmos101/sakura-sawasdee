@@ -1,22 +1,1013 @@
 [
-  {"id":"th_num_sun","lang":"th","written":"ศูนย์","reading":"sun","romanization":"sun","meaning":{"en":"zero","th":"เลขศูนย์ (0)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["number","math","daily"],"frequency":7000,"audio":"voice/th/th_num_sun.mp3","tone":4,"toneRule":"ศ (high class) + no mark + live syllable → rising tone","examples":[{"sentence":"อุณหภูมิวันนี้เป็นศูนย์องศา","reading":"unhaphum wan ni pen sun ongsa","translation":{"en":"The temperature today is zero degrees.","th":"อุณหภูมิวันนี้อยู่ที่ศูนย์องศา"},"context":"school"}],"kotodama":{"name":"Sunvoid","sprite":"kotodama/th_num_sun.png","description":{"en":"A circular spark with an empty center — full of potential.","th":"ประกายวงกลมที่มีศูนย์กลางว่างเปล่า เต็มไปด้วยศักยภาพ"},"rarity":"uncommon","habitat":["school","temple"]},"needsReview":true},
-  {"id":"th_num_nueng","lang":"th","written":"หนึ่ง","reading":"nueng","romanization":"nueng","meaning":{"en":"one","th":"เลขหนึ่ง (1)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["number","math","daily"],"frequency":9999,"audio":"voice/th/th_num_nueng.mp3","tone":1,"toneRule":"ห (high class) + no mark + live syllable → rising; but หนึ่ง = nueng with low tone (irregular), approx low","examples":[{"sentence":"ขอกล้วยหนึ่งลูกครับ","reading":"kho kluai nueng luk khrap","translation":{"en":"May I have one banana?","th":"ขอกล้วยหนึ่งลูกครับ"},"context":"fresh_market"}],"kotodama":{"name":"Nuengfirst","sprite":"kotodama/th_num_nueng.png","description":{"en":"A solitary spark that always leads, never following.","th":"ประกายโดดเดี่ยวที่นำเสมอ ไม่เคยตาม"},"rarity":"common","habitat":["school","fresh_market","temple"]},"needsReview":true},
-  {"id":"th_num_song","lang":"th","written":"สอง","reading":"song","romanization":"song","meaning":{"en":"two","th":"เลขสอง (2)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["number","math","daily"],"frequency":9800,"audio":"voice/th/th_num_song.mp3","tone":4,"toneRule":"ส (high class) + no mark + live syllable → rising tone","examples":[{"sentence":"ฉันมีพี่น้องสองคน","reading":"chan mi phi nong song khon","translation":{"en":"I have two siblings.","th":"ฉันมีพี่น้องสองคน"},"context":"school"}],"kotodama":{"name":"Songtwin","sprite":"kotodama/th_num_song.png","description":{"en":"A spark that always travels in pairs, reflected like a mirror.","th":"ประกายที่เดินทางเป็นคู่เสมอ สะท้อนกันเหมือนกระจก"},"rarity":"common","habitat":["school","fresh_market","temple"]},"needsReview":true},
-  {"id":"th_num_saam","lang":"th","written":"สาม","reading":"saam","romanization":"saam","meaning":{"en":"three","th":"เลขสาม (3)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["number","math","daily"],"frequency":9500,"audio":"voice/th/th_num_saam.mp3","tone":4,"toneRule":"ส (high class) + no mark + live syllable → rising tone","examples":[{"sentence":"ร้านเปิดสามโมงเช้า","reading":"ran poet saam mong chao","translation":{"en":"The shop opens at 9 AM (three o'clock morning).","th":"ร้านเปิดตั้งแต่สามโมงเช้า"},"context":"fresh_market"}],"kotodama":{"name":"Saamtri","sprite":"kotodama/th_num_saam.png","description":{"en":"A spark with three orbiting points, circling each other endlessly.","th":"ประกายมีสามจุดโคจรรอบกันอย่างไม่สิ้นสุด"},"rarity":"common","habitat":["temple","fresh_market","school"]},"needsReview":true},
-  {"id":"th_num_si","lang":"th","written":"สี่","reading":"si","romanization":"si","meaning":{"en":"four","th":"เลขสี่ (4)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["number","math","daily"],"frequency":9300,"audio":"voice/th/th_num_si.mp3","tone":1,"toneRule":"ส (high class) + mai ek (่) → low tone","examples":[{"sentence":"มีสี่มุมในห้อง","reading":"mi si mum nai hong","translation":{"en":"There are four corners in the room.","th":"มีสี่มุมในห้อง"},"context":"school"}],"kotodama":{"name":"Sisquare","sprite":"kotodama/th_num_si.png","description":{"en":"A square spark with four even corners, stable and balanced.","th":"ประกายสี่เหลี่ยมมีสี่มุมเท่ากัน มั่นคงและสมดุล"},"rarity":"common","habitat":["school","temple"]},"needsReview":true},
-  {"id":"th_num_haa","lang":"th","written":"ห้า","reading":"haa","romanization":"haa","meaning":{"en":"five","th":"เลขห้า (5)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["number","math","daily"],"frequency":9300,"audio":"voice/th/th_num_haa.mp3","tone":3,"toneRule":"ห (high class) + mai tho (้) → high tone? but ห้า = falling (mai tho on high class = falling)","examples":[{"sentence":"ราคาห้าสิบบาทครับ","reading":"raakhaa haa sip baat khrap","translation":{"en":"The price is fifty baht.","th":"ราคาห้าสิบบาทครับ"},"context":"fresh_market"}],"kotodama":{"name":"Haafive","sprite":"kotodama/th_num_haa.png","description":{"en":"A star-shaped spark with five points, each a different color.","th":"ประกายรูปดาวห้าแฉก แต่ละแฉกสีต่างกัน"},"rarity":"common","habitat":["fresh_market","floating_market","school"]},"needsReview":true},
-  {"id":"th_num_hok","lang":"th","written":"หก","reading":"hok","romanization":"hok","meaning":{"en":"six","th":"เลขหก (6)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["number","math","daily"],"frequency":9000,"audio":"voice/th/th_num_hok.mp3","tone":1,"toneRule":"ห (high class) + no mark + dead short → low tone","examples":[{"sentence":"ฉันมาถึงหกโมงเย็น","reading":"chan maa thueng hok mong yen","translation":{"en":"I arrived at 6 PM.","th":"ฉันมาถึงตอนหกโมงเย็น"},"context":"pier"}],"kotodama":{"name":"Hokhex","sprite":"kotodama/th_num_hok.png","description":{"en":"A hexagonal spark with buzzing, honeycomb energy.","th":"ประกายหกเหลี่ยมที่ส่งพลังงานแบบรังผึ้ง"},"rarity":"common","habitat":["pier","fresh_market","temple"]},"needsReview":true},
-  {"id":"th_num_chet","lang":"th","written":"เจ็ด","reading":"chet","romanization":"chet","meaning":{"en":"seven","th":"เลขเจ็ด (7)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["number","math","daily"],"frequency":9000,"audio":"voice/th/th_num_chet.mp3","tone":1,"toneRule":"จ (mid class) + no mark + dead short → low tone","examples":[{"sentence":"อาทิตย์มีเจ็ดวัน","reading":"aathit mi chet wan","translation":{"en":"A week has seven days.","th":"หนึ่งสัปดาห์มีเจ็ดวัน"},"context":"school"}],"kotodama":{"name":"Chetlucky","sprite":"kotodama/th_num_chet.png","description":{"en":"A seven-pointed spark considered lucky in many traditions.","th":"ประกายเจ็ดแฉกที่ถือว่าเป็นมงคลในหลายประเพณี"},"rarity":"uncommon","habitat":["temple","school"]},"needsReview":true},
-  {"id":"th_num_paet","lang":"th","written":"แปด","reading":"paet","romanization":"paet","meaning":{"en":"eight","th":"เลขแปด (8)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["number","math","daily"],"frequency":9000,"audio":"voice/th/th_num_paet.mp3","tone":1,"toneRule":"ป (mid class) + no mark + dead short → low tone","examples":[{"sentence":"ร้านปิดแปดโมงเย็น","reading":"ran pit paet mong yen","translation":{"en":"The shop closes at 8 PM.","th":"ร้านปิดเวลาแปดโมงเย็น"},"context":"fresh_market"}],"kotodama":{"name":"Paetloop","sprite":"kotodama/th_num_paet.png","description":{"en":"A figure-eight spark looping endlessly on itself.","th":"ประกายรูปเลขแปดที่วนซ้ำตัวเองอย่างไม่สิ้นสุด"},"rarity":"common","habitat":["fresh_market","floating_market","school"]},"needsReview":true},
-  {"id":"th_num_kao","lang":"th","written":"เก้า","reading":"kao","romanization":"kao","meaning":{"en":"nine","th":"เลขเก้า (9)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["number","math","daily"],"frequency":9000,"audio":"voice/th/th_num_kao.mp3","tone":3,"toneRule":"ก (mid class) + mai tho (้) → high tone? ก + เ–า + mai tho: mid class + mai tho → high","examples":[{"sentence":"คะแนนของเธอได้เก้าสิบ","reading":"khanaen khong thoe dai kao sip","translation":{"en":"Her score is ninety.","th":"คะแนนของเธอได้เก้าสิบคะแนน"},"context":"school"}],"kotodama":{"name":"Kaonine","sprite":"kotodama/th_num_kao.png","description":{"en":"A spiral spark that loops nine times before resting.","th":"ประกายเกลียวที่วนเก้ารอบก่อนหยุดพัก"},"rarity":"common","habitat":["school","temple"]},"needsReview":true},
-  {"id":"th_num_sip","lang":"th","written":"สิบ","reading":"sip","romanization":"sip","meaning":{"en":"ten","th":"เลขสิบ (10)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["number","math","daily"],"frequency":9500,"audio":"voice/th/th_num_sip.mp3","tone":1,"toneRule":"ส (high class) + no mark + dead short → low tone","examples":[{"sentence":"ผมมีเงินสิบบาท","reading":"phom mi ngoen sip baat","translation":{"en":"I have ten baht.","th":"ผมมีเงินสิบบาท"},"context":"fresh_market"}],"kotodama":{"name":"Siptenth","sprite":"kotodama/th_num_sip.png","description":{"en":"A ten-spark cluster that always forms a perfect row.","th":"กลุ่มประกายสิบที่เรียงแถวสมบูรณ์เสมอ"},"rarity":"common","habitat":["fresh_market","school","floating_market"]},"needsReview":true},
-  {"id":"th_num_yisip","lang":"th","written":"ยี่สิบ","reading":"yi sip","romanization":"yi sip","meaning":{"en":"twenty","th":"เลขยี่สิบ (20)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["number","math","daily"],"frequency":9000,"audio":"voice/th/th_num_yisip.mp3","tone":2,"toneRule":"ยี่ (ย low + mai ek → falling); สิบ (ส high + dead short → low)","examples":[{"sentence":"ราคายี่สิบบาทถ้วน","reading":"raakhaa yi sip baat thuon","translation":{"en":"The price is exactly twenty baht.","th":"ราคาพอดียี่สิบบาทถ้วน"},"context":"fresh_market"}],"kotodama":{"name":"Yisiptwenty","sprite":"kotodama/th_num_yisip.png","description":{"en":"A double-sided spark where each side holds a ten.","th":"ประกายสองด้านที่แต่ละด้านถือสิบ"},"rarity":"common","habitat":["fresh_market","floating_market","bargaining"]},"needsReview":true},
-  {"id":"th_num_saamsip","lang":"th","written":"สามสิบ","reading":"saam sip","romanization":"saam sip","meaning":{"en":"thirty","th":"เลขสามสิบ (30)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["number","math","daily"],"frequency":8500,"audio":"voice/th/th_num_saamsip.mp3","tone":4,"toneRule":"สาม (ส high + live → rising); สิบ (ส high + dead short → low)","examples":[{"sentence":"ต้องรอสามสิบนาที","reading":"tong ro saam sip naathi","translation":{"en":"You have to wait thirty minutes.","th":"ต้องรอสักสามสิบนาที"},"context":"pier"}],"kotodama":{"name":"Saamsipthirty","sprite":"kotodama/th_num_saamsip.png","description":{"en":"A determined spark that waits patiently for its moment.","th":"ประกายมุ่งมั่นที่รออย่างอดทนจนถึงเวลาของตัว"},"rarity":"common","habitat":["pier","fresh_market","school"]},"needsReview":true},
-  {"id":"th_num_roi","lang":"th","written":"ร้อย","reading":"roi","romanization":"roi","meaning":{"en":"hundred","th":"ร้อย (100)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["number","math","market"],"frequency":9000,"audio":"voice/th/th_num_roi.mp3","tone":3,"toneRule":"ร (low class) + mai tho (้) → high tone","examples":[{"sentence":"มีร้อยคนมางานวัด","reading":"mi roi khon maa ngaan wat","translation":{"en":"A hundred people came to the temple fair.","th":"มีคนมาร้อยคนในงานวัด"},"context":"temple"}],"kotodama":{"name":"Roihundred","sprite":"kotodama/th_num_roi.png","description":{"en":"A hundred tiny sparks orbiting a central point.","th":"ประกายเล็กร้อยตัวโคจรรอบจุดศูนย์กลาง"},"rarity":"uncommon","habitat":["fresh_market","floating_market","temple"]},"needsReview":true},
-  {"id":"th_num_phan","lang":"th","written":"พัน","reading":"phan","romanization":"phan","meaning":{"en":"thousand","th":"พัน (1,000)"},"pos":"noun","element":"bloom","level":"A2","chapter":10,"tags":["number","math","market"],"frequency":8500,"audio":"voice/th/th_num_phan.mp3","tone":0,"toneRule":"พ (low class) + no mark + live syllable → mid tone","examples":[{"sentence":"นาฬิกาเรือนนี้ราคาสองพันบาท","reading":"naaligaa ruean ni raakhaa song phan baat","translation":{"en":"This watch costs two thousand baht.","th":"นาฬิกาเรือนนี้ราคาสองพันบาท"},"context":"floating_market"}],"kotodama":{"name":"Phanthousand","sprite":"kotodama/th_num_phan.png","description":{"en":"A large imposing spark that dwarfs all others.","th":"ประกายใหญ่โอ่อ่าที่ทำให้ตัวอื่นดูเล็กลง"},"rarity":"uncommon","habitat":["floating_market","fresh_market"]},"needsReview":true},
-  {"id":"th_num_muen","lang":"th","written":"หมื่น","reading":"muen","romanization":"muen","meaning":{"en":"ten thousand","th":"หมื่น (10,000)"},"pos":"noun","element":"bloom","level":"B1","chapter":10,"tags":["number","math","market"],"frequency":6000,"audio":"voice/th/th_num_muen.mp3","tone":1,"toneRule":"ห (high class) + mai ek (่) → low tone... หมื่น has mai ek → low","examples":[{"sentence":"ราคาสินค้าชิ้นนี้หมื่นบาท","reading":"raakhaa singkhaa chin ni muen baat","translation":{"en":"This item costs ten thousand baht.","th":"ราคาสินค้าชิ้นนี้หมื่นบาท"},"context":"floating_market"}],"kotodama":{"name":"Muenbig","sprite":"kotodama/th_num_muen.png","description":{"en":"A massive spark rarely seen — its glow reaches far.","th":"ประกายขนาดใหญ่ที่พบได้ยาก แสงส่องถึงได้ไกล"},"rarity":"rare","habitat":["floating_market"]},"needsReview":true},
-  {"id":"th_num_lan","lang":"th","written":"ล้าน","reading":"laan","romanization":"laan","meaning":{"en":"million","th":"ล้าน (1,000,000)"},"pos":"noun","element":"bloom","level":"B1","chapter":10,"tags":["number","math","large"],"frequency":5000,"audio":"voice/th/th_num_lan.mp3","tone":3,"toneRule":"ล (low class) + mai tho (้) → high tone","examples":[{"sentence":"กรุงเทพมีคนหลายล้านคน","reading":"krungthep mi khon lai laan khon","translation":{"en":"Bangkok has millions of people.","th":"กรุงเทพมีประชากรหลายล้านคน"},"context":"school"}],"kotodama":{"name":"Laanmillion","sprite":"kotodama/th_num_lan.png","description":{"en":"A legendary spark said to appear only once in a million encounters.","th":"ประกายในตำนานที่กล่าวกันว่าพบได้เพียงล้านครั้งในหนึ่ง"},"rarity":"rare","habitat":["temple","school"]},"needsReview":true},
-  {"id":"th_num_khrueng","lang":"th","written":"ครึ่ง","reading":"khrueng","romanization":"khrueng","meaning":{"en":"half","th":"ครึ่ง (หนึ่งในสอง)"},"pos":"noun","element":"bloom","level":"A2","chapter":10,"tags":["number","fraction","daily"],"frequency":8000,"audio":"voice/th/th_num_khrueng.mp3","tone":2,"toneRule":"ค (low class) + no mark + dead short → falling... ครึ่ง approx falling","examples":[{"sentence":"กินไปครึ่งหนึ่งแล้ว","reading":"gin pai khrueng nueng laeo","translation":{"en":"I've eaten half of it already.","th":"กินไปครึ่งหนึ่งแล้ว"},"context":"fresh_market"}],"kotodama":{"name":"Khruenghalf","sprite":"kotodama/th_num_khrueng.png","description":{"en":"A spark divided exactly down the middle — each side a different color.","th":"ประกายที่แบ่งครึ่งกลางพอดี แต่ละด้านสีต่างกัน"},"rarity":"common","habitat":["fresh_market","floating_market","school"]},"needsReview":true},
-  {"id":"th_num_khu","lang":"th","written":"คู่","reading":"khu","romanization":"khu","meaning":{"en":"pair; even number","th":"คู่ (เลขคู่; สองสิ่งที่เป็นคู่กัน)"},"pos":"noun","element":"bloom","level":"A2","chapter":10,"tags":["number","pair","daily"],"frequency":7000,"audio":"voice/th/th_num_khu.mp3","tone":2,"toneRule":"ค (low class) + mai ek (่) → falling tone","examples":[{"sentence":"ตัวเลขคู่ได้แก่ สอง สี่ หก","reading":"tua lek khu dai kae song si hok","translation":{"en":"Even numbers include two, four, six.","th":"ตัวเลขคู่ได้แก่ สอง สี่ หก"},"context":"school"}],"kotodama":{"name":"Khupair","sprite":"kotodama/th_num_khu.png","description":{"en":"A spark that always appears in matching pairs.","th":"ประกายที่ปรากฏเป็นคู่ที่เหมือนกันเสมอ"},"rarity":"common","habitat":["school","temple","floating_market"]},"needsReview":true},
-  {"id":"th_num_ki","lang":"th","written":"คี่","reading":"ki","romanization":"ki","meaning":{"en":"odd number","th":"คี่ (เลขคี่)"},"pos":"noun","element":"bloom","level":"A2","chapter":10,"tags":["number","math","daily"],"frequency":5000,"audio":"voice/th/th_num_ki.mp3","tone":2,"toneRule":"ค (low class) + mai ek (่) → falling tone","examples":[{"sentence":"หนึ่ง สาม ห้า คือเลขคี่","reading":"nueng saam haa khue lek ki","translation":{"en":"One, three, five are odd numbers.","th":"หนึ่ง สาม ห้า เป็นเลขคี่"},"context":"school"}],"kotodama":{"name":"Kiodd","sprite":"kotodama/th_num_ki.png","description":{"en":"A lopsided spark that never quite balances.","th":"ประกายเอียงๆ ที่ไม่เคยสมดุลได้สักที"},"rarity":"uncommon","habitat":["school","temple"]},"needsReview":true}
+  {
+    "id": "th_num_sun",
+    "lang": "th",
+    "written": "ศูนย์",
+    "reading": "sun",
+    "romanization": "sun",
+    "meaning": {
+      "en": "zero",
+      "th": "เลขศูนย์ (0)",
+      "ja": "ゼロ；零"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "number",
+      "math",
+      "daily"
+    ],
+    "frequency": 7000,
+    "audio": "voice/th/th_num_sun.mp3",
+    "tone": 4,
+    "toneRule": "ศ (high class) + no mark + live syllable → rising tone",
+    "examples": [
+      {
+        "sentence": "อุณหภูมิวันนี้เป็นศูนย์องศา",
+        "reading": "unhaphum wan ni pen sun ongsa",
+        "translation": {
+          "en": "The temperature today is zero degrees.",
+          "th": "อุณหภูมิวันนี้อยู่ที่ศูนย์องศา"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Sunvoid",
+      "sprite": "kotodama/th_num_sun.png",
+      "description": {
+        "en": "A circular spark with an empty center — full of potential.",
+        "th": "ประกายวงกลมที่มีศูนย์กลางว่างเปล่า เต็มไปด้วยศักยภาพ"
+      },
+      "rarity": "uncommon",
+      "habitat": [
+        "school",
+        "temple"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_num_nueng",
+    "lang": "th",
+    "written": "หนึ่ง",
+    "reading": "nueng",
+    "romanization": "nueng",
+    "meaning": {
+      "en": "one",
+      "th": "เลขหนึ่ง (1)",
+      "ja": "一；1"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "number",
+      "math",
+      "daily"
+    ],
+    "frequency": 9999,
+    "audio": "voice/th/th_num_nueng.mp3",
+    "tone": 1,
+    "toneRule": "ห (high class) + no mark + live syllable → rising; but หนึ่ง = nueng with low tone (irregular), approx low",
+    "examples": [
+      {
+        "sentence": "ขอกล้วยหนึ่งลูกครับ",
+        "reading": "kho kluai nueng luk khrap",
+        "translation": {
+          "en": "May I have one banana?",
+          "th": "ขอกล้วยหนึ่งลูกครับ"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Nuengfirst",
+      "sprite": "kotodama/th_num_nueng.png",
+      "description": {
+        "en": "A solitary spark that always leads, never following.",
+        "th": "ประกายโดดเดี่ยวที่นำเสมอ ไม่เคยตาม"
+      },
+      "rarity": "common",
+      "habitat": [
+        "school",
+        "fresh_market",
+        "temple"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_num_song",
+    "lang": "th",
+    "written": "สอง",
+    "reading": "song",
+    "romanization": "song",
+    "meaning": {
+      "en": "two",
+      "th": "เลขสอง (2)",
+      "ja": "二；2"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "number",
+      "math",
+      "daily"
+    ],
+    "frequency": 9800,
+    "audio": "voice/th/th_num_song.mp3",
+    "tone": 4,
+    "toneRule": "ส (high class) + no mark + live syllable → rising tone",
+    "examples": [
+      {
+        "sentence": "ฉันมีพี่น้องสองคน",
+        "reading": "chan mi phi nong song khon",
+        "translation": {
+          "en": "I have two siblings.",
+          "th": "ฉันมีพี่น้องสองคน"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Songtwin",
+      "sprite": "kotodama/th_num_song.png",
+      "description": {
+        "en": "A spark that always travels in pairs, reflected like a mirror.",
+        "th": "ประกายที่เดินทางเป็นคู่เสมอ สะท้อนกันเหมือนกระจก"
+      },
+      "rarity": "common",
+      "habitat": [
+        "school",
+        "fresh_market",
+        "temple"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_num_saam",
+    "lang": "th",
+    "written": "สาม",
+    "reading": "saam",
+    "romanization": "saam",
+    "meaning": {
+      "en": "three",
+      "th": "เลขสาม (3)",
+      "ja": "三；3"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "number",
+      "math",
+      "daily"
+    ],
+    "frequency": 9500,
+    "audio": "voice/th/th_num_saam.mp3",
+    "tone": 4,
+    "toneRule": "ส (high class) + no mark + live syllable → rising tone",
+    "examples": [
+      {
+        "sentence": "ร้านเปิดสามโมงเช้า",
+        "reading": "ran poet saam mong chao",
+        "translation": {
+          "en": "The shop opens at 9 AM (three o'clock morning).",
+          "th": "ร้านเปิดตั้งแต่สามโมงเช้า"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Saamtri",
+      "sprite": "kotodama/th_num_saam.png",
+      "description": {
+        "en": "A spark with three orbiting points, circling each other endlessly.",
+        "th": "ประกายมีสามจุดโคจรรอบกันอย่างไม่สิ้นสุด"
+      },
+      "rarity": "common",
+      "habitat": [
+        "temple",
+        "fresh_market",
+        "school"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_num_si",
+    "lang": "th",
+    "written": "สี่",
+    "reading": "si",
+    "romanization": "si",
+    "meaning": {
+      "en": "four",
+      "th": "เลขสี่ (4)",
+      "ja": "四；4"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "number",
+      "math",
+      "daily"
+    ],
+    "frequency": 9300,
+    "audio": "voice/th/th_num_si.mp3",
+    "tone": 1,
+    "toneRule": "ส (high class) + mai ek (่) → low tone",
+    "examples": [
+      {
+        "sentence": "มีสี่มุมในห้อง",
+        "reading": "mi si mum nai hong",
+        "translation": {
+          "en": "There are four corners in the room.",
+          "th": "มีสี่มุมในห้อง"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Sisquare",
+      "sprite": "kotodama/th_num_si.png",
+      "description": {
+        "en": "A square spark with four even corners, stable and balanced.",
+        "th": "ประกายสี่เหลี่ยมมีสี่มุมเท่ากัน มั่นคงและสมดุล"
+      },
+      "rarity": "common",
+      "habitat": [
+        "school",
+        "temple"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_num_haa",
+    "lang": "th",
+    "written": "ห้า",
+    "reading": "haa",
+    "romanization": "haa",
+    "meaning": {
+      "en": "five",
+      "th": "เลขห้า (5)",
+      "ja": "五；5"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "number",
+      "math",
+      "daily"
+    ],
+    "frequency": 9300,
+    "audio": "voice/th/th_num_haa.mp3",
+    "tone": 3,
+    "toneRule": "ห (high class) + mai tho (้) → high tone? but ห้า = falling (mai tho on high class = falling)",
+    "examples": [
+      {
+        "sentence": "ราคาห้าสิบบาทครับ",
+        "reading": "raakhaa haa sip baat khrap",
+        "translation": {
+          "en": "The price is fifty baht.",
+          "th": "ราคาห้าสิบบาทครับ"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Haafive",
+      "sprite": "kotodama/th_num_haa.png",
+      "description": {
+        "en": "A star-shaped spark with five points, each a different color.",
+        "th": "ประกายรูปดาวห้าแฉก แต่ละแฉกสีต่างกัน"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "floating_market",
+        "school"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_num_hok",
+    "lang": "th",
+    "written": "หก",
+    "reading": "hok",
+    "romanization": "hok",
+    "meaning": {
+      "en": "six",
+      "th": "เลขหก (6)",
+      "ja": "六；6"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "number",
+      "math",
+      "daily"
+    ],
+    "frequency": 9000,
+    "audio": "voice/th/th_num_hok.mp3",
+    "tone": 1,
+    "toneRule": "ห (high class) + no mark + dead short → low tone",
+    "examples": [
+      {
+        "sentence": "ฉันมาถึงหกโมงเย็น",
+        "reading": "chan maa thueng hok mong yen",
+        "translation": {
+          "en": "I arrived at 6 PM.",
+          "th": "ฉันมาถึงตอนหกโมงเย็น"
+        },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Hokhex",
+      "sprite": "kotodama/th_num_hok.png",
+      "description": {
+        "en": "A hexagonal spark with buzzing, honeycomb energy.",
+        "th": "ประกายหกเหลี่ยมที่ส่งพลังงานแบบรังผึ้ง"
+      },
+      "rarity": "common",
+      "habitat": [
+        "pier",
+        "fresh_market",
+        "temple"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_num_chet",
+    "lang": "th",
+    "written": "เจ็ด",
+    "reading": "chet",
+    "romanization": "chet",
+    "meaning": {
+      "en": "seven",
+      "th": "เลขเจ็ด (7)",
+      "ja": "七；7"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "number",
+      "math",
+      "daily"
+    ],
+    "frequency": 9000,
+    "audio": "voice/th/th_num_chet.mp3",
+    "tone": 1,
+    "toneRule": "จ (mid class) + no mark + dead short → low tone",
+    "examples": [
+      {
+        "sentence": "อาทิตย์มีเจ็ดวัน",
+        "reading": "aathit mi chet wan",
+        "translation": {
+          "en": "A week has seven days.",
+          "th": "หนึ่งสัปดาห์มีเจ็ดวัน"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Chetlucky",
+      "sprite": "kotodama/th_num_chet.png",
+      "description": {
+        "en": "A seven-pointed spark considered lucky in many traditions.",
+        "th": "ประกายเจ็ดแฉกที่ถือว่าเป็นมงคลในหลายประเพณี"
+      },
+      "rarity": "uncommon",
+      "habitat": [
+        "temple",
+        "school"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_num_paet",
+    "lang": "th",
+    "written": "แปด",
+    "reading": "paet",
+    "romanization": "paet",
+    "meaning": {
+      "en": "eight",
+      "th": "เลขแปด (8)",
+      "ja": "八；8"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "number",
+      "math",
+      "daily"
+    ],
+    "frequency": 9000,
+    "audio": "voice/th/th_num_paet.mp3",
+    "tone": 1,
+    "toneRule": "ป (mid class) + no mark + dead short → low tone",
+    "examples": [
+      {
+        "sentence": "ร้านปิดแปดโมงเย็น",
+        "reading": "ran pit paet mong yen",
+        "translation": {
+          "en": "The shop closes at 8 PM.",
+          "th": "ร้านปิดเวลาแปดโมงเย็น"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Paetloop",
+      "sprite": "kotodama/th_num_paet.png",
+      "description": {
+        "en": "A figure-eight spark looping endlessly on itself.",
+        "th": "ประกายรูปเลขแปดที่วนซ้ำตัวเองอย่างไม่สิ้นสุด"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "floating_market",
+        "school"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_num_kao",
+    "lang": "th",
+    "written": "เก้า",
+    "reading": "kao",
+    "romanization": "kao",
+    "meaning": {
+      "en": "nine",
+      "th": "เลขเก้า (9)",
+      "ja": "九；9"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "number",
+      "math",
+      "daily"
+    ],
+    "frequency": 9000,
+    "audio": "voice/th/th_num_kao.mp3",
+    "tone": 3,
+    "toneRule": "ก (mid class) + mai tho (้) → high tone? ก + เ–า + mai tho: mid class + mai tho → high",
+    "examples": [
+      {
+        "sentence": "คะแนนของเธอได้เก้าสิบ",
+        "reading": "khanaen khong thoe dai kao sip",
+        "translation": {
+          "en": "Her score is ninety.",
+          "th": "คะแนนของเธอได้เก้าสิบคะแนน"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Kaonine",
+      "sprite": "kotodama/th_num_kao.png",
+      "description": {
+        "en": "A spiral spark that loops nine times before resting.",
+        "th": "ประกายเกลียวที่วนเก้ารอบก่อนหยุดพัก"
+      },
+      "rarity": "common",
+      "habitat": [
+        "school",
+        "temple"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_num_sip",
+    "lang": "th",
+    "written": "สิบ",
+    "reading": "sip",
+    "romanization": "sip",
+    "meaning": {
+      "en": "ten",
+      "th": "เลขสิบ (10)",
+      "ja": "十；10"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "number",
+      "math",
+      "daily"
+    ],
+    "frequency": 9500,
+    "audio": "voice/th/th_num_sip.mp3",
+    "tone": 1,
+    "toneRule": "ส (high class) + no mark + dead short → low tone",
+    "examples": [
+      {
+        "sentence": "ผมมีเงินสิบบาท",
+        "reading": "phom mi ngoen sip baat",
+        "translation": {
+          "en": "I have ten baht.",
+          "th": "ผมมีเงินสิบบาท"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Siptenth",
+      "sprite": "kotodama/th_num_sip.png",
+      "description": {
+        "en": "A ten-spark cluster that always forms a perfect row.",
+        "th": "กลุ่มประกายสิบที่เรียงแถวสมบูรณ์เสมอ"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "school",
+        "floating_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_num_yisip",
+    "lang": "th",
+    "written": "ยี่สิบ",
+    "reading": "yi sip",
+    "romanization": "yi sip",
+    "meaning": {
+      "en": "twenty",
+      "th": "เลขยี่สิบ (20)",
+      "ja": "二十；20"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "number",
+      "math",
+      "daily"
+    ],
+    "frequency": 9000,
+    "audio": "voice/th/th_num_yisip.mp3",
+    "tone": 2,
+    "toneRule": "ยี่ (ย low + mai ek → falling); สิบ (ส high + dead short → low)",
+    "examples": [
+      {
+        "sentence": "ราคายี่สิบบาทถ้วน",
+        "reading": "raakhaa yi sip baat thuon",
+        "translation": {
+          "en": "The price is exactly twenty baht.",
+          "th": "ราคาพอดียี่สิบบาทถ้วน"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Yisiptwenty",
+      "sprite": "kotodama/th_num_yisip.png",
+      "description": {
+        "en": "A double-sided spark where each side holds a ten.",
+        "th": "ประกายสองด้านที่แต่ละด้านถือสิบ"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "floating_market",
+        "bargaining"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_num_saamsip",
+    "lang": "th",
+    "written": "สามสิบ",
+    "reading": "saam sip",
+    "romanization": "saam sip",
+    "meaning": {
+      "en": "thirty",
+      "th": "เลขสามสิบ (30)",
+      "ja": "三十；30"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "number",
+      "math",
+      "daily"
+    ],
+    "frequency": 8500,
+    "audio": "voice/th/th_num_saamsip.mp3",
+    "tone": 4,
+    "toneRule": "สาม (ส high + live → rising); สิบ (ส high + dead short → low)",
+    "examples": [
+      {
+        "sentence": "ต้องรอสามสิบนาที",
+        "reading": "tong ro saam sip naathi",
+        "translation": {
+          "en": "You have to wait thirty minutes.",
+          "th": "ต้องรอสักสามสิบนาที"
+        },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Saamsipthirty",
+      "sprite": "kotodama/th_num_saamsip.png",
+      "description": {
+        "en": "A determined spark that waits patiently for its moment.",
+        "th": "ประกายมุ่งมั่นที่รออย่างอดทนจนถึงเวลาของตัว"
+      },
+      "rarity": "common",
+      "habitat": [
+        "pier",
+        "fresh_market",
+        "school"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_num_roi",
+    "lang": "th",
+    "written": "ร้อย",
+    "reading": "roi",
+    "romanization": "roi",
+    "meaning": {
+      "en": "hundred",
+      "th": "ร้อย (100)",
+      "ja": "百；100"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "number",
+      "math",
+      "market"
+    ],
+    "frequency": 9000,
+    "audio": "voice/th/th_num_roi.mp3",
+    "tone": 3,
+    "toneRule": "ร (low class) + mai tho (้) → high tone",
+    "examples": [
+      {
+        "sentence": "มีร้อยคนมางานวัด",
+        "reading": "mi roi khon maa ngaan wat",
+        "translation": {
+          "en": "A hundred people came to the temple fair.",
+          "th": "มีคนมาร้อยคนในงานวัด"
+        },
+        "context": "temple"
+      }
+    ],
+    "kotodama": {
+      "name": "Roihundred",
+      "sprite": "kotodama/th_num_roi.png",
+      "description": {
+        "en": "A hundred tiny sparks orbiting a central point.",
+        "th": "ประกายเล็กร้อยตัวโคจรรอบจุดศูนย์กลาง"
+      },
+      "rarity": "uncommon",
+      "habitat": [
+        "fresh_market",
+        "floating_market",
+        "temple"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_num_phan",
+    "lang": "th",
+    "written": "พัน",
+    "reading": "phan",
+    "romanization": "phan",
+    "meaning": {
+      "en": "thousand",
+      "th": "พัน (1,000)",
+      "ja": "千；1,000"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A2",
+    "chapter": 10,
+    "tags": [
+      "number",
+      "math",
+      "market"
+    ],
+    "frequency": 8500,
+    "audio": "voice/th/th_num_phan.mp3",
+    "tone": 0,
+    "toneRule": "พ (low class) + no mark + live syllable → mid tone",
+    "examples": [
+      {
+        "sentence": "นาฬิกาเรือนนี้ราคาสองพันบาท",
+        "reading": "naaligaa ruean ni raakhaa song phan baat",
+        "translation": {
+          "en": "This watch costs two thousand baht.",
+          "th": "นาฬิกาเรือนนี้ราคาสองพันบาท"
+        },
+        "context": "floating_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Phanthousand",
+      "sprite": "kotodama/th_num_phan.png",
+      "description": {
+        "en": "A large imposing spark that dwarfs all others.",
+        "th": "ประกายใหญ่โอ่อ่าที่ทำให้ตัวอื่นดูเล็กลง"
+      },
+      "rarity": "uncommon",
+      "habitat": [
+        "floating_market",
+        "fresh_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_num_muen",
+    "lang": "th",
+    "written": "หมื่น",
+    "reading": "muen",
+    "romanization": "muen",
+    "meaning": {
+      "en": "ten thousand",
+      "th": "หมื่น (10,000)",
+      "ja": "一万；10,000"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "B1",
+    "chapter": 10,
+    "tags": [
+      "number",
+      "math",
+      "market"
+    ],
+    "frequency": 6000,
+    "audio": "voice/th/th_num_muen.mp3",
+    "tone": 1,
+    "toneRule": "ห (high class) + mai ek (่) → low tone... หมื่น has mai ek → low",
+    "examples": [
+      {
+        "sentence": "ราคาสินค้าชิ้นนี้หมื่นบาท",
+        "reading": "raakhaa singkhaa chin ni muen baat",
+        "translation": {
+          "en": "This item costs ten thousand baht.",
+          "th": "ราคาสินค้าชิ้นนี้หมื่นบาท"
+        },
+        "context": "floating_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Muenbig",
+      "sprite": "kotodama/th_num_muen.png",
+      "description": {
+        "en": "A massive spark rarely seen — its glow reaches far.",
+        "th": "ประกายขนาดใหญ่ที่พบได้ยาก แสงส่องถึงได้ไกล"
+      },
+      "rarity": "rare",
+      "habitat": [
+        "floating_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_num_lan",
+    "lang": "th",
+    "written": "ล้าน",
+    "reading": "laan",
+    "romanization": "laan",
+    "meaning": {
+      "en": "million",
+      "th": "ล้าน (1,000,000)",
+      "ja": "百万；1,000,000"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "B1",
+    "chapter": 10,
+    "tags": [
+      "number",
+      "math",
+      "large"
+    ],
+    "frequency": 5000,
+    "audio": "voice/th/th_num_lan.mp3",
+    "tone": 3,
+    "toneRule": "ล (low class) + mai tho (้) → high tone",
+    "examples": [
+      {
+        "sentence": "กรุงเทพมีคนหลายล้านคน",
+        "reading": "krungthep mi khon lai laan khon",
+        "translation": {
+          "en": "Bangkok has millions of people.",
+          "th": "กรุงเทพมีประชากรหลายล้านคน"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Laanmillion",
+      "sprite": "kotodama/th_num_lan.png",
+      "description": {
+        "en": "A legendary spark said to appear only once in a million encounters.",
+        "th": "ประกายในตำนานที่กล่าวกันว่าพบได้เพียงล้านครั้งในหนึ่ง"
+      },
+      "rarity": "rare",
+      "habitat": [
+        "temple",
+        "school"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_num_khrueng",
+    "lang": "th",
+    "written": "ครึ่ง",
+    "reading": "khrueng",
+    "romanization": "khrueng",
+    "meaning": {
+      "en": "half",
+      "th": "ครึ่ง (หนึ่งในสอง)",
+      "ja": "半分；半"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A2",
+    "chapter": 10,
+    "tags": [
+      "number",
+      "fraction",
+      "daily"
+    ],
+    "frequency": 8000,
+    "audio": "voice/th/th_num_khrueng.mp3",
+    "tone": 2,
+    "toneRule": "ค (low class) + no mark + dead short → falling... ครึ่ง approx falling",
+    "examples": [
+      {
+        "sentence": "กินไปครึ่งหนึ่งแล้ว",
+        "reading": "gin pai khrueng nueng laeo",
+        "translation": {
+          "en": "I've eaten half of it already.",
+          "th": "กินไปครึ่งหนึ่งแล้ว"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Khruenghalf",
+      "sprite": "kotodama/th_num_khrueng.png",
+      "description": {
+        "en": "A spark divided exactly down the middle — each side a different color.",
+        "th": "ประกายที่แบ่งครึ่งกลางพอดี แต่ละด้านสีต่างกัน"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "floating_market",
+        "school"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_num_khu",
+    "lang": "th",
+    "written": "คู่",
+    "reading": "khu",
+    "romanization": "khu",
+    "meaning": {
+      "en": "pair; even number",
+      "th": "คู่ (เลขคู่; สองสิ่งที่เป็นคู่กัน)",
+      "ja": "偶数；ペア"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A2",
+    "chapter": 10,
+    "tags": [
+      "number",
+      "pair",
+      "daily"
+    ],
+    "frequency": 7000,
+    "audio": "voice/th/th_num_khu.mp3",
+    "tone": 2,
+    "toneRule": "ค (low class) + mai ek (่) → falling tone",
+    "examples": [
+      {
+        "sentence": "ตัวเลขคู่ได้แก่ สอง สี่ หก",
+        "reading": "tua lek khu dai kae song si hok",
+        "translation": {
+          "en": "Even numbers include two, four, six.",
+          "th": "ตัวเลขคู่ได้แก่ สอง สี่ หก"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Khupair",
+      "sprite": "kotodama/th_num_khu.png",
+      "description": {
+        "en": "A spark that always appears in matching pairs.",
+        "th": "ประกายที่ปรากฏเป็นคู่ที่เหมือนกันเสมอ"
+      },
+      "rarity": "common",
+      "habitat": [
+        "school",
+        "temple",
+        "floating_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_num_ki",
+    "lang": "th",
+    "written": "คี่",
+    "reading": "ki",
+    "romanization": "ki",
+    "meaning": {
+      "en": "odd number",
+      "th": "คี่ (เลขคี่)",
+      "ja": "奇数"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A2",
+    "chapter": 10,
+    "tags": [
+      "number",
+      "math",
+      "daily"
+    ],
+    "frequency": 5000,
+    "audio": "voice/th/th_num_ki.mp3",
+    "tone": 2,
+    "toneRule": "ค (low class) + mai ek (่) → falling tone",
+    "examples": [
+      {
+        "sentence": "หนึ่ง สาม ห้า คือเลขคี่",
+        "reading": "nueng saam haa khue lek ki",
+        "translation": {
+          "en": "One, three, five are odd numbers.",
+          "th": "หนึ่ง สาม ห้า เป็นเลขคี่"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Kiodd",
+      "sprite": "kotodama/th_num_ki.png",
+      "description": {
+        "en": "A lopsided spark that never quite balances.",
+        "th": "ประกายเอียงๆ ที่ไม่เคยสมดุลได้สักที"
+      },
+      "rarity": "uncommon",
+      "habitat": [
+        "school",
+        "temple"
+      ]
+    },
+    "needsReview": false
+  }
 ]

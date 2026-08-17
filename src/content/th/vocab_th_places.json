@@ -5,12 +5,20 @@
     "written": "บ้าน",
     "reading": "baan",
     "romanization": "baan",
-    "meaning": { "en": "home; house", "th": "ที่อยู่อาศัย" },
+    "meaning": {
+      "en": "home; house",
+      "th": "ที่อยู่อาศัย",
+      "ja": "家；自宅"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["place", "home", "thai"],
+    "tags": [
+      "place",
+      "home",
+      "thai"
+    ],
     "frequency": 9500,
     "audio": "voice/th/th_place_ban.mp3",
     "tone": 2,
@@ -19,7 +27,10 @@
       {
         "sentence": "ฉันอยู่บ้านทุกวัน",
         "reading": "chan yuu baan thuk wan",
-        "translation": { "en": "I stay home every day.", "th": "ฉันอยู่ที่บ้านทุกวัน" },
+        "translation": {
+          "en": "I stay home every day.",
+          "th": "ฉันอยู่ที่บ้านทุกวัน"
+        },
         "context": "neighbourhood"
       }
     ],
@@ -31,9 +42,12 @@
         "th": "วิญญาณสีอำพันอบอุ่นรูปหลังคาเล็กๆ เปล่งแสงอ่อนๆ ยามพลบค่ำและฮัมเพลงกล่อมเด็ก"
       },
       "rarity": "common",
-      "habitat": ["neighbourhood", "rice_field"]
+      "habitat": [
+        "neighbourhood",
+        "rice_field"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_place_hong",
@@ -41,12 +55,20 @@
     "written": "ห้อง",
     "reading": "hong",
     "romanization": "hong",
-    "meaning": { "en": "room", "th": "ห้องในอาคาร" },
+    "meaning": {
+      "en": "room",
+      "th": "ห้องในอาคาร",
+      "ja": "部屋"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["place", "indoor", "thai"],
+    "tags": [
+      "place",
+      "indoor",
+      "thai"
+    ],
     "frequency": 6000,
     "audio": "voice/th/th_place_hong.mp3",
     "tone": 3,
@@ -55,7 +77,10 @@
       {
         "sentence": "ห้องนี้กว้างมาก",
         "reading": "hong ni kwang mak",
-        "translation": { "en": "This room is very spacious.", "th": "ห้องนี้กว้างมาก" },
+        "translation": {
+          "en": "This room is very spacious.",
+          "th": "ห้องนี้กว้างมาก"
+        },
         "context": "neighbourhood"
       }
     ],
@@ -67,9 +92,12 @@
         "th": "วิญญาณสี่เหลี่ยมเงียบที่ขยายเมื่อคุณต้องการพื้นที่ และหดเล็กลงมุมเมื่อคุณต้องการความอบอุ่น"
       },
       "rarity": "common",
-      "habitat": ["neighbourhood", "old_town"]
+      "habitat": [
+        "neighbourhood",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_place_hong_non",
@@ -77,12 +105,21 @@
     "written": "ห้องนอน",
     "reading": "hong non",
     "romanization": "hong non",
-    "meaning": { "en": "bedroom", "th": "ห้องสำหรับนอนหลับ" },
+    "meaning": {
+      "en": "bedroom",
+      "th": "ห้องสำหรับนอนหลับ",
+      "ja": "寝室"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["place", "indoor", "home", "thai"],
+    "tags": [
+      "place",
+      "indoor",
+      "home",
+      "thai"
+    ],
     "frequency": 3500,
     "audio": "voice/th/th_place_hong_non.mp3",
     "tone": 0,
@@ -91,7 +128,10 @@
       {
         "sentence": "ห้องนอนของฉันเล็กแต่สบาย",
         "reading": "hong non khong chan lek tae sabai",
-        "translation": { "en": "My bedroom is small but comfortable.", "th": "ห้องนอนของฉันเล็กแต่สบาย" },
+        "translation": {
+          "en": "My bedroom is small but comfortable.",
+          "th": "ห้องนอนของฉันเล็กแต่สบาย"
+        },
         "context": "neighbourhood"
       }
     ],
@@ -103,9 +143,11 @@
         "th": "วิญญาณสีลาเวนเดอร์ที่ล่องลอยเหนือหมอนและโรยฝุ่นฝัน"
       },
       "rarity": "common",
-      "habitat": ["neighbourhood"]
+      "habitat": [
+        "neighbourhood"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_place_hong_khrua",
@@ -113,12 +155,21 @@
     "written": "ห้องครัว",
     "reading": "hong khrua",
     "romanization": "hong khrua",
-    "meaning": { "en": "kitchen", "th": "ห้องทำอาหาร" },
+    "meaning": {
+      "en": "kitchen",
+      "th": "ห้องทำอาหาร",
+      "ja": "キッチン；台所"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["place", "indoor", "home", "thai"],
+    "tags": [
+      "place",
+      "indoor",
+      "home",
+      "thai"
+    ],
     "frequency": 2800,
     "audio": "voice/th/th_place_hong_khrua.mp3",
     "tone": 0,
@@ -127,7 +178,10 @@
       {
         "sentence": "แม่อยู่ในห้องครัว",
         "reading": "mae yuu nai hong khrua",
-        "translation": { "en": "Mum is in the kitchen.", "th": "แม่อยู่ในห้องครัว" },
+        "translation": {
+          "en": "Mum is in the kitchen.",
+          "th": "แม่อยู่ในห้องครัว"
+        },
         "context": "neighbourhood"
       }
     ],
@@ -139,9 +193,12 @@
         "th": "วิญญาณควันอุ่นๆ ที่อาศัยอยู่ใกล้กระทะและมีกลิ่นกระเทียมเสมอ"
       },
       "rarity": "common",
-      "habitat": ["neighbourhood", "fresh_market"]
+      "habitat": [
+        "neighbourhood",
+        "fresh_market"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_place_hong_nam",
@@ -149,12 +206,21 @@
     "written": "ห้องน้ำ",
     "reading": "hong nam",
     "romanization": "hong nam",
-    "meaning": { "en": "bathroom; toilet", "th": "ห้องสุขา" },
+    "meaning": {
+      "en": "bathroom; toilet",
+      "th": "ห้องสุขา",
+      "ja": "お手洗い；トイレ"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["place", "indoor", "home", "thai"],
+    "tags": [
+      "place",
+      "indoor",
+      "home",
+      "thai"
+    ],
     "frequency": 4000,
     "audio": "voice/th/th_place_hong_nam.mp3",
     "tone": 3,
@@ -163,7 +229,10 @@
       {
         "sentence": "ห้องน้ำอยู่ทางขวามือ",
         "reading": "hong nam yuu thang khwa mue",
-        "translation": { "en": "The bathroom is on the right.", "th": "ห้องน้ำอยู่ทางขวามือ" },
+        "translation": {
+          "en": "The bathroom is on the right.",
+          "th": "ห้องน้ำอยู่ทางขวามือ"
+        },
         "context": "old_town"
       }
     ],
@@ -175,9 +244,12 @@
         "th": "วิญญาณสีฟ้าหมอกที่ลอยอยู่หลังอาบน้ำและชอบเสียงน้ำไหล"
       },
       "rarity": "common",
-      "habitat": ["neighbourhood", "old_town"]
+      "habitat": [
+        "neighbourhood",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_place_rong_rian",
@@ -185,12 +257,20 @@
     "written": "โรงเรียน",
     "reading": "rong rian",
     "romanization": "rong rian",
-    "meaning": { "en": "school", "th": "สถานศึกษาระดับประถมและมัธยม" },
+    "meaning": {
+      "en": "school",
+      "th": "สถานศึกษาระดับประถมและมัธยม",
+      "ja": "学校"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["place", "education", "thai"],
+    "tags": [
+      "place",
+      "education",
+      "thai"
+    ],
     "frequency": 7000,
     "audio": "voice/th/th_place_rong_rian.mp3",
     "tone": 0,
@@ -199,7 +279,10 @@
       {
         "sentence": "โรงเรียนของฉันอยู่ใกล้บ้าน",
         "reading": "rong rian khong chan yuu klai baan",
-        "translation": { "en": "My school is near my house.", "th": "โรงเรียนของฉันอยู่ใกล้บ้าน" },
+        "translation": {
+          "en": "My school is near my house.",
+          "th": "โรงเรียนของฉันอยู่ใกล้บ้าน"
+        },
         "context": "neighbourhood"
       }
     ],
@@ -211,9 +294,12 @@
         "th": "วิญญาณสีเหลืองสดใสที่ดังเหมือนกระดิ่งโรงเรียนและทิ้งร่องรอยฝุ่นชอล์ก"
       },
       "rarity": "common",
-      "habitat": ["neighbourhood", "old_town"]
+      "habitat": [
+        "neighbourhood",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_place_mahawitthayalai",
@@ -221,12 +307,20 @@
     "written": "มหาวิทยาลัย",
     "reading": "maha witthayalai",
     "romanization": "maha witthayalai",
-    "meaning": { "en": "university", "th": "สถาบันอุดมศึกษา" },
+    "meaning": {
+      "en": "university",
+      "th": "สถาบันอุดมศึกษา",
+      "ja": "大学"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["place", "education", "thai"],
+    "tags": [
+      "place",
+      "education",
+      "thai"
+    ],
     "frequency": 3500,
     "audio": "voice/th/th_place_mahawitthayalai.mp3",
     "tone": 0,
@@ -235,7 +329,10 @@
       {
         "sentence": "พี่สาวเรียนอยู่มหาวิทยาลัย",
         "reading": "phi sao rian yuu maha witthayalai",
-        "translation": { "en": "My older sister studies at university.", "th": "พี่สาวกำลังเรียนอยู่ที่มหาวิทยาลัย" },
+        "translation": {
+          "en": "My older sister studies at university.",
+          "th": "พี่สาวกำลังเรียนอยู่ที่มหาวิทยาลัย"
+        },
         "context": "old_town"
       }
     ],
@@ -247,9 +344,12 @@
         "th": "วิญญาณสูงสง่าสวมหมวกรับปริญญาจิ๋ว มันอ่านหนังสือตลอดเวลา"
       },
       "rarity": "uncommon",
-      "habitat": ["old_town", "neighbourhood"]
+      "habitat": [
+        "old_town",
+        "neighbourhood"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_place_wat",
@@ -257,12 +357,21 @@
     "written": "วัด",
     "reading": "wat",
     "romanization": "wat",
-    "meaning": { "en": "Buddhist temple", "th": "สถานที่ประกอบพิธีกรรมทางพุทธศาสนา" },
+    "meaning": {
+      "en": "Buddhist temple",
+      "th": "สถานที่ประกอบพิธีกรรมทางพุทธศาสนา",
+      "ja": "お寺；仏教寺院"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["place", "religion", "culture", "thai"],
+    "tags": [
+      "place",
+      "religion",
+      "culture",
+      "thai"
+    ],
     "frequency": 5500,
     "audio": "voice/th/th_place_wat.mp3",
     "tone": 3,
@@ -271,7 +380,10 @@
       {
         "sentence": "ทุกเช้าพระสวดมนต์ที่วัด",
         "reading": "thuk chao phra suat mon thi wat",
-        "translation": { "en": "Every morning monks chant at the temple.", "th": "ทุกเช้าพระสงฆ์สวดมนต์ที่วัด" },
+        "translation": {
+          "en": "Every morning monks chant at the temple.",
+          "th": "ทุกเช้าพระสงฆ์สวดมนต์ที่วัด"
+        },
         "context": "temple"
       }
     ],
@@ -283,9 +395,12 @@
         "th": "วิญญาณสีทองรูปเจดีย์ที่ฮัมเสียงระฆังวัดและมีกลิ่นธูป"
       },
       "rarity": "uncommon",
-      "habitat": ["temple", "old_town"]
+      "habitat": [
+        "temple",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_place_talat",
@@ -293,12 +408,20 @@
     "written": "ตลาด",
     "reading": "talat",
     "romanization": "talat",
-    "meaning": { "en": "market", "th": "สถานที่ซื้อขายสินค้า" },
+    "meaning": {
+      "en": "market",
+      "th": "สถานที่ซื้อขายสินค้า",
+      "ja": "市場"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["place", "commerce", "thai"],
+    "tags": [
+      "place",
+      "commerce",
+      "thai"
+    ],
     "frequency": 6500,
     "audio": "voice/th/th_place_talat.mp3",
     "tone": 1,
@@ -307,7 +430,10 @@
       {
         "sentence": "ตลาดเช้าเต็มไปด้วยผักสด",
         "reading": "talat chao tem pai duai phak sot",
-        "translation": { "en": "The morning market is full of fresh vegetables.", "th": "ตลาดเช้าเต็มไปด้วยผักสด" },
+        "translation": {
+          "en": "The morning market is full of fresh vegetables.",
+          "th": "ตลาดเช้าเต็มไปด้วยผักสด"
+        },
         "context": "fresh_market"
       }
     ],
@@ -319,9 +445,13 @@
         "th": "วิญญาณสีสันสดใสช่างพูดที่ดังที่สุดในยามรุ่งสางและชอบต่อรองราคา"
       },
       "rarity": "common",
-      "habitat": ["fresh_market", "floating_market", "night_market"]
+      "habitat": [
+        "fresh_market",
+        "floating_market",
+        "night_market"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_place_supermarket",
@@ -329,12 +459,21 @@
     "written": "ซูเปอร์มาร์เก็ต",
     "reading": "supoe maket",
     "romanization": "supoe maket",
-    "meaning": { "en": "supermarket", "th": "ร้านค้าปลีกขนาดใหญ่" },
+    "meaning": {
+      "en": "supermarket",
+      "th": "ร้านค้าปลีกขนาดใหญ่",
+      "ja": "スーパーマーケット"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["place", "commerce", "loanword", "thai"],
+    "tags": [
+      "place",
+      "commerce",
+      "loanword",
+      "thai"
+    ],
     "frequency": 3000,
     "audio": "voice/th/th_place_supermarket.mp3",
     "tone": 0,
@@ -343,7 +482,10 @@
       {
         "sentence": "ฉันซื้อของที่ซูเปอร์มาร์เก็ต",
         "reading": "chan sue khong thi supoe maket",
-        "translation": { "en": "I buy things at the supermarket.", "th": "ฉันซื้อของที่ซูเปอร์มาร์เก็ต" },
+        "translation": {
+          "en": "I buy things at the supermarket.",
+          "th": "ฉันซื้อของที่ซูเปอร์มาร์เก็ต"
+        },
         "context": "old_town"
       }
     ],
@@ -355,9 +497,12 @@
         "th": "วิญญาณรูปรถเข็นวาวที่ล้อหนึ่งดังเอี๊ยดและหาของลดราคาได้เสมอ"
       },
       "rarity": "common",
-      "habitat": ["old_town", "neighbourhood"]
+      "habitat": [
+        "old_town",
+        "neighbourhood"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_place_ran_ahan",
@@ -365,12 +510,21 @@
     "written": "ร้านอาหาร",
     "reading": "ran ahan",
     "romanization": "ran ahan",
-    "meaning": { "en": "restaurant", "th": "สถานที่ขายอาหารพร้อมรับประทาน" },
+    "meaning": {
+      "en": "restaurant",
+      "th": "สถานที่ขายอาหารพร้อมรับประทาน",
+      "ja": "レストラン；食堂"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["place", "food", "commerce", "thai"],
+    "tags": [
+      "place",
+      "food",
+      "commerce",
+      "thai"
+    ],
     "frequency": 5500,
     "audio": "voice/th/th_place_ran_ahan.mp3",
     "tone": 3,
@@ -379,7 +533,10 @@
       {
         "sentence": "ร้านอาหารนี้อร่อยและถูกมาก",
         "reading": "ran ahan ni aroi lae thuk mak",
-        "translation": { "en": "This restaurant is delicious and very cheap.", "th": "ร้านอาหารนี้อร่อยและราคาถูกมาก" },
+        "translation": {
+          "en": "This restaurant is delicious and very cheap.",
+          "th": "ร้านอาหารนี้อร่อยและราคาถูกมาก"
+        },
         "context": "night_market"
       }
     ],
@@ -391,9 +548,13 @@
         "th": "วิญญาณอบอุ่นที่มือหนึ่งถือเมนูและมีรอยยิ้มบนใบหน้าเสมอ"
       },
       "rarity": "common",
-      "habitat": ["night_market", "old_town", "floating_market"]
+      "habitat": [
+        "night_market",
+        "old_town",
+        "floating_market"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_place_rong_phayaban",
@@ -401,12 +562,20 @@
     "written": "โรงพยาบาล",
     "reading": "rong phayaban",
     "romanization": "rong phayaban",
-    "meaning": { "en": "hospital", "th": "สถานพยาบาลขนาดใหญ่" },
+    "meaning": {
+      "en": "hospital",
+      "th": "สถานพยาบาลขนาดใหญ่",
+      "ja": "病院"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["place", "health", "thai"],
+    "tags": [
+      "place",
+      "health",
+      "thai"
+    ],
     "frequency": 4500,
     "audio": "voice/th/th_place_rong_phayaban.mp3",
     "tone": 0,
@@ -415,7 +584,10 @@
       {
         "sentence": "เขาไปโรงพยาบาลเพราะไม่สบาย",
         "reading": "khao pai rong phayaban phro mai sabai",
-        "translation": { "en": "He went to the hospital because he was unwell.", "th": "เขาไปโรงพยาบาลเพราะไม่สบาย" },
+        "translation": {
+          "en": "He went to the hospital because he was unwell.",
+          "th": "เขาไปโรงพยาบาลเพราะไม่สบาย"
+        },
         "context": "old_town"
       }
     ],
@@ -427,9 +599,12 @@
         "th": "วิญญาณสีขาวอ่อนโยนมีกากบาทแดงจิ๋วที่ปลอบโคโตะดามะที่เจ็บป่วย"
       },
       "rarity": "uncommon",
-      "habitat": ["old_town", "neighbourhood"]
+      "habitat": [
+        "old_town",
+        "neighbourhood"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_place_sathanee_tamruat",
@@ -437,12 +612,20 @@
     "written": "สถานีตำรวจ",
     "reading": "sathanee tamruat",
     "romanization": "sathanee tamruat",
-    "meaning": { "en": "police station", "th": "ที่ทำการตำรวจ" },
+    "meaning": {
+      "en": "police station",
+      "th": "ที่ทำการตำรวจ",
+      "ja": "警察署"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["place", "civic", "thai"],
+    "tags": [
+      "place",
+      "civic",
+      "thai"
+    ],
     "frequency": 2500,
     "audio": "voice/th/th_place_sathanee_tamruat.mp3",
     "tone": 0,
@@ -451,7 +634,10 @@
       {
         "sentence": "สถานีตำรวจอยู่ตรงกลางเมือง",
         "reading": "sathanee tamruat yuu trong klang mueang",
-        "translation": { "en": "The police station is in the centre of town.", "th": "สถานีตำรวจอยู่ตรงกลางเมือง" },
+        "translation": {
+          "en": "The police station is in the centre of town.",
+          "th": "สถานีตำรวจอยู่ตรงกลางเมือง"
+        },
         "context": "old_town"
       }
     ],
@@ -463,9 +649,12 @@
         "th": "วิญญาณเคร่งขรึมแต่ใจดีสวมตราสัญลักษณ์จิ๋วที่เปล่งแสงเมื่อความยุติธรรมเกิดขึ้น"
       },
       "rarity": "uncommon",
-      "habitat": ["old_town", "neighbourhood"]
+      "habitat": [
+        "old_town",
+        "neighbourhood"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_place_thanakhan",
@@ -473,12 +662,20 @@
     "written": "ธนาคาร",
     "reading": "thanakhan",
     "romanization": "thanakhan",
-    "meaning": { "en": "bank", "th": "สถาบันการเงิน" },
+    "meaning": {
+      "en": "bank",
+      "th": "สถาบันการเงิน",
+      "ja": "銀行"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["place", "finance", "thai"],
+    "tags": [
+      "place",
+      "finance",
+      "thai"
+    ],
     "frequency": 3500,
     "audio": "voice/th/th_place_thanakhan.mp3",
     "tone": 0,
@@ -487,7 +684,10 @@
       {
         "sentence": "ฉันต้องไปธนาคารพรุ่งนี้",
         "reading": "chan tong pai thanakhan phrung ni",
-        "translation": { "en": "I need to go to the bank tomorrow.", "th": "ฉันต้องไปธนาคารพรุ่งนี้" },
+        "translation": {
+          "en": "I need to go to the bank tomorrow.",
+          "th": "ฉันต้องไปธนาคารพรุ่งนี้"
+        },
         "context": "old_town"
       }
     ],
@@ -499,9 +699,12 @@
         "th": "วิญญาณกลมสีทองที่กลิ้งเงียบๆ และจดบันทึกทุกอย่างอย่างละเอียด"
       },
       "rarity": "uncommon",
-      "habitat": ["old_town", "neighbourhood"]
+      "habitat": [
+        "old_town",
+        "neighbourhood"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_place_praisani",
@@ -509,12 +712,20 @@
     "written": "ไปรษณีย์",
     "reading": "praisani",
     "romanization": "praisani",
-    "meaning": { "en": "post office", "th": "สำนักงานไปรษณีย์" },
+    "meaning": {
+      "en": "post office",
+      "th": "สำนักงานไปรษณีย์",
+      "ja": "郵便局"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["place", "civic", "thai"],
+    "tags": [
+      "place",
+      "civic",
+      "thai"
+    ],
     "frequency": 2000,
     "audio": "voice/th/th_place_praisani.mp3",
     "tone": 0,
@@ -523,7 +734,10 @@
       {
         "sentence": "ส่งพัสดุที่ไปรษณีย์ได้เลย",
         "reading": "song phatsadu thi praisani dai loei",
-        "translation": { "en": "You can send parcels at the post office.", "th": "ส่งพัสดุที่ไปรษณีย์ได้เลย" },
+        "translation": {
+          "en": "You can send parcels at the post office.",
+          "th": "ส่งพัสดุที่ไปรษณีย์ได้เลย"
+        },
         "context": "old_town"
       }
     ],
@@ -535,9 +749,12 @@
         "th": "วิญญาณสีฟ้าอากาศที่พับตัวเองเป็นรูปซอง และรักการพาข้อความไปส่ง"
       },
       "rarity": "common",
-      "habitat": ["old_town", "neighbourhood"]
+      "habitat": [
+        "old_town",
+        "neighbourhood"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_place_sanam_bin",
@@ -545,12 +762,20 @@
     "written": "สนามบิน",
     "reading": "sanam bin",
     "romanization": "sanam bin",
-    "meaning": { "en": "airport", "th": "ท่าอากาศยาน" },
+    "meaning": {
+      "en": "airport",
+      "th": "ท่าอากาศยาน",
+      "ja": "空港"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["place", "transport", "thai"],
+    "tags": [
+      "place",
+      "transport",
+      "thai"
+    ],
     "frequency": 4000,
     "audio": "voice/th/th_place_sanam_bin.mp3",
     "tone": 0,
@@ -559,7 +784,10 @@
       {
         "sentence": "สนามบินสุวรรณภูมิใหญ่มาก",
         "reading": "sanam bin suwannaphum yai mak",
-        "translation": { "en": "Suvarnabhumi Airport is very large.", "th": "สนามบินสุวรรณภูมิใหญ่มาก" },
+        "translation": {
+          "en": "Suvarnabhumi Airport is very large.",
+          "th": "สนามบินสุวรรณภูมิใหญ่มาก"
+        },
         "context": "old_town"
       }
     ],
@@ -571,9 +799,12 @@
         "th": "วิญญาณสีขาวสนิทที่พุ่งผ่านศีรษะและทิ้งควันกลีบดอกซากุระไว้"
       },
       "rarity": "uncommon",
-      "habitat": ["old_town", "neighbourhood"]
+      "habitat": [
+        "old_town",
+        "neighbourhood"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_place_sathanee_rot_fai",
@@ -581,12 +812,20 @@
     "written": "สถานีรถไฟ",
     "reading": "sathanee rot fai",
     "romanization": "sathanee rot fai",
-    "meaning": { "en": "train station", "th": "สถานีสำหรับรถไฟ" },
+    "meaning": {
+      "en": "train station",
+      "th": "สถานีสำหรับรถไฟ",
+      "ja": "鉄道駅"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["place", "transport", "thai"],
+    "tags": [
+      "place",
+      "transport",
+      "thai"
+    ],
     "frequency": 3000,
     "audio": "voice/th/th_place_sathanee_rot_fai.mp3",
     "tone": 0,
@@ -595,7 +834,10 @@
       {
         "sentence": "รถไฟออกจากสถานีตอนหกโมงเช้า",
         "reading": "rot fai ok chak sathanee ton hok mong chao",
-        "translation": { "en": "The train leaves the station at six in the morning.", "th": "รถไฟออกจากสถานีตอนหกโมงเช้า" },
+        "translation": {
+          "en": "The train leaves the station at six in the morning.",
+          "th": "รถไฟออกจากสถานีตอนหกโมงเช้า"
+        },
         "context": "old_town"
       }
     ],
@@ -607,9 +849,12 @@
         "th": "วิญญาณพ่นไอน้ำที่วิ่งบนรางล่องหนและมาถึงตรงเวลาเสมอ"
       },
       "rarity": "uncommon",
-      "habitat": ["old_town", "pier"]
+      "habitat": [
+        "old_town",
+        "pier"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_place_thanon",
@@ -617,12 +862,20 @@
     "written": "ถนน",
     "reading": "thanon",
     "romanization": "thanon",
-    "meaning": { "en": "road; street", "th": "เส้นทางสำหรับยานพาหนะ" },
+    "meaning": {
+      "en": "road; street",
+      "th": "เส้นทางสำหรับยานพาหนะ",
+      "ja": "道；通り"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["place", "transport", "thai"],
+    "tags": [
+      "place",
+      "transport",
+      "thai"
+    ],
     "frequency": 5000,
     "audio": "voice/th/th_place_thanon.mp3",
     "tone": 4,
@@ -631,7 +884,10 @@
       {
         "sentence": "ถนนนี้รถติดตอนเช้า",
         "reading": "thanon ni rot tit ton chao",
-        "translation": { "en": "This road has traffic jams in the morning.", "th": "ถนนนี้มีรถติดตอนเช้า" },
+        "translation": {
+          "en": "This road has traffic jams in the morning.",
+          "th": "ถนนนี้มีรถติดตอนเช้า"
+        },
         "context": "old_town"
       }
     ],
@@ -643,9 +899,12 @@
         "th": "วิญญาณแบนยาวที่ยืดออกไปไม่รู้จบและรักเสียงตุ๊กตุ๊ก"
       },
       "rarity": "common",
-      "habitat": ["old_town", "neighbourhood"]
+      "habitat": [
+        "old_town",
+        "neighbourhood"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_place_saphan",
@@ -653,12 +912,20 @@
     "written": "สะพาน",
     "reading": "saphan",
     "romanization": "saphan",
-    "meaning": { "en": "bridge", "th": "สิ่งก่อสร้างเชื่อมสองฝั่ง" },
+    "meaning": {
+      "en": "bridge",
+      "th": "สิ่งก่อสร้างเชื่อมสองฝั่ง",
+      "ja": "橋"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["place", "structure", "thai"],
+    "tags": [
+      "place",
+      "structure",
+      "thai"
+    ],
     "frequency": 2500,
     "audio": "voice/th/th_place_saphan.mp3",
     "tone": 4,
@@ -667,7 +934,10 @@
       {
         "sentence": "สะพานข้ามแม่น้ำสวยมาก",
         "reading": "saphan kham mae nam suai mak",
-        "translation": { "en": "The bridge over the river is very beautiful.", "th": "สะพานข้ามแม่น้ำสวยมาก" },
+        "translation": {
+          "en": "The bridge over the river is very beautiful.",
+          "th": "สะพานข้ามแม่น้ำสวยมาก"
+        },
         "context": "pier"
       }
     ],
@@ -679,9 +949,12 @@
         "th": "วิญญาณโค้งงดงามที่พาดข้ามแม่น้ำและเชื้อเชิญนักเดินทางให้ข้าม"
       },
       "rarity": "uncommon",
-      "habitat": ["pier", "floating_market"]
+      "habitat": [
+        "pier",
+        "floating_market"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_place_tha_ruea",
@@ -689,12 +962,21 @@
     "written": "ท่าเรือ",
     "reading": "tha ruea",
     "romanization": "tha ruea",
-    "meaning": { "en": "pier; dock; harbour", "th": "ที่จอดเรือริมน้ำ" },
+    "meaning": {
+      "en": "pier; dock; harbour",
+      "th": "ที่จอดเรือริมน้ำ",
+      "ja": "船着き場；桟橋"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["place", "water", "transport", "thai"],
+    "tags": [
+      "place",
+      "water",
+      "transport",
+      "thai"
+    ],
     "frequency": 2800,
     "audio": "voice/th/th_place_tha_ruea.mp3",
     "tone": 3,
@@ -703,7 +985,10 @@
       {
         "sentence": "เรือออกจากท่าเรือทุกชั่วโมง",
         "reading": "ruea ok chak tha ruea thuk chua mong",
-        "translation": { "en": "Boats leave the pier every hour.", "th": "เรือออกจากท่าเรือทุกชั่วโมง" },
+        "translation": {
+          "en": "Boats leave the pier every hour.",
+          "th": "เรือออกจากท่าเรือทุกชั่วโมง"
+        },
         "context": "pier"
       }
     ],
@@ -715,9 +1000,12 @@
         "th": "วิญญาณสายลมเกลือที่มีกลิ่นน้ำแม่น้ำและถือเชือกไว้ในมือเสมอ"
       },
       "rarity": "common",
-      "habitat": ["pier", "floating_market"]
+      "habitat": [
+        "pier",
+        "floating_market"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_place_mae_nam",
@@ -725,12 +1013,21 @@
     "written": "แม่น้ำ",
     "reading": "mae nam",
     "romanization": "mae nam",
-    "meaning": { "en": "river", "th": "แหล่งน้ำขนาดใหญ่ที่ไหลตลอดเวลา" },
+    "meaning": {
+      "en": "river",
+      "th": "แหล่งน้ำขนาดใหญ่ที่ไหลตลอดเวลา",
+      "ja": "川；河"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["place", "nature", "water", "thai"],
+    "tags": [
+      "place",
+      "nature",
+      "water",
+      "thai"
+    ],
     "frequency": 4500,
     "audio": "voice/th/th_place_mae_nam.mp3",
     "tone": 3,
@@ -739,7 +1036,10 @@
       {
         "sentence": "แม่น้ำเจ้าพระยาไหลผ่านกรุงเทพ",
         "reading": "mae nam chao phraya lai phan krung thep",
-        "translation": { "en": "The Chao Phraya River flows through Bangkok.", "th": "แม่น้ำเจ้าพระยาไหลผ่านกรุงเทพ" },
+        "translation": {
+          "en": "The Chao Phraya River flows through Bangkok.",
+          "th": "แม่น้ำเจ้าพระยาไหลผ่านกรุงเทพ"
+        },
         "context": "pier"
       }
     ],
@@ -751,9 +1051,13 @@
         "th": "วิญญาณสีฟิโรซเขียวแววที่ไม่เคยหยุดนิ่งและพาภาพสะท้อนของท้องฟ้า"
       },
       "rarity": "common",
-      "habitat": ["pier", "floating_market", "rice_field"]
+      "habitat": [
+        "pier",
+        "floating_market",
+        "rice_field"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_place_thale",
@@ -761,12 +1065,21 @@
     "written": "ทะเล",
     "reading": "thale",
     "romanization": "thale",
-    "meaning": { "en": "sea; ocean", "th": "มหาสมุทรและน้ำเค็มกว้างใหญ่" },
+    "meaning": {
+      "en": "sea; ocean",
+      "th": "มหาสมุทรและน้ำเค็มกว้างใหญ่",
+      "ja": "海；大海"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["place", "nature", "water", "thai"],
+    "tags": [
+      "place",
+      "nature",
+      "water",
+      "thai"
+    ],
     "frequency": 4000,
     "audio": "voice/th/th_place_thale.mp3",
     "tone": 3,
@@ -775,7 +1088,10 @@
       {
         "sentence": "ทะเลไทยน้ำใสมากในฤดูร้อน",
         "reading": "thale thai nam sai mak nai rueduu ron",
-        "translation": { "en": "The Thai sea is very clear in summer.", "th": "ทะเลไทยน้ำใสมากในฤดูร้อน" },
+        "translation": {
+          "en": "The Thai sea is very clear in summer.",
+          "th": "ทะเลไทยน้ำใสมากในฤดูร้อน"
+        },
         "context": "pier"
       }
     ],
@@ -787,9 +1103,11 @@
         "th": "วิญญาณสีน้ำเงินกว้างใหญ่ที่คลื่นไม่เคยซ้ำกัน — ทุกยอดคลื่นเป็นเอกลักษณ์"
       },
       "rarity": "uncommon",
-      "habitat": ["pier"]
+      "habitat": [
+        "pier"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_place_chaiyahat",
@@ -797,12 +1115,21 @@
     "written": "ชายหาด",
     "reading": "chai hat",
     "romanization": "chai hat",
-    "meaning": { "en": "beach", "th": "ชายฝั่งทะเลที่เป็นทราย" },
+    "meaning": {
+      "en": "beach",
+      "th": "ชายฝั่งทะเลที่เป็นทราย",
+      "ja": "浜辺；ビーチ"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["place", "nature", "water", "thai"],
+    "tags": [
+      "place",
+      "nature",
+      "water",
+      "thai"
+    ],
     "frequency": 3500,
     "audio": "voice/th/th_place_chaiyahat.mp3",
     "tone": 2,
@@ -811,7 +1138,10 @@
       {
         "sentence": "ชายหาดพัทยาเต็มไปด้วยนักท่องเที่ยว",
         "reading": "chai hat phattaya tem pai duai nak thong thiao",
-        "translation": { "en": "Pattaya beach is full of tourists.", "th": "ชายหาดพัทยาเต็มไปด้วยนักท่องเที่ยว" },
+        "translation": {
+          "en": "Pattaya beach is full of tourists.",
+          "th": "ชายหาดพัทยาเต็มไปด้วยนักท่องเที่ยว"
+        },
         "context": "pier"
       }
     ],
@@ -823,9 +1153,11 @@
         "th": "วิญญาณทรายสีทองที่ทิ้งร่องรอยหอยเล็กๆ และฮัมเสียงคลื่น"
       },
       "rarity": "common",
-      "habitat": ["pier"]
+      "habitat": [
+        "pier"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_place_phukhao",
@@ -833,12 +1165,20 @@
     "written": "ภูเขา",
     "reading": "phukao",
     "romanization": "phukao",
-    "meaning": { "en": "mountain", "th": "ที่สูงขนาดใหญ่เป็นหินและดิน" },
+    "meaning": {
+      "en": "mountain",
+      "th": "ที่สูงขนาดใหญ่เป็นหินและดิน",
+      "ja": "山"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["place", "nature", "thai"],
+    "tags": [
+      "place",
+      "nature",
+      "thai"
+    ],
     "frequency": 3000,
     "audio": "voice/th/th_place_phukhao.mp3",
     "tone": 3,
@@ -847,7 +1187,10 @@
       {
         "sentence": "ภูเขาทางเหนือปกคลุมไปด้วยหมอก",
         "reading": "phukao thang nuea pok khlum pai duai mok",
-        "translation": { "en": "The northern mountains are covered in mist.", "th": "ภูเขาทางเหนือปกคลุมด้วยหมอก" },
+        "translation": {
+          "en": "The northern mountains are covered in mist.",
+          "th": "ภูเขาทางเหนือปกคลุมด้วยหมอก"
+        },
         "context": "rice_field"
       }
     ],
@@ -859,9 +1202,12 @@
         "th": "วิญญาณสูงใหญ่หมอกปกคลุมที่ยอดของมันซ่อนอยู่ในก้อนเมฆเสมอ"
       },
       "rarity": "uncommon",
-      "habitat": ["rice_field", "temple"]
+      "habitat": [
+        "rice_field",
+        "temple"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_place_pa",
@@ -869,12 +1215,20 @@
     "written": "ป่า",
     "reading": "paa",
     "romanization": "paa",
-    "meaning": { "en": "forest; jungle", "th": "พื้นที่ปกคลุมด้วยต้นไม้หนาแน่น" },
+    "meaning": {
+      "en": "forest; jungle",
+      "th": "พื้นที่ปกคลุมด้วยต้นไม้หนาแน่น",
+      "ja": "森；ジャングル"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["place", "nature", "thai"],
+    "tags": [
+      "place",
+      "nature",
+      "thai"
+    ],
     "frequency": 3500,
     "audio": "voice/th/th_place_pa.mp3",
     "tone": 2,
@@ -883,7 +1237,10 @@
       {
         "sentence": "ป่าฝนเมืองไทยอุดมสมบูรณ์มาก",
         "reading": "paa fon mueang thai udom sombun mak",
-        "translation": { "en": "Thailand's rainforest is very abundant.", "th": "ป่าฝนเมืองไทยอุดมสมบูรณ์มาก" },
+        "translation": {
+          "en": "Thailand's rainforest is very abundant.",
+          "th": "ป่าฝนเมืองไทยอุดมสมบูรณ์มาก"
+        },
         "context": "rice_field"
       }
     ],
@@ -895,9 +1252,12 @@
         "th": "วิญญาณสีเขียวเข้มที่กรอบแกรบด้วยเสียงนกและซ่อนเส้นทางลับ"
       },
       "rarity": "common",
-      "habitat": ["rice_field", "temple"]
+      "habitat": [
+        "rice_field",
+        "temple"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_place_suan",
@@ -905,12 +1265,20 @@
     "written": "สวน",
     "reading": "suan",
     "romanization": "suan",
-    "meaning": { "en": "garden; orchard", "th": "พื้นที่ปลูกต้นไม้หรือผลผลิต" },
+    "meaning": {
+      "en": "garden; orchard",
+      "th": "พื้นที่ปลูกต้นไม้หรือผลผลิต",
+      "ja": "庭；果樹園"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["place", "nature", "thai"],
+    "tags": [
+      "place",
+      "nature",
+      "thai"
+    ],
     "frequency": 3200,
     "audio": "voice/th/th_place_suan.mp3",
     "tone": 4,
@@ -919,7 +1287,10 @@
       {
         "sentence": "ดอกไม้ในสวนบานสวยมาก",
         "reading": "dok mai nai suan ban suai mak",
-        "translation": { "en": "The flowers in the garden are blooming beautifully.", "th": "ดอกไม้ในสวนบานสวยมาก" },
+        "translation": {
+          "en": "The flowers in the garden are blooming beautifully.",
+          "th": "ดอกไม้ในสวนบานสวยมาก"
+        },
         "context": "neighbourhood"
       }
     ],
@@ -931,9 +1302,13 @@
         "th": "วิญญาณสีเขียวหอมกรุ่นที่ช่วยให้เมล็ดพืชทุกเมล็ดที่สัมผัสออกดอก"
       },
       "rarity": "common",
-      "habitat": ["neighbourhood", "temple", "rice_field"]
+      "habitat": [
+        "neighbourhood",
+        "temple",
+        "rice_field"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_place_suan_satharana",
@@ -941,12 +1316,21 @@
     "written": "สวนสาธารณะ",
     "reading": "suan satharana",
     "romanization": "suan satharana",
-    "meaning": { "en": "public park", "th": "สวนสาธารณะสำหรับทุกคน" },
+    "meaning": {
+      "en": "public park",
+      "th": "สวนสาธารณะสำหรับทุกคน",
+      "ja": "公園"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["place", "nature", "civic", "thai"],
+    "tags": [
+      "place",
+      "nature",
+      "civic",
+      "thai"
+    ],
     "frequency": 2500,
     "audio": "voice/th/th_place_suan_satharana.mp3",
     "tone": 4,
@@ -955,7 +1339,10 @@
       {
         "sentence": "คนออกกำลังกายที่สวนสาธารณะตอนเช้า",
         "reading": "khon ok kamlang kai thi suan satharana ton chao",
-        "translation": { "en": "People exercise at the public park in the morning.", "th": "คนออกกำลังกายที่สวนสาธารณะตอนเช้า" },
+        "translation": {
+          "en": "People exercise at the public park in the morning.",
+          "th": "คนออกกำลังกายที่สวนสาธารณะตอนเช้า"
+        },
         "context": "neighbourhood"
       }
     ],
@@ -967,9 +1354,12 @@
         "th": "วิญญาณสายลมอ่อนโยนที่ทำให้ม้านั่งมีร่มเงาและน้ำพุพุ่งพล่าน"
       },
       "rarity": "common",
-      "habitat": ["neighbourhood", "old_town"]
+      "habitat": [
+        "neighbourhood",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_place_hang_sapsin",
@@ -977,12 +1367,20 @@
     "written": "ห้างสรรพสินค้า",
     "reading": "hang sapphasinkhaa",
     "romanization": "hang sapphasinkhaa",
-    "meaning": { "en": "shopping mall; department store", "th": "ศูนย์การค้าขนาดใหญ่" },
+    "meaning": {
+      "en": "shopping mall; department store",
+      "th": "ศูนย์การค้าขนาดใหญ่",
+      "ja": "ショッピングモール；デパート"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["place", "commerce", "thai"],
+    "tags": [
+      "place",
+      "commerce",
+      "thai"
+    ],
     "frequency": 4000,
     "audio": "voice/th/th_place_hang_sapsin.mp3",
     "tone": 2,
@@ -991,7 +1389,10 @@
       {
         "sentence": "ห้างสรรพสินค้าเปิดทุกวัน",
         "reading": "hang sapphasinkhaa poet thuk wan",
-        "translation": { "en": "The shopping mall is open every day.", "th": "ห้างสรรพสินค้าเปิดทุกวัน" },
+        "translation": {
+          "en": "The shopping mall is open every day.",
+          "th": "ห้างสรรพสินค้าเปิดทุกวัน"
+        },
         "context": "old_town"
       }
     ],
@@ -1003,9 +1404,12 @@
         "th": "วิญญาณวาวหลายชั้นที่ก้องด้วยเพลงบันไดเลื่อน"
       },
       "rarity": "uncommon",
-      "habitat": ["old_town", "neighbourhood"]
+      "habitat": [
+        "old_town",
+        "neighbourhood"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_place_rong_raem",
@@ -1013,12 +1417,20 @@
     "written": "โรงแรม",
     "reading": "rong raem",
     "romanization": "rong raem",
-    "meaning": { "en": "hotel", "th": "ที่พักสำหรับนักท่องเที่ยว" },
+    "meaning": {
+      "en": "hotel",
+      "th": "ที่พักสำหรับนักท่องเที่ยว",
+      "ja": "ホテル"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["place", "accommodation", "thai"],
+    "tags": [
+      "place",
+      "accommodation",
+      "thai"
+    ],
     "frequency": 3800,
     "audio": "voice/th/th_place_rong_raem.mp3",
     "tone": 0,
@@ -1027,7 +1439,10 @@
       {
         "sentence": "โรงแรมนี้ใกล้ทะเลมาก",
         "reading": "rong raem ni klai thale mak",
-        "translation": { "en": "This hotel is very close to the sea.", "th": "โรงแรมนี้ใกล้ทะเลมาก" },
+        "translation": {
+          "en": "This hotel is very close to the sea.",
+          "th": "โรงแรมนี้ใกล้ทะเลมาก"
+        },
         "context": "pier"
       }
     ],
@@ -1039,9 +1454,12 @@
         "th": "วิญญาณสุภาพในชุดพนักงานยกกระเป๋าจิ๋วที่ถือกุญแจห้องเสมอ"
       },
       "rarity": "uncommon",
-      "habitat": ["old_town", "pier"]
+      "habitat": [
+        "old_town",
+        "pier"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_place_sathanthi",
@@ -1049,12 +1467,20 @@
     "written": "สถานที่",
     "reading": "sathanhi",
     "romanization": "sathanhi",
-    "meaning": { "en": "place; location; venue", "th": "สถานที่ทั่วไป" },
+    "meaning": {
+      "en": "place; location; venue",
+      "th": "สถานที่ทั่วไป",
+      "ja": "場所；会場"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["place", "general", "thai"],
+    "tags": [
+      "place",
+      "general",
+      "thai"
+    ],
     "frequency": 4500,
     "audio": "voice/th/th_place_sathanthi.mp3",
     "tone": 4,
@@ -1063,7 +1489,10 @@
       {
         "sentence": "สถานที่นี้สวยมาก",
         "reading": "sathanhi ni suai mak",
-        "translation": { "en": "This place is very beautiful.", "th": "สถานที่นี้สวยมาก" },
+        "translation": {
+          "en": "This place is very beautiful.",
+          "th": "สถานที่นี้สวยมาก"
+        },
         "context": "temple"
       }
     ],
@@ -1075,9 +1504,13 @@
         "th": "วิญญาณรูปหมุดที่ทำเครื่องหมายจุดน่าสนใจบนแผนที่ล่องหน"
       },
       "rarity": "common",
-      "habitat": ["old_town", "temple", "neighbourhood"]
+      "habitat": [
+        "old_town",
+        "temple",
+        "neighbourhood"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_place_thi",
@@ -1085,12 +1518,20 @@
     "written": "ที่",
     "reading": "thi",
     "romanization": "thi",
-    "meaning": { "en": "place; location (general)", "th": "คำระบุสถานที่" },
+    "meaning": {
+      "en": "place; location (general)",
+      "th": "คำระบุสถานที่",
+      "ja": "場所；位置（一般）"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["place", "general", "thai"],
+    "tags": [
+      "place",
+      "general",
+      "thai"
+    ],
     "frequency": 9000,
     "audio": "voice/th/th_place_thi.mp3",
     "tone": 3,
@@ -1099,7 +1540,10 @@
       {
         "sentence": "คุณอยู่ที่ไหน",
         "reading": "khun yuu thi nai",
-        "translation": { "en": "Where are you?", "th": "คุณอยู่ที่ไหน" },
+        "translation": {
+          "en": "Where are you?",
+          "th": "คุณอยู่ที่ไหน"
+        },
         "context": "neighbourhood"
       }
     ],
@@ -1111,9 +1555,14 @@
         "th": "วิญญาณลูกศรล่องลอยจิ๋วที่ชี้ไปยังสถานที่น่าสนใจที่ใกล้ที่สุดเสมอ"
       },
       "rarity": "common",
-      "habitat": ["old_town", "neighbourhood", "temple", "fresh_market"]
+      "habitat": [
+        "old_town",
+        "neighbourhood",
+        "temple",
+        "fresh_market"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_place_khang_nai",
@@ -1121,12 +1570,21 @@
     "written": "ข้างใน",
     "reading": "khang nai",
     "romanization": "khang nai",
-    "meaning": { "en": "inside; interior", "th": "ด้านในของสถานที่" },
+    "meaning": {
+      "en": "inside; interior",
+      "th": "ด้านในของสถานที่",
+      "ja": "内側；中"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["place", "direction", "preposition", "thai"],
+    "tags": [
+      "place",
+      "direction",
+      "preposition",
+      "thai"
+    ],
     "frequency": 4500,
     "audio": "voice/th/th_place_khang_nai.mp3",
     "tone": 3,
@@ -1135,7 +1593,10 @@
       {
         "sentence": "แมวอยู่ข้างในบ้าน",
         "reading": "maeo yuu khang nai baan",
-        "translation": { "en": "The cat is inside the house.", "th": "แมวอยู่ข้างในบ้าน" },
+        "translation": {
+          "en": "The cat is inside the house.",
+          "th": "แมวอยู่ข้างในบ้าน"
+        },
         "context": "neighbourhood"
       }
     ],
@@ -1147,9 +1608,12 @@
         "th": "วิญญาณที่อยู่ในที่ร่มอบอุ่นและซ่อนสมบัติไว้หลังม่าน"
       },
       "rarity": "common",
-      "habitat": ["neighbourhood", "old_town"]
+      "habitat": [
+        "neighbourhood",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_place_khang_nok",
@@ -1157,12 +1621,21 @@
     "written": "ข้างนอก",
     "reading": "khang nok",
     "romanization": "khang nok",
-    "meaning": { "en": "outside; exterior", "th": "ด้านนอกของสถานที่" },
+    "meaning": {
+      "en": "outside; exterior",
+      "th": "ด้านนอกของสถานที่",
+      "ja": "外側；外"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["place", "direction", "preposition", "thai"],
+    "tags": [
+      "place",
+      "direction",
+      "preposition",
+      "thai"
+    ],
     "frequency": 4000,
     "audio": "voice/th/th_place_khang_nok.mp3",
     "tone": 3,
@@ -1171,7 +1644,10 @@
       {
         "sentence": "เด็กๆ เล่นข้างนอก",
         "reading": "dek dek len khang nok",
-        "translation": { "en": "The children are playing outside.", "th": "เด็กๆ เล่นอยู่ข้างนอก" },
+        "translation": {
+          "en": "The children are playing outside.",
+          "th": "เด็กๆ เล่นอยู่ข้างนอก"
+        },
         "context": "neighbourhood"
       }
     ],
@@ -1183,9 +1659,12 @@
         "th": "วิญญาณกลางแจ้งสายลมพัดที่พาอากาศบริสุทธิ์และท้องฟ้าเปิดกว้างเสมอ"
       },
       "rarity": "common",
-      "habitat": ["neighbourhood", "rice_field"]
+      "habitat": [
+        "neighbourhood",
+        "rice_field"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_place_khang_bon",
@@ -1193,12 +1672,20 @@
     "written": "ข้างบน",
     "reading": "khang bon",
     "romanization": "khang bon",
-    "meaning": { "en": "above; upstairs; on top", "th": "ด้านบนหรือชั้นบน" },
+    "meaning": {
+      "en": "above; upstairs; on top",
+      "th": "ด้านบนหรือชั้นบน",
+      "ja": "上；上階"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["place", "direction", "thai"],
+    "tags": [
+      "place",
+      "direction",
+      "thai"
+    ],
     "frequency": 4500,
     "audio": "voice/th/th_place_khang_bon.mp3",
     "tone": 0,
@@ -1207,7 +1694,10 @@
       {
         "sentence": "ห้องนอนอยู่ข้างบน",
         "reading": "hong non yuu khang bon",
-        "translation": { "en": "The bedroom is upstairs.", "th": "ห้องนอนอยู่ชั้นบน" },
+        "translation": {
+          "en": "The bedroom is upstairs.",
+          "th": "ห้องนอนอยู่ชั้นบน"
+        },
         "context": "neighbourhood"
       }
     ],
@@ -1219,9 +1709,12 @@
         "th": "วิญญาณล่องลอยบนเมฆที่ลอยอยู่เหนือหลังคาและรักที่สูง"
       },
       "rarity": "common",
-      "habitat": ["neighbourhood", "temple"]
+      "habitat": [
+        "neighbourhood",
+        "temple"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_place_khang_lang",
@@ -1229,12 +1722,20 @@
     "written": "ข้างล่าง",
     "reading": "khang lang",
     "romanization": "khang lang",
-    "meaning": { "en": "below; downstairs; underneath", "th": "ด้านล่างหรือชั้นล่าง" },
+    "meaning": {
+      "en": "below; downstairs; underneath",
+      "th": "ด้านล่างหรือชั้นล่าง",
+      "ja": "下；下階；下に"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["place", "direction", "thai"],
+    "tags": [
+      "place",
+      "direction",
+      "thai"
+    ],
     "frequency": 4000,
     "audio": "voice/th/th_place_khang_lang.mp3",
     "tone": 2,
@@ -1243,7 +1744,10 @@
       {
         "sentence": "ครัวอยู่ข้างล่าง",
         "reading": "khrua yuu khang lang",
-        "translation": { "en": "The kitchen is downstairs.", "th": "ครัวอยู่ชั้นล่าง" },
+        "translation": {
+          "en": "The kitchen is downstairs.",
+          "th": "ครัวอยู่ชั้นล่าง"
+        },
         "context": "neighbourhood"
       }
     ],
@@ -1255,8 +1759,11 @@
         "th": "วิญญาณดินที่ยึดติดพื้นและรู้ทุกความลับของห้องใต้ดิน"
       },
       "rarity": "common",
-      "habitat": ["neighbourhood", "old_town"]
+      "habitat": [
+        "neighbourhood",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   }
 ]

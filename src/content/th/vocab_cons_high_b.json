@@ -5,12 +5,20 @@
     "written": "ฃ",
     "reading": "ฃอขวด",
     "romanization": "kh",
-    "meaning": { "en": "the bottle — high-class (kh, obsolete in modern Thai)", "th": "ฃอขวด — อักษรสูง เสียงขอ (ไม่ใช้ในปัจจุบัน)" },
+    "meaning": {
+      "en": "the bottle — high-class (kh, obsolete in modern Thai)",
+      "th": "ฃอขวด — อักษรสูง เสียงขอ (ไม่ใช้ในปัจจุบัน)",
+      "ja": "壺（つぼ）— 高子音クラス (kh音、現代タイ語では廃語)"
+    },
     "pos": "character",
     "element": "stone",
     "level": "A1",
     "chapter": 10,
-    "tags": ["thai", "consonant", "high_class"],
+    "tags": [
+      "thai",
+      "consonant",
+      "high_class"
+    ],
     "frequency": 9980,
     "audio": "voice/th/con_khor_khuat.mp3",
     "tone": 0,
@@ -19,19 +27,35 @@
       {
         "sentence": "ขวด (khuat) — bottle",
         "reading": "ขวด",
-        "translation": { "en": "ฃ once represented the bottle (ขวด) but is obsolete — ข replaced it in modern writing.", "th": "ฃ เคยแทนคำว่า ขวด แต่ปัจจุบันไม่ใช้แล้ว ข แทนที่แล้ว" },
+        "translation": {
+          "en": "ฃ once represented the bottle (ขวด) but is obsolete — ข replaced it in modern writing.",
+          "th": "ฃ เคยแทนคำว่า ขวด แต่ปัจจุบันไม่ใช้แล้ว ข แทนที่แล้ว"
+        },
         "context": "fresh_market"
       }
     ],
     "kotodama": {
       "name": "Khuat-Rune",
       "sprite": "kotodama/th_khor_khuat.png",
-      "description": { "en": "A rare high-class spirit that appears in very old texts. It is nearly extinct in modern writing but still carries the crisp rising tone of its class.", "th": "วิญญาณอักษรสูงที่หายากมาก พบได้ในตำราเก่า แต่ยังคงเสียงจัตวาไว้อย่างชัดเจน" },
+      "description": {
+        "en": "A rare high-class spirit that appears in very old texts. It is nearly extinct in modern writing but still carries the crisp rising tone of its class.",
+        "th": "วิญญาณอักษรสูงที่หายากมาก พบได้ในตำราเก่า แต่ยังคงเสียงจัตวาไว้อย่างชัดเจน"
+      },
       "rarity": "rare",
-      "habitat": ["temple", "old_town"],
-      "evolveCondition": { "type": "review_streak", "value": 10 }
+      "habitat": [
+        "temple",
+        "old_town"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 10
+      }
     },
-    "mnemonic": { "en": "ฃ looks like ข with a curved tail — it is the older, rarer sibling that sounds exactly the same.", "th": "ฃ คล้าย ข ที่มีหางโค้ง — เป็นพี่น้องรุ่นเก่าที่หายาก แต่ออกเสียงเหมือนกัน" }
+    "mnemonic": {
+      "en": "ฃ looks like ข with a curved tail — it is the older, rarer sibling that sounds exactly the same.",
+      "th": "ฃ คล้าย ข ที่มีหางโค้ง — เป็นพี่น้องรุ่นเก่าที่หายาก แต่ออกเสียงเหมือนกัน"
+    },
+    "needsReview": false
   },
   {
     "id": "th_con_chor_ching",
@@ -39,12 +63,20 @@
     "written": "ฉ",
     "reading": "ฉอฉิ่ง",
     "romanization": "ch",
-    "meaning": { "en": "the cymbal — high-class (ch sound)", "th": "ฉอฉิ่ง — อักษรสูง เสียงฉอ" },
+    "meaning": {
+      "en": "the cymbal — high-class (ch sound)",
+      "th": "ฉอฉิ่ง — อักษรสูง เสียงฉอ",
+      "ja": "シンバル — 高子音クラス (ch音)"
+    },
     "pos": "character",
     "element": "stone",
     "level": "A1",
     "chapter": 10,
-    "tags": ["thai", "consonant", "high_class"],
+    "tags": [
+      "thai",
+      "consonant",
+      "high_class"
+    ],
     "frequency": 9995,
     "audio": "voice/th/con_chor_ching.mp3",
     "tone": 0,
@@ -53,19 +85,36 @@
       {
         "sentence": "ฉัน (chan) — I (informal, female)",
         "reading": "ฉัน",
-        "translation": { "en": "ฉ starts ฉัน, the informal first-person pronoun used by women.", "th": "ฉ นำคำว่า ฉัน ซึ่งเป็นสรรพนาม บุรุษที่ 1 แบบไม่เป็นทางการสำหรับผู้หญิง" },
+        "translation": {
+          "en": "ฉ starts ฉัน, the informal first-person pronoun used by women.",
+          "th": "ฉ นำคำว่า ฉัน ซึ่งเป็นสรรพนาม บุรุษที่ 1 แบบไม่เป็นทางการสำหรับผู้หญิง"
+        },
         "context": "fresh_market"
       }
     ],
     "kotodama": {
       "name": "Ching-Rune",
       "sprite": "kotodama/th_chor_ching.png",
-      "description": { "en": "A bright, clear-toned high-class spirit that rings like a small cymbal when happy. The ching! sound is its greeting.", "th": "วิญญาณอักษรสูงที่ใสกว่าง เมื่อดีใจจะส่งเสียงดังเหมือนฉิ่ง" },
+      "description": {
+        "en": "A bright, clear-toned high-class spirit that rings like a small cymbal when happy. The ching! sound is its greeting.",
+        "th": "วิญญาณอักษรสูงที่ใสกว่าง เมื่อดีใจจะส่งเสียงดังเหมือนฉิ่ง"
+      },
       "rarity": "common",
-      "habitat": ["fresh_market", "temple", "night_market"],
-      "evolveCondition": { "type": "review_streak", "value": 7 }
+      "habitat": [
+        "fresh_market",
+        "temple",
+        "night_market"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 7
+      }
     },
-    "mnemonic": { "en": "ฉ has an open shape that lets sound escape freely — like the open face of a cymbal vibrating in the air.", "th": "ฉ มีรูปร่างเปิดที่ปล่อยให้เสียงออกมาได้อย่างอิสระ เหมือนหน้าฉิ่งที่สั่นสะเทือน" }
+    "mnemonic": {
+      "en": "ฉ has an open shape that lets sound escape freely — like the open face of a cymbal vibrating in the air.",
+      "th": "ฉ มีรูปร่างเปิดที่ปล่อยให้เสียงออกมาได้อย่างอิสระ เหมือนหน้าฉิ่งที่สั่นสะเทือน"
+    },
+    "needsReview": false
   },
   {
     "id": "th_con_thor_thaan",
@@ -73,12 +122,20 @@
     "written": "ฐ",
     "reading": "ฐอฐาน",
     "romanization": "th",
-    "meaning": { "en": "the pedestal — high-class (aspirated th sound)", "th": "ฐอฐาน — อักษรสูง เสียงถอ (ฐาน)" },
+    "meaning": {
+      "en": "the pedestal — high-class (aspirated th sound)",
+      "th": "ฐอฐาน — อักษรสูง เสียงถอ (ฐาน)",
+      "ja": "台座 — 高子音クラス (有気th音)"
+    },
     "pos": "character",
     "element": "stone",
     "level": "A1",
     "chapter": 10,
-    "tags": ["thai", "consonant", "high_class"],
+    "tags": [
+      "thai",
+      "consonant",
+      "high_class"
+    ],
     "frequency": 9992,
     "audio": "voice/th/con_thor_thaan.mp3",
     "tone": 0,
@@ -87,19 +144,35 @@
       {
         "sentence": "ฐาน (thaan) — base, pedestal",
         "reading": "ฐาน",
-        "translation": { "en": "ฐ starts ฐาน (base/foundation) — the solid base that everything stands on.", "th": "ฐ นำคำว่า ฐาน ซึ่งแปลว่า ฐานรากหรือที่ตั้ง" },
+        "translation": {
+          "en": "ฐ starts ฐาน (base/foundation) — the solid base that everything stands on.",
+          "th": "ฐ นำคำว่า ฐาน ซึ่งแปลว่า ฐานรากหรือที่ตั้ง"
+        },
         "context": "temple"
       }
     ],
     "kotodama": {
       "name": "Thaan-Rune",
       "sprite": "kotodama/th_thor_thaan.png",
-      "description": { "en": "A solid, sturdy high-class spirit that always seems to be standing on something stable. It never wobbles.", "th": "วิญญาณอักษรสูงที่มั่นคง ดูเหมือนยืนอยู่บนฐานที่มั่นเสมอ ไม่เคยสั่นคลอน" },
+      "description": {
+        "en": "A solid, sturdy high-class spirit that always seems to be standing on something stable. It never wobbles.",
+        "th": "วิญญาณอักษรสูงที่มั่นคง ดูเหมือนยืนอยู่บนฐานที่มั่นเสมอ ไม่เคยสั่นคลอน"
+      },
       "rarity": "uncommon",
-      "habitat": ["temple", "old_town"],
-      "evolveCondition": { "type": "review_streak", "value": 7 }
+      "habitat": [
+        "temple",
+        "old_town"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 7
+      }
     },
-    "mnemonic": { "en": "ฐ has a wide flat base — just like the pedestal it represents. Everything above it is supported.", "th": "ฐ มีฐานกว้างราบเรียบ เหมือนฐานรองรับที่ค้ำยันทุกอย่างข้างบน" }
+    "mnemonic": {
+      "en": "ฐ has a wide flat base — just like the pedestal it represents. Everything above it is supported.",
+      "th": "ฐ มีฐานกว้างราบเรียบ เหมือนฐานรองรับที่ค้ำยันทุกอย่างข้างบน"
+    },
+    "needsReview": false
   },
   {
     "id": "th_con_thor_thung",
@@ -107,12 +180,20 @@
     "written": "ถ",
     "reading": "ถอถุง",
     "romanization": "th",
-    "meaning": { "en": "the bag — high-class (aspirated th sound)", "th": "ถอถุง — อักษรสูง เสียงถอ (ถุง)" },
+    "meaning": {
+      "en": "the bag — high-class (aspirated th sound)",
+      "th": "ถอถุง — อักษรสูง เสียงถอ (ถุง)",
+      "ja": "袋 — 高子音クラス (有気th音)"
+    },
     "pos": "character",
     "element": "stone",
     "level": "A1",
     "chapter": 10,
-    "tags": ["thai", "consonant", "high_class"],
+    "tags": [
+      "thai",
+      "consonant",
+      "high_class"
+    ],
     "frequency": 9994,
     "audio": "voice/th/con_thor_thung.mp3",
     "tone": 0,
@@ -121,19 +202,35 @@
       {
         "sentence": "ถุง (thung) — bag, sack",
         "reading": "ถุง",
-        "translation": { "en": "ถ starts ถุง (bag) — you will see this on every market day.", "th": "ถ นำคำว่า ถุง ซึ่งพบได้ทั่วไปในวันตลาด" },
+        "translation": {
+          "en": "ถ starts ถุง (bag) — you will see this on every market day.",
+          "th": "ถ นำคำว่า ถุง ซึ่งพบได้ทั่วไปในวันตลาด"
+        },
         "context": "fresh_market"
       }
     ],
     "kotodama": {
       "name": "Thung-Rune",
       "sprite": "kotodama/th_thor_thung.png",
-      "description": { "en": "A round, bulging high-class spirit that seems to always be carrying something inside. It shares the aspirated 'th' sound with ฐ but is far more common.", "th": "วิญญาณอักษรสูงที่กลมป่อง ดูเหมือนพกพาบางอย่างอยู่ภายในเสมอ" },
+      "description": {
+        "en": "A round, bulging high-class spirit that seems to always be carrying something inside. It shares the aspirated 'th' sound with ฐ but is far more common.",
+        "th": "วิญญาณอักษรสูงที่กลมป่อง ดูเหมือนพกพาบางอย่างอยู่ภายในเสมอ"
+      },
       "rarity": "common",
-      "habitat": ["fresh_market", "night_market"],
-      "evolveCondition": { "type": "review_streak", "value": 7 }
+      "habitat": [
+        "fresh_market",
+        "night_market"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 7
+      }
     },
-    "mnemonic": { "en": "ถ has a round belly shape — just like a bag stuffed full of market goods.", "th": "ถ มีท้องกลม เหมือนถุงที่ยัดเต็มของจากตลาด" }
+    "mnemonic": {
+      "en": "ถ has a round belly shape — just like a bag stuffed full of market goods.",
+      "th": "ถ มีท้องกลม เหมือนถุงที่ยัดเต็มของจากตลาด"
+    },
+    "needsReview": false
   },
   {
     "id": "th_con_phor_phueng",
@@ -141,12 +238,20 @@
     "written": "ผ",
     "reading": "ผอผึ้ง",
     "romanization": "ph",
-    "meaning": { "en": "the bee — high-class (aspirated ph sound)", "th": "ผอผึ้ง — อักษรสูง เสียงผอ" },
+    "meaning": {
+      "en": "the bee — high-class (aspirated ph sound)",
+      "th": "ผอผึ้ง — อักษรสูง เสียงผอ",
+      "ja": "蜂 — 高子音クラス (有気ph音)"
+    },
     "pos": "character",
     "element": "stone",
     "level": "A1",
     "chapter": 10,
-    "tags": ["thai", "consonant", "high_class"],
+    "tags": [
+      "thai",
+      "consonant",
+      "high_class"
+    ],
     "frequency": 9993,
     "audio": "voice/th/con_phor_phueng.mp3",
     "tone": 0,
@@ -155,18 +260,34 @@
       {
         "sentence": "ผึ้ง (phueng) — bee",
         "reading": "ผึ้ง",
-        "translation": { "en": "ผ starts ผึ้ง (bee) — and like a bee, the rising tone of ผ has a bright sting.", "th": "ผ นำคำว่า ผึ้ง และเหมือนผึ้ง เสียงจัตวาของ ผ ก็มีความกระฉับกระเฉง" },
+        "translation": {
+          "en": "ผ starts ผึ้ง (bee) — and like a bee, the rising tone of ผ has a bright sting.",
+          "th": "ผ นำคำว่า ผึ้ง และเหมือนผึ้ง เสียงจัตวาของ ผ ก็มีความกระฉับกระเฉง"
+        },
         "context": "rice_field"
       }
     ],
     "kotodama": {
       "name": "Phueng-Rune",
       "sprite": "kotodama/th_phor_phueng.png",
-      "description": { "en": "A buzzing high-class spirit with tiny wings. Its rising-tone hum can be heard before it arrives.", "th": "วิญญาณอักษรสูงที่羽翼สั่นพลิ้ว ได้ยินเสียงจัตวาของมันก่อนที่จะมาถึง" },
+      "description": {
+        "en": "A buzzing high-class spirit with tiny wings. Its rising-tone hum can be heard before it arrives.",
+        "th": "วิญญาณอักษรสูงที่羽翼สั่นพลิ้ว ได้ยินเสียงจัตวาของมันก่อนที่จะมาถึง"
+      },
       "rarity": "common",
-      "habitat": ["rice_field", "temple"],
-      "evolveCondition": { "type": "review_streak", "value": 7 }
+      "habitat": [
+        "rice_field",
+        "temple"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 7
+      }
     },
-    "mnemonic": { "en": "ผ has a wing-like shape on the right — the bee's wing that carries it up on a rising tone.", "th": "ผ มีรูปทรงคล้ายปีกทางขวา — ปีกผึ้งที่พาขึ้นสูงตามเสียงจัตวา" }
+    "mnemonic": {
+      "en": "ผ has a wing-like shape on the right — the bee's wing that carries it up on a rising tone.",
+      "th": "ผ มีรูปทรงคล้ายปีกทางขวา — ปีกผึ้งที่พาขึ้นสูงตามเสียงจัตวา"
+    },
+    "needsReview": false
   }
 ]

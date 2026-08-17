@@ -5,12 +5,20 @@
     "written": "เช้า",
     "reading": "chao",
     "romanization": "chao",
-    "meaning": { "en": "morning", "th": "ช่วงเวลาตั้งแต่รุ่งอรุณถึงสาย" },
+    "meaning": {
+      "en": "morning",
+      "th": "ช่วงเวลาตั้งแต่รุ่งอรุณถึงสาย",
+      "ja": "朝"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["time", "time-of-day", "thai"],
+    "tags": [
+      "time",
+      "time-of-day",
+      "thai"
+    ],
     "frequency": 5000,
     "audio": "voice/th/th_time_chao.mp3",
     "tone": 3,
@@ -19,7 +27,10 @@
       {
         "sentence": "ฉันตื่นเช้าทุกวัน",
         "reading": "chan tuen chao thuk wan",
-        "translation": { "en": "I wake up early every morning.", "th": "ฉันตื่นแต่เช้าทุกวัน" },
+        "translation": {
+          "en": "I wake up early every morning.",
+          "th": "ฉันตื่นแต่เช้าทุกวัน"
+        },
         "context": "rice_field"
       }
     ],
@@ -31,9 +42,13 @@
         "th": "วิญญาณสีทองอ่อนที่ขึ้นพร้อมดวงอาทิตย์และร้องปลุกนกตัวแรก"
       },
       "rarity": "common",
-      "habitat": ["rice_field", "temple", "old_town"]
+      "habitat": [
+        "rice_field",
+        "temple",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_time_sai",
@@ -41,12 +56,20 @@
     "written": "สาย",
     "reading": "sai",
     "romanization": "sai",
-    "meaning": { "en": "late morning (around 9–11 AM)", "th": "ช่วงเวลาประมาณ 9–11 โมง" },
+    "meaning": {
+      "en": "late morning (around 9–11 AM)",
+      "th": "ช่วงเวลาประมาณ 9–11 โมง",
+      "ja": "朝遅い時間（9〜11時頃）"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["time", "time-of-day", "thai"],
+    "tags": [
+      "time",
+      "time-of-day",
+      "thai"
+    ],
     "frequency": 2500,
     "audio": "voice/th/th_time_sai.mp3",
     "tone": 4,
@@ -55,7 +78,10 @@
       {
         "sentence": "ตลาดคึกคักตอนสาย",
         "reading": "talat khuekkhak ton sai",
-        "translation": { "en": "The market is lively in the late morning.", "th": "ตลาดคึกคักตอนสาย" },
+        "translation": {
+          "en": "The market is lively in the late morning.",
+          "th": "ตลาดคึกคักตอนสาย"
+        },
         "context": "fresh_market"
       }
     ],
@@ -67,9 +93,12 @@
         "th": "วิญญาณสีอำพันอุ่นที่แผ่ตัวอย่างสบายๆ หลังพระอาทิตย์ขึ้นแต่ก่อนเที่ยง"
       },
       "rarity": "common",
-      "habitat": ["fresh_market", "floating_market"]
+      "habitat": [
+        "fresh_market",
+        "floating_market"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_time_thiang",
@@ -77,12 +106,20 @@
     "written": "เที่ยง",
     "reading": "thiang",
     "romanization": "thiang",
-    "meaning": { "en": "noon; midday", "th": "เวลา 12.00 น." },
+    "meaning": {
+      "en": "noon; midday",
+      "th": "เวลา 12.00 น.",
+      "ja": "正午；昼"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["time", "time-of-day", "thai"],
+    "tags": [
+      "time",
+      "time-of-day",
+      "thai"
+    ],
     "frequency": 3500,
     "audio": "voice/th/th_time_thiang.mp3",
     "tone": 1,
@@ -91,7 +128,10 @@
       {
         "sentence": "มาทานข้าวเที่ยงด้วยกันไหม",
         "reading": "ma than khaao thiang duai kan mai",
-        "translation": { "en": "Want to have lunch together?", "th": "มารับประทานข้าวเที่ยงด้วยกันไหม" },
+        "translation": {
+          "en": "Want to have lunch together?",
+          "th": "มารับประทานข้าวเที่ยงด้วยกันไหม"
+        },
         "context": "fresh_market"
       }
     ],
@@ -103,9 +143,12 @@
         "th": "วิญญาณสีขาวสุกที่หยุดนิ่งอยู่จุดสูงสุดบนท้องฟ้า"
       },
       "rarity": "common",
-      "habitat": ["fresh_market", "rice_field"]
+      "habitat": [
+        "fresh_market",
+        "rice_field"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_time_bai",
@@ -113,12 +156,20 @@
     "written": "บ่าย",
     "reading": "bai",
     "romanization": "bai",
-    "meaning": { "en": "afternoon (1–5 PM)", "th": "ช่วงเวลาหลังเที่ยงถึงเย็น" },
+    "meaning": {
+      "en": "afternoon (1–5 PM)",
+      "th": "ช่วงเวลาหลังเที่ยงถึงเย็น",
+      "ja": "午後（13〜17時）"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["time", "time-of-day", "thai"],
+    "tags": [
+      "time",
+      "time-of-day",
+      "thai"
+    ],
     "frequency": 3000,
     "audio": "voice/th/th_time_bai.mp3",
     "tone": 1,
@@ -127,7 +178,10 @@
       {
         "sentence": "บ่ายนี้ฝนตกหนักมาก",
         "reading": "bai ni fon tok nak mak",
-        "translation": { "en": "This afternoon it rained heavily.", "th": "บ่ายนี้ฝนตกหนักมาก" },
+        "translation": {
+          "en": "This afternoon it rained heavily.",
+          "th": "บ่ายนี้ฝนตกหนักมาก"
+        },
         "context": "rice_field"
       }
     ],
@@ -139,9 +193,12 @@
         "th": "วิญญาณสีส้มทองที่เงามันยาวขึ้นเมื่อเคลื่อนไปทางตะวันตก"
       },
       "rarity": "common",
-      "habitat": ["rice_field", "old_town"]
+      "habitat": [
+        "rice_field",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_time_yen",
@@ -149,12 +206,20 @@
     "written": "เย็น",
     "reading": "yen",
     "romanization": "yen",
-    "meaning": { "en": "evening; late afternoon", "th": "ช่วงเวลาก่อนค่ำ ประมาณ 17–19 น." },
+    "meaning": {
+      "en": "evening; late afternoon",
+      "th": "ช่วงเวลาก่อนค่ำ ประมาณ 17–19 น.",
+      "ja": "夕方；夕暮れ"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["time", "time-of-day", "thai"],
+    "tags": [
+      "time",
+      "time-of-day",
+      "thai"
+    ],
     "frequency": 4500,
     "audio": "voice/th/th_time_yen.mp3",
     "tone": 0,
@@ -163,7 +228,10 @@
       {
         "sentence": "เย็นนี้ไปตลาดนัดกันไหม",
         "reading": "yen ni pai talat nat kan mai",
-        "translation": { "en": "Shall we go to the market this evening?", "th": "เย็นนี้ไปตลาดนัดกันไหม" },
+        "translation": {
+          "en": "Shall we go to the market this evening?",
+          "th": "เย็นนี้ไปตลาดนัดกันไหม"
+        },
         "context": "night_market"
       }
     ],
@@ -175,9 +243,13 @@
         "th": "วิญญาณสีลาเวนเดอร์ที่พาสายลมอ่อนๆ ตามทุกที่ที่ลอยไป"
       },
       "rarity": "common",
-      "habitat": ["night_market", "floating_market", "pier"]
+      "habitat": [
+        "night_market",
+        "floating_market",
+        "pier"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_time_klang_khuen",
@@ -185,12 +257,20 @@
     "written": "กลางคืน",
     "reading": "klang khuen",
     "romanization": "klang khuen",
-    "meaning": { "en": "night; nighttime", "th": "ช่วงเวลาหลังพระอาทิตย์ตกถึงรุ่งอรุณ" },
+    "meaning": {
+      "en": "night; nighttime",
+      "th": "ช่วงเวลาหลังพระอาทิตย์ตกถึงรุ่งอรุณ",
+      "ja": "夜；夜間"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["time", "time-of-day", "thai"],
+    "tags": [
+      "time",
+      "time-of-day",
+      "thai"
+    ],
     "frequency": 4000,
     "audio": "voice/th/th_time_klangkhuen.mp3",
     "tone": 0,
@@ -199,7 +279,10 @@
       {
         "sentence": "กลางคืนท้องฟ้าเต็มไปด้วยดาว",
         "reading": "klang khuen thong fa tem pai duai dao",
-        "translation": { "en": "At night the sky is full of stars.", "th": "กลางคืนท้องฟ้าเต็มไปด้วยดาว" },
+        "translation": {
+          "en": "At night the sky is full of stars.",
+          "th": "กลางคืนท้องฟ้าเต็มไปด้วยดาว"
+        },
         "context": "rice_field"
       }
     ],
@@ -211,9 +294,13 @@
         "th": "วิญญาณสีน้ำเงินเข้มประดับด้วยจุดเงิน มองเห็นได้หลังมืดเท่านั้น"
       },
       "rarity": "uncommon",
-      "habitat": ["rice_field", "temple", "pier"]
+      "habitat": [
+        "rice_field",
+        "temple",
+        "pier"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_time_thiang_khuen",
@@ -221,12 +308,20 @@
     "written": "เที่ยงคืน",
     "reading": "thiang khuen",
     "romanization": "thiang khuen",
-    "meaning": { "en": "midnight", "th": "เวลา 00.00 น." },
+    "meaning": {
+      "en": "midnight",
+      "th": "เวลา 00.00 น.",
+      "ja": "真夜中；午前零時"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["time", "time-of-day", "thai"],
+    "tags": [
+      "time",
+      "time-of-day",
+      "thai"
+    ],
     "frequency": 2000,
     "audio": "voice/th/th_time_thiangkhuen.mp3",
     "tone": 1,
@@ -235,7 +330,10 @@
       {
         "sentence": "อย่าออกไปคนเดียวตอนเที่ยงคืน",
         "reading": "ya ok pai khon diao ton thiang khuen",
-        "translation": { "en": "Don't go out alone at midnight.", "th": "อย่าออกไปคนเดียวตอนเที่ยงคืน" },
+        "translation": {
+          "en": "Don't go out alone at midnight.",
+          "th": "อย่าออกไปคนเดียวตอนเที่ยงคืน"
+        },
         "context": "old_town"
       }
     ],
@@ -247,9 +345,12 @@
         "th": "วิญญาณที่นิ่งสงบสมบูรณ์แบบ ดำรงอยู่เฉพาะในจุดเปลี่ยนระหว่างสองวัน"
       },
       "rarity": "rare",
-      "habitat": ["temple", "old_town"]
+      "habitat": [
+        "temple",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_time_wan_ni",
@@ -257,12 +358,20 @@
     "written": "วันนี้",
     "reading": "wan ni",
     "romanization": "wan ni",
-    "meaning": { "en": "today", "th": "วันที่กำลังเป็นอยู่ขณะนี้" },
+    "meaning": {
+      "en": "today",
+      "th": "วันที่กำลังเป็นอยู่ขณะนี้",
+      "ja": "今日"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["time", "relative-time", "thai"],
+    "tags": [
+      "time",
+      "relative-time",
+      "thai"
+    ],
     "frequency": 6000,
     "audio": "voice/th/th_time_wanni.mp3",
     "tone": 0,
@@ -271,7 +380,10 @@
       {
         "sentence": "วันนี้อากาศดีมาก",
         "reading": "wan ni akat di mak",
-        "translation": { "en": "The weather is very nice today.", "th": "วันนี้อากาศดีมาก" },
+        "translation": {
+          "en": "The weather is very nice today.",
+          "th": "วันนี้อากาศดีมาก"
+        },
         "context": "rice_field"
       }
     ],
@@ -283,9 +395,13 @@
         "th": "วิญญาณสดใสที่มีอยู่เฉพาะในปัจจุบันและจับไม่ได้"
       },
       "rarity": "common",
-      "habitat": ["fresh_market", "old_town", "floating_market"]
+      "habitat": [
+        "fresh_market",
+        "old_town",
+        "floating_market"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_time_phrung_ni",
@@ -293,12 +409,20 @@
     "written": "พรุ่งนี้",
     "reading": "phrung ni",
     "romanization": "phrung ni",
-    "meaning": { "en": "tomorrow", "th": "วันถัดจากวันนี้" },
+    "meaning": {
+      "en": "tomorrow",
+      "th": "วันถัดจากวันนี้",
+      "ja": "明日"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["time", "relative-time", "thai"],
+    "tags": [
+      "time",
+      "relative-time",
+      "thai"
+    ],
     "frequency": 5500,
     "audio": "voice/th/th_time_phrungni.mp3",
     "tone": 3,
@@ -307,7 +431,10 @@
       {
         "sentence": "พรุ่งนี้เราไปตลาดนะ",
         "reading": "phrung ni rao pai talat na",
-        "translation": { "en": "Tomorrow we'll go to the market.", "th": "พรุ่งนี้เราไปตลาดกันนะ" },
+        "translation": {
+          "en": "Tomorrow we'll go to the market.",
+          "th": "พรุ่งนี้เราไปตลาดกันนะ"
+        },
         "context": "fresh_market"
       }
     ],
@@ -319,9 +446,12 @@
         "th": "วิญญาณสีรุ่งอรุณที่คลุมเครือซึ่งอยู่เกือบถึงมือแต่ก็คว้าไม่ได้"
       },
       "rarity": "common",
-      "habitat": ["rice_field", "old_town"]
+      "habitat": [
+        "rice_field",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_time_muea_wan",
@@ -329,12 +459,20 @@
     "written": "เมื่อวาน",
     "reading": "muea wan",
     "romanization": "muea wan",
-    "meaning": { "en": "yesterday", "th": "วันก่อนหน้าวันนี้" },
+    "meaning": {
+      "en": "yesterday",
+      "th": "วันก่อนหน้าวันนี้",
+      "ja": "昨日"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["time", "relative-time", "thai"],
+    "tags": [
+      "time",
+      "relative-time",
+      "thai"
+    ],
     "frequency": 5000,
     "audio": "voice/th/th_time_mueawan.mp3",
     "tone": 1,
@@ -343,7 +481,10 @@
       {
         "sentence": "เมื่อวานฝนตกหนัก",
         "reading": "muea wan fon tok nak",
-        "translation": { "en": "Yesterday it rained heavily.", "th": "เมื่อวานฝนตกหนัก" },
+        "translation": {
+          "en": "Yesterday it rained heavily.",
+          "th": "เมื่อวานฝนตกหนัก"
+        },
         "context": "rice_field"
       }
     ],
@@ -355,9 +496,12 @@
         "th": "วิญญาณสีซีเปียที่ทิ้งร่องรอยความทรงจำไปทุกที่ที่ผ่าน"
       },
       "rarity": "common",
-      "habitat": ["old_town", "temple"]
+      "habitat": [
+        "old_town",
+        "temple"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_time_diao",
@@ -365,12 +509,20 @@
     "written": "เดี๋ยว",
     "reading": "diao",
     "romanization": "diao",
-    "meaning": { "en": "in a moment; soon; shortly", "th": "ในอีกสักครู่" },
+    "meaning": {
+      "en": "in a moment; soon; shortly",
+      "th": "ในอีกสักครู่",
+      "ja": "すぐに；もうすぐ"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["time", "relative-time", "thai"],
+    "tags": [
+      "time",
+      "relative-time",
+      "thai"
+    ],
     "frequency": 4500,
     "audio": "voice/th/th_time_diao.mp3",
     "tone": 1,
@@ -379,7 +531,10 @@
       {
         "sentence": "เดี๋ยวจะมาถึงแล้ว",
         "reading": "diao ja ma thueng laeo",
-        "translation": { "en": "It will arrive in a moment.", "th": "อีกสักครู่จะมาถึงแล้ว" },
+        "translation": {
+          "en": "It will arrive in a moment.",
+          "th": "อีกสักครู่จะมาถึงแล้ว"
+        },
         "context": "pier"
       }
     ],
@@ -391,9 +546,13 @@
         "th": "วิญญาณจิ๋วที่กะพริบเข้าออก กะพริบตาแล้วหายไปเลย"
       },
       "rarity": "common",
-      "habitat": ["pier", "night_market", "fresh_market"]
+      "habitat": [
+        "pier",
+        "night_market",
+        "fresh_market"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_time_than_thi",
@@ -401,12 +560,20 @@
     "written": "ทันที",
     "reading": "than thi",
     "romanization": "than thi",
-    "meaning": { "en": "immediately; right away; at once", "th": "โดยไม่รอช้า" },
+    "meaning": {
+      "en": "immediately; right away; at once",
+      "th": "โดยไม่รอช้า",
+      "ja": "すぐに；ただちに；今すぐ"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["time", "relative-time", "thai"],
+    "tags": [
+      "time",
+      "relative-time",
+      "thai"
+    ],
     "frequency": 3500,
     "audio": "voice/th/th_time_thanthi.mp3",
     "tone": 0,
@@ -415,7 +582,10 @@
       {
         "sentence": "กรุณาตอบทันที",
         "reading": "karuna top than thi",
-        "translation": { "en": "Please reply immediately.", "th": "กรุณาตอบโดยทันที" },
+        "translation": {
+          "en": "Please reply immediately.",
+          "th": "กรุณาตอบโดยทันที"
+        },
         "context": "old_town"
       }
     ],
@@ -427,9 +597,12 @@
         "th": "วิญญาณเร็วฉับพลันที่ไม่เคยรอและเกลียดการรอคอย"
       },
       "rarity": "uncommon",
-      "habitat": ["old_town", "pier"]
+      "habitat": [
+        "old_town",
+        "pier"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_time_reo_ni",
@@ -437,12 +610,20 @@
     "written": "เร็วๆนี้",
     "reading": "reo reo ni",
     "romanization": "reo reo ni",
-    "meaning": { "en": "soon; in the near future", "th": "ในเวลาอันใกล้" },
+    "meaning": {
+      "en": "soon; in the near future",
+      "th": "ในเวลาอันใกล้",
+      "ja": "近いうちに；そのうちに"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["time", "relative-time", "thai"],
+    "tags": [
+      "time",
+      "relative-time",
+      "thai"
+    ],
     "frequency": 3000,
     "audio": "voice/th/th_time_reoni.mp3",
     "tone": 3,
@@ -451,7 +632,10 @@
       {
         "sentence": "เร็วๆนี้จะมีงานเทศกาล",
         "reading": "reo reo ni ja mi ngan thetsakal",
-        "translation": { "en": "There will be a festival soon.", "th": "เร็วๆนี้จะมีงานเทศกาล" },
+        "translation": {
+          "en": "There will be a festival soon.",
+          "th": "เร็วๆนี้จะมีงานเทศกาล"
+        },
         "context": "old_town"
       }
     ],
@@ -463,9 +647,12 @@
         "th": "วิญญาณที่อยู่บนขอบฟ้าเสมอ เข้ามาใกล้และใหญ่ขึ้นเรื่อยๆ"
       },
       "rarity": "common",
-      "habitat": ["rice_field", "old_town"]
+      "habitat": [
+        "rice_field",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_time_muea_ki",
@@ -473,12 +660,20 @@
     "written": "เมื่อกี้",
     "reading": "muea ki",
     "romanization": "muea ki",
-    "meaning": { "en": "just now; a moment ago", "th": "เมื่อสักครู่นี้" },
+    "meaning": {
+      "en": "just now; a moment ago",
+      "th": "เมื่อสักครู่นี้",
+      "ja": "さっき；少し前"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["time", "relative-time", "thai"],
+    "tags": [
+      "time",
+      "relative-time",
+      "thai"
+    ],
     "frequency": 3200,
     "audio": "voice/th/th_time_mueaki.mp3",
     "tone": 1,
@@ -487,7 +682,10 @@
       {
         "sentence": "เมื่อกี้เธออยู่ที่นี่",
         "reading": "muea ki thoe yu thi ni",
-        "translation": { "en": "She was here just a moment ago.", "th": "เมื่อกี้เธออยู่ที่นี่" },
+        "translation": {
+          "en": "She was here just a moment ago.",
+          "th": "เมื่อกี้เธออยู่ที่นี่"
+        },
         "context": "floating_market"
       }
     ],
@@ -499,9 +697,12 @@
         "th": "วิญญาณที่ทิ้งรอยจางๆ ไว้ เป็นหลักฐานว่าเพิ่งอยู่ที่นี่เมื่อสักครู่"
       },
       "rarity": "common",
-      "habitat": ["floating_market", "old_town"]
+      "habitat": [
+        "floating_market",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_time_to_pai",
@@ -509,12 +710,21 @@
     "written": "ต่อไป",
     "reading": "to pai",
     "romanization": "to pai",
-    "meaning": { "en": "next; afterwards; going forward", "th": "ในลำดับต่อไป" },
+    "meaning": {
+      "en": "next; afterwards; going forward",
+      "th": "ในลำดับต่อไป",
+      "ja": "次に；その後；今後"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["time", "relative-time", "sequence", "thai"],
+    "tags": [
+      "time",
+      "relative-time",
+      "sequence",
+      "thai"
+    ],
     "frequency": 4000,
     "audio": "voice/th/th_time_topai.mp3",
     "tone": 1,
@@ -523,7 +733,10 @@
       {
         "sentence": "ต่อไปจะเรียนคำศัพท์ใหม่",
         "reading": "to pai ja rian kham sap mai",
-        "translation": { "en": "Next, we will study new vocabulary.", "th": "ต่อไปจะเรียนคำศัพท์ใหม่" },
+        "translation": {
+          "en": "Next, we will study new vocabulary.",
+          "th": "ต่อไปจะเรียนคำศัพท์ใหม่"
+        },
         "context": "old_town"
       }
     ],
@@ -535,9 +748,12 @@
         "th": "วิญญาณรูปลูกศรที่หันหน้าไปในทิศทางของความก้าวหน้าเสมอ"
       },
       "rarity": "common",
-      "habitat": ["old_town", "pier"]
+      "habitat": [
+        "old_town",
+        "pier"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_time_kon",
@@ -545,12 +761,21 @@
     "written": "ก่อน",
     "reading": "kon",
     "romanization": "kon",
-    "meaning": { "en": "before; first; prior", "th": "ก่อนหน้าสิ่งอื่น" },
+    "meaning": {
+      "en": "before; first; prior",
+      "th": "ก่อนหน้าสิ่งอื่น",
+      "ja": "前に；先に；以前"
+    },
     "pos": "particle",
     "element": "echo",
     "level": "A1",
     "chapter": 10,
-    "tags": ["time", "sequence", "particle", "thai"],
+    "tags": [
+      "time",
+      "sequence",
+      "particle",
+      "thai"
+    ],
     "frequency": 5000,
     "audio": "voice/th/th_time_kon.mp3",
     "tone": 1,
@@ -559,7 +784,10 @@
       {
         "sentence": "ล้างมือก่อนกินข้าว",
         "reading": "lang mue kon gin khaao",
-        "translation": { "en": "Wash your hands before eating.", "th": "ล้างมือก่อนรับประทานอาหาร" },
+        "translation": {
+          "en": "Wash your hands before eating.",
+          "th": "ล้างมือก่อนรับประทานอาหาร"
+        },
         "context": "fresh_market"
       }
     ],
@@ -571,9 +799,12 @@
         "th": "วิญญาณที่ก้าวขึ้นมาข้างหน้าทุกอย่าง คอยทำเครื่องหมายจุดเริ่มต้น"
       },
       "rarity": "common",
-      "habitat": ["temple", "old_town"]
+      "habitat": [
+        "temple",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_time_lang",
@@ -581,12 +812,21 @@
     "written": "หลัง",
     "reading": "lang",
     "romanization": "lang",
-    "meaning": { "en": "after; following; behind (time)", "th": "หลังจากสิ่งนั้น" },
+    "meaning": {
+      "en": "after; following; behind (time)",
+      "th": "หลังจากสิ่งนั้น",
+      "ja": "後に；その後；後ろ（時間）"
+    },
     "pos": "particle",
     "element": "echo",
     "level": "A1",
     "chapter": 10,
-    "tags": ["time", "sequence", "particle", "thai"],
+    "tags": [
+      "time",
+      "sequence",
+      "particle",
+      "thai"
+    ],
     "frequency": 4800,
     "audio": "voice/th/th_time_lang_particle.mp3",
     "tone": 4,
@@ -595,7 +835,10 @@
       {
         "sentence": "พักผ่อนหลังกินข้าว",
         "reading": "phak phon lang gin khaao",
-        "translation": { "en": "Rest after eating.", "th": "พักผ่อนหลังรับประทานอาหาร" },
+        "translation": {
+          "en": "Rest after eating.",
+          "th": "พักผ่อนหลังรับประทานอาหาร"
+        },
         "context": "old_town"
       }
     ],
@@ -607,9 +850,12 @@
         "th": "วิญญาณที่โผล่ออกมาเฉพาะหลังจากที่บางสิ่งผ่านไปแล้ว"
       },
       "rarity": "common",
-      "habitat": ["temple", "old_town"]
+      "habitat": [
+        "temple",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_time_ton_ni",
@@ -617,12 +863,20 @@
     "written": "ตอนนี้",
     "reading": "ton ni",
     "romanization": "ton ni",
-    "meaning": { "en": "now; at this moment; currently", "th": "ในขณะนี้" },
+    "meaning": {
+      "en": "now; at this moment; currently",
+      "th": "ในขณะนี้",
+      "ja": "今；現在；今現在"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["time", "relative-time", "thai"],
+    "tags": [
+      "time",
+      "relative-time",
+      "thai"
+    ],
     "frequency": 6500,
     "audio": "voice/th/th_time_tonni.mp3",
     "tone": 0,
@@ -631,7 +885,10 @@
       {
         "sentence": "ตอนนี้ฉันกำลังเรียนภาษาไทย",
         "reading": "ton ni chan kamlang rian phasa thai",
-        "translation": { "en": "Right now I am studying Thai.", "th": "ตอนนี้ฉันกำลังเรียนภาษาไทย" },
+        "translation": {
+          "en": "Right now I am studying Thai.",
+          "th": "ตอนนี้ฉันกำลังเรียนภาษาไทย"
+        },
         "context": "old_town"
       }
     ],
@@ -643,9 +900,13 @@
         "th": "วิญญาณเปล่งแสงสม่ำเสมอที่เต้นพร้อมกับปัจจุบันขณะอย่างสมบูรณ์"
       },
       "rarity": "common",
-      "habitat": ["old_town", "fresh_market", "floating_market"]
+      "habitat": [
+        "old_town",
+        "fresh_market",
+        "floating_market"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_time_bang_khrang",
@@ -653,12 +914,20 @@
     "written": "บางครั้ง",
     "reading": "bang khrang",
     "romanization": "bang khrang",
-    "meaning": { "en": "sometimes; occasionally", "th": "บางโอกาส" },
+    "meaning": {
+      "en": "sometimes; occasionally",
+      "th": "บางโอกาส",
+      "ja": "時々；たまに"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["time", "frequency", "thai"],
+    "tags": [
+      "time",
+      "frequency",
+      "thai"
+    ],
     "frequency": 4000,
     "audio": "voice/th/th_time_bangkhrang.mp3",
     "tone": 0,
@@ -667,7 +936,10 @@
       {
         "sentence": "บางครั้งฉันไปตลาดตอนเช้า",
         "reading": "bang khrang chan pai talat ton chao",
-        "translation": { "en": "Sometimes I go to the market in the morning.", "th": "บางครั้งฉันไปตลาดตอนเช้า" },
+        "translation": {
+          "en": "Sometimes I go to the market in the morning.",
+          "th": "บางครั้งฉันไปตลาดตอนเช้า"
+        },
         "context": "fresh_market"
       }
     ],
@@ -679,9 +951,12 @@
         "th": "วิญญาณที่คาดเดาไม่ได้ โผล่ออกมาเมื่อรู้สึกอยากเท่านั้น"
       },
       "rarity": "common",
-      "habitat": ["floating_market", "night_market"]
+      "habitat": [
+        "floating_market",
+        "night_market"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_time_boi",
@@ -689,12 +964,20 @@
     "written": "บ่อยๆ",
     "reading": "boi boi",
     "romanization": "boi boi",
-    "meaning": { "en": "often; frequently", "th": "หลายครั้ง บ่อยครั้ง" },
+    "meaning": {
+      "en": "often; frequently",
+      "th": "หลายครั้ง บ่อยครั้ง",
+      "ja": "よく；しばしば；頻繁に"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["time", "frequency", "thai"],
+    "tags": [
+      "time",
+      "frequency",
+      "thai"
+    ],
     "frequency": 3800,
     "audio": "voice/th/th_time_boi.mp3",
     "tone": 1,
@@ -703,7 +986,10 @@
       {
         "sentence": "เธอมาร้านนี้บ่อยๆ",
         "reading": "thoe ma ran ni boi boi",
-        "translation": { "en": "She comes to this shop often.", "th": "เธอมาร้านนี้บ่อยๆ" },
+        "translation": {
+          "en": "She comes to this shop often.",
+          "th": "เธอมาร้านนี้บ่อยๆ"
+        },
         "context": "night_market"
       }
     ],
@@ -715,9 +1001,12 @@
         "th": "วิญญาณที่กระโดดและวนกลับมายังจุดเดิมซ้ำแล้วซ้ำเล่า"
       },
       "rarity": "common",
-      "habitat": ["night_market", "fresh_market"]
+      "habitat": [
+        "night_market",
+        "fresh_market"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_time_samoe",
@@ -725,12 +1014,20 @@
     "written": "เสมอ",
     "reading": "samoe",
     "romanization": "samoe",
-    "meaning": { "en": "always; consistently; ever", "th": "ตลอดเวลา ทุกครั้ง" },
+    "meaning": {
+      "en": "always; consistently; ever",
+      "th": "ตลอดเวลา ทุกครั้ง",
+      "ja": "いつも；常に"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["time", "frequency", "thai"],
+    "tags": [
+      "time",
+      "frequency",
+      "thai"
+    ],
     "frequency": 4200,
     "audio": "voice/th/th_time_samoe.mp3",
     "tone": 4,
@@ -739,7 +1036,10 @@
       {
         "sentence": "เขาเสมอยิ้มเมื่อเจอเพื่อน",
         "reading": "khao samoe yim muea joe phuean",
-        "translation": { "en": "He always smiles when he meets friends.", "th": "เขาเสมอยิ้มเมื่อเจอเพื่อน" },
+        "translation": {
+          "en": "He always smiles when he meets friends.",
+          "th": "เขาเสมอยิ้มเมื่อเจอเพื่อน"
+        },
         "context": "old_town"
       }
     ],
@@ -751,9 +1051,12 @@
         "th": "วิญญาณมั่นคงที่ไม่เคยสั่นคลอน คอยอยู่เสมอและไม่เปลี่ยนแปลง"
       },
       "rarity": "uncommon",
-      "habitat": ["temple", "old_town"]
+      "habitat": [
+        "temple",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_time_mai_khoei",
@@ -761,12 +1064,20 @@
     "written": "ไม่เคย",
     "reading": "mai khoei",
     "romanization": "mai khoei",
-    "meaning": { "en": "never; have never", "th": "ไม่เคยมีประสบการณ์นั้น" },
+    "meaning": {
+      "en": "never; have never",
+      "th": "ไม่เคยมีประสบการณ์นั้น",
+      "ja": "一度もない；〜したことがない"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["time", "frequency", "thai"],
+    "tags": [
+      "time",
+      "frequency",
+      "thai"
+    ],
     "frequency": 3500,
     "audio": "voice/th/th_time_maikhoei.mp3",
     "tone": 1,
@@ -775,7 +1086,10 @@
       {
         "sentence": "ฉันไม่เคยกินทุเรียน",
         "reading": "chan mai khoei gin thurian",
-        "translation": { "en": "I have never eaten durian.", "th": "ฉันไม่เคยรับประทานทุเรียน" },
+        "translation": {
+          "en": "I have never eaten durian.",
+          "th": "ฉันไม่เคยรับประทานทุเรียน"
+        },
         "context": "fresh_market"
       }
     ],
@@ -787,9 +1101,12 @@
         "th": "วิญญาณโปร่งแสง มีอยู่แต่ไม่เคยทิ้งร่องรอยใดๆ"
       },
       "rarity": "uncommon",
-      "habitat": ["old_town", "temple"]
+      "habitat": [
+        "old_town",
+        "temple"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_time_nan",
@@ -797,12 +1114,21 @@
     "written": "นาน",
     "reading": "nan",
     "romanization": "nan",
-    "meaning": { "en": "long (time); a long while; for a long time", "th": "ช่วงเวลาที่ยาวนาน" },
+    "meaning": {
+      "en": "long (time); a long while; for a long time",
+      "th": "ช่วงเวลาที่ยาวนาน",
+      "ja": "長い（時間）；ずっと"
+    },
     "pos": "adjective",
     "element": "flow",
     "level": "A1",
     "chapter": 10,
-    "tags": ["time", "duration", "adjective", "thai"],
+    "tags": [
+      "time",
+      "duration",
+      "adjective",
+      "thai"
+    ],
     "frequency": 4000,
     "audio": "voice/th/th_time_nan.mp3",
     "tone": 0,
@@ -811,7 +1137,10 @@
       {
         "sentence": "รอนานมากแล้ว",
         "reading": "ro nan mak laeo",
-        "translation": { "en": "I have been waiting for a very long time.", "th": "รอนานมากแล้ว" },
+        "translation": {
+          "en": "I have been waiting for a very long time.",
+          "th": "รอนานมากแล้ว"
+        },
         "context": "pier"
       }
     ],
@@ -823,9 +1152,12 @@
         "th": "วิญญาณยืดหยุ่นที่ดูยิ่งยาวขึ้นยิ่งรอนาน"
       },
       "rarity": "common",
-      "habitat": ["pier", "old_town"]
+      "habitat": [
+        "pier",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_time_reo",
@@ -833,12 +1165,21 @@
     "written": "เร็ว",
     "reading": "reo",
     "romanization": "reo",
-    "meaning": { "en": "fast; quick; early", "th": "ใช้เวลาน้อย ความเร็วสูง" },
+    "meaning": {
+      "en": "fast; quick; early",
+      "th": "ใช้เวลาน้อย ความเร็วสูง",
+      "ja": "速い；早い"
+    },
     "pos": "adjective",
     "element": "flow",
     "level": "A1",
     "chapter": 10,
-    "tags": ["time", "speed", "adjective", "thai"],
+    "tags": [
+      "time",
+      "speed",
+      "adjective",
+      "thai"
+    ],
     "frequency": 4500,
     "audio": "voice/th/th_time_reo.mp3",
     "tone": 3,
@@ -847,7 +1188,10 @@
       {
         "sentence": "เขาวิ่งเร็วมาก",
         "reading": "khao wing reo mak",
-        "translation": { "en": "He runs very fast.", "th": "เขาวิ่งเร็วมาก" },
+        "translation": {
+          "en": "He runs very fast.",
+          "th": "เขาวิ่งเร็วมาก"
+        },
         "context": "rice_field"
       }
     ],
@@ -859,9 +1203,12 @@
         "th": "สายแสงที่วิ่งผ่านหน้าจอก่อนที่คุณจะรู้ตัว"
       },
       "rarity": "common",
-      "habitat": ["rice_field", "pier"]
+      "habitat": [
+        "rice_field",
+        "pier"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_time_cha",
@@ -869,12 +1216,21 @@
     "written": "ช้า",
     "reading": "cha",
     "romanization": "cha",
-    "meaning": { "en": "slow; late", "th": "ใช้เวลามาก ความเร็วต่ำ" },
+    "meaning": {
+      "en": "slow; late",
+      "th": "ใช้เวลามาก ความเร็วต่ำ",
+      "ja": "遅い；ゆっくり"
+    },
     "pos": "adjective",
     "element": "flow",
     "level": "A1",
     "chapter": 10,
-    "tags": ["time", "speed", "adjective", "thai"],
+    "tags": [
+      "time",
+      "speed",
+      "adjective",
+      "thai"
+    ],
     "frequency": 3800,
     "audio": "voice/th/th_time_cha.mp3",
     "tone": 3,
@@ -883,7 +1239,10 @@
       {
         "sentence": "รถช้ามากวันนี้",
         "reading": "rot cha mak wan ni",
-        "translation": { "en": "The car is very slow today.", "th": "รถช้ามากวันนี้" },
+        "translation": {
+          "en": "The car is very slow today.",
+          "th": "รถช้ามากวันนี้"
+        },
         "context": "pier"
       }
     ],
@@ -895,9 +1254,12 @@
         "th": "วิญญาณที่ค่อยๆ เดินทาง มาถึงเสมอ แต่ไม่เร่งรีบ"
       },
       "rarity": "common",
-      "habitat": ["rice_field", "temple"]
+      "habitat": [
+        "rice_field",
+        "temple"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_time_wan_chan",
@@ -905,12 +1267,20 @@
     "written": "วันจันทร์",
     "reading": "wan chan",
     "romanization": "wan chan",
-    "meaning": { "en": "Monday", "th": "วันที่หนึ่งของสัปดาห์" },
+    "meaning": {
+      "en": "Monday",
+      "th": "วันที่หนึ่งของสัปดาห์",
+      "ja": "月曜日"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["time", "weekday", "thai"],
+    "tags": [
+      "time",
+      "weekday",
+      "thai"
+    ],
     "frequency": 3000,
     "audio": "voice/th/th_time_wanchan.mp3",
     "tone": 0,
@@ -919,7 +1289,10 @@
       {
         "sentence": "วันจันทร์ฉันเริ่มเรียนภาษาใหม่",
         "reading": "wan chan chan roem rian phasa mai",
-        "translation": { "en": "On Monday I started learning a new language.", "th": "วันจันทร์ฉันเริ่มเรียนภาษาใหม่" },
+        "translation": {
+          "en": "On Monday I started learning a new language.",
+          "th": "วันจันทร์ฉันเริ่มเรียนภาษาใหม่"
+        },
         "context": "old_town"
       }
     ],
@@ -931,9 +1304,12 @@
         "th": "วิญญาณเสี้ยวเงิน เพราะวันจันทร์ตั้งชื่อตามดวงจันทร์"
       },
       "rarity": "common",
-      "habitat": ["temple", "old_town"]
+      "habitat": [
+        "temple",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_time_wan_angkhan",
@@ -941,12 +1317,20 @@
     "written": "วันอังคาร",
     "reading": "wan angkhan",
     "romanization": "wan angkhan",
-    "meaning": { "en": "Tuesday", "th": "วันที่สองของสัปดาห์" },
+    "meaning": {
+      "en": "Tuesday",
+      "th": "วันที่สองของสัปดาห์",
+      "ja": "火曜日"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["time", "weekday", "thai"],
+    "tags": [
+      "time",
+      "weekday",
+      "thai"
+    ],
     "frequency": 2800,
     "audio": "voice/th/th_time_wanangkhan.mp3",
     "tone": 0,
@@ -955,7 +1339,10 @@
       {
         "sentence": "วันอังคารตลาดเปิดเช้า",
         "reading": "wan angkhan talat poet chao",
-        "translation": { "en": "On Tuesday the market opens early.", "th": "วันอังคารตลาดเปิดแต่เช้า" },
+        "translation": {
+          "en": "On Tuesday the market opens early.",
+          "th": "วันอังคารตลาดเปิดแต่เช้า"
+        },
         "context": "fresh_market"
       }
     ],
@@ -967,9 +1354,12 @@
         "th": "วิญญาณสีแดงชมพู เพราะวันอังคารตั้งชื่อตามดาวอังคาร"
       },
       "rarity": "common",
-      "habitat": ["fresh_market", "old_town"]
+      "habitat": [
+        "fresh_market",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_time_wan_phut",
@@ -977,12 +1367,20 @@
     "written": "วันพุธ",
     "reading": "wan phut",
     "romanization": "wan phut",
-    "meaning": { "en": "Wednesday", "th": "วันที่สามของสัปดาห์" },
+    "meaning": {
+      "en": "Wednesday",
+      "th": "วันที่สามของสัปดาห์",
+      "ja": "水曜日"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["time", "weekday", "thai"],
+    "tags": [
+      "time",
+      "weekday",
+      "thai"
+    ],
     "frequency": 2800,
     "audio": "voice/th/th_time_wanphut.mp3",
     "tone": 3,
@@ -991,7 +1389,10 @@
       {
         "sentence": "วันพุธมีคลาสภาษาไทย",
         "reading": "wan phut mi khlas phasa thai",
-        "translation": { "en": "On Wednesday there is a Thai class.", "th": "วันพุธมีคลาสภาษาไทย" },
+        "translation": {
+          "en": "On Wednesday there is a Thai class.",
+          "th": "วันพุธมีคลาสภาษาไทย"
+        },
         "context": "old_town"
       }
     ],
@@ -1003,9 +1404,12 @@
         "th": "วิญญาณสีเขียวที่วิ่งวนกลางสัปดาห์พร้อมข้อความ"
       },
       "rarity": "common",
-      "habitat": ["old_town", "floating_market"]
+      "habitat": [
+        "old_town",
+        "floating_market"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_time_wan_phruhat",
@@ -1013,12 +1417,20 @@
     "written": "วันพฤหัส",
     "reading": "wan phruhat",
     "romanization": "wan phruhat",
-    "meaning": { "en": "Thursday", "th": "วันที่สี่ของสัปดาห์" },
+    "meaning": {
+      "en": "Thursday",
+      "th": "วันที่สี่ของสัปดาห์",
+      "ja": "木曜日"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["time", "weekday", "thai"],
+    "tags": [
+      "time",
+      "weekday",
+      "thai"
+    ],
     "frequency": 2800,
     "audio": "voice/th/th_time_wanphruhat.mp3",
     "tone": 3,
@@ -1027,7 +1439,10 @@
       {
         "sentence": "วันพฤหัสอาจารย์มาสอน",
         "reading": "wan phruhat achan ma son",
-        "translation": { "en": "On Thursday the teacher comes to teach.", "th": "วันพฤหัสอาจารย์มาสอน" },
+        "translation": {
+          "en": "On Thursday the teacher comes to teach.",
+          "th": "วันพฤหัสอาจารย์มาสอน"
+        },
         "context": "old_town"
       }
     ],
@@ -1039,9 +1454,12 @@
         "th": "วิญญาณทองใหญ่ เพราะวันพฤหัสตั้งชื่อตามดาวพฤหัสบดี"
       },
       "rarity": "common",
-      "habitat": ["temple", "old_town"]
+      "habitat": [
+        "temple",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_time_wan_suk",
@@ -1049,12 +1467,20 @@
     "written": "วันศุกร์",
     "reading": "wan suk",
     "romanization": "wan suk",
-    "meaning": { "en": "Friday", "th": "วันที่ห้าของสัปดาห์" },
+    "meaning": {
+      "en": "Friday",
+      "th": "วันที่ห้าของสัปดาห์",
+      "ja": "金曜日"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["time", "weekday", "thai"],
+    "tags": [
+      "time",
+      "weekday",
+      "thai"
+    ],
     "frequency": 3000,
     "audio": "voice/th/th_time_wansuk.mp3",
     "tone": 3,
@@ -1063,7 +1489,10 @@
       {
         "sentence": "วันศุกร์ทุกคนดีใจ",
         "reading": "wan suk thuk khon di jai",
-        "translation": { "en": "Everyone is happy on Friday.", "th": "วันศุกร์ทุกคนดีใจ" },
+        "translation": {
+          "en": "Everyone is happy on Friday.",
+          "th": "วันศุกร์ทุกคนดีใจ"
+        },
         "context": "night_market"
       }
     ],
@@ -1075,9 +1504,12 @@
         "th": "วิญญาณสีฟ้าระยิบระยับ เพราะวันศุกร์ตั้งชื่อตามดาวศุกร์"
       },
       "rarity": "common",
-      "habitat": ["night_market", "old_town"]
+      "habitat": [
+        "night_market",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_time_wan_sao",
@@ -1085,12 +1517,20 @@
     "written": "วันเสาร์",
     "reading": "wan sao",
     "romanization": "wan sao",
-    "meaning": { "en": "Saturday", "th": "วันที่หกของสัปดาห์" },
+    "meaning": {
+      "en": "Saturday",
+      "th": "วันที่หกของสัปดาห์",
+      "ja": "土曜日"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["time", "weekday", "thai"],
+    "tags": [
+      "time",
+      "weekday",
+      "thai"
+    ],
     "frequency": 3200,
     "audio": "voice/th/th_time_wansao.mp3",
     "tone": 4,
@@ -1099,7 +1539,10 @@
       {
         "sentence": "วันเสาร์ตลาดนัดเปิดทั้งวัน",
         "reading": "wan sao talat nat poet thang wan",
-        "translation": { "en": "On Saturday the flea market is open all day.", "th": "วันเสาร์ตลาดนัดเปิดทั้งวัน" },
+        "translation": {
+          "en": "On Saturday the flea market is open all day.",
+          "th": "วันเสาร์ตลาดนัดเปิดทั้งวัน"
+        },
         "context": "floating_market"
       }
     ],
@@ -1111,9 +1554,12 @@
         "th": "วิญญาณมีวงแหวนสีม่วง เพราะวันเสาร์ตั้งชื่อตามดาวเสาร์"
       },
       "rarity": "common",
-      "habitat": ["floating_market", "night_market"]
+      "habitat": [
+        "floating_market",
+        "night_market"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_time_wan_athit",
@@ -1121,12 +1567,20 @@
     "written": "วันอาทิตย์",
     "reading": "wan athit",
     "romanization": "wan athit",
-    "meaning": { "en": "Sunday", "th": "วันที่เจ็ดของสัปดาห์" },
+    "meaning": {
+      "en": "Sunday",
+      "th": "วันที่เจ็ดของสัปดาห์",
+      "ja": "日曜日"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["time", "weekday", "thai"],
+    "tags": [
+      "time",
+      "weekday",
+      "thai"
+    ],
     "frequency": 3200,
     "audio": "voice/th/th_time_wanathit.mp3",
     "tone": 0,
@@ -1135,7 +1589,10 @@
       {
         "sentence": "วันอาทิตย์ครอบครัวไปวัดด้วยกัน",
         "reading": "wan athit khropkhrua pai wat duai kan",
-        "translation": { "en": "On Sunday the family goes to the temple together.", "th": "วันอาทิตย์ครอบครัวไปวัดด้วยกัน" },
+        "translation": {
+          "en": "On Sunday the family goes to the temple together.",
+          "th": "วันอาทิตย์ครอบครัวไปวัดด้วยกัน"
+        },
         "context": "temple"
       }
     ],
@@ -1147,9 +1604,12 @@
         "th": "วิญญาณสีส้มสดใส เพราะวันอาทิตย์ตั้งชื่อตามดวงอาทิตย์"
       },
       "rarity": "common",
-      "habitat": ["temple", "floating_market"]
+      "habitat": [
+        "temple",
+        "floating_market"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_time_sap_dah",
@@ -1157,12 +1617,20 @@
     "written": "สัปดาห์",
     "reading": "sap dah",
     "romanization": "sap dah",
-    "meaning": { "en": "week", "th": "ช่วงเวลาเจ็ดวัน" },
+    "meaning": {
+      "en": "week",
+      "th": "ช่วงเวลาเจ็ดวัน",
+      "ja": "週"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["time", "period", "thai"],
+    "tags": [
+      "time",
+      "period",
+      "thai"
+    ],
     "frequency": 3500,
     "audio": "voice/th/th_time_sapdah.mp3",
     "tone": 3,
@@ -1171,7 +1639,10 @@
       {
         "sentence": "ฉันเรียนภาษาไทยทุกสัปดาห์",
         "reading": "chan rian phasa thai thuk sap dah",
-        "translation": { "en": "I study Thai every week.", "th": "ฉันเรียนภาษาไทยทุกสัปดาห์" },
+        "translation": {
+          "en": "I study Thai every week.",
+          "th": "ฉันเรียนภาษาไทยทุกสัปดาห์"
+        },
         "context": "old_town"
       }
     ],
@@ -1183,9 +1654,12 @@
         "th": "วิญญาณเจ็ดหน้าที่สวมสีต่างกันในแต่ละวัน"
       },
       "rarity": "common",
-      "habitat": ["temple", "old_town"]
+      "habitat": [
+        "temple",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_time_duean",
@@ -1193,12 +1667,20 @@
     "written": "เดือน",
     "reading": "duean",
     "romanization": "duean",
-    "meaning": { "en": "month", "th": "ช่วงเวลาประมาณ 30 วัน" },
+    "meaning": {
+      "en": "month",
+      "th": "ช่วงเวลาประมาณ 30 วัน",
+      "ja": "月"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["time", "period", "thai"],
+    "tags": [
+      "time",
+      "period",
+      "thai"
+    ],
     "frequency": 4000,
     "audio": "voice/th/th_time_duean.mp3",
     "tone": 0,
@@ -1207,7 +1689,10 @@
       {
         "sentence": "เดือนหน้าฉันจะเดินทางไปเชียงใหม่",
         "reading": "duean na chan ja doen thang pai chiang mai",
-        "translation": { "en": "Next month I will travel to Chiang Mai.", "th": "เดือนหน้าฉันจะเดินทางไปเชียงใหม่" },
+        "translation": {
+          "en": "Next month I will travel to Chiang Mai.",
+          "th": "เดือนหน้าฉันจะเดินทางไปเชียงใหม่"
+        },
         "context": "pier"
       }
     ],
@@ -1219,9 +1704,12 @@
         "th": "วิญญาณรูปเสี้ยวที่หมุนรอบหนึ่งรอบช้าๆ ทุกสามสิบวัน"
       },
       "rarity": "common",
-      "habitat": ["temple", "rice_field"]
+      "habitat": [
+        "temple",
+        "rice_field"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_time_pi",
@@ -1229,12 +1717,20 @@
     "written": "ปี",
     "reading": "pi",
     "romanization": "pi",
-    "meaning": { "en": "year", "th": "ช่วงเวลา 365 วัน" },
+    "meaning": {
+      "en": "year",
+      "th": "ช่วงเวลา 365 วัน",
+      "ja": "年"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["time", "period", "thai"],
+    "tags": [
+      "time",
+      "period",
+      "thai"
+    ],
     "frequency": 4500,
     "audio": "voice/th/th_time_pi.mp3",
     "tone": 0,
@@ -1243,7 +1739,10 @@
       {
         "sentence": "ปีใหม่ไทยอยู่ในเดือนเมษายน",
         "reading": "pi mai thai yu nai duean mesayon",
-        "translation": { "en": "Thai New Year is in April.", "th": "ปีใหม่ไทยอยู่ในเดือนเมษายน" },
+        "translation": {
+          "en": "Thai New Year is in April.",
+          "th": "ปีใหม่ไทยอยู่ในเดือนเมษายน"
+        },
         "context": "temple"
       }
     ],
@@ -1255,9 +1754,13 @@
         "th": "วิญญาณยิ่งใหญ่ที่หมุนหนึ่งรอบอย่างสง่างามและสวมวงแหวนใหม่ทุกปี"
       },
       "rarity": "uncommon",
-      "habitat": ["temple", "rice_field", "old_town"]
+      "habitat": [
+        "temple",
+        "rice_field",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_time_nathi",
@@ -1265,12 +1768,21 @@
     "written": "นาที",
     "reading": "nathi",
     "romanization": "nathi",
-    "meaning": { "en": "minute", "th": "หน่วยเวลา 60 วินาที" },
+    "meaning": {
+      "en": "minute",
+      "th": "หน่วยเวลา 60 วินาที",
+      "ja": "分"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["time", "period", "unit", "thai"],
+    "tags": [
+      "time",
+      "period",
+      "unit",
+      "thai"
+    ],
     "frequency": 3500,
     "audio": "voice/th/th_time_nathi.mp3",
     "tone": 3,
@@ -1279,7 +1791,10 @@
       {
         "sentence": "รอแค่ห้านาทีนะ",
         "reading": "ro khae ha nathi na",
-        "translation": { "en": "Wait just five minutes.", "th": "รอแค่ห้านาทีนะ" },
+        "translation": {
+          "en": "Wait just five minutes.",
+          "th": "รอแค่ห้านาทีนะ"
+        },
         "context": "pier"
       }
     ],
@@ -1291,9 +1806,12 @@
         "th": "วิญญาณกลมเล็กมีเข็มที่หมุนและไม่หยุดเดิน"
       },
       "rarity": "common",
-      "habitat": ["old_town", "pier"]
+      "habitat": [
+        "old_town",
+        "pier"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_time_chuamong",
@@ -1301,12 +1819,21 @@
     "written": "ชั่วโมง",
     "reading": "chua mong",
     "romanization": "chua mong",
-    "meaning": { "en": "hour", "th": "หน่วยเวลา 60 นาที" },
+    "meaning": {
+      "en": "hour",
+      "th": "หน่วยเวลา 60 นาที",
+      "ja": "時間"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["time", "period", "unit", "thai"],
+    "tags": [
+      "time",
+      "period",
+      "unit",
+      "thai"
+    ],
     "frequency": 3800,
     "audio": "voice/th/th_time_chuamong.mp3",
     "tone": 1,
@@ -1315,7 +1842,10 @@
       {
         "sentence": "ใช้เวลาสองชั่วโมงจากกรุงเทพ",
         "reading": "chai wela song chua mong jak krung thep",
-        "translation": { "en": "It takes two hours from Bangkok.", "th": "ใช้เวลาสองชั่วโมงจากกรุงเทพ" },
+        "translation": {
+          "en": "It takes two hours from Bangkok.",
+          "th": "ใช้เวลาสองชั่วโมงจากกรุงเทพ"
+        },
         "context": "pier"
       }
     ],
@@ -1327,9 +1857,12 @@
         "th": "วิญญาณคงที่รูปหน้าปัดนาฬิกาที่บันทึกแต่ละรอบสมบูรณ์"
       },
       "rarity": "common",
-      "habitat": ["old_town", "pier"]
+      "habitat": [
+        "old_town",
+        "pier"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_time_winathi",
@@ -1337,12 +1870,21 @@
     "written": "วินาที",
     "reading": "winathi",
     "romanization": "winathi",
-    "meaning": { "en": "second (unit of time)", "th": "หน่วยเวลาที่สั้นที่สุด 1/60 ของนาที" },
+    "meaning": {
+      "en": "second (unit of time)",
+      "th": "หน่วยเวลาที่สั้นที่สุด 1/60 ของนาที",
+      "ja": "秒"
+    },
     "pos": "noun",
     "element": "bloom",
     "level": "A1",
     "chapter": 10,
-    "tags": ["time", "period", "unit", "thai"],
+    "tags": [
+      "time",
+      "period",
+      "unit",
+      "thai"
+    ],
     "frequency": 2500,
     "audio": "voice/th/th_time_winathi.mp3",
     "tone": 0,
@@ -1351,7 +1893,10 @@
       {
         "sentence": "เขาวิ่ง 100 เมตรใน 12 วินาที",
         "reading": "khao wing roi met nai sip song winathi",
-        "translation": { "en": "He ran 100 metres in 12 seconds.", "th": "เขาวิ่ง 100 เมตรใน 12 วินาที" },
+        "translation": {
+          "en": "He ran 100 metres in 12 seconds.",
+          "th": "เขาวิ่ง 100 เมตรใน 12 วินาที"
+        },
         "context": "rice_field"
       }
     ],
@@ -1363,8 +1908,11 @@
         "th": "วิญญาณเวลาที่เล็กที่สุด กะพริบครั้งเดียวผ่านไปหนึ่งวินาที"
       },
       "rarity": "uncommon",
-      "habitat": ["pier", "old_town"]
+      "habitat": [
+        "pier",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   }
 ]

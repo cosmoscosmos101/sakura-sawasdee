@@ -1,55 +1,2696 @@
 [
-  {"id":"th_food_khao","lang":"th","written":"ข้าว","reading":"khaao","romanization":"khaao","meaning":{"en":"rice","th":"เมล็ดธัญพืชที่นำมาหุง"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","staple","thai"],"frequency":9999,"audio":"voice/th/th_food_khao.mp3","tone":2,"toneRule":"ข (high class) + mai tho → falling","examples":[{"sentence":"ฉันกินข้าวทุกวัน","reading":"chan gin khaao thuk wan","translation":{"en":"I eat rice every day.","th":"ฉันรับประทานข้าวทุกวัน"},"context":"fresh_market"}],"kotodama":{"name":"Khaoline","sprite":"kotodama/th_food_khao.png","description":{"en":"A plump white spirit shaped like a grain of jasmine rice. It always smells of fresh steam.","th":"วิญญาณกลมๆ สีขาวรูปร่างคล้ายเมล็ดข้าวหอมมะลิ กลิ่นข้าวนึ่งสดๆ ฟุ้งตลอดเวลา"},"rarity":"common","habitat":["fresh_market","floating_market","rice_field"]},"needsReview":true},
-  {"id":"th_food_nam","lang":"th","written":"น้ำ","reading":"naam","romanization":"naam","meaning":{"en":"water; liquid","th":"ของเหลวที่ดื่มได้"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","drink","water","thai"],"frequency":9999,"audio":"voice/th/th_food_nam.mp3","tone":3,"toneRule":"น (low class) + mai tho → high","examples":[{"sentence":"ขอน้ำเปล่าหน่อยครับ","reading":"kho naam plao noi khrap","translation":{"en":"May I have a glass of plain water?","th":"ขอน้ำเปล่าสักแก้วหนึ่ง"},"context":"fresh_market"}],"kotodama":{"name":"Namlique","sprite":"kotodama/th_food_nam.png","description":{"en":"A flowing, translucent spirit that pools in low places and loves rain.","th":"วิญญาณโปร่งแสงไหลลื่นที่รักฝนและน้ำพุ"},"rarity":"common","habitat":["pier","floating_market","rice_field"]},"needsReview":true},
-  {"id":"th_food_kafae","lang":"th","written":"กาแฟ","reading":"kafae","romanization":"kafae","meaning":{"en":"coffee","th":"เครื่องดื่มที่ทำจากเมล็ดกาแฟคั่ว"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","drink","coffee","thai"],"frequency":2500,"audio":"voice/th/th_food_kafae.mp3","tone":0,"toneRule":"ก (mid class) + no mark + live syllable → mid tone","examples":[{"sentence":"กาแฟโบราณรสเข้มมาก","reading":"kafae boran rot khem mak","translation":{"en":"Old-style Thai coffee is very strong.","th":"กาแฟโบราณรสชาติเข้มข้นมาก"},"context":"old_town"}],"kotodama":{"name":"Kafaeling","sprite":"kotodama/th_food_kafae.png","description":{"en":"A dark, aromatic spirit that wakes sleeping Kotodama with a single whiff.","th":"วิญญาณสีน้ำตาลเข้มที่กลิ่นหอมของมันปลุกโคโตะดามะหลับให้ตื่น"},"rarity":"common","habitat":["old_town","night_market"]},"needsReview":true},
-  {"id":"th_food_cha","lang":"th","written":"ชา","reading":"chaa","romanization":"chaa","meaning":{"en":"tea","th":"เครื่องดื่มชงจากใบชา"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","drink","thai"],"frequency":2000,"audio":"voice/th/th_food_cha.mp3","tone":0,"toneRule":"ช (low class) + no mark + live → mid tone","examples":[{"sentence":"ชาเย็นใส่นมหวานๆ","reading":"chaa yen sai nom wan wan","translation":{"en":"Iced tea with sweet condensed milk.","th":"ชาเย็นใส่นมหวาน"},"context":"fresh_market"}],"kotodama":{"name":"Chaenara","sprite":"kotodama/th_food_cha.png","description":{"en":"A gentle golden spirit that steams softly and soothes any heated Kotodama.","th":"วิญญาณสีทองอ่อนที่ควันฟุ้งเบาๆ ช่วยระงับโคโตะดามะที่ร้อนรน"},"rarity":"common","habitat":["temple","old_town"]},"needsReview":true},
-  {"id":"th_food_muu","lang":"th","written":"หมู","reading":"muu","romanization":"muu","meaning":{"en":"pork; pig","th":"เนื้อสุกร"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","meat","thai"],"frequency":3000,"audio":"voice/th/th_food_muu.mp3","tone":4,"toneRule":"ห (high class) + no mark + live → rising tone","examples":[{"sentence":"ผัดหมูกระเทียมพริกไทย","reading":"phat muu krathiam phrik thai","translation":{"en":"Stir-fried pork with garlic and pepper.","th":"หมูผัดกระเทียมพริกไทย"},"context":"fresh_market"}],"kotodama":{"name":"Muupin","sprite":"kotodama/th_food_muu.png","description":{"en":"A rosy, round spirit that squeals happily when it smells garlic.","th":"วิญญาณกลมๆ สีชมพูที่ส่งเสียงดีใจเมื่อได้กลิ่นกระเทียม"},"rarity":"common","habitat":["fresh_market","night_market"]},"needsReview":true},
-  {"id":"th_food_kai","lang":"th","written":"ไก่","reading":"kai","romanization":"kai","meaning":{"en":"chicken (meat)","th":"เนื้อไก่"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","meat","thai"],"frequency":3500,"audio":"voice/th/th_food_kai.mp3","tone":1,"toneRule":"ก (mid class) + mai ek → low tone","examples":[{"sentence":"ข้าวมันไก่อร่อยมาก","reading":"khaao man kai aroi mak","translation":{"en":"Hainanese chicken rice is so delicious.","th":"ข้าวมันไก่อร่อยมาก"},"context":"fresh_market"}],"kotodama":{"name":"Kairune","sprite":"kotodama/th_food_kai.png","description":{"en":"A golden-feathered spirit that crows softly at sunrise.","th":"วิญญาณขนทองที่ขันเบาๆ เวลาพระอาทิตย์ขึ้น"},"rarity":"common","habitat":["fresh_market","rice_field"]},"needsReview":true},
-  {"id":"th_food_nuea","lang":"th","written":"เนื้อ","reading":"nuea","romanization":"nuea","meaning":{"en":"beef; meat","th":"เนื้อวัว"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","meat","thai"],"frequency":2000,"audio":"voice/th/th_food_nuea.mp3","tone":3,"toneRule":"น (low class) + mai tho → high tone","examples":[{"sentence":"เนื้อย่างรสจัดจ้าน","reading":"nuea yang rot chat chan","translation":{"en":"Grilled beef with a bold flavour.","th":"เนื้อย่างรสเข้มจัดจ้าน"},"context":"night_market"}],"kotodama":{"name":"Nuealing","sprite":"kotodama/th_food_nuea.png","description":{"en":"A hearty, muscular spirit that loves open flames and the smell of charcoal.","th":"วิญญาณแข็งแกร่งที่รักไฟและกลิ่นถ่านบาร์บีคิว"},"rarity":"common","habitat":["night_market","old_town"]},"needsReview":true},
-  {"id":"th_food_pla","lang":"th","written":"ปลา","reading":"plaa","romanization":"plaa","meaning":{"en":"fish","th":"สัตว์น้ำที่นำมาประกอบอาหาร"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","seafood","thai"],"frequency":2800,"audio":"voice/th/th_food_pla.mp3","tone":0,"toneRule":"ป (mid class) + no mark + live → mid tone","examples":[{"sentence":"ปลาทอดกรอบอร่อยมาก","reading":"plaa that krob aroi mak","translation":{"en":"Crispy fried fish is very tasty.","th":"ปลาทอดกรอบอร่อยมาก"},"context":"pier"}],"kotodama":{"name":"Plaafin","sprite":"kotodama/th_food_pla.png","description":{"en":"A silvery spirit that flits between water and air, trailing bubbles.","th":"วิญญาณสีเงินที่เล่นระหว่างน้ำและอากาศ ทิ้งร่องรอยฟองอากาศไว้"},"rarity":"common","habitat":["pier","floating_market"]},"needsReview":true},
-  {"id":"th_food_kung","lang":"th","written":"กุ้ง","reading":"kung","romanization":"kung","meaning":{"en":"shrimp; prawn","th":"สัตว์น้ำมีเปลือกขนาดเล็กถึงกลาง"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","seafood","thai"],"frequency":1800,"audio":"voice/th/th_food_kung.mp3","tone":2,"toneRule":"ก (mid class) + mai tho → falling tone","examples":[{"sentence":"กุ้งสดทำต้มยำได้เลย","reading":"kung sot tham tom yam dai loei","translation":{"en":"Fresh shrimp — perfect for tom yum.","th":"กุ้งสดเหมาะมากสำหรับทำต้มยำ"},"context":"floating_market"}],"kotodama":{"name":"Kungling","sprite":"kotodama/th_food_kung.png","description":{"en":"A bright orange spirit that curls when frightened but uncurls boldly for heat.","th":"วิญญาณสีส้มสดที่งอตัวเมื่อกลัว แต่คลี่ตัวกล้าหาญเมื่อเจอความร้อน"},"rarity":"common","habitat":["pier","floating_market"]},"needsReview":true},
-  {"id":"th_food_khai","lang":"th","written":"ไข่","reading":"khai","romanization":"khai","meaning":{"en":"egg","th":"ไข่ไก่หรือไข่เป็ด"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","thai"],"frequency":3200,"audio":"voice/th/th_food_khai.mp3","tone":1,"toneRule":"ข (high class) + mai ek → low tone","examples":[{"sentence":"ไข่ดาวสองฟอง","reading":"khai dao song fong","translation":{"en":"Two fried eggs sunny-side up.","th":"ไข่ดาวสองฟอง"},"context":"fresh_market"}],"kotodama":{"name":"Khaishell","sprite":"kotodama/th_food_khai.png","description":{"en":"An oval yellow spirit that cracks open to reveal a tiny sun inside.","th":"วิญญาณรูปไข่สีเหลืองที่แตกออกมีดวงอาทิตย์จิ๋วอยู่ข้างใน"},"rarity":"common","habitat":["fresh_market","rice_field"]},"needsReview":true},
-  {"id":"th_food_phak","lang":"th","written":"ผัก","reading":"phak","romanization":"phak","meaning":{"en":"vegetables","th":"พืชผักที่รับประทานได้"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","vegetable","thai"],"frequency":2500,"audio":"voice/th/th_food_phak.mp3","tone":1,"toneRule":"ผ (high class) + dead syllable + no mark → low tone","examples":[{"sentence":"กินผักให้มากนะ","reading":"gin phak hai mak na","translation":{"en":"Eat plenty of vegetables!","th":"รับประทานผักให้มากๆ นะ"},"context":"fresh_market"}],"kotodama":{"name":"Phakleaf","sprite":"kotodama/th_food_phak.png","description":{"en":"A bright green spirit that rustles like fresh morning-market greens.","th":"วิญญาณสีเขียวสดที่แกว่งเหมือนผักเช้าในตลาด"},"rarity":"common","habitat":["fresh_market","floating_market"]},"needsReview":true},
-  {"id":"th_food_phonlamai","lang":"th","written":"ผลไม้","reading":"phonlamai","romanization":"phonlamai","meaning":{"en":"fruit","th":"ผลไม้ชนิดต่างๆ"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","fruit","thai"],"frequency":2200,"audio":"voice/th/th_food_phonlamai.mp3","tone":2,"toneRule":"ผ (high class) compound — falling tone on first syllable","examples":[{"sentence":"ประเทศไทยมีผลไม้เยอะมาก","reading":"prathet thai mi phonlamai yoe mak","translation":{"en":"Thailand has so many kinds of fruit.","th":"ประเทศไทยมีผลไม้หลากหลายมาก"},"context":"fresh_market"}],"kotodama":{"name":"Phontropical","sprite":"kotodama/th_food_phonlamai.png","description":{"en":"A colourful spirit that smells different every day — mango, papaya, lychee…","th":"วิญญาณหลากสีที่กลิ่นเปลี่ยนทุกวัน มะม่วง มะละกอ ลิ้นจี่..."},"rarity":"uncommon","habitat":["fresh_market","floating_market","night_market"]},"needsReview":true},
-  {"id":"th_food_mamuang","lang":"th","written":"มะม่วง","reading":"mamuang","romanization":"mamuang","meaning":{"en":"mango","th":"ผลไม้รสหวานอมเปรี้ยวสีเหลืองหรือเขียว"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","fruit","thai"],"frequency":1800,"audio":"voice/th/th_food_mamuang.mp3","tone":2,"toneRule":"ม่ — low class + mai ek → falling tone on second syllable","examples":[{"sentence":"ข้าวเหนียวมะม่วงหวานมาก","reading":"khaao niao mamuang wan mak","translation":{"en":"Mango sticky rice is very sweet.","th":"ข้าวเหนียวมะม่วงหวานมาก"},"context":"floating_market"}],"kotodama":{"name":"Mamuangine","sprite":"kotodama/th_food_mamuang.png","description":{"en":"A golden-yellow spirit with a fragrance that draws crowds.","th":"วิญญาณสีเหลืองทองที่กลิ่นหอมดึงดูดผู้คนมาจากทั่ว"},"rarity":"common","habitat":["fresh_market","floating_market"]},"needsReview":true},
-  {"id":"th_food_kluai","lang":"th","written":"กล้วย","reading":"kluai","romanization":"kluai","meaning":{"en":"banana","th":"ผลไม้เปลือกเหลืองรสหวาน"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","fruit","thai"],"frequency":1700,"audio":"voice/th/th_food_kluai.mp3","tone":2,"toneRule":"ก (mid class) + mai tho → falling tone","examples":[{"sentence":"กล้วยทอดหอมอร่อยมาก","reading":"kluai thot hom aroi mak","translation":{"en":"Fried bananas smell amazing and taste great.","th":"กล้วยทอดหอมและอร่อยมาก"},"context":"night_market"}],"kotodama":{"name":"Kluaipeel","sprite":"kotodama/th_food_kluai.png","description":{"en":"A yellow crescent spirit that hangs in clusters and sways in the breeze.","th":"วิญญาณรูปเสี้ยวสีเหลืองที่ห้อยเป็นพวงและแกว่งตามลม"},"rarity":"common","habitat":["fresh_market","night_market"]},"needsReview":true},
-  {"id":"th_food_som","lang":"th","written":"ส้ม","reading":"som","romanization":"som","meaning":{"en":"orange; citrus fruit","th":"ผลไม้รสเปรี้ยวหวานสีส้ม"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","fruit","thai"],"frequency":1600,"audio":"voice/th/th_food_som.mp3","tone":2,"toneRule":"ส (high class) + mai tho → falling tone","examples":[{"sentence":"น้ำส้มคั้นสดชื่นมาก","reading":"nam som khan sot chuen mak","translation":{"en":"Fresh-squeezed orange juice is very refreshing.","th":"น้ำส้มคั้นสดชื่นใจมาก"},"context":"fresh_market"}],"kotodama":{"name":"Somzest","sprite":"kotodama/th_food_som.png","description":{"en":"A bright citrus spirit whose peel spirals endlessly when it's excited.","th":"วิญญาณส้มสดที่เปลือกม้วนวนไม่หยุดเมื่อตื่นเต้น"},"rarity":"common","habitat":["fresh_market","floating_market"]},"needsReview":true},
-  {"id":"th_food_maprao","lang":"th","written":"มะพร้าว","reading":"maprao","romanization":"maprao","meaning":{"en":"coconut","th":"ผลไม้เปลือกแข็งมีน้ำและเนื้อสีขาว"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","fruit","thai","drink"],"frequency":1900,"audio":"voice/th/th_food_maprao.mp3","tone":3,"toneRule":"พร้าว — low class + mai tho → high tone on key syllable","examples":[{"sentence":"น้ำมะพร้าวเย็นๆ ดับกระหายได้ดีมาก","reading":"nam maprao yen yen dap krahan dai di mak","translation":{"en":"Cold coconut water quenches thirst wonderfully.","th":"น้ำมะพร้าวเย็นๆ ดับกระหายได้ดีมาก"},"context":"pier"}],"kotodama":{"name":"Mapraoval","sprite":"kotodama/th_food_maprao.png","description":{"en":"A husked brown spirit that sloshes gently — there's sweet water inside!","th":"วิญญาณสีน้ำตาลมีเปลือกแกลบที่สั่นเบาๆ มีน้ำหวานอยู่ข้างใน!"},"rarity":"uncommon","habitat":["pier","floating_market","fresh_market"]},"needsReview":true},
-  {"id":"th_food_thurian","lang":"th","written":"ทุเรียน","reading":"thurian","romanization":"thurian","meaning":{"en":"durian (king of fruits)","th":"ผลไม้กลิ่นแรงรสชาติเข้มข้น"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","fruit","thai","famous"],"frequency":1200,"audio":"voice/th/th_food_thurian.mp3","tone":0,"toneRule":"ท (low class) + no mark + live → mid tone","examples":[{"sentence":"ทุเรียนกลิ่นแรงแต่รสชาติอร่อย","reading":"thurian klin raeng tae rot chat aroi","translation":{"en":"Durian smells strong but tastes delicious.","th":"ทุเรียนกลิ่นแรงแต่รสชาติอร่อยมาก"},"context":"fresh_market"}],"kotodama":{"name":"Thuriking","sprite":"kotodama/th_food_thurian.png","description":{"en":"A spiky golden spirit that clears any room it enters — but those who stay love it.","th":"วิญญาณสีทองมีหนามที่ทำให้ทุกคนถอยหนี แต่คนที่อยู่ต่อจะรักมันมาก"},"rarity":"rare","habitat":["fresh_market","old_town"]},"needsReview":true},
-  {"id":"th_food_khanom","lang":"th","written":"ขนม","reading":"khanom","romanization":"khanom","meaning":{"en":"snack; dessert; sweet","th":"ของว่างและของหวาน"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","dessert","thai"],"frequency":2000,"audio":"voice/th/th_food_khanom.mp3","tone":4,"toneRule":"ข (high class) + no mark + live → rising tone","examples":[{"sentence":"ขนมไทยหวานหอมน่ากิน","reading":"khanom thai wan hom na gin","translation":{"en":"Thai sweets are fragrant and tempting.","th":"ขนมไทยหวานหอมน่ารับประทาน"},"context":"night_market"}],"kotodama":{"name":"Khanomite","sprite":"kotodama/th_food_khanom.png","description":{"en":"A pastel-coloured spirit that always smells of pandan and coconut.","th":"วิญญาณสีพาสเทลที่มีกลิ่นใบเตยและมะพร้าวตลอดเวลา"},"rarity":"common","habitat":["night_market","floating_market","fresh_market"]},"needsReview":true},
-  {"id":"th_food_phat_thai","lang":"th","written":"ผัดไทย","reading":"phat thai","romanization":"phat thai","meaning":{"en":"pad thai — stir-fried rice noodles","th":"ก๋วยเตี๋ยวผัดสไตล์ไทย"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","dish","thai","famous"],"frequency":2200,"audio":"voice/th/th_food_phatthai.mp3","tone":1,"toneRule":"ผัด — ผ (high class) dead syllable → low tone (first syllable)","examples":[{"sentence":"ผัดไทยใส่กุ้งไหมครับ","reading":"phat thai sai kung mai khrap","translation":{"en":"Pad Thai with shrimp, please?","th":"ผัดไทยใส่กุ้งได้เลยครับ"},"context":"night_market"}],"kotodama":{"name":"Phathaine","sprite":"kotodama/th_food_phatthai.png","description":{"en":"A wok-smoke spirit that dances in high heat, leaving a trail of lime and peanuts.","th":"วิญญาณควันกระทะที่เต้นรำในความร้อนสูง ทิ้งร่องรอยมะนาวและถั่วลิสง"},"rarity":"uncommon","habitat":["night_market","old_town"]},"needsReview":true},
-  {"id":"th_food_tom_yum","lang":"th","written":"ต้มยำ","reading":"tom yam","romanization":"tom yam","meaning":{"en":"tom yum — spicy Thai soup","th":"ซุปเผ็ดรสเปรี้ยวของไทย"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","dish","soup","thai","famous"],"frequency":2000,"audio":"voice/th/th_food_tomyum.mp3","tone":2,"toneRule":"ต้ม — ต (mid class) + mai tho → falling tone","examples":[{"sentence":"ต้มยำกุ้งรสเผ็ดจัดจ้าน","reading":"tom yam kung rot phet chat chan","translation":{"en":"Tom yum shrimp — boldly spicy!","th":"ต้มยำกุ้งรสเผ็ดจัดจ้าน"},"context":"pier"}],"kotodama":{"name":"Tomyaming","sprite":"kotodama/th_food_tomyum.png","description":{"en":"A steaming red spirit that makes your eyes water — with joy, not sadness.","th":"วิญญาณสีแดงที่มีควันฟุ้ง ทำให้น้ำตาไหลด้วยความสุข ไม่ใช่ความเศร้า"},"rarity":"uncommon","habitat":["pier","floating_market"]},"needsReview":true},
-  {"id":"th_food_kaeng","lang":"th","written":"แกง","reading":"kaeng","romanization":"kaeng","meaning":{"en":"curry; curry dish","th":"อาหารน้ำที่มีเครื่องเทศและน้ำพริก"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","dish","thai","curry"],"frequency":1800,"audio":"voice/th/th_food_kaeng.mp3","tone":0,"toneRule":"ก (mid class) + no mark + live → mid tone","examples":[{"sentence":"แกงเขียวหวานหอมมากเลย","reading":"kaeng khiao wan hom mak loei","translation":{"en":"Green curry smells incredibly fragrant.","th":"แกงเขียวหวานหอมมากเลย"},"context":"fresh_market"}],"kotodama":{"name":"Kaengspice","sprite":"kotodama/th_food_kaeng.png","description":{"en":"A swirling green spirit that carries the heat of lemongrass and galangal.","th":"วิญญาณสีเขียววนเวียนที่พาความร้อนของตะไคร้และข่า"},"rarity":"common","habitat":["fresh_market","floating_market"]},"needsReview":true},
-  {"id":"th_food_khao_niao","lang":"th","written":"ข้าวเหนียว","reading":"khaao niao","romanization":"khaao niao","meaning":{"en":"sticky rice; glutinous rice","th":"ข้าวที่เหนียวนุ่มเมื่อนึ่ง"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","staple","thai","north"],"frequency":1600,"audio":"voice/th/th_food_khaoniao.mp3","tone":2,"toneRule":"ข้าว — falling; เหนียว — falling (ห leads นview to high class → rising on เหนียว? Actually เหนียว: ห+น cluster = high class, no mark, live → rising(4). But compound tone varies. Mark approx falling(2).","examples":[{"sentence":"ข้าวเหนียวมะม่วงเมนูโปรดของฉัน","reading":"khaao niao mamuang menu prot khong chan","translation":{"en":"Mango sticky rice is my favourite menu.","th":"ข้าวเหนียวมะม่วงเป็นเมนูโปรดของฉัน"},"context":"floating_market"}],"kotodama":{"name":"Niaopearl","sprite":"kotodama/th_food_khaoniao.png","description":{"en":"A sticky, clumping white spirit that loves bamboo baskets and sunset light.","th":"วิญญาณสีขาวเหนียวๆ ที่รักกระติ๊บไม้ไผ่และแสงอาทิตย์ตก"},"rarity":"common","habitat":["floating_market","rice_field"]},"needsReview":true},
-  {"id":"th_food_kuaytiao","lang":"th","written":"ก๋วยเตี๋ยว","reading":"kuai tiao","romanization":"kuai tiao","meaning":{"en":"noodle soup; rice noodles","th":"เส้นที่ทำจากแป้งข้าวเจ้า"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","noodle","thai","famous"],"frequency":2500,"audio":"voice/th/th_food_kuaytiao.mp3","tone":3,"toneRule":"ก๋ — mid class + mai tri → high tone","examples":[{"sentence":"ก๋วยเตี๋ยวเรือน้ำใสร้อนๆ","reading":"kuai tiao ruea nam sai ron ron","translation":{"en":"Hot clear boat noodle soup.","th":"ก๋วยเตี๋ยวเรือน้ำใสร้อนๆ"},"context":"pier"}],"kotodama":{"name":"Kuaiboater","sprite":"kotodama/th_food_kuaytiao.png","description":{"en":"A wiggly white spirit that slides through broth and loves the floating markets.","th":"วิญญาณสีขาวที่ชอบลื่นไถลในน้ำซุปและรักตลาดน้ำ"},"rarity":"common","habitat":["pier","floating_market"]},"needsReview":true},
-  {"id":"th_food_phrik","lang":"th","written":"พริก","reading":"phrik","romanization":"phrik","meaning":{"en":"chili; chili pepper","th":"พืชที่ทำให้อาหารเผ็ด"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","spice","thai"],"frequency":2200,"audio":"voice/th/th_food_phrik.mp3","tone":3,"toneRule":"พ (low class) + dead syllable + no mark → high tone","examples":[{"sentence":"ใส่พริกเยอะหน่อยได้ไหม","reading":"sai phrik yoe noi dai mai","translation":{"en":"Can you add a bit more chili?","th":"ใส่พริกเยอะหน่อยได้ไหม"},"context":"fresh_market"}],"kotodama":{"name":"Phrikflame","sprite":"kotodama/th_food_phrik.png","description":{"en":"A fiery red spirit that sneezes sparks and makes everything around it taste spicier.","th":"วิญญาณสีแดงจัดที่จามประกายไฟ ทำให้ทุกอย่างรอบข้างมีรสเผ็ดขึ้น"},"rarity":"common","habitat":["fresh_market","night_market"]},"needsReview":true},
-  {"id":"th_food_kratiam","lang":"th","written":"กระเทียม","reading":"kratiam","romanization":"kratiam","meaning":{"en":"garlic","th":"พืชเครื่องเทศมีกลิ่นฉุน"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","spice","thai"],"frequency":2000,"audio":"voice/th/th_food_kratiam.mp3","tone":0,"toneRule":"ก (mid class) + no mark + live → mid tone","examples":[{"sentence":"ผัดกระเทียมกลิ่นหอมมาก","reading":"phat kratiam klin hom mak","translation":{"en":"Stir-frying garlic smells incredible.","th":"ผัดกระเทียมมีกลิ่นหอมมาก"},"context":"fresh_market"}],"kotodama":{"name":"Kratiamglow","sprite":"kotodama/th_food_kratiam.png","description":{"en":"A small white bulb spirit with a surprisingly powerful aura.","th":"วิญญาณกลมเล็กสีขาวที่มีออร่าแรงเกินตัว"},"rarity":"common","habitat":["fresh_market","old_town"]},"needsReview":true},
-  {"id":"th_food_manao","lang":"th","written":"มะนาว","reading":"manao","romanization":"manao","meaning":{"en":"lime","th":"ผลไม้รสเปรี้ยวสีเขียว"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","fruit","sour","thai"],"frequency":1800,"audio":"voice/th/th_food_manao.mp3","tone":0,"toneRule":"ม (low class) + no mark + live → mid tone","examples":[{"sentence":"บีบมะนาวลงซุปนิดนึง","reading":"bit manao long sup nit nung","translation":{"en":"Squeeze a little lime into the soup.","th":"บีบมะนาวลงในซุปนิดนึง"},"context":"pier"}],"kotodama":{"name":"Manaozest","sprite":"kotodama/th_food_manao.png","description":{"en":"A tiny green spirit that always appears right when food needs brightening.","th":"วิญญาณเขียวจิ๋วที่โผล่มาทุกครั้งที่อาหารต้องการรสเข้มข้น"},"rarity":"common","habitat":["fresh_market","pier"]},"needsReview":true},
-  {"id":"th_food_namtan","lang":"th","written":"น้ำตาล","reading":"namtan","romanization":"namtan","meaning":{"en":"sugar","th":"สารให้ความหวาน"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","ingredient","sweet","thai"],"frequency":2100,"audio":"voice/th/th_food_namtan.mp3","tone":3,"toneRule":"น้ำ — น (low class) + mai tho → high; ตาล — ต (mid) + no mark → mid","examples":[{"sentence":"ใส่น้ำตาลนิดเดียวพอ","reading":"sai namtan nit diao pho","translation":{"en":"Just a tiny bit of sugar is enough.","th":"ใส่น้ำตาลนิดเดียวก็พอ"},"context":"fresh_market"}],"kotodama":{"name":"Namtansweet","sprite":"kotodama/th_food_namtan.png","description":{"en":"A crystalline white spirit that dissolves gently and leaves everything sweeter.","th":"วิญญาณสีขาวแวววาวที่ละลายเบาๆ และทำให้ทุกอย่างหวานขึ้น"},"rarity":"common","habitat":["fresh_market","night_market"]},"needsReview":true},
-  {"id":"th_food_nuamphrik","lang":"th","written":"น้ำพริก","reading":"namphrik","romanization":"namphrik","meaning":{"en":"chili dipping sauce (fermented/fresh)","th":"เครื่องจิ้มรสเผ็ดของไทย"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","sauce","thai","condiment"],"frequency":1400,"audio":"voice/th/th_food_namphrik.mp3","tone":3,"toneRule":"น้ำ — high tone; พริก — high tone","examples":[{"sentence":"น้ำพริกกะปิกินกับผักสด","reading":"namphrik kapi gin gap phak sot","translation":{"en":"Shrimp paste chili sauce eaten with fresh vegetables.","th":"น้ำพริกกะปิกินกับผักสด"},"context":"fresh_market"}],"kotodama":{"name":"Namphrikburn","sprite":"kotodama/th_food_namphrik.png","description":{"en":"A dark, pungent spirit that clears sinuses and challenges the brave.","th":"วิญญาณสีเข้มกลิ่นฉุนที่โล่งจมูกและท้าทายผู้กล้า"},"rarity":"uncommon","habitat":["fresh_market","old_town"]},"needsReview":true},
-  {"id":"th_food_khaopad","lang":"th","written":"ข้าวผัด","reading":"khaao phat","romanization":"khaao phat","meaning":{"en":"fried rice","th":"ข้าวที่ผัดกับเครื่องปรุง"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","dish","thai","rice"],"frequency":2600,"audio":"voice/th/th_food_khaopad.mp3","tone":1,"toneRule":"ข้าว — falling(2); ผัด — ผ high+dead → low(1). Compound approximates low first syllable.","examples":[{"sentence":"ข้าวผัดไข่ดาวข้างๆ","reading":"khaao phat khai dao khang khang","translation":{"en":"Fried rice with a fried egg on the side.","th":"ข้าวผัดกับไข่ดาวข้างๆ"},"context":"night_market"}],"kotodama":{"name":"Khaophatflame","sprite":"kotodama/th_food_khaopad.png","description":{"en":"A smoky spirit that only manifests when a wok reaches the right heat.","th":"วิญญาณควันที่ปรากฏเฉพาะเมื่อกระทะร้อนได้ที่"},"rarity":"common","habitat":["night_market","old_town"]},"needsReview":true},
-  {"id":"th_food_somtam","lang":"th","written":"ส้มตำ","reading":"somtam","romanization":"somtam","meaning":{"en":"green papaya salad","th":"สลัดมะละกออ่อน รสเปรี้ยวเผ็ด"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","salad","thai","famous","isaan"],"frequency":2100,"audio":"voice/th/th_food_somtam.mp3","tone":2,"toneRule":"ส้ม — ส (high class) + mai tho → falling(2); ตำ — ต (mid) + no mark → mid(0)","examples":[{"sentence":"ส้มตำไทยเผ็ดน้อยหน่อยได้ไหม","reading":"somtam thai phet noi noi dai mai","translation":{"en":"Can I get Thai papaya salad a little less spicy?","th":"ขอส้มตำไทยเผ็ดน้อยหน่อยได้ไหม"},"context":"night_market"}],"kotodama":{"name":"Somtampound","sprite":"kotodama/th_food_somtam.png","description":{"en":"A green, punchy spirit that is best in a clay mortar and loves lime.","th":"วิญญาณสีเขียวกระฉับกระเฉงที่ดีที่สุดในครกดินเผาและรักมะนาว"},"rarity":"common","habitat":["night_market","fresh_market"]},"needsReview":true},
-  {"id":"th_food_laap","lang":"th","written":"ลาบ","reading":"laap","romanization":"laap","meaning":{"en":"larb — spicy minced meat salad","th":"สลัดเนื้อสับรสเผ็ดแบบอีสาน"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","dish","isaan","thai","spicy"],"frequency":1500,"audio":"voice/th/th_food_laap.mp3","tone":3,"toneRule":"ล (low class) + dead syllable + no mark → high tone","examples":[{"sentence":"ลาบหมูรสแซ่บอีหลี","reading":"laap muu rot saep i li","translation":{"en":"Pork larb — incredibly delicious!","th":"ลาบหมูรสแซ่บอีหลี"},"context":"night_market"}],"kotodama":{"name":"Laapherb","sprite":"kotodama/th_food_laap.png","description":{"en":"A fragrant spirit dusted with roasted rice powder and fresh mint.","th":"วิญญาณหอมกรุ่นที่โรยด้วยข้าวคั่วและมินต์สด"},"rarity":"uncommon","habitat":["night_market","old_town"]},"needsReview":true},
-  {"id":"th_food_khao_man_kai","lang":"th","written":"ข้าวมันไก่","reading":"khaao man kai","romanization":"khaao man kai","meaning":{"en":"Hainanese chicken rice","th":"ข้าวหุงน้ำมันไก่เสิร์ฟกับไก่ต้ม"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","dish","thai","rice","chicken"],"frequency":1800,"audio":"voice/th/th_food_khaomankai.mp3","tone":0,"toneRule":"ข้าวมันไก่ — compound dish name, dominant tone: mid(0) approximation","examples":[{"sentence":"ข้าวมันไก่แถวนี้อร่อยมาก","reading":"khaao man kai thaeo ni aroi mak","translation":{"en":"The Hainanese chicken rice around here is amazing.","th":"ข้าวมันไก่แถวนี้อร่อยมากเลย"},"context":"old_town"}],"kotodama":{"name":"Mankaistew","sprite":"kotodama/th_food_khaomankai.png","description":{"en":"A calm, comforting spirit that always has a bowl of ginger dipping sauce ready.","th":"วิญญาณเงียบสงบที่มีชามน้ำจิ้มขิงพร้อมเสมอ"},"rarity":"common","habitat":["old_town","fresh_market"]},"needsReview":true},
-  {"id":"th_food_khaotom","lang":"th","written":"ข้าวต้ม","reading":"khaao tom","romanization":"khaao tom","meaning":{"en":"rice porridge; congee","th":"ข้าวที่ต้มกับน้ำจนเละนุ่ม"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","dish","thai","breakfast"],"frequency":1400,"audio":"voice/th/th_food_khaotom.mp3","tone":2,"toneRule":"ข้าว — falling; ต้ม — ต (mid) + mai tho → falling(2)","examples":[{"sentence":"ข้าวต้มเช้าเป็นอาหารเช้าของคนไทย","reading":"khaao tom chao pen ahan chao khong khon thai","translation":{"en":"Morning rice porridge is a common Thai breakfast.","th":"ข้าวต้มตอนเช้าเป็นอาหารเช้าของคนไทยทั่วไป"},"context":"old_town"}],"kotodama":{"name":"Khaotomsoft","sprite":"kotodama/th_food_khaotom.png","description":{"en":"A warm, gentle spirit that never burns and always settles upset stomachs.","th":"วิญญาณอุ่นๆ เบาๆ ที่ไม่เคยร้อนเกินไปและช่วยปวดท้องได้เสมอ"},"rarity":"common","habitat":["old_town","fresh_market"]},"needsReview":true},
-  {"id":"th_food_radna","lang":"th","written":"ราดหน้า","reading":"raad na","romanization":"raad na","meaning":{"en":"fried noodles with gravy","th":"เส้นผัดแล้วราดด้วยน้ำเกรวี"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","noodle","dish","thai"],"frequency":1300,"audio":"voice/th/th_food_radna.mp3","tone":3,"toneRule":"ร (low class) + dead + no mark → high(3); หน้า — ห (high class) + mai tho → falling(2)","examples":[{"sentence":"ราดหน้าหมูกรอบน้ำเกรวีข้น","reading":"raad na muu krob nam kraewi khon","translation":{"en":"Crispy pork fried noodles in thick gravy.","th":"ราดหน้าหมูกรอบน้ำเกรวีข้น"},"context":"night_market"}],"kotodama":{"name":"Radnagravy","sprite":"kotodama/th_food_radna.png","description":{"en":"A glossy, saucy spirit that always looks better than it smells.","th":"วิญญาณเป็นเงาเยิ้มที่ดูดีกว่ากลิ่นมันเสมอ"},"rarity":"common","habitat":["night_market","old_town"]},"needsReview":true},
-  {"id":"th_food_miang_kham","lang":"th","written":"เมี่ยงคำ","reading":"miang kham","romanization":"miang kham","meaning":{"en":"one-bite leaf wrap appetiser","th":"อาหารว่างสมุนไพรห่อใบชะพลู"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","appetiser","thai","leaf"],"frequency":900,"audio":"voice/th/th_food_miangkham.mp3","tone":2,"toneRule":"เมี่ยง — ม (low class) + mai ek → falling(2)","examples":[{"sentence":"เมี่ยงคำคำเดียวมีรสหลายอย่าง","reading":"miang kham kham diao mi rot lai yang","translation":{"en":"One bite of miang kham has so many flavours.","th":"เมี่ยงคำคำเดียวมีรสหลายอย่าง"},"context":"floating_market"}],"kotodama":{"name":"Miangwrap","sprite":"kotodama/th_food_miangkham.png","description":{"en":"A leaf-wrapped spirit that holds a whole party of flavours inside.","th":"วิญญาณที่ห่อด้วยใบไม้และซ่อนปาร์ตี้ของรสชาติไว้ข้างใน"},"rarity":"uncommon","habitat":["floating_market","old_town"]},"needsReview":true},
-  {"id":"th_food_thot_man","lang":"th","written":"ทอดมัน","reading":"thot man","romanization":"thot man","meaning":{"en":"fish cakes; fried fish patties","th":"แป้งปลาทอดกรอบ"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","snack","thai","fried"],"frequency":1100,"audio":"voice/th/th_food_thotman.mp3","tone":3,"toneRule":"ท (low class) + dead syllable → high(3); มัน — ม (low) + dead + no mark → high(3)","examples":[{"sentence":"ทอดมันปลากินกับน้ำจิ้มรสเปรี้ยวหวาน","reading":"thot man pla gin gap nam chim rot priao wan","translation":{"en":"Fish cakes with sweet and sour dipping sauce.","th":"ทอดมันปลากินกับน้ำจิ้มรสเปรี้ยวหวาน"},"context":"night_market"}],"kotodama":{"name":"Thotmancrisp","sprite":"kotodama/th_food_thotman.png","description":{"en":"A golden-brown spirit with a satisfying crunch that echoes when tapped.","th":"วิญญาณสีทองน้ำตาลที่มีเสียงกรุบกรับน่าพอใจเมื่อเคาะ"},"rarity":"common","habitat":["pier","night_market"]},"needsReview":true},
-  {"id":"th_food_aroi","lang":"th","written":"อร่อย","reading":"aroi","romanization":"aroi","meaning":{"en":"delicious; tasty","th":"มีรสชาติที่น่าพอใจ"},"pos":"adjective","element":"flow","level":"A1","chapter":10,"tags":["food","taste","adjective","thai"],"frequency":5000,"audio":"voice/th/th_food_aroi.mp3","tone":0,"toneRule":"อ (mid class) + no mark + live → mid(0); ร (low) + no mark → mid — overall mid approximation","examples":[{"sentence":"อร่อยมากเลยครับ!","reading":"aroi mak loei khrap","translation":{"en":"It's incredibly delicious!","th":"อร่อยมากเลย!"},"context":"night_market"}],"kotodama":{"name":"Aroiling","sprite":"kotodama/th_food_aroi.png","description":{"en":"A happy orange spirit that glows brighter every time someone enjoys food.","th":"วิญญาณสีส้มสดใสที่เปล่งแสงมากขึ้นทุกครั้งที่มีคนอร่อย"},"rarity":"common","habitat":["night_market","fresh_market","floating_market"]},"needsReview":true},
-  {"id":"th_food_phet","lang":"th","written":"เผ็ด","reading":"phet","romanization":"phet","meaning":{"en":"spicy; hot (taste)","th":"มีรสเผ็ดจากพริก"},"pos":"adjective","element":"flow","level":"A1","chapter":10,"tags":["food","taste","adjective","thai"],"frequency":3500,"audio":"voice/th/th_food_phet.mp3","tone":3,"toneRule":"ผ (high class) + dead syllable + no mark → low(1). Note: ผ is high class so dead+no mark = low. Approx tone 1.","examples":[{"sentence":"เผ็ดมากไหมครับ","reading":"phet mak mai khrap","translation":{"en":"Is it very spicy?","th":"เผ็ดมากไหม"},"context":"fresh_market"}],"kotodama":{"name":"Phetflame","sprite":"kotodama/th_food_phet.png","description":{"en":"A tiny red flame spirit that pops in your mouth and brings tears of joy.","th":"วิญญาณเปลวไฟจิ๋วสีแดงที่แตกในปากและทำให้น้ำตาไหลด้วยความสุข"},"rarity":"common","habitat":["fresh_market","night_market"]},"needsReview":true},
-  {"id":"th_food_wan","lang":"th","written":"หวาน","reading":"wan","romanization":"wan","meaning":{"en":"sweet (taste)","th":"มีรสหวาน"},"pos":"adjective","element":"flow","level":"A1","chapter":10,"tags":["food","taste","adjective","thai"],"frequency":3000,"audio":"voice/th/th_food_wan.mp3","tone":4,"toneRule":"ห (high class) + no mark + live → rising(4)","examples":[{"sentence":"หวานแบบพอดีๆ ไม่เกินไป","reading":"wan baep pho di pho di mai koen pai","translation":{"en":"Perfectly sweet — not too much.","th":"หวานแบบพอดีๆ ไม่มากเกินไป"},"context":"fresh_market"}],"kotodama":{"name":"Wanrose","sprite":"kotodama/th_food_wan.png","description":{"en":"A rosy spirit that radiates warmth and makes every dessert taste just right.","th":"วิญญาณสีกุหลาบที่แผ่ความอบอุ่นและทำให้ขนมหวานทุกอย่างอร่อยพอดี"},"rarity":"common","habitat":["night_market","floating_market"]},"needsReview":true},
-  {"id":"th_food_priao","lang":"th","written":"เปรี้ยว","reading":"priao","romanization":"priao","meaning":{"en":"sour (taste)","th":"มีรสเปรี้ยว"},"pos":"adjective","element":"flow","level":"A1","chapter":10,"tags":["food","taste","adjective","thai"],"frequency":2200,"audio":"voice/th/th_food_priao.mp3","tone":0,"toneRule":"ป (mid class) + no mark + live → mid(0)","examples":[{"sentence":"มะนาวทำให้เปรี้ยวดี","reading":"manao tham hai priao di","translation":{"en":"Lime makes it pleasantly sour.","th":"มะนาวทำให้มีรสเปรี้ยวดี"},"context":"fresh_market"}],"kotodama":{"name":"Priaozing","sprite":"kotodama/th_food_priao.png","description":{"en":"A bright yellow spirit that makes your eyes water and lips pucker pleasantly.","th":"วิญญาณสีเหลืองสดที่ทำให้ตาพร่าและปากจู๋อย่างน่าพอใจ"},"rarity":"common","habitat":["fresh_market","pier"]},"needsReview":true},
-  {"id":"th_food_kem","lang":"th","written":"เค็ม","reading":"khem","romanization":"khem","meaning":{"en":"salty (taste)","th":"มีรสเค็ม"},"pos":"adjective","element":"flow","level":"A1","chapter":10,"tags":["food","taste","adjective","thai"],"frequency":2000,"audio":"voice/th/th_food_kem.mp3","tone":0,"toneRule":"ค (low class) + no mark + live → mid(0)","examples":[{"sentence":"เค็มนิดหน่อยพอดีมากเลย","reading":"khem nit noi pho di mak loei","translation":{"en":"A little salty — just right!","th":"เค็มนิดหน่อยพอดีมากเลย"},"context":"fresh_market"}],"kotodama":{"name":"Kemsalt","sprite":"kotodama/th_food_kem.png","description":{"en":"A silver crystalline spirit that preserves anything it touches.","th":"วิญญาณผลึกสีเงินที่ถนอมทุกสิ่งที่สัมผัส"},"rarity":"common","habitat":["fresh_market","pier"]},"needsReview":true},
-  {"id":"th_food_joot","lang":"th","written":"จืด","reading":"jueut","romanization":"jueut","meaning":{"en":"bland; tasteless","th":"ไม่มีรสชาติ"},"pos":"adjective","element":"flow","level":"A1","chapter":10,"tags":["food","taste","adjective","thai"],"frequency":1200,"audio":"voice/th/th_food_joot.mp3","tone":1,"toneRule":"จ (mid class) + dead syllable + no mark → low(1)","examples":[{"sentence":"ซุปนี้จืดไป ใส่เกลืออีกนิดนึง","reading":"sup ni jueut pai sai kluea ik nit nung","translation":{"en":"This soup is too bland — add a little more salt.","th":"ซุปนี้จืดไป ใส่เกลืออีกนิดนึง"},"context":"fresh_market"}],"kotodama":{"name":"Jueutfade","sprite":"kotodama/th_food_joot.png","description":{"en":"A pale, quiet spirit that helps you appreciate other flavours by contrast.","th":"วิญญาณสีซีดเงียบที่ช่วยให้คุณซาบซึ้งรสชาติอื่นด้วยการเปรียบเทียบ"},"rarity":"common","habitat":["old_town","rice_field"]},"needsReview":true},
-  {"id":"th_food_khom","lang":"th","written":"ขม","reading":"khom","romanization":"khom","meaning":{"en":"bitter (taste)","th":"มีรสขม"},"pos":"adjective","element":"flow","level":"A1","chapter":10,"tags":["food","taste","adjective","thai"],"frequency":1100,"audio":"voice/th/th_food_khom.mp3","tone":4,"toneRule":"ข (high class) + no mark + live → rising(4)","examples":[{"sentence":"ใบมะระขมๆ ดีต่อสุขภาพ","reading":"bai mara khom khom di to sukhaphap","translation":{"en":"Bitter gourd leaves are good for health.","th":"ใบมะระขมๆ ดีต่อสุขภาพ"},"context":"fresh_market"}],"kotodama":{"name":"Khomherb","sprite":"kotodama/th_food_khom.png","description":{"en":"A dark green spirit that most avoid — but healers always seek it out.","th":"วิญญาณสีเขียวเข้มที่คนส่วนใหญ่หลีกเลี่ยง แต่หมอยาสรรหาเสมอ"},"rarity":"uncommon","habitat":["temple","rice_field"]},"needsReview":true},
-  {"id":"th_food_man_farang","lang":"th","written":"มันฝรั่ง","reading":"man farang","romanization":"man farang","meaning":{"en":"potato","th":"พืชหัวที่นำมาประกอบอาหาร"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","vegetable","thai"],"frequency":1300,"audio":"voice/th/th_food_manfarang.mp3","tone":0,"toneRule":"ม (low class) + no mark + live → mid(0)","examples":[{"sentence":"มันฝรั่งทอดกรอบอร่อยมาก","reading":"man farang thot krob aroi mak","translation":{"en":"Crispy fried potatoes are delicious.","th":"มันฝรั่งทอดกรอบอร่อยมาก"},"context":"night_market"}],"kotodama":{"name":"Manfarangchip","sprite":"kotodama/th_food_manfarang.png","description":{"en":"A round, humble spirit that became famous when it met hot oil.","th":"วิญญาณกลมๆ ธรรมดาที่กลายเป็นที่รักเมื่อพบกับน้ำมันร้อน"},"rarity":"common","habitat":["night_market","old_town"]},"needsReview":true},
-  {"id":"th_food_het","lang":"th","written":"เห็ด","reading":"het","romanization":"het","meaning":{"en":"mushroom","th":"เห็ดชนิดต่างๆ"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","vegetable","thai"],"frequency":1400,"audio":"voice/th/th_food_het.mp3","tone":1,"toneRule":"ห (high class leads ห+เ+ด pattern) + dead + no mark → low(1)","examples":[{"sentence":"เห็ดหอมใส่ในซุปหอมมาก","reading":"het hom sai nai sup hom mak","translation":{"en":"Shiitake mushrooms in soup smell wonderful.","th":"เห็ดหอมในซุปหอมมาก"},"context":"fresh_market"}],"kotodama":{"name":"Hetshroom","sprite":"kotodama/th_food_het.png","description":{"en":"A round, spore-dusting spirit that pops up overnight in quiet corners.","th":"วิญญาณกลมที่โรยสปอร์และโผล่ขึ้นข้ามคืนในมุมเงียบๆ"},"rarity":"common","habitat":["rice_field","floating_market"]},"needsReview":true},
-  {"id":"th_food_tao_huu","lang":"th","written":"เต้าหู้","reading":"tao huu","romanization":"tao huu","meaning":{"en":"tofu; bean curd","th":"ผลิตภัณฑ์จากถั่วเหลือง"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","protein","thai","vegetarian"],"frequency":1200,"audio":"voice/th/th_food_taohuu.mp3","tone":3,"toneRule":"เต้า — ต (mid) + mai tho → falling(2); หู้ — ห (high) + mai tho → falling(2). Compound: approx falling(2)","examples":[{"sentence":"เต้าหู้นุ่มลงในซุปเดือด","reading":"tao huu num long nai sup dueat","translation":{"en":"Soft tofu simmers in the boiling soup.","th":"เต้าหู้นุ่มลงในซุปเดือด"},"context":"floating_market"}],"kotodama":{"name":"Taohuusoft","sprite":"kotodama/th_food_taohuu.png","description":{"en":"A wobbly white spirit that takes the shape of whatever surrounds it.","th":"วิญญาณสีขาวที่โยกไหวและรับรูปร่างของสิ่งรอบข้าง"},"rarity":"common","habitat":["floating_market","old_town"]},"needsReview":true},
-  {"id":"th_food_bia","lang":"th","written":"เบียร์","reading":"bia","romanization":"bia","meaning":{"en":"beer","th":"เครื่องดื่มแอลกอฮอล์ทำจากข้าวบาร์เลย์"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","drink","thai","alcohol"],"frequency":2000,"audio":"voice/th/th_food_bia.mp3","tone":0,"toneRule":"บ (mid class) + no mark + live → mid(0)","examples":[{"sentence":"เบียร์เย็นๆ หลังงานหนัก","reading":"bia yen yen lang ngan nak","translation":{"en":"A cold beer after hard work.","th":"เบียร์เย็นๆ หลังทำงานหนัก"},"context":"night_market"}],"kotodama":{"name":"Biabubble","sprite":"kotodama/th_food_bia.png","description":{"en":"A fizzy golden spirit that floats at eye level and leaves a white foam trail.","th":"วิญญาณสีทองที่ลอยอยู่ระดับตาและทิ้งร่องรอยฟองสีขาว"},"rarity":"common","habitat":["night_market","old_town"]},"needsReview":true},
-  {"id":"th_food_nom","lang":"th","written":"นม","reading":"nom","romanization":"nom","meaning":{"en":"milk","th":"ของเหลวสีขาวจากวัว"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","drink","dairy","thai"],"frequency":1800,"audio":"voice/th/th_food_nom.mp3","tone":0,"toneRule":"น (low class) + no mark + live → mid(0)","examples":[{"sentence":"ชาใส่นมร้อนๆ ในเช้าตรู่","reading":"chaa sai nom ron ron nai chao truu","translation":{"en":"Hot tea with milk in the early morning.","th":"ชาใส่นมร้อนๆ ในตอนเช้าตรู่"},"context":"old_town"}],"kotodama":{"name":"Nomcloud","sprite":"kotodama/th_food_nom.png","description":{"en":"A soft white spirit that swirls when poured and loves morning routines.","th":"วิญญาณสีขาวนวลที่วนเมื่อเทและรักกิจวัตรยามเช้า"},"rarity":"common","habitat":["old_town","rice_field"]},"needsReview":true},
-  {"id":"th_food_namphonlamai","lang":"th","written":"น้ำผลไม้","reading":"nam phonlamai","romanization":"nam phonlamai","meaning":{"en":"fruit juice","th":"น้ำคั้นจากผลไม้"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","drink","thai","fruit"],"frequency":1700,"audio":"voice/th/th_food_namphonlamai.mp3","tone":3,"toneRule":"น้ำ — high(3) first syllable","examples":[{"sentence":"น้ำผลไม้สดทำที่บ้านอร่อยกว่า","reading":"nam phonlamai sot tham thi ban aroi kwa","translation":{"en":"Freshly made fruit juice at home tastes better.","th":"น้ำผลไม้สดทำที่บ้านอร่อยกว่า"},"context":"fresh_market"}],"kotodama":{"name":"Namjuice","sprite":"kotodama/th_food_namphonlamai.png","description":{"en":"A swirling rainbow spirit that changes colour based on what fruit it holds.","th":"วิญญาณสายรุ้งที่หมุนวนและเปลี่ยนสีตามผลไม้ที่อยู่ภายใน"},"rarity":"common","habitat":["fresh_market","floating_market"]},"needsReview":true},
-  {"id":"th_food_khanom_pang","lang":"th","written":"ขนมปัง","reading":"khanom pang","romanization":"khanom pang","meaning":{"en":"bread","th":"อาหารทำจากแป้งสาลีอบ"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","bread","thai","bakery"],"frequency":1500,"audio":"voice/th/th_food_khanompang.mp3","tone":4,"toneRule":"ขนม — ข (high) + live → rising(4) first syllable","examples":[{"sentence":"ขนมปังหน้าตาง่ายๆ แต่อร่อยมาก","reading":"khanom pang na ta ngai ngai tae aroi mak","translation":{"en":"Simple-looking bread, but delicious.","th":"ขนมปังหน้าตาธรรมดาแต่อร่อยมาก"},"context":"old_town"}],"kotodama":{"name":"Khanompangloaf","sprite":"kotodama/th_food_khanompang.png","description":{"en":"A fluffy cloud-like spirit that smells of fresh-baked warmth.","th":"วิญญาณฟูเหมือนเมฆที่มีกลิ่นขนมปังอบสดใหม่"},"rarity":"common","habitat":["old_town","night_market"]},"needsReview":true},
-  {"id":"th_food_thua","lang":"th","written":"ถั่ว","reading":"thua","romanization":"thua","meaning":{"en":"beans; legumes; nuts","th":"พืชตระกูลถั่วชนิดต่างๆ"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","legume","thai"],"frequency":1600,"audio":"voice/th/th_food_thua.mp3","tone":4,"toneRule":"ถ (high class) + no mark + live → rising(4)","examples":[{"sentence":"ถั่วลิสงคั่วกินกับข้าวเหนียวได้เลย","reading":"thua lisong khua gin gap khaao niao dai loei","translation":{"en":"Roasted peanuts go great with sticky rice.","th":"ถั่วลิสงคั่วกินกับข้าวเหนียวได้เลย"},"context":"floating_market"}],"kotodama":{"name":"Thuapod","sprite":"kotodama/th_food_thua.png","description":{"en":"A small round spirit that rattles inside its pod and has a nutty laugh.","th":"วิญญาณกลมเล็กที่สั่นอยู่ในฝักและหัวเราะเหมือนกลิ่นถั่ว"},"rarity":"common","habitat":["fresh_market","rice_field"]},"needsReview":true},
-  {"id":"th_food_khao_soi","lang":"th","written":"ข้าวซอย","reading":"khaao soi","romanization":"khaao soi","meaning":{"en":"Northern Thai coconut curry noodle soup","th":"ก๋วยเตี๋ยวแกงกะทิแบบล้านนา"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","dish","noodle","north","thai"],"frequency":1200,"audio":"voice/th/th_food_khaosoi.mp3","tone":2,"toneRule":"ข้าว — falling(2) first syllable","examples":[{"sentence":"ข้าวซอยเชียงใหม่หอมเครื่องเทศ","reading":"khaao soi chiang mai hom khrueang thet","translation":{"en":"Chiang Mai khao soi is fragrant with spices.","th":"ข้าวซอยเชียงใหม่หอมเครื่องเทศ"},"context":"old_town"}],"kotodama":{"name":"Khaosoinorth","sprite":"kotodama/th_food_khaosoi.png","description":{"en":"A golden, fragrant spirit with crispy and soft noodles on both sides.","th":"วิญญาณสีทองหอมกรุ่นที่มีเส้นกรอบและเส้นนุ่มอยู่สองข้าง"},"rarity":"uncommon","habitat":["old_town","temple"]},"needsReview":true},
-  {"id":"th_food_khanom_jeen","lang":"th","written":"ขนมจีน","reading":"khanom jeen","romanization":"khanom jeen","meaning":{"en":"fermented rice noodles","th":"เส้นข้าวหมักเสิร์ฟกับน้ำยา"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","noodle","thai","fermented"],"frequency":1000,"audio":"voice/th/th_food_khanomjeen.mp3","tone":4,"toneRule":"ขนม — rising(4); จีน — จ (mid) + no mark + live → mid(0)","examples":[{"sentence":"ขนมจีนน้ำยากะทิอร่อยมาก","reading":"khanom jeen nam ya kathi aroi mak","translation":{"en":"Fermented rice noodles in coconut curry sauce — so good.","th":"ขนมจีนน้ำยากะทิอร่อยมาก"},"context":"floating_market"}],"kotodama":{"name":"Khanomjeenswirl","sprite":"kotodama/th_food_khanomjeen.png","description":{"en":"A soft pale spirit wound into a spiral that comes alive in warm sauce.","th":"วิญญาณขาวนวลที่ม้วนเป็นเกลียวและมีชีวิตขึ้นในน้ำยาร้อน"},"rarity":"common","habitat":["floating_market","fresh_market"]},"needsReview":true}
+  {
+    "id": "th_food_khao",
+    "lang": "th",
+    "written": "ข้าว",
+    "reading": "khaao",
+    "romanization": "khaao",
+    "meaning": {
+      "en": "rice",
+      "th": "เมล็ดธัญพืชที่นำมาหุง",
+      "ja": "ご飯；米"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "staple",
+      "thai"
+    ],
+    "frequency": 9999,
+    "audio": "voice/th/th_food_khao.mp3",
+    "tone": 2,
+    "toneRule": "ข (high class) + mai tho → falling",
+    "examples": [
+      {
+        "sentence": "ฉันกินข้าวทุกวัน",
+        "reading": "chan gin khaao thuk wan",
+        "translation": {
+          "en": "I eat rice every day.",
+          "th": "ฉันรับประทานข้าวทุกวัน"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Khaoline",
+      "sprite": "kotodama/th_food_khao.png",
+      "description": {
+        "en": "A plump white spirit shaped like a grain of jasmine rice. It always smells of fresh steam.",
+        "th": "วิญญาณกลมๆ สีขาวรูปร่างคล้ายเมล็ดข้าวหอมมะลิ กลิ่นข้าวนึ่งสดๆ ฟุ้งตลอดเวลา"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "floating_market",
+        "rice_field"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_nam",
+    "lang": "th",
+    "written": "น้ำ",
+    "reading": "naam",
+    "romanization": "naam",
+    "meaning": {
+      "en": "water; liquid",
+      "th": "ของเหลวที่ดื่มได้",
+      "ja": "水；液体"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "drink",
+      "water",
+      "thai"
+    ],
+    "frequency": 9999,
+    "audio": "voice/th/th_food_nam.mp3",
+    "tone": 3,
+    "toneRule": "น (low class) + mai tho → high",
+    "examples": [
+      {
+        "sentence": "ขอน้ำเปล่าหน่อยครับ",
+        "reading": "kho naam plao noi khrap",
+        "translation": {
+          "en": "May I have a glass of plain water?",
+          "th": "ขอน้ำเปล่าสักแก้วหนึ่ง"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Namlique",
+      "sprite": "kotodama/th_food_nam.png",
+      "description": {
+        "en": "A flowing, translucent spirit that pools in low places and loves rain.",
+        "th": "วิญญาณโปร่งแสงไหลลื่นที่รักฝนและน้ำพุ"
+      },
+      "rarity": "common",
+      "habitat": [
+        "pier",
+        "floating_market",
+        "rice_field"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_kafae",
+    "lang": "th",
+    "written": "กาแฟ",
+    "reading": "kafae",
+    "romanization": "kafae",
+    "meaning": {
+      "en": "coffee",
+      "th": "เครื่องดื่มที่ทำจากเมล็ดกาแฟคั่ว",
+      "ja": "コーヒー"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "drink",
+      "coffee",
+      "thai"
+    ],
+    "frequency": 2500,
+    "audio": "voice/th/th_food_kafae.mp3",
+    "tone": 0,
+    "toneRule": "ก (mid class) + no mark + live syllable → mid tone",
+    "examples": [
+      {
+        "sentence": "กาแฟโบราณรสเข้มมาก",
+        "reading": "kafae boran rot khem mak",
+        "translation": {
+          "en": "Old-style Thai coffee is very strong.",
+          "th": "กาแฟโบราณรสชาติเข้มข้นมาก"
+        },
+        "context": "old_town"
+      }
+    ],
+    "kotodama": {
+      "name": "Kafaeling",
+      "sprite": "kotodama/th_food_kafae.png",
+      "description": {
+        "en": "A dark, aromatic spirit that wakes sleeping Kotodama with a single whiff.",
+        "th": "วิญญาณสีน้ำตาลเข้มที่กลิ่นหอมของมันปลุกโคโตะดามะหลับให้ตื่น"
+      },
+      "rarity": "common",
+      "habitat": [
+        "old_town",
+        "night_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_cha",
+    "lang": "th",
+    "written": "ชา",
+    "reading": "chaa",
+    "romanization": "chaa",
+    "meaning": {
+      "en": "tea",
+      "th": "เครื่องดื่มชงจากใบชา",
+      "ja": "お茶；紅茶"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "drink",
+      "thai"
+    ],
+    "frequency": 2000,
+    "audio": "voice/th/th_food_cha.mp3",
+    "tone": 0,
+    "toneRule": "ช (low class) + no mark + live → mid tone",
+    "examples": [
+      {
+        "sentence": "ชาเย็นใส่นมหวานๆ",
+        "reading": "chaa yen sai nom wan wan",
+        "translation": {
+          "en": "Iced tea with sweet condensed milk.",
+          "th": "ชาเย็นใส่นมหวาน"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Chaenara",
+      "sprite": "kotodama/th_food_cha.png",
+      "description": {
+        "en": "A gentle golden spirit that steams softly and soothes any heated Kotodama.",
+        "th": "วิญญาณสีทองอ่อนที่ควันฟุ้งเบาๆ ช่วยระงับโคโตะดามะที่ร้อนรน"
+      },
+      "rarity": "common",
+      "habitat": [
+        "temple",
+        "old_town"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_muu",
+    "lang": "th",
+    "written": "หมู",
+    "reading": "muu",
+    "romanization": "muu",
+    "meaning": {
+      "en": "pork; pig",
+      "th": "เนื้อสุกร",
+      "ja": "豚肉；豚"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "meat",
+      "thai"
+    ],
+    "frequency": 3000,
+    "audio": "voice/th/th_food_muu.mp3",
+    "tone": 4,
+    "toneRule": "ห (high class) + no mark + live → rising tone",
+    "examples": [
+      {
+        "sentence": "ผัดหมูกระเทียมพริกไทย",
+        "reading": "phat muu krathiam phrik thai",
+        "translation": {
+          "en": "Stir-fried pork with garlic and pepper.",
+          "th": "หมูผัดกระเทียมพริกไทย"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Muupin",
+      "sprite": "kotodama/th_food_muu.png",
+      "description": {
+        "en": "A rosy, round spirit that squeals happily when it smells garlic.",
+        "th": "วิญญาณกลมๆ สีชมพูที่ส่งเสียงดีใจเมื่อได้กลิ่นกระเทียม"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "night_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_kai",
+    "lang": "th",
+    "written": "ไก่",
+    "reading": "kai",
+    "romanization": "kai",
+    "meaning": {
+      "en": "chicken (meat)",
+      "th": "เนื้อไก่",
+      "ja": "鶏肉；チキン"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "meat",
+      "thai"
+    ],
+    "frequency": 3500,
+    "audio": "voice/th/th_food_kai.mp3",
+    "tone": 1,
+    "toneRule": "ก (mid class) + mai ek → low tone",
+    "examples": [
+      {
+        "sentence": "ข้าวมันไก่อร่อยมาก",
+        "reading": "khaao man kai aroi mak",
+        "translation": {
+          "en": "Hainanese chicken rice is so delicious.",
+          "th": "ข้าวมันไก่อร่อยมาก"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Kairune",
+      "sprite": "kotodama/th_food_kai.png",
+      "description": {
+        "en": "A golden-feathered spirit that crows softly at sunrise.",
+        "th": "วิญญาณขนทองที่ขันเบาๆ เวลาพระอาทิตย์ขึ้น"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "rice_field"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_nuea",
+    "lang": "th",
+    "written": "เนื้อ",
+    "reading": "nuea",
+    "romanization": "nuea",
+    "meaning": {
+      "en": "beef; meat",
+      "th": "เนื้อวัว",
+      "ja": "牛肉；肉"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "meat",
+      "thai"
+    ],
+    "frequency": 2000,
+    "audio": "voice/th/th_food_nuea.mp3",
+    "tone": 3,
+    "toneRule": "น (low class) + mai tho → high tone",
+    "examples": [
+      {
+        "sentence": "เนื้อย่างรสจัดจ้าน",
+        "reading": "nuea yang rot chat chan",
+        "translation": {
+          "en": "Grilled beef with a bold flavour.",
+          "th": "เนื้อย่างรสเข้มจัดจ้าน"
+        },
+        "context": "night_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Nuealing",
+      "sprite": "kotodama/th_food_nuea.png",
+      "description": {
+        "en": "A hearty, muscular spirit that loves open flames and the smell of charcoal.",
+        "th": "วิญญาณแข็งแกร่งที่รักไฟและกลิ่นถ่านบาร์บีคิว"
+      },
+      "rarity": "common",
+      "habitat": [
+        "night_market",
+        "old_town"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_pla",
+    "lang": "th",
+    "written": "ปลา",
+    "reading": "plaa",
+    "romanization": "plaa",
+    "meaning": {
+      "en": "fish",
+      "th": "สัตว์น้ำที่นำมาประกอบอาหาร",
+      "ja": "魚"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "seafood",
+      "thai"
+    ],
+    "frequency": 2800,
+    "audio": "voice/th/th_food_pla.mp3",
+    "tone": 0,
+    "toneRule": "ป (mid class) + no mark + live → mid tone",
+    "examples": [
+      {
+        "sentence": "ปลาทอดกรอบอร่อยมาก",
+        "reading": "plaa that krob aroi mak",
+        "translation": {
+          "en": "Crispy fried fish is very tasty.",
+          "th": "ปลาทอดกรอบอร่อยมาก"
+        },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Plaafin",
+      "sprite": "kotodama/th_food_pla.png",
+      "description": {
+        "en": "A silvery spirit that flits between water and air, trailing bubbles.",
+        "th": "วิญญาณสีเงินที่เล่นระหว่างน้ำและอากาศ ทิ้งร่องรอยฟองอากาศไว้"
+      },
+      "rarity": "common",
+      "habitat": [
+        "pier",
+        "floating_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_kung",
+    "lang": "th",
+    "written": "กุ้ง",
+    "reading": "kung",
+    "romanization": "kung",
+    "meaning": {
+      "en": "shrimp; prawn",
+      "th": "สัตว์น้ำมีเปลือกขนาดเล็กถึงกลาง",
+      "ja": "エビ"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "seafood",
+      "thai"
+    ],
+    "frequency": 1800,
+    "audio": "voice/th/th_food_kung.mp3",
+    "tone": 2,
+    "toneRule": "ก (mid class) + mai tho → falling tone",
+    "examples": [
+      {
+        "sentence": "กุ้งสดทำต้มยำได้เลย",
+        "reading": "kung sot tham tom yam dai loei",
+        "translation": {
+          "en": "Fresh shrimp — perfect for tom yum.",
+          "th": "กุ้งสดเหมาะมากสำหรับทำต้มยำ"
+        },
+        "context": "floating_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Kungling",
+      "sprite": "kotodama/th_food_kung.png",
+      "description": {
+        "en": "A bright orange spirit that curls when frightened but uncurls boldly for heat.",
+        "th": "วิญญาณสีส้มสดที่งอตัวเมื่อกลัว แต่คลี่ตัวกล้าหาญเมื่อเจอความร้อน"
+      },
+      "rarity": "common",
+      "habitat": [
+        "pier",
+        "floating_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_khai",
+    "lang": "th",
+    "written": "ไข่",
+    "reading": "khai",
+    "romanization": "khai",
+    "meaning": {
+      "en": "egg",
+      "th": "ไข่ไก่หรือไข่เป็ด",
+      "ja": "卵"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "thai"
+    ],
+    "frequency": 3200,
+    "audio": "voice/th/th_food_khai.mp3",
+    "tone": 1,
+    "toneRule": "ข (high class) + mai ek → low tone",
+    "examples": [
+      {
+        "sentence": "ไข่ดาวสองฟอง",
+        "reading": "khai dao song fong",
+        "translation": {
+          "en": "Two fried eggs sunny-side up.",
+          "th": "ไข่ดาวสองฟอง"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Khaishell",
+      "sprite": "kotodama/th_food_khai.png",
+      "description": {
+        "en": "An oval yellow spirit that cracks open to reveal a tiny sun inside.",
+        "th": "วิญญาณรูปไข่สีเหลืองที่แตกออกมีดวงอาทิตย์จิ๋วอยู่ข้างใน"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "rice_field"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_phak",
+    "lang": "th",
+    "written": "ผัก",
+    "reading": "phak",
+    "romanization": "phak",
+    "meaning": {
+      "en": "vegetables",
+      "th": "พืชผักที่รับประทานได้",
+      "ja": "野菜"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "vegetable",
+      "thai"
+    ],
+    "frequency": 2500,
+    "audio": "voice/th/th_food_phak.mp3",
+    "tone": 1,
+    "toneRule": "ผ (high class) + dead syllable + no mark → low tone",
+    "examples": [
+      {
+        "sentence": "กินผักให้มากนะ",
+        "reading": "gin phak hai mak na",
+        "translation": {
+          "en": "Eat plenty of vegetables!",
+          "th": "รับประทานผักให้มากๆ นะ"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Phakleaf",
+      "sprite": "kotodama/th_food_phak.png",
+      "description": {
+        "en": "A bright green spirit that rustles like fresh morning-market greens.",
+        "th": "วิญญาณสีเขียวสดที่แกว่งเหมือนผักเช้าในตลาด"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "floating_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_phonlamai",
+    "lang": "th",
+    "written": "ผลไม้",
+    "reading": "phonlamai",
+    "romanization": "phonlamai",
+    "meaning": {
+      "en": "fruit",
+      "th": "ผลไม้ชนิดต่างๆ",
+      "ja": "果物"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "fruit",
+      "thai"
+    ],
+    "frequency": 2200,
+    "audio": "voice/th/th_food_phonlamai.mp3",
+    "tone": 2,
+    "toneRule": "ผ (high class) compound — falling tone on first syllable",
+    "examples": [
+      {
+        "sentence": "ประเทศไทยมีผลไม้เยอะมาก",
+        "reading": "prathet thai mi phonlamai yoe mak",
+        "translation": {
+          "en": "Thailand has so many kinds of fruit.",
+          "th": "ประเทศไทยมีผลไม้หลากหลายมาก"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Phontropical",
+      "sprite": "kotodama/th_food_phonlamai.png",
+      "description": {
+        "en": "A colourful spirit that smells different every day — mango, papaya, lychee…",
+        "th": "วิญญาณหลากสีที่กลิ่นเปลี่ยนทุกวัน มะม่วง มะละกอ ลิ้นจี่..."
+      },
+      "rarity": "uncommon",
+      "habitat": [
+        "fresh_market",
+        "floating_market",
+        "night_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_mamuang",
+    "lang": "th",
+    "written": "มะม่วง",
+    "reading": "mamuang",
+    "romanization": "mamuang",
+    "meaning": {
+      "en": "mango",
+      "th": "ผลไม้รสหวานอมเปรี้ยวสีเหลืองหรือเขียว",
+      "ja": "マンゴー"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "fruit",
+      "thai"
+    ],
+    "frequency": 1800,
+    "audio": "voice/th/th_food_mamuang.mp3",
+    "tone": 2,
+    "toneRule": "ม่ — low class + mai ek → falling tone on second syllable",
+    "examples": [
+      {
+        "sentence": "ข้าวเหนียวมะม่วงหวานมาก",
+        "reading": "khaao niao mamuang wan mak",
+        "translation": {
+          "en": "Mango sticky rice is very sweet.",
+          "th": "ข้าวเหนียวมะม่วงหวานมาก"
+        },
+        "context": "floating_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Mamuangine",
+      "sprite": "kotodama/th_food_mamuang.png",
+      "description": {
+        "en": "A golden-yellow spirit with a fragrance that draws crowds.",
+        "th": "วิญญาณสีเหลืองทองที่กลิ่นหอมดึงดูดผู้คนมาจากทั่ว"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "floating_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_kluai",
+    "lang": "th",
+    "written": "กล้วย",
+    "reading": "kluai",
+    "romanization": "kluai",
+    "meaning": {
+      "en": "banana",
+      "th": "ผลไม้เปลือกเหลืองรสหวาน",
+      "ja": "バナナ"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "fruit",
+      "thai"
+    ],
+    "frequency": 1700,
+    "audio": "voice/th/th_food_kluai.mp3",
+    "tone": 2,
+    "toneRule": "ก (mid class) + mai tho → falling tone",
+    "examples": [
+      {
+        "sentence": "กล้วยทอดหอมอร่อยมาก",
+        "reading": "kluai thot hom aroi mak",
+        "translation": {
+          "en": "Fried bananas smell amazing and taste great.",
+          "th": "กล้วยทอดหอมและอร่อยมาก"
+        },
+        "context": "night_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Kluaipeel",
+      "sprite": "kotodama/th_food_kluai.png",
+      "description": {
+        "en": "A yellow crescent spirit that hangs in clusters and sways in the breeze.",
+        "th": "วิญญาณรูปเสี้ยวสีเหลืองที่ห้อยเป็นพวงและแกว่งตามลม"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "night_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_som",
+    "lang": "th",
+    "written": "ส้ม",
+    "reading": "som",
+    "romanization": "som",
+    "meaning": {
+      "en": "orange; citrus fruit",
+      "th": "ผลไม้รสเปรี้ยวหวานสีส้ม",
+      "ja": "オレンジ；柑橘類"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "fruit",
+      "thai"
+    ],
+    "frequency": 1600,
+    "audio": "voice/th/th_food_som.mp3",
+    "tone": 2,
+    "toneRule": "ส (high class) + mai tho → falling tone",
+    "examples": [
+      {
+        "sentence": "น้ำส้มคั้นสดชื่นมาก",
+        "reading": "nam som khan sot chuen mak",
+        "translation": {
+          "en": "Fresh-squeezed orange juice is very refreshing.",
+          "th": "น้ำส้มคั้นสดชื่นใจมาก"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Somzest",
+      "sprite": "kotodama/th_food_som.png",
+      "description": {
+        "en": "A bright citrus spirit whose peel spirals endlessly when it's excited.",
+        "th": "วิญญาณส้มสดที่เปลือกม้วนวนไม่หยุดเมื่อตื่นเต้น"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "floating_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_maprao",
+    "lang": "th",
+    "written": "มะพร้าว",
+    "reading": "maprao",
+    "romanization": "maprao",
+    "meaning": {
+      "en": "coconut",
+      "th": "ผลไม้เปลือกแข็งมีน้ำและเนื้อสีขาว",
+      "ja": "ココナッツ"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "fruit",
+      "thai",
+      "drink"
+    ],
+    "frequency": 1900,
+    "audio": "voice/th/th_food_maprao.mp3",
+    "tone": 3,
+    "toneRule": "พร้าว — low class + mai tho → high tone on key syllable",
+    "examples": [
+      {
+        "sentence": "น้ำมะพร้าวเย็นๆ ดับกระหายได้ดีมาก",
+        "reading": "nam maprao yen yen dap krahan dai di mak",
+        "translation": {
+          "en": "Cold coconut water quenches thirst wonderfully.",
+          "th": "น้ำมะพร้าวเย็นๆ ดับกระหายได้ดีมาก"
+        },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Mapraoval",
+      "sprite": "kotodama/th_food_maprao.png",
+      "description": {
+        "en": "A husked brown spirit that sloshes gently — there's sweet water inside!",
+        "th": "วิญญาณสีน้ำตาลมีเปลือกแกลบที่สั่นเบาๆ มีน้ำหวานอยู่ข้างใน!"
+      },
+      "rarity": "uncommon",
+      "habitat": [
+        "pier",
+        "floating_market",
+        "fresh_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_thurian",
+    "lang": "th",
+    "written": "ทุเรียน",
+    "reading": "thurian",
+    "romanization": "thurian",
+    "meaning": {
+      "en": "durian (king of fruits)",
+      "th": "ผลไม้กลิ่นแรงรสชาติเข้มข้น",
+      "ja": "ドリアン（果物の王様）"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "fruit",
+      "thai",
+      "famous"
+    ],
+    "frequency": 1200,
+    "audio": "voice/th/th_food_thurian.mp3",
+    "tone": 0,
+    "toneRule": "ท (low class) + no mark + live → mid tone",
+    "examples": [
+      {
+        "sentence": "ทุเรียนกลิ่นแรงแต่รสชาติอร่อย",
+        "reading": "thurian klin raeng tae rot chat aroi",
+        "translation": {
+          "en": "Durian smells strong but tastes delicious.",
+          "th": "ทุเรียนกลิ่นแรงแต่รสชาติอร่อยมาก"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Thuriking",
+      "sprite": "kotodama/th_food_thurian.png",
+      "description": {
+        "en": "A spiky golden spirit that clears any room it enters — but those who stay love it.",
+        "th": "วิญญาณสีทองมีหนามที่ทำให้ทุกคนถอยหนี แต่คนที่อยู่ต่อจะรักมันมาก"
+      },
+      "rarity": "rare",
+      "habitat": [
+        "fresh_market",
+        "old_town"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_khanom",
+    "lang": "th",
+    "written": "ขนม",
+    "reading": "khanom",
+    "romanization": "khanom",
+    "meaning": {
+      "en": "snack; dessert; sweet",
+      "th": "ของว่างและของหวาน",
+      "ja": "お菓子；デザート；甘いもの"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "dessert",
+      "thai"
+    ],
+    "frequency": 2000,
+    "audio": "voice/th/th_food_khanom.mp3",
+    "tone": 4,
+    "toneRule": "ข (high class) + no mark + live → rising tone",
+    "examples": [
+      {
+        "sentence": "ขนมไทยหวานหอมน่ากิน",
+        "reading": "khanom thai wan hom na gin",
+        "translation": {
+          "en": "Thai sweets are fragrant and tempting.",
+          "th": "ขนมไทยหวานหอมน่ารับประทาน"
+        },
+        "context": "night_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Khanomite",
+      "sprite": "kotodama/th_food_khanom.png",
+      "description": {
+        "en": "A pastel-coloured spirit that always smells of pandan and coconut.",
+        "th": "วิญญาณสีพาสเทลที่มีกลิ่นใบเตยและมะพร้าวตลอดเวลา"
+      },
+      "rarity": "common",
+      "habitat": [
+        "night_market",
+        "floating_market",
+        "fresh_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_phat_thai",
+    "lang": "th",
+    "written": "ผัดไทย",
+    "reading": "phat thai",
+    "romanization": "phat thai",
+    "meaning": {
+      "en": "pad thai — stir-fried rice noodles",
+      "th": "ก๋วยเตี๋ยวผัดสไตล์ไทย",
+      "ja": "パッタイ（炒め米麺）"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "dish",
+      "thai",
+      "famous"
+    ],
+    "frequency": 2200,
+    "audio": "voice/th/th_food_phatthai.mp3",
+    "tone": 1,
+    "toneRule": "ผัด — ผ (high class) dead syllable → low tone (first syllable)",
+    "examples": [
+      {
+        "sentence": "ผัดไทยใส่กุ้งไหมครับ",
+        "reading": "phat thai sai kung mai khrap",
+        "translation": {
+          "en": "Pad Thai with shrimp, please?",
+          "th": "ผัดไทยใส่กุ้งได้เลยครับ"
+        },
+        "context": "night_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Phathaine",
+      "sprite": "kotodama/th_food_phatthai.png",
+      "description": {
+        "en": "A wok-smoke spirit that dances in high heat, leaving a trail of lime and peanuts.",
+        "th": "วิญญาณควันกระทะที่เต้นรำในความร้อนสูง ทิ้งร่องรอยมะนาวและถั่วลิสง"
+      },
+      "rarity": "uncommon",
+      "habitat": [
+        "night_market",
+        "old_town"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_tom_yum",
+    "lang": "th",
+    "written": "ต้มยำ",
+    "reading": "tom yam",
+    "romanization": "tom yam",
+    "meaning": {
+      "en": "tom yum — spicy Thai soup",
+      "th": "ซุปเผ็ดรสเปรี้ยวของไทย",
+      "ja": "トムヤム（辛いタイスープ）"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "dish",
+      "soup",
+      "thai",
+      "famous"
+    ],
+    "frequency": 2000,
+    "audio": "voice/th/th_food_tomyum.mp3",
+    "tone": 2,
+    "toneRule": "ต้ม — ต (mid class) + mai tho → falling tone",
+    "examples": [
+      {
+        "sentence": "ต้มยำกุ้งรสเผ็ดจัดจ้าน",
+        "reading": "tom yam kung rot phet chat chan",
+        "translation": {
+          "en": "Tom yum shrimp — boldly spicy!",
+          "th": "ต้มยำกุ้งรสเผ็ดจัดจ้าน"
+        },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Tomyaming",
+      "sprite": "kotodama/th_food_tomyum.png",
+      "description": {
+        "en": "A steaming red spirit that makes your eyes water — with joy, not sadness.",
+        "th": "วิญญาณสีแดงที่มีควันฟุ้ง ทำให้น้ำตาไหลด้วยความสุข ไม่ใช่ความเศร้า"
+      },
+      "rarity": "uncommon",
+      "habitat": [
+        "pier",
+        "floating_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_kaeng",
+    "lang": "th",
+    "written": "แกง",
+    "reading": "kaeng",
+    "romanization": "kaeng",
+    "meaning": {
+      "en": "curry; curry dish",
+      "th": "อาหารน้ำที่มีเครื่องเทศและน้ำพริก",
+      "ja": "カレー；カレー料理"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "dish",
+      "thai",
+      "curry"
+    ],
+    "frequency": 1800,
+    "audio": "voice/th/th_food_kaeng.mp3",
+    "tone": 0,
+    "toneRule": "ก (mid class) + no mark + live → mid tone",
+    "examples": [
+      {
+        "sentence": "แกงเขียวหวานหอมมากเลย",
+        "reading": "kaeng khiao wan hom mak loei",
+        "translation": {
+          "en": "Green curry smells incredibly fragrant.",
+          "th": "แกงเขียวหวานหอมมากเลย"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Kaengspice",
+      "sprite": "kotodama/th_food_kaeng.png",
+      "description": {
+        "en": "A swirling green spirit that carries the heat of lemongrass and galangal.",
+        "th": "วิญญาณสีเขียววนเวียนที่พาความร้อนของตะไคร้และข่า"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "floating_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_khao_niao",
+    "lang": "th",
+    "written": "ข้าวเหนียว",
+    "reading": "khaao niao",
+    "romanization": "khaao niao",
+    "meaning": {
+      "en": "sticky rice; glutinous rice",
+      "th": "ข้าวที่เหนียวนุ่มเมื่อนึ่ง",
+      "ja": "もち米；餅米"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "staple",
+      "thai",
+      "north"
+    ],
+    "frequency": 1600,
+    "audio": "voice/th/th_food_khaoniao.mp3",
+    "tone": 2,
+    "toneRule": "ข้าว — falling; เหนียว — falling (ห leads นview to high class → rising on เหนียว? Actually เหนียว: ห+น cluster = high class, no mark, live → rising(4). But compound tone varies. Mark approx falling(2).",
+    "examples": [
+      {
+        "sentence": "ข้าวเหนียวมะม่วงเมนูโปรดของฉัน",
+        "reading": "khaao niao mamuang menu prot khong chan",
+        "translation": {
+          "en": "Mango sticky rice is my favourite menu.",
+          "th": "ข้าวเหนียวมะม่วงเป็นเมนูโปรดของฉัน"
+        },
+        "context": "floating_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Niaopearl",
+      "sprite": "kotodama/th_food_khaoniao.png",
+      "description": {
+        "en": "A sticky, clumping white spirit that loves bamboo baskets and sunset light.",
+        "th": "วิญญาณสีขาวเหนียวๆ ที่รักกระติ๊บไม้ไผ่และแสงอาทิตย์ตก"
+      },
+      "rarity": "common",
+      "habitat": [
+        "floating_market",
+        "rice_field"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_kuaytiao",
+    "lang": "th",
+    "written": "ก๋วยเตี๋ยว",
+    "reading": "kuai tiao",
+    "romanization": "kuai tiao",
+    "meaning": {
+      "en": "noodle soup; rice noodles",
+      "th": "เส้นที่ทำจากแป้งข้าวเจ้า",
+      "ja": "ヌードルスープ；米麺"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "noodle",
+      "thai",
+      "famous"
+    ],
+    "frequency": 2500,
+    "audio": "voice/th/th_food_kuaytiao.mp3",
+    "tone": 3,
+    "toneRule": "ก๋ — mid class + mai tri → high tone",
+    "examples": [
+      {
+        "sentence": "ก๋วยเตี๋ยวเรือน้ำใสร้อนๆ",
+        "reading": "kuai tiao ruea nam sai ron ron",
+        "translation": {
+          "en": "Hot clear boat noodle soup.",
+          "th": "ก๋วยเตี๋ยวเรือน้ำใสร้อนๆ"
+        },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Kuaiboater",
+      "sprite": "kotodama/th_food_kuaytiao.png",
+      "description": {
+        "en": "A wiggly white spirit that slides through broth and loves the floating markets.",
+        "th": "วิญญาณสีขาวที่ชอบลื่นไถลในน้ำซุปและรักตลาดน้ำ"
+      },
+      "rarity": "common",
+      "habitat": [
+        "pier",
+        "floating_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_phrik",
+    "lang": "th",
+    "written": "พริก",
+    "reading": "phrik",
+    "romanization": "phrik",
+    "meaning": {
+      "en": "chili; chili pepper",
+      "th": "พืชที่ทำให้อาหารเผ็ด",
+      "ja": "唐辛子；チリ"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "spice",
+      "thai"
+    ],
+    "frequency": 2200,
+    "audio": "voice/th/th_food_phrik.mp3",
+    "tone": 3,
+    "toneRule": "พ (low class) + dead syllable + no mark → high tone",
+    "examples": [
+      {
+        "sentence": "ใส่พริกเยอะหน่อยได้ไหม",
+        "reading": "sai phrik yoe noi dai mai",
+        "translation": {
+          "en": "Can you add a bit more chili?",
+          "th": "ใส่พริกเยอะหน่อยได้ไหม"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Phrikflame",
+      "sprite": "kotodama/th_food_phrik.png",
+      "description": {
+        "en": "A fiery red spirit that sneezes sparks and makes everything around it taste spicier.",
+        "th": "วิญญาณสีแดงจัดที่จามประกายไฟ ทำให้ทุกอย่างรอบข้างมีรสเผ็ดขึ้น"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "night_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_kratiam",
+    "lang": "th",
+    "written": "กระเทียม",
+    "reading": "kratiam",
+    "romanization": "kratiam",
+    "meaning": {
+      "en": "garlic",
+      "th": "พืชเครื่องเทศมีกลิ่นฉุน",
+      "ja": "にんにく"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "spice",
+      "thai"
+    ],
+    "frequency": 2000,
+    "audio": "voice/th/th_food_kratiam.mp3",
+    "tone": 0,
+    "toneRule": "ก (mid class) + no mark + live → mid tone",
+    "examples": [
+      {
+        "sentence": "ผัดกระเทียมกลิ่นหอมมาก",
+        "reading": "phat kratiam klin hom mak",
+        "translation": {
+          "en": "Stir-frying garlic smells incredible.",
+          "th": "ผัดกระเทียมมีกลิ่นหอมมาก"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Kratiamglow",
+      "sprite": "kotodama/th_food_kratiam.png",
+      "description": {
+        "en": "A small white bulb spirit with a surprisingly powerful aura.",
+        "th": "วิญญาณกลมเล็กสีขาวที่มีออร่าแรงเกินตัว"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "old_town"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_manao",
+    "lang": "th",
+    "written": "มะนาว",
+    "reading": "manao",
+    "romanization": "manao",
+    "meaning": {
+      "en": "lime",
+      "th": "ผลไม้รสเปรี้ยวสีเขียว",
+      "ja": "ライム"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "fruit",
+      "sour",
+      "thai"
+    ],
+    "frequency": 1800,
+    "audio": "voice/th/th_food_manao.mp3",
+    "tone": 0,
+    "toneRule": "ม (low class) + no mark + live → mid tone",
+    "examples": [
+      {
+        "sentence": "บีบมะนาวลงซุปนิดนึง",
+        "reading": "bit manao long sup nit nung",
+        "translation": {
+          "en": "Squeeze a little lime into the soup.",
+          "th": "บีบมะนาวลงในซุปนิดนึง"
+        },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Manaozest",
+      "sprite": "kotodama/th_food_manao.png",
+      "description": {
+        "en": "A tiny green spirit that always appears right when food needs brightening.",
+        "th": "วิญญาณเขียวจิ๋วที่โผล่มาทุกครั้งที่อาหารต้องการรสเข้มข้น"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "pier"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_namtan",
+    "lang": "th",
+    "written": "น้ำตาล",
+    "reading": "namtan",
+    "romanization": "namtan",
+    "meaning": {
+      "en": "sugar",
+      "th": "สารให้ความหวาน",
+      "ja": "砂糖"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "ingredient",
+      "sweet",
+      "thai"
+    ],
+    "frequency": 2100,
+    "audio": "voice/th/th_food_namtan.mp3",
+    "tone": 3,
+    "toneRule": "น้ำ — น (low class) + mai tho → high; ตาล — ต (mid) + no mark → mid",
+    "examples": [
+      {
+        "sentence": "ใส่น้ำตาลนิดเดียวพอ",
+        "reading": "sai namtan nit diao pho",
+        "translation": {
+          "en": "Just a tiny bit of sugar is enough.",
+          "th": "ใส่น้ำตาลนิดเดียวก็พอ"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Namtansweet",
+      "sprite": "kotodama/th_food_namtan.png",
+      "description": {
+        "en": "A crystalline white spirit that dissolves gently and leaves everything sweeter.",
+        "th": "วิญญาณสีขาวแวววาวที่ละลายเบาๆ และทำให้ทุกอย่างหวานขึ้น"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "night_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_nuamphrik",
+    "lang": "th",
+    "written": "น้ำพริก",
+    "reading": "namphrik",
+    "romanization": "namphrik",
+    "meaning": {
+      "en": "chili dipping sauce (fermented/fresh)",
+      "th": "เครื่องจิ้มรสเผ็ดของไทย",
+      "ja": "チリディッピングソース"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "sauce",
+      "thai",
+      "condiment"
+    ],
+    "frequency": 1400,
+    "audio": "voice/th/th_food_namphrik.mp3",
+    "tone": 3,
+    "toneRule": "น้ำ — high tone; พริก — high tone",
+    "examples": [
+      {
+        "sentence": "น้ำพริกกะปิกินกับผักสด",
+        "reading": "namphrik kapi gin gap phak sot",
+        "translation": {
+          "en": "Shrimp paste chili sauce eaten with fresh vegetables.",
+          "th": "น้ำพริกกะปิกินกับผักสด"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Namphrikburn",
+      "sprite": "kotodama/th_food_namphrik.png",
+      "description": {
+        "en": "A dark, pungent spirit that clears sinuses and challenges the brave.",
+        "th": "วิญญาณสีเข้มกลิ่นฉุนที่โล่งจมูกและท้าทายผู้กล้า"
+      },
+      "rarity": "uncommon",
+      "habitat": [
+        "fresh_market",
+        "old_town"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_khaopad",
+    "lang": "th",
+    "written": "ข้าวผัด",
+    "reading": "khaao phat",
+    "romanization": "khaao phat",
+    "meaning": {
+      "en": "fried rice",
+      "th": "ข้าวที่ผัดกับเครื่องปรุง",
+      "ja": "チャーハン；炒めご飯"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "dish",
+      "thai",
+      "rice"
+    ],
+    "frequency": 2600,
+    "audio": "voice/th/th_food_khaopad.mp3",
+    "tone": 1,
+    "toneRule": "ข้าว — falling(2); ผัด — ผ high+dead → low(1). Compound approximates low first syllable.",
+    "examples": [
+      {
+        "sentence": "ข้าวผัดไข่ดาวข้างๆ",
+        "reading": "khaao phat khai dao khang khang",
+        "translation": {
+          "en": "Fried rice with a fried egg on the side.",
+          "th": "ข้าวผัดกับไข่ดาวข้างๆ"
+        },
+        "context": "night_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Khaophatflame",
+      "sprite": "kotodama/th_food_khaopad.png",
+      "description": {
+        "en": "A smoky spirit that only manifests when a wok reaches the right heat.",
+        "th": "วิญญาณควันที่ปรากฏเฉพาะเมื่อกระทะร้อนได้ที่"
+      },
+      "rarity": "common",
+      "habitat": [
+        "night_market",
+        "old_town"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_somtam",
+    "lang": "th",
+    "written": "ส้มตำ",
+    "reading": "somtam",
+    "romanization": "somtam",
+    "meaning": {
+      "en": "green papaya salad",
+      "th": "สลัดมะละกออ่อน รสเปรี้ยวเผ็ด",
+      "ja": "ソムタム（青パパイヤサラダ）"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "salad",
+      "thai",
+      "famous",
+      "isaan"
+    ],
+    "frequency": 2100,
+    "audio": "voice/th/th_food_somtam.mp3",
+    "tone": 2,
+    "toneRule": "ส้ม — ส (high class) + mai tho → falling(2); ตำ — ต (mid) + no mark → mid(0)",
+    "examples": [
+      {
+        "sentence": "ส้มตำไทยเผ็ดน้อยหน่อยได้ไหม",
+        "reading": "somtam thai phet noi noi dai mai",
+        "translation": {
+          "en": "Can I get Thai papaya salad a little less spicy?",
+          "th": "ขอส้มตำไทยเผ็ดน้อยหน่อยได้ไหม"
+        },
+        "context": "night_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Somtampound",
+      "sprite": "kotodama/th_food_somtam.png",
+      "description": {
+        "en": "A green, punchy spirit that is best in a clay mortar and loves lime.",
+        "th": "วิญญาณสีเขียวกระฉับกระเฉงที่ดีที่สุดในครกดินเผาและรักมะนาว"
+      },
+      "rarity": "common",
+      "habitat": [
+        "night_market",
+        "fresh_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_laap",
+    "lang": "th",
+    "written": "ลาบ",
+    "reading": "laap",
+    "romanization": "laap",
+    "meaning": {
+      "en": "larb — spicy minced meat salad",
+      "th": "สลัดเนื้อสับรสเผ็ดแบบอีสาน",
+      "ja": "ラープ（スパイシーひき肉サラダ）"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "dish",
+      "isaan",
+      "thai",
+      "spicy"
+    ],
+    "frequency": 1500,
+    "audio": "voice/th/th_food_laap.mp3",
+    "tone": 3,
+    "toneRule": "ล (low class) + dead syllable + no mark → high tone",
+    "examples": [
+      {
+        "sentence": "ลาบหมูรสแซ่บอีหลี",
+        "reading": "laap muu rot saep i li",
+        "translation": {
+          "en": "Pork larb — incredibly delicious!",
+          "th": "ลาบหมูรสแซ่บอีหลี"
+        },
+        "context": "night_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Laapherb",
+      "sprite": "kotodama/th_food_laap.png",
+      "description": {
+        "en": "A fragrant spirit dusted with roasted rice powder and fresh mint.",
+        "th": "วิญญาณหอมกรุ่นที่โรยด้วยข้าวคั่วและมินต์สด"
+      },
+      "rarity": "uncommon",
+      "habitat": [
+        "night_market",
+        "old_town"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_khao_man_kai",
+    "lang": "th",
+    "written": "ข้าวมันไก่",
+    "reading": "khaao man kai",
+    "romanization": "khaao man kai",
+    "meaning": {
+      "en": "Hainanese chicken rice",
+      "th": "ข้าวหุงน้ำมันไก่เสิร์ฟกับไก่ต้ม",
+      "ja": "カオマンガイ（海南チキンライス）"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "dish",
+      "thai",
+      "rice",
+      "chicken"
+    ],
+    "frequency": 1800,
+    "audio": "voice/th/th_food_khaomankai.mp3",
+    "tone": 0,
+    "toneRule": "ข้าวมันไก่ — compound dish name, dominant tone: mid(0) approximation",
+    "examples": [
+      {
+        "sentence": "ข้าวมันไก่แถวนี้อร่อยมาก",
+        "reading": "khaao man kai thaeo ni aroi mak",
+        "translation": {
+          "en": "The Hainanese chicken rice around here is amazing.",
+          "th": "ข้าวมันไก่แถวนี้อร่อยมากเลย"
+        },
+        "context": "old_town"
+      }
+    ],
+    "kotodama": {
+      "name": "Mankaistew",
+      "sprite": "kotodama/th_food_khaomankai.png",
+      "description": {
+        "en": "A calm, comforting spirit that always has a bowl of ginger dipping sauce ready.",
+        "th": "วิญญาณเงียบสงบที่มีชามน้ำจิ้มขิงพร้อมเสมอ"
+      },
+      "rarity": "common",
+      "habitat": [
+        "old_town",
+        "fresh_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_khaotom",
+    "lang": "th",
+    "written": "ข้าวต้ม",
+    "reading": "khaao tom",
+    "romanization": "khaao tom",
+    "meaning": {
+      "en": "rice porridge; congee",
+      "th": "ข้าวที่ต้มกับน้ำจนเละนุ่ม",
+      "ja": "おかゆ；ライスポリッジ"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "dish",
+      "thai",
+      "breakfast"
+    ],
+    "frequency": 1400,
+    "audio": "voice/th/th_food_khaotom.mp3",
+    "tone": 2,
+    "toneRule": "ข้าว — falling; ต้ม — ต (mid) + mai tho → falling(2)",
+    "examples": [
+      {
+        "sentence": "ข้าวต้มเช้าเป็นอาหารเช้าของคนไทย",
+        "reading": "khaao tom chao pen ahan chao khong khon thai",
+        "translation": {
+          "en": "Morning rice porridge is a common Thai breakfast.",
+          "th": "ข้าวต้มตอนเช้าเป็นอาหารเช้าของคนไทยทั่วไป"
+        },
+        "context": "old_town"
+      }
+    ],
+    "kotodama": {
+      "name": "Khaotomsoft",
+      "sprite": "kotodama/th_food_khaotom.png",
+      "description": {
+        "en": "A warm, gentle spirit that never burns and always settles upset stomachs.",
+        "th": "วิญญาณอุ่นๆ เบาๆ ที่ไม่เคยร้อนเกินไปและช่วยปวดท้องได้เสมอ"
+      },
+      "rarity": "common",
+      "habitat": [
+        "old_town",
+        "fresh_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_radna",
+    "lang": "th",
+    "written": "ราดหน้า",
+    "reading": "raad na",
+    "romanization": "raad na",
+    "meaning": {
+      "en": "fried noodles with gravy",
+      "th": "เส้นผัดแล้วราดด้วยน้ำเกรวี",
+      "ja": "ラートナー（あんかけ麺）"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "noodle",
+      "dish",
+      "thai"
+    ],
+    "frequency": 1300,
+    "audio": "voice/th/th_food_radna.mp3",
+    "tone": 3,
+    "toneRule": "ร (low class) + dead + no mark → high(3); หน้า — ห (high class) + mai tho → falling(2)",
+    "examples": [
+      {
+        "sentence": "ราดหน้าหมูกรอบน้ำเกรวีข้น",
+        "reading": "raad na muu krob nam kraewi khon",
+        "translation": {
+          "en": "Crispy pork fried noodles in thick gravy.",
+          "th": "ราดหน้าหมูกรอบน้ำเกรวีข้น"
+        },
+        "context": "night_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Radnagravy",
+      "sprite": "kotodama/th_food_radna.png",
+      "description": {
+        "en": "A glossy, saucy spirit that always looks better than it smells.",
+        "th": "วิญญาณเป็นเงาเยิ้มที่ดูดีกว่ากลิ่นมันเสมอ"
+      },
+      "rarity": "common",
+      "habitat": [
+        "night_market",
+        "old_town"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_miang_kham",
+    "lang": "th",
+    "written": "เมี่ยงคำ",
+    "reading": "miang kham",
+    "romanization": "miang kham",
+    "meaning": {
+      "en": "one-bite leaf wrap appetiser",
+      "th": "อาหารว่างสมุนไพรห่อใบชะพลู",
+      "ja": "ミアン・カム（葉包みアペタイザー）"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "appetiser",
+      "thai",
+      "leaf"
+    ],
+    "frequency": 900,
+    "audio": "voice/th/th_food_miangkham.mp3",
+    "tone": 2,
+    "toneRule": "เมี่ยง — ม (low class) + mai ek → falling(2)",
+    "examples": [
+      {
+        "sentence": "เมี่ยงคำคำเดียวมีรสหลายอย่าง",
+        "reading": "miang kham kham diao mi rot lai yang",
+        "translation": {
+          "en": "One bite of miang kham has so many flavours.",
+          "th": "เมี่ยงคำคำเดียวมีรสหลายอย่าง"
+        },
+        "context": "floating_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Miangwrap",
+      "sprite": "kotodama/th_food_miangkham.png",
+      "description": {
+        "en": "A leaf-wrapped spirit that holds a whole party of flavours inside.",
+        "th": "วิญญาณที่ห่อด้วยใบไม้และซ่อนปาร์ตี้ของรสชาติไว้ข้างใน"
+      },
+      "rarity": "uncommon",
+      "habitat": [
+        "floating_market",
+        "old_town"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_thot_man",
+    "lang": "th",
+    "written": "ทอดมัน",
+    "reading": "thot man",
+    "romanization": "thot man",
+    "meaning": {
+      "en": "fish cakes; fried fish patties",
+      "th": "แป้งปลาทอดกรอบ",
+      "ja": "トート・マン（魚のすり身揚げ）"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "snack",
+      "thai",
+      "fried"
+    ],
+    "frequency": 1100,
+    "audio": "voice/th/th_food_thotman.mp3",
+    "tone": 3,
+    "toneRule": "ท (low class) + dead syllable → high(3); มัน — ม (low) + dead + no mark → high(3)",
+    "examples": [
+      {
+        "sentence": "ทอดมันปลากินกับน้ำจิ้มรสเปรี้ยวหวาน",
+        "reading": "thot man pla gin gap nam chim rot priao wan",
+        "translation": {
+          "en": "Fish cakes with sweet and sour dipping sauce.",
+          "th": "ทอดมันปลากินกับน้ำจิ้มรสเปรี้ยวหวาน"
+        },
+        "context": "night_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Thotmancrisp",
+      "sprite": "kotodama/th_food_thotman.png",
+      "description": {
+        "en": "A golden-brown spirit with a satisfying crunch that echoes when tapped.",
+        "th": "วิญญาณสีทองน้ำตาลที่มีเสียงกรุบกรับน่าพอใจเมื่อเคาะ"
+      },
+      "rarity": "common",
+      "habitat": [
+        "pier",
+        "night_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_aroi",
+    "lang": "th",
+    "written": "อร่อย",
+    "reading": "aroi",
+    "romanization": "aroi",
+    "meaning": {
+      "en": "delicious; tasty",
+      "th": "มีรสชาติที่น่าพอใจ",
+      "ja": "美味しい；おいしい"
+    },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "taste",
+      "adjective",
+      "thai"
+    ],
+    "frequency": 5000,
+    "audio": "voice/th/th_food_aroi.mp3",
+    "tone": 0,
+    "toneRule": "อ (mid class) + no mark + live → mid(0); ร (low) + no mark → mid — overall mid approximation",
+    "examples": [
+      {
+        "sentence": "อร่อยมากเลยครับ!",
+        "reading": "aroi mak loei khrap",
+        "translation": {
+          "en": "It's incredibly delicious!",
+          "th": "อร่อยมากเลย!"
+        },
+        "context": "night_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Aroiling",
+      "sprite": "kotodama/th_food_aroi.png",
+      "description": {
+        "en": "A happy orange spirit that glows brighter every time someone enjoys food.",
+        "th": "วิญญาณสีส้มสดใสที่เปล่งแสงมากขึ้นทุกครั้งที่มีคนอร่อย"
+      },
+      "rarity": "common",
+      "habitat": [
+        "night_market",
+        "fresh_market",
+        "floating_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_phet",
+    "lang": "th",
+    "written": "เผ็ด",
+    "reading": "phet",
+    "romanization": "phet",
+    "meaning": {
+      "en": "spicy; hot (taste)",
+      "th": "มีรสเผ็ดจากพริก",
+      "ja": "辛い；刺激的"
+    },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "taste",
+      "adjective",
+      "thai"
+    ],
+    "frequency": 3500,
+    "audio": "voice/th/th_food_phet.mp3",
+    "tone": 3,
+    "toneRule": "ผ (high class) + dead syllable + no mark → low(1). Note: ผ is high class so dead+no mark = low. Approx tone 1.",
+    "examples": [
+      {
+        "sentence": "เผ็ดมากไหมครับ",
+        "reading": "phet mak mai khrap",
+        "translation": {
+          "en": "Is it very spicy?",
+          "th": "เผ็ดมากไหม"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Phetflame",
+      "sprite": "kotodama/th_food_phet.png",
+      "description": {
+        "en": "A tiny red flame spirit that pops in your mouth and brings tears of joy.",
+        "th": "วิญญาณเปลวไฟจิ๋วสีแดงที่แตกในปากและทำให้น้ำตาไหลด้วยความสุข"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "night_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_wan",
+    "lang": "th",
+    "written": "หวาน",
+    "reading": "wan",
+    "romanization": "wan",
+    "meaning": {
+      "en": "sweet (taste)",
+      "th": "มีรสหวาน",
+      "ja": "甘い"
+    },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "taste",
+      "adjective",
+      "thai"
+    ],
+    "frequency": 3000,
+    "audio": "voice/th/th_food_wan.mp3",
+    "tone": 4,
+    "toneRule": "ห (high class) + no mark + live → rising(4)",
+    "examples": [
+      {
+        "sentence": "หวานแบบพอดีๆ ไม่เกินไป",
+        "reading": "wan baep pho di pho di mai koen pai",
+        "translation": {
+          "en": "Perfectly sweet — not too much.",
+          "th": "หวานแบบพอดีๆ ไม่มากเกินไป"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Wanrose",
+      "sprite": "kotodama/th_food_wan.png",
+      "description": {
+        "en": "A rosy spirit that radiates warmth and makes every dessert taste just right.",
+        "th": "วิญญาณสีกุหลาบที่แผ่ความอบอุ่นและทำให้ขนมหวานทุกอย่างอร่อยพอดี"
+      },
+      "rarity": "common",
+      "habitat": [
+        "night_market",
+        "floating_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_priao",
+    "lang": "th",
+    "written": "เปรี้ยว",
+    "reading": "priao",
+    "romanization": "priao",
+    "meaning": {
+      "en": "sour (taste)",
+      "th": "มีรสเปรี้ยว",
+      "ja": "酸っぱい；すっぱい"
+    },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "taste",
+      "adjective",
+      "thai"
+    ],
+    "frequency": 2200,
+    "audio": "voice/th/th_food_priao.mp3",
+    "tone": 0,
+    "toneRule": "ป (mid class) + no mark + live → mid(0)",
+    "examples": [
+      {
+        "sentence": "มะนาวทำให้เปรี้ยวดี",
+        "reading": "manao tham hai priao di",
+        "translation": {
+          "en": "Lime makes it pleasantly sour.",
+          "th": "มะนาวทำให้มีรสเปรี้ยวดี"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Priaozing",
+      "sprite": "kotodama/th_food_priao.png",
+      "description": {
+        "en": "A bright yellow spirit that makes your eyes water and lips pucker pleasantly.",
+        "th": "วิญญาณสีเหลืองสดที่ทำให้ตาพร่าและปากจู๋อย่างน่าพอใจ"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "pier"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_kem",
+    "lang": "th",
+    "written": "เค็ม",
+    "reading": "khem",
+    "romanization": "khem",
+    "meaning": {
+      "en": "salty (taste)",
+      "th": "มีรสเค็ม",
+      "ja": "塩辛い；しょっぱい"
+    },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "taste",
+      "adjective",
+      "thai"
+    ],
+    "frequency": 2000,
+    "audio": "voice/th/th_food_kem.mp3",
+    "tone": 0,
+    "toneRule": "ค (low class) + no mark + live → mid(0)",
+    "examples": [
+      {
+        "sentence": "เค็มนิดหน่อยพอดีมากเลย",
+        "reading": "khem nit noi pho di mak loei",
+        "translation": {
+          "en": "A little salty — just right!",
+          "th": "เค็มนิดหน่อยพอดีมากเลย"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Kemsalt",
+      "sprite": "kotodama/th_food_kem.png",
+      "description": {
+        "en": "A silver crystalline spirit that preserves anything it touches.",
+        "th": "วิญญาณผลึกสีเงินที่ถนอมทุกสิ่งที่สัมผัส"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "pier"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_joot",
+    "lang": "th",
+    "written": "จืด",
+    "reading": "jueut",
+    "romanization": "jueut",
+    "meaning": {
+      "en": "bland; tasteless",
+      "th": "ไม่มีรสชาติ",
+      "ja": "味がない；薄い"
+    },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "taste",
+      "adjective",
+      "thai"
+    ],
+    "frequency": 1200,
+    "audio": "voice/th/th_food_joot.mp3",
+    "tone": 1,
+    "toneRule": "จ (mid class) + dead syllable + no mark → low(1)",
+    "examples": [
+      {
+        "sentence": "ซุปนี้จืดไป ใส่เกลืออีกนิดนึง",
+        "reading": "sup ni jueut pai sai kluea ik nit nung",
+        "translation": {
+          "en": "This soup is too bland — add a little more salt.",
+          "th": "ซุปนี้จืดไป ใส่เกลืออีกนิดนึง"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Jueutfade",
+      "sprite": "kotodama/th_food_joot.png",
+      "description": {
+        "en": "A pale, quiet spirit that helps you appreciate other flavours by contrast.",
+        "th": "วิญญาณสีซีดเงียบที่ช่วยให้คุณซาบซึ้งรสชาติอื่นด้วยการเปรียบเทียบ"
+      },
+      "rarity": "common",
+      "habitat": [
+        "old_town",
+        "rice_field"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_khom",
+    "lang": "th",
+    "written": "ขม",
+    "reading": "khom",
+    "romanization": "khom",
+    "meaning": {
+      "en": "bitter (taste)",
+      "th": "มีรสขม",
+      "ja": "苦い"
+    },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "taste",
+      "adjective",
+      "thai"
+    ],
+    "frequency": 1100,
+    "audio": "voice/th/th_food_khom.mp3",
+    "tone": 4,
+    "toneRule": "ข (high class) + no mark + live → rising(4)",
+    "examples": [
+      {
+        "sentence": "ใบมะระขมๆ ดีต่อสุขภาพ",
+        "reading": "bai mara khom khom di to sukhaphap",
+        "translation": {
+          "en": "Bitter gourd leaves are good for health.",
+          "th": "ใบมะระขมๆ ดีต่อสุขภาพ"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Khomherb",
+      "sprite": "kotodama/th_food_khom.png",
+      "description": {
+        "en": "A dark green spirit that most avoid — but healers always seek it out.",
+        "th": "วิญญาณสีเขียวเข้มที่คนส่วนใหญ่หลีกเลี่ยง แต่หมอยาสรรหาเสมอ"
+      },
+      "rarity": "uncommon",
+      "habitat": [
+        "temple",
+        "rice_field"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_man_farang",
+    "lang": "th",
+    "written": "มันฝรั่ง",
+    "reading": "man farang",
+    "romanization": "man farang",
+    "meaning": {
+      "en": "potato",
+      "th": "พืชหัวที่นำมาประกอบอาหาร",
+      "ja": "じゃがいも"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "vegetable",
+      "thai"
+    ],
+    "frequency": 1300,
+    "audio": "voice/th/th_food_manfarang.mp3",
+    "tone": 0,
+    "toneRule": "ม (low class) + no mark + live → mid(0)",
+    "examples": [
+      {
+        "sentence": "มันฝรั่งทอดกรอบอร่อยมาก",
+        "reading": "man farang thot krob aroi mak",
+        "translation": {
+          "en": "Crispy fried potatoes are delicious.",
+          "th": "มันฝรั่งทอดกรอบอร่อยมาก"
+        },
+        "context": "night_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Manfarangchip",
+      "sprite": "kotodama/th_food_manfarang.png",
+      "description": {
+        "en": "A round, humble spirit that became famous when it met hot oil.",
+        "th": "วิญญาณกลมๆ ธรรมดาที่กลายเป็นที่รักเมื่อพบกับน้ำมันร้อน"
+      },
+      "rarity": "common",
+      "habitat": [
+        "night_market",
+        "old_town"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_het",
+    "lang": "th",
+    "written": "เห็ด",
+    "reading": "het",
+    "romanization": "het",
+    "meaning": {
+      "en": "mushroom",
+      "th": "เห็ดชนิดต่างๆ",
+      "ja": "きのこ；茸"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "vegetable",
+      "thai"
+    ],
+    "frequency": 1400,
+    "audio": "voice/th/th_food_het.mp3",
+    "tone": 1,
+    "toneRule": "ห (high class leads ห+เ+ด pattern) + dead + no mark → low(1)",
+    "examples": [
+      {
+        "sentence": "เห็ดหอมใส่ในซุปหอมมาก",
+        "reading": "het hom sai nai sup hom mak",
+        "translation": {
+          "en": "Shiitake mushrooms in soup smell wonderful.",
+          "th": "เห็ดหอมในซุปหอมมาก"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Hetshroom",
+      "sprite": "kotodama/th_food_het.png",
+      "description": {
+        "en": "A round, spore-dusting spirit that pops up overnight in quiet corners.",
+        "th": "วิญญาณกลมที่โรยสปอร์และโผล่ขึ้นข้ามคืนในมุมเงียบๆ"
+      },
+      "rarity": "common",
+      "habitat": [
+        "rice_field",
+        "floating_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_tao_huu",
+    "lang": "th",
+    "written": "เต้าหู้",
+    "reading": "tao huu",
+    "romanization": "tao huu",
+    "meaning": {
+      "en": "tofu; bean curd",
+      "th": "ผลิตภัณฑ์จากถั่วเหลือง",
+      "ja": "豆腐"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "protein",
+      "thai",
+      "vegetarian"
+    ],
+    "frequency": 1200,
+    "audio": "voice/th/th_food_taohuu.mp3",
+    "tone": 3,
+    "toneRule": "เต้า — ต (mid) + mai tho → falling(2); หู้ — ห (high) + mai tho → falling(2). Compound: approx falling(2)",
+    "examples": [
+      {
+        "sentence": "เต้าหู้นุ่มลงในซุปเดือด",
+        "reading": "tao huu num long nai sup dueat",
+        "translation": {
+          "en": "Soft tofu simmers in the boiling soup.",
+          "th": "เต้าหู้นุ่มลงในซุปเดือด"
+        },
+        "context": "floating_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Taohuusoft",
+      "sprite": "kotodama/th_food_taohuu.png",
+      "description": {
+        "en": "A wobbly white spirit that takes the shape of whatever surrounds it.",
+        "th": "วิญญาณสีขาวที่โยกไหวและรับรูปร่างของสิ่งรอบข้าง"
+      },
+      "rarity": "common",
+      "habitat": [
+        "floating_market",
+        "old_town"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_bia",
+    "lang": "th",
+    "written": "เบียร์",
+    "reading": "bia",
+    "romanization": "bia",
+    "meaning": {
+      "en": "beer",
+      "th": "เครื่องดื่มแอลกอฮอล์ทำจากข้าวบาร์เลย์",
+      "ja": "ビール"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "drink",
+      "thai",
+      "alcohol"
+    ],
+    "frequency": 2000,
+    "audio": "voice/th/th_food_bia.mp3",
+    "tone": 0,
+    "toneRule": "บ (mid class) + no mark + live → mid(0)",
+    "examples": [
+      {
+        "sentence": "เบียร์เย็นๆ หลังงานหนัก",
+        "reading": "bia yen yen lang ngan nak",
+        "translation": {
+          "en": "A cold beer after hard work.",
+          "th": "เบียร์เย็นๆ หลังทำงานหนัก"
+        },
+        "context": "night_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Biabubble",
+      "sprite": "kotodama/th_food_bia.png",
+      "description": {
+        "en": "A fizzy golden spirit that floats at eye level and leaves a white foam trail.",
+        "th": "วิญญาณสีทองที่ลอยอยู่ระดับตาและทิ้งร่องรอยฟองสีขาว"
+      },
+      "rarity": "common",
+      "habitat": [
+        "night_market",
+        "old_town"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_nom",
+    "lang": "th",
+    "written": "นม",
+    "reading": "nom",
+    "romanization": "nom",
+    "meaning": {
+      "en": "milk",
+      "th": "ของเหลวสีขาวจากวัว",
+      "ja": "牛乳；ミルク"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "drink",
+      "dairy",
+      "thai"
+    ],
+    "frequency": 1800,
+    "audio": "voice/th/th_food_nom.mp3",
+    "tone": 0,
+    "toneRule": "น (low class) + no mark + live → mid(0)",
+    "examples": [
+      {
+        "sentence": "ชาใส่นมร้อนๆ ในเช้าตรู่",
+        "reading": "chaa sai nom ron ron nai chao truu",
+        "translation": {
+          "en": "Hot tea with milk in the early morning.",
+          "th": "ชาใส่นมร้อนๆ ในตอนเช้าตรู่"
+        },
+        "context": "old_town"
+      }
+    ],
+    "kotodama": {
+      "name": "Nomcloud",
+      "sprite": "kotodama/th_food_nom.png",
+      "description": {
+        "en": "A soft white spirit that swirls when poured and loves morning routines.",
+        "th": "วิญญาณสีขาวนวลที่วนเมื่อเทและรักกิจวัตรยามเช้า"
+      },
+      "rarity": "common",
+      "habitat": [
+        "old_town",
+        "rice_field"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_namphonlamai",
+    "lang": "th",
+    "written": "น้ำผลไม้",
+    "reading": "nam phonlamai",
+    "romanization": "nam phonlamai",
+    "meaning": {
+      "en": "fruit juice",
+      "th": "น้ำคั้นจากผลไม้",
+      "ja": "フルーツジュース"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "drink",
+      "thai",
+      "fruit"
+    ],
+    "frequency": 1700,
+    "audio": "voice/th/th_food_namphonlamai.mp3",
+    "tone": 3,
+    "toneRule": "น้ำ — high(3) first syllable",
+    "examples": [
+      {
+        "sentence": "น้ำผลไม้สดทำที่บ้านอร่อยกว่า",
+        "reading": "nam phonlamai sot tham thi ban aroi kwa",
+        "translation": {
+          "en": "Freshly made fruit juice at home tastes better.",
+          "th": "น้ำผลไม้สดทำที่บ้านอร่อยกว่า"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Namjuice",
+      "sprite": "kotodama/th_food_namphonlamai.png",
+      "description": {
+        "en": "A swirling rainbow spirit that changes colour based on what fruit it holds.",
+        "th": "วิญญาณสายรุ้งที่หมุนวนและเปลี่ยนสีตามผลไม้ที่อยู่ภายใน"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "floating_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_khanom_pang",
+    "lang": "th",
+    "written": "ขนมปัง",
+    "reading": "khanom pang",
+    "romanization": "khanom pang",
+    "meaning": {
+      "en": "bread",
+      "th": "อาหารทำจากแป้งสาลีอบ",
+      "ja": "パン"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "bread",
+      "thai",
+      "bakery"
+    ],
+    "frequency": 1500,
+    "audio": "voice/th/th_food_khanompang.mp3",
+    "tone": 4,
+    "toneRule": "ขนม — ข (high) + live → rising(4) first syllable",
+    "examples": [
+      {
+        "sentence": "ขนมปังหน้าตาง่ายๆ แต่อร่อยมาก",
+        "reading": "khanom pang na ta ngai ngai tae aroi mak",
+        "translation": {
+          "en": "Simple-looking bread, but delicious.",
+          "th": "ขนมปังหน้าตาธรรมดาแต่อร่อยมาก"
+        },
+        "context": "old_town"
+      }
+    ],
+    "kotodama": {
+      "name": "Khanompangloaf",
+      "sprite": "kotodama/th_food_khanompang.png",
+      "description": {
+        "en": "A fluffy cloud-like spirit that smells of fresh-baked warmth.",
+        "th": "วิญญาณฟูเหมือนเมฆที่มีกลิ่นขนมปังอบสดใหม่"
+      },
+      "rarity": "common",
+      "habitat": [
+        "old_town",
+        "night_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_thua",
+    "lang": "th",
+    "written": "ถั่ว",
+    "reading": "thua",
+    "romanization": "thua",
+    "meaning": {
+      "en": "beans; legumes; nuts",
+      "th": "พืชตระกูลถั่วชนิดต่างๆ",
+      "ja": "豆；ナッツ"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "legume",
+      "thai"
+    ],
+    "frequency": 1600,
+    "audio": "voice/th/th_food_thua.mp3",
+    "tone": 4,
+    "toneRule": "ถ (high class) + no mark + live → rising(4)",
+    "examples": [
+      {
+        "sentence": "ถั่วลิสงคั่วกินกับข้าวเหนียวได้เลย",
+        "reading": "thua lisong khua gin gap khaao niao dai loei",
+        "translation": {
+          "en": "Roasted peanuts go great with sticky rice.",
+          "th": "ถั่วลิสงคั่วกินกับข้าวเหนียวได้เลย"
+        },
+        "context": "floating_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Thuapod",
+      "sprite": "kotodama/th_food_thua.png",
+      "description": {
+        "en": "A small round spirit that rattles inside its pod and has a nutty laugh.",
+        "th": "วิญญาณกลมเล็กที่สั่นอยู่ในฝักและหัวเราะเหมือนกลิ่นถั่ว"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "rice_field"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_khao_soi",
+    "lang": "th",
+    "written": "ข้าวซอย",
+    "reading": "khaao soi",
+    "romanization": "khaao soi",
+    "meaning": {
+      "en": "Northern Thai coconut curry noodle soup",
+      "th": "ก๋วยเตี๋ยวแกงกะทิแบบล้านนา",
+      "ja": "カオソーイ（北タイのカレーヌードル）"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "dish",
+      "noodle",
+      "north",
+      "thai"
+    ],
+    "frequency": 1200,
+    "audio": "voice/th/th_food_khaosoi.mp3",
+    "tone": 2,
+    "toneRule": "ข้าว — falling(2) first syllable",
+    "examples": [
+      {
+        "sentence": "ข้าวซอยเชียงใหม่หอมเครื่องเทศ",
+        "reading": "khaao soi chiang mai hom khrueang thet",
+        "translation": {
+          "en": "Chiang Mai khao soi is fragrant with spices.",
+          "th": "ข้าวซอยเชียงใหม่หอมเครื่องเทศ"
+        },
+        "context": "old_town"
+      }
+    ],
+    "kotodama": {
+      "name": "Khaosoinorth",
+      "sprite": "kotodama/th_food_khaosoi.png",
+      "description": {
+        "en": "A golden, fragrant spirit with crispy and soft noodles on both sides.",
+        "th": "วิญญาณสีทองหอมกรุ่นที่มีเส้นกรอบและเส้นนุ่มอยู่สองข้าง"
+      },
+      "rarity": "uncommon",
+      "habitat": [
+        "old_town",
+        "temple"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_food_khanom_jeen",
+    "lang": "th",
+    "written": "ขนมจีน",
+    "reading": "khanom jeen",
+    "romanization": "khanom jeen",
+    "meaning": {
+      "en": "fermented rice noodles",
+      "th": "เส้นข้าวหมักเสิร์ฟกับน้ำยา",
+      "ja": "カノムジーン（発酵米麺）"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "noodle",
+      "thai",
+      "fermented"
+    ],
+    "frequency": 1000,
+    "audio": "voice/th/th_food_khanomjeen.mp3",
+    "tone": 4,
+    "toneRule": "ขนม — rising(4); จีน — จ (mid) + no mark + live → mid(0)",
+    "examples": [
+      {
+        "sentence": "ขนมจีนน้ำยากะทิอร่อยมาก",
+        "reading": "khanom jeen nam ya kathi aroi mak",
+        "translation": {
+          "en": "Fermented rice noodles in coconut curry sauce — so good.",
+          "th": "ขนมจีนน้ำยากะทิอร่อยมาก"
+        },
+        "context": "floating_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Khanomjeenswirl",
+      "sprite": "kotodama/th_food_khanomjeen.png",
+      "description": {
+        "en": "A soft pale spirit wound into a spiral that comes alive in warm sauce.",
+        "th": "วิญญาณขาวนวลที่ม้วนเป็นเกลียวและมีชีวิตขึ้นในน้ำยาร้อน"
+      },
+      "rarity": "common",
+      "habitat": [
+        "floating_market",
+        "fresh_market"
+      ]
+    },
+    "needsReview": false
+  }
 ]

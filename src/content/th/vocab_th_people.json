@@ -1,32 +1,1517 @@
 [
-  {"id":"th_ppl_pho","lang":"th","written":"พ่อ","reading":"pho","romanization":"pho","meaning":{"en":"father; dad","th":"พ่อ (บิดา)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["family","people","daily"],"frequency":9500,"audio":"voice/th/th_ppl_pho.mp3","tone":2,"toneRule":"พ (low class) + mai ek (่) → falling tone","examples":[{"sentence":"พ่อของฉันทำงานที่ธนาคาร","reading":"pho khong chan thamngaan thi thanakhaan","translation":{"en":"My father works at a bank.","th":"พ่อของฉันทำงานอยู่ที่ธนาคาร"},"context":"school"}],"kotodama":{"name":"Phostem","sprite":"kotodama/th_ppl_pho.png","description":{"en":"A sturdy spark shaped like a tall tree trunk, dependable and protective.","th":"ประกายแข็งแกร่งรูปลำต้นไม้สูง น่าเชื่อถือและปกป้องผู้อื่น"},"rarity":"common","habitat":["school","temple","fresh_market"]},"needsReview":true},
-  {"id":"th_ppl_mae","lang":"th","written":"แม่","reading":"mae","romanization":"mae","meaning":{"en":"mother; mom","th":"แม่ (มารดา)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["family","people","daily"],"frequency":9500,"audio":"voice/th/th_ppl_mae.mp3","tone":2,"toneRule":"ม (low class) + mai ek (่) → falling tone","examples":[{"sentence":"แม่ทำอาหารเก่งมาก","reading":"mae tham aahaan keng mak","translation":{"en":"Mom is very good at cooking.","th":"แม่ทำอาหารได้เก่งมาก"},"context":"fresh_market"}],"kotodama":{"name":"Maewarm","sprite":"kotodama/th_ppl_mae.png","description":{"en":"A warm, glowing spark that smells faintly of jasmine and home cooking.","th":"ประกายอบอุ่นที่มีกลิ่นมะลิอ่อนๆ และอาหารบ้าน"},"rarity":"common","habitat":["fresh_market","floating_market","temple"]},"needsReview":true},
-  {"id":"th_ppl_phi_chai","lang":"th","written":"พี่ชาย","reading":"phi chai","romanization":"phi chai","meaning":{"en":"older brother","th":"พี่ชาย (พี่ที่เป็นผู้ชาย)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["family","people","daily"],"frequency":8000,"audio":"voice/th/th_ppl_phi_chai.mp3","tone":2,"toneRule":"พ (low class) + mai ek → falling; ช (low) dead short → falling approx","examples":[{"sentence":"พี่ชายฉันสูงมาก","reading":"phi chai chan sung mak","translation":{"en":"My older brother is very tall.","th":"พี่ชายของฉันตัวสูงมาก"},"context":"school"}],"kotodama":{"name":"Phichai","sprite":"kotodama/th_ppl_phi_chai.png","description":{"en":"A tall, lanky spark with a protective stance.","th":"ประกายสูงโย่งมีท่าทางปกป้อง"},"rarity":"common","habitat":["school","temple","pier"]},"needsReview":true},
-  {"id":"th_ppl_nong_chai","lang":"th","written":"น้องชาย","reading":"nong chai","romanization":"nong chai","meaning":{"en":"younger brother","th":"น้องชาย (น้องที่เป็นผู้ชาย)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["family","people","daily"],"frequency":7800,"audio":"voice/th/th_ppl_nong_chai.mp3","tone":3,"toneRule":"น (low) + mai tho (้) → high tone; ช dead short → falling approx","examples":[{"sentence":"น้องชายฉันยังเรียนอยู่","reading":"nong chai chan yang rian yu","translation":{"en":"My younger brother is still studying.","th":"น้องชายของฉันยังอยู่ในช่วงเรียนหนังสือ"},"context":"school"}],"kotodama":{"name":"Nongzip","sprite":"kotodama/th_ppl_nong_chai.png","description":{"en":"A small energetic spark that zooms around in unpredictable directions.","th":"ประกายเล็กพลังงานสูงที่พุ่งไปในทิศทางที่คาดเดาไม่ได้"},"rarity":"common","habitat":["school","pier"]},"needsReview":true},
-  {"id":"th_ppl_phi_sao","lang":"th","written":"พี่สาว","reading":"phi sao","romanization":"phi sao","meaning":{"en":"older sister","th":"พี่สาว (พี่ที่เป็นผู้หญิง)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["family","people","daily"],"frequency":8000,"audio":"voice/th/th_ppl_phi_sao.mp3","tone":2,"toneRule":"พ (low) + mai ek → falling; ส (high) + no mark + live → rising","examples":[{"sentence":"พี่สาวฉันชอบเรียนภาษา","reading":"phi sao chan chop rian phasaa","translation":{"en":"My older sister loves studying languages.","th":"พี่สาวของฉันชอบเรียนภาษา"},"context":"school"}],"kotodama":{"name":"Phisao","sprite":"kotodama/th_ppl_phi_sao.png","description":{"en":"A graceful spark that moves in elegant sweeping patterns.","th":"ประกายงดงามที่เคลื่อนไหวเป็นลวดลายกว้างสง่างาม"},"rarity":"common","habitat":["school","temple","floating_market"]},"needsReview":true},
-  {"id":"th_ppl_nong_sao","lang":"th","written":"น้องสาว","reading":"nong sao","romanization":"nong sao","meaning":{"en":"younger sister","th":"น้องสาว (น้องที่เป็นผู้หญิง)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["family","people","daily"],"frequency":7800,"audio":"voice/th/th_ppl_nong_sao.mp3","tone":3,"toneRule":"น (low) + mai tho → high tone; ส (high) + no mark + live → rising","examples":[{"sentence":"น้องสาวฉันชอบวาดรูป","reading":"nong sao chan chop wat rup","translation":{"en":"My younger sister likes to draw.","th":"น้องสาวของฉันชอบวาดภาพ"},"context":"school"}],"kotodama":{"name":"Nongsao","sprite":"kotodama/th_ppl_nong_sao.png","description":{"en":"A delicate spark with flower-petal wings, always making tiny drawings in the air.","th":"ประกายละเอียดอ่อนมีปีกคล้ายกลีบดอกไม้ วาดภาพเล็กๆ ในอากาศเสมอ"},"rarity":"common","habitat":["school","temple"]},"needsReview":true},
-  {"id":"th_ppl_luk","lang":"th","written":"ลูก","reading":"luk","romanization":"luk","meaning":{"en":"child; children","th":"ลูก (บุตร)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["family","people","daily"],"frequency":9000,"audio":"voice/th/th_ppl_luk.mp3","tone":3,"toneRule":"ล (low class) + no mark + dead syllable (short) → high tone","examples":[{"sentence":"เธอมีลูกสองคน","reading":"thoe mi luk song khon","translation":{"en":"She has two children.","th":"เธอมีลูกสองคน"},"context":"fresh_market"}],"kotodama":{"name":"Lukbloom","sprite":"kotodama/th_ppl_luk.png","description":{"en":"A tiny spark surrounded by even tinier sparks, always keeping them safe.","th":"ประกายเล็กล้อมรอบด้วยประกายเล็กกว่า คอยปกป้องพวกมันเสมอ"},"rarity":"common","habitat":["fresh_market","temple","school"]},"needsReview":true},
-  {"id":"th_ppl_samii","lang":"th","written":"สามี","reading":"saamii","romanization":"saamii","meaning":{"en":"husband","th":"สามี (คู่ครองผู้ชาย)"},"pos":"noun","element":"bloom","level":"A2","chapter":10,"tags":["family","people","social"],"frequency":7500,"audio":"voice/th/th_ppl_samii.mp3","tone":0,"toneRule":"ส (high) + no mark + live syllable: two syllables, approx mid","examples":[{"sentence":"สามีของเธอทำงานที่ท่าเรือ","reading":"saamii khong thoe thamngaan thi tha ruea","translation":{"en":"Her husband works at the pier.","th":"สามีของเธอทำงานอยู่ที่ท่าเรือ"},"context":"pier"}],"kotodama":{"name":"Saamipillar","sprite":"kotodama/th_ppl_samii.png","description":{"en":"A solid, dependable spark with a steady warm glow.","th":"ประกายแน่วแน่น่าพึ่งพาที่เปล่งแสงอบอุ่นสม่ำเสมอ"},"rarity":"uncommon","habitat":["pier","fresh_market","temple"]},"needsReview":true},
-  {"id":"th_ppl_phariyaa","lang":"th","written":"ภรรยา","reading":"phariyaa","romanization":"phariyaa","meaning":{"en":"wife","th":"ภรรยา (คู่ครองผู้หญิง)"},"pos":"noun","element":"bloom","level":"A2","chapter":10,"tags":["family","people","social"],"frequency":7500,"audio":"voice/th/th_ppl_phariyaa.mp3","tone":0,"toneRule":"ภ (low) + no mark + live syllable: approx mid across syllables","examples":[{"sentence":"ภรรยาของเขาเป็นครู","reading":"phariyaa khong khao pen khru","translation":{"en":"His wife is a teacher.","th":"ภรรยาของเขาเป็นครูสอนหนังสือ"},"context":"school"}],"kotodama":{"name":"Phariyagrace","sprite":"kotodama/th_ppl_phariyaa.png","description":{"en":"An elegant spark with a flowing trail, filling every space with warmth.","th":"ประกายสง่างามมีแสงไหลตามหลัง เติมทุกที่ด้วยความอบอุ่น"},"rarity":"uncommon","habitat":["temple","school","floating_market"]},"needsReview":true},
-  {"id":"th_ppl_pu","lang":"th","written":"ปู่","reading":"pu","romanization":"pu","meaning":{"en":"paternal grandfather","th":"ปู่ (พ่อของพ่อ)"},"pos":"noun","element":"bloom","level":"A2","chapter":10,"tags":["family","people","elder"],"frequency":7000,"audio":"voice/th/th_ppl_pu.mp3","tone":1,"toneRule":"ป (mid) + no mark + live syllable: ปู่ has mai ek implying low","examples":[{"sentence":"ปู่นั่งอยู่ที่ระเบียงบ้าน","reading":"pu nang yu thi rabiiang baan","translation":{"en":"Grandpa is sitting on the porch.","th":"ปู่นั่งอยู่ที่ระเบียงหน้าบ้าน"},"context":"school"}],"kotodama":{"name":"Pusage","sprite":"kotodama/th_ppl_pu.png","description":{"en":"A silvery old spark with deep, steady light — it has seen many seasons.","th":"ประกายเก่าสีเงินที่มีแสงลึกและสม่ำเสมอ — ผ่านหลายฤดูมามาก"},"rarity":"uncommon","habitat":["temple","school"]},"needsReview":true},
-  {"id":"th_ppl_yaa","lang":"th","written":"ย่า","reading":"yaa","romanization":"yaa","meaning":{"en":"paternal grandmother","th":"ย่า (แม่ของพ่อ)"},"pos":"noun","element":"bloom","level":"A2","chapter":10,"tags":["family","people","elder"],"frequency":7000,"audio":"voice/th/th_ppl_yaa.mp3","tone":1,"toneRule":"ย (low) + mai ek (่) → falling tone","examples":[{"sentence":"ย่าทำขนมไทยอร่อยมาก","reading":"yaa tham khanom thai aroi mak","translation":{"en":"Grandma makes delicious Thai desserts.","th":"ย่าทำขนมไทยได้อร่อยมาก"},"context":"fresh_market"}],"kotodama":{"name":"Yaasweet","sprite":"kotodama/th_ppl_yaa.png","description":{"en":"A warm wrinkled spark that always smells of coconut and palm sugar.","th":"ประกายย่นอบอุ่นที่มีกลิ่นมะพร้าวและน้ำตาลปี๊บเสมอ"},"rarity":"uncommon","habitat":["fresh_market","floating_market","temple"]},"needsReview":true},
-  {"id":"th_ppl_taa","lang":"th","written":"ตา","reading":"taa","romanization":"taa","meaning":{"en":"maternal grandfather","th":"ตา (พ่อของแม่)"},"pos":"noun","element":"bloom","level":"A2","chapter":10,"tags":["family","people","elder"],"frequency":6800,"audio":"voice/th/th_ppl_taa.mp3","tone":0,"toneRule":"ต (mid) + no mark + live syllable → mid tone","examples":[{"sentence":"ตาชอบตกปลาที่ท่าเรือ","reading":"taa chop tok plaa thi tha ruea","translation":{"en":"Grandpa likes fishing at the pier.","th":"ตาชอบไปตกปลาที่ท่าเรือ"},"context":"pier"}],"kotodama":{"name":"Taafisher","sprite":"kotodama/th_ppl_taa.png","description":{"en":"A patient spark that can stay perfectly still for hours.","th":"ประกายอดทนที่นิ่งได้หลายชั่วโมง"},"rarity":"uncommon","habitat":["pier","temple"]},"needsReview":true},
-  {"id":"th_ppl_yaai","lang":"th","written":"ยาย","reading":"yaai","romanization":"yaai","meaning":{"en":"maternal grandmother","th":"ยาย (แม่ของแม่)"},"pos":"noun","element":"bloom","level":"A2","chapter":10,"tags":["family","people","elder"],"frequency":6800,"audio":"voice/th/th_ppl_yaai.mp3","tone":0,"toneRule":"ย (low) + no mark + live syllable → mid tone","examples":[{"sentence":"ยายเล่านิทานให้หลานฟัง","reading":"yaai lao nitan hai laan fang","translation":{"en":"Grandma tells stories to her grandchildren.","th":"ยายเล่านิทานให้หลานๆ ฟัง"},"context":"temple"}],"kotodama":{"name":"Yaaistory","sprite":"kotodama/th_ppl_yaai.png","description":{"en":"A storytelling spark that projects tiny images as it speaks.","th":"ประกายนักเล่าเรื่องที่ฉายภาพเล็กๆ ขณะพูด"},"rarity":"uncommon","habitat":["temple","school"]},"needsReview":true},
-  {"id":"th_ppl_lung","lang":"th","written":"ลุง","reading":"lung","romanization":"lung","meaning":{"en":"uncle (older than parent)","th":"ลุง (พี่ชายของพ่อหรือแม่)"},"pos":"noun","element":"bloom","level":"A2","chapter":10,"tags":["family","people","social"],"frequency":6500,"audio":"voice/th/th_ppl_lung.mp3","tone":0,"toneRule":"ล (low) + no mark + live syllable → mid tone","examples":[{"sentence":"ลุงขับรถตุ๊กตุ๊ก","reading":"lung khap rot tuktuk","translation":{"en":"Uncle drives a tuk-tuk.","th":"ลุงขับรถตุ๊กตุ๊กเป็นอาชีพ"},"context":"pier"}],"kotodama":{"name":"Lungdriver","sprite":"kotodama/th_ppl_lung.png","description":{"en":"A boisterous spark that beeps cheerfully as it zooms by.","th":"ประกายสนุกสนานที่บีบแตรร่าเริงขณะพุ่งผ่าน"},"rarity":"common","habitat":["pier","fresh_market"]},"needsReview":true},
-  {"id":"th_ppl_paa","lang":"th","written":"ป้า","reading":"paa","romanization":"paa","meaning":{"en":"aunt (older than parent)","th":"ป้า (พี่สาวของพ่อหรือแม่)"},"pos":"noun","element":"bloom","level":"A2","chapter":10,"tags":["family","people","social"],"frequency":6800,"audio":"voice/th/th_ppl_paa.mp3","tone":1,"toneRule":"ป (mid) + mai ek (่): ป้า has mai tho → high... approx low","examples":[{"sentence":"ป้าสมศรีขายผลไม้ที่ตลาด","reading":"paa somsri khaai phonlamai thi talat","translation":{"en":"Auntie Somsri sells fruit at the market.","th":"ป้าสมศรีขายผลไม้อยู่ที่ตลาด"},"context":"fresh_market"}],"kotodama":{"name":"Paamarket","sprite":"kotodama/th_ppl_paa.png","description":{"en":"A resourceful spark that always knows the best price for everything.","th":"ประกายช่างหาทรัพยากรที่รู้ราคาที่ดีที่สุดของทุกอย่างเสมอ"},"rarity":"common","habitat":["fresh_market","floating_market"]},"needsReview":true},
-  {"id":"th_ppl_naa","lang":"th","written":"น้า","reading":"naa","romanization":"naa","meaning":{"en":"uncle/aunt (younger sibling of mother)","th":"น้า (น้องของแม่)"},"pos":"noun","element":"bloom","level":"A2","chapter":10,"tags":["family","people","social"],"frequency":6200,"audio":"voice/th/th_ppl_naa.mp3","tone":3,"toneRule":"น (low) + mai tho (้) → high tone","examples":[{"sentence":"น้าของฉันอยู่เชียงใหม่","reading":"naa khong chan yu chiangmai","translation":{"en":"My aunt lives in Chiang Mai.","th":"น้าของฉันอาศัยอยู่ที่เชียงใหม่"},"context":"school"}],"kotodama":{"name":"Naadistant","sprite":"kotodama/th_ppl_naa.png","description":{"en":"A spark that shines brightly when reunions happen.","th":"ประกายที่เปล่งแสงสว่างเมื่อมีการกลับมาพบกัน"},"rarity":"uncommon","habitat":["temple","school"]},"needsReview":true},
-  {"id":"th_ppl_phuen","lang":"th","written":"เพื่อน","reading":"phuen","romanization":"phuen","meaning":{"en":"friend","th":"เพื่อน (มิตร)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["people","social","daily"],"frequency":9500,"audio":"voice/th/th_ppl_phuen.mp3","tone":0,"toneRule":"พ (low) + no mark + live syllable → mid tone","examples":[{"sentence":"เพื่อนของฉันพูดภาษาไทยเก่ง","reading":"phuen khong chan phut phasaa thai keng","translation":{"en":"My friend speaks Thai well.","th":"เพื่อนของฉันพูดภาษาไทยได้เก่งมาก"},"context":"school"}],"kotodama":{"name":"Phuenbond","sprite":"kotodama/th_ppl_phuen.png","description":{"en":"A spark that glows brighter when other sparks are nearby.","th":"ประกายที่สว่างขึ้นเมื่อมีประกายอื่นอยู่ใกล้"},"rarity":"common","habitat":["school","temple","pier"]},"needsReview":true},
-  {"id":"th_ppl_khru","lang":"th","written":"ครู","reading":"khru","romanization":"khru","meaning":{"en":"teacher","th":"ครู (ผู้สอน)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["people","career","education"],"frequency":9000,"audio":"voice/th/th_ppl_khru.mp3","tone":0,"toneRule":"ค (low) + no mark + live syllable → mid tone","examples":[{"sentence":"ครูสอนได้เข้าใจง่ายมาก","reading":"khru son dai khaojai ngai mak","translation":{"en":"The teacher explains very clearly.","th":"ครูสอนได้เข้าใจง่ายมาก"},"context":"school"}],"kotodama":{"name":"Khruguide","sprite":"kotodama/th_ppl_khru.png","description":{"en":"A bright spark that leaves glowing lesson-marks wherever it goes.","th":"ประกายสว่างที่ทิ้งรอยเรืองแสงบทเรียนไว้ทุกที่"},"rarity":"uncommon","habitat":["school","temple"]},"needsReview":true},
-  {"id":"th_ppl_mor","lang":"th","written":"หมอ","reading":"mor","romanization":"mor","meaning":{"en":"doctor; physician","th":"หมอ (แพทย์)"},"pos":"noun","element":"bloom","level":"A2","chapter":10,"tags":["people","career","health"],"frequency":8000,"audio":"voice/th/th_ppl_mor.mp3","tone":0,"toneRule":"ห (high) + no mark + live → rising... but หมอ is commonly tone 0 (irregular)","examples":[{"sentence":"ต้องไปหาหมอพรุ่งนี้","reading":"tong pai haa mor phrungni","translation":{"en":"I need to see a doctor tomorrow.","th":"ต้องไปพบหมอพรุ่งนี้"},"context":"school"}],"kotodama":{"name":"Morhealer","sprite":"kotodama/th_ppl_mor.png","description":{"en":"A soothing green spark that hums a healing melody.","th":"ประกายเขียวสงบที่ฮัมเพลงรักษาโรค"},"rarity":"uncommon","habitat":["temple","school","pier"]},"needsReview":true},
-  {"id":"th_ppl_phayaabaan","lang":"th","written":"พยาบาล","reading":"phayaabaan","romanization":"phayaabaan","meaning":{"en":"nurse","th":"พยาบาล (ผู้ช่วยพยาบาล)"},"pos":"noun","element":"bloom","level":"A2","chapter":10,"tags":["people","career","health"],"frequency":7000,"audio":"voice/th/th_ppl_phayaabaan.mp3","tone":0,"toneRule":"พ (low) + compound syllables → mid approximation","examples":[{"sentence":"พยาบาลใจดีมากที่โรงพยาบาลนี้","reading":"phayaabaan chai di mak thi rongphayabaan ni","translation":{"en":"The nurses at this hospital are very kind.","th":"พยาบาลที่โรงพยาบาลนี้ใจดีมาก"},"context":"school"}],"kotodama":{"name":"Phayacare","sprite":"kotodama/th_ppl_phayaabaan.png","description":{"en":"A gentle spark that floats at waist height, always ready to assist.","th":"ประกายอ่อนโยนที่ลอยระดับเอว พร้อมช่วยเหลือเสมอ"},"rarity":"uncommon","habitat":["temple","school"]},"needsReview":true},
-  {"id":"th_ppl_tamruat","lang":"th","written":"ตำรวจ","reading":"tamruat","romanization":"tamruat","meaning":{"en":"police officer","th":"ตำรวจ (เจ้าหน้าที่ตำรวจ)"},"pos":"noun","element":"bloom","level":"A2","chapter":10,"tags":["people","career","public_service"],"frequency":7000,"audio":"voice/th/th_ppl_tamruat.mp3","tone":0,"toneRule":"ต (mid) + compound syllables → mid approximation","examples":[{"sentence":"ตำรวจยืนอยู่ที่แยก","reading":"tamruat yuen yu thi yaek","translation":{"en":"A police officer is standing at the intersection.","th":"ตำรวจยืนอยู่ที่สี่แยก"},"context":"pier"}],"kotodama":{"name":"Tamruatwatch","sprite":"kotodama/th_ppl_tamruat.png","description":{"en":"A vigilant spark that scans its surroundings in 360 degrees.","th":"ประกายตื่นตัวที่สแกนสภาพแวดล้อม 360 องศา"},"rarity":"uncommon","habitat":["pier","fresh_market","temple"]},"needsReview":true},
-  {"id":"th_ppl_phokha","lang":"th","written":"พ่อค้า","reading":"pho khaa","romanization":"pho khaa","meaning":{"en":"male vendor; merchant","th":"พ่อค้า (ผู้ขายสินค้าชาย)"},"pos":"noun","element":"bloom","level":"A2","chapter":10,"tags":["people","market","career"],"frequency":7500,"audio":"voice/th/th_ppl_phokha.mp3","tone":2,"toneRule":"พ (low) + mai ek → falling; ค (low) + no mark + live → mid","examples":[{"sentence":"พ่อค้าเรียกให้เข้ามาดูของ","reading":"pho khaa riak hai khao maa du khong","translation":{"en":"The merchant called out for us to come see his goods.","th":"พ่อค้าร้องเรียกให้เข้ามาดูสินค้า"},"context":"fresh_market"}],"kotodama":{"name":"Phokhatrade","sprite":"kotodama/th_ppl_phokha.png","description":{"en":"A fast-talking spark that displays tiny wares around itself.","th":"ประกายพูดเร็วที่แสดงสินค้าเล็กๆ รอบตัว"},"rarity":"common","habitat":["fresh_market","floating_market"]},"needsReview":true},
-  {"id":"th_ppl_maekha","lang":"th","written":"แม่ค้า","reading":"mae khaa","romanization":"mae khaa","meaning":{"en":"female vendor; market seller","th":"แม่ค้า (ผู้ขายสินค้าหญิง)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["people","market","career"],"frequency":8000,"audio":"voice/th/th_ppl_maekha.mp3","tone":2,"toneRule":"ม (low) + mai ek → falling; ค (low) + no mark + live → mid","examples":[{"sentence":"แม่ค้าขายผักสดทุกเช้า","reading":"mae khaa khaai phak sot thuk chao","translation":{"en":"The vendor sells fresh vegetables every morning.","th":"แม่ค้าขายผักสดทุกเช้า"},"context":"fresh_market"}],"kotodama":{"name":"Maekhavend","sprite":"kotodama/th_ppl_maekha.png","description":{"en":"A lively spark arranging colorful produce around itself all day.","th":"ประกายมีชีวิตชีวาที่จัดผลิตผลหลากสีรอบตัวตลอดวัน"},"rarity":"common","habitat":["fresh_market","floating_market"]},"needsReview":true},
-  {"id":"th_ppl_nakrian","lang":"th","written":"นักเรียน","reading":"nakrian","romanization":"nakrian","meaning":{"en":"student","th":"นักเรียน (ผู้เรียน)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["people","education","daily"],"frequency":8500,"audio":"voice/th/th_ppl_nakrian.mp3","tone":3,"toneRule":"น (low) + no mark + dead short → high; ร (low) + no mark + live → mid","examples":[{"sentence":"นักเรียนในชั้นเรียนนี้ตั้งใจมาก","reading":"nakrian nai chan rian ni tang chai mak","translation":{"en":"The students in this class are very diligent.","th":"นักเรียนในห้องเรียนนี้ตั้งใจเรียนมาก"},"context":"school"}],"kotodama":{"name":"Nakrianlearn","sprite":"kotodama/th_ppl_nakrian.png","description":{"en":"A wide-awake spark clutching a small notebook.","th":"ประกายตื่นตัวถือสมุดโน้ตเล็กๆ"},"rarity":"common","habitat":["school","temple"]},"needsReview":true},
-  {"id":"th_ppl_khon","lang":"th","written":"คน","reading":"khon","romanization":"khon","meaning":{"en":"person; people","th":"คน (มนุษย์)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["people","general","daily"],"frequency":9800,"audio":"voice/th/th_ppl_khon.mp3","tone":0,"toneRule":"ค (low) + no mark + live syllable → mid tone","examples":[{"sentence":"ที่นี่มีคนเยอะมาก","reading":"thi ni mi khon yoe mak","translation":{"en":"There are a lot of people here.","th":"ที่นี่มีคนเยอะมาก"},"context":"fresh_market"}],"kotodama":{"name":"Khoncrowd","sprite":"kotodama/th_ppl_khon.png","description":{"en":"A spark that multiplies when surrounded by others.","th":"ประกายที่เพิ่มขึ้นเมื่อถูกล้อมรอบด้วยตัวอื่น"},"rarity":"common","habitat":["fresh_market","floating_market","temple"]},"needsReview":true},
-  {"id":"th_ppl_dek","lang":"th","written":"เด็ก","reading":"dek","romanization":"dek","meaning":{"en":"child; kid","th":"เด็ก (คนอายุน้อย)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["people","age","daily"],"frequency":9000,"audio":"voice/th/th_ppl_dek.mp3","tone":1,"toneRule":"ด (mid) + no mark + dead short → low tone","examples":[{"sentence":"เด็กๆ เล่นอยู่ที่สนามหน้าวัด","reading":"dek dek len yu thi sanam naa wat","translation":{"en":"Children are playing in the courtyard in front of the temple.","th":"เด็กๆ กำลังเล่นอยู่ที่ลานหน้าวัด"},"context":"temple"}],"kotodama":{"name":"Dekplay","sprite":"kotodama/th_ppl_dek.png","description":{"en":"A bouncy spark that somersaults constantly and laughs in a high pitch.","th":"ประกายเด้งดึ๋งที่กลิ้งตีลังกาอยู่ตลอดเวลาและหัวเราะเสียงสูง"},"rarity":"common","habitat":["temple","school","pier"]},"needsReview":true},
-  {"id":"th_ppl_phuuyai","lang":"th","written":"ผู้ใหญ่","reading":"phuyai","romanization":"phuyai","meaning":{"en":"adult; elder","th":"ผู้ใหญ่ (คนอายุมาก)"},"pos":"noun","element":"bloom","level":"A2","chapter":10,"tags":["people","age","social"],"frequency":7500,"audio":"voice/th/th_ppl_phuuyai.mp3","tone":3,"toneRule":"ผ (high) + no mark + live → rising; ใ + ย → compound","examples":[{"sentence":"ผู้ใหญ่นั่งอยู่ในร่มเงา","reading":"phuyai nang yu nai rom ngao","translation":{"en":"The adults are sitting in the shade.","th":"ผู้ใหญ่นั่งอยู่ในที่ร่ม"},"context":"temple"}],"kotodama":{"name":"Phuyaiwisdom","sprite":"kotodama/th_ppl_phuuyai.png","description":{"en":"A slow, heavy spark with a deep glow that illuminates wide areas.","th":"ประกายช้าหนักที่มีแสงลึกสว่างบริเวณกว้าง"},"rarity":"uncommon","habitat":["temple","fresh_market"]},"needsReview":true},
-  {"id":"th_ppl_khonkae","lang":"th","written":"คนแก่","reading":"khon kae","romanization":"khon kae","meaning":{"en":"elderly person; old person","th":"คนแก่ (ผู้สูงอายุ)"},"pos":"noun","element":"bloom","level":"A2","chapter":10,"tags":["people","age","social"],"frequency":6500,"audio":"voice/th/th_ppl_khonkae.mp3","tone":0,"toneRule":"ค (low) + no mark + live → mid; ก (mid) + no mark + live → mid","examples":[{"sentence":"คนแก่ในหมู่บ้านรู้เรื่องราวมาก","reading":"khon kae nai muban ru rueang raao mak","translation":{"en":"The elderly in the village know many stories.","th":"คนแก่ในหมู่บ้านรู้เรื่องราวมากมาย"},"context":"temple"}],"kotodama":{"name":"Khaestory","sprite":"kotodama/th_ppl_khonkae.png","description":{"en":"A silver-ringed spark that holds many memories inside it.","th":"ประกายมีวงแหวนเงินรอบนอก เก็บความทรงจำมากมายข้างใน"},"rarity":"rare","habitat":["temple","fresh_market"]},"needsReview":true},
-  {"id":"th_ppl_dekying","lang":"th","written":"เด็กผู้หญิง","reading":"dek phu ying","romanization":"dek phu ying","meaning":{"en":"girl","th":"เด็กผู้หญิง (เพศหญิง)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["people","gender","daily"],"frequency":7500,"audio":"voice/th/th_ppl_dekying.mp3","tone":1,"toneRule":"ด (mid) + dead short → low; ผ (high) + live → rising; ย (low) + live → mid","examples":[{"sentence":"เด็กผู้หญิงสวมชุดสีชมพู","reading":"dek phu ying suam chut si chomphu","translation":{"en":"The girl is wearing a pink dress.","th":"เด็กผู้หญิงสวมชุดสีชมพู"},"context":"temple"}],"kotodama":{"name":"Dekyingpetal","sprite":"kotodama/th_ppl_dekying.png","description":{"en":"A dainty pink spark with tiny flower-petal wings.","th":"ประกายชมพูละเอียดอ่อนมีปีกเล็กๆ คล้ายกลีบดอกไม้"},"rarity":"common","habitat":["temple","school","floating_market"]},"needsReview":true},
-  {"id":"th_ppl_dekying2","lang":"th","written":"เด็กผู้ชาย","reading":"dek phu chai","romanization":"dek phu chai","meaning":{"en":"boy","th":"เด็กผู้ชาย (เพศชาย)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["people","gender","daily"],"frequency":7500,"audio":"voice/th/th_ppl_dekchai.mp3","tone":1,"toneRule":"ด (mid) + dead short → low; ผ (high) + live → rising; ช (low) dead short → falling approx","examples":[{"sentence":"เด็กผู้ชายวิ่งเล่นที่สนาม","reading":"dek phu chai wing len thi sanam","translation":{"en":"The boy is running and playing on the field.","th":"เด็กผู้ชายวิ่งเล่นอยู่ที่สนาม"},"context":"school"}],"kotodama":{"name":"Dekchairun","sprite":"kotodama/th_ppl_dekchai.png","description":{"en":"A speedy little spark that races everywhere.","th":"ประกายเล็กเร็วที่แข่งไปทุกที่"},"rarity":"common","habitat":["school","pier","temple"]},"needsReview":true}
+  {
+    "id": "th_ppl_pho",
+    "lang": "th",
+    "written": "พ่อ",
+    "reading": "pho",
+    "romanization": "pho",
+    "meaning": {
+      "en": "father; dad",
+      "th": "พ่อ (บิดา)",
+      "ja": "お父さん；父"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "family",
+      "people",
+      "daily"
+    ],
+    "frequency": 9500,
+    "audio": "voice/th/th_ppl_pho.mp3",
+    "tone": 2,
+    "toneRule": "พ (low class) + mai ek (่) → falling tone",
+    "examples": [
+      {
+        "sentence": "พ่อของฉันทำงานที่ธนาคาร",
+        "reading": "pho khong chan thamngaan thi thanakhaan",
+        "translation": {
+          "en": "My father works at a bank.",
+          "th": "พ่อของฉันทำงานอยู่ที่ธนาคาร"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Phostem",
+      "sprite": "kotodama/th_ppl_pho.png",
+      "description": {
+        "en": "A sturdy spark shaped like a tall tree trunk, dependable and protective.",
+        "th": "ประกายแข็งแกร่งรูปลำต้นไม้สูง น่าเชื่อถือและปกป้องผู้อื่น"
+      },
+      "rarity": "common",
+      "habitat": [
+        "school",
+        "temple",
+        "fresh_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ppl_mae",
+    "lang": "th",
+    "written": "แม่",
+    "reading": "mae",
+    "romanization": "mae",
+    "meaning": {
+      "en": "mother; mom",
+      "th": "แม่ (มารดา)",
+      "ja": "お母さん；母"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "family",
+      "people",
+      "daily"
+    ],
+    "frequency": 9500,
+    "audio": "voice/th/th_ppl_mae.mp3",
+    "tone": 2,
+    "toneRule": "ม (low class) + mai ek (่) → falling tone",
+    "examples": [
+      {
+        "sentence": "แม่ทำอาหารเก่งมาก",
+        "reading": "mae tham aahaan keng mak",
+        "translation": {
+          "en": "Mom is very good at cooking.",
+          "th": "แม่ทำอาหารได้เก่งมาก"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Maewarm",
+      "sprite": "kotodama/th_ppl_mae.png",
+      "description": {
+        "en": "A warm, glowing spark that smells faintly of jasmine and home cooking.",
+        "th": "ประกายอบอุ่นที่มีกลิ่นมะลิอ่อนๆ และอาหารบ้าน"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "floating_market",
+        "temple"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ppl_phi_chai",
+    "lang": "th",
+    "written": "พี่ชาย",
+    "reading": "phi chai",
+    "romanization": "phi chai",
+    "meaning": {
+      "en": "older brother",
+      "th": "พี่ชาย (พี่ที่เป็นผู้ชาย)",
+      "ja": "兄；お兄さん"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "family",
+      "people",
+      "daily"
+    ],
+    "frequency": 8000,
+    "audio": "voice/th/th_ppl_phi_chai.mp3",
+    "tone": 2,
+    "toneRule": "พ (low class) + mai ek → falling; ช (low) dead short → falling approx",
+    "examples": [
+      {
+        "sentence": "พี่ชายฉันสูงมาก",
+        "reading": "phi chai chan sung mak",
+        "translation": {
+          "en": "My older brother is very tall.",
+          "th": "พี่ชายของฉันตัวสูงมาก"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Phichai",
+      "sprite": "kotodama/th_ppl_phi_chai.png",
+      "description": {
+        "en": "A tall, lanky spark with a protective stance.",
+        "th": "ประกายสูงโย่งมีท่าทางปกป้อง"
+      },
+      "rarity": "common",
+      "habitat": [
+        "school",
+        "temple",
+        "pier"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ppl_nong_chai",
+    "lang": "th",
+    "written": "น้องชาย",
+    "reading": "nong chai",
+    "romanization": "nong chai",
+    "meaning": {
+      "en": "younger brother",
+      "th": "น้องชาย (น้องที่เป็นผู้ชาย)",
+      "ja": "弟；弟さん"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "family",
+      "people",
+      "daily"
+    ],
+    "frequency": 7800,
+    "audio": "voice/th/th_ppl_nong_chai.mp3",
+    "tone": 3,
+    "toneRule": "น (low) + mai tho (้) → high tone; ช dead short → falling approx",
+    "examples": [
+      {
+        "sentence": "น้องชายฉันยังเรียนอยู่",
+        "reading": "nong chai chan yang rian yu",
+        "translation": {
+          "en": "My younger brother is still studying.",
+          "th": "น้องชายของฉันยังอยู่ในช่วงเรียนหนังสือ"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Nongzip",
+      "sprite": "kotodama/th_ppl_nong_chai.png",
+      "description": {
+        "en": "A small energetic spark that zooms around in unpredictable directions.",
+        "th": "ประกายเล็กพลังงานสูงที่พุ่งไปในทิศทางที่คาดเดาไม่ได้"
+      },
+      "rarity": "common",
+      "habitat": [
+        "school",
+        "pier"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ppl_phi_sao",
+    "lang": "th",
+    "written": "พี่สาว",
+    "reading": "phi sao",
+    "romanization": "phi sao",
+    "meaning": {
+      "en": "older sister",
+      "th": "พี่สาว (พี่ที่เป็นผู้หญิง)",
+      "ja": "姉；お姉さん"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "family",
+      "people",
+      "daily"
+    ],
+    "frequency": 8000,
+    "audio": "voice/th/th_ppl_phi_sao.mp3",
+    "tone": 2,
+    "toneRule": "พ (low) + mai ek → falling; ส (high) + no mark + live → rising",
+    "examples": [
+      {
+        "sentence": "พี่สาวฉันชอบเรียนภาษา",
+        "reading": "phi sao chan chop rian phasaa",
+        "translation": {
+          "en": "My older sister loves studying languages.",
+          "th": "พี่สาวของฉันชอบเรียนภาษา"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Phisao",
+      "sprite": "kotodama/th_ppl_phi_sao.png",
+      "description": {
+        "en": "A graceful spark that moves in elegant sweeping patterns.",
+        "th": "ประกายงดงามที่เคลื่อนไหวเป็นลวดลายกว้างสง่างาม"
+      },
+      "rarity": "common",
+      "habitat": [
+        "school",
+        "temple",
+        "floating_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ppl_nong_sao",
+    "lang": "th",
+    "written": "น้องสาว",
+    "reading": "nong sao",
+    "romanization": "nong sao",
+    "meaning": {
+      "en": "younger sister",
+      "th": "น้องสาว (น้องที่เป็นผู้หญิง)",
+      "ja": "妹；妹さん"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "family",
+      "people",
+      "daily"
+    ],
+    "frequency": 7800,
+    "audio": "voice/th/th_ppl_nong_sao.mp3",
+    "tone": 3,
+    "toneRule": "น (low) + mai tho → high tone; ส (high) + no mark + live → rising",
+    "examples": [
+      {
+        "sentence": "น้องสาวฉันชอบวาดรูป",
+        "reading": "nong sao chan chop wat rup",
+        "translation": {
+          "en": "My younger sister likes to draw.",
+          "th": "น้องสาวของฉันชอบวาดภาพ"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Nongsao",
+      "sprite": "kotodama/th_ppl_nong_sao.png",
+      "description": {
+        "en": "A delicate spark with flower-petal wings, always making tiny drawings in the air.",
+        "th": "ประกายละเอียดอ่อนมีปีกคล้ายกลีบดอกไม้ วาดภาพเล็กๆ ในอากาศเสมอ"
+      },
+      "rarity": "common",
+      "habitat": [
+        "school",
+        "temple"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ppl_luk",
+    "lang": "th",
+    "written": "ลูก",
+    "reading": "luk",
+    "romanization": "luk",
+    "meaning": {
+      "en": "child; children",
+      "th": "ลูก (บุตร)",
+      "ja": "子供；子"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "family",
+      "people",
+      "daily"
+    ],
+    "frequency": 9000,
+    "audio": "voice/th/th_ppl_luk.mp3",
+    "tone": 3,
+    "toneRule": "ล (low class) + no mark + dead syllable (short) → high tone",
+    "examples": [
+      {
+        "sentence": "เธอมีลูกสองคน",
+        "reading": "thoe mi luk song khon",
+        "translation": {
+          "en": "She has two children.",
+          "th": "เธอมีลูกสองคน"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Lukbloom",
+      "sprite": "kotodama/th_ppl_luk.png",
+      "description": {
+        "en": "A tiny spark surrounded by even tinier sparks, always keeping them safe.",
+        "th": "ประกายเล็กล้อมรอบด้วยประกายเล็กกว่า คอยปกป้องพวกมันเสมอ"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "temple",
+        "school"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ppl_samii",
+    "lang": "th",
+    "written": "สามี",
+    "reading": "saamii",
+    "romanization": "saamii",
+    "meaning": {
+      "en": "husband",
+      "th": "สามี (คู่ครองผู้ชาย)",
+      "ja": "夫；旦那"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A2",
+    "chapter": 10,
+    "tags": [
+      "family",
+      "people",
+      "social"
+    ],
+    "frequency": 7500,
+    "audio": "voice/th/th_ppl_samii.mp3",
+    "tone": 0,
+    "toneRule": "ส (high) + no mark + live syllable: two syllables, approx mid",
+    "examples": [
+      {
+        "sentence": "สามีของเธอทำงานที่ท่าเรือ",
+        "reading": "saamii khong thoe thamngaan thi tha ruea",
+        "translation": {
+          "en": "Her husband works at the pier.",
+          "th": "สามีของเธอทำงานอยู่ที่ท่าเรือ"
+        },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Saamipillar",
+      "sprite": "kotodama/th_ppl_samii.png",
+      "description": {
+        "en": "A solid, dependable spark with a steady warm glow.",
+        "th": "ประกายแน่วแน่น่าพึ่งพาที่เปล่งแสงอบอุ่นสม่ำเสมอ"
+      },
+      "rarity": "uncommon",
+      "habitat": [
+        "pier",
+        "fresh_market",
+        "temple"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ppl_phariyaa",
+    "lang": "th",
+    "written": "ภรรยา",
+    "reading": "phariyaa",
+    "romanization": "phariyaa",
+    "meaning": {
+      "en": "wife",
+      "th": "ภรรยา (คู่ครองผู้หญิง)",
+      "ja": "妻；奥さん"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A2",
+    "chapter": 10,
+    "tags": [
+      "family",
+      "people",
+      "social"
+    ],
+    "frequency": 7500,
+    "audio": "voice/th/th_ppl_phariyaa.mp3",
+    "tone": 0,
+    "toneRule": "ภ (low) + no mark + live syllable: approx mid across syllables",
+    "examples": [
+      {
+        "sentence": "ภรรยาของเขาเป็นครู",
+        "reading": "phariyaa khong khao pen khru",
+        "translation": {
+          "en": "His wife is a teacher.",
+          "th": "ภรรยาของเขาเป็นครูสอนหนังสือ"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Phariyagrace",
+      "sprite": "kotodama/th_ppl_phariyaa.png",
+      "description": {
+        "en": "An elegant spark with a flowing trail, filling every space with warmth.",
+        "th": "ประกายสง่างามมีแสงไหลตามหลัง เติมทุกที่ด้วยความอบอุ่น"
+      },
+      "rarity": "uncommon",
+      "habitat": [
+        "temple",
+        "school",
+        "floating_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ppl_pu",
+    "lang": "th",
+    "written": "ปู่",
+    "reading": "pu",
+    "romanization": "pu",
+    "meaning": {
+      "en": "paternal grandfather",
+      "th": "ปู่ (พ่อของพ่อ)",
+      "ja": "祖父（父方）；おじいさん"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A2",
+    "chapter": 10,
+    "tags": [
+      "family",
+      "people",
+      "elder"
+    ],
+    "frequency": 7000,
+    "audio": "voice/th/th_ppl_pu.mp3",
+    "tone": 1,
+    "toneRule": "ป (mid) + no mark + live syllable: ปู่ has mai ek implying low",
+    "examples": [
+      {
+        "sentence": "ปู่นั่งอยู่ที่ระเบียงบ้าน",
+        "reading": "pu nang yu thi rabiiang baan",
+        "translation": {
+          "en": "Grandpa is sitting on the porch.",
+          "th": "ปู่นั่งอยู่ที่ระเบียงหน้าบ้าน"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Pusage",
+      "sprite": "kotodama/th_ppl_pu.png",
+      "description": {
+        "en": "A silvery old spark with deep, steady light — it has seen many seasons.",
+        "th": "ประกายเก่าสีเงินที่มีแสงลึกและสม่ำเสมอ — ผ่านหลายฤดูมามาก"
+      },
+      "rarity": "uncommon",
+      "habitat": [
+        "temple",
+        "school"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ppl_yaa",
+    "lang": "th",
+    "written": "ย่า",
+    "reading": "yaa",
+    "romanization": "yaa",
+    "meaning": {
+      "en": "paternal grandmother",
+      "th": "ย่า (แม่ของพ่อ)",
+      "ja": "祖母（父方）；おばあさん"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A2",
+    "chapter": 10,
+    "tags": [
+      "family",
+      "people",
+      "elder"
+    ],
+    "frequency": 7000,
+    "audio": "voice/th/th_ppl_yaa.mp3",
+    "tone": 1,
+    "toneRule": "ย (low) + mai ek (่) → falling tone",
+    "examples": [
+      {
+        "sentence": "ย่าทำขนมไทยอร่อยมาก",
+        "reading": "yaa tham khanom thai aroi mak",
+        "translation": {
+          "en": "Grandma makes delicious Thai desserts.",
+          "th": "ย่าทำขนมไทยได้อร่อยมาก"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Yaasweet",
+      "sprite": "kotodama/th_ppl_yaa.png",
+      "description": {
+        "en": "A warm wrinkled spark that always smells of coconut and palm sugar.",
+        "th": "ประกายย่นอบอุ่นที่มีกลิ่นมะพร้าวและน้ำตาลปี๊บเสมอ"
+      },
+      "rarity": "uncommon",
+      "habitat": [
+        "fresh_market",
+        "floating_market",
+        "temple"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ppl_taa",
+    "lang": "th",
+    "written": "ตา",
+    "reading": "taa",
+    "romanization": "taa",
+    "meaning": {
+      "en": "maternal grandfather",
+      "th": "ตา (พ่อของแม่)",
+      "ja": "祖父（母方）；おじいさん"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A2",
+    "chapter": 10,
+    "tags": [
+      "family",
+      "people",
+      "elder"
+    ],
+    "frequency": 6800,
+    "audio": "voice/th/th_ppl_taa.mp3",
+    "tone": 0,
+    "toneRule": "ต (mid) + no mark + live syllable → mid tone",
+    "examples": [
+      {
+        "sentence": "ตาชอบตกปลาที่ท่าเรือ",
+        "reading": "taa chop tok plaa thi tha ruea",
+        "translation": {
+          "en": "Grandpa likes fishing at the pier.",
+          "th": "ตาชอบไปตกปลาที่ท่าเรือ"
+        },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Taafisher",
+      "sprite": "kotodama/th_ppl_taa.png",
+      "description": {
+        "en": "A patient spark that can stay perfectly still for hours.",
+        "th": "ประกายอดทนที่นิ่งได้หลายชั่วโมง"
+      },
+      "rarity": "uncommon",
+      "habitat": [
+        "pier",
+        "temple"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ppl_yaai",
+    "lang": "th",
+    "written": "ยาย",
+    "reading": "yaai",
+    "romanization": "yaai",
+    "meaning": {
+      "en": "maternal grandmother",
+      "th": "ยาย (แม่ของแม่)",
+      "ja": "祖母（母方）；おばあさん"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A2",
+    "chapter": 10,
+    "tags": [
+      "family",
+      "people",
+      "elder"
+    ],
+    "frequency": 6800,
+    "audio": "voice/th/th_ppl_yaai.mp3",
+    "tone": 0,
+    "toneRule": "ย (low) + no mark + live syllable → mid tone",
+    "examples": [
+      {
+        "sentence": "ยายเล่านิทานให้หลานฟัง",
+        "reading": "yaai lao nitan hai laan fang",
+        "translation": {
+          "en": "Grandma tells stories to her grandchildren.",
+          "th": "ยายเล่านิทานให้หลานๆ ฟัง"
+        },
+        "context": "temple"
+      }
+    ],
+    "kotodama": {
+      "name": "Yaaistory",
+      "sprite": "kotodama/th_ppl_yaai.png",
+      "description": {
+        "en": "A storytelling spark that projects tiny images as it speaks.",
+        "th": "ประกายนักเล่าเรื่องที่ฉายภาพเล็กๆ ขณะพูด"
+      },
+      "rarity": "uncommon",
+      "habitat": [
+        "temple",
+        "school"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ppl_lung",
+    "lang": "th",
+    "written": "ลุง",
+    "reading": "lung",
+    "romanization": "lung",
+    "meaning": {
+      "en": "uncle (older than parent)",
+      "th": "ลุง (พี่ชายของพ่อหรือแม่)",
+      "ja": "おじさん（親より年上）"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A2",
+    "chapter": 10,
+    "tags": [
+      "family",
+      "people",
+      "social"
+    ],
+    "frequency": 6500,
+    "audio": "voice/th/th_ppl_lung.mp3",
+    "tone": 0,
+    "toneRule": "ล (low) + no mark + live syllable → mid tone",
+    "examples": [
+      {
+        "sentence": "ลุงขับรถตุ๊กตุ๊ก",
+        "reading": "lung khap rot tuktuk",
+        "translation": {
+          "en": "Uncle drives a tuk-tuk.",
+          "th": "ลุงขับรถตุ๊กตุ๊กเป็นอาชีพ"
+        },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Lungdriver",
+      "sprite": "kotodama/th_ppl_lung.png",
+      "description": {
+        "en": "A boisterous spark that beeps cheerfully as it zooms by.",
+        "th": "ประกายสนุกสนานที่บีบแตรร่าเริงขณะพุ่งผ่าน"
+      },
+      "rarity": "common",
+      "habitat": [
+        "pier",
+        "fresh_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ppl_paa",
+    "lang": "th",
+    "written": "ป้า",
+    "reading": "paa",
+    "romanization": "paa",
+    "meaning": {
+      "en": "aunt (older than parent)",
+      "th": "ป้า (พี่สาวของพ่อหรือแม่)",
+      "ja": "おばさん（親より年上）"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A2",
+    "chapter": 10,
+    "tags": [
+      "family",
+      "people",
+      "social"
+    ],
+    "frequency": 6800,
+    "audio": "voice/th/th_ppl_paa.mp3",
+    "tone": 1,
+    "toneRule": "ป (mid) + mai ek (่): ป้า has mai tho → high... approx low",
+    "examples": [
+      {
+        "sentence": "ป้าสมศรีขายผลไม้ที่ตลาด",
+        "reading": "paa somsri khaai phonlamai thi talat",
+        "translation": {
+          "en": "Auntie Somsri sells fruit at the market.",
+          "th": "ป้าสมศรีขายผลไม้อยู่ที่ตลาด"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Paamarket",
+      "sprite": "kotodama/th_ppl_paa.png",
+      "description": {
+        "en": "A resourceful spark that always knows the best price for everything.",
+        "th": "ประกายช่างหาทรัพยากรที่รู้ราคาที่ดีที่สุดของทุกอย่างเสมอ"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "floating_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ppl_naa",
+    "lang": "th",
+    "written": "น้า",
+    "reading": "naa",
+    "romanization": "naa",
+    "meaning": {
+      "en": "uncle/aunt (younger sibling of mother)",
+      "th": "น้า (น้องของแม่)",
+      "ja": "おじ・おばさん（母の年下きょうだい）"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A2",
+    "chapter": 10,
+    "tags": [
+      "family",
+      "people",
+      "social"
+    ],
+    "frequency": 6200,
+    "audio": "voice/th/th_ppl_naa.mp3",
+    "tone": 3,
+    "toneRule": "น (low) + mai tho (้) → high tone",
+    "examples": [
+      {
+        "sentence": "น้าของฉันอยู่เชียงใหม่",
+        "reading": "naa khong chan yu chiangmai",
+        "translation": {
+          "en": "My aunt lives in Chiang Mai.",
+          "th": "น้าของฉันอาศัยอยู่ที่เชียงใหม่"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Naadistant",
+      "sprite": "kotodama/th_ppl_naa.png",
+      "description": {
+        "en": "A spark that shines brightly when reunions happen.",
+        "th": "ประกายที่เปล่งแสงสว่างเมื่อมีการกลับมาพบกัน"
+      },
+      "rarity": "uncommon",
+      "habitat": [
+        "temple",
+        "school"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ppl_phuen",
+    "lang": "th",
+    "written": "เพื่อน",
+    "reading": "phuen",
+    "romanization": "phuen",
+    "meaning": {
+      "en": "friend",
+      "th": "เพื่อน (มิตร)",
+      "ja": "友達；友人"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "people",
+      "social",
+      "daily"
+    ],
+    "frequency": 9500,
+    "audio": "voice/th/th_ppl_phuen.mp3",
+    "tone": 0,
+    "toneRule": "พ (low) + no mark + live syllable → mid tone",
+    "examples": [
+      {
+        "sentence": "เพื่อนของฉันพูดภาษาไทยเก่ง",
+        "reading": "phuen khong chan phut phasaa thai keng",
+        "translation": {
+          "en": "My friend speaks Thai well.",
+          "th": "เพื่อนของฉันพูดภาษาไทยได้เก่งมาก"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Phuenbond",
+      "sprite": "kotodama/th_ppl_phuen.png",
+      "description": {
+        "en": "A spark that glows brighter when other sparks are nearby.",
+        "th": "ประกายที่สว่างขึ้นเมื่อมีประกายอื่นอยู่ใกล้"
+      },
+      "rarity": "common",
+      "habitat": [
+        "school",
+        "temple",
+        "pier"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ppl_khru",
+    "lang": "th",
+    "written": "ครู",
+    "reading": "khru",
+    "romanization": "khru",
+    "meaning": {
+      "en": "teacher",
+      "th": "ครู (ผู้สอน)",
+      "ja": "先生；教師"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "people",
+      "career",
+      "education"
+    ],
+    "frequency": 9000,
+    "audio": "voice/th/th_ppl_khru.mp3",
+    "tone": 0,
+    "toneRule": "ค (low) + no mark + live syllable → mid tone",
+    "examples": [
+      {
+        "sentence": "ครูสอนได้เข้าใจง่ายมาก",
+        "reading": "khru son dai khaojai ngai mak",
+        "translation": {
+          "en": "The teacher explains very clearly.",
+          "th": "ครูสอนได้เข้าใจง่ายมาก"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Khruguide",
+      "sprite": "kotodama/th_ppl_khru.png",
+      "description": {
+        "en": "A bright spark that leaves glowing lesson-marks wherever it goes.",
+        "th": "ประกายสว่างที่ทิ้งรอยเรืองแสงบทเรียนไว้ทุกที่"
+      },
+      "rarity": "uncommon",
+      "habitat": [
+        "school",
+        "temple"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ppl_mor",
+    "lang": "th",
+    "written": "หมอ",
+    "reading": "mor",
+    "romanization": "mor",
+    "meaning": {
+      "en": "doctor; physician",
+      "th": "หมอ (แพทย์)",
+      "ja": "お医者さん；医師"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A2",
+    "chapter": 10,
+    "tags": [
+      "people",
+      "career",
+      "health"
+    ],
+    "frequency": 8000,
+    "audio": "voice/th/th_ppl_mor.mp3",
+    "tone": 0,
+    "toneRule": "ห (high) + no mark + live → rising... but หมอ is commonly tone 0 (irregular)",
+    "examples": [
+      {
+        "sentence": "ต้องไปหาหมอพรุ่งนี้",
+        "reading": "tong pai haa mor phrungni",
+        "translation": {
+          "en": "I need to see a doctor tomorrow.",
+          "th": "ต้องไปพบหมอพรุ่งนี้"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Morhealer",
+      "sprite": "kotodama/th_ppl_mor.png",
+      "description": {
+        "en": "A soothing green spark that hums a healing melody.",
+        "th": "ประกายเขียวสงบที่ฮัมเพลงรักษาโรค"
+      },
+      "rarity": "uncommon",
+      "habitat": [
+        "temple",
+        "school",
+        "pier"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ppl_phayaabaan",
+    "lang": "th",
+    "written": "พยาบาล",
+    "reading": "phayaabaan",
+    "romanization": "phayaabaan",
+    "meaning": {
+      "en": "nurse",
+      "th": "พยาบาล (ผู้ช่วยพยาบาล)",
+      "ja": "看護師"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A2",
+    "chapter": 10,
+    "tags": [
+      "people",
+      "career",
+      "health"
+    ],
+    "frequency": 7000,
+    "audio": "voice/th/th_ppl_phayaabaan.mp3",
+    "tone": 0,
+    "toneRule": "พ (low) + compound syllables → mid approximation",
+    "examples": [
+      {
+        "sentence": "พยาบาลใจดีมากที่โรงพยาบาลนี้",
+        "reading": "phayaabaan chai di mak thi rongphayabaan ni",
+        "translation": {
+          "en": "The nurses at this hospital are very kind.",
+          "th": "พยาบาลที่โรงพยาบาลนี้ใจดีมาก"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Phayacare",
+      "sprite": "kotodama/th_ppl_phayaabaan.png",
+      "description": {
+        "en": "A gentle spark that floats at waist height, always ready to assist.",
+        "th": "ประกายอ่อนโยนที่ลอยระดับเอว พร้อมช่วยเหลือเสมอ"
+      },
+      "rarity": "uncommon",
+      "habitat": [
+        "temple",
+        "school"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ppl_tamruat",
+    "lang": "th",
+    "written": "ตำรวจ",
+    "reading": "tamruat",
+    "romanization": "tamruat",
+    "meaning": {
+      "en": "police officer",
+      "th": "ตำรวจ (เจ้าหน้าที่ตำรวจ)",
+      "ja": "警察官"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A2",
+    "chapter": 10,
+    "tags": [
+      "people",
+      "career",
+      "public_service"
+    ],
+    "frequency": 7000,
+    "audio": "voice/th/th_ppl_tamruat.mp3",
+    "tone": 0,
+    "toneRule": "ต (mid) + compound syllables → mid approximation",
+    "examples": [
+      {
+        "sentence": "ตำรวจยืนอยู่ที่แยก",
+        "reading": "tamruat yuen yu thi yaek",
+        "translation": {
+          "en": "A police officer is standing at the intersection.",
+          "th": "ตำรวจยืนอยู่ที่สี่แยก"
+        },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Tamruatwatch",
+      "sprite": "kotodama/th_ppl_tamruat.png",
+      "description": {
+        "en": "A vigilant spark that scans its surroundings in 360 degrees.",
+        "th": "ประกายตื่นตัวที่สแกนสภาพแวดล้อม 360 องศา"
+      },
+      "rarity": "uncommon",
+      "habitat": [
+        "pier",
+        "fresh_market",
+        "temple"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ppl_phokha",
+    "lang": "th",
+    "written": "พ่อค้า",
+    "reading": "pho khaa",
+    "romanization": "pho khaa",
+    "meaning": {
+      "en": "male vendor; merchant",
+      "th": "พ่อค้า (ผู้ขายสินค้าชาย)",
+      "ja": "男性の売り手；商人"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A2",
+    "chapter": 10,
+    "tags": [
+      "people",
+      "market",
+      "career"
+    ],
+    "frequency": 7500,
+    "audio": "voice/th/th_ppl_phokha.mp3",
+    "tone": 2,
+    "toneRule": "พ (low) + mai ek → falling; ค (low) + no mark + live → mid",
+    "examples": [
+      {
+        "sentence": "พ่อค้าเรียกให้เข้ามาดูของ",
+        "reading": "pho khaa riak hai khao maa du khong",
+        "translation": {
+          "en": "The merchant called out for us to come see his goods.",
+          "th": "พ่อค้าร้องเรียกให้เข้ามาดูสินค้า"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Phokhatrade",
+      "sprite": "kotodama/th_ppl_phokha.png",
+      "description": {
+        "en": "A fast-talking spark that displays tiny wares around itself.",
+        "th": "ประกายพูดเร็วที่แสดงสินค้าเล็กๆ รอบตัว"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "floating_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ppl_maekha",
+    "lang": "th",
+    "written": "แม่ค้า",
+    "reading": "mae khaa",
+    "romanization": "mae khaa",
+    "meaning": {
+      "en": "female vendor; market seller",
+      "th": "แม่ค้า (ผู้ขายสินค้าหญิง)",
+      "ja": "女性の売り手；市場の売り子"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "people",
+      "market",
+      "career"
+    ],
+    "frequency": 8000,
+    "audio": "voice/th/th_ppl_maekha.mp3",
+    "tone": 2,
+    "toneRule": "ม (low) + mai ek → falling; ค (low) + no mark + live → mid",
+    "examples": [
+      {
+        "sentence": "แม่ค้าขายผักสดทุกเช้า",
+        "reading": "mae khaa khaai phak sot thuk chao",
+        "translation": {
+          "en": "The vendor sells fresh vegetables every morning.",
+          "th": "แม่ค้าขายผักสดทุกเช้า"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Maekhavend",
+      "sprite": "kotodama/th_ppl_maekha.png",
+      "description": {
+        "en": "A lively spark arranging colorful produce around itself all day.",
+        "th": "ประกายมีชีวิตชีวาที่จัดผลิตผลหลากสีรอบตัวตลอดวัน"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "floating_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ppl_nakrian",
+    "lang": "th",
+    "written": "นักเรียน",
+    "reading": "nakrian",
+    "romanization": "nakrian",
+    "meaning": {
+      "en": "student",
+      "th": "นักเรียน (ผู้เรียน)",
+      "ja": "生徒；学生"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "people",
+      "education",
+      "daily"
+    ],
+    "frequency": 8500,
+    "audio": "voice/th/th_ppl_nakrian.mp3",
+    "tone": 3,
+    "toneRule": "น (low) + no mark + dead short → high; ร (low) + no mark + live → mid",
+    "examples": [
+      {
+        "sentence": "นักเรียนในชั้นเรียนนี้ตั้งใจมาก",
+        "reading": "nakrian nai chan rian ni tang chai mak",
+        "translation": {
+          "en": "The students in this class are very diligent.",
+          "th": "นักเรียนในห้องเรียนนี้ตั้งใจเรียนมาก"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Nakrianlearn",
+      "sprite": "kotodama/th_ppl_nakrian.png",
+      "description": {
+        "en": "A wide-awake spark clutching a small notebook.",
+        "th": "ประกายตื่นตัวถือสมุดโน้ตเล็กๆ"
+      },
+      "rarity": "common",
+      "habitat": [
+        "school",
+        "temple"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ppl_khon",
+    "lang": "th",
+    "written": "คน",
+    "reading": "khon",
+    "romanization": "khon",
+    "meaning": {
+      "en": "person; people",
+      "th": "คน (มนุษย์)",
+      "ja": "人；人々"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "people",
+      "general",
+      "daily"
+    ],
+    "frequency": 9800,
+    "audio": "voice/th/th_ppl_khon.mp3",
+    "tone": 0,
+    "toneRule": "ค (low) + no mark + live syllable → mid tone",
+    "examples": [
+      {
+        "sentence": "ที่นี่มีคนเยอะมาก",
+        "reading": "thi ni mi khon yoe mak",
+        "translation": {
+          "en": "There are a lot of people here.",
+          "th": "ที่นี่มีคนเยอะมาก"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Khoncrowd",
+      "sprite": "kotodama/th_ppl_khon.png",
+      "description": {
+        "en": "A spark that multiplies when surrounded by others.",
+        "th": "ประกายที่เพิ่มขึ้นเมื่อถูกล้อมรอบด้วยตัวอื่น"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "floating_market",
+        "temple"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ppl_dek",
+    "lang": "th",
+    "written": "เด็ก",
+    "reading": "dek",
+    "romanization": "dek",
+    "meaning": {
+      "en": "child; kid",
+      "th": "เด็ก (คนอายุน้อย)",
+      "ja": "子供；子ども"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "people",
+      "age",
+      "daily"
+    ],
+    "frequency": 9000,
+    "audio": "voice/th/th_ppl_dek.mp3",
+    "tone": 1,
+    "toneRule": "ด (mid) + no mark + dead short → low tone",
+    "examples": [
+      {
+        "sentence": "เด็กๆ เล่นอยู่ที่สนามหน้าวัด",
+        "reading": "dek dek len yu thi sanam naa wat",
+        "translation": {
+          "en": "Children are playing in the courtyard in front of the temple.",
+          "th": "เด็กๆ กำลังเล่นอยู่ที่ลานหน้าวัด"
+        },
+        "context": "temple"
+      }
+    ],
+    "kotodama": {
+      "name": "Dekplay",
+      "sprite": "kotodama/th_ppl_dek.png",
+      "description": {
+        "en": "A bouncy spark that somersaults constantly and laughs in a high pitch.",
+        "th": "ประกายเด้งดึ๋งที่กลิ้งตีลังกาอยู่ตลอดเวลาและหัวเราะเสียงสูง"
+      },
+      "rarity": "common",
+      "habitat": [
+        "temple",
+        "school",
+        "pier"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ppl_phuuyai",
+    "lang": "th",
+    "written": "ผู้ใหญ่",
+    "reading": "phuyai",
+    "romanization": "phuyai",
+    "meaning": {
+      "en": "adult; elder",
+      "th": "ผู้ใหญ่ (คนอายุมาก)",
+      "ja": "大人；年長者"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A2",
+    "chapter": 10,
+    "tags": [
+      "people",
+      "age",
+      "social"
+    ],
+    "frequency": 7500,
+    "audio": "voice/th/th_ppl_phuuyai.mp3",
+    "tone": 3,
+    "toneRule": "ผ (high) + no mark + live → rising; ใ + ย → compound",
+    "examples": [
+      {
+        "sentence": "ผู้ใหญ่นั่งอยู่ในร่มเงา",
+        "reading": "phuyai nang yu nai rom ngao",
+        "translation": {
+          "en": "The adults are sitting in the shade.",
+          "th": "ผู้ใหญ่นั่งอยู่ในที่ร่ม"
+        },
+        "context": "temple"
+      }
+    ],
+    "kotodama": {
+      "name": "Phuyaiwisdom",
+      "sprite": "kotodama/th_ppl_phuuyai.png",
+      "description": {
+        "en": "A slow, heavy spark with a deep glow that illuminates wide areas.",
+        "th": "ประกายช้าหนักที่มีแสงลึกสว่างบริเวณกว้าง"
+      },
+      "rarity": "uncommon",
+      "habitat": [
+        "temple",
+        "fresh_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ppl_khonkae",
+    "lang": "th",
+    "written": "คนแก่",
+    "reading": "khon kae",
+    "romanization": "khon kae",
+    "meaning": {
+      "en": "elderly person; old person",
+      "th": "คนแก่ (ผู้สูงอายุ)",
+      "ja": "お年寄り；高齢者"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A2",
+    "chapter": 10,
+    "tags": [
+      "people",
+      "age",
+      "social"
+    ],
+    "frequency": 6500,
+    "audio": "voice/th/th_ppl_khonkae.mp3",
+    "tone": 0,
+    "toneRule": "ค (low) + no mark + live → mid; ก (mid) + no mark + live → mid",
+    "examples": [
+      {
+        "sentence": "คนแก่ในหมู่บ้านรู้เรื่องราวมาก",
+        "reading": "khon kae nai muban ru rueang raao mak",
+        "translation": {
+          "en": "The elderly in the village know many stories.",
+          "th": "คนแก่ในหมู่บ้านรู้เรื่องราวมากมาย"
+        },
+        "context": "temple"
+      }
+    ],
+    "kotodama": {
+      "name": "Khaestory",
+      "sprite": "kotodama/th_ppl_khonkae.png",
+      "description": {
+        "en": "A silver-ringed spark that holds many memories inside it.",
+        "th": "ประกายมีวงแหวนเงินรอบนอก เก็บความทรงจำมากมายข้างใน"
+      },
+      "rarity": "rare",
+      "habitat": [
+        "temple",
+        "fresh_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ppl_dekying",
+    "lang": "th",
+    "written": "เด็กผู้หญิง",
+    "reading": "dek phu ying",
+    "romanization": "dek phu ying",
+    "meaning": {
+      "en": "girl",
+      "th": "เด็กผู้หญิง (เพศหญิง)",
+      "ja": "女の子"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "people",
+      "gender",
+      "daily"
+    ],
+    "frequency": 7500,
+    "audio": "voice/th/th_ppl_dekying.mp3",
+    "tone": 1,
+    "toneRule": "ด (mid) + dead short → low; ผ (high) + live → rising; ย (low) + live → mid",
+    "examples": [
+      {
+        "sentence": "เด็กผู้หญิงสวมชุดสีชมพู",
+        "reading": "dek phu ying suam chut si chomphu",
+        "translation": {
+          "en": "The girl is wearing a pink dress.",
+          "th": "เด็กผู้หญิงสวมชุดสีชมพู"
+        },
+        "context": "temple"
+      }
+    ],
+    "kotodama": {
+      "name": "Dekyingpetal",
+      "sprite": "kotodama/th_ppl_dekying.png",
+      "description": {
+        "en": "A dainty pink spark with tiny flower-petal wings.",
+        "th": "ประกายชมพูละเอียดอ่อนมีปีกเล็กๆ คล้ายกลีบดอกไม้"
+      },
+      "rarity": "common",
+      "habitat": [
+        "temple",
+        "school",
+        "floating_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ppl_dekying2",
+    "lang": "th",
+    "written": "เด็กผู้ชาย",
+    "reading": "dek phu chai",
+    "romanization": "dek phu chai",
+    "meaning": {
+      "en": "boy",
+      "th": "เด็กผู้ชาย (เพศชาย)",
+      "ja": "男の子"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "people",
+      "gender",
+      "daily"
+    ],
+    "frequency": 7500,
+    "audio": "voice/th/th_ppl_dekchai.mp3",
+    "tone": 1,
+    "toneRule": "ด (mid) + dead short → low; ผ (high) + live → rising; ช (low) dead short → falling approx",
+    "examples": [
+      {
+        "sentence": "เด็กผู้ชายวิ่งเล่นที่สนาม",
+        "reading": "dek phu chai wing len thi sanam",
+        "translation": {
+          "en": "The boy is running and playing on the field.",
+          "th": "เด็กผู้ชายวิ่งเล่นอยู่ที่สนาม"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Dekchairun",
+      "sprite": "kotodama/th_ppl_dekchai.png",
+      "description": {
+        "en": "A speedy little spark that races everywhere.",
+        "th": "ประกายเล็กเร็วที่แข่งไปทุกที่"
+      },
+      "rarity": "common",
+      "habitat": [
+        "school",
+        "pier",
+        "temple"
+      ]
+    },
+    "needsReview": false
+  }
 ]

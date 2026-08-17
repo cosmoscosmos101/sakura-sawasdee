@@ -1,60 +1,2945 @@
 [
-  {"id":"th_ext2_khon_thai","lang":"th","written":"คนไทย","reading":"khon thai","romanization":"khon thai","meaning":{"en":"Thai person","th":"คนไทย"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["people","culture","thai"],"frequency":9000,"audio":"voice/th/th_ext2_khon_thai.mp3","tone":0,"toneRule":"ค (low)+live→mid; ท (low)+สระไ→mid","examples":[{"sentence":"คนไทยส่วนใหญ่นับถือพุทธ","reading":"khon thai suan yai napthuue phut","translation":{"en":"Most Thai people are Buddhist.","th":"คนไทยส่วนใหญ่นับถือศาสนาพุทธ"},"context":"temple"}],"kotodama":{"name":"Khonthaipride","sprite":"kotodama/th_ext2_khon_thai.png","description":{"en":"A warm spark wearing a tiny traditional Thai costume.","th":"ประกายอบอุ่นสวมชุดไทยเล็กๆ"},"rarity":"common","habitat":["temple","fresh_market","floating_market"]},"needsReview":true},
-  {"id":"th_ext2_wat","lang":"th","written":"วัด","reading":"wat","romanization":"wat","meaning":{"en":"temple; Buddhist monastery","th":"วัด (ศาสนสถาน)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["place","culture","religion"],"frequency":9000,"audio":"voice/th/th_ext2_wat.mp3","tone":3,"toneRule":"ว (low)+no mark+dead short→high tone","examples":[{"sentence":"เราไปไหว้พระที่วัดทุกสงกรานต์","reading":"rao pai wai phra thi wat thuk songkran","translation":{"en":"We visit the temple every Songkran.","th":"เราไปไหว้พระที่วัดทุกปีในช่วงสงกรานต์"},"context":"temple"}],"kotodama":{"name":"Watgoldspire","sprite":"kotodama/th_ext2_wat.png","description":{"en":"A golden tiered spark shaped like a chedi spire.","th":"ประกายทองทรงชั้นรูปยอดเจดีย์"},"rarity":"uncommon","habitat":["temple"]},"needsReview":true},
-  {"id":"th_ext2_phuttha","lang":"th","written":"พระ","reading":"phra","romanization":"phra","meaning":{"en":"monk; Buddha image; sacred","th":"พระ (พระสงฆ์; พระพุทธรูป)"},"pos":"noun","element":"bloom","level":"A2","chapter":10,"tags":["religion","culture","temple"],"frequency":8000,"audio":"voice/th/th_ext2_phuttha.mp3","tone":3,"toneRule":"พ (low)+no mark+dead short→high tone","examples":[{"sentence":"พระเดินบิณฑบาตทุกเช้า","reading":"phra doen bindabot thuk chao","translation":{"en":"Monks walk for alms every morning.","th":"พระเดินบิณฑบาตทุกเช้า"},"context":"temple"}],"kotodama":{"name":"Phraserene","sprite":"kotodama/th_ext2_phuttha.png","description":{"en":"A calm saffron spark radiating quiet peace.","th":"ประกายเหลืองสีจีวรที่แผ่ความสงบเงียบ"},"rarity":"rare","habitat":["temple"]},"needsReview":true},
-  {"id":"th_ext2_baht","lang":"th","written":"บาท","reading":"baat","romanization":"baat","meaning":{"en":"baht (Thai currency)","th":"บาท (สกุลเงินไทย)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["money","market","daily"],"frequency":9500,"audio":"voice/th/th_ext2_baht.mp3","tone":1,"toneRule":"บ (mid)+no mark+dead short→low tone","examples":[{"sentence":"ข้าวผัดจานละ 60 บาท","reading":"khaao phat chan la hok sip baat","translation":{"en":"Fried rice is 60 baht per plate.","th":"ข้าวผัดราคาจานละ 60 บาท"},"context":"fresh_market"}],"kotodama":{"name":"Baatcoin","sprite":"kotodama/th_ext2_baht.png","description":{"en":"A silver coin spark engraved with a tiny garuda.","th":"ประกายเหรียญเงินแกะสลักรูปครุฑเล็กๆ"},"rarity":"common","habitat":["fresh_market","floating_market","bargaining"]},"needsReview":true},
-  {"id":"th_ext2_lot","lang":"th","written":"ลด","reading":"lot","romanization":"lot","meaning":{"en":"to reduce; to discount","th":"ลด (ลดราคา)"},"pos":"verb","element":"spark","level":"A2","chapter":10,"tags":["market","bargaining","action"],"frequency":8000,"audio":"voice/th/th_ext2_lot.mp3","tone":3,"toneRule":"ล (low)+no mark+dead short→high tone","examples":[{"sentence":"ลดราคาได้ไหมครับ","reading":"lot raakhaa dai mai khrap","translation":{"en":"Can you lower the price?","th":"ลดราคาได้ไหมครับ"},"context":"fresh_market"}],"kotodama":{"name":"Lotdiscount","sprite":"kotodama/th_ext2_lot.png","description":{"en":"A shrinking spark that makes price tags smaller wherever it lands.","th":"ประกายหดตัวที่ทำให้ป้ายราคาเล็กลงทุกที่ที่ลงจอด"},"rarity":"common","habitat":["fresh_market","floating_market","bargaining"]},"needsReview":true},
-  {"id":"th_ext2_phaeng","lang":"th","written":"แพง","reading":"phaeng","romanization":"phaeng","meaning":{"en":"expensive","th":"แพง (ราคาสูง)"},"pos":"adjective","element":"flow","level":"A1","chapter":10,"tags":["price","market","daily"],"frequency":8500,"audio":"voice/th/th_ext2_phaeng.mp3","tone":0,"toneRule":"พ (low)+no mark+live→mid tone","examples":[{"sentence":"ที่นี่แพงกว่าตลาดสด","reading":"thi ni phaeng kwa talat sot","translation":{"en":"It's more expensive here than the fresh market.","th":"ที่นี่แพงกว่าตลาดสด"},"context":"floating_market"}],"kotodama":{"name":"Phaengprice","sprite":"kotodama/th_ext2_phaeng.png","description":{"en":"A spark with a high price-tag floating above it.","th":"ประกายมีป้ายราคาสูงลอยอยู่เหนือ"},"rarity":"common","habitat":["floating_market","fresh_market","bargaining"]},"needsReview":true},
-  {"id":"th_ext2_thuuk","lang":"th","written":"ถูก","reading":"thuuk","romanization":"thuuk","meaning":{"en":"cheap; correct","th":"ถูก (ราคาต่ำ; ถูกต้อง)"},"pos":"adjective","element":"flow","level":"A1","chapter":10,"tags":["price","market","daily"],"frequency":8500,"audio":"voice/th/th_ext2_thuuk.mp3","tone":1,"toneRule":"ถ (high)+no mark+dead short→falling... ถูก: high class+dead long→falling","examples":[{"sentence":"ผักที่ตลาดสดถูกกว่า","reading":"phak thi talat sot thuuk kwa","translation":{"en":"Vegetables at the fresh market are cheaper.","th":"ผักที่ตลาดสดราคาถูกกว่า"},"context":"fresh_market"}],"kotodama":{"name":"Thuukbargain","sprite":"kotodama/th_ext2_thuuk.png","description":{"en":"A compact spark with a small bargain tag attached.","th":"ประกายกะทัดรัดมีป้ายราคาถูกติดอยู่"},"rarity":"common","habitat":["fresh_market","floating_market"]},"needsReview":true},
-  {"id":"th_ext2_khwaam_khit","lang":"th","written":"ความคิด","reading":"khwaam khit","romanization":"khwaam khit","meaning":{"en":"idea; thought","th":"ความคิด (แนวคิด)"},"pos":"noun","element":"bloom","level":"A2","chapter":10,"tags":["abstract","mind","daily"],"frequency":7500,"audio":"voice/th/th_ext2_khwaam_khit.mp3","tone":0,"toneRule":"ค (low)+live→mid; ค (low)+dead short→high; compound approx mid","examples":[{"sentence":"คุณมีความคิดดีมาก","reading":"khun mi khwaam khit di mak","translation":{"en":"You have a great idea.","th":"คุณมีความคิดที่ดีมาก"},"context":"school"}],"kotodama":{"name":"Khwaakhitidea","sprite":"kotodama/th_ext2_khwaam_khit.png","description":{"en":"A lightbulb spark that flares up when creativity strikes.","th":"ประกายหลอดไฟที่สว่างวาบเมื่อความคิดสร้างสรรค์เกิดขึ้น"},"rarity":"uncommon","habitat":["school","temple"]},"needsReview":true},
-  {"id":"th_ext2_kha_na","lang":"th","written":"ขณะ","reading":"khana","romanization":"khana","meaning":{"en":"while; at the moment of","th":"ขณะ (ในขณะที่)"},"pos":"particle","element":"echo","level":"B1","chapter":10,"tags":["time","grammar","formal"],"frequency":5000,"audio":"voice/th/th_ext2_kha_na.mp3","tone":4,"toneRule":"ข (high)+no mark+dead short→falling; ณ (low)+live→mid","examples":[{"sentence":"ขณะที่ฉันทำอาหาร เธอก็โทรมา","reading":"khana thi chan tham aahan thoe ko tho maa","translation":{"en":"While I was cooking, she called.","th":"ขณะที่ฉันทำอาหาร เธอก็โทรมา"},"context":"school"}],"kotodama":{"name":"Khanasimult","sprite":"kotodama/th_ext2_kha_na.png","description":{"en":"A dual-faced spark that watches two timelines at once.","th":"ประกายสองหน้าที่มองสองเส้นเวลาพร้อมกัน"},"rarity":"rare","habitat":["school","temple"]},"needsReview":true},
-  {"id":"th_ext2_klua","lang":"th","written":"กลัว","reading":"kluaa","romanization":"kluaa","meaning":{"en":"to be afraid; scared","th":"กลัว (ความกลัว)"},"pos":"verb","element":"spark","level":"A1","chapter":10,"tags":["emotion","feeling","daily"],"frequency":8000,"audio":"voice/th/th_ext2_klua.mp3","tone":0,"toneRule":"ก (mid)+no mark+live→mid tone","examples":[{"sentence":"ฉันกลัวแมลงสาบมาก","reading":"chan kluaa malaeng saap mak","translation":{"en":"I'm very scared of cockroaches.","th":"ฉันกลัวแมลงสาบมาก"},"context":"school"}],"kotodama":{"name":"Kluaashiver","sprite":"kotodama/th_ext2_klua.png","description":{"en":"A trembling spark with wide fearful eyes.","th":"ประกายสั่นมีดวงตาตกใจกลม"},"rarity":"common","habitat":["school","temple","pier"]},"needsReview":true},
-  {"id":"th_ext2_dii_jai","lang":"th","written":"ดีใจ","reading":"di jai","romanization":"di jai","meaning":{"en":"glad; pleased; happy about something","th":"ดีใจ (รู้สึกยินดี)"},"pos":"adjective","element":"flow","level":"A1","chapter":10,"tags":["emotion","feeling","daily"],"frequency":8500,"audio":"voice/th/th_ext2_dii_jai.mp3","tone":0,"toneRule":"ด (mid)+live→mid; จ (mid)+สระไ→mid","examples":[{"sentence":"ดีใจมากที่ได้พบคุณ","reading":"di jai mak thi dai phop khun","translation":{"en":"I'm very glad to meet you.","th":"ดีใจมากที่ได้พบคุณ"},"context":"school"}],"kotodama":{"name":"Dijaijoy","sprite":"kotodama/th_ext2_dii_jai.png","description":{"en":"A glowing spark that bounces with happiness.","th":"ประกายเรืองแสงที่กระโดดด้วยความสุข"},"rarity":"common","habitat":["school","temple","fresh_market"]},"needsReview":true},
-  {"id":"th_ext2_sia_jai","lang":"th","written":"เสียใจ","reading":"sia jai","romanization":"sia jai","meaning":{"en":"sad; sorry to hear that","th":"เสียใจ (รู้สึกเศร้า)"},"pos":"adjective","element":"flow","level":"A1","chapter":10,"tags":["emotion","feeling","daily"],"frequency":7500,"audio":"voice/th/th_ext2_sia_jai.mp3","tone":4,"toneRule":"ส (high)+no mark+live→rising; จ (mid)+สระไ→mid","examples":[{"sentence":"เสียใจมากที่ได้ยินข่าวนี้","reading":"sia jai mak thi dai yin khao ni","translation":{"en":"I'm very sorry to hear this news.","th":"เสียใจมากที่ได้ยินข่าวนี้"},"context":"school"}],"kotodama":{"name":"Siajaiteardrop","sprite":"kotodama/th_ext2_sia_jai.png","description":{"en":"A drooping blue spark with a tiny teardrop.","th":"ประกายน้ำเงินหดตัวมีน้ำตาเล็กๆ"},"rarity":"common","habitat":["school","temple"]},"needsReview":true},
-  {"id":"th_ext2_tok_jai","lang":"th","written":"ตกใจ","reading":"tok jai","romanization":"tok jai","meaning":{"en":"startled; surprised","th":"ตกใจ (สะดุ้งตกใจ)"},"pos":"adjective","element":"flow","level":"A1","chapter":10,"tags":["emotion","feeling","daily"],"frequency":7500,"audio":"voice/th/th_ext2_tok_jai.mp3","tone":1,"toneRule":"ต (mid)+no mark+dead short→low; จ (mid)+สระไ→mid","examples":[{"sentence":"เธอตกใจมากเมื่อได้ยินเสียงดัง","reading":"thoe tok jai mak mueua dai yin siang dang","translation":{"en":"She was very startled when she heard the loud noise.","th":"เธอตกใจมากเมื่อได้ยินเสียงดัง"},"context":"temple"}],"kotodama":{"name":"Tokjaizap","sprite":"kotodama/th_ext2_tok_jai.png","description":{"en":"A spark that shoots upward with a surprised jolt.","th":"ประกายที่พุ่งขึ้นด้วยความตกใจ"},"rarity":"common","habitat":["temple","pier","school"]},"needsReview":true},
-  {"id":"th_ext2_son_jai","lang":"th","written":"สนใจ","reading":"son jai","romanization":"son jai","meaning":{"en":"interested; to be interested in","th":"สนใจ (ให้ความสนใจ)"},"pos":"verb","element":"spark","level":"A1","chapter":10,"tags":["emotion","learning","daily"],"frequency":8500,"audio":"voice/th/th_ext2_son_jai.mp3","tone":4,"toneRule":"ส (high)+no mark+live→rising; จ (mid)+สระไ→mid","examples":[{"sentence":"ฉันสนใจภาษาไทยมาก","reading":"chan son jai phasaa thai mak","translation":{"en":"I'm very interested in the Thai language.","th":"ฉันสนใจภาษาไทยมาก"},"context":"school"}],"kotodama":{"name":"Sonjaimagnet","sprite":"kotodama/th_ext2_son_jai.png","description":{"en":"A magnetic spark that leans toward anything interesting.","th":"ประกายแม่เหล็กที่โน้มเอียงไปหาสิ่งที่น่าสนใจ"},"rarity":"common","habitat":["school","temple","pier"]},"needsReview":true},
-  {"id":"th_ext2_baep","lang":"th","written":"แบบ","reading":"baep","romanization":"baep","meaning":{"en":"style; type; form; like (manner)","th":"แบบ (รูปแบบ; ชนิด)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["description","grammar","daily"],"frequency":9000,"audio":"voice/th/th_ext2_baep.mp3","tone":1,"toneRule":"บ (mid)+no mark+dead short→low tone","examples":[{"sentence":"ชอบแบบไหนมากกว่า","reading":"chop baep nai mak kwa","translation":{"en":"Which style do you prefer?","th":"ชอบแบบไหนมากกว่ากัน"},"context":"floating_market"}],"kotodama":{"name":"Baeptemplate","sprite":"kotodama/th_ext2_baep.png","description":{"en":"A shape-shifting spark that copies whatever form it sees.","th":"ประกายเปลี่ยนรูปที่เลียนแบบรูปทรงที่เห็น"},"rarity":"common","habitat":["floating_market","school","fresh_market"]},"needsReview":true},
-  {"id":"th_ext2_khong","lang":"th","written":"ของ","reading":"khong","romanization":"khong","meaning":{"en":"of; belonging to; thing(s)","th":"ของ (เป็นเจ้าของ; สิ่งของ)"},"pos":"particle","element":"echo","level":"A1","chapter":10,"tags":["grammar","possession","daily"],"frequency":9999,"audio":"voice/th/th_ext2_khong.mp3","tone":4,"toneRule":"ข (high)+no mark+live→rising tone","examples":[{"sentence":"นี่คือของฉัน","reading":"ni khue khong chan","translation":{"en":"This belongs to me.","th":"นี่คือของของฉัน"},"context":"school"}],"kotodama":{"name":"Khongposs","sprite":"kotodama/th_ext2_khong.png","description":{"en":"A possessive spark that marks whatever it touches with a glowing tag.","th":"ประกายแสดงความเป็นเจ้าของที่ทำเครื่องหมายเรืองแสงบนสิ่งที่สัมผัส"},"rarity":"common","habitat":["school","fresh_market","pier"]},"needsReview":true},
-  {"id":"th_ext2_duai","lang":"th","written":"ด้วย","reading":"duai","romanization":"duai","meaning":{"en":"also; too; with","th":"ด้วย (ด้วยกัน; ก็ด้วย)"},"pos":"particle","element":"echo","level":"A1","chapter":10,"tags":["grammar","addition","daily"],"frequency":9800,"audio":"voice/th/th_ext2_duai.mp3","tone":2,"toneRule":"ด (mid)+mai tho (้)→high... ด้วย: approx falling","examples":[{"sentence":"ฉันก็ชอบส้มตำด้วย","reading":"chan ko chop somtam duai","translation":{"en":"I also like som tam.","th":"ฉันก็ชอบส้มตำด้วยเหมือนกัน"},"context":"fresh_market"}],"kotodama":{"name":"Duaialso","sprite":"kotodama/th_ext2_duai.png","description":{"en":"A plus-sign spark that adds itself to any group.","th":"ประกายรูปเครื่องหมายบวกที่เพิ่มตัวเองเข้ากลุ่มเสมอ"},"rarity":"common","habitat":["fresh_market","school","temple"]},"needsReview":true},
-  {"id":"th_ext2_leo","lang":"th","written":"เลย","reading":"loei","romanization":"loei","meaning":{"en":"at all; straight away; even; indeed (emphasis)","th":"เลย (เน้นย้ำ; ไม่เลย)"},"pos":"particle","element":"echo","level":"A1","chapter":10,"tags":["grammar","emphasis","daily"],"frequency":9500,"audio":"voice/th/th_ext2_leo.mp3","tone":0,"toneRule":"ล (low)+no mark+live→mid tone","examples":[{"sentence":"ฉันไม่รู้จักเลย","reading":"chan mai rucak loei","translation":{"en":"I don't know at all.","th":"ฉันไม่รู้จักเลย"},"context":"pier"}],"kotodama":{"name":"Loeiemph","sprite":"kotodama/th_ext2_leo.png","description":{"en":"An emphatic spark that underlines whatever it follows.","th":"ประกายเน้นที่ขีดเส้นใต้สิ่งที่ตามมา"},"rarity":"common","habitat":["school","pier","fresh_market"]},"needsReview":true},
-  {"id":"th_ext2_thuknueng","lang":"th","written":"ทุกคน","reading":"thuk khon","romanization":"thuk khon","meaning":{"en":"everyone; everybody","th":"ทุกคน"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["people","quantity","daily"],"frequency":9000,"audio":"voice/th/th_ext2_thuknueng.mp3","tone":3,"toneRule":"ท (low)+no mark+dead short→high; ค (low)+live→mid","examples":[{"sentence":"ทุกคนมาพร้อมกันหรือยัง","reading":"thuk khon maa phrom kan rue yang","translation":{"en":"Is everyone here yet?","th":"ทุกคนมาพร้อมกันหรือยัง"},"context":"pier"}],"kotodama":{"name":"Thukkhoncrowd","sprite":"kotodama/th_ext2_thuknueng.png","description":{"en":"A many-faced spark representing an entire community.","th":"ประกายหลายหน้าที่เป็นตัวแทนของชุมชนทั้งหมด"},"rarity":"uncommon","habitat":["temple","pier","fresh_market"]},"needsReview":true},
-  {"id":"th_ext2_song_khram","lang":"th","written":"สงกรานต์","reading":"songkran","romanization":"songkran","meaning":{"en":"Songkran (Thai New Year water festival)","th":"สงกรานต์ (ปีใหม่ไทย)"},"pos":"noun","element":"bloom","level":"A2","chapter":10,"tags":["culture","festival","thai"],"frequency":7000,"audio":"voice/th/th_ext2_song_khram.mp3","tone":4,"toneRule":"ส (high)+compound syllables→rising approximation","examples":[{"sentence":"สงกรานต์ปีนี้สนุกมาก","reading":"songkran pii ni sanuk mak","translation":{"en":"This year's Songkran was so much fun.","th":"สงกรานต์ปีนี้สนุกมาก"},"context":"floating_market"}],"kotodama":{"name":"Songkranwater","sprite":"kotodama/th_ext2_song_khram.png","description":{"en":"A splashing water spark that celebrates with everyone.","th":"ประกายน้ำกระเด็นที่ฉลองร่วมกับทุกคน"},"rarity":"rare","habitat":["floating_market","pier","temple"]},"needsReview":true},
-  {"id":"th_ext2_loy_krathong","lang":"th","written":"ลอยกระทง","reading":"loi krathong","romanization":"loi krathong","meaning":{"en":"Loy Krathong festival","th":"ลอยกระทง (เทศกาลลอยกระทง)"},"pos":"noun","element":"bloom","level":"A2","chapter":10,"tags":["culture","festival","thai"],"frequency":6000,"audio":"voice/th/th_ext2_loy_krathong.mp3","tone":0,"toneRule":"ล (low)+no mark+live→mid; ก (mid)+compound→approx mid","examples":[{"sentence":"ลอยกระทงในวันเพ็ญเดือนสิบสอง","reading":"loi krathong nai wan phen duean sip song","translation":{"en":"Loy Krathong is on the full moon of the twelfth month.","th":"ลอยกระทงจัดในคืนวันเพ็ญเดือนสิบสอง"},"context":"floating_market"}],"kotodama":{"name":"Loikrathongcandle","sprite":"kotodama/th_ext2_loy_krathong.png","description":{"en":"A candlelit spark that floats on water like a lotus boat.","th":"ประกายแสงเทียนที่ลอยบนน้ำเหมือนเรือดอกบัว"},"rarity":"rare","habitat":["floating_market","pier"]},"needsReview":true},
-  {"id":"th_ext2_pad_thai","lang":"th","written":"ผัดไทย","reading":"phat thai","romanization":"phat thai","meaning":{"en":"Pad Thai (stir-fried noodles)","th":"ผัดไทย (อาหารยอดนิยม)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","dish","thai"],"frequency":8500,"audio":"voice/th/th_ext2_pad_thai.mp3","tone":3,"toneRule":"ผ (high)+no mark+dead short→falling... ผัด: ผ high+dead short→falling; ไทย (ท low+สระไ→mid)","examples":[{"sentence":"ผัดไทยเป็นอาหารยอดนิยมของนักท่องเที่ยว","reading":"phat thai pen aahan yot niyom khong nak thongthiao","translation":{"en":"Pad Thai is a favorite dish among tourists.","th":"ผัดไทยเป็นอาหารยอดนิยมของนักท่องเที่ยว"},"context":"floating_market"}],"kotodama":{"name":"Phatthainoodle","sprite":"kotodama/th_ext2_pad_thai.png","description":{"en":"A tangy-smelling spark that tangles like wiry noodles.","th":"ประกายกลิ่นเปรี้ยวที่พันกันเหมือนเส้นบะหมี่"},"rarity":"common","habitat":["floating_market","fresh_market"]},"needsReview":true},
-  {"id":"th_ext2_tom_yum","lang":"th","written":"ต้มยำ","reading":"tom yam","romanization":"tom yam","meaning":{"en":"Tom Yum (spicy Thai soup)","th":"ต้มยำ (ซุปรสเผ็ด)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","soup","thai"],"frequency":8500,"audio":"voice/th/th_ext2_tom_yum.mp3","tone":2,"toneRule":"ต (mid)+no mark+live→mid; ย (low)+no mark+live→mid; ต้ม has mai tho → high... compound approx","examples":[{"sentence":"ต้มยำกุ้งอร่อยมากที่ร้านนี้","reading":"tom yam kung aroi mak thi ran ni","translation":{"en":"The Tom Yum Kung at this restaurant is very delicious.","th":"ต้มยำกุ้งที่ร้านนี้อร่อยมาก"},"context":"floating_market"}],"kotodama":{"name":"Tomyamfire","sprite":"kotodama/th_ext2_tom_yum.png","description":{"en":"A spicy red spark that makes eyes water with its heat.","th":"ประกายแดงเผ็ดที่ทำให้น้ำตาไหลด้วยความร้อน"},"rarity":"uncommon","habitat":["floating_market","fresh_market"]},"needsReview":true},
-  {"id":"th_ext2_khaao_niaw","lang":"th","written":"ข้าวเหนียว","reading":"khaao niaw","romanization":"khaao niaw","meaning":{"en":"sticky rice","th":"ข้าวเหนียว"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","staple","thai"],"frequency":8000,"audio":"voice/th/th_ext2_khaao_niaw.mp3","tone":0,"toneRule":"ข (high)+no mark+dead long→falling; เหนียว (ห high+live→rising)","examples":[{"sentence":"ข้าวเหนียวมะม่วงเป็นของหวานที่ฉันชอบ","reading":"khaao niaw mamuang pen khong wan thi chan chop","translation":{"en":"Mango sticky rice is my favorite dessert.","th":"ข้าวเหนียวมะม่วงเป็นของหวานที่ฉันชอบ"},"context":"floating_market"}],"kotodama":{"name":"Khaaoniawsticky","sprite":"kotodama/th_ext2_khaao_niaw.png","description":{"en":"A gluey white spark that sticks to anything it touches.","th":"ประกายขาวเหนียวที่ติดกับทุกอย่างที่สัมผัส"},"rarity":"common","habitat":["floating_market","fresh_market"]},"needsReview":true},
-  {"id":"th_ext2_nam_prik","lang":"th","written":"น้ำพริก","reading":"nam phrik","romanization":"nam phrik","meaning":{"en":"chili dipping sauce","th":"น้ำพริก (ซอสพริก)"},"pos":"noun","element":"bloom","level":"A2","chapter":10,"tags":["food","condiment","thai"],"frequency":6500,"audio":"voice/th/th_ext2_nam_prik.mp3","tone":3,"toneRule":"น (low)+mai tho→high; พ (low)+no mark+dead short→high","examples":[{"sentence":"น้ำพริกกะปิอร่อยมากกับผักสด","reading":"nam phrik kapi aroi mak kap phak sot","translation":{"en":"Shrimp paste chili dip is great with fresh vegetables.","th":"น้ำพริกกะปิอร่อยมากกินกับผักสด"},"context":"fresh_market"}],"kotodama":{"name":"Namprikhot","sprite":"kotodama/th_ext2_nam_prik.png","description":{"en":"A fiery red spark that pulses with spicy heat.","th":"ประกายแดงร้อนแรงที่เต้นด้วยความเผ็ดร้อน"},"rarity":"uncommon","habitat":["fresh_market","floating_market"]},"needsReview":true},
-  {"id":"th_ext2_jaan","lang":"th","written":"จาน","reading":"jaan","romanization":"jaan","meaning":{"en":"plate; dish","th":"จาน (ภาชนะ)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["object","food","daily"],"frequency":8000,"audio":"voice/th/th_ext2_jaan.mp3","tone":0,"toneRule":"จ (mid)+no mark+live→mid tone","examples":[{"sentence":"ล้างจานด้วยนะครับ","reading":"laang jaan duai na khrap","translation":{"en":"Please wash the dishes.","th":"ล้างจานด้วยนะครับ"},"context":"fresh_market"}],"kotodama":{"name":"Jaanplate","sprite":"kotodama/th_ext2_jaan.png","description":{"en":"A flat round spark that always looks spotlessly clean.","th":"ประกายกลมแบนที่ดูสะอาดหมดจดเสมอ"},"rarity":"common","habitat":["fresh_market","floating_market","school"]},"needsReview":true},
-  {"id":"th_ext2_kaeo","lang":"th","written":"แก้ว","reading":"kaeo","romanization":"kaeo","meaning":{"en":"glass (drinking); crystal","th":"แก้ว (ภาชนะดื่ม; แก้วผลึก)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["object","food","daily"],"frequency":8000,"audio":"voice/th/th_ext2_kaeo.mp3","tone":2,"toneRule":"ก (mid)+no mark+live→mid; แก้ว has mai tho → high class effect? approx falling","examples":[{"sentence":"ขอน้ำอีกแก้วได้ไหม","reading":"kho naam ik kaeo dai mai","translation":{"en":"Can I have another glass of water?","th":"ขอน้ำอีกแก้วได้ไหม"},"context":"fresh_market"}],"kotodama":{"name":"Kaeocrystal","sprite":"kotodama/th_ext2_kaeo.png","description":{"en":"A clear crystal spark that refracts light in all directions.","th":"ประกายแก้วใสที่หักเหแสงในทุกทิศทาง"},"rarity":"common","habitat":["fresh_market","floating_market","temple"]},"needsReview":true},
-  {"id":"th_ext2_chon","lang":"th","written":"ช้อน","reading":"chon","romanization":"chon","meaning":{"en":"spoon","th":"ช้อน"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["object","food","daily"],"frequency":7500,"audio":"voice/th/th_ext2_chon.mp3","tone":3,"toneRule":"ช (low)+mai tho (้)→high tone","examples":[{"sentence":"ใช้ช้อนตักน้ำแกงด้วยนะ","reading":"chai chon tak naam kaeng duai na","translation":{"en":"Use a spoon to scoop the curry broth.","th":"ใช้ช้อนตักน้ำแกงด้วยนะ"},"context":"floating_market"}],"kotodama":{"name":"Chonscoop","sprite":"kotodama/th_ext2_chon.png","description":{"en":"A curved spark that carries tiny drops wherever it dips.","th":"ประกายโค้งที่พาน้ำหยดเล็กๆ ไปทุกที่ที่จุ่ม"},"rarity":"common","habitat":["fresh_market","floating_market","school"]},"needsReview":true},
-  {"id":"th_ext2_som","lang":"th","written":"ส้ม","reading":"som","romanization":"som","meaning":{"en":"orange (fruit); sour","th":"ส้ม (ผลไม้; รสเปรี้ยว)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["food","fruit","taste"],"frequency":8000,"audio":"voice/th/th_ext2_som.mp3","tone":2,"toneRule":"ส (high)+no mark+live→rising; ส้ม has mai tho → falling (high class+mai tho=falling)","examples":[{"sentence":"น้ำส้มสดๆ อร่อยมาก","reading":"naam som sot sot aroi mak","translation":{"en":"Fresh orange juice is very delicious.","th":"น้ำส้มสดๆ อร่อยมาก"},"context":"fresh_market"}],"kotodama":{"name":"Somorange","sprite":"kotodama/th_ext2_som.png","description":{"en":"A bright citrus spark that smells of fresh orange peel.","th":"ประกายผลไม้สดใสที่มีกลิ่นเปลือกส้มสด"},"rarity":"common","habitat":["fresh_market","floating_market"]},"needsReview":true},
-  {"id":"th_ext2_maak","lang":"th","written":"มาก","reading":"mak","romanization":"mak","meaning":{"en":"very; much; many","th":"มาก (มากมาย)"},"pos":"particle","element":"echo","level":"A1","chapter":10,"tags":["degree","grammar","daily"],"frequency":9999,"audio":"voice/th/th_ext2_maak.mp3","tone":3,"toneRule":"ม (low)+no mark+dead short→high tone","examples":[{"sentence":"ขอบคุณมากครับ","reading":"khopkhun mak khrap","translation":{"en":"Thank you very much.","th":"ขอบคุณมากครับ"},"context":"fresh_market"}],"kotodama":{"name":"Maakamplify","sprite":"kotodama/th_ext2_maak.png","description":{"en":"An amplifying spark that makes everything around it bigger.","th":"ประกายขยายที่ทำให้สิ่งรอบข้างใหญ่ขึ้น"},"rarity":"common","habitat":["fresh_market","school","temple","pier"]},"needsReview":true},
-  {"id":"th_ext2_nit_noi","lang":"th","written":"นิดหน่อย","reading":"nit noi","romanization":"nit noi","meaning":{"en":"a little bit; just a little","th":"นิดหน่อย (เล็กน้อย)"},"pos":"particle","element":"echo","level":"A1","chapter":10,"tags":["degree","daily","polite"],"frequency":9000,"audio":"voice/th/th_ext2_nit_noi.mp3","tone":3,"toneRule":"น (low)+dead short→high; ห (high)+mai ek→low: compound varied tones","examples":[{"sentence":"เผ็ดนิดหน่อยได้ไหม","reading":"phet nit noi dai mai","translation":{"en":"Can it be a little spicy?","th":"เผ็ดนิดหน่อยได้ไหม"},"context":"fresh_market"}],"kotodama":{"name":"Nitnoitiny","sprite":"kotodama/th_ext2_nit_noi.png","description":{"en":"A tiny miniature spark, easy to miss but always there.","th":"ประกายจิ๋วมากที่มองข้ามได้ง่ายแต่มีอยู่เสมอ"},"rarity":"common","habitat":["fresh_market","floating_market","school"]},"needsReview":true},
-  {"id":"th_ext2_yang","lang":"th","written":"ยัง","reading":"yang","romanization":"yang","meaning":{"en":"still; yet; additionally","th":"ยัง (ยังคง; หรือยัง)"},"pos":"particle","element":"echo","level":"A1","chapter":10,"tags":["grammar","time","daily"],"frequency":9500,"audio":"voice/th/th_ext2_yang.mp3","tone":0,"toneRule":"ย (low)+no mark+live→mid tone","examples":[{"sentence":"กินข้าวแล้วยัง","reading":"gin khaao laeo yang","translation":{"en":"Have you eaten yet?","th":"กินข้าวแล้วยัง"},"context":"fresh_market"}],"kotodama":{"name":"Yangcontinue","sprite":"kotodama/th_ext2_yang.png","description":{"en":"A persistent spark that never gives up its position.","th":"ประกายมุมานะที่ไม่ยอมแพ้ตำแหน่งของตัว"},"rarity":"common","habitat":["school","pier","fresh_market"]},"needsReview":true},
-  {"id":"th_ext2_ko","lang":"th","written":"ก็","reading":"ko","romanization":"ko","meaning":{"en":"also; then; so (conjunction)","th":"ก็ (ก็ตาม; ก็ได้)"},"pos":"particle","element":"echo","level":"A1","chapter":10,"tags":["grammar","conjunction","daily"],"frequency":9800,"audio":"voice/th/th_ext2_ko.mp3","tone":1,"toneRule":"ก (mid)+no mark+dead short→low tone","examples":[{"sentence":"ฉันก็ชอบเหมือนกัน","reading":"chan ko chop muean kan","translation":{"en":"I like it too.","th":"ฉันก็ชอบเหมือนกัน"},"context":"school"}],"kotodama":{"name":"Koalso","sprite":"kotodama/th_ext2_ko.png","description":{"en":"A joining spark that bridges two ideas.","th":"ประกายเชื่อมที่เป็นสะพานระหว่างสองความคิด"},"rarity":"common","habitat":["school","fresh_market","pier"]},"needsReview":true},
-  {"id":"th_ext2_raeo","lang":"th","written":"เร็วๆ นี้","reading":"reo reo ni","romanization":"reo reo ni","meaning":{"en":"soon; in the near future","th":"เร็วๆ นี้ (ในเวลาอันใกล้)"},"pos":"particle","element":"echo","level":"A2","chapter":10,"tags":["time","daily","future"],"frequency":7000,"audio":"voice/th/th_ext2_raeo.mp3","tone":3,"toneRule":"ร (low)+live→mid; เร็ว has short vowel+dead→high approx","examples":[{"sentence":"เจอกันเร็วๆ นี้นะ","reading":"choe kan reo reo ni na","translation":{"en":"See you soon.","th":"เจอกันเร็วๆ นี้นะ"},"context":"pier"}],"kotodama":{"name":"Reoniupcoming","sprite":"kotodama/th_ext2_raeo.png","description":{"en":"A forward-rushing spark that never waits.","th":"ประกายที่พุ่งไปข้างหน้าและไม่เคยรอ"},"rarity":"common","habitat":["pier","school","fresh_market"]},"needsReview":true},
-  {"id":"th_ext2_nan","lang":"th","written":"นาน","reading":"naan","romanization":"naan","meaning":{"en":"long time; for a long time","th":"นาน (เวลานาน)"},"pos":"adjective","element":"flow","level":"A1","chapter":10,"tags":["time","duration","daily"],"frequency":8500,"audio":"voice/th/th_ext2_nan.mp3","tone":0,"toneRule":"น (low)+no mark+live→mid tone","examples":[{"sentence":"รอนานมากแล้ว","reading":"ro naan mak laeo","translation":{"en":"I've been waiting for a long time.","th":"รอมานานมากแล้ว"},"context":"pier"}],"kotodama":{"name":"Naanlong","sprite":"kotodama/th_ext2_nan.png","description":{"en":"A slow-burning spark that outlasts all others.","th":"ประกายที่ลุกอย่างช้าๆ แต่อยู่ได้นานกว่าตัวอื่น"},"rarity":"common","habitat":["pier","temple","school"]},"needsReview":true},
-  {"id":"th_ext2_plao","lang":"th","written":"เปล่า","reading":"plao","romanization":"plao","meaning":{"en":"empty; plain; blank; not (question marker)","th":"เปล่า (ว่างเปล่า; ไม่ใช่)"},"pos":"adjective","element":"flow","level":"A1","chapter":10,"tags":["state","question","daily"],"frequency":8000,"audio":"voice/th/th_ext2_plao.mp3","tone":1,"toneRule":"ป (mid)+no mark+live→mid; เปล่า has mai ek → low","examples":[{"sentence":"ถ้วยของคุณเปล่าแล้ว ขอเติมไหม","reading":"thuai khong khun plao laeo kho toem mai","translation":{"en":"Your cup is empty. Would you like a refill?","th":"ถ้วยของคุณเปล่าแล้ว ขอเติมไหม"},"context":"fresh_market"}],"kotodama":{"name":"Plaovoid","sprite":"kotodama/th_ext2_plao.png","description":{"en":"An empty-looking spark with infinite space inside.","th":"ประกายดูว่างเปล่าแต่มีพื้นที่ไม่สิ้นสุดข้างใน"},"rarity":"common","habitat":["fresh_market","school","temple"]},"needsReview":true},
-  {"id":"th_ext2_tak","lang":"th","written":"ตาก","reading":"taak","romanization":"taak","meaning":{"en":"to dry (in sunlight); to expose to sun","th":"ตาก (ตากแดด)"},"pos":"verb","element":"spark","level":"A2","chapter":10,"tags":["action","weather","daily"],"frequency":5500,"audio":"voice/th/th_ext2_tak.mp3","tone":1,"toneRule":"ต (mid)+no mark+dead long→low tone","examples":[{"sentence":"ตากผ้าให้แห้งก่อนเข้าบ้าน","reading":"taak phaa hai haeng kon khao baan","translation":{"en":"Dry the clothes before going inside.","th":"ตากผ้าให้แห้งก่อนเข้าบ้าน"},"context":"school"}],"kotodama":{"name":"Taaksunny","sprite":"kotodama/th_ext2_tak.png","description":{"en":"A sun-soaked spark that spreads warmth in all directions.","th":"ประกายอาบแสงอาทิตย์ที่แผ่ความอบอุ่นในทุกทิศทาง"},"rarity":"common","habitat":["pier","fresh_market","temple"]},"needsReview":true},
-  {"id":"th_ext2_khom","lang":"th","written":"ขม","reading":"khom","romanization":"khom","meaning":{"en":"bitter (taste)","th":"ขม (รสขม)"},"pos":"adjective","element":"flow","level":"A2","chapter":10,"tags":["taste","food","daily"],"frequency":6000,"audio":"voice/th/th_ext2_khom.mp3","tone":4,"toneRule":"ข (high)+no mark+live→rising tone","examples":[{"sentence":"ยาตัวนี้ขมมาก","reading":"yaa tua ni khom mak","translation":{"en":"This medicine is very bitter.","th":"ยาตัวนี้ขมมาก"},"context":"school"}],"kotodama":{"name":"Khombitter","sprite":"kotodama/th_ext2_khom.png","description":{"en":"A sharp-tasting dark spark that makes other sparks pucker.","th":"ประกายดำรสชาติแหลมที่ทำให้ประกายอื่นย่นปาก"},"rarity":"uncommon","habitat":["school","temple","fresh_market"]},"needsReview":true},
-  {"id":"th_ext2_wan","lang":"th","written":"หวาน","reading":"waan","romanization":"waan","meaning":{"en":"sweet (taste)","th":"หวาน (รสหวาน)"},"pos":"adjective","element":"flow","level":"A1","chapter":10,"tags":["taste","food","daily"],"frequency":8500,"audio":"voice/th/th_ext2_wan.mp3","tone":4,"toneRule":"ห (high)+no mark+live→rising tone","examples":[{"sentence":"ขนมนี้หวานเกินไปสำหรับฉัน","reading":"khanom ni waan koen pai samrap chan","translation":{"en":"This dessert is too sweet for me.","th":"ขนมนี้หวานเกินไปสำหรับฉัน"},"context":"fresh_market"}],"kotodama":{"name":"Waansugar","sprite":"kotodama/th_ext2_wan.png","description":{"en":"A sugary pink spark that leaves a faint sweetness in the air.","th":"ประกายชมพูน้ำตาลที่ทิ้งความหวานเบาๆ ในอากาศ"},"rarity":"common","habitat":["fresh_market","floating_market","temple"]},"needsReview":true},
-  {"id":"th_ext2_khem","lang":"th","written":"เค็ม","reading":"khem","romanization":"khem","meaning":{"en":"salty (taste)","th":"เค็ม (รสเค็ม)"},"pos":"adjective","element":"flow","level":"A1","chapter":10,"tags":["taste","food","daily"],"frequency":7500,"audio":"voice/th/th_ext2_khem.mp3","tone":0,"toneRule":"ค (low)+no mark+live→mid tone","examples":[{"sentence":"น้ำปลาเค็มมาก","reading":"naam plaa khem mak","translation":{"en":"Fish sauce is very salty.","th":"น้ำปลาเค็มมาก"},"context":"fresh_market"}],"kotodama":{"name":"Khemsalt","sprite":"kotodama/th_ext2_khem.png","description":{"en":"A crystalline white spark that draws moisture from the air.","th":"ประกายขาวผลึกที่ดูดความชื้นจากอากาศ"},"rarity":"common","habitat":["fresh_market","floating_market","pier"]},"needsReview":true},
-  {"id":"th_ext2_phet","lang":"th","written":"เผ็ด","reading":"phet","romanization":"phet","meaning":{"en":"spicy; hot (taste)","th":"เผ็ด (รสเผ็ด)"},"pos":"adjective","element":"flow","level":"A1","chapter":10,"tags":["taste","food","thai"],"frequency":8500,"audio":"voice/th/th_ext2_phet.mp3","tone":2,"toneRule":"ผ (high)+no mark+dead short→falling tone","examples":[{"sentence":"ส้มตำที่นี่เผ็ดมาก","reading":"somtam thi ni phet mak","translation":{"en":"The som tam here is very spicy.","th":"ส้มตำที่นี่เผ็ดมาก"},"context":"fresh_market"}],"kotodama":{"name":"Phetchili","sprite":"kotodama/th_ext2_phet.png","description":{"en":"A fiery red spark that stings when you get too close.","th":"ประกายแดงร้อนที่แสบเมื่อเข้าใกล้เกินไป"},"rarity":"common","habitat":["fresh_market","floating_market"]},"needsReview":true},
-  {"id":"th_ext2_priaw","lang":"th","written":"เปรี้ยว","reading":"priao","romanization":"priao","meaning":{"en":"sour (taste)","th":"เปรี้ยว (รสเปรี้ยว)"},"pos":"adjective","element":"flow","level":"A1","chapter":10,"tags":["taste","food","daily"],"frequency":7500,"audio":"voice/th/th_ext2_priaw.mp3","tone":2,"toneRule":"ป (mid)+no mark+live→mid; เปรี้ยว: ป+สระเปีย+mai tho→high... approx falling","examples":[{"sentence":"มะนาวเปรี้ยวมาก","reading":"manaao priao mak","translation":{"en":"Lime is very sour.","th":"มะนาวเปรี้ยวมาก"},"context":"fresh_market"}],"kotodama":{"name":"Priaoztang","sprite":"kotodama/th_ext2_priaw.png","description":{"en":"A yellow-green spark that makes others scrunch their faces.","th":"ประกายเหลืองเขียวที่ทำให้ตัวอื่นย่นหน้า"},"rarity":"common","habitat":["fresh_market","floating_market"]},"needsReview":true},
-  {"id":"th_ext2_suea_pha","lang":"th","written":"เสื้อผ้า","reading":"suea phaa","romanization":"suea phaa","meaning":{"en":"clothing; clothes","th":"เสื้อผ้า (เครื่องแต่งกาย)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["clothing","object","daily"],"frequency":8000,"audio":"voice/th/th_ext2_suea_pha.mp3","tone":2,"toneRule":"เสื้อ (high+falling); ผ้า (ผ high+mai tho→falling): compound falling","examples":[{"sentence":"เสื้อผ้าที่นี่สวยมากและราคาถูก","reading":"suea phaa thi ni suai mak lae raakhaa thuuk","translation":{"en":"The clothes here are beautiful and cheap.","th":"เสื้อผ้าที่นี่สวยมากและราคาถูก"},"context":"floating_market"}],"kotodama":{"name":"Sueaphaafashion","sprite":"kotodama/th_ext2_suea_pha.png","description":{"en":"A colorful multi-layered spark dressed in swirling fabric.","th":"ประกายหลากสีหลายชั้นห่มด้วยผ้าที่หมุนวน"},"rarity":"common","habitat":["floating_market","fresh_market"]},"needsReview":true},
-  {"id":"th_ext2_haang","lang":"th","written":"ห้าง","reading":"haang","romanization":"haang","meaning":{"en":"department store; mall","th":"ห้าง (ห้างสรรพสินค้า)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["place","shopping","daily"],"frequency":7500,"audio":"voice/th/th_ext2_haang.mp3","tone":2,"toneRule":"ห (high)+no mark+live→rising; ห้าง has mai tho → high class+mai tho = falling","examples":[{"sentence":"ไปห้างกับฉันไหม","reading":"pai haang kap chan mai","translation":{"en":"Want to go to the mall with me?","th":"ไปห้างกับฉันไหม"},"context":"floating_market"}],"kotodama":{"name":"Haangtower","sprite":"kotodama/th_ext2_haang.png","description":{"en":"A tall glittering spark with many floors of goods inside.","th":"ประกายสูงแวววาวมีสินค้าหลายชั้นข้างใน"},"rarity":"uncommon","habitat":["floating_market","fresh_market"]},"needsReview":true},
-  {"id":"th_ext2_paak","lang":"th","written":"ปาก","reading":"paak","romanization":"paak","meaning":{"en":"mouth","th":"ปาก (อวัยวะ)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["body","daily","speech"],"frequency":8500,"audio":"voice/th/th_ext2_paak.mp3","tone":1,"toneRule":"ป (mid)+no mark+dead long→low tone","examples":[{"sentence":"เด็กอมลูกอมในปาก","reading":"dek om luk om nai paak","translation":{"en":"The child has a candy in their mouth.","th":"เด็กอมลูกอมอยู่ในปาก"},"context":"fresh_market"}],"kotodama":{"name":"Paakvoice","sprite":"kotodama/th_ext2_paak.png","description":{"en":"A speak-shaped spark that projects tiny words into the air.","th":"ประกายรูปคำพูดที่ฉายคำเล็กๆ ในอากาศ"},"rarity":"common","habitat":["school","temple","fresh_market"]},"needsReview":true},
-  {"id":"th_ext2_ta","lang":"th","written":"ตา","reading":"taa","romanization":"taa","meaning":{"en":"eye","th":"ตา (อวัยวะมองเห็น)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["body","daily","vision"],"frequency":9000,"audio":"voice/th/th_ext2_ta.mp3","tone":0,"toneRule":"ต (mid)+no mark+live→mid tone","examples":[{"sentence":"เธอมีตาสีน้ำตาลสวยมาก","reading":"thoe mi taa si namtaan suai mak","translation":{"en":"She has beautiful brown eyes.","th":"เธอมีตาสีน้ำตาลสวยมาก"},"context":"school"}],"kotodama":{"name":"Taawatcher","sprite":"kotodama/th_ext2_ta.png","description":{"en":"A wide-eyed observant spark that notices everything.","th":"ประกายตาโตช่างสังเกตที่สังเกตทุกอย่าง"},"rarity":"common","habitat":["school","temple","pier"]},"needsReview":true},
-  {"id":"th_ext2_mu","lang":"th","written":"มือ","reading":"mue","romanization":"mue","meaning":{"en":"hand","th":"มือ (อวัยวะ)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["body","daily","action"],"frequency":9000,"audio":"voice/th/th_ext2_mu.mp3","tone":0,"toneRule":"ม (low)+no mark+live→mid tone","examples":[{"sentence":"ล้างมือก่อนกินข้าวนะ","reading":"laang mue kon gin khaao na","translation":{"en":"Wash your hands before eating.","th":"ล้างมือก่อนกินข้าวนะ"},"context":"school"}],"kotodama":{"name":"Muehands","sprite":"kotodama/th_ext2_mu.png","description":{"en":"A pair of helping hands spark always ready to assist.","th":"ประกายรูปมือสองข้างที่พร้อมช่วยเหลือเสมอ"},"rarity":"common","habitat":["school","temple","fresh_market"]},"needsReview":true},
-  {"id":"th_ext2_khao2","lang":"th","written":"เขา","reading":"khao","romanization":"khao","meaning":{"en":"he; she; they","th":"เขา (สรรพนามบุรุษที่ 3)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["pronoun","people","daily"],"frequency":9999,"audio":"voice/th/th_ext2_khao2.mp3","tone":2,"toneRule":"ข (high)+no mark+dead short→falling tone","examples":[{"sentence":"เขาพูดภาษาไทยได้คล่อง","reading":"khao phut phasaa thai dai khlong","translation":{"en":"He/She speaks Thai fluently.","th":"เขาพูดภาษาไทยได้อย่างคล่องแคล่ว"},"context":"school"}],"kotodama":{"name":"Khaothird","sprite":"kotodama/th_ext2_khao2.png","description":{"en":"A neutral third-person spark that points elsewhere.","th":"ประกายบุรุษที่สามกลางๆ ที่ชี้ไปที่อื่น"},"rarity":"common","habitat":["school","temple","pier"]},"needsReview":true},
-  {"id":"th_ext2_rao","lang":"th","written":"เรา","reading":"rao","romanization":"rao","meaning":{"en":"we; us; I (informal)","th":"เรา (พวกเรา; ฉัน ไม่เป็นทางการ)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["pronoun","people","daily"],"frequency":9800,"audio":"voice/th/th_ext2_rao.mp3","tone":0,"toneRule":"ร (low)+no mark+live→mid tone","examples":[{"sentence":"เราไปด้วยกันนะ","reading":"rao pai duai kan na","translation":{"en":"Let's go together.","th":"เราไปด้วยกันนะ"},"context":"pier"}],"kotodama":{"name":"Raotogether","sprite":"kotodama/th_ext2_rao.png","description":{"en":"A cluster spark that feels stronger with more members.","th":"ประกายกลุ่มที่รู้สึกแข็งแกร่งขึ้นเมื่อมีสมาชิกมากขึ้น"},"rarity":"common","habitat":["pier","school","temple","fresh_market"]},"needsReview":true},
-  {"id":"th_ext2_phuat","lang":"th","written":"เพลง","reading":"phleng","romanization":"phleng","meaning":{"en":"song; music","th":"เพลง (บทเพลง)"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["music","culture","daily"],"frequency":8000,"audio":"voice/th/th_ext2_phuat.mp3","tone":0,"toneRule":"พ (low)+no mark+live→mid; เพลง compound → mid","examples":[{"sentence":"ฉันชอบเพลงไทยสากล","reading":"chan chop phleng thai saakon","translation":{"en":"I like Thai pop songs.","th":"ฉันชอบเพลงไทยสากล"},"context":"school"}],"kotodama":{"name":"Phlengnote","sprite":"kotodama/th_ext2_phuat.png","description":{"en":"A musical spark that hums a different melody each time.","th":"ประกายดนตรีที่ฮัมเพลงต่างกันทุกครั้ง"},"rarity":"common","habitat":["temple","school","floating_market"]},"needsReview":true},
-  {"id":"th_ext2_wan_yut","lang":"th","written":"วันหยุด","reading":"wan yut","romanization":"wan yut","meaning":{"en":"holiday; day off","th":"วันหยุด"},"pos":"noun","element":"bloom","level":"A1","chapter":10,"tags":["time","daily","rest"],"frequency":8000,"audio":"voice/th/th_ext2_wan_yut.mp3","tone":0,"toneRule":"ว (low)+live→mid; ย (low)+dead short→high; compound approx mid","examples":[{"sentence":"วันหยุดนี้จะไปเที่ยวที่ไหน","reading":"wan yut ni cha pai thiao thi nai","translation":{"en":"Where are you going on holiday?","th":"วันหยุดนี้จะไปเที่ยวที่ไหน"},"context":"pier"}],"kotodama":{"name":"Wanyutvacation","sprite":"kotodama/th_ext2_wan_yut.png","description":{"en":"A relaxed spark with a sun hat, always looking forward to days off.","th":"ประกายผ่อนคลายสวมหมวกแดด มองหาวันหยุดเสมอ"},"rarity":"common","habitat":["pier","floating_market","temple"]},"needsReview":true},
-  {"id":"th_ext2_hai_kan","lang":"th","written":"กัน","reading":"kan","romanization":"kan","meaning":{"en":"together; each other; mutually","th":"กัน (ร่วมกัน)"},"pos":"particle","element":"echo","level":"A1","chapter":10,"tags":["grammar","together","daily"],"frequency":9800,"audio":"voice/th/th_ext2_hai_kan.mp3","tone":0,"toneRule":"ก (mid)+no mark+live→mid tone","examples":[{"sentence":"ช่วยกันทำงานสิ","reading":"chuay kan thamngaan si","translation":{"en":"Let's work together.","th":"ช่วยกันทำงานสิ"},"context":"school"}],"kotodama":{"name":"Kantogeth","sprite":"kotodama/th_ext2_hai_kan.png","description":{"en":"A linking spark that bonds nearby sparks together.","th":"ประกายเชื่อมต่อที่ผูกประกายใกล้เคียงเข้าด้วยกัน"},"rarity":"common","habitat":["school","temple","pier","fresh_market"]},"needsReview":true},
-  {"id":"th_ext2_lue","lang":"th","written":"หรือ","reading":"rue","romanization":"rue","meaning":{"en":"or; right? (question tag)","th":"หรือ (หรือว่า; ใช่ไหม)"},"pos":"particle","element":"echo","level":"A1","chapter":10,"tags":["grammar","question","daily"],"frequency":9500,"audio":"voice/th/th_ext2_lue.mp3","tone":4,"toneRule":"ห (high)+no mark+live→rising tone","examples":[{"sentence":"ไปด้วยกันหรือไปคนเดียว","reading":"pai duai kan rue pai khon diao","translation":{"en":"Going together or alone?","th":"ไปด้วยกันหรือไปคนเดียว"},"context":"pier"}],"kotodama":{"name":"Rueorlogic","sprite":"kotodama/th_ext2_lue.png","description":{"en":"A fork-shaped spark that always points to two possibilities.","th":"ประกายรูปสามง่ามที่ชี้ไปสองทางเสมอ"},"rarity":"common","habitat":["school","pier","fresh_market"]},"needsReview":true},
-  {"id":"th_ext2_thi_sut","lang":"th","written":"ที่สุด","reading":"thi sut","romanization":"thi sut","meaning":{"en":"the most; -est (superlative)","th":"ที่สุด (สุดยอด; ที่สุดแล้ว)"},"pos":"particle","element":"echo","level":"A1","chapter":10,"tags":["degree","grammar","daily"],"frequency":9000,"audio":"voice/th/th_ext2_thi_sut.mp3","tone":3,"toneRule":"ท (low)+mai tho→high; ส (high)+dead short→low","examples":[{"sentence":"ส้มตำเป็นอาหารที่อร่อยที่สุด","reading":"somtam pen aahan thi aroi thi sut","translation":{"en":"Som tam is the most delicious food.","th":"ส้มตำเป็นอาหารที่อร่อยที่สุด"},"context":"fresh_market"}],"kotodama":{"name":"Thisutbest","sprite":"kotodama/th_ext2_thi_sut.png","description":{"en":"A trophy-shaped spark raised high above all others.","th":"ประกายรูปถ้วยรางวัลที่ยกสูงเหนือตัวอื่นทั้งหมด"},"rarity":"uncommon","habitat":["fresh_market","floating_market","temple"]},"needsReview":true},
-  {"id":"th_ext2_phro_ni","lang":"th","written":"เพราะนี้","reading":"phro ni","romanization":"phro ni","meaning":{"en":"therefore; that's why","th":"เพราะนี้ (เป็นเหตุผล)"},"pos":"particle","element":"echo","level":"B1","chapter":10,"tags":["grammar","conjunction","formal"],"frequency":4000,"audio":"voice/th/th_ext2_phro_ni.mp3","tone":0,"toneRule":"พ (low)+live→mid; น (low)+dead→approx","examples":[{"sentence":"ฝนตกเพราะฉะนั้นอยู่บ้านเถอะ","reading":"fon tok phro chan nan yu baan thoe","translation":{"en":"It's raining, therefore let's stay home.","th":"ฝนตก เพราะฉะนั้นอยู่บ้านดีกว่า"},"context":"school"}],"kotodama":{"name":"Phronicause","sprite":"kotodama/th_ext2_phro_ni.png","description":{"en":"A cause-and-effect spark that draws arrows between events.","th":"ประกายเหตุและผลที่วาดลูกศรระหว่างเหตุการณ์"},"rarity":"rare","habitat":["school","temple"]},"needsReview":true},
-  {"id":"th_ext2_mai_ok","lang":"th","written":"ไม่ได้","reading":"mai dai","romanization":"mai dai","meaning":{"en":"cannot; didn't; not allowed","th":"ไม่ได้ (ทำไม่ได้; ไม่ได้ทำ)"},"pos":"particle","element":"echo","level":"A1","chapter":10,"tags":["negation","grammar","daily"],"frequency":9500,"audio":"voice/th/th_ext2_mai_ok.mp3","tone":2,"toneRule":"ไม่ (falling) + ได้ (approx high → compound falling)","examples":[{"sentence":"ฉันไม่ได้ยินเลย","reading":"chan mai dai yin loei","translation":{"en":"I didn't hear at all.","th":"ฉันไม่ได้ยินเลย"},"context":"pier"}],"kotodama":{"name":"Maidaicannot","sprite":"kotodama/th_ext2_mai_ok.png","description":{"en":"A blocked-off spark with a gentle barrier around it.","th":"ประกายที่ถูกกั้นด้วยสิ่งกีดขวางเบาๆ รอบข้าง"},"rarity":"common","habitat":["school","pier","temple"]},"needsReview":true},
-  {"id":"th_ext2_mai2","lang":"th","written":"ไม่","reading":"mai","romanization":"mai","meaning":{"en":"not; no (negation prefix)","th":"ไม่ (การปฏิเสธ)"},"pos":"particle","element":"echo","level":"A1","chapter":10,"tags":["negation","grammar","daily"],"frequency":9999,"audio":"voice/th/th_ext2_mai2.mp3","tone":2,"toneRule":"ม (low)+สระไ+mai ek → falling tone","examples":[{"sentence":"ฉันไม่เข้าใจ","reading":"chan mai khaojai","translation":{"en":"I don't understand.","th":"ฉันไม่เข้าใจ"},"context":"school"}],"kotodama":{"name":"Mainot","sprite":"kotodama/th_ext2_mai2.png","description":{"en":"A crossed-out spark that cancels whatever follows it.","th":"ประกายขีดฆ่าที่ยกเลิกสิ่งที่ตามมา"},"rarity":"common","habitat":["school","temple","pier","fresh_market"]},"needsReview":true},
-  {"id":"th_ext2_pen_yang_ngai","lang":"th","written":"เป็นยังไง","reading":"pen yang ngai","romanization":"pen yang ngai","meaning":{"en":"how is it going? how about?","th":"เป็นยังไง (เป็นอย่างไร)"},"pos":"phrase","element":"light","level":"A1","chapter":10,"tags":["greeting","social","daily"],"frequency":8000,"audio":"voice/th/th_ext2_pen_yang_ngai.mp3","tone":0,"toneRule":"เป็น (mid) + ยัง (mid) + ไง (mid) → compound mid","examples":[{"sentence":"งานเป็นยังไงบ้างครับ","reading":"ngaan pen yang ngai baang khrap","translation":{"en":"How is work going?","th":"งานเป็นยังไงบ้างครับ"},"context":"pier"}],"kotodama":{"name":"Penyangngaichat","sprite":"kotodama/th_ext2_pen_yang_ngai.png","description":{"en":"A curious spark that leans in to hear your answer.","th":"ประกายอยากรู้ที่เอนตัวเข้ามาฟังคำตอบของคุณ"},"rarity":"common","habitat":["pier","school","fresh_market"]},"needsReview":true}
+  {
+    "id": "th_ext2_khon_thai",
+    "lang": "th",
+    "written": "คนไทย",
+    "reading": "khon thai",
+    "romanization": "khon thai",
+    "meaning": {
+      "en": "Thai person",
+      "th": "คนไทย",
+      "ja": "タイ人"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "people",
+      "culture",
+      "thai"
+    ],
+    "frequency": 9000,
+    "audio": "voice/th/th_ext2_khon_thai.mp3",
+    "tone": 0,
+    "toneRule": "ค (low)+live→mid; ท (low)+สระไ→mid",
+    "examples": [
+      {
+        "sentence": "คนไทยส่วนใหญ่นับถือพุทธ",
+        "reading": "khon thai suan yai napthuue phut",
+        "translation": {
+          "en": "Most Thai people are Buddhist.",
+          "th": "คนไทยส่วนใหญ่นับถือศาสนาพุทธ"
+        },
+        "context": "temple"
+      }
+    ],
+    "kotodama": {
+      "name": "Khonthaipride",
+      "sprite": "kotodama/th_ext2_khon_thai.png",
+      "description": {
+        "en": "A warm spark wearing a tiny traditional Thai costume.",
+        "th": "ประกายอบอุ่นสวมชุดไทยเล็กๆ"
+      },
+      "rarity": "common",
+      "habitat": [
+        "temple",
+        "fresh_market",
+        "floating_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_wat",
+    "lang": "th",
+    "written": "วัด",
+    "reading": "wat",
+    "romanization": "wat",
+    "meaning": {
+      "en": "temple; Buddhist monastery",
+      "th": "วัด (ศาสนสถาน)",
+      "ja": "お寺；仏教寺院"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "place",
+      "culture",
+      "religion"
+    ],
+    "frequency": 9000,
+    "audio": "voice/th/th_ext2_wat.mp3",
+    "tone": 3,
+    "toneRule": "ว (low)+no mark+dead short→high tone",
+    "examples": [
+      {
+        "sentence": "เราไปไหว้พระที่วัดทุกสงกรานต์",
+        "reading": "rao pai wai phra thi wat thuk songkran",
+        "translation": {
+          "en": "We visit the temple every Songkran.",
+          "th": "เราไปไหว้พระที่วัดทุกปีในช่วงสงกรานต์"
+        },
+        "context": "temple"
+      }
+    ],
+    "kotodama": {
+      "name": "Watgoldspire",
+      "sprite": "kotodama/th_ext2_wat.png",
+      "description": {
+        "en": "A golden tiered spark shaped like a chedi spire.",
+        "th": "ประกายทองทรงชั้นรูปยอดเจดีย์"
+      },
+      "rarity": "uncommon",
+      "habitat": [
+        "temple"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_phuttha",
+    "lang": "th",
+    "written": "พระ",
+    "reading": "phra",
+    "romanization": "phra",
+    "meaning": {
+      "en": "monk; Buddha image; sacred",
+      "th": "พระ (พระสงฆ์; พระพุทธรูป)",
+      "ja": "僧侶；仏像；神聖な"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A2",
+    "chapter": 10,
+    "tags": [
+      "religion",
+      "culture",
+      "temple"
+    ],
+    "frequency": 8000,
+    "audio": "voice/th/th_ext2_phuttha.mp3",
+    "tone": 3,
+    "toneRule": "พ (low)+no mark+dead short→high tone",
+    "examples": [
+      {
+        "sentence": "พระเดินบิณฑบาตทุกเช้า",
+        "reading": "phra doen bindabot thuk chao",
+        "translation": {
+          "en": "Monks walk for alms every morning.",
+          "th": "พระเดินบิณฑบาตทุกเช้า"
+        },
+        "context": "temple"
+      }
+    ],
+    "kotodama": {
+      "name": "Phraserene",
+      "sprite": "kotodama/th_ext2_phuttha.png",
+      "description": {
+        "en": "A calm saffron spark radiating quiet peace.",
+        "th": "ประกายเหลืองสีจีวรที่แผ่ความสงบเงียบ"
+      },
+      "rarity": "rare",
+      "habitat": [
+        "temple"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_baht",
+    "lang": "th",
+    "written": "บาท",
+    "reading": "baat",
+    "romanization": "baat",
+    "meaning": {
+      "en": "baht (Thai currency)",
+      "th": "บาท (สกุลเงินไทย)",
+      "ja": "バーツ（タイの通貨）"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "money",
+      "market",
+      "daily"
+    ],
+    "frequency": 9500,
+    "audio": "voice/th/th_ext2_baht.mp3",
+    "tone": 1,
+    "toneRule": "บ (mid)+no mark+dead short→low tone",
+    "examples": [
+      {
+        "sentence": "ข้าวผัดจานละ 60 บาท",
+        "reading": "khaao phat chan la hok sip baat",
+        "translation": {
+          "en": "Fried rice is 60 baht per plate.",
+          "th": "ข้าวผัดราคาจานละ 60 บาท"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Baatcoin",
+      "sprite": "kotodama/th_ext2_baht.png",
+      "description": {
+        "en": "A silver coin spark engraved with a tiny garuda.",
+        "th": "ประกายเหรียญเงินแกะสลักรูปครุฑเล็กๆ"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "floating_market",
+        "bargaining"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_lot",
+    "lang": "th",
+    "written": "ลด",
+    "reading": "lot",
+    "romanization": "lot",
+    "meaning": {
+      "en": "to reduce; to discount",
+      "th": "ลด (ลดราคา)",
+      "ja": "値引きする；割引する"
+    },
+    "pos": "verb",
+    "element": "spark",
+    "level": "A2",
+    "chapter": 10,
+    "tags": [
+      "market",
+      "bargaining",
+      "action"
+    ],
+    "frequency": 8000,
+    "audio": "voice/th/th_ext2_lot.mp3",
+    "tone": 3,
+    "toneRule": "ล (low)+no mark+dead short→high tone",
+    "examples": [
+      {
+        "sentence": "ลดราคาได้ไหมครับ",
+        "reading": "lot raakhaa dai mai khrap",
+        "translation": {
+          "en": "Can you lower the price?",
+          "th": "ลดราคาได้ไหมครับ"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Lotdiscount",
+      "sprite": "kotodama/th_ext2_lot.png",
+      "description": {
+        "en": "A shrinking spark that makes price tags smaller wherever it lands.",
+        "th": "ประกายหดตัวที่ทำให้ป้ายราคาเล็กลงทุกที่ที่ลงจอด"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "floating_market",
+        "bargaining"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_phaeng",
+    "lang": "th",
+    "written": "แพง",
+    "reading": "phaeng",
+    "romanization": "phaeng",
+    "meaning": {
+      "en": "expensive",
+      "th": "แพง (ราคาสูง)",
+      "ja": "高価な；値段が高い"
+    },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "price",
+      "market",
+      "daily"
+    ],
+    "frequency": 8500,
+    "audio": "voice/th/th_ext2_phaeng.mp3",
+    "tone": 0,
+    "toneRule": "พ (low)+no mark+live→mid tone",
+    "examples": [
+      {
+        "sentence": "ที่นี่แพงกว่าตลาดสด",
+        "reading": "thi ni phaeng kwa talat sot",
+        "translation": {
+          "en": "It's more expensive here than the fresh market.",
+          "th": "ที่นี่แพงกว่าตลาดสด"
+        },
+        "context": "floating_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Phaengprice",
+      "sprite": "kotodama/th_ext2_phaeng.png",
+      "description": {
+        "en": "A spark with a high price-tag floating above it.",
+        "th": "ประกายมีป้ายราคาสูงลอยอยู่เหนือ"
+      },
+      "rarity": "common",
+      "habitat": [
+        "floating_market",
+        "fresh_market",
+        "bargaining"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_thuuk",
+    "lang": "th",
+    "written": "ถูก",
+    "reading": "thuuk",
+    "romanization": "thuuk",
+    "meaning": {
+      "en": "cheap; correct",
+      "th": "ถูก (ราคาต่ำ; ถูกต้อง)",
+      "ja": "安い；正しい"
+    },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "price",
+      "market",
+      "daily"
+    ],
+    "frequency": 8500,
+    "audio": "voice/th/th_ext2_thuuk.mp3",
+    "tone": 1,
+    "toneRule": "ถ (high)+no mark+dead short→falling... ถูก: high class+dead long→falling",
+    "examples": [
+      {
+        "sentence": "ผักที่ตลาดสดถูกกว่า",
+        "reading": "phak thi talat sot thuuk kwa",
+        "translation": {
+          "en": "Vegetables at the fresh market are cheaper.",
+          "th": "ผักที่ตลาดสดราคาถูกกว่า"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Thuukbargain",
+      "sprite": "kotodama/th_ext2_thuuk.png",
+      "description": {
+        "en": "A compact spark with a small bargain tag attached.",
+        "th": "ประกายกะทัดรัดมีป้ายราคาถูกติดอยู่"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "floating_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_khwaam_khit",
+    "lang": "th",
+    "written": "ความคิด",
+    "reading": "khwaam khit",
+    "romanization": "khwaam khit",
+    "meaning": {
+      "en": "idea; thought",
+      "th": "ความคิด (แนวคิด)",
+      "ja": "アイデア；考え；思考"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A2",
+    "chapter": 10,
+    "tags": [
+      "abstract",
+      "mind",
+      "daily"
+    ],
+    "frequency": 7500,
+    "audio": "voice/th/th_ext2_khwaam_khit.mp3",
+    "tone": 0,
+    "toneRule": "ค (low)+live→mid; ค (low)+dead short→high; compound approx mid",
+    "examples": [
+      {
+        "sentence": "คุณมีความคิดดีมาก",
+        "reading": "khun mi khwaam khit di mak",
+        "translation": {
+          "en": "You have a great idea.",
+          "th": "คุณมีความคิดที่ดีมาก"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Khwaakhitidea",
+      "sprite": "kotodama/th_ext2_khwaam_khit.png",
+      "description": {
+        "en": "A lightbulb spark that flares up when creativity strikes.",
+        "th": "ประกายหลอดไฟที่สว่างวาบเมื่อความคิดสร้างสรรค์เกิดขึ้น"
+      },
+      "rarity": "uncommon",
+      "habitat": [
+        "school",
+        "temple"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_kha_na",
+    "lang": "th",
+    "written": "ขณะ",
+    "reading": "khana",
+    "romanization": "khana",
+    "meaning": {
+      "en": "while; at the moment of",
+      "th": "ขณะ (ในขณะที่)",
+      "ja": "〜の間；〜しているとき"
+    },
+    "pos": "particle",
+    "element": "echo",
+    "level": "B1",
+    "chapter": 10,
+    "tags": [
+      "time",
+      "grammar",
+      "formal"
+    ],
+    "frequency": 5000,
+    "audio": "voice/th/th_ext2_kha_na.mp3",
+    "tone": 4,
+    "toneRule": "ข (high)+no mark+dead short→falling; ณ (low)+live→mid",
+    "examples": [
+      {
+        "sentence": "ขณะที่ฉันทำอาหาร เธอก็โทรมา",
+        "reading": "khana thi chan tham aahan thoe ko tho maa",
+        "translation": {
+          "en": "While I was cooking, she called.",
+          "th": "ขณะที่ฉันทำอาหาร เธอก็โทรมา"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Khanasimult",
+      "sprite": "kotodama/th_ext2_kha_na.png",
+      "description": {
+        "en": "A dual-faced spark that watches two timelines at once.",
+        "th": "ประกายสองหน้าที่มองสองเส้นเวลาพร้อมกัน"
+      },
+      "rarity": "rare",
+      "habitat": [
+        "school",
+        "temple"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_klua",
+    "lang": "th",
+    "written": "กลัว",
+    "reading": "kluaa",
+    "romanization": "kluaa",
+    "meaning": {
+      "en": "to be afraid; scared",
+      "th": "กลัว (ความกลัว)",
+      "ja": "怖い；恐れる"
+    },
+    "pos": "verb",
+    "element": "spark",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "emotion",
+      "feeling",
+      "daily"
+    ],
+    "frequency": 8000,
+    "audio": "voice/th/th_ext2_klua.mp3",
+    "tone": 0,
+    "toneRule": "ก (mid)+no mark+live→mid tone",
+    "examples": [
+      {
+        "sentence": "ฉันกลัวแมลงสาบมาก",
+        "reading": "chan kluaa malaeng saap mak",
+        "translation": {
+          "en": "I'm very scared of cockroaches.",
+          "th": "ฉันกลัวแมลงสาบมาก"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Kluaashiver",
+      "sprite": "kotodama/th_ext2_klua.png",
+      "description": {
+        "en": "A trembling spark with wide fearful eyes.",
+        "th": "ประกายสั่นมีดวงตาตกใจกลม"
+      },
+      "rarity": "common",
+      "habitat": [
+        "school",
+        "temple",
+        "pier"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_dii_jai",
+    "lang": "th",
+    "written": "ดีใจ",
+    "reading": "di jai",
+    "romanization": "di jai",
+    "meaning": {
+      "en": "glad; pleased; happy about something",
+      "th": "ดีใจ (รู้สึกยินดี)",
+      "ja": "嬉しい；喜んでいる"
+    },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "emotion",
+      "feeling",
+      "daily"
+    ],
+    "frequency": 8500,
+    "audio": "voice/th/th_ext2_dii_jai.mp3",
+    "tone": 0,
+    "toneRule": "ด (mid)+live→mid; จ (mid)+สระไ→mid",
+    "examples": [
+      {
+        "sentence": "ดีใจมากที่ได้พบคุณ",
+        "reading": "di jai mak thi dai phop khun",
+        "translation": {
+          "en": "I'm very glad to meet you.",
+          "th": "ดีใจมากที่ได้พบคุณ"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Dijaijoy",
+      "sprite": "kotodama/th_ext2_dii_jai.png",
+      "description": {
+        "en": "A glowing spark that bounces with happiness.",
+        "th": "ประกายเรืองแสงที่กระโดดด้วยความสุข"
+      },
+      "rarity": "common",
+      "habitat": [
+        "school",
+        "temple",
+        "fresh_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_sia_jai",
+    "lang": "th",
+    "written": "เสียใจ",
+    "reading": "sia jai",
+    "romanization": "sia jai",
+    "meaning": {
+      "en": "sad; sorry to hear that",
+      "th": "เสียใจ (รู้สึกเศร้า)",
+      "ja": "悲しい；残念に思う"
+    },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "emotion",
+      "feeling",
+      "daily"
+    ],
+    "frequency": 7500,
+    "audio": "voice/th/th_ext2_sia_jai.mp3",
+    "tone": 4,
+    "toneRule": "ส (high)+no mark+live→rising; จ (mid)+สระไ→mid",
+    "examples": [
+      {
+        "sentence": "เสียใจมากที่ได้ยินข่าวนี้",
+        "reading": "sia jai mak thi dai yin khao ni",
+        "translation": {
+          "en": "I'm very sorry to hear this news.",
+          "th": "เสียใจมากที่ได้ยินข่าวนี้"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Siajaiteardrop",
+      "sprite": "kotodama/th_ext2_sia_jai.png",
+      "description": {
+        "en": "A drooping blue spark with a tiny teardrop.",
+        "th": "ประกายน้ำเงินหดตัวมีน้ำตาเล็กๆ"
+      },
+      "rarity": "common",
+      "habitat": [
+        "school",
+        "temple"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_tok_jai",
+    "lang": "th",
+    "written": "ตกใจ",
+    "reading": "tok jai",
+    "romanization": "tok jai",
+    "meaning": {
+      "en": "startled; surprised",
+      "th": "ตกใจ (สะดุ้งตกใจ)",
+      "ja": "びっくりした；驚いた"
+    },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "emotion",
+      "feeling",
+      "daily"
+    ],
+    "frequency": 7500,
+    "audio": "voice/th/th_ext2_tok_jai.mp3",
+    "tone": 1,
+    "toneRule": "ต (mid)+no mark+dead short→low; จ (mid)+สระไ→mid",
+    "examples": [
+      {
+        "sentence": "เธอตกใจมากเมื่อได้ยินเสียงดัง",
+        "reading": "thoe tok jai mak mueua dai yin siang dang",
+        "translation": {
+          "en": "She was very startled when she heard the loud noise.",
+          "th": "เธอตกใจมากเมื่อได้ยินเสียงดัง"
+        },
+        "context": "temple"
+      }
+    ],
+    "kotodama": {
+      "name": "Tokjaizap",
+      "sprite": "kotodama/th_ext2_tok_jai.png",
+      "description": {
+        "en": "A spark that shoots upward with a surprised jolt.",
+        "th": "ประกายที่พุ่งขึ้นด้วยความตกใจ"
+      },
+      "rarity": "common",
+      "habitat": [
+        "temple",
+        "pier",
+        "school"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_son_jai",
+    "lang": "th",
+    "written": "สนใจ",
+    "reading": "son jai",
+    "romanization": "son jai",
+    "meaning": {
+      "en": "interested; to be interested in",
+      "th": "สนใจ (ให้ความสนใจ)",
+      "ja": "興味がある；〜に興味を持つ"
+    },
+    "pos": "verb",
+    "element": "spark",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "emotion",
+      "learning",
+      "daily"
+    ],
+    "frequency": 8500,
+    "audio": "voice/th/th_ext2_son_jai.mp3",
+    "tone": 4,
+    "toneRule": "ส (high)+no mark+live→rising; จ (mid)+สระไ→mid",
+    "examples": [
+      {
+        "sentence": "ฉันสนใจภาษาไทยมาก",
+        "reading": "chan son jai phasaa thai mak",
+        "translation": {
+          "en": "I'm very interested in the Thai language.",
+          "th": "ฉันสนใจภาษาไทยมาก"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Sonjaimagnet",
+      "sprite": "kotodama/th_ext2_son_jai.png",
+      "description": {
+        "en": "A magnetic spark that leans toward anything interesting.",
+        "th": "ประกายแม่เหล็กที่โน้มเอียงไปหาสิ่งที่น่าสนใจ"
+      },
+      "rarity": "common",
+      "habitat": [
+        "school",
+        "temple",
+        "pier"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_baep",
+    "lang": "th",
+    "written": "แบบ",
+    "reading": "baep",
+    "romanization": "baep",
+    "meaning": {
+      "en": "style; type; form; like (manner)",
+      "th": "แบบ (รูปแบบ; ชนิด)",
+      "ja": "スタイル；タイプ；形；〜のように"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "description",
+      "grammar",
+      "daily"
+    ],
+    "frequency": 9000,
+    "audio": "voice/th/th_ext2_baep.mp3",
+    "tone": 1,
+    "toneRule": "บ (mid)+no mark+dead short→low tone",
+    "examples": [
+      {
+        "sentence": "ชอบแบบไหนมากกว่า",
+        "reading": "chop baep nai mak kwa",
+        "translation": {
+          "en": "Which style do you prefer?",
+          "th": "ชอบแบบไหนมากกว่ากัน"
+        },
+        "context": "floating_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Baeptemplate",
+      "sprite": "kotodama/th_ext2_baep.png",
+      "description": {
+        "en": "A shape-shifting spark that copies whatever form it sees.",
+        "th": "ประกายเปลี่ยนรูปที่เลียนแบบรูปทรงที่เห็น"
+      },
+      "rarity": "common",
+      "habitat": [
+        "floating_market",
+        "school",
+        "fresh_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_khong",
+    "lang": "th",
+    "written": "ของ",
+    "reading": "khong",
+    "romanization": "khong",
+    "meaning": {
+      "en": "of; belonging to; thing(s)",
+      "th": "ของ (เป็นเจ้าของ; สิ่งของ)",
+      "ja": "〜の；〜のもの；物"
+    },
+    "pos": "particle",
+    "element": "echo",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "grammar",
+      "possession",
+      "daily"
+    ],
+    "frequency": 9999,
+    "audio": "voice/th/th_ext2_khong.mp3",
+    "tone": 4,
+    "toneRule": "ข (high)+no mark+live→rising tone",
+    "examples": [
+      {
+        "sentence": "นี่คือของฉัน",
+        "reading": "ni khue khong chan",
+        "translation": {
+          "en": "This belongs to me.",
+          "th": "นี่คือของของฉัน"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Khongposs",
+      "sprite": "kotodama/th_ext2_khong.png",
+      "description": {
+        "en": "A possessive spark that marks whatever it touches with a glowing tag.",
+        "th": "ประกายแสดงความเป็นเจ้าของที่ทำเครื่องหมายเรืองแสงบนสิ่งที่สัมผัส"
+      },
+      "rarity": "common",
+      "habitat": [
+        "school",
+        "fresh_market",
+        "pier"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_duai",
+    "lang": "th",
+    "written": "ด้วย",
+    "reading": "duai",
+    "romanization": "duai",
+    "meaning": {
+      "en": "also; too; with",
+      "th": "ด้วย (ด้วยกัน; ก็ด้วย)",
+      "ja": "〜も；〜と一緒に"
+    },
+    "pos": "particle",
+    "element": "echo",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "grammar",
+      "addition",
+      "daily"
+    ],
+    "frequency": 9800,
+    "audio": "voice/th/th_ext2_duai.mp3",
+    "tone": 2,
+    "toneRule": "ด (mid)+mai tho (้)→high... ด้วย: approx falling",
+    "examples": [
+      {
+        "sentence": "ฉันก็ชอบส้มตำด้วย",
+        "reading": "chan ko chop somtam duai",
+        "translation": {
+          "en": "I also like som tam.",
+          "th": "ฉันก็ชอบส้มตำด้วยเหมือนกัน"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Duaialso",
+      "sprite": "kotodama/th_ext2_duai.png",
+      "description": {
+        "en": "A plus-sign spark that adds itself to any group.",
+        "th": "ประกายรูปเครื่องหมายบวกที่เพิ่มตัวเองเข้ากลุ่มเสมอ"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "school",
+        "temple"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_leo",
+    "lang": "th",
+    "written": "เลย",
+    "reading": "loei",
+    "romanization": "loei",
+    "meaning": {
+      "en": "at all; straight away; even; indeed (emphasis)",
+      "th": "เลย (เน้นย้ำ; ไม่เลย)",
+      "ja": "全く；すぐに；さえ（強調）"
+    },
+    "pos": "particle",
+    "element": "echo",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "grammar",
+      "emphasis",
+      "daily"
+    ],
+    "frequency": 9500,
+    "audio": "voice/th/th_ext2_leo.mp3",
+    "tone": 0,
+    "toneRule": "ล (low)+no mark+live→mid tone",
+    "examples": [
+      {
+        "sentence": "ฉันไม่รู้จักเลย",
+        "reading": "chan mai rucak loei",
+        "translation": {
+          "en": "I don't know at all.",
+          "th": "ฉันไม่รู้จักเลย"
+        },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Loeiemph",
+      "sprite": "kotodama/th_ext2_leo.png",
+      "description": {
+        "en": "An emphatic spark that underlines whatever it follows.",
+        "th": "ประกายเน้นที่ขีดเส้นใต้สิ่งที่ตามมา"
+      },
+      "rarity": "common",
+      "habitat": [
+        "school",
+        "pier",
+        "fresh_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_thuknueng",
+    "lang": "th",
+    "written": "ทุกคน",
+    "reading": "thuk khon",
+    "romanization": "thuk khon",
+    "meaning": {
+      "en": "everyone; everybody",
+      "th": "ทุกคน",
+      "ja": "全員；みんな"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "people",
+      "quantity",
+      "daily"
+    ],
+    "frequency": 9000,
+    "audio": "voice/th/th_ext2_thuknueng.mp3",
+    "tone": 3,
+    "toneRule": "ท (low)+no mark+dead short→high; ค (low)+live→mid",
+    "examples": [
+      {
+        "sentence": "ทุกคนมาพร้อมกันหรือยัง",
+        "reading": "thuk khon maa phrom kan rue yang",
+        "translation": {
+          "en": "Is everyone here yet?",
+          "th": "ทุกคนมาพร้อมกันหรือยัง"
+        },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Thukkhoncrowd",
+      "sprite": "kotodama/th_ext2_thuknueng.png",
+      "description": {
+        "en": "A many-faced spark representing an entire community.",
+        "th": "ประกายหลายหน้าที่เป็นตัวแทนของชุมชนทั้งหมด"
+      },
+      "rarity": "uncommon",
+      "habitat": [
+        "temple",
+        "pier",
+        "fresh_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_song_khram",
+    "lang": "th",
+    "written": "สงกรานต์",
+    "reading": "songkran",
+    "romanization": "songkran",
+    "meaning": {
+      "en": "Songkran (Thai New Year water festival)",
+      "th": "สงกรานต์ (ปีใหม่ไทย)",
+      "ja": "ソンクラーン（タイの旧正月水かけ祭り）"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A2",
+    "chapter": 10,
+    "tags": [
+      "culture",
+      "festival",
+      "thai"
+    ],
+    "frequency": 7000,
+    "audio": "voice/th/th_ext2_song_khram.mp3",
+    "tone": 4,
+    "toneRule": "ส (high)+compound syllables→rising approximation",
+    "examples": [
+      {
+        "sentence": "สงกรานต์ปีนี้สนุกมาก",
+        "reading": "songkran pii ni sanuk mak",
+        "translation": {
+          "en": "This year's Songkran was so much fun.",
+          "th": "สงกรานต์ปีนี้สนุกมาก"
+        },
+        "context": "floating_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Songkranwater",
+      "sprite": "kotodama/th_ext2_song_khram.png",
+      "description": {
+        "en": "A splashing water spark that celebrates with everyone.",
+        "th": "ประกายน้ำกระเด็นที่ฉลองร่วมกับทุกคน"
+      },
+      "rarity": "rare",
+      "habitat": [
+        "floating_market",
+        "pier",
+        "temple"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_loy_krathong",
+    "lang": "th",
+    "written": "ลอยกระทง",
+    "reading": "loi krathong",
+    "romanization": "loi krathong",
+    "meaning": {
+      "en": "Loy Krathong festival",
+      "th": "ลอยกระทง (เทศกาลลอยกระทง)",
+      "ja": "ロイクラトン祭り"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A2",
+    "chapter": 10,
+    "tags": [
+      "culture",
+      "festival",
+      "thai"
+    ],
+    "frequency": 6000,
+    "audio": "voice/th/th_ext2_loy_krathong.mp3",
+    "tone": 0,
+    "toneRule": "ล (low)+no mark+live→mid; ก (mid)+compound→approx mid",
+    "examples": [
+      {
+        "sentence": "ลอยกระทงในวันเพ็ญเดือนสิบสอง",
+        "reading": "loi krathong nai wan phen duean sip song",
+        "translation": {
+          "en": "Loy Krathong is on the full moon of the twelfth month.",
+          "th": "ลอยกระทงจัดในคืนวันเพ็ญเดือนสิบสอง"
+        },
+        "context": "floating_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Loikrathongcandle",
+      "sprite": "kotodama/th_ext2_loy_krathong.png",
+      "description": {
+        "en": "A candlelit spark that floats on water like a lotus boat.",
+        "th": "ประกายแสงเทียนที่ลอยบนน้ำเหมือนเรือดอกบัว"
+      },
+      "rarity": "rare",
+      "habitat": [
+        "floating_market",
+        "pier"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_pad_thai",
+    "lang": "th",
+    "written": "ผัดไทย",
+    "reading": "phat thai",
+    "romanization": "phat thai",
+    "meaning": {
+      "en": "Pad Thai (stir-fried noodles)",
+      "th": "ผัดไทย (อาหารยอดนิยม)",
+      "ja": "パッタイ（炒め麺）"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "dish",
+      "thai"
+    ],
+    "frequency": 8500,
+    "audio": "voice/th/th_ext2_pad_thai.mp3",
+    "tone": 3,
+    "toneRule": "ผ (high)+no mark+dead short→falling... ผัด: ผ high+dead short→falling; ไทย (ท low+สระไ→mid)",
+    "examples": [
+      {
+        "sentence": "ผัดไทยเป็นอาหารยอดนิยมของนักท่องเที่ยว",
+        "reading": "phat thai pen aahan yot niyom khong nak thongthiao",
+        "translation": {
+          "en": "Pad Thai is a favorite dish among tourists.",
+          "th": "ผัดไทยเป็นอาหารยอดนิยมของนักท่องเที่ยว"
+        },
+        "context": "floating_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Phatthainoodle",
+      "sprite": "kotodama/th_ext2_pad_thai.png",
+      "description": {
+        "en": "A tangy-smelling spark that tangles like wiry noodles.",
+        "th": "ประกายกลิ่นเปรี้ยวที่พันกันเหมือนเส้นบะหมี่"
+      },
+      "rarity": "common",
+      "habitat": [
+        "floating_market",
+        "fresh_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_tom_yum",
+    "lang": "th",
+    "written": "ต้มยำ",
+    "reading": "tom yam",
+    "romanization": "tom yam",
+    "meaning": {
+      "en": "Tom Yum (spicy Thai soup)",
+      "th": "ต้มยำ (ซุปรสเผ็ด)",
+      "ja": "トムヤム（辛いタイスープ）"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "soup",
+      "thai"
+    ],
+    "frequency": 8500,
+    "audio": "voice/th/th_ext2_tom_yum.mp3",
+    "tone": 2,
+    "toneRule": "ต (mid)+no mark+live→mid; ย (low)+no mark+live→mid; ต้ม has mai tho → high... compound approx",
+    "examples": [
+      {
+        "sentence": "ต้มยำกุ้งอร่อยมากที่ร้านนี้",
+        "reading": "tom yam kung aroi mak thi ran ni",
+        "translation": {
+          "en": "The Tom Yum Kung at this restaurant is very delicious.",
+          "th": "ต้มยำกุ้งที่ร้านนี้อร่อยมาก"
+        },
+        "context": "floating_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Tomyamfire",
+      "sprite": "kotodama/th_ext2_tom_yum.png",
+      "description": {
+        "en": "A spicy red spark that makes eyes water with its heat.",
+        "th": "ประกายแดงเผ็ดที่ทำให้น้ำตาไหลด้วยความร้อน"
+      },
+      "rarity": "uncommon",
+      "habitat": [
+        "floating_market",
+        "fresh_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_khaao_niaw",
+    "lang": "th",
+    "written": "ข้าวเหนียว",
+    "reading": "khaao niaw",
+    "romanization": "khaao niaw",
+    "meaning": {
+      "en": "sticky rice",
+      "th": "ข้าวเหนียว",
+      "ja": "もち米"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "staple",
+      "thai"
+    ],
+    "frequency": 8000,
+    "audio": "voice/th/th_ext2_khaao_niaw.mp3",
+    "tone": 0,
+    "toneRule": "ข (high)+no mark+dead long→falling; เหนียว (ห high+live→rising)",
+    "examples": [
+      {
+        "sentence": "ข้าวเหนียวมะม่วงเป็นของหวานที่ฉันชอบ",
+        "reading": "khaao niaw mamuang pen khong wan thi chan chop",
+        "translation": {
+          "en": "Mango sticky rice is my favorite dessert.",
+          "th": "ข้าวเหนียวมะม่วงเป็นของหวานที่ฉันชอบ"
+        },
+        "context": "floating_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Khaaoniawsticky",
+      "sprite": "kotodama/th_ext2_khaao_niaw.png",
+      "description": {
+        "en": "A gluey white spark that sticks to anything it touches.",
+        "th": "ประกายขาวเหนียวที่ติดกับทุกอย่างที่สัมผัส"
+      },
+      "rarity": "common",
+      "habitat": [
+        "floating_market",
+        "fresh_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_nam_prik",
+    "lang": "th",
+    "written": "น้ำพริก",
+    "reading": "nam phrik",
+    "romanization": "nam phrik",
+    "meaning": {
+      "en": "chili dipping sauce",
+      "th": "น้ำพริก (ซอสพริก)",
+      "ja": "チリディッピングソース"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A2",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "condiment",
+      "thai"
+    ],
+    "frequency": 6500,
+    "audio": "voice/th/th_ext2_nam_prik.mp3",
+    "tone": 3,
+    "toneRule": "น (low)+mai tho→high; พ (low)+no mark+dead short→high",
+    "examples": [
+      {
+        "sentence": "น้ำพริกกะปิอร่อยมากกับผักสด",
+        "reading": "nam phrik kapi aroi mak kap phak sot",
+        "translation": {
+          "en": "Shrimp paste chili dip is great with fresh vegetables.",
+          "th": "น้ำพริกกะปิอร่อยมากกินกับผักสด"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Namprikhot",
+      "sprite": "kotodama/th_ext2_nam_prik.png",
+      "description": {
+        "en": "A fiery red spark that pulses with spicy heat.",
+        "th": "ประกายแดงร้อนแรงที่เต้นด้วยความเผ็ดร้อน"
+      },
+      "rarity": "uncommon",
+      "habitat": [
+        "fresh_market",
+        "floating_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_jaan",
+    "lang": "th",
+    "written": "จาน",
+    "reading": "jaan",
+    "romanization": "jaan",
+    "meaning": {
+      "en": "plate; dish",
+      "th": "จาน (ภาชนะ)",
+      "ja": "お皿；皿"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "object",
+      "food",
+      "daily"
+    ],
+    "frequency": 8000,
+    "audio": "voice/th/th_ext2_jaan.mp3",
+    "tone": 0,
+    "toneRule": "จ (mid)+no mark+live→mid tone",
+    "examples": [
+      {
+        "sentence": "ล้างจานด้วยนะครับ",
+        "reading": "laang jaan duai na khrap",
+        "translation": {
+          "en": "Please wash the dishes.",
+          "th": "ล้างจานด้วยนะครับ"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Jaanplate",
+      "sprite": "kotodama/th_ext2_jaan.png",
+      "description": {
+        "en": "A flat round spark that always looks spotlessly clean.",
+        "th": "ประกายกลมแบนที่ดูสะอาดหมดจดเสมอ"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "floating_market",
+        "school"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_kaeo",
+    "lang": "th",
+    "written": "แก้ว",
+    "reading": "kaeo",
+    "romanization": "kaeo",
+    "meaning": {
+      "en": "glass (drinking); crystal",
+      "th": "แก้ว (ภาชนะดื่ม; แก้วผลึก)",
+      "ja": "コップ；ガラス；クリスタル"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "object",
+      "food",
+      "daily"
+    ],
+    "frequency": 8000,
+    "audio": "voice/th/th_ext2_kaeo.mp3",
+    "tone": 2,
+    "toneRule": "ก (mid)+no mark+live→mid; แก้ว has mai tho → high class effect? approx falling",
+    "examples": [
+      {
+        "sentence": "ขอน้ำอีกแก้วได้ไหม",
+        "reading": "kho naam ik kaeo dai mai",
+        "translation": {
+          "en": "Can I have another glass of water?",
+          "th": "ขอน้ำอีกแก้วได้ไหม"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Kaeocrystal",
+      "sprite": "kotodama/th_ext2_kaeo.png",
+      "description": {
+        "en": "A clear crystal spark that refracts light in all directions.",
+        "th": "ประกายแก้วใสที่หักเหแสงในทุกทิศทาง"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "floating_market",
+        "temple"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_chon",
+    "lang": "th",
+    "written": "ช้อน",
+    "reading": "chon",
+    "romanization": "chon",
+    "meaning": {
+      "en": "spoon",
+      "th": "ช้อน",
+      "ja": "スプーン"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "object",
+      "food",
+      "daily"
+    ],
+    "frequency": 7500,
+    "audio": "voice/th/th_ext2_chon.mp3",
+    "tone": 3,
+    "toneRule": "ช (low)+mai tho (้)→high tone",
+    "examples": [
+      {
+        "sentence": "ใช้ช้อนตักน้ำแกงด้วยนะ",
+        "reading": "chai chon tak naam kaeng duai na",
+        "translation": {
+          "en": "Use a spoon to scoop the curry broth.",
+          "th": "ใช้ช้อนตักน้ำแกงด้วยนะ"
+        },
+        "context": "floating_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Chonscoop",
+      "sprite": "kotodama/th_ext2_chon.png",
+      "description": {
+        "en": "A curved spark that carries tiny drops wherever it dips.",
+        "th": "ประกายโค้งที่พาน้ำหยดเล็กๆ ไปทุกที่ที่จุ่ม"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "floating_market",
+        "school"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_som",
+    "lang": "th",
+    "written": "ส้ม",
+    "reading": "som",
+    "romanization": "som",
+    "meaning": {
+      "en": "orange (fruit); sour",
+      "th": "ส้ม (ผลไม้; รสเปรี้ยว)",
+      "ja": "オレンジ（果物）；酸っぱい"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "food",
+      "fruit",
+      "taste"
+    ],
+    "frequency": 8000,
+    "audio": "voice/th/th_ext2_som.mp3",
+    "tone": 2,
+    "toneRule": "ส (high)+no mark+live→rising; ส้ม has mai tho → falling (high class+mai tho=falling)",
+    "examples": [
+      {
+        "sentence": "น้ำส้มสดๆ อร่อยมาก",
+        "reading": "naam som sot sot aroi mak",
+        "translation": {
+          "en": "Fresh orange juice is very delicious.",
+          "th": "น้ำส้มสดๆ อร่อยมาก"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Somorange",
+      "sprite": "kotodama/th_ext2_som.png",
+      "description": {
+        "en": "A bright citrus spark that smells of fresh orange peel.",
+        "th": "ประกายผลไม้สดใสที่มีกลิ่นเปลือกส้มสด"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "floating_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_maak",
+    "lang": "th",
+    "written": "มาก",
+    "reading": "mak",
+    "romanization": "mak",
+    "meaning": {
+      "en": "very; much; many",
+      "th": "มาก (มากมาย)",
+      "ja": "とても；たくさん；多い"
+    },
+    "pos": "particle",
+    "element": "echo",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "degree",
+      "grammar",
+      "daily"
+    ],
+    "frequency": 9999,
+    "audio": "voice/th/th_ext2_maak.mp3",
+    "tone": 3,
+    "toneRule": "ม (low)+no mark+dead short→high tone",
+    "examples": [
+      {
+        "sentence": "ขอบคุณมากครับ",
+        "reading": "khopkhun mak khrap",
+        "translation": {
+          "en": "Thank you very much.",
+          "th": "ขอบคุณมากครับ"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Maakamplify",
+      "sprite": "kotodama/th_ext2_maak.png",
+      "description": {
+        "en": "An amplifying spark that makes everything around it bigger.",
+        "th": "ประกายขยายที่ทำให้สิ่งรอบข้างใหญ่ขึ้น"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "school",
+        "temple",
+        "pier"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_nit_noi",
+    "lang": "th",
+    "written": "นิดหน่อย",
+    "reading": "nit noi",
+    "romanization": "nit noi",
+    "meaning": {
+      "en": "a little bit; just a little",
+      "th": "นิดหน่อย (เล็กน้อย)",
+      "ja": "少し；ちょっと"
+    },
+    "pos": "particle",
+    "element": "echo",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "degree",
+      "daily",
+      "polite"
+    ],
+    "frequency": 9000,
+    "audio": "voice/th/th_ext2_nit_noi.mp3",
+    "tone": 3,
+    "toneRule": "น (low)+dead short→high; ห (high)+mai ek→low: compound varied tones",
+    "examples": [
+      {
+        "sentence": "เผ็ดนิดหน่อยได้ไหม",
+        "reading": "phet nit noi dai mai",
+        "translation": {
+          "en": "Can it be a little spicy?",
+          "th": "เผ็ดนิดหน่อยได้ไหม"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Nitnoitiny",
+      "sprite": "kotodama/th_ext2_nit_noi.png",
+      "description": {
+        "en": "A tiny miniature spark, easy to miss but always there.",
+        "th": "ประกายจิ๋วมากที่มองข้ามได้ง่ายแต่มีอยู่เสมอ"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "floating_market",
+        "school"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_yang",
+    "lang": "th",
+    "written": "ยัง",
+    "reading": "yang",
+    "romanization": "yang",
+    "meaning": {
+      "en": "still; yet; additionally",
+      "th": "ยัง (ยังคง; หรือยัง)",
+      "ja": "まだ；まだ〜している；さらに"
+    },
+    "pos": "particle",
+    "element": "echo",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "grammar",
+      "time",
+      "daily"
+    ],
+    "frequency": 9500,
+    "audio": "voice/th/th_ext2_yang.mp3",
+    "tone": 0,
+    "toneRule": "ย (low)+no mark+live→mid tone",
+    "examples": [
+      {
+        "sentence": "กินข้าวแล้วยัง",
+        "reading": "gin khaao laeo yang",
+        "translation": {
+          "en": "Have you eaten yet?",
+          "th": "กินข้าวแล้วยัง"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Yangcontinue",
+      "sprite": "kotodama/th_ext2_yang.png",
+      "description": {
+        "en": "A persistent spark that never gives up its position.",
+        "th": "ประกายมุมานะที่ไม่ยอมแพ้ตำแหน่งของตัว"
+      },
+      "rarity": "common",
+      "habitat": [
+        "school",
+        "pier",
+        "fresh_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_ko",
+    "lang": "th",
+    "written": "ก็",
+    "reading": "ko",
+    "romanization": "ko",
+    "meaning": {
+      "en": "also; then; so (conjunction)",
+      "th": "ก็ (ก็ตาม; ก็ได้)",
+      "ja": "〜も；それから；だから（接続詞）"
+    },
+    "pos": "particle",
+    "element": "echo",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "grammar",
+      "conjunction",
+      "daily"
+    ],
+    "frequency": 9800,
+    "audio": "voice/th/th_ext2_ko.mp3",
+    "tone": 1,
+    "toneRule": "ก (mid)+no mark+dead short→low tone",
+    "examples": [
+      {
+        "sentence": "ฉันก็ชอบเหมือนกัน",
+        "reading": "chan ko chop muean kan",
+        "translation": {
+          "en": "I like it too.",
+          "th": "ฉันก็ชอบเหมือนกัน"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Koalso",
+      "sprite": "kotodama/th_ext2_ko.png",
+      "description": {
+        "en": "A joining spark that bridges two ideas.",
+        "th": "ประกายเชื่อมที่เป็นสะพานระหว่างสองความคิด"
+      },
+      "rarity": "common",
+      "habitat": [
+        "school",
+        "fresh_market",
+        "pier"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_raeo",
+    "lang": "th",
+    "written": "เร็วๆ นี้",
+    "reading": "reo reo ni",
+    "romanization": "reo reo ni",
+    "meaning": {
+      "en": "soon; in the near future",
+      "th": "เร็วๆ นี้ (ในเวลาอันใกล้)",
+      "ja": "もうすぐ；近いうちに"
+    },
+    "pos": "particle",
+    "element": "echo",
+    "level": "A2",
+    "chapter": 10,
+    "tags": [
+      "time",
+      "daily",
+      "future"
+    ],
+    "frequency": 7000,
+    "audio": "voice/th/th_ext2_raeo.mp3",
+    "tone": 3,
+    "toneRule": "ร (low)+live→mid; เร็ว has short vowel+dead→high approx",
+    "examples": [
+      {
+        "sentence": "เจอกันเร็วๆ นี้นะ",
+        "reading": "choe kan reo reo ni na",
+        "translation": {
+          "en": "See you soon.",
+          "th": "เจอกันเร็วๆ นี้นะ"
+        },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Reoniupcoming",
+      "sprite": "kotodama/th_ext2_raeo.png",
+      "description": {
+        "en": "A forward-rushing spark that never waits.",
+        "th": "ประกายที่พุ่งไปข้างหน้าและไม่เคยรอ"
+      },
+      "rarity": "common",
+      "habitat": [
+        "pier",
+        "school",
+        "fresh_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_nan",
+    "lang": "th",
+    "written": "นาน",
+    "reading": "naan",
+    "romanization": "naan",
+    "meaning": {
+      "en": "long time; for a long time",
+      "th": "นาน (เวลานาน)",
+      "ja": "長い時間；ずっと"
+    },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "time",
+      "duration",
+      "daily"
+    ],
+    "frequency": 8500,
+    "audio": "voice/th/th_ext2_nan.mp3",
+    "tone": 0,
+    "toneRule": "น (low)+no mark+live→mid tone",
+    "examples": [
+      {
+        "sentence": "รอนานมากแล้ว",
+        "reading": "ro naan mak laeo",
+        "translation": {
+          "en": "I've been waiting for a long time.",
+          "th": "รอมานานมากแล้ว"
+        },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Naanlong",
+      "sprite": "kotodama/th_ext2_nan.png",
+      "description": {
+        "en": "A slow-burning spark that outlasts all others.",
+        "th": "ประกายที่ลุกอย่างช้าๆ แต่อยู่ได้นานกว่าตัวอื่น"
+      },
+      "rarity": "common",
+      "habitat": [
+        "pier",
+        "temple",
+        "school"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_plao",
+    "lang": "th",
+    "written": "เปล่า",
+    "reading": "plao",
+    "romanization": "plao",
+    "meaning": {
+      "en": "empty; plain; blank; not (question marker)",
+      "th": "เปล่า (ว่างเปล่า; ไม่ใช่)",
+      "ja": "空の；プレーンな；いいえ（疑問マーカー）"
+    },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "state",
+      "question",
+      "daily"
+    ],
+    "frequency": 8000,
+    "audio": "voice/th/th_ext2_plao.mp3",
+    "tone": 1,
+    "toneRule": "ป (mid)+no mark+live→mid; เปล่า has mai ek → low",
+    "examples": [
+      {
+        "sentence": "ถ้วยของคุณเปล่าแล้ว ขอเติมไหม",
+        "reading": "thuai khong khun plao laeo kho toem mai",
+        "translation": {
+          "en": "Your cup is empty. Would you like a refill?",
+          "th": "ถ้วยของคุณเปล่าแล้ว ขอเติมไหม"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Plaovoid",
+      "sprite": "kotodama/th_ext2_plao.png",
+      "description": {
+        "en": "An empty-looking spark with infinite space inside.",
+        "th": "ประกายดูว่างเปล่าแต่มีพื้นที่ไม่สิ้นสุดข้างใน"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "school",
+        "temple"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_tak",
+    "lang": "th",
+    "written": "ตาก",
+    "reading": "taak",
+    "romanization": "taak",
+    "meaning": {
+      "en": "to dry (in sunlight); to expose to sun",
+      "th": "ตาก (ตากแดด)",
+      "ja": "干す（日光で）；日に当てる"
+    },
+    "pos": "verb",
+    "element": "spark",
+    "level": "A2",
+    "chapter": 10,
+    "tags": [
+      "action",
+      "weather",
+      "daily"
+    ],
+    "frequency": 5500,
+    "audio": "voice/th/th_ext2_tak.mp3",
+    "tone": 1,
+    "toneRule": "ต (mid)+no mark+dead long→low tone",
+    "examples": [
+      {
+        "sentence": "ตากผ้าให้แห้งก่อนเข้าบ้าน",
+        "reading": "taak phaa hai haeng kon khao baan",
+        "translation": {
+          "en": "Dry the clothes before going inside.",
+          "th": "ตากผ้าให้แห้งก่อนเข้าบ้าน"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Taaksunny",
+      "sprite": "kotodama/th_ext2_tak.png",
+      "description": {
+        "en": "A sun-soaked spark that spreads warmth in all directions.",
+        "th": "ประกายอาบแสงอาทิตย์ที่แผ่ความอบอุ่นในทุกทิศทาง"
+      },
+      "rarity": "common",
+      "habitat": [
+        "pier",
+        "fresh_market",
+        "temple"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_khom",
+    "lang": "th",
+    "written": "ขม",
+    "reading": "khom",
+    "romanization": "khom",
+    "meaning": {
+      "en": "bitter (taste)",
+      "th": "ขม (รสขม)",
+      "ja": "苦い（味）"
+    },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A2",
+    "chapter": 10,
+    "tags": [
+      "taste",
+      "food",
+      "daily"
+    ],
+    "frequency": 6000,
+    "audio": "voice/th/th_ext2_khom.mp3",
+    "tone": 4,
+    "toneRule": "ข (high)+no mark+live→rising tone",
+    "examples": [
+      {
+        "sentence": "ยาตัวนี้ขมมาก",
+        "reading": "yaa tua ni khom mak",
+        "translation": {
+          "en": "This medicine is very bitter.",
+          "th": "ยาตัวนี้ขมมาก"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Khombitter",
+      "sprite": "kotodama/th_ext2_khom.png",
+      "description": {
+        "en": "A sharp-tasting dark spark that makes other sparks pucker.",
+        "th": "ประกายดำรสชาติแหลมที่ทำให้ประกายอื่นย่นปาก"
+      },
+      "rarity": "uncommon",
+      "habitat": [
+        "school",
+        "temple",
+        "fresh_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_wan",
+    "lang": "th",
+    "written": "หวาน",
+    "reading": "waan",
+    "romanization": "waan",
+    "meaning": {
+      "en": "sweet (taste)",
+      "th": "หวาน (รสหวาน)",
+      "ja": "甘い（味）"
+    },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "taste",
+      "food",
+      "daily"
+    ],
+    "frequency": 8500,
+    "audio": "voice/th/th_ext2_wan.mp3",
+    "tone": 4,
+    "toneRule": "ห (high)+no mark+live→rising tone",
+    "examples": [
+      {
+        "sentence": "ขนมนี้หวานเกินไปสำหรับฉัน",
+        "reading": "khanom ni waan koen pai samrap chan",
+        "translation": {
+          "en": "This dessert is too sweet for me.",
+          "th": "ขนมนี้หวานเกินไปสำหรับฉัน"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Waansugar",
+      "sprite": "kotodama/th_ext2_wan.png",
+      "description": {
+        "en": "A sugary pink spark that leaves a faint sweetness in the air.",
+        "th": "ประกายชมพูน้ำตาลที่ทิ้งความหวานเบาๆ ในอากาศ"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "floating_market",
+        "temple"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_khem",
+    "lang": "th",
+    "written": "เค็ม",
+    "reading": "khem",
+    "romanization": "khem",
+    "meaning": {
+      "en": "salty (taste)",
+      "th": "เค็ม (รสเค็ม)",
+      "ja": "塩辛い（味）"
+    },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "taste",
+      "food",
+      "daily"
+    ],
+    "frequency": 7500,
+    "audio": "voice/th/th_ext2_khem.mp3",
+    "tone": 0,
+    "toneRule": "ค (low)+no mark+live→mid tone",
+    "examples": [
+      {
+        "sentence": "น้ำปลาเค็มมาก",
+        "reading": "naam plaa khem mak",
+        "translation": {
+          "en": "Fish sauce is very salty.",
+          "th": "น้ำปลาเค็มมาก"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Khemsalt",
+      "sprite": "kotodama/th_ext2_khem.png",
+      "description": {
+        "en": "A crystalline white spark that draws moisture from the air.",
+        "th": "ประกายขาวผลึกที่ดูดความชื้นจากอากาศ"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "floating_market",
+        "pier"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_phet",
+    "lang": "th",
+    "written": "เผ็ด",
+    "reading": "phet",
+    "romanization": "phet",
+    "meaning": {
+      "en": "spicy; hot (taste)",
+      "th": "เผ็ด (รสเผ็ด)",
+      "ja": "辛い（味）"
+    },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "taste",
+      "food",
+      "thai"
+    ],
+    "frequency": 8500,
+    "audio": "voice/th/th_ext2_phet.mp3",
+    "tone": 2,
+    "toneRule": "ผ (high)+no mark+dead short→falling tone",
+    "examples": [
+      {
+        "sentence": "ส้มตำที่นี่เผ็ดมาก",
+        "reading": "somtam thi ni phet mak",
+        "translation": {
+          "en": "The som tam here is very spicy.",
+          "th": "ส้มตำที่นี่เผ็ดมาก"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Phetchili",
+      "sprite": "kotodama/th_ext2_phet.png",
+      "description": {
+        "en": "A fiery red spark that stings when you get too close.",
+        "th": "ประกายแดงร้อนที่แสบเมื่อเข้าใกล้เกินไป"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "floating_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_priaw",
+    "lang": "th",
+    "written": "เปรี้ยว",
+    "reading": "priao",
+    "romanization": "priao",
+    "meaning": {
+      "en": "sour (taste)",
+      "th": "เปรี้ยว (รสเปรี้ยว)",
+      "ja": "酸っぱい（味）"
+    },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "taste",
+      "food",
+      "daily"
+    ],
+    "frequency": 7500,
+    "audio": "voice/th/th_ext2_priaw.mp3",
+    "tone": 2,
+    "toneRule": "ป (mid)+no mark+live→mid; เปรี้ยว: ป+สระเปีย+mai tho→high... approx falling",
+    "examples": [
+      {
+        "sentence": "มะนาวเปรี้ยวมาก",
+        "reading": "manaao priao mak",
+        "translation": {
+          "en": "Lime is very sour.",
+          "th": "มะนาวเปรี้ยวมาก"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Priaoztang",
+      "sprite": "kotodama/th_ext2_priaw.png",
+      "description": {
+        "en": "A yellow-green spark that makes others scrunch their faces.",
+        "th": "ประกายเหลืองเขียวที่ทำให้ตัวอื่นย่นหน้า"
+      },
+      "rarity": "common",
+      "habitat": [
+        "fresh_market",
+        "floating_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_suea_pha",
+    "lang": "th",
+    "written": "เสื้อผ้า",
+    "reading": "suea phaa",
+    "romanization": "suea phaa",
+    "meaning": {
+      "en": "clothing; clothes",
+      "th": "เสื้อผ้า (เครื่องแต่งกาย)",
+      "ja": "服；衣服"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "clothing",
+      "object",
+      "daily"
+    ],
+    "frequency": 8000,
+    "audio": "voice/th/th_ext2_suea_pha.mp3",
+    "tone": 2,
+    "toneRule": "เสื้อ (high+falling); ผ้า (ผ high+mai tho→falling): compound falling",
+    "examples": [
+      {
+        "sentence": "เสื้อผ้าที่นี่สวยมากและราคาถูก",
+        "reading": "suea phaa thi ni suai mak lae raakhaa thuuk",
+        "translation": {
+          "en": "The clothes here are beautiful and cheap.",
+          "th": "เสื้อผ้าที่นี่สวยมากและราคาถูก"
+        },
+        "context": "floating_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Sueaphaafashion",
+      "sprite": "kotodama/th_ext2_suea_pha.png",
+      "description": {
+        "en": "A colorful multi-layered spark dressed in swirling fabric.",
+        "th": "ประกายหลากสีหลายชั้นห่มด้วยผ้าที่หมุนวน"
+      },
+      "rarity": "common",
+      "habitat": [
+        "floating_market",
+        "fresh_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_haang",
+    "lang": "th",
+    "written": "ห้าง",
+    "reading": "haang",
+    "romanization": "haang",
+    "meaning": {
+      "en": "department store; mall",
+      "th": "ห้าง (ห้างสรรพสินค้า)",
+      "ja": "デパート；ショッピングモール"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "place",
+      "shopping",
+      "daily"
+    ],
+    "frequency": 7500,
+    "audio": "voice/th/th_ext2_haang.mp3",
+    "tone": 2,
+    "toneRule": "ห (high)+no mark+live→rising; ห้าง has mai tho → high class+mai tho = falling",
+    "examples": [
+      {
+        "sentence": "ไปห้างกับฉันไหม",
+        "reading": "pai haang kap chan mai",
+        "translation": {
+          "en": "Want to go to the mall with me?",
+          "th": "ไปห้างกับฉันไหม"
+        },
+        "context": "floating_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Haangtower",
+      "sprite": "kotodama/th_ext2_haang.png",
+      "description": {
+        "en": "A tall glittering spark with many floors of goods inside.",
+        "th": "ประกายสูงแวววาวมีสินค้าหลายชั้นข้างใน"
+      },
+      "rarity": "uncommon",
+      "habitat": [
+        "floating_market",
+        "fresh_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_paak",
+    "lang": "th",
+    "written": "ปาก",
+    "reading": "paak",
+    "romanization": "paak",
+    "meaning": {
+      "en": "mouth",
+      "th": "ปาก (อวัยวะ)",
+      "ja": "口"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "body",
+      "daily",
+      "speech"
+    ],
+    "frequency": 8500,
+    "audio": "voice/th/th_ext2_paak.mp3",
+    "tone": 1,
+    "toneRule": "ป (mid)+no mark+dead long→low tone",
+    "examples": [
+      {
+        "sentence": "เด็กอมลูกอมในปาก",
+        "reading": "dek om luk om nai paak",
+        "translation": {
+          "en": "The child has a candy in their mouth.",
+          "th": "เด็กอมลูกอมอยู่ในปาก"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Paakvoice",
+      "sprite": "kotodama/th_ext2_paak.png",
+      "description": {
+        "en": "A speak-shaped spark that projects tiny words into the air.",
+        "th": "ประกายรูปคำพูดที่ฉายคำเล็กๆ ในอากาศ"
+      },
+      "rarity": "common",
+      "habitat": [
+        "school",
+        "temple",
+        "fresh_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_ta",
+    "lang": "th",
+    "written": "ตา",
+    "reading": "taa",
+    "romanization": "taa",
+    "meaning": {
+      "en": "eye",
+      "th": "ตา (อวัยวะมองเห็น)",
+      "ja": "目"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "body",
+      "daily",
+      "vision"
+    ],
+    "frequency": 9000,
+    "audio": "voice/th/th_ext2_ta.mp3",
+    "tone": 0,
+    "toneRule": "ต (mid)+no mark+live→mid tone",
+    "examples": [
+      {
+        "sentence": "เธอมีตาสีน้ำตาลสวยมาก",
+        "reading": "thoe mi taa si namtaan suai mak",
+        "translation": {
+          "en": "She has beautiful brown eyes.",
+          "th": "เธอมีตาสีน้ำตาลสวยมาก"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Taawatcher",
+      "sprite": "kotodama/th_ext2_ta.png",
+      "description": {
+        "en": "A wide-eyed observant spark that notices everything.",
+        "th": "ประกายตาโตช่างสังเกตที่สังเกตทุกอย่าง"
+      },
+      "rarity": "common",
+      "habitat": [
+        "school",
+        "temple",
+        "pier"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_mu",
+    "lang": "th",
+    "written": "มือ",
+    "reading": "mue",
+    "romanization": "mue",
+    "meaning": {
+      "en": "hand",
+      "th": "มือ (อวัยวะ)",
+      "ja": "手"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "body",
+      "daily",
+      "action"
+    ],
+    "frequency": 9000,
+    "audio": "voice/th/th_ext2_mu.mp3",
+    "tone": 0,
+    "toneRule": "ม (low)+no mark+live→mid tone",
+    "examples": [
+      {
+        "sentence": "ล้างมือก่อนกินข้าวนะ",
+        "reading": "laang mue kon gin khaao na",
+        "translation": {
+          "en": "Wash your hands before eating.",
+          "th": "ล้างมือก่อนกินข้าวนะ"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Muehands",
+      "sprite": "kotodama/th_ext2_mu.png",
+      "description": {
+        "en": "A pair of helping hands spark always ready to assist.",
+        "th": "ประกายรูปมือสองข้างที่พร้อมช่วยเหลือเสมอ"
+      },
+      "rarity": "common",
+      "habitat": [
+        "school",
+        "temple",
+        "fresh_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_khao2",
+    "lang": "th",
+    "written": "เขา",
+    "reading": "khao",
+    "romanization": "khao",
+    "meaning": {
+      "en": "he; she; they",
+      "th": "เขา (สรรพนามบุรุษที่ 3)",
+      "ja": "彼；彼女；彼ら"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "pronoun",
+      "people",
+      "daily"
+    ],
+    "frequency": 9999,
+    "audio": "voice/th/th_ext2_khao2.mp3",
+    "tone": 2,
+    "toneRule": "ข (high)+no mark+dead short→falling tone",
+    "examples": [
+      {
+        "sentence": "เขาพูดภาษาไทยได้คล่อง",
+        "reading": "khao phut phasaa thai dai khlong",
+        "translation": {
+          "en": "He/She speaks Thai fluently.",
+          "th": "เขาพูดภาษาไทยได้อย่างคล่องแคล่ว"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Khaothird",
+      "sprite": "kotodama/th_ext2_khao2.png",
+      "description": {
+        "en": "A neutral third-person spark that points elsewhere.",
+        "th": "ประกายบุรุษที่สามกลางๆ ที่ชี้ไปที่อื่น"
+      },
+      "rarity": "common",
+      "habitat": [
+        "school",
+        "temple",
+        "pier"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_rao",
+    "lang": "th",
+    "written": "เรา",
+    "reading": "rao",
+    "romanization": "rao",
+    "meaning": {
+      "en": "we; us; I (informal)",
+      "th": "เรา (พวกเรา; ฉัน ไม่เป็นทางการ)",
+      "ja": "私たち；私（インフォーマル）"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "pronoun",
+      "people",
+      "daily"
+    ],
+    "frequency": 9800,
+    "audio": "voice/th/th_ext2_rao.mp3",
+    "tone": 0,
+    "toneRule": "ร (low)+no mark+live→mid tone",
+    "examples": [
+      {
+        "sentence": "เราไปด้วยกันนะ",
+        "reading": "rao pai duai kan na",
+        "translation": {
+          "en": "Let's go together.",
+          "th": "เราไปด้วยกันนะ"
+        },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Raotogether",
+      "sprite": "kotodama/th_ext2_rao.png",
+      "description": {
+        "en": "A cluster spark that feels stronger with more members.",
+        "th": "ประกายกลุ่มที่รู้สึกแข็งแกร่งขึ้นเมื่อมีสมาชิกมากขึ้น"
+      },
+      "rarity": "common",
+      "habitat": [
+        "pier",
+        "school",
+        "temple",
+        "fresh_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_phuat",
+    "lang": "th",
+    "written": "เพลง",
+    "reading": "phleng",
+    "romanization": "phleng",
+    "meaning": {
+      "en": "song; music",
+      "th": "เพลง (บทเพลง)",
+      "ja": "歌；音楽"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "music",
+      "culture",
+      "daily"
+    ],
+    "frequency": 8000,
+    "audio": "voice/th/th_ext2_phuat.mp3",
+    "tone": 0,
+    "toneRule": "พ (low)+no mark+live→mid; เพลง compound → mid",
+    "examples": [
+      {
+        "sentence": "ฉันชอบเพลงไทยสากล",
+        "reading": "chan chop phleng thai saakon",
+        "translation": {
+          "en": "I like Thai pop songs.",
+          "th": "ฉันชอบเพลงไทยสากล"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Phlengnote",
+      "sprite": "kotodama/th_ext2_phuat.png",
+      "description": {
+        "en": "A musical spark that hums a different melody each time.",
+        "th": "ประกายดนตรีที่ฮัมเพลงต่างกันทุกครั้ง"
+      },
+      "rarity": "common",
+      "habitat": [
+        "temple",
+        "school",
+        "floating_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_wan_yut",
+    "lang": "th",
+    "written": "วันหยุด",
+    "reading": "wan yut",
+    "romanization": "wan yut",
+    "meaning": {
+      "en": "holiday; day off",
+      "th": "วันหยุด",
+      "ja": "祝日；休日"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "time",
+      "daily",
+      "rest"
+    ],
+    "frequency": 8000,
+    "audio": "voice/th/th_ext2_wan_yut.mp3",
+    "tone": 0,
+    "toneRule": "ว (low)+live→mid; ย (low)+dead short→high; compound approx mid",
+    "examples": [
+      {
+        "sentence": "วันหยุดนี้จะไปเที่ยวที่ไหน",
+        "reading": "wan yut ni cha pai thiao thi nai",
+        "translation": {
+          "en": "Where are you going on holiday?",
+          "th": "วันหยุดนี้จะไปเที่ยวที่ไหน"
+        },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Wanyutvacation",
+      "sprite": "kotodama/th_ext2_wan_yut.png",
+      "description": {
+        "en": "A relaxed spark with a sun hat, always looking forward to days off.",
+        "th": "ประกายผ่อนคลายสวมหมวกแดด มองหาวันหยุดเสมอ"
+      },
+      "rarity": "common",
+      "habitat": [
+        "pier",
+        "floating_market",
+        "temple"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_hai_kan",
+    "lang": "th",
+    "written": "กัน",
+    "reading": "kan",
+    "romanization": "kan",
+    "meaning": {
+      "en": "together; each other; mutually",
+      "th": "กัน (ร่วมกัน)",
+      "ja": "一緒に；お互いに"
+    },
+    "pos": "particle",
+    "element": "echo",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "grammar",
+      "together",
+      "daily"
+    ],
+    "frequency": 9800,
+    "audio": "voice/th/th_ext2_hai_kan.mp3",
+    "tone": 0,
+    "toneRule": "ก (mid)+no mark+live→mid tone",
+    "examples": [
+      {
+        "sentence": "ช่วยกันทำงานสิ",
+        "reading": "chuay kan thamngaan si",
+        "translation": {
+          "en": "Let's work together.",
+          "th": "ช่วยกันทำงานสิ"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Kantogeth",
+      "sprite": "kotodama/th_ext2_hai_kan.png",
+      "description": {
+        "en": "A linking spark that bonds nearby sparks together.",
+        "th": "ประกายเชื่อมต่อที่ผูกประกายใกล้เคียงเข้าด้วยกัน"
+      },
+      "rarity": "common",
+      "habitat": [
+        "school",
+        "temple",
+        "pier",
+        "fresh_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_lue",
+    "lang": "th",
+    "written": "หรือ",
+    "reading": "rue",
+    "romanization": "rue",
+    "meaning": {
+      "en": "or; right? (question tag)",
+      "th": "หรือ (หรือว่า; ใช่ไหม)",
+      "ja": "それとも；〜でしょ？（疑問タグ）"
+    },
+    "pos": "particle",
+    "element": "echo",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "grammar",
+      "question",
+      "daily"
+    ],
+    "frequency": 9500,
+    "audio": "voice/th/th_ext2_lue.mp3",
+    "tone": 4,
+    "toneRule": "ห (high)+no mark+live→rising tone",
+    "examples": [
+      {
+        "sentence": "ไปด้วยกันหรือไปคนเดียว",
+        "reading": "pai duai kan rue pai khon diao",
+        "translation": {
+          "en": "Going together or alone?",
+          "th": "ไปด้วยกันหรือไปคนเดียว"
+        },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Rueorlogic",
+      "sprite": "kotodama/th_ext2_lue.png",
+      "description": {
+        "en": "A fork-shaped spark that always points to two possibilities.",
+        "th": "ประกายรูปสามง่ามที่ชี้ไปสองทางเสมอ"
+      },
+      "rarity": "common",
+      "habitat": [
+        "school",
+        "pier",
+        "fresh_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_thi_sut",
+    "lang": "th",
+    "written": "ที่สุด",
+    "reading": "thi sut",
+    "romanization": "thi sut",
+    "meaning": {
+      "en": "the most; -est (superlative)",
+      "th": "ที่สุด (สุดยอด; ที่สุดแล้ว)",
+      "ja": "最も；一番（最上級）"
+    },
+    "pos": "particle",
+    "element": "echo",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "degree",
+      "grammar",
+      "daily"
+    ],
+    "frequency": 9000,
+    "audio": "voice/th/th_ext2_thi_sut.mp3",
+    "tone": 3,
+    "toneRule": "ท (low)+mai tho→high; ส (high)+dead short→low",
+    "examples": [
+      {
+        "sentence": "ส้มตำเป็นอาหารที่อร่อยที่สุด",
+        "reading": "somtam pen aahan thi aroi thi sut",
+        "translation": {
+          "en": "Som tam is the most delicious food.",
+          "th": "ส้มตำเป็นอาหารที่อร่อยที่สุด"
+        },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Thisutbest",
+      "sprite": "kotodama/th_ext2_thi_sut.png",
+      "description": {
+        "en": "A trophy-shaped spark raised high above all others.",
+        "th": "ประกายรูปถ้วยรางวัลที่ยกสูงเหนือตัวอื่นทั้งหมด"
+      },
+      "rarity": "uncommon",
+      "habitat": [
+        "fresh_market",
+        "floating_market",
+        "temple"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_phro_ni",
+    "lang": "th",
+    "written": "เพราะนี้",
+    "reading": "phro ni",
+    "romanization": "phro ni",
+    "meaning": {
+      "en": "therefore; that's why",
+      "th": "เพราะนี้ (เป็นเหตุผล)",
+      "ja": "それゆえ；だから"
+    },
+    "pos": "particle",
+    "element": "echo",
+    "level": "B1",
+    "chapter": 10,
+    "tags": [
+      "grammar",
+      "conjunction",
+      "formal"
+    ],
+    "frequency": 4000,
+    "audio": "voice/th/th_ext2_phro_ni.mp3",
+    "tone": 0,
+    "toneRule": "พ (low)+live→mid; น (low)+dead→approx",
+    "examples": [
+      {
+        "sentence": "ฝนตกเพราะฉะนั้นอยู่บ้านเถอะ",
+        "reading": "fon tok phro chan nan yu baan thoe",
+        "translation": {
+          "en": "It's raining, therefore let's stay home.",
+          "th": "ฝนตก เพราะฉะนั้นอยู่บ้านดีกว่า"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Phronicause",
+      "sprite": "kotodama/th_ext2_phro_ni.png",
+      "description": {
+        "en": "A cause-and-effect spark that draws arrows between events.",
+        "th": "ประกายเหตุและผลที่วาดลูกศรระหว่างเหตุการณ์"
+      },
+      "rarity": "rare",
+      "habitat": [
+        "school",
+        "temple"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_mai_ok",
+    "lang": "th",
+    "written": "ไม่ได้",
+    "reading": "mai dai",
+    "romanization": "mai dai",
+    "meaning": {
+      "en": "cannot; didn't; not allowed",
+      "th": "ไม่ได้ (ทำไม่ได้; ไม่ได้ทำ)",
+      "ja": "できない；だめ；禁止"
+    },
+    "pos": "particle",
+    "element": "echo",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "negation",
+      "grammar",
+      "daily"
+    ],
+    "frequency": 9500,
+    "audio": "voice/th/th_ext2_mai_ok.mp3",
+    "tone": 2,
+    "toneRule": "ไม่ (falling) + ได้ (approx high → compound falling)",
+    "examples": [
+      {
+        "sentence": "ฉันไม่ได้ยินเลย",
+        "reading": "chan mai dai yin loei",
+        "translation": {
+          "en": "I didn't hear at all.",
+          "th": "ฉันไม่ได้ยินเลย"
+        },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Maidaicannot",
+      "sprite": "kotodama/th_ext2_mai_ok.png",
+      "description": {
+        "en": "A blocked-off spark with a gentle barrier around it.",
+        "th": "ประกายที่ถูกกั้นด้วยสิ่งกีดขวางเบาๆ รอบข้าง"
+      },
+      "rarity": "common",
+      "habitat": [
+        "school",
+        "pier",
+        "temple"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_mai2",
+    "lang": "th",
+    "written": "ไม่",
+    "reading": "mai",
+    "romanization": "mai",
+    "meaning": {
+      "en": "not; no (negation prefix)",
+      "th": "ไม่ (การปฏิเสธ)",
+      "ja": "ない；いいえ（否定接頭語）"
+    },
+    "pos": "particle",
+    "element": "echo",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "negation",
+      "grammar",
+      "daily"
+    ],
+    "frequency": 9999,
+    "audio": "voice/th/th_ext2_mai2.mp3",
+    "tone": 2,
+    "toneRule": "ม (low)+สระไ+mai ek → falling tone",
+    "examples": [
+      {
+        "sentence": "ฉันไม่เข้าใจ",
+        "reading": "chan mai khaojai",
+        "translation": {
+          "en": "I don't understand.",
+          "th": "ฉันไม่เข้าใจ"
+        },
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Mainot",
+      "sprite": "kotodama/th_ext2_mai2.png",
+      "description": {
+        "en": "A crossed-out spark that cancels whatever follows it.",
+        "th": "ประกายขีดฆ่าที่ยกเลิกสิ่งที่ตามมา"
+      },
+      "rarity": "common",
+      "habitat": [
+        "school",
+        "temple",
+        "pier",
+        "fresh_market"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "th_ext2_pen_yang_ngai",
+    "lang": "th",
+    "written": "เป็นยังไง",
+    "reading": "pen yang ngai",
+    "romanization": "pen yang ngai",
+    "meaning": {
+      "en": "how is it going? how about?",
+      "th": "เป็นยังไง (เป็นอย่างไร)",
+      "ja": "どうですか？どんな感じですか？"
+    },
+    "pos": "phrase",
+    "element": "light",
+    "level": "A1",
+    "chapter": 10,
+    "tags": [
+      "greeting",
+      "social",
+      "daily"
+    ],
+    "frequency": 8000,
+    "audio": "voice/th/th_ext2_pen_yang_ngai.mp3",
+    "tone": 0,
+    "toneRule": "เป็น (mid) + ยัง (mid) + ไง (mid) → compound mid",
+    "examples": [
+      {
+        "sentence": "งานเป็นยังไงบ้างครับ",
+        "reading": "ngaan pen yang ngai baang khrap",
+        "translation": {
+          "en": "How is work going?",
+          "th": "งานเป็นยังไงบ้างครับ"
+        },
+        "context": "pier"
+      }
+    ],
+    "kotodama": {
+      "name": "Penyangngaichat",
+      "sprite": "kotodama/th_ext2_pen_yang_ngai.png",
+      "description": {
+        "en": "A curious spark that leans in to hear your answer.",
+        "th": "ประกายอยากรู้ที่เอนตัวเข้ามาฟังคำตอบของคุณ"
+      },
+      "rarity": "common",
+      "habitat": [
+        "pier",
+        "school",
+        "fresh_market"
+      ]
+    },
+    "needsReview": false
+  }
 ]

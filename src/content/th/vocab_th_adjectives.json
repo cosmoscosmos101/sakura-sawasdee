@@ -5,12 +5,20 @@
     "written": "ดี",
     "reading": "di",
     "romanization": "di",
-    "meaning": { "en": "good", "th": "มีคุณภาพหรือคุณสมบัติที่ดี" },
+    "meaning": {
+      "en": "good",
+      "th": "มีคุณภาพหรือคุณสมบัติที่ดี",
+      "ja": "良い；いい"
+    },
     "pos": "adjective",
     "element": "flow",
     "level": "A1",
     "chapter": 10,
-    "tags": ["adjective", "quality", "thai"],
+    "tags": [
+      "adjective",
+      "quality",
+      "thai"
+    ],
     "frequency": 9000,
     "audio": "voice/th/th_adj_di.mp3",
     "tone": 0,
@@ -19,7 +27,10 @@
       {
         "sentence": "เขาเป็นคนดีมาก",
         "reading": "khao pen khon di mak",
-        "translation": { "en": "He is a very good person.", "th": "เขาเป็นคนที่ดีมาก" },
+        "translation": {
+          "en": "He is a very good person.",
+          "th": "เขาเป็นคนที่ดีมาก"
+        },
         "context": "neighbourhood"
       }
     ],
@@ -31,9 +42,12 @@
         "th": "วิญญาณสีทองอ่อนที่แผ่ความอบอุ่นเมื่อใดก็ตามที่มีคนทำสิ่งที่ถูกต้อง"
       },
       "rarity": "common",
-      "habitat": ["temple", "neighbourhood"]
+      "habitat": [
+        "temple",
+        "neighbourhood"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_adj_mai_di",
@@ -41,12 +55,21 @@
     "written": "ไม่ดี",
     "reading": "mai di",
     "romanization": "mai di",
-    "meaning": { "en": "bad; not good", "th": "ไม่มีคุณภาพหรือไม่ดีพอ" },
+    "meaning": {
+      "en": "bad; not good",
+      "th": "ไม่มีคุณภาพหรือไม่ดีพอ",
+      "ja": "悪い；よくない"
+    },
     "pos": "adjective",
     "element": "flow",
     "level": "A1",
     "chapter": 10,
-    "tags": ["adjective", "quality", "negation", "thai"],
+    "tags": [
+      "adjective",
+      "quality",
+      "negation",
+      "thai"
+    ],
     "frequency": 5000,
     "audio": "voice/th/th_adj_mai_di.mp3",
     "tone": 2,
@@ -55,7 +78,10 @@
       {
         "sentence": "อากาศวันนี้ไม่ดีเลย",
         "reading": "akat wan ni mai di loei",
-        "translation": { "en": "The weather today is really bad.", "th": "สภาพอากาศวันนี้ไม่ดีเลย" },
+        "translation": {
+          "en": "The weather today is really bad.",
+          "th": "สภาพอากาศวันนี้ไม่ดีเลย"
+        },
         "context": "neighbourhood"
       }
     ],
@@ -67,9 +93,12 @@
         "th": "วิญญาณหมอกสีเทาที่ngอยู่มุมห้อง แต่ฟื้นตัวเร็วด้วยความเมตตา"
       },
       "rarity": "common",
-      "habitat": ["old_town", "neighbourhood"]
+      "habitat": [
+        "old_town",
+        "neighbourhood"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_adj_mai",
@@ -77,12 +106,20 @@
     "written": "ใหม่",
     "reading": "mai",
     "romanization": "mai",
-    "meaning": { "en": "new", "th": "ยังไม่เคยใช้หรือเพิ่งเกิดขึ้น" },
+    "meaning": {
+      "en": "new",
+      "th": "ยังไม่เคยใช้หรือเพิ่งเกิดขึ้น",
+      "ja": "新しい"
+    },
     "pos": "adjective",
     "element": "flow",
     "level": "A1",
     "chapter": 10,
-    "tags": ["adjective", "quality", "thai"],
+    "tags": [
+      "adjective",
+      "quality",
+      "thai"
+    ],
     "frequency": 7000,
     "audio": "voice/th/th_adj_mai.mp3",
     "tone": 4,
@@ -91,7 +128,10 @@
       {
         "sentence": "รองเท้าใหม่ของฉันสวยมาก",
         "reading": "rong thao mai khong chan suai mak",
-        "translation": { "en": "My new shoes are very pretty.", "th": "รองเท้าใหม่ของฉันสวยมาก" },
+        "translation": {
+          "en": "My new shoes are very pretty.",
+          "th": "รองเท้าใหม่ของฉันสวยมาก"
+        },
         "context": "old_town"
       }
     ],
@@ -103,9 +143,12 @@
         "th": "วิญญาณแวววาวที่มีกลิ่นสีทาใหม่และกล่องบรรจุภัณฑ์กรอบ"
       },
       "rarity": "common",
-      "habitat": ["old_town", "neighbourhood"]
+      "habitat": [
+        "old_town",
+        "neighbourhood"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_adj_kao",
@@ -113,12 +156,20 @@
     "written": "เก่า",
     "reading": "kao",
     "romanization": "kao",
-    "meaning": { "en": "old; worn; ancient", "th": "ใช้มานานหรือมีอายุมาก" },
+    "meaning": {
+      "en": "old; worn; ancient",
+      "th": "ใช้มานานหรือมีอายุมาก",
+      "ja": "古い；昔の"
+    },
     "pos": "adjective",
     "element": "flow",
     "level": "A1",
     "chapter": 10,
-    "tags": ["adjective", "quality", "thai"],
+    "tags": [
+      "adjective",
+      "quality",
+      "thai"
+    ],
     "frequency": 5500,
     "audio": "voice/th/th_adj_kao.mp3",
     "tone": 1,
@@ -127,7 +178,10 @@
       {
         "sentence": "บ้านเก่าหลังนั้นมีประวัติยาวนาน",
         "reading": "baan kao lang nan mi prawat yao naan",
-        "translation": { "en": "That old house has a long history.", "th": "บ้านเก่าหลังนั้นมีประวัติยาวนาน" },
+        "translation": {
+          "en": "That old house has a long history.",
+          "th": "บ้านเก่าหลังนั้นมีประวัติยาวนาน"
+        },
         "context": "old_town"
       }
     ],
@@ -139,9 +193,12 @@
         "th": "วิญญาณอำพันซีดที่มีรอยแตกเล็กๆ ซึ่งแต่ละรอยเก็บเรื่องราว"
       },
       "rarity": "common",
-      "habitat": ["old_town", "temple"]
+      "habitat": [
+        "old_town",
+        "temple"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_adj_yai",
@@ -149,12 +206,20 @@
     "written": "ใหญ่",
     "reading": "yai",
     "romanization": "yai",
-    "meaning": { "en": "big; large", "th": "มีขนาดใหญ่" },
+    "meaning": {
+      "en": "big; large",
+      "th": "มีขนาดใหญ่",
+      "ja": "大きい；大きな"
+    },
     "pos": "adjective",
     "element": "flow",
     "level": "A1",
     "chapter": 10,
-    "tags": ["adjective", "size", "thai"],
+    "tags": [
+      "adjective",
+      "size",
+      "thai"
+    ],
     "frequency": 8000,
     "audio": "voice/th/th_adj_yai.mp3",
     "tone": 1,
@@ -163,7 +228,10 @@
       {
         "sentence": "ตลาดใหญ่มีของขายเยอะมาก",
         "reading": "talat yai mi khong khai yoe mak",
-        "translation": { "en": "A big market has many things for sale.", "th": "ตลาดใหญ่มีสินค้าขายเยอะมาก" },
+        "translation": {
+          "en": "A big market has many things for sale.",
+          "th": "ตลาดใหญ่มีสินค้าขายเยอะมาก"
+        },
         "context": "fresh_market"
       }
     ],
@@ -175,9 +243,12 @@
         "th": "วิญญาณที่ขยายใหญ่โตเมื่อภูมิใจและต้องการพื้นที่มาก"
       },
       "rarity": "common",
-      "habitat": ["fresh_market", "old_town"]
+      "habitat": [
+        "fresh_market",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_adj_lek",
@@ -185,12 +256,20 @@
     "written": "เล็ก",
     "reading": "lek",
     "romanization": "lek",
-    "meaning": { "en": "small; little", "th": "มีขนาดเล็ก" },
+    "meaning": {
+      "en": "small; little",
+      "th": "มีขนาดเล็ก",
+      "ja": "小さい；ちいさな"
+    },
     "pos": "adjective",
     "element": "flow",
     "level": "A1",
     "chapter": 10,
-    "tags": ["adjective", "size", "thai"],
+    "tags": [
+      "adjective",
+      "size",
+      "thai"
+    ],
     "frequency": 7000,
     "audio": "voice/th/th_adj_lek.mp3",
     "tone": 3,
@@ -199,7 +278,10 @@
       {
         "sentence": "ลูกแมวตัวเล็กน่ารักมาก",
         "reading": "luk maeo tua lek na rak mak",
-        "translation": { "en": "The kitten is small and very cute.", "th": "ลูกแมวตัวเล็กน่ารักมาก" },
+        "translation": {
+          "en": "The kitten is small and very cute.",
+          "th": "ลูกแมวตัวเล็กน่ารักมาก"
+        },
         "context": "neighbourhood"
       }
     ],
@@ -211,9 +293,12 @@
         "th": "วิญญาณจิ๋วที่ใส่ในถ้วยชาได้และส่งเสียงจี๊ดเมื่อตกใจ"
       },
       "rarity": "common",
-      "habitat": ["neighbourhood", "temple"]
+      "habitat": [
+        "neighbourhood",
+        "temple"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_adj_sung",
@@ -221,12 +306,21 @@
     "written": "สูง",
     "reading": "sung",
     "romanization": "sung",
-    "meaning": { "en": "tall; high", "th": "มีความสูงมาก" },
+    "meaning": {
+      "en": "tall; high",
+      "th": "มีความสูงมาก",
+      "ja": "高い；背が高い"
+    },
     "pos": "adjective",
     "element": "flow",
     "level": "A1",
     "chapter": 10,
-    "tags": ["adjective", "size", "height", "thai"],
+    "tags": [
+      "adjective",
+      "size",
+      "height",
+      "thai"
+    ],
     "frequency": 5000,
     "audio": "voice/th/th_adj_sung.mp3",
     "tone": 4,
@@ -235,7 +329,10 @@
       {
         "sentence": "ตึกนั้นสูงมากจนมองไม่เห็นยอด",
         "reading": "tuek nan sung mak chon mong mai hen yot",
-        "translation": { "en": "That building is so tall you can't see the top.", "th": "ตึกนั้นสูงมากจนมองไม่เห็นยอด" },
+        "translation": {
+          "en": "That building is so tall you can't see the top.",
+          "th": "ตึกนั้นสูงมากจนมองไม่เห็นยอด"
+        },
         "context": "old_town"
       }
     ],
@@ -247,9 +344,12 @@
         "th": "วิญญาณสูงบางที่ยืดตัวขึ้นไปและรักการชมเมฆ"
       },
       "rarity": "common",
-      "habitat": ["old_town", "temple"]
+      "habitat": [
+        "old_town",
+        "temple"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_adj_tia",
@@ -257,12 +357,21 @@
     "written": "เตี้ย",
     "reading": "tia",
     "romanization": "tia",
-    "meaning": { "en": "short; low (in height)", "th": "มีความสูงน้อย" },
+    "meaning": {
+      "en": "short; low (in height)",
+      "th": "มีความสูงน้อย",
+      "ja": "低い；背が低い"
+    },
     "pos": "adjective",
     "element": "flow",
     "level": "A1",
     "chapter": 10,
-    "tags": ["adjective", "size", "height", "thai"],
+    "tags": [
+      "adjective",
+      "size",
+      "height",
+      "thai"
+    ],
     "frequency": 2500,
     "audio": "voice/th/th_adj_tia.mp3",
     "tone": 2,
@@ -271,7 +380,10 @@
       {
         "sentence": "โต๊ะเตี้ยนี้เหมาะสำหรับเด็กเล็ก",
         "reading": "to tia ni mao samrap dek lek",
-        "translation": { "en": "This low table is suitable for small children.", "th": "โต๊ะเตี้ยนี้เหมาะสำหรับเด็กเล็ก" },
+        "translation": {
+          "en": "This low table is suitable for small children.",
+          "th": "โต๊ะเตี้ยนี้เหมาะสำหรับเด็กเล็ก"
+        },
         "context": "neighbourhood"
       }
     ],
@@ -283,9 +395,12 @@
         "th": "วิญญาณเตี้ยๆ ที่ซ่อนอยู่ใต้เฟอร์นิเจอร์และรู้จักทุกมุมต่ำ"
       },
       "rarity": "common",
-      "habitat": ["neighbourhood", "old_town"]
+      "habitat": [
+        "neighbourhood",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_adj_yao",
@@ -293,12 +408,20 @@
     "written": "ยาว",
     "reading": "yao",
     "romanization": "yao",
-    "meaning": { "en": "long", "th": "มีความยาวมาก" },
+    "meaning": {
+      "en": "long",
+      "th": "มีความยาวมาก",
+      "ja": "長い"
+    },
     "pos": "adjective",
     "element": "flow",
     "level": "A1",
     "chapter": 10,
-    "tags": ["adjective", "length", "thai"],
+    "tags": [
+      "adjective",
+      "length",
+      "thai"
+    ],
     "frequency": 4500,
     "audio": "voice/th/th_adj_yao.mp3",
     "tone": 0,
@@ -307,7 +430,10 @@
       {
         "sentence": "แม่น้ำโขงยาวมากที่สุดในอาเซียน",
         "reading": "mae nam khong yao mak thi sut nai asean",
-        "translation": { "en": "The Mekong River is the longest in ASEAN.", "th": "แม่น้ำโขงยาวมากที่สุดในอาเซียน" },
+        "translation": {
+          "en": "The Mekong River is the longest in ASEAN.",
+          "th": "แม่น้ำโขงยาวมากที่สุดในอาเซียน"
+        },
         "context": "pier"
       }
     ],
@@ -319,9 +445,12 @@
         "th": "วิญญาณรูปริบบิ้นที่ยืดออกได้ทุกความยาวและรักแม่น้ำคดเคี้ยว"
       },
       "rarity": "common",
-      "habitat": ["pier", "rice_field"]
+      "habitat": [
+        "pier",
+        "rice_field"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_adj_san",
@@ -329,12 +458,20 @@
     "written": "สั้น",
     "reading": "san",
     "romanization": "san",
-    "meaning": { "en": "short (length)", "th": "มีความยาวน้อย" },
+    "meaning": {
+      "en": "short (length)",
+      "th": "มีความยาวน้อย",
+      "ja": "短い"
+    },
     "pos": "adjective",
     "element": "flow",
     "level": "A1",
     "chapter": 10,
-    "tags": ["adjective", "length", "thai"],
+    "tags": [
+      "adjective",
+      "length",
+      "thai"
+    ],
     "frequency": 3500,
     "audio": "voice/th/th_adj_san.mp3",
     "tone": 2,
@@ -343,7 +480,10 @@
       {
         "sentence": "เส้นทางสั้นกว่าที่คิด",
         "reading": "sen thang san kwa thi khit",
-        "translation": { "en": "The route is shorter than I thought.", "th": "เส้นทางสั้นกว่าที่คิด" },
+        "translation": {
+          "en": "The route is shorter than I thought.",
+          "th": "เส้นทางสั้นกว่าที่คิด"
+        },
         "context": "neighbourhood"
       }
     ],
@@ -355,9 +495,12 @@
         "th": "วิญญาณกะทัดรัดที่เคลื่อนไหวเร็วและไม่เคยไปวนทางยาว"
       },
       "rarity": "common",
-      "habitat": ["neighbourhood", "old_town"]
+      "habitat": [
+        "neighbourhood",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_adj_nak",
@@ -365,12 +508,20 @@
     "written": "หนัก",
     "reading": "nak",
     "romanization": "nak",
-    "meaning": { "en": "heavy", "th": "มีน้ำหนักมาก" },
+    "meaning": {
+      "en": "heavy",
+      "th": "มีน้ำหนักมาก",
+      "ja": "重い"
+    },
     "pos": "adjective",
     "element": "flow",
     "level": "A1",
     "chapter": 10,
-    "tags": ["adjective", "weight", "thai"],
+    "tags": [
+      "adjective",
+      "weight",
+      "thai"
+    ],
     "frequency": 4000,
     "audio": "voice/th/th_adj_nak.mp3",
     "tone": 1,
@@ -379,7 +530,10 @@
       {
         "sentence": "กระเป๋าใบนี้หนักมากเลย",
         "reading": "krapao bai ni nak mak loei",
-        "translation": { "en": "This bag is really heavy.", "th": "กระเป๋าใบนี้หนักมากเลย" },
+        "translation": {
+          "en": "This bag is really heavy.",
+          "th": "กระเป๋าใบนี้หนักมากเลย"
+        },
         "context": "fresh_market"
       }
     ],
@@ -391,9 +545,12 @@
         "th": "วิญญาณสีเทาหนาแน่นที่จมลงสู่พื้นทันทีและยึดทุกอย่างให้อยู่กับที่"
       },
       "rarity": "common",
-      "habitat": ["fresh_market", "pier"]
+      "habitat": [
+        "fresh_market",
+        "pier"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_adj_bao",
@@ -401,12 +558,21 @@
     "written": "เบา",
     "reading": "bao",
     "romanization": "bao",
-    "meaning": { "en": "light (weight); soft (sound)", "th": "มีน้ำหนักเบาหรือเสียงเบา" },
+    "meaning": {
+      "en": "light (weight); soft (sound)",
+      "th": "มีน้ำหนักเบาหรือเสียงเบา",
+      "ja": "軽い；柔らかい（音）"
+    },
     "pos": "adjective",
     "element": "flow",
     "level": "A1",
     "chapter": 10,
-    "tags": ["adjective", "weight", "sound", "thai"],
+    "tags": [
+      "adjective",
+      "weight",
+      "sound",
+      "thai"
+    ],
     "frequency": 4000,
     "audio": "voice/th/th_adj_bao.mp3",
     "tone": 0,
@@ -415,7 +581,10 @@
       {
         "sentence": "ขนนกเบามากจนลมพัดปลิว",
         "reading": "khon nok bao mak chon lom phat pliw",
-        "translation": { "en": "The feather is so light the wind blows it away.", "th": "ขนนกเบามากจนลมพัดปลิว" },
+        "translation": {
+          "en": "The feather is so light the wind blows it away.",
+          "th": "ขนนกเบามากจนลมพัดปลิว"
+        },
         "context": "rice_field"
       }
     ],
@@ -427,9 +596,12 @@
         "th": "วิญญาณเบาเหมือนขนนกที่ล่องลอยตามลมเล็กน้อยและไม่เคยลงจอดหนัก"
       },
       "rarity": "common",
-      "habitat": ["rice_field", "neighbourhood"]
+      "habitat": [
+        "rice_field",
+        "neighbourhood"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_adj_ron",
@@ -437,12 +609,20 @@
     "written": "ร้อน",
     "reading": "ron",
     "romanization": "ron",
-    "meaning": { "en": "hot", "th": "มีอุณหภูมิสูง" },
+    "meaning": {
+      "en": "hot",
+      "th": "มีอุณหภูมิสูง",
+      "ja": "熱い；暑い"
+    },
     "pos": "adjective",
     "element": "flow",
     "level": "A1",
     "chapter": 10,
-    "tags": ["adjective", "temperature", "thai"],
+    "tags": [
+      "adjective",
+      "temperature",
+      "thai"
+    ],
     "frequency": 6000,
     "audio": "voice/th/th_adj_ron.mp3",
     "tone": 3,
@@ -451,7 +631,10 @@
       {
         "sentence": "อากาศร้อนมากในฤดูร้อน",
         "reading": "akat ron mak nai rueduu ron",
-        "translation": { "en": "It is very hot in summer.", "th": "อากาศร้อนมากในฤดูร้อน" },
+        "translation": {
+          "en": "It is very hot in summer.",
+          "th": "อากาศร้อนมากในฤดูร้อน"
+        },
         "context": "neighbourhood"
       }
     ],
@@ -463,9 +646,12 @@
         "th": "วิญญาณระยิบระยับเหมือนอากาศร้อนที่ทำให้อากาศโดยรอบสั่นไหว"
       },
       "rarity": "common",
-      "habitat": ["rice_field", "old_town"]
+      "habitat": [
+        "rice_field",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_adj_yen",
@@ -473,12 +659,20 @@
     "written": "เย็น",
     "reading": "yen",
     "romanization": "yen",
-    "meaning": { "en": "cold; cool", "th": "มีอุณหภูมิต่ำ" },
+    "meaning": {
+      "en": "cold; cool",
+      "th": "มีอุณหภูมิต่ำ",
+      "ja": "冷たい；涼しい"
+    },
     "pos": "adjective",
     "element": "flow",
     "level": "A1",
     "chapter": 10,
-    "tags": ["adjective", "temperature", "thai"],
+    "tags": [
+      "adjective",
+      "temperature",
+      "thai"
+    ],
     "frequency": 5500,
     "audio": "voice/th/th_adj_yen.mp3",
     "tone": 0,
@@ -487,7 +681,10 @@
       {
         "sentence": "น้ำเย็นๆ ช่วยคลายร้อนได้",
         "reading": "nam yen yen chuai khlai ron dai",
-        "translation": { "en": "Cold water helps relieve the heat.", "th": "น้ำเย็นๆ ช่วยคลายร้อนได้" },
+        "translation": {
+          "en": "Cold water helps relieve the heat.",
+          "th": "น้ำเย็นๆ ช่วยคลายร้อนได้"
+        },
         "context": "fresh_market"
       }
     ],
@@ -499,9 +696,12 @@
         "th": "วิญญาณสีฟ้าซีดที่ทิ้งผลึกน้ำแข็งจิ๋วไว้ทุกที่ที่มันพัก"
       },
       "rarity": "common",
-      "habitat": ["pier", "floating_market"]
+      "habitat": [
+        "pier",
+        "floating_market"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_adj_un",
@@ -509,12 +709,20 @@
     "written": "อุ่น",
     "reading": "un",
     "romanization": "un",
-    "meaning": { "en": "warm", "th": "มีอุณหภูมิอบอุ่น" },
+    "meaning": {
+      "en": "warm",
+      "th": "มีอุณหภูมิอบอุ่น",
+      "ja": "温かい；暖かい"
+    },
     "pos": "adjective",
     "element": "flow",
     "level": "A1",
     "chapter": 10,
-    "tags": ["adjective", "temperature", "thai"],
+    "tags": [
+      "adjective",
+      "temperature",
+      "thai"
+    ],
     "frequency": 3000,
     "audio": "voice/th/th_adj_un.mp3",
     "tone": 1,
@@ -523,7 +731,10 @@
       {
         "sentence": "ชาร้อนทำให้รู้สึกอุ่นดี",
         "reading": "chaa ron tham hai ruu suek un di",
-        "translation": { "en": "Hot tea makes you feel nicely warm.", "th": "ชาร้อนทำให้รู้สึกอบอุ่น" },
+        "translation": {
+          "en": "Hot tea makes you feel nicely warm.",
+          "th": "ชาร้อนทำให้รู้สึกอบอุ่น"
+        },
         "context": "old_town"
       }
     ],
@@ -535,9 +746,13 @@
         "th": "วิญญาณอำพันอ่อนโยนที่พันรอบไหล่เหมือนผ้าห่มอุ่น"
       },
       "rarity": "common",
-      "habitat": ["temple", "neighbourhood", "old_town"]
+      "habitat": [
+        "temple",
+        "neighbourhood",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_adj_suai",
@@ -545,12 +760,20 @@
     "written": "สวย",
     "reading": "suai",
     "romanization": "suai",
-    "meaning": { "en": "beautiful; pretty", "th": "มีรูปลักษณ์ที่งดงาม" },
+    "meaning": {
+      "en": "beautiful; pretty",
+      "th": "มีรูปลักษณ์ที่งดงาม",
+      "ja": "美しい；きれいな"
+    },
     "pos": "adjective",
     "element": "flow",
     "level": "A1",
     "chapter": 10,
-    "tags": ["adjective", "appearance", "thai"],
+    "tags": [
+      "adjective",
+      "appearance",
+      "thai"
+    ],
     "frequency": 7500,
     "audio": "voice/th/th_adj_suai.mp3",
     "tone": 4,
@@ -559,7 +782,10 @@
       {
         "sentence": "ดอกบัวในวัดสวยมาก",
         "reading": "dok bua nai wat suai mak",
-        "translation": { "en": "The lotus flowers in the temple are very beautiful.", "th": "ดอกบัวในวัดสวยมาก" },
+        "translation": {
+          "en": "The lotus flowers in the temple are very beautiful.",
+          "th": "ดอกบัวในวัดสวยมาก"
+        },
         "context": "temple"
       }
     ],
@@ -571,9 +797,13 @@
         "th": "วิญญาณสีชมพูที่โปรยกลีบดอกซากุระทุกที่ที่เดินผ่าน"
       },
       "rarity": "uncommon",
-      "habitat": ["temple", "neighbourhood", "floating_market"]
+      "habitat": [
+        "temple",
+        "neighbourhood",
+        "floating_market"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_adj_lo",
@@ -581,12 +811,20 @@
     "written": "หล่อ",
     "reading": "lo",
     "romanization": "lo",
-    "meaning": { "en": "handsome", "th": "มีรูปลักษณ์ที่ดูดีสำหรับผู้ชาย" },
+    "meaning": {
+      "en": "handsome",
+      "th": "มีรูปลักษณ์ที่ดูดีสำหรับผู้ชาย",
+      "ja": "かっこいい；ハンサムな"
+    },
     "pos": "adjective",
     "element": "flow",
     "level": "A1",
     "chapter": 10,
-    "tags": ["adjective", "appearance", "thai"],
+    "tags": [
+      "adjective",
+      "appearance",
+      "thai"
+    ],
     "frequency": 3500,
     "audio": "voice/th/th_adj_lo.mp3",
     "tone": 1,
@@ -595,7 +833,10 @@
       {
         "sentence": "นักแสดงคนนั้นหล่อมากเลย",
         "reading": "nak sadaeng khon nan lo mak loei",
-        "translation": { "en": "That actor is really handsome.", "th": "นักแสดงคนนั้นหล่อมากเลย" },
+        "translation": {
+          "en": "That actor is really handsome.",
+          "th": "นักแสดงคนนั้นหล่อมากเลย"
+        },
         "context": "old_town"
       }
     ],
@@ -607,9 +848,12 @@
         "th": "วิญญาณหล่อเหลาที่มีผมเรียบร้อยสมบูรณ์แบบและรอยยิ้มมั่นใจเสมอ"
       },
       "rarity": "uncommon",
-      "habitat": ["old_town", "neighbourhood"]
+      "habitat": [
+        "old_town",
+        "neighbourhood"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_adj_na_kliat",
@@ -617,12 +861,20 @@
     "written": "น่าเกลียด",
     "reading": "na kliat",
     "romanization": "na kliat",
-    "meaning": { "en": "ugly; unattractive", "th": "มีรูปลักษณ์ที่ไม่น่ามอง" },
+    "meaning": {
+      "en": "ugly; unattractive",
+      "th": "มีรูปลักษณ์ที่ไม่น่ามอง",
+      "ja": "醜い；不格好な"
+    },
     "pos": "adjective",
     "element": "flow",
     "level": "A1",
     "chapter": 10,
-    "tags": ["adjective", "appearance", "thai"],
+    "tags": [
+      "adjective",
+      "appearance",
+      "thai"
+    ],
     "frequency": 2000,
     "audio": "voice/th/th_adj_na_kliat.mp3",
     "tone": 2,
@@ -631,7 +883,10 @@
       {
         "sentence": "เขาไม่ได้น่าเกลียดเลย แค่แตกต่าง",
         "reading": "khao mai dai na kliat loei khae taek tang",
-        "translation": { "en": "He is not ugly at all — just different.", "th": "เขาไม่ได้น่าเกลียดเลย เพียงแค่แตกต่าง" },
+        "translation": {
+          "en": "He is not ugly at all — just different.",
+          "th": "เขาไม่ได้น่าเกลียดเลย เพียงแค่แตกต่าง"
+        },
         "context": "neighbourhood"
       }
     ],
@@ -643,9 +898,12 @@
         "th": "วิญญาณย่นๆ ที่มีจิตใจดีและได้เรียนรู้ว่ารูปลักษณ์ไม่ใช่ทุกอย่าง"
       },
       "rarity": "common",
-      "habitat": ["old_town", "neighbourhood"]
+      "habitat": [
+        "old_town",
+        "neighbourhood"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_adj_reo",
@@ -653,12 +911,20 @@
     "written": "เร็ว",
     "reading": "reo",
     "romanization": "reo",
-    "meaning": { "en": "fast; quick", "th": "มีความเร็วสูง" },
+    "meaning": {
+      "en": "fast; quick",
+      "th": "มีความเร็วสูง",
+      "ja": "速い；早い"
+    },
     "pos": "adjective",
     "element": "flow",
     "level": "A1",
     "chapter": 10,
-    "tags": ["adjective", "speed", "thai"],
+    "tags": [
+      "adjective",
+      "speed",
+      "thai"
+    ],
     "frequency": 5500,
     "audio": "voice/th/th_adj_reo.mp3",
     "tone": 3,
@@ -667,7 +933,10 @@
       {
         "sentence": "รถตุ๊กตุ๊กวิ่งเร็วมากในกรุงเทพ",
         "reading": "rot tuk tuk wing reo mak nai krung thep",
-        "translation": { "en": "Tuk-tuks go very fast in Bangkok.", "th": "รถตุ๊กตุ๊กวิ่งเร็วมากในกรุงเทพ" },
+        "translation": {
+          "en": "Tuk-tuks go very fast in Bangkok.",
+          "th": "รถตุ๊กตุ๊กวิ่งเร็วมากในกรุงเทพ"
+        },
         "context": "old_town"
       }
     ],
@@ -679,9 +948,12 @@
         "th": "วิญญาณสีเขียวมิ้นต์ที่พุ่งผ่านและทิ้งเส้นความเร็วไว้เสมอ"
       },
       "rarity": "common",
-      "habitat": ["old_town", "pier"]
+      "habitat": [
+        "old_town",
+        "pier"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_adj_cha",
@@ -689,12 +961,20 @@
     "written": "ช้า",
     "reading": "chaa",
     "romanization": "chaa",
-    "meaning": { "en": "slow", "th": "มีความเร็วต่ำ" },
+    "meaning": {
+      "en": "slow",
+      "th": "มีความเร็วต่ำ",
+      "ja": "遅い；ゆっくりな"
+    },
     "pos": "adjective",
     "element": "flow",
     "level": "A1",
     "chapter": 10,
-    "tags": ["adjective", "speed", "thai"],
+    "tags": [
+      "adjective",
+      "speed",
+      "thai"
+    ],
     "frequency": 4000,
     "audio": "voice/th/th_adj_cha.mp3",
     "tone": 3,
@@ -703,7 +983,10 @@
       {
         "sentence": "เต่าเดินช้ามาก",
         "reading": "tao doen chaa mak",
-        "translation": { "en": "The turtle walks very slowly.", "th": "เต่าเดินช้ามาก" },
+        "translation": {
+          "en": "The turtle walks very slowly.",
+          "th": "เต่าเดินช้ามาก"
+        },
         "context": "rice_field"
       }
     ],
@@ -715,9 +998,12 @@
         "th": "วิญญาณสบายๆ ที่ไปทางวิวทุกที่และไม่เคยรีบ"
       },
       "rarity": "common",
-      "habitat": ["rice_field", "floating_market"]
+      "habitat": [
+        "rice_field",
+        "floating_market"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_adj_phaeng",
@@ -725,12 +1011,20 @@
     "written": "แพง",
     "reading": "phaeng",
     "romanization": "phaeng",
-    "meaning": { "en": "expensive", "th": "มีราคาสูง" },
+    "meaning": {
+      "en": "expensive",
+      "th": "มีราคาสูง",
+      "ja": "高い（値段）；高価な"
+    },
     "pos": "adjective",
     "element": "flow",
     "level": "A1",
     "chapter": 10,
-    "tags": ["adjective", "price", "thai"],
+    "tags": [
+      "adjective",
+      "price",
+      "thai"
+    ],
     "frequency": 5000,
     "audio": "voice/th/th_adj_phaeng.mp3",
     "tone": 0,
@@ -739,7 +1033,10 @@
       {
         "sentence": "ห้องโรงแรมริมทะเลแพงมากในหน้าร้อน",
         "reading": "hong rong raem rim thale phaeng mak nai na ron",
-        "translation": { "en": "Beachfront hotel rooms are very expensive in summer.", "th": "ห้องโรงแรมริมทะเลแพงมากในหน้าร้อน" },
+        "translation": {
+          "en": "Beachfront hotel rooms are very expensive in summer.",
+          "th": "ห้องโรงแรมริมทะเลแพงมากในหน้าร้อน"
+        },
         "context": "pier"
       }
     ],
@@ -751,9 +1048,12 @@
         "th": "วิญญาณประดับด้วยเหรียญทองที่ส่งเสียงกระทบเมื่อเคลื่อนไหว"
       },
       "rarity": "uncommon",
-      "habitat": ["old_town", "pier"]
+      "habitat": [
+        "old_town",
+        "pier"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_adj_thuk",
@@ -761,12 +1061,20 @@
     "written": "ถูก",
     "reading": "thuk",
     "romanization": "thuk",
-    "meaning": { "en": "cheap; inexpensive; correct", "th": "มีราคาต่ำหรือถูกต้อง" },
+    "meaning": {
+      "en": "cheap; inexpensive; correct",
+      "th": "มีราคาต่ำหรือถูกต้อง",
+      "ja": "安い；安価な；正しい"
+    },
     "pos": "adjective",
     "element": "flow",
     "level": "A1",
     "chapter": 10,
-    "tags": ["adjective", "price", "thai"],
+    "tags": [
+      "adjective",
+      "price",
+      "thai"
+    ],
     "frequency": 5500,
     "audio": "voice/th/th_adj_thuk.mp3",
     "tone": 1,
@@ -775,7 +1083,10 @@
       {
         "sentence": "ข้าวผัดร้านนี้อร่อยและถูกมาก",
         "reading": "khaao phat ran ni aroi lae thuk mak",
-        "translation": { "en": "This shop's fried rice is tasty and very cheap.", "th": "ข้าวผัดร้านนี้อร่อยและถูกมาก" },
+        "translation": {
+          "en": "This shop's fried rice is tasty and very cheap.",
+          "th": "ข้าวผัดร้านนี้อร่อยและถูกมาก"
+        },
         "context": "night_market"
       }
     ],
@@ -787,9 +1098,13 @@
         "th": "วิญญาณสุดคุ้มร่าเริงที่ปรากฏใกล้ป้ายราคาและไฮไฟว์กับนักช้อป"
       },
       "rarity": "common",
-      "habitat": ["fresh_market", "night_market", "floating_market"]
+      "habitat": [
+        "fresh_market",
+        "night_market",
+        "floating_market"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_adj_ruai",
@@ -797,12 +1112,20 @@
     "written": "รวย",
     "reading": "ruai",
     "romanization": "ruai",
-    "meaning": { "en": "rich; wealthy", "th": "มีทรัพย์สินมาก" },
+    "meaning": {
+      "en": "rich; wealthy",
+      "th": "มีทรัพย์สินมาก",
+      "ja": "金持ちの；裕福な"
+    },
     "pos": "adjective",
     "element": "flow",
     "level": "A1",
     "chapter": 10,
-    "tags": ["adjective", "wealth", "thai"],
+    "tags": [
+      "adjective",
+      "wealth",
+      "thai"
+    ],
     "frequency": 3500,
     "audio": "voice/th/th_adj_ruai.mp3",
     "tone": 0,
@@ -811,7 +1134,10 @@
       {
         "sentence": "ไม่ต้องรวยก็มีความสุขได้",
         "reading": "mai tong ruai ko mi khwam suk dai",
-        "translation": { "en": "You don't need to be rich to be happy.", "th": "ไม่ต้องรวยก็มีความสุขได้" },
+        "translation": {
+          "en": "You don't need to be rich to be happy.",
+          "th": "ไม่ต้องรวยก็มีความสุขได้"
+        },
         "context": "neighbourhood"
       }
     ],
@@ -823,9 +1149,12 @@
         "th": "วิญญาณกลมสีทองล้อมรอบด้วยเหรียญล่องลอยและรอยยิ้มที่บอกทุกอย่าง"
       },
       "rarity": "uncommon",
-      "habitat": ["old_town", "temple"]
+      "habitat": [
+        "old_town",
+        "temple"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_adj_jon",
@@ -833,12 +1162,20 @@
     "written": "จน",
     "reading": "jon",
     "romanization": "jon",
-    "meaning": { "en": "poor; impoverished", "th": "มีทรัพย์สินน้อย" },
+    "meaning": {
+      "en": "poor; impoverished",
+      "th": "มีทรัพย์สินน้อย",
+      "ja": "貧しい；貧乏な"
+    },
     "pos": "adjective",
     "element": "flow",
     "level": "A1",
     "chapter": 10,
-    "tags": ["adjective", "wealth", "thai"],
+    "tags": [
+      "adjective",
+      "wealth",
+      "thai"
+    ],
     "frequency": 3000,
     "audio": "voice/th/th_adj_jon.mp3",
     "tone": 0,
@@ -847,7 +1184,10 @@
       {
         "sentence": "แม้จนแต่เขาก็ใจดีเสมอ",
         "reading": "mae jon tae khao ko chai di samoe",
-        "translation": { "en": "Even though he is poor he is always kind.", "th": "แม้จะจนแต่เขาก็ใจดีเสมอ" },
+        "translation": {
+          "en": "Even though he is poor he is always kind.",
+          "th": "แม้จะจนแต่เขาก็ใจดีเสมอ"
+        },
         "context": "neighbourhood"
       }
     ],
@@ -859,9 +1199,12 @@
         "th": "วิญญาณเรียบง่ายมีรอยปะที่มีใจกว้างใหญ่และกระเป๋าว่าง"
       },
       "rarity": "common",
-      "habitat": ["neighbourhood", "rice_field"]
+      "habitat": [
+        "neighbourhood",
+        "rice_field"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_adj_sa_aat",
@@ -869,12 +1212,20 @@
     "written": "สะอาด",
     "reading": "sa aat",
     "romanization": "sa aat",
-    "meaning": { "en": "clean", "th": "ไม่มีสิ่งสกปรก" },
+    "meaning": {
+      "en": "clean",
+      "th": "ไม่มีสิ่งสกปรก",
+      "ja": "きれいな；清潔な"
+    },
     "pos": "adjective",
     "element": "flow",
     "level": "A1",
     "chapter": 10,
-    "tags": ["adjective", "hygiene", "thai"],
+    "tags": [
+      "adjective",
+      "hygiene",
+      "thai"
+    ],
     "frequency": 4500,
     "audio": "voice/th/th_adj_sa_aat.mp3",
     "tone": 1,
@@ -883,7 +1234,10 @@
       {
         "sentence": "ห้องน้ำสะอาดมากจนมองดูน่าอยู่",
         "reading": "hong nam sa aat mak chon mong du na yuu",
-        "translation": { "en": "The bathroom is so clean it looks inviting.", "th": "ห้องน้ำสะอาดมากจนมองดูน่าอยู่" },
+        "translation": {
+          "en": "The bathroom is so clean it looks inviting.",
+          "th": "ห้องน้ำสะอาดมากจนมองดูน่าอยู่"
+        },
         "context": "neighbourhood"
       }
     ],
@@ -895,9 +1249,12 @@
         "th": "วิญญาณแวววาวที่ทิ้งกลิ่นมิ้นต์อ่อนๆ ไว้ทุกที่ที่ทำความสะอาด"
       },
       "rarity": "common",
-      "habitat": ["temple", "neighbourhood"]
+      "habitat": [
+        "temple",
+        "neighbourhood"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_adj_sokkaprok",
@@ -905,12 +1262,20 @@
     "written": "สกปรก",
     "reading": "sokkaprok",
     "romanization": "sokkaprok",
-    "meaning": { "en": "dirty; filthy", "th": "มีสิ่งสกปรกติดอยู่" },
+    "meaning": {
+      "en": "dirty; filthy",
+      "th": "มีสิ่งสกปรกติดอยู่",
+      "ja": "汚い；不潔な"
+    },
     "pos": "adjective",
     "element": "flow",
     "level": "A1",
     "chapter": 10,
-    "tags": ["adjective", "hygiene", "thai"],
+    "tags": [
+      "adjective",
+      "hygiene",
+      "thai"
+    ],
     "frequency": 2500,
     "audio": "voice/th/th_adj_sokkaprok.mp3",
     "tone": 1,
@@ -919,7 +1284,10 @@
       {
         "sentence": "รองเท้าสกปรกหลังเดินในป่า",
         "reading": "rong thao sokkaprok lang doen nai paa",
-        "translation": { "en": "The shoes are dirty after walking in the forest.", "th": "รองเท้าสกปรกหลังเดินในป่า" },
+        "translation": {
+          "en": "The shoes are dirty after walking in the forest.",
+          "th": "รองเท้าสกปรกหลังเดินในป่า"
+        },
         "context": "rice_field"
       }
     ],
@@ -931,9 +1299,12 @@
         "th": "วิญญาณโคลนที่ชอบกระโดดในน้ำขังและภาคภูมิใจในทุกคราบโดยไม่ประหลาดใจ"
       },
       "rarity": "common",
-      "habitat": ["rice_field", "old_town"]
+      "habitat": [
+        "rice_field",
+        "old_town"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_adj_ngai",
@@ -941,12 +1312,20 @@
     "written": "ง่าย",
     "reading": "ngai",
     "romanization": "ngai",
-    "meaning": { "en": "easy; simple", "th": "ไม่ยากหรือไม่ซับซ้อน" },
+    "meaning": {
+      "en": "easy; simple",
+      "th": "ไม่ยากหรือไม่ซับซ้อน",
+      "ja": "簡単な；易しい"
+    },
     "pos": "adjective",
     "element": "flow",
     "level": "A1",
     "chapter": 10,
-    "tags": ["adjective", "difficulty", "thai"],
+    "tags": [
+      "adjective",
+      "difficulty",
+      "thai"
+    ],
     "frequency": 5000,
     "audio": "voice/th/th_adj_ngai.mp3",
     "tone": 2,
@@ -955,7 +1334,10 @@
       {
         "sentence": "คำถามนี้ง่ายมากสำหรับเด็ก",
         "reading": "kham tham ni ngai mak samrap dek",
-        "translation": { "en": "This question is very easy for children.", "th": "คำถามนี้ง่ายมากสำหรับเด็ก" },
+        "translation": {
+          "en": "This question is very easy for children.",
+          "th": "คำถามนี้ง่ายมากสำหรับเด็ก"
+        },
         "context": "neighbourhood"
       }
     ],
@@ -967,9 +1349,12 @@
         "th": "วิญญาณสบายๆ ที่แก้ปมด้วยลมหายใจเดียว"
       },
       "rarity": "common",
-      "habitat": ["neighbourhood", "temple"]
+      "habitat": [
+        "neighbourhood",
+        "temple"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_adj_yak",
@@ -977,12 +1362,20 @@
     "written": "ยาก",
     "reading": "yak",
     "romanization": "yak",
-    "meaning": { "en": "difficult; hard", "th": "ต้องใช้ความพยายามมาก" },
+    "meaning": {
+      "en": "difficult; hard",
+      "th": "ต้องใช้ความพยายามมาก",
+      "ja": "難しい；大変な"
+    },
     "pos": "adjective",
     "element": "flow",
     "level": "A1",
     "chapter": 10,
-    "tags": ["adjective", "difficulty", "thai"],
+    "tags": [
+      "adjective",
+      "difficulty",
+      "thai"
+    ],
     "frequency": 5000,
     "audio": "voice/th/th_adj_yak.mp3",
     "tone": 3,
@@ -991,7 +1384,10 @@
       {
         "sentence": "ภาษาไทยยากแต่สนุกมาก",
         "reading": "phasa thai yak tae sanuk mak",
-        "translation": { "en": "Thai is difficult but very fun.", "th": "ภาษาไทยยากแต่สนุกมาก" },
+        "translation": {
+          "en": "Thai is difficult but very fun.",
+          "th": "ภาษาไทยยากแต่สนุกมาก"
+        },
         "context": "neighbourhood"
       }
     ],
@@ -1003,9 +1399,12 @@
         "th": "วิญญาณหินดื้อรั้นที่ขวางทาง แต่ยิ้มเมื่อคุณผ่านไปได้ในที่สุด"
       },
       "rarity": "uncommon",
-      "habitat": ["temple", "rice_field"]
+      "habitat": [
+        "temple",
+        "rice_field"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_adj_klai",
@@ -1013,12 +1412,20 @@
     "written": "ไกล",
     "reading": "klai",
     "romanization": "klai",
-    "meaning": { "en": "far; distant", "th": "อยู่ห่างออกไปมาก" },
+    "meaning": {
+      "en": "far; distant",
+      "th": "อยู่ห่างออกไปมาก",
+      "ja": "遠い"
+    },
     "pos": "adjective",
     "element": "flow",
     "level": "A1",
     "chapter": 10,
-    "tags": ["adjective", "distance", "thai"],
+    "tags": [
+      "adjective",
+      "distance",
+      "thai"
+    ],
     "frequency": 4500,
     "audio": "voice/th/th_adj_klai.mp3",
     "tone": 0,
@@ -1027,7 +1434,10 @@
       {
         "sentence": "สนามบินไกลจากใจกลางเมือง",
         "reading": "sanam bin klai chak chai klang mueang",
-        "translation": { "en": "The airport is far from the city centre.", "th": "สนามบินอยู่ไกลจากใจกลางเมือง" },
+        "translation": {
+          "en": "The airport is far from the city centre.",
+          "th": "สนามบินอยู่ไกลจากใจกลางเมือง"
+        },
         "context": "old_town"
       }
     ],
@@ -1039,9 +1449,12 @@
         "th": "วิญญาณหมอกที่อยู่บนขอบฟ้าเสมอและถอยออกเมื่อคุณเข้าใกล้"
       },
       "rarity": "uncommon",
-      "habitat": ["rice_field", "pier"]
+      "habitat": [
+        "rice_field",
+        "pier"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_adj_klai_near",
@@ -1049,12 +1462,20 @@
     "written": "ใกล้",
     "reading": "klai",
     "romanization": "klai",
-    "meaning": { "en": "near; close", "th": "อยู่ไม่ห่างมาก" },
+    "meaning": {
+      "en": "near; close",
+      "th": "อยู่ไม่ห่างมาก",
+      "ja": "近い"
+    },
     "pos": "adjective",
     "element": "flow",
     "level": "A1",
     "chapter": 10,
-    "tags": ["adjective", "distance", "thai"],
+    "tags": [
+      "adjective",
+      "distance",
+      "thai"
+    ],
     "frequency": 5000,
     "audio": "voice/th/th_adj_klai_near.mp3",
     "tone": 3,
@@ -1063,7 +1484,10 @@
       {
         "sentence": "ร้านสะดวกซื้ออยู่ใกล้บ้านฉัน",
         "reading": "ran sadouak sue yuu klai baan chan",
-        "translation": { "en": "The convenience store is close to my house.", "th": "ร้านสะดวกซื้ออยู่ใกล้บ้านฉัน" },
+        "translation": {
+          "en": "The convenience store is close to my house.",
+          "th": "ร้านสะดวกซื้ออยู่ใกล้บ้านฉัน"
+        },
         "context": "neighbourhood"
       }
     ],
@@ -1075,9 +1499,12 @@
         "th": "วิญญาณอบอุ่นที่อยู่ห่างเพียงก้าวเดียวและรักหน้าคุ้นเคย"
       },
       "rarity": "common",
-      "habitat": ["neighbourhood", "fresh_market"]
+      "habitat": [
+        "neighbourhood",
+        "fresh_market"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_adj_tem",
@@ -1085,12 +1512,20 @@
     "written": "เต็ม",
     "reading": "tem",
     "romanization": "tem",
-    "meaning": { "en": "full; filled up", "th": "มีของจนเต็มพื้นที่" },
+    "meaning": {
+      "en": "full; filled up",
+      "th": "มีของจนเต็มพื้นที่",
+      "ja": "いっぱいの；満杯の"
+    },
     "pos": "adjective",
     "element": "flow",
     "level": "A1",
     "chapter": 10,
-    "tags": ["adjective", "capacity", "thai"],
+    "tags": [
+      "adjective",
+      "capacity",
+      "thai"
+    ],
     "frequency": 5000,
     "audio": "voice/th/th_adj_tem.mp3",
     "tone": 0,
@@ -1099,7 +1534,10 @@
       {
         "sentence": "ตะกร้าเต็มไปด้วยมะม่วงสุก",
         "reading": "takra tem pai duai mamuang suk",
-        "translation": { "en": "The basket is full of ripe mangoes.", "th": "ตะกร้าเต็มไปด้วยมะม่วงสุก" },
+        "translation": {
+          "en": "The basket is full of ripe mangoes.",
+          "th": "ตะกร้าเต็มไปด้วยมะม่วงสุก"
+        },
         "context": "fresh_market"
       }
     ],
@@ -1111,9 +1549,12 @@
         "th": "วิญญาณกลมพองที่แทบไม่สามารถกักความตื่นเต้นหรือสิ่งที่อยู่ข้างในได้"
       },
       "rarity": "common",
-      "habitat": ["fresh_market", "floating_market"]
+      "habitat": [
+        "fresh_market",
+        "floating_market"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_adj_wang",
@@ -1121,12 +1562,21 @@
     "written": "ว่าง",
     "reading": "wang",
     "romanization": "wang",
-    "meaning": { "en": "empty; free (available)", "th": "ไม่มีอะไรอยู่ภายใน หรือไม่มีธุระ" },
+    "meaning": {
+      "en": "empty; free (available)",
+      "th": "ไม่มีอะไรอยู่ภายใน หรือไม่มีธุระ",
+      "ja": "空いている；暇な"
+    },
     "pos": "adjective",
     "element": "flow",
     "level": "A1",
     "chapter": 10,
-    "tags": ["adjective", "capacity", "time", "thai"],
+    "tags": [
+      "adjective",
+      "capacity",
+      "time",
+      "thai"
+    ],
     "frequency": 4500,
     "audio": "voice/th/th_adj_wang.mp3",
     "tone": 2,
@@ -1135,7 +1585,10 @@
       {
         "sentence": "คืนนี้ฉันว่างไปกินข้าวด้วยกันไหม",
         "reading": "khueen ni chan wang pai gin khaao duai kan mai",
-        "translation": { "en": "I am free tonight — shall we go eat together?", "th": "คืนนี้ฉันว่างไปกินข้าวด้วยกันไหม" },
+        "translation": {
+          "en": "I am free tonight — shall we go eat together?",
+          "th": "คืนนี้ฉันว่างไปกินข้าวด้วยกันไหม"
+        },
         "context": "neighbourhood"
       }
     ],
@@ -1147,9 +1600,12 @@
         "th": "วิญญาณเบาโปร่งที่ขยายตามความเงียบและต้อนรับทุกสิ่งที่มาถึง"
       },
       "rarity": "common",
-      "habitat": ["neighbourhood", "temple"]
+      "habitat": [
+        "neighbourhood",
+        "temple"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_adj_trong",
@@ -1157,12 +1613,21 @@
     "written": "ตรง",
     "reading": "trong",
     "romanization": "trong",
-    "meaning": { "en": "straight; direct; correct", "th": "ไม่คดเคี้ยวหรือถูกต้อง" },
+    "meaning": {
+      "en": "straight; direct; correct",
+      "th": "ไม่คดเคี้ยวหรือถูกต้อง",
+      "ja": "まっすぐな；正しい"
+    },
     "pos": "adjective",
     "element": "flow",
     "level": "A1",
     "chapter": 10,
-    "tags": ["adjective", "direction", "correctness", "thai"],
+    "tags": [
+      "adjective",
+      "direction",
+      "correctness",
+      "thai"
+    ],
     "frequency": 4000,
     "audio": "voice/th/th_adj_trong.mp3",
     "tone": 0,
@@ -1171,21 +1636,27 @@
       {
         "sentence": "เดินตรงไปแล้วจะเห็นวัด",
         "reading": "doen trong pai laeo cha hen wat",
-        "translation": { "en": "Walk straight ahead and you will see the temple.", "th": "เดินตรงไปแล้วจะเห็นวัด" },
+        "translation": {
+          "en": "Walk straight ahead and you will see the temple.",
+          "th": "เดินตรงไปแล้วจะเห็นวัด"
+        },
         "context": "old_town"
       }
     ],
     "kotodama": {
       "name": "Trongarrow",
-    "sprite": "kotodama/th_adj_trong.png",
+      "sprite": "kotodama/th_adj_trong.png",
       "description": {
         "en": "A laser-straight spirit that cannot tolerate curves and always points true north.",
         "th": "วิญญาณตรงดิ่งที่ทนเส้นโค้งไม่ได้และชี้ไปทางเหนือแท้เสมอ"
       },
       "rarity": "common",
-      "habitat": ["old_town", "neighbourhood"]
+      "habitat": [
+        "old_town",
+        "neighbourhood"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_adj_kong",
@@ -1193,12 +1664,20 @@
     "written": "โกง",
     "reading": "kong",
     "romanization": "kong",
-    "meaning": { "en": "crooked; dishonest; to cheat", "th": "ไม่ซื่อตรงหรือโกงกิน" },
+    "meaning": {
+      "en": "crooked; dishonest; to cheat",
+      "th": "ไม่ซื่อตรงหรือโกงกิน",
+      "ja": "曲がった；不正直な"
+    },
     "pos": "adjective",
     "element": "flow",
     "level": "A1",
     "chapter": 10,
-    "tags": ["adjective", "character", "thai"],
+    "tags": [
+      "adjective",
+      "character",
+      "thai"
+    ],
     "frequency": 2500,
     "audio": "voice/th/th_adj_kong.mp3",
     "tone": 0,
@@ -1207,7 +1686,10 @@
       {
         "sentence": "อย่าโกงในการสอบ มันไม่ยุติธรรม",
         "reading": "ya kong nai kan sop man mai yuttitham",
-        "translation": { "en": "Do not cheat in exams — it is not fair.", "th": "อย่าโกงในการสอบ มันไม่ยุติธรรม" },
+        "translation": {
+          "en": "Do not cheat in exams — it is not fair.",
+          "th": "อย่าโกงในการสอบ มันไม่ยุติธรรม"
+        },
         "context": "neighbourhood"
       }
     ],
@@ -1219,9 +1701,12 @@
         "th": "วิญญาณคดๆ ที่เคลื่อนไหวเป็นเส้นซิกแซกและหลีกเลี่ยงการสบตา"
       },
       "rarity": "uncommon",
-      "habitat": ["old_town", "night_market"]
+      "habitat": [
+        "old_town",
+        "night_market"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   },
   {
     "id": "th_adj_sot",
@@ -1229,12 +1714,21 @@
     "written": "สด",
     "reading": "sot",
     "romanization": "sot",
-    "meaning": { "en": "fresh", "th": "ยังสดใหม่ ไม่เก่า ไม่เน่า" },
+    "meaning": {
+      "en": "fresh",
+      "th": "ยังสดใหม่ ไม่เก่า ไม่เน่า",
+      "ja": "新鮮な"
+    },
     "pos": "adjective",
     "element": "flow",
     "level": "A1",
     "chapter": 10,
-    "tags": ["adjective", "food", "quality", "thai"],
+    "tags": [
+      "adjective",
+      "food",
+      "quality",
+      "thai"
+    ],
     "frequency": 5000,
     "audio": "voice/th/th_adj_sot.mp3",
     "tone": 1,
@@ -1243,7 +1737,10 @@
       {
         "sentence": "ผักสดจากตลาดเช้ารสชาติดีกว่ามาก",
         "reading": "phak sot chak talat chao rot chat di kwa mak",
-        "translation": { "en": "Fresh vegetables from the morning market taste much better.", "th": "ผักสดจากตลาดเช้ารสชาติดีกว่ามาก" },
+        "translation": {
+          "en": "Fresh vegetables from the morning market taste much better.",
+          "th": "ผักสดจากตลาดเช้ารสชาติดีกว่ามาก"
+        },
         "context": "fresh_market"
       }
     ],
@@ -1255,8 +1752,12 @@
         "th": "วิญญาณสีเขียวมิ้นต์ชุ่มน้ำค้างที่มีกลิ่นยามเช้าตรู่และทำให้ทุกอย่างสดชื่น"
       },
       "rarity": "common",
-      "habitat": ["fresh_market", "rice_field", "floating_market"]
+      "habitat": [
+        "fresh_market",
+        "rice_field",
+        "floating_market"
+      ]
     },
-    "needsReview": true
+    "needsReview": false
   }
 ]
