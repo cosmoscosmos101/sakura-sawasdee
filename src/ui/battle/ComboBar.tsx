@@ -4,7 +4,14 @@ import type { ComboResult } from "../../learning/comboValidator";
 interface Props {
   chain: ComboToken[];
   comboResult: ComboResult | null;
+  playerL1?: string;
 }
+
+const COMBO_LABEL: Record<string, string> = {
+  th: "คอมโบ ×",
+  en: "Combo ×",
+  ja: "コンボ ×",
+};
 
 const ELEMENT_COLOR: Record<string, string> = {
   bloom: "#F7A8C4",
@@ -24,7 +31,7 @@ const ELEMENT_SYMBOL: Record<string, string> = {
   light: "✨",
 };
 
-export function ComboBar({ chain, comboResult }: Props) {
+export function ComboBar({ chain, comboResult, playerL1 = "en" }: Props) {
   if (chain.length === 0 && !comboResult) return null;
 
   return (
@@ -56,7 +63,7 @@ export function ComboBar({ chain, comboResult }: Props) {
         {comboResult && (
           <p className={`mt-1 text-[9px] font-semibold ${comboResult.valid ? "text-[#4E7D5E]" : "text-[#C9A27E]"}`}>
             {comboResult.valid
-              ? `コンボ ×${comboResult.multiplier}!`
+              ? `${COMBO_LABEL[playerL1] ?? COMBO_LABEL["en"]}${comboResult.multiplier}!`
               : comboResult.reason?.replace(/_/g, " ")}
           </p>
         )}

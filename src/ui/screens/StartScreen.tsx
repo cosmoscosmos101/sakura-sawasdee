@@ -34,6 +34,12 @@ const LOCALE_OPTIONS: LocaleOption[] = [
     label: "タイ語を学ぶ",
     subLabel: "Japanese → Thai",
   },
+  {
+    pair: { l1: "en", l2: "th" },
+    flag: "🇬🇧",
+    label: "Learn Thai",
+    subLabel: "English → Thai",
+  },
 ];
 
 /** 6 skin tones from the master palette. */

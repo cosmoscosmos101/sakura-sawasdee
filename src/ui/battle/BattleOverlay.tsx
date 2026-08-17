@@ -78,7 +78,7 @@ export function BattleOverlay() {
         </AnimatePresence>
 
         {/* Combo chain indicator (always visible except idle) */}
-        {phase === "command" && <ComboBar chain={chain} comboResult={null} />}
+        {phase === "command" && <ComboBar chain={chain} comboResult={null} playerL1={locale.l1} />}
       </div>
 
       {/* Bottom: command menu */}
@@ -96,6 +96,20 @@ export function BattleOverlay() {
   );
 }
 
+// ── Locale label tables ──────────────────────────────────────────────────────
+
+const COMBO_RESULT_LABELS: Record<string, { valid: string; invalid: string }> = {
+  th: { valid: "ประโยคสมบูรณ์!", invalid: "ลำดับไม่ถูกต้อง" },
+  en: { valid: "Sentence Combo!", invalid: "Word order incomplete" },
+  ja: { valid: "文章コンボ！", invalid: "語順が不完全" },
+};
+
+const END_LABELS: Record<string, { won: string; lost: string }> = {
+  th: { won: "ชนะแล้ว! 🌸", lost: "สู้ต่อไป..." },
+  en: { won: "Victory! 🌸", lost: "Keep going..." },
+  ja: { won: "勝利！ 🌸", lost: "頑張れ..." },
+};
+
 // ── Sub-panels ───────────────────────────────────────────────────────────────
 
 function ResultCard({
@@ -110,6 +124,7 @@ function ResultCard({
   const msg = {
     th: { correct: "ถูกต้อง!", wrong: "ลองอีกครั้ง", critical: "ยอดเยี่ยม!", slow: "ช้าไปนิด" },
     en: { correct: "Correct!", wrong: "Not quite…", critical: "Critical!", slow: "A bit slow" },
+    ja: { correct: "正解！", wrong: "もう一度", critical: "完璧！", slow: "少し遅かった" },
   };
   const l = (msg as Record<string, typeof msg["en"]>)[playerL1] ?? msg.en;
   const label = correct ? (tier === "critical" ? l.critical : l.correct) : l.wrong;
@@ -154,13 +169,13 @@ function ComboResultCard({
       {comboResult?.valid ? (
         <>
           <p className="text-[16px] font-semibold text-[#4E7D5E]">
-            {playerL1 === "th" ? "ประโยคสมบูรณ์!" : "Sentence Combo!"}
+            {COMBO_RESULT_LABELS[playerL1]?.valid ?? COMBO_RESULT_LABELS["en"]!.valid}
           </p>
           <p className="mt-1 text-[13px] text-[#6B5F78]">×{comboResult.multiplier}</p>
         </>
       ) : (
         <p className="text-[14px] text-[#9188A0]">
-          {playerL1 === "th" ? "ลำดับไม่ถูกต้อง" : "Word order incomplete"}
+          {COMBO_RESULT_LABELS[playerL1]?.invalid ?? COMBO_RESULT_LABELS["en"]!.invalid}
         </p>
       )}
       <p className="mt-2 text-[9px] text-[#9188A0]">tap to continue</p>
@@ -185,8 +200,8 @@ function EndCard({
     >
       <p className="text-[20px] font-semibold text-[#4A3F55]">
         {won
-          ? (playerL1 === "th" ? "ชนะแล้ว! 🌸" : "Victory! 🌸")
-          : (playerL1 === "th" ? "สู้ต่อไป..." : "Keep going...")}
+          ? (END_LABELS[playerL1]?.won ?? END_LABELS["en"]!.won)
+          : (END_LABELS[playerL1]?.lost ?? END_LABELS["en"]!.lost)}
       </p>
       <p className="mt-3 text-[9px] text-[#9188A0]">tap to return</p>
     </motion.div>
