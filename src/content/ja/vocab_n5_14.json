@@ -1,0 +1,466 @@
+[
+  {
+    "id": "ja_n5_0116",
+    "lang": "ja",
+    "written": "暑い",
+    "reading": "あつい",
+    "romanization": "atsui",
+    "meaning": {
+      "th": "ร้อน (อากาศ)",
+      "en": "hot (weather); sweltering"
+    },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "N5",
+    "chapter": 6,
+    "tags": [
+      "adjective",
+      "i-adj",
+      "weather",
+      "daily"
+    ],
+    "frequency": 145,
+    "audio": "voice/ja/n5_0116.mp3",
+    "examples": [
+      {
+        "sentence": "今日は暑いですね。",
+        "reading": "きょうはあついですね。",
+        "translation": {
+          "th": "วันนี้ร้อนจริงๆ นะ",
+          "en": "It is hot today, isn't it?"
+        },
+        "context": "festival_grounds"
+      }
+    ],
+    "kotodama": {
+      "name": "Atsuihot",
+      "sprite": "kotodama/n5_0116.png",
+      "description": {
+        "en": "A pulsing orange-red spark that radiates gentle warmth. In summer it grows very bright; in winter it dims to a soft ember."
+      },
+      "rarity": "common",
+      "habitat": [
+        "festival_grounds",
+        "shopping_street",
+        "sakura_path"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    }
+  },
+  {
+    "id": "ja_n5_0117",
+    "lang": "ja",
+    "written": "寒い",
+    "reading": "さむい",
+    "romanization": "samui",
+    "meaning": {
+      "th": "หนาว (อากาศ)",
+      "en": "cold (weather); chilly"
+    },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "N5",
+    "chapter": 6,
+    "tags": [
+      "adjective",
+      "i-adj",
+      "weather",
+      "daily"
+    ],
+    "frequency": 148,
+    "audio": "voice/ja/n5_0117.mp3",
+    "examples": [
+      {
+        "sentence": "冬は寒いです。",
+        "reading": "ふゆはさむいです。",
+        "translation": {
+          "th": "ฤดูหนาวหนาวมาก",
+          "en": "Winter is cold."
+        },
+        "context": "winter_courtyard"
+      }
+    ],
+    "kotodama": {
+      "name": "Samuicold",
+      "sprite": "kotodama/n5_0117.png",
+      "description": {
+        "en": "A shivering icy spark wrapped in a tiny scarf. It exhales little puffs of frost and leaves snowflake trails on cold mornings."
+      },
+      "rarity": "common",
+      "habitat": [
+        "winter_courtyard",
+        "shrine",
+        "sakura_path"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    }
+  },
+  {
+    "id": "ja_n5_0118",
+    "lang": "ja",
+    "written": "難しい",
+    "reading": "むずかしい",
+    "romanization": "muzukashii",
+    "meaning": {
+      "th": "ยาก / ลำบาก",
+      "en": "difficult; hard"
+    },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "N5",
+    "chapter": 6,
+    "tags": [
+      "adjective",
+      "i-adj",
+      "learning",
+      "daily"
+    ],
+    "frequency": 160,
+    "audio": "voice/ja/n5_0118.mp3",
+    "examples": [
+      {
+        "sentence": "この問題は難しいです。",
+        "reading": "このもんだいはむずかしいです。",
+        "translation": {
+          "th": "โจทย์นี้ยากมาก",
+          "en": "This problem is difficult."
+        },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Muzufrown",
+      "sprite": "kotodama/n5_0118.png",
+      "description": {
+        "en": "A furrowed-brow spark that wrinkles up when presented with a tough question. It untangles itself slowly and glows when the answer becomes clear."
+      },
+      "rarity": "common",
+      "habitat": [
+        "hanami_academy",
+        "shrine",
+        "autumn_hill"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    }
+  },
+  {
+    "id": "ja_n5_0119",
+    "lang": "ja",
+    "written": "やさしい",
+    "reading": "やさしい",
+    "romanization": "yasashii",
+    "meaning": {
+      "th": "ง่าย / ใจดี",
+      "en": "easy; simple; kind; gentle"
+    },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "N5",
+    "chapter": 6,
+    "tags": [
+      "adjective",
+      "i-adj",
+      "learning",
+      "personality",
+      "daily"
+    ],
+    "frequency": 135,
+    "audio": "voice/ja/n5_0119.mp3",
+    "examples": [
+      {
+        "sentence": "この本はやさしいです。",
+        "reading": "このほんはやさしいです。",
+        "translation": {
+          "th": "หนังสือเล่มนี้ง่ายมาก",
+          "en": "This book is easy."
+        },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Yasashisoft",
+      "sprite": "kotodama/n5_0119.png",
+      "description": {
+        "en": "A gentle pastel spark with a warm glow that pulses slowly. It drifts toward anyone who is struggling and offers a quiet helping nudge."
+      },
+      "rarity": "common",
+      "habitat": [
+        "hanami_academy",
+        "sakura_path",
+        "shrine"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    }
+  },
+  {
+    "id": "ja_n5_0120",
+    "lang": "ja",
+    "written": "高い",
+    "reading": "たかい",
+    "romanization": "takai",
+    "meaning": {
+      "th": "สูง / แพง",
+      "en": "tall; high; expensive"
+    },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "N5",
+    "chapter": 6,
+    "tags": [
+      "adjective",
+      "i-adj",
+      "size",
+      "price",
+      "daily"
+    ],
+    "frequency": 88,
+    "audio": "voice/ja/n5_0120.mp3",
+    "examples": [
+      {
+        "sentence": "この山は高いです。",
+        "reading": "このやまはたかいです。",
+        "translation": {
+          "th": "ภูเขานี้สูงมาก",
+          "en": "This mountain is tall."
+        },
+        "context": "autumn_hill"
+      }
+    ],
+    "kotodama": {
+      "name": "Takaitall",
+      "sprite": "kotodama/n5_0120.png",
+      "description": {
+        "en": "A stretching spark that extends upward like a tower. It loves tall trees and always perches at the very highest branch it can find."
+      },
+      "rarity": "common",
+      "habitat": [
+        "autumn_hill",
+        "shrine",
+        "sakura_path"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    },
+    "mnemonic": {
+      "en": "高 = shows a tall building or tower — something reaching high above the ground."
+    }
+  },
+  {
+    "id": "ja_n5_0121",
+    "lang": "ja",
+    "written": "安い",
+    "reading": "やすい",
+    "romanization": "yasui",
+    "meaning": {
+      "th": "ถูก (ราคา)",
+      "en": "cheap; inexpensive"
+    },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "N5",
+    "chapter": 6,
+    "tags": [
+      "adjective",
+      "i-adj",
+      "price",
+      "daily"
+    ],
+    "frequency": 112,
+    "audio": "voice/ja/n5_0121.mp3",
+    "examples": [
+      {
+        "sentence": "この店は安いですよ。",
+        "reading": "このみせはやすいですよ。",
+        "translation": {
+          "th": "ร้านนี้ถูกนะ",
+          "en": "This shop is cheap."
+        },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Yasuicheap",
+      "sprite": "kotodama/n5_0121.png",
+      "description": {
+        "en": "A coin-sized spark that always finds the best deal. It shines brightest in markets and dims whenever it sees an overpriced tag."
+      },
+      "rarity": "common",
+      "habitat": [
+        "shopping_street",
+        "festival_grounds",
+        "sakura_station"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    }
+  },
+  {
+    "id": "ja_n5_0122",
+    "lang": "ja",
+    "written": "面白い",
+    "reading": "おもしろい",
+    "romanization": "omoshiroi",
+    "meaning": {
+      "th": "น่าสนใจ / ตลก",
+      "en": "interesting; funny; amusing"
+    },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "N5",
+    "chapter": 6,
+    "tags": [
+      "adjective",
+      "i-adj",
+      "emotion",
+      "daily"
+    ],
+    "frequency": 140,
+    "audio": "voice/ja/n5_0122.mp3",
+    "examples": [
+      {
+        "sentence": "この映画は面白いです。",
+        "reading": "このえいがはおもしろいです。",
+        "translation": {
+          "th": "หนังเรื่องนี้สนุกมาก",
+          "en": "This movie is interesting."
+        },
+        "context": "festival_grounds"
+      }
+    ],
+    "kotodama": {
+      "name": "Omoshirolaugh",
+      "sprite": "kotodama/n5_0122.png",
+      "description": {
+        "en": "A jester-hatted spark that somersaults and sparkles. It pops up unexpectedly and always leaves everyone grinning."
+      },
+      "rarity": "common",
+      "habitat": [
+        "festival_grounds",
+        "hanami_academy",
+        "shopping_street"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    }
+  },
+  {
+    "id": "ja_n5_0123",
+    "lang": "ja",
+    "written": "楽しい",
+    "reading": "たのしい",
+    "romanization": "tanoshii",
+    "meaning": {
+      "th": "สนุก / มีความสุข",
+      "en": "fun; enjoyable; pleasant"
+    },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "N5",
+    "chapter": 6,
+    "tags": [
+      "adjective",
+      "i-adj",
+      "emotion",
+      "daily"
+    ],
+    "frequency": 125,
+    "audio": "voice/ja/n5_0123.mp3",
+    "examples": [
+      {
+        "sentence": "パーティーは楽しかったです。",
+        "reading": "パーティーはたのしかったです。",
+        "translation": {
+          "th": "งานปาร์ตี้สนุกมาก",
+          "en": "The party was fun."
+        },
+        "context": "festival_grounds"
+      }
+    ],
+    "kotodama": {
+      "name": "Tanoshifun",
+      "sprite": "kotodama/n5_0123.png",
+      "description": {
+        "en": "A dancing spark that twirls in circles and hums little tunes. It multiplies when it detects a group having fun together."
+      },
+      "rarity": "common",
+      "habitat": [
+        "festival_grounds",
+        "sakura_path",
+        "hanami_academy"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    }
+  },
+  {
+    "id": "ja_n5_0124",
+    "lang": "ja",
+    "written": "怖い",
+    "reading": "こわい",
+    "romanization": "kowai",
+    "meaning": {
+      "th": "น่ากลัว",
+      "en": "scary; frightening; afraid"
+    },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "N5",
+    "chapter": 6,
+    "tags": [
+      "adjective",
+      "i-adj",
+      "emotion",
+      "daily"
+    ],
+    "frequency": 155,
+    "audio": "voice/ja/n5_0124.mp3",
+    "examples": [
+      {
+        "sentence": "この映画は怖いです。",
+        "reading": "このえいがはこわいです。",
+        "translation": {
+          "th": "หนังเรื่องนี้น่ากลัวมาก",
+          "en": "This movie is scary."
+        },
+        "context": "shrine"
+      }
+    ],
+    "kotodama": {
+      "name": "Kowaiscare",
+      "sprite": "kotodama/n5_0124.png",
+      "description": {
+        "en": "A shadowy spark that flickers at the edges. It is harmless but loves to hide behind things and appear suddenly — then apologise immediately."
+      },
+      "rarity": "uncommon",
+      "habitat": [
+        "shrine",
+        "autumn_hill",
+        "winter_courtyard"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    }
+  }
+]

@@ -26,6 +26,10 @@ import rawN5_08 from "./ja/vocab_n5_08.json";
 import rawN5_09 from "./ja/vocab_n5_09.json";
 import rawN5_10 from "./ja/vocab_n5_10.json";
 import rawN5_11 from "./ja/vocab_n5_11.json";
+import rawN5_12 from "./ja/vocab_n5_12.json";
+import rawN5_13 from "./ja/vocab_n5_13.json";
+import rawN5_14 from "./ja/vocab_n5_14.json";
+import rawN5_15 from "./ja/vocab_n5_15.json";
 import rawThConsMid from "./th/vocab_cons_mid.json";
 import rawThConsMidB from "./th/vocab_cons_mid_b.json";
 import rawThConsHighLow from "./th/vocab_cons_high_low.json";
@@ -75,6 +79,10 @@ export const ALL_VOCAB: VocabEntry[] = [
   ...parseVocabFile(rawN5_09 as unknown, "ja/vocab_n5_09.json"),
   ...parseVocabFile(rawN5_10 as unknown, "ja/vocab_n5_10.json"),
   ...parseVocabFile(rawN5_11 as unknown, "ja/vocab_n5_11.json"),
+  ...parseVocabFile(rawN5_12 as unknown, "ja/vocab_n5_12.json"),
+  ...parseVocabFile(rawN5_13 as unknown, "ja/vocab_n5_13.json"),
+  ...parseVocabFile(rawN5_14 as unknown, "ja/vocab_n5_14.json"),
+  ...parseVocabFile(rawN5_15 as unknown, "ja/vocab_n5_15.json"),
   ...parseVocabFile(rawThConsMid as unknown, "th/vocab_cons_mid.json"),
   ...parseVocabFile(rawThConsMidB as unknown, "th/vocab_cons_mid_b.json"),
   ...parseVocabFile(rawThConsHighLow as unknown, "th/vocab_cons_high_low.json"),

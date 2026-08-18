@@ -1,0 +1,485 @@
+[
+  {
+    "id": "ja_n5_0107",
+    "lang": "ja",
+    "written": "行く",
+    "reading": "いく",
+    "romanization": "iku",
+    "meaning": {
+      "th": "ไป",
+      "en": "to go"
+    },
+    "pos": "verb",
+    "element": "spark",
+    "level": "N5",
+    "chapter": 5,
+    "tags": [
+      "verb",
+      "godan",
+      "motion",
+      "daily"
+    ],
+    "frequency": 55,
+    "audio": "voice/ja/n5_0107.mp3",
+    "examples": [
+      {
+        "sentence": "学校に行きます。",
+        "reading": "がっこうにいきます。",
+        "translation": {
+          "th": "ไปโรงเรียน",
+          "en": "I go to school."
+        },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Ikugo",
+      "sprite": "kotodama/n5_0107.png",
+      "description": {
+        "en": "A darting spark that always moves forward. It vanishes the moment you look away and reappears somewhere new."
+      },
+      "rarity": "common",
+      "habitat": [
+        "sakura_path",
+        "hanami_academy",
+        "shrine"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    },
+    "mnemonic": {
+      "en": "行 = the bottom part 止 (stop) inside 彳 (small steps) — going step by step until you stop."
+    }
+  },
+  {
+    "id": "ja_n5_0108",
+    "lang": "ja",
+    "written": "来る",
+    "reading": "くる",
+    "romanization": "kuru",
+    "meaning": {
+      "th": "มา",
+      "en": "to come"
+    },
+    "pos": "verb",
+    "element": "spark",
+    "level": "N5",
+    "chapter": 5,
+    "tags": [
+      "verb",
+      "irregular",
+      "motion",
+      "daily"
+    ],
+    "frequency": 60,
+    "audio": "voice/ja/n5_0108.mp3",
+    "examples": [
+      {
+        "sentence": "友達が来ます。",
+        "reading": "ともだちがきます。",
+        "translation": {
+          "th": "เพื่อนจะมา",
+          "en": "My friend is coming."
+        },
+        "context": "sakura_station"
+      }
+    ],
+    "kotodama": {
+      "name": "Kurucome",
+      "sprite": "kotodama/n5_0108.png",
+      "description": {
+        "en": "A welcoming spark that floats toward you with arms open. It always arrives just when you need company."
+      },
+      "rarity": "common",
+      "habitat": [
+        "sakura_station",
+        "shrine",
+        "shopping_street"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    }
+  },
+  {
+    "id": "ja_n5_0109",
+    "lang": "ja",
+    "written": "見る",
+    "reading": "みる",
+    "romanization": "miru",
+    "meaning": {
+      "th": "ดู / มอง",
+      "en": "to see; to look; to watch"
+    },
+    "pos": "verb",
+    "element": "spark",
+    "level": "N5",
+    "chapter": 5,
+    "tags": [
+      "verb",
+      "ichidan",
+      "perception",
+      "daily"
+    ],
+    "frequency": 70,
+    "audio": "voice/ja/n5_0109.mp3",
+    "examples": [
+      {
+        "sentence": "映画を見ます。",
+        "reading": "えいがをみます。",
+        "translation": {
+          "th": "ดูหนัง",
+          "en": "I watch a movie."
+        },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Mirusee",
+      "sprite": "kotodama/n5_0109.png",
+      "description": {
+        "en": "A wide-eyed spark with a tiny spotlight attached. It illuminates whatever catches your interest and zooms in for a closer look."
+      },
+      "rarity": "common",
+      "habitat": [
+        "hanami_academy",
+        "sakura_path",
+        "autumn_hill"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    },
+    "mnemonic": {
+      "en": "見 = 目 (eye) on top + 儿 (legs) below — an eye that walks around and looks at things."
+    }
+  },
+  {
+    "id": "ja_n5_0110",
+    "lang": "ja",
+    "written": "聞く",
+    "reading": "きく",
+    "romanization": "kiku",
+    "meaning": {
+      "th": "ฟัง / ถาม",
+      "en": "to listen; to ask"
+    },
+    "pos": "verb",
+    "element": "spark",
+    "level": "N5",
+    "chapter": 5,
+    "tags": [
+      "verb",
+      "godan",
+      "perception",
+      "daily"
+    ],
+    "frequency": 82,
+    "audio": "voice/ja/n5_0110.mp3",
+    "examples": [
+      {
+        "sentence": "先生に聞いてください。",
+        "reading": "せんせいにきいてください。",
+        "translation": {
+          "th": "ถามคุณครูได้เลย",
+          "en": "Please ask your teacher."
+        },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Kikuear",
+      "sprite": "kotodama/n5_0110.png",
+      "description": {
+        "en": "A cup-shaped spark that cups itself like a hand behind an ear. It hears things from very far away and stores them perfectly."
+      },
+      "rarity": "common",
+      "habitat": [
+        "hanami_academy",
+        "shrine",
+        "sakura_path"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    },
+    "mnemonic": {
+      "en": "聞 = 門 (gate) + 耳 (ear) — an ear listening at the gate."
+    }
+  },
+  {
+    "id": "ja_n5_0111",
+    "lang": "ja",
+    "written": "書く",
+    "reading": "かく",
+    "romanization": "kaku",
+    "meaning": {
+      "th": "เขียน",
+      "en": "to write"
+    },
+    "pos": "verb",
+    "element": "spark",
+    "level": "N5",
+    "chapter": 5,
+    "tags": [
+      "verb",
+      "godan",
+      "creation",
+      "daily"
+    ],
+    "frequency": 95,
+    "audio": "voice/ja/n5_0111.mp3",
+    "examples": [
+      {
+        "sentence": "名前を書いてください。",
+        "reading": "なまえをかいてください。",
+        "translation": {
+          "th": "กรุณาเขียนชื่อ",
+          "en": "Please write your name."
+        },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Kakuwrite",
+      "sprite": "kotodama/n5_0111.png",
+      "description": {
+        "en": "A calligraphy-brush spark that leaves glowing ink trails wherever it goes. Its strokes are always perfectly balanced."
+      },
+      "rarity": "common",
+      "habitat": [
+        "hanami_academy",
+        "shrine",
+        "sakura_path"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    },
+    "mnemonic": {
+      "en": "書 = 聿 (brush) + 曰 (say) — a brush that says things on paper."
+    }
+  },
+  {
+    "id": "ja_n5_0112",
+    "lang": "ja",
+    "written": "読む",
+    "reading": "よむ",
+    "romanization": "yomu",
+    "meaning": {
+      "th": "อ่าน",
+      "en": "to read"
+    },
+    "pos": "verb",
+    "element": "spark",
+    "level": "N5",
+    "chapter": 5,
+    "tags": [
+      "verb",
+      "godan",
+      "learning",
+      "daily"
+    ],
+    "frequency": 105,
+    "audio": "voice/ja/n5_0112.mp3",
+    "examples": [
+      {
+        "sentence": "本を読みます。",
+        "reading": "ほんをよみます。",
+        "translation": {
+          "th": "อ่านหนังสือ",
+          "en": "I read a book."
+        },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Yomuread",
+      "sprite": "kotodama/n5_0112.png",
+      "description": {
+        "en": "A bespectacled spark that peers closely at everything as if decoding a secret message. Its eyes glow when it finds something interesting."
+      },
+      "rarity": "common",
+      "habitat": [
+        "hanami_academy",
+        "sakura_path",
+        "shrine"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    },
+    "mnemonic": {
+      "en": "読 = 言 (speech/word) + 売 (sell) — selling words by reading them aloud."
+    }
+  },
+  {
+    "id": "ja_n5_0113",
+    "lang": "ja",
+    "written": "飲む",
+    "reading": "のむ",
+    "romanization": "nomu",
+    "meaning": {
+      "th": "ดื่ม",
+      "en": "to drink"
+    },
+    "pos": "verb",
+    "element": "spark",
+    "level": "N5",
+    "chapter": 5,
+    "tags": [
+      "verb",
+      "godan",
+      "food",
+      "daily"
+    ],
+    "frequency": 88,
+    "audio": "voice/ja/n5_0113.mp3",
+    "examples": [
+      {
+        "sentence": "水を飲みます。",
+        "reading": "みずをのみます。",
+        "translation": {
+          "th": "ดื่มน้ำ",
+          "en": "I drink water."
+        },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Nomudrink",
+      "sprite": "kotodama/n5_0113.png",
+      "description": {
+        "en": "A bubbly, round spark that gurgles and fizzes. It turns transparent when happy, revealing swirling colours inside."
+      },
+      "rarity": "common",
+      "habitat": [
+        "shopping_street",
+        "festival_grounds",
+        "shrine"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    },
+    "mnemonic": {
+      "en": "飲 = 食 (eat/food) + 欠 (lack/yawn) — opening your mouth wide to drink."
+    }
+  },
+  {
+    "id": "ja_n5_0114",
+    "lang": "ja",
+    "written": "買う",
+    "reading": "かう",
+    "romanization": "kau",
+    "meaning": {
+      "th": "ซื้อ",
+      "en": "to buy; to purchase"
+    },
+    "pos": "verb",
+    "element": "spark",
+    "level": "N5",
+    "chapter": 5,
+    "tags": [
+      "verb",
+      "godan",
+      "commerce",
+      "daily"
+    ],
+    "frequency": 120,
+    "audio": "voice/ja/n5_0114.mp3",
+    "examples": [
+      {
+        "sentence": "お土産を買います。",
+        "reading": "おみやげをかいます。",
+        "translation": {
+          "th": "ซื้อของฝาก",
+          "en": "I will buy a souvenir."
+        },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Kaufbuy",
+      "sprite": "kotodama/n5_0114.png",
+      "description": {
+        "en": "A coin-shaped spark that jingles when it moves. It seeks out bargains and lights up whenever it spots something worth collecting."
+      },
+      "rarity": "common",
+      "habitat": [
+        "shopping_street",
+        "festival_grounds",
+        "sakura_station"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    },
+    "mnemonic": {
+      "en": "買 = 罒 (net/trap) on top + 貝 (shell/money) below — catching money in a net."
+    }
+  },
+  {
+    "id": "ja_n5_0115",
+    "lang": "ja",
+    "written": "話す",
+    "reading": "はなす",
+    "romanization": "hanasu",
+    "meaning": {
+      "th": "พูด / คุย",
+      "en": "to speak; to talk"
+    },
+    "pos": "verb",
+    "element": "spark",
+    "level": "N5",
+    "chapter": 5,
+    "tags": [
+      "verb",
+      "godan",
+      "communication",
+      "daily"
+    ],
+    "frequency": 75,
+    "audio": "voice/ja/n5_0115.mp3",
+    "examples": [
+      {
+        "sentence": "日本語で話してください。",
+        "reading": "にほんごではなしてください。",
+        "translation": {
+          "th": "กรุณาพูดภาษาญี่ปุ่น",
+          "en": "Please speak in Japanese."
+        },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Hanasuspeak",
+      "sprite": "kotodama/n5_0115.png",
+      "description": {
+        "en": "A chatty spark surrounded by floating speech bubbles. Each bubble contains a tiny sound it has heard and remembered."
+      },
+      "rarity": "common",
+      "habitat": [
+        "hanami_academy",
+        "shopping_street",
+        "festival_grounds"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    },
+    "mnemonic": {
+      "en": "話 = 言 (speech) + 舌 (tongue) — using your tongue to make speech."
+    }
+  }
+]

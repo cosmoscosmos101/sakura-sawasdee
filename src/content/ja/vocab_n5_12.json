@@ -1,0 +1,479 @@
+[
+  {
+    "id": "ja_n5_0098",
+    "lang": "ja",
+    "written": "頭",
+    "reading": "あたま",
+    "romanization": "atama",
+    "meaning": {
+      "th": "หัว",
+      "en": "head"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 5,
+    "tags": [
+      "noun",
+      "body",
+      "daily"
+    ],
+    "frequency": 95,
+    "audio": "voice/ja/n5_0098.mp3",
+    "examples": [
+      {
+        "sentence": "頭が痛いです。",
+        "reading": "あたまがいたいです。",
+        "translation": {
+          "th": "ปวดหัว",
+          "en": "I have a headache."
+        },
+        "context": "shrine"
+      }
+    ],
+    "kotodama": {
+      "name": "Atamahead",
+      "sprite": "kotodama/n5_0098.png",
+      "description": {
+        "en": "A round, glowing spirit that floats just above shoulder height. It hums with thoughts and turns to face you whenever you learn something new."
+      },
+      "rarity": "common",
+      "habitat": [
+        "shrine",
+        "hanami_academy",
+        "sakura_path"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    },
+    "mnemonic": {
+      "en": "頭 = the character for 'head' — the豆 (bean) on top is the round cranium, 頁 (page) below is the face."
+    }
+  },
+  {
+    "id": "ja_n5_0099",
+    "lang": "ja",
+    "written": "目",
+    "reading": "め",
+    "romanization": "me",
+    "meaning": {
+      "th": "ตา",
+      "en": "eye"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 5,
+    "tags": [
+      "noun",
+      "body",
+      "daily"
+    ],
+    "frequency": 72,
+    "audio": "voice/ja/n5_0099.mp3",
+    "examples": [
+      {
+        "sentence": "目を閉じてください。",
+        "reading": "めをとじてください。",
+        "translation": {
+          "th": "กรุณาหลับตา",
+          "en": "Please close your eyes."
+        },
+        "context": "sakura_path"
+      }
+    ],
+    "kotodama": {
+      "name": "Meeye",
+      "sprite": "kotodama/n5_0099.png",
+      "description": {
+        "en": "A tiny spark shaped like an open eye. It blinks once every time you read a new word, and glows brighter the more you study."
+      },
+      "rarity": "common",
+      "habitat": [
+        "sakura_path",
+        "hanami_academy",
+        "shrine"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    },
+    "mnemonic": {
+      "en": "目 = the kanji looks like an eye (目) turned on its side — two horizontal lines are the pupil and iris."
+    }
+  },
+  {
+    "id": "ja_n5_0100",
+    "lang": "ja",
+    "written": "耳",
+    "reading": "みみ",
+    "romanization": "mimi",
+    "meaning": {
+      "th": "หู",
+      "en": "ear"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 5,
+    "tags": [
+      "noun",
+      "body",
+      "daily"
+    ],
+    "frequency": 88,
+    "audio": "voice/ja/n5_0100.mp3",
+    "examples": [
+      {
+        "sentence": "耳が大きいですね。",
+        "reading": "みみがおおきいですね。",
+        "translation": {
+          "th": "หูใหญ่นะ",
+          "en": "You have big ears."
+        },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Mimiear",
+      "sprite": "kotodama/n5_0100.png",
+      "description": {
+        "en": "A leaf-shaped spirit with rounded lobes that quiver whenever someone speaks nearby. It collects sounds like a collector gathers stamps."
+      },
+      "rarity": "common",
+      "habitat": [
+        "shopping_street",
+        "sakura_path",
+        "shrine"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    },
+    "mnemonic": {
+      "en": "耳 = the kanji is a stylized ear shape — the vertical line is the ear canal."
+    }
+  },
+  {
+    "id": "ja_n5_0101",
+    "lang": "ja",
+    "written": "口",
+    "reading": "くち",
+    "romanization": "kuchi",
+    "meaning": {
+      "th": "ปาก",
+      "en": "mouth"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 5,
+    "tags": [
+      "noun",
+      "body",
+      "daily"
+    ],
+    "frequency": 80,
+    "audio": "voice/ja/n5_0101.mp3",
+    "examples": [
+      {
+        "sentence": "口を大きく開けてください。",
+        "reading": "くちをおおきくあけてください。",
+        "translation": {
+          "th": "กรุณาอ้าปากให้กว้าง",
+          "en": "Please open your mouth wide."
+        },
+        "context": "sakura_path"
+      }
+    ],
+    "kotodama": {
+      "name": "Kuchimouth",
+      "sprite": "kotodama/n5_0101.png",
+      "description": {
+        "en": "A cheerful spirit shaped like an open O. It loves to sing and appears whenever someone speaks aloud in a new language."
+      },
+      "rarity": "common",
+      "habitat": [
+        "sakura_path",
+        "shopping_street",
+        "festival_grounds"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    },
+    "mnemonic": {
+      "en": "口 = a simple square — the shape of an open mouth."
+    }
+  },
+  {
+    "id": "ja_n5_0102",
+    "lang": "ja",
+    "written": "手",
+    "reading": "て",
+    "romanization": "te",
+    "meaning": {
+      "th": "มือ",
+      "en": "hand"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 5,
+    "tags": [
+      "noun",
+      "body",
+      "daily"
+    ],
+    "frequency": 65,
+    "audio": "voice/ja/n5_0102.mp3",
+    "examples": [
+      {
+        "sentence": "手を洗ってください。",
+        "reading": "てをあらってください。",
+        "translation": {
+          "th": "กรุณาล้างมือ",
+          "en": "Please wash your hands."
+        },
+        "context": "shrine"
+      }
+    ],
+    "kotodama": {
+      "name": "Tehand",
+      "sprite": "kotodama/n5_0102.png",
+      "description": {
+        "en": "A five-fingered spirit that claps whenever you get an answer right. It leaves little starry handprints in the air."
+      },
+      "rarity": "common",
+      "habitat": [
+        "shrine",
+        "hanami_academy",
+        "sakura_path"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    },
+    "mnemonic": {
+      "en": "手 = the kanji shows fingers (三 = three lines) above a palm — an open hand reaching out."
+    }
+  },
+  {
+    "id": "ja_n5_0103",
+    "lang": "ja",
+    "written": "足",
+    "reading": "あし",
+    "romanization": "ashi",
+    "meaning": {
+      "th": "เท้า / ขา",
+      "en": "foot; leg"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 5,
+    "tags": [
+      "noun",
+      "body",
+      "daily"
+    ],
+    "frequency": 78,
+    "audio": "voice/ja/n5_0103.mp3",
+    "examples": [
+      {
+        "sentence": "足が速いですね。",
+        "reading": "あしがはやいですね。",
+        "translation": {
+          "th": "วิ่งเร็วจริงๆ",
+          "en": "You are fast on your feet."
+        },
+        "context": "sakura_path"
+      }
+    ],
+    "kotodama": {
+      "name": "Ashifoot",
+      "sprite": "kotodama/n5_0103.png",
+      "description": {
+        "en": "A bouncy spirit that leaves glowing footprints as it hops. It is always the first to arrive and the last to sit still."
+      },
+      "rarity": "common",
+      "habitat": [
+        "sakura_path",
+        "autumn_hill",
+        "shrine"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    },
+    "mnemonic": {
+      "en": "足 = the upper part (口) is a mouth shape; the lower part (止) means 'stop' — feet that pause after a journey."
+    }
+  },
+  {
+    "id": "ja_n5_0104",
+    "lang": "ja",
+    "written": "体",
+    "reading": "からだ",
+    "romanization": "karada",
+    "meaning": {
+      "th": "ร่างกาย",
+      "en": "body"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 5,
+    "tags": [
+      "noun",
+      "body",
+      "daily"
+    ],
+    "frequency": 110,
+    "audio": "voice/ja/n5_0104.mp3",
+    "examples": [
+      {
+        "sentence": "体に気をつけてください。",
+        "reading": "からだにきをつけてください。",
+        "translation": {
+          "th": "ดูแลสุขภาพด้วยนะ",
+          "en": "Please take care of your body."
+        },
+        "context": "shrine"
+      }
+    ],
+    "kotodama": {
+      "name": "Karadabody",
+      "sprite": "kotodama/n5_0104.png",
+      "description": {
+        "en": "A soft, warm spirit shaped like a small human silhouette. It glows healthiest after you complete a full study session."
+      },
+      "rarity": "common",
+      "habitat": [
+        "shrine",
+        "sakura_path",
+        "hanami_academy"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    },
+    "mnemonic": {
+      "en": "体 = 人 (person) on the left + 本 (origin/base) on the right — the 'root' of a person."
+    }
+  },
+  {
+    "id": "ja_n5_0105",
+    "lang": "ja",
+    "written": "顔",
+    "reading": "かお",
+    "romanization": "kao",
+    "meaning": {
+      "th": "ใบหน้า",
+      "en": "face"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 5,
+    "tags": [
+      "noun",
+      "body",
+      "daily"
+    ],
+    "frequency": 92,
+    "audio": "voice/ja/n5_0105.mp3",
+    "examples": [
+      {
+        "sentence": "彼女の顔は丸いです。",
+        "reading": "かのじょのかおはまるいです。",
+        "translation": {
+          "th": "ใบหน้าของเธอกลม",
+          "en": "Her face is round."
+        },
+        "context": "sakura_path"
+      }
+    ],
+    "kotodama": {
+      "name": "Kaoface",
+      "sprite": "kotodama/n5_0105.png",
+      "description": {
+        "en": "A mirror-shaped spirit that reflects the expression of whoever looks at it. When you smile, it smiles back twice as warmly."
+      },
+      "rarity": "common",
+      "habitat": [
+        "sakura_path",
+        "festival_grounds",
+        "shrine"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    },
+    "mnemonic": {
+      "en": "顔 = the left side shows a cheek; 頁 (page/head) on the right — the front side of the head."
+    }
+  },
+  {
+    "id": "ja_n5_0106",
+    "lang": "ja",
+    "written": "髪",
+    "reading": "かみ",
+    "romanization": "kami",
+    "meaning": {
+      "th": "ผม / เส้นผม",
+      "en": "hair (on head)"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 5,
+    "tags": [
+      "noun",
+      "body",
+      "daily"
+    ],
+    "frequency": 130,
+    "audio": "voice/ja/n5_0106.mp3",
+    "examples": [
+      {
+        "sentence": "彼の髪は黒いです。",
+        "reading": "かれのかみはくろいです。",
+        "translation": {
+          "th": "ผมของเขาดำ",
+          "en": "His hair is black."
+        },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Kamihair",
+      "sprite": "kotodama/n5_0106.png",
+      "description": {
+        "en": "A silky spirit made of flowing strands that drift in the breeze. It changes colour in moonlight and is said to bring good luck when braided."
+      },
+      "rarity": "common",
+      "habitat": [
+        "shopping_street",
+        "sakura_path",
+        "shrine"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    },
+    "mnemonic": {
+      "en": "髪 = 長 (long) on top + 彡 (strands) on the right — long flowing strands of hair."
+    }
+  }
+]
