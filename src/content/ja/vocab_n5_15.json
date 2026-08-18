@@ -2,12 +2,12 @@
   {
     "id": "ja_n5_0125",
     "lang": "ja",
-    "written": "学校",
-    "reading": "がっこう",
-    "romanization": "gakkou",
+    "written": "名前",
+    "reading": "なまえ",
+    "romanization": "namae",
     "meaning": {
-      "th": "โรงเรียน",
-      "en": "school"
+      "th": "ชื่อ",
+      "en": "name; full name"
     },
     "pos": "noun",
     "element": "bloom",
@@ -15,32 +15,34 @@
     "chapter": 6,
     "tags": [
       "noun",
-      "place",
-      "daily"
+      "daily",
+      "core",
+      "identity"
     ],
-    "frequency": 88,
+    "frequency": 62,
     "audio": "voice/ja/n5_0125.mp3",
     "examples": [
       {
-        "sentence": "学校に行きます。",
-        "reading": "がっこうにいきます。",
+        "sentence": "お名前は何ですか。",
+        "reading": "おなまえはなんですか。",
         "translation": {
-          "th": "ไปโรงเรียน",
-          "en": "I go to school."
+          "th": "คุณชื่ออะไรคะ",
+          "en": "What is your name?"
         },
         "context": "hanami_academy"
       }
     ],
     "kotodama": {
-      "name": "Gakkoulearn",
+      "name": "Namaename",
       "sprite": "kotodama/n5_0125.png",
       "description": {
-        "en": "A book-shaped spirit that floats above school gates. It opens itself to reveal tiny glowing classrooms inside."
+        "en": "A name-tag spirit that floats at chest height. Its surface shimmers with whatever word you want to be known by."
       },
       "rarity": "common",
       "habitat": [
         "hanami_academy",
-        "sakura_path"
+        "sakura_path",
+        "shrine"
       ],
       "evolveCondition": {
         "type": "review_streak",
@@ -48,18 +50,18 @@
       }
     },
     "mnemonic": {
-      "en": "学校 = 学 (study) + 校 (school building) — the place where study happens."
+      "en": "名前 = 名 (name/famous) + 前 (before/front) — the name that comes before you."
     }
   },
   {
     "id": "ja_n5_0126",
     "lang": "ja",
-    "written": "駅",
-    "reading": "えき",
-    "romanization": "eki",
+    "written": "時間",
+    "reading": "じかん",
+    "romanization": "jikan",
     "meaning": {
-      "th": "สถานีรถไฟ",
-      "en": "train station; station"
+      "th": "เวลา / ชั่วโมง",
+      "en": "time; hour (duration)"
     },
     "pos": "noun",
     "element": "bloom",
@@ -67,33 +69,34 @@
     "chapter": 6,
     "tags": [
       "noun",
-      "place",
-      "transport",
-      "daily"
+      "time",
+      "daily",
+      "core"
     ],
-    "frequency": 105,
+    "frequency": 68,
     "audio": "voice/ja/n5_0126.mp3",
     "examples": [
       {
-        "sentence": "駅で待っています。",
-        "reading": "えきでまっています。",
+        "sentence": "時間がありません。",
+        "reading": "じかんがありません。",
         "translation": {
-          "th": "รอที่สถานี",
-          "en": "I am waiting at the station."
+          "th": "ไม่มีเวลา",
+          "en": "I don't have time."
         },
         "context": "sakura_station"
       }
     ],
     "kotodama": {
-      "name": "Ekistation",
+      "name": "Jikantime",
       "sprite": "kotodama/n5_0126.png",
       "description": {
-        "en": "A platform-shaped spirit with little flashing departure boards. It always knows exactly when the next train arrives."
+        "en": "A stopwatch spirit that ticks steadily. It speeds up when you are busy and slows to a crawl when you are bored."
       },
       "rarity": "common",
       "habitat": [
         "sakura_station",
-        "shopping_street"
+        "hanami_academy",
+        "shrine"
       ],
       "evolveCondition": {
         "type": "review_streak",
@@ -101,18 +104,18 @@
       }
     },
     "mnemonic": {
-      "en": "駅 = 馬 (horse) + 尺 (measure) — old relay stations measured by how far a horse could ride."
+      "en": "時間 = 時 (time/hour) + 間 (interval/between) — the space between moments."
     }
   },
   {
     "id": "ja_n5_0127",
     "lang": "ja",
-    "written": "病院",
-    "reading": "びょういん",
-    "romanization": "byouin",
+    "written": "お金",
+    "reading": "おかね",
+    "romanization": "okane",
     "meaning": {
-      "th": "โรงพยาบาล",
-      "en": "hospital"
+      "th": "เงิน",
+      "en": "money; cash"
     },
     "pos": "noun",
     "element": "bloom",
@@ -120,33 +123,34 @@
     "chapter": 6,
     "tags": [
       "noun",
-      "place",
-      "health",
-      "daily"
+      "finance",
+      "daily",
+      "commerce"
     ],
-    "frequency": 132,
+    "frequency": 78,
     "audio": "voice/ja/n5_0127.mp3",
     "examples": [
       {
-        "sentence": "病院に行きたいです。",
-        "reading": "びょういんにいきたいです。",
+        "sentence": "お金がありません。",
+        "reading": "おかねがありません。",
         "translation": {
-          "th": "อยากไปโรงพยาบาล",
-          "en": "I want to go to the hospital."
+          "th": "ไม่มีเงิน",
+          "en": "I don't have money."
         },
-        "context": "shrine"
+        "context": "shopping_street"
       }
     ],
     "kotodama": {
-      "name": "Byouinheal",
+      "name": "Okanerich",
       "sprite": "kotodama/n5_0127.png",
       "description": {
-        "en": "A gentle white spirit with a tiny red cross. It floats quietly and hums a soothing tone — everything feels calmer in its presence."
+        "en": "A coin-shaped spirit with a gleaming golden surface. It rattles quietly when you pick it up and feels heavier than it looks."
       },
-      "rarity": "uncommon",
+      "rarity": "common",
       "habitat": [
-        "shrine",
-        "sakura_path"
+        "shopping_street",
+        "festival_grounds",
+        "sakura_station"
       ],
       "evolveCondition": {
         "type": "review_streak",
@@ -154,18 +158,18 @@
       }
     },
     "mnemonic": {
-      "en": "病院 = 病 (illness) + 院 (institution) — the institution for illness."
+      "en": "お金 = お (honorific prefix) + 金 (gold/metal/money)."
     }
   },
   {
     "id": "ja_n5_0128",
     "lang": "ja",
-    "written": "公園",
-    "reading": "こうえん",
-    "romanization": "kouen",
+    "written": "電話",
+    "reading": "でんわ",
+    "romanization": "denwa",
     "meaning": {
-      "th": "สวนสาธารณะ",
-      "en": "park; public garden"
+      "th": "โทรศัพท์",
+      "en": "telephone; phone call"
     },
     "pos": "noun",
     "element": "bloom",
@@ -173,34 +177,33 @@
     "chapter": 6,
     "tags": [
       "noun",
-      "place",
-      "nature",
+      "communication",
       "daily"
     ],
-    "frequency": 118,
+    "frequency": 110,
     "audio": "voice/ja/n5_0128.mp3",
     "examples": [
       {
-        "sentence": "公園で遊びます。",
-        "reading": "こうえんであそびます。",
+        "sentence": "電話してください。",
+        "reading": "でんわしてください。",
         "translation": {
-          "th": "เล่นในสวนสาธารณะ",
-          "en": "I play in the park."
+          "th": "กรุณาโทรมา",
+          "en": "Please call me."
         },
-        "context": "sakura_path"
+        "context": "shopping_street"
       }
     ],
     "kotodama": {
-      "name": "Kouenpark",
+      "name": "Denwaring",
       "sprite": "kotodama/n5_0128.png",
       "description": {
-        "en": "A leafy-green spirit shaped like a park bench under a tree. Flowers sprout wherever it rests, and it cannot sit still for long."
+        "en": "A ringing spirit shaped like a vintage telephone receiver. It lights up and vibrates whenever someone nearby is thinking of calling."
       },
       "rarity": "common",
       "habitat": [
-        "sakura_path",
-        "hanami_academy",
-        "autumn_hill"
+        "shopping_street",
+        "sakura_station",
+        "hanami_academy"
       ],
       "evolveCondition": {
         "type": "review_streak",
@@ -208,11 +211,65 @@
       }
     },
     "mnemonic": {
-      "en": "公園 = 公 (public) + 園 (garden) — a garden open to everyone."
+      "en": "電話 = 電 (electricity) + 話 (speech) — speaking through electricity."
     }
   },
   {
     "id": "ja_n5_0129",
+    "lang": "ja",
+    "written": "体",
+    "reading": "からだ",
+    "romanization": "karada",
+    "meaning": {
+      "th": "ร่างกาย",
+      "en": "body; one's physical self"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 6,
+    "tags": [
+      "noun",
+      "body",
+      "health",
+      "daily"
+    ],
+    "frequency": 90,
+    "audio": "voice/ja/n5_0129.mp3",
+    "examples": [
+      {
+        "sentence": "体に気をつけてください。",
+        "reading": "からだにきをつけてください。",
+        "translation": {
+          "th": "ดูแลสุขภาพด้วยนะ",
+          "en": "Please take care of your body."
+        },
+        "context": "shrine"
+      }
+    ],
+    "kotodama": {
+      "name": "Karadabody",
+      "sprite": "kotodama/n5_0129.png",
+      "description": {
+        "en": "A soft silhouette spirit that glows healthiest after a full study session. It dims when tired and brightens when rested."
+      },
+      "rarity": "common",
+      "habitat": [
+        "shrine",
+        "sakura_path",
+        "hanami_academy"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    },
+    "mnemonic": {
+      "en": "体 = 人 (person) + 本 (origin/root) — the root foundation of a person."
+    }
+  },
+  {
+    "id": "ja_n5_0130",
     "lang": "ja",
     "written": "店",
     "reading": "みせ",
@@ -232,13 +289,13 @@
       "daily"
     ],
     "frequency": 98,
-    "audio": "voice/ja/n5_0129.mp3",
+    "audio": "voice/ja/n5_0130.mp3",
     "examples": [
       {
         "sentence": "あの店はおいしいです。",
         "reading": "あのみせはおいしいです。",
         "translation": {
-          "th": "ร้านนั้นอร่อยมาก",
+          "th": "ร้านนั้นอร่อย",
           "en": "That shop is delicious."
         },
         "context": "shopping_street"
@@ -246,9 +303,9 @@
     ],
     "kotodama": {
       "name": "Miseshop",
-      "sprite": "kotodama/n5_0129.png",
+      "sprite": "kotodama/n5_0130.png",
       "description": {
-        "en": "A cheerful spirit shaped like a shop curtain (暖簾). It sways in the doorway of every business and greets each customer."
+        "en": "A shop-curtain (暖簾) spirit that sways in doorways and greets every customer with an eager ripple."
       },
       "rarity": "common",
       "habitat": [
@@ -262,125 +319,18 @@
       }
     },
     "mnemonic": {
-      "en": "店 = 广 (roof/shelter) + 占 (occupy) — a shelter one occupies for business."
-    }
-  },
-  {
-    "id": "ja_n5_0130",
-    "lang": "ja",
-    "written": "家",
-    "reading": "いえ",
-    "romanization": "ie",
-    "meaning": {
-      "th": "บ้าน",
-      "en": "house; home"
-    },
-    "pos": "noun",
-    "element": "bloom",
-    "level": "N5",
-    "chapter": 6,
-    "tags": [
-      "noun",
-      "place",
-      "daily"
-    ],
-    "frequency": 62,
-    "audio": "voice/ja/n5_0130.mp3",
-    "examples": [
-      {
-        "sentence": "家に帰ります。",
-        "reading": "いえにかえります。",
-        "translation": {
-          "th": "กลับบ้าน",
-          "en": "I return home."
-        },
-        "context": "sakura_path"
-      }
-    ],
-    "kotodama": {
-      "name": "Iehome",
-      "sprite": "kotodama/n5_0130.png",
-      "description": {
-        "en": "A cosy spirit shaped like a small thatched house. It always glows warmly in the windows and smells like a home-cooked meal."
-      },
-      "rarity": "common",
-      "habitat": [
-        "sakura_path",
-        "shrine",
-        "hanami_academy"
-      ],
-      "evolveCondition": {
-        "type": "review_streak",
-        "value": 5
-      }
-    },
-    "mnemonic": {
-      "en": "家 = 宀 (roof) + 豕 (pig) — long ago, a household kept pigs under the same roof."
+      "en": "店 = 广 (shelter/roof) + 占 (occupy) — a shelter one occupies for business."
     }
   },
   {
     "id": "ja_n5_0131",
-    "lang": "ja",
-    "written": "図書館",
-    "reading": "としょかん",
-    "romanization": "toshokan",
-    "meaning": {
-      "th": "ห้องสมุด",
-      "en": "library"
-    },
-    "pos": "noun",
-    "element": "bloom",
-    "level": "N5",
-    "chapter": 6,
-    "tags": [
-      "noun",
-      "place",
-      "learning",
-      "daily"
-    ],
-    "frequency": 175,
-    "audio": "voice/ja/n5_0131.mp3",
-    "examples": [
-      {
-        "sentence": "図書館で本を読みます。",
-        "reading": "としょかんでほんをよみます。",
-        "translation": {
-          "th": "อ่านหนังสือในห้องสมุด",
-          "en": "I read books at the library."
-        },
-        "context": "hanami_academy"
-      }
-    ],
-    "kotodama": {
-      "name": "Toshokanlibrary",
-      "sprite": "kotodama/n5_0131.png",
-      "description": {
-        "en": "A hush-shaped spirit made entirely of stacked books. It signals quiet with one tiny finger and projects starry reading lamps."
-      },
-      "rarity": "uncommon",
-      "habitat": [
-        "hanami_academy",
-        "shrine",
-        "sakura_path"
-      ],
-      "evolveCondition": {
-        "type": "review_streak",
-        "value": 5
-      }
-    },
-    "mnemonic": {
-      "en": "図書館 = 図 (diagram/map) + 書 (write/book) + 館 (building) — a building full of written diagrams and books."
-    }
-  },
-  {
-    "id": "ja_n5_0132",
     "lang": "ja",
     "written": "銀行",
     "reading": "ぎんこう",
     "romanization": "ginkou",
     "meaning": {
       "th": "ธนาคาร",
-      "en": "bank (financial)"
+      "en": "bank (financial institution)"
     },
     "pos": "noun",
     "element": "bloom",
@@ -393,7 +343,7 @@
       "daily"
     ],
     "frequency": 155,
-    "audio": "voice/ja/n5_0132.mp3",
+    "audio": "voice/ja/n5_0131.mp3",
     "examples": [
       {
         "sentence": "銀行でお金をおろします。",
@@ -407,9 +357,9 @@
     ],
     "kotodama": {
       "name": "Ginkoubank",
-      "sprite": "kotodama/n5_0132.png",
+      "sprite": "kotodama/n5_0131.png",
       "description": {
-        "en": "A coin-vault spirit with tiny spinning cog doors. It hums with the sound of counting and always knows the exact time."
+        "en": "A vault-door spirit with tiny spinning cog locks. It hums precisely and always knows the exact balance."
       },
       "rarity": "uncommon",
       "habitat": [
@@ -422,11 +372,11 @@
       }
     },
     "mnemonic": {
-      "en": "銀行 = 銀 (silver) + 行 (go/row) — originally where silver was exchanged in rows of stalls."
+      "en": "銀行 = 銀 (silver) + 行 (go/row) — originally a row of stalls where silver was traded."
     }
   },
   {
-    "id": "ja_n5_0133",
+    "id": "ja_n5_0132",
     "lang": "ja",
     "written": "空港",
     "reading": "くうこう",
@@ -443,10 +393,10 @@
       "noun",
       "place",
       "transport",
-      "daily"
+      "travel"
     ],
     "frequency": 210,
-    "audio": "voice/ja/n5_0133.mp3",
+    "audio": "voice/ja/n5_0132.mp3",
     "examples": [
       {
         "sentence": "空港は混んでいます。",
@@ -460,9 +410,9 @@
     ],
     "kotodama": {
       "name": "Kuukoufly",
-      "sprite": "kotodama/n5_0133.png",
+      "sprite": "kotodama/n5_0132.png",
       "description": {
-        "en": "A winged, cloud-shaped spirit that streaks overhead trailing a jet contrail. It appears whenever someone is about to go on an adventure."
+        "en": "A winged cloud spirit that streaks overhead trailing a contrail. It appears whenever someone is about to begin a journey."
       },
       "rarity": "uncommon",
       "habitat": [
@@ -475,7 +425,60 @@
       }
     },
     "mnemonic": {
-      "en": "空港 = 空 (sky/empty) + 港 (port/harbour) — a harbour in the sky."
+      "en": "空港 = 空 (sky) + 港 (harbour/port) — a harbour in the sky."
+    }
+  },
+  {
+    "id": "ja_n5_0133",
+    "lang": "ja",
+    "written": "顔",
+    "reading": "かお",
+    "romanization": "kao",
+    "meaning": {
+      "th": "ใบหน้า",
+      "en": "face"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 6,
+    "tags": [
+      "noun",
+      "body",
+      "daily"
+    ],
+    "frequency": 92,
+    "audio": "voice/ja/n5_0133.mp3",
+    "examples": [
+      {
+        "sentence": "彼女の顔は丸いです。",
+        "reading": "かのじょのかおはまるいです。",
+        "translation": {
+          "th": "ใบหน้าของเธอกลม",
+          "en": "Her face is round."
+        },
+        "context": "sakura_path"
+      }
+    ],
+    "kotodama": {
+      "name": "Kaoface",
+      "sprite": "kotodama/n5_0133.png",
+      "description": {
+        "en": "A mirror-shaped spirit that reflects the expression of whoever looks at it. When you smile, it smiles back twice as warmly."
+      },
+      "rarity": "common",
+      "habitat": [
+        "sakura_path",
+        "festival_grounds",
+        "shrine"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    },
+    "mnemonic": {
+      "en": "顔 = a combination showing a cheek + 頁 (head) — the front side of the head."
     }
   }
 ]
