@@ -1,0 +1,162 @@
+[
+  {
+    "id": "ja_n5_0007",
+    "lang": "ja",
+    "written": "春",
+    "reading": "はる",
+    "romanization": "haru",
+    "meaning": { "th": "ฤดูใบไม้ผลิ", "en": "spring (season)" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["season", "nature", "time"],
+    "frequency": 1200,
+    "audio": "voice/ja/haru.mp3",
+    "examples": [
+      {
+        "sentence": "春は桜がきれいです。",
+        "reading": "はるはさくらがきれいです。",
+        "translation": { "th": "ฤดูใบไม้ผลิดอกซากุระสวยงาม", "en": "Cherry blossoms are beautiful in spring." },
+        "context": "sakura_garden"
+      }
+    ],
+    "kotodama": {
+      "name": "Harune",
+      "sprite": "kotodama/harune.png",
+      "description": { "en": "A warm spirit that carries the first petal of spring wherever it goes." },
+      "rarity": "common",
+      "habitat": ["sakura_garden", "hanami_academy"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "春 has 日 (sun) at the top warming the earth below — warmth = spring." }
+  },
+  {
+    "id": "ja_n5_0008",
+    "lang": "ja",
+    "written": "夏",
+    "reading": "なつ",
+    "romanization": "natsu",
+    "meaning": { "th": "ฤดูร้อน", "en": "summer" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["season", "nature", "time"],
+    "frequency": 1100,
+    "audio": "voice/ja/natsu.mp3",
+    "examples": [
+      {
+        "sentence": "夏は暑いです。",
+        "reading": "なつはあついです。",
+        "translation": { "th": "ฤดูร้อนอากาศร้อน", "en": "Summer is hot." },
+        "context": "sakura_garden"
+      }
+    ],
+    "kotodama": {
+      "name": "Natsuki",
+      "sprite": "kotodama/natsuki.png",
+      "description": { "en": "A bright spirit that radiates warmth and hums like cicadas." },
+      "rarity": "common",
+      "habitat": ["sakura_garden"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "夏 looks like a person fanning themselves — fanning = hot = summer." }
+  },
+  {
+    "id": "ja_n5_0009",
+    "lang": "ja",
+    "written": "秋",
+    "reading": "あき",
+    "romanization": "aki",
+    "meaning": { "th": "ฤดูใบไม้ร่วง", "en": "autumn / fall" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["season", "nature", "time"],
+    "frequency": 1000,
+    "audio": "voice/ja/aki.mp3",
+    "examples": [
+      {
+        "sentence": "秋は紅葉がきれいです。",
+        "reading": "あきはこうようがきれいです。",
+        "translation": { "th": "ฤดูใบไม้ร่วงใบไม้แดงสวยงาม", "en": "The autumn leaves are beautiful." },
+        "context": "autumn_hill"
+      }
+    ],
+    "kotodama": {
+      "name": "Akiho",
+      "sprite": "kotodama/akiho.png",
+      "description": { "en": "A russet spirit that drifts like a falling leaf, always spinning." },
+      "rarity": "common",
+      "habitat": ["sakura_garden", "autumn_hill"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "秋 = 禾 (grain) + 火 (fire) — harvest fire burning the fields = autumn." }
+  },
+  {
+    "id": "ja_n5_0010",
+    "lang": "ja",
+    "written": "冬",
+    "reading": "ふゆ",
+    "romanization": "fuyu",
+    "meaning": { "th": "ฤดูหนาว", "en": "winter" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["season", "nature", "time"],
+    "frequency": 900,
+    "audio": "voice/ja/fuyu.mp3",
+    "examples": [
+      {
+        "sentence": "冬は雪が降ります。",
+        "reading": "ふゆはゆきがふります。",
+        "translation": { "th": "ฤดูหนาวมีหิมะตก", "en": "It snows in winter." },
+        "context": "winter_courtyard"
+      }
+    ],
+    "kotodama": {
+      "name": "Fuyumi",
+      "sprite": "kotodama/fuyumi.png",
+      "description": { "en": "A pale spirit that floats silently and leaves small snowflake prints." },
+      "rarity": "uncommon",
+      "habitat": ["winter_courtyard"],
+      "evolveCondition": { "type": "review_streak", "value": 7 }
+    },
+    "mnemonic": { "en": "冬 has two dots of ice at the bottom — frozen feet = winter." }
+  },
+  {
+    "id": "ja_n5_0011",
+    "lang": "ja",
+    "written": "山",
+    "reading": "やま",
+    "romanization": "yama",
+    "meaning": { "th": "ภูเขา", "en": "mountain" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["nature", "place"],
+    "frequency": 1500,
+    "audio": "voice/ja/yama.mp3",
+    "examples": [
+      {
+        "sentence": "山が高いです。",
+        "reading": "やまがたかいです。",
+        "translation": { "th": "ภูเขาสูง", "en": "The mountain is tall." },
+        "context": "autumn_hill"
+      }
+    ],
+    "kotodama": {
+      "name": "Yamaho",
+      "sprite": "kotodama/yamaho.png",
+      "description": { "en": "A sturdy spirit shaped like three mountain peaks. It rarely moves but always watches." },
+      "rarity": "common",
+      "habitat": ["autumn_hill"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "山 looks exactly like three mountain peaks — no memory trick needed." }
+  }
+]

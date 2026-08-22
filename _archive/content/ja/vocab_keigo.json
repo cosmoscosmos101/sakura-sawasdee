@@ -1,0 +1,257 @@
+[
+  {
+    "id": "ja_keigo_01",
+    "lang": "ja",
+    "written": "ございます",
+    "reading": "ございます",
+    "romanization": "gozaimasu",
+    "meaning": { "th": "มี / เป็น (รูปสุภาพสูงสุด = keigo ของ あります)", "en": "formal/polite form of 'to exist / to have' — the most deferential level" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "N4",
+    "chapter": 4,
+    "tags": ["keigo", "formal", "verb", "politeness"],
+    "frequency": 320,
+    "audio": "voice/ja/keigo_01.mp3",
+    "conjugationGroup": "irregular",
+    "examples": [
+      {
+        "sentence": "どうぞよろしくおねがいいたします。",
+        "reading": "どうぞよろしくおねがいいたします。",
+        "translation": { "th": "ขอฝากเนื้อฝากตัวด้วย (สุภาพมาก)", "en": "I humbly request your favour." },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Gozaru",
+      "sprite": "kotodama/keigo_01.png",
+      "description": { "en": "An immaculately dressed spirit in formal black robes, bow at a perfect 30 degrees. It speaks only in polished, unbreakable sentences — casual speech makes it visibly wince." },
+      "rarity": "rare",
+      "habitat": ["hanami_academy", "shrine"],
+      "evolveCondition": { "type": "review_streak", "value": 10 }
+    }
+  },
+  {
+    "id": "ja_keigo_02",
+    "lang": "ja",
+    "written": "いらっしゃいます",
+    "reading": "いらっしゃいます",
+    "romanization": "irasshaimasu",
+    "meaning": { "th": "อยู่ / ไป / มา (รูปเคารพ = 尊敬語 สำหรับคนอื่น)", "en": "honorific form of いる/行く/来る — used for others' actions (never your own)" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "N4",
+    "chapter": 4,
+    "tags": ["keigo", "formal", "verb", "honorific", "politeness"],
+    "frequency": 340,
+    "audio": "voice/ja/keigo_02.mp3",
+    "conjugationGroup": "irregular",
+    "examples": [
+      {
+        "sentence": "せんせいはきょうしつにいらっしゃいます。",
+        "reading": "せんせいはきょうしつにいらっしゃいます。",
+        "translation": { "th": "อาจารย์อยู่ในห้องเรียน (พูดถึงอาจารย์ด้วยความเคารพ)", "en": "The teacher is in the classroom. (respectful)" },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Irassha",
+      "sprite": "kotodama/keigo_02.png",
+      "description": { "en": "A graceful spirit that only speaks of others — never itself. It materialises when someone important enters the room and makes an elegant gesture of welcome." },
+      "rarity": "rare",
+      "habitat": ["hanami_academy", "shrine"],
+      "evolveCondition": { "type": "review_streak", "value": 10 }
+    }
+  },
+  {
+    "id": "ja_keigo_03",
+    "lang": "ja",
+    "written": "おります",
+    "reading": "おります",
+    "romanization": "orimasu",
+    "meaning": { "th": "อยู่ (รูปถ่อมตน = 謙譲語 สำหรับตัวเอง)", "en": "humble form of いる — used when talking about yourself to show deference" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "N4",
+    "chapter": 4,
+    "tags": ["keigo", "formal", "verb", "humble", "politeness"],
+    "frequency": 360,
+    "audio": "voice/ja/keigo_03.mp3",
+    "conjugationGroup": "irregular",
+    "examples": [
+      {
+        "sentence": "わたくしはここにおります。",
+        "reading": "わたくしはここにおります。",
+        "translation": { "th": "ข้าพเจ้าอยู่ที่นี่ (ถ่อมตน)", "en": "I am here. (humble)" },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Oriru",
+      "sprite": "kotodama/keigo_03.png",
+      "description": { "en": "A small spirit that keeps its head slightly bowed. Unlike Irassha, Oriru only talks about its own presence — quietly, precisely, without drawing attention." },
+      "rarity": "rare",
+      "habitat": ["hanami_academy", "shrine"],
+      "evolveCondition": { "type": "review_streak", "value": 10 }
+    }
+  },
+  {
+    "id": "ja_keigo_04",
+    "lang": "ja",
+    "written": "まいります",
+    "reading": "まいります",
+    "romanization": "mairimasu",
+    "meaning": { "th": "ไป / มา (รูปถ่อมตน = 謙譲語)", "en": "humble form of 行く/来る — what you say when referring to your own travel" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "N4",
+    "chapter": 4,
+    "tags": ["keigo", "formal", "verb", "humble", "politeness"],
+    "frequency": 380,
+    "audio": "voice/ja/keigo_04.mp3",
+    "conjugationGroup": "irregular",
+    "examples": [
+      {
+        "sentence": "すぐまいります。",
+        "reading": "すぐまいります。",
+        "translation": { "th": "จะไป / มาทันที (พูดถ่อมตน)", "en": "I will go/come right away. (humble)" },
+        "context": "sakura_station"
+      }
+    ],
+    "kotodama": {
+      "name": "Mairu",
+      "sprite": "kotodama/keigo_04.png",
+      "description": { "en": "A soft-stepping spirit that always arrives precisely on time. It announces its own movement in hushed, respectful tones — it would never barge in unannounced." },
+      "rarity": "rare",
+      "habitat": ["sakura_station", "hanami_academy"],
+      "evolveCondition": { "type": "review_streak", "value": 10 }
+    }
+  },
+  {
+    "id": "ja_keigo_05",
+    "lang": "ja",
+    "written": "いただきます",
+    "reading": "いただきます",
+    "romanization": "itadakimasu",
+    "meaning": { "th": "ขอรับ / รับประทาน (รูปถ่อมตน ใช้ก่อนกินอาหารด้วย)", "en": "humble 'to receive/eat/drink' — also said before meals as a grace" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "N5",
+    "chapter": 4,
+    "tags": ["keigo", "formal", "verb", "humble", "culture", "politeness"],
+    "frequency": 280,
+    "audio": "voice/ja/keigo_05.mp3",
+    "conjugationGroup": "irregular",
+    "examples": [
+      {
+        "sentence": "いただきます！",
+        "reading": "いただきます！",
+        "translation": { "th": "ขอรับ! / ขอบคุณสำหรับอาหาร!", "en": "I humbly receive! (said before eating)" },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Itadaki",
+      "sprite": "kotodama/keigo_05.png",
+      "description": { "en": "A spirit with both hands raised in the receiving posture. It appears at every meal and makes everything taste better just by being present — gratitude made tangible." },
+      "rarity": "uncommon",
+      "habitat": ["shopping_street", "festival_grounds", "fresh_market"],
+      "evolveCondition": { "type": "combo_count", "value": 15 }
+    }
+  },
+  {
+    "id": "ja_keigo_06",
+    "lang": "ja",
+    "written": "めしあがります",
+    "reading": "めしあがります",
+    "romanization": "meshiagarimasu",
+    "meaning": { "th": "กิน / ดื่ม (รูปเคารพ = 尊敬語 ใช้กับคนอื่น)", "en": "honorific form of 食べる/飲む — said when someone else eats or drinks" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "N4",
+    "chapter": 4,
+    "tags": ["keigo", "formal", "verb", "honorific", "politeness"],
+    "frequency": 420,
+    "audio": "voice/ja/keigo_06.mp3",
+    "conjugationGroup": "irregular",
+    "examples": [
+      {
+        "sentence": "どうぞめしあがってください。",
+        "reading": "どうぞめしあがってください。",
+        "translation": { "th": "กรุณารับประทานด้วยนะคะ (สุภาพมาก)", "en": "Please go ahead and eat. (honorific)" },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Meshiru",
+      "sprite": "kotodama/keigo_06.png",
+      "description": { "en": "A host spirit that arranges meals with impeccable care. It always seats guests first and would never eat before ensuring everyone else is served." },
+      "rarity": "rare",
+      "habitat": ["shopping_street", "festival_grounds", "shrine"],
+      "evolveCondition": { "type": "review_streak", "value": 10 }
+    }
+  },
+  {
+    "id": "ja_keigo_07",
+    "lang": "ja",
+    "written": "申します",
+    "reading": "もうします",
+    "romanization": "moushimasu",
+    "meaning": { "th": "พูดว่า / ชื่อว่า (รูปถ่อมตน = 謙譲語)", "en": "humble form of 言う — used when saying your own name or speaking humbly" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "N4",
+    "chapter": 4,
+    "tags": ["keigo", "formal", "verb", "humble", "politeness"],
+    "frequency": 350,
+    "audio": "voice/ja/keigo_07.mp3",
+    "conjugationGroup": "irregular",
+    "examples": [
+      {
+        "sentence": "わたくしはたなかともうします。",
+        "reading": "わたくしはたなかともうします。",
+        "translation": { "th": "ข้าพเจ้าชื่อทานากะ (แนะนำตัวสุภาพ)", "en": "My name is Tanaka. (humble self-introduction)" },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Moushi",
+      "sprite": "kotodama/keigo_07.png",
+      "description": { "en": "A whispering spirit that introduces itself in the softest possible voice. It only speaks of itself with careful humility, never drawing more attention than necessary." },
+      "rarity": "rare",
+      "habitat": ["hanami_academy", "sakura_station"],
+      "evolveCondition": { "type": "review_streak", "value": 10 }
+    }
+  },
+  {
+    "id": "ja_keigo_08",
+    "lang": "ja",
+    "written": "おねがいします",
+    "reading": "おねがいします",
+    "romanization": "onegaishimasu",
+    "meaning": { "th": "ขอร้อง / กรุณา (สุภาพ)", "en": "please; I humbly request — the standard polite request phrase" },
+    "pos": "phrase",
+    "element": "light",
+    "level": "N5",
+    "chapter": 4,
+    "tags": ["keigo", "formal", "phrase", "politeness", "daily"],
+    "frequency": 240,
+    "audio": "voice/ja/keigo_08.mp3",
+    "examples": [
+      {
+        "sentence": "みずをおねがいします。",
+        "reading": "みずをおねがいします。",
+        "translation": { "th": "ขอน้ำหน่อยครับ", "en": "Water, please." },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Negaru",
+      "sprite": "kotodama/keigo_08.png",
+      "description": { "en": "A spirit that clasps its hands together and tilts its head. It makes every request feel polite and sincere — even the most impatient Kotodama behaves better around Negaru." },
+      "rarity": "uncommon",
+      "habitat": ["shopping_street", "shrine", "festival_grounds"],
+      "evolveCondition": { "type": "combo_count", "value": 15 }
+    }
+  }
+]

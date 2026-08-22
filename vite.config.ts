@@ -12,33 +12,34 @@ export default defineConfig({
       registerType: "autoUpdate",
       includeAssets: ["icon-192.png", "icon-512.png", "favicon.ico"],
       manifest: {
-        name: "Sakura & Sawasdee",
-        short_name: "SakuraSawasdee",
-        description: "Learn Japanese and Thai through a pastel pixel-art RPG",
-        theme_color: "#FFF0F5",
-        background_color: "#4A3F55",
+        name: "Chrono Kotodama",
+        short_name: "ChronoKotodama",
+        description: "Learn Japanese through Chrono Trigger-style turn-based battles",
+        theme_color: "#0d0d1a",
+        background_color: "#0d0d1a",
         display: "standalone",
-        orientation: "portrait",
+        orientation: "landscape",
         icons: [
           { src: "icon-192.png", sizes: "192x192", type: "image/png" },
           { src: "icon-512.png", sizes: "512x512", type: "image/png", purpose: "any maskable" },
         ],
       },
       workbox: {
+        // Use new cache names so old SW entries are evicted immediately
         globPatterns: ["**/*.{css,html,woff2}"],
         maximumFileSizeToCacheInBytes: 200 * 1024,
         runtimeCaching: [
           {
             urlPattern: /\.js$/,
-            handler: "CacheFirst",
-            options: { cacheName: "js-chunks", expiration: { maxEntries: 20 } },
+            handler: "NetworkFirst",
+            options: { cacheName: "ck-js-v2", expiration: { maxEntries: 20 } },
           },
           {
-            urlPattern: /\.(png|jpg|webp|ogg|mp3)$/,
+            urlPattern: /\.(png|jpg|webp|ogg|mp3|wav|ttf)$/,
             handler: "CacheFirst",
             options: {
-              cacheName: "assets",
-              expiration: { maxEntries: 200, maxAgeSeconds: 60 * 60 * 24 * 30 },
+              cacheName: "ck-assets-v2",
+              expiration: { maxEntries: 300, maxAgeSeconds: 60 * 60 * 24 * 30 },
             },
           },
         ],
@@ -56,7 +57,6 @@ export default defineConfig({
       output: {
         manualChunks: {
           phaser:  ["phaser"],
-          howler:  ["howler"],
           vendor:  ["framer-motion", "zustand", "dexie"],
         },
       },

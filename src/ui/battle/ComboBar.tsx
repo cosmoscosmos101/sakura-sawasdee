@@ -1,73 +1,106 @@
-import type { ComboToken } from "../../learning/comboValidator";
-import type { ComboResult } from "../../learning/comboValidator";
-
-interface Props {
-  chain: ComboToken[];
-  comboResult: ComboResult | null;
-  playerL1?: string;
-}
-
-const COMBO_LABEL: Record<string, string> = {
-  th: "คอมโบ ×",
-  en: "Combo ×",
-  ja: "コンボ ×",
-};
+import { useBattleStore } from "../../state/battleStore";
 
 const ELEMENT_COLOR: Record<string, string> = {
-  bloom: "#F7A8C4",
-  spark: "#FFE08A",
-  flow:  "#7FC4E0",
-  echo:  "#C9B8F0",
-  stone: "#C9A27E",
-  light: "#FFF6E5",
+  bloom:  "#F7A8C4",
+  spark:  "#FFE08A",
+  flow:   "#7FC4E0",
+  echo:   "#C9B8F0",
+  stone:  "#C9A27E",
+  light:  "#FFF6E5",
 };
 
-const ELEMENT_SYMBOL: Record<string, string> = {
-  bloom: "🌸",
-  spark: "⚡",
-  flow:  "💧",
-  echo:  "🌙",
-  stone: "⛰️",
-  light: "✨",
-};
+export function ComboBar() {
+  const chain       = useBattleStore((s) => s.chain);
+  const phase       = useBattleStore((s) => s.phase);
+  const comboResult = useBattleStore((s) => s.comboResult);
+  const executeCombo = useBattleStore((s) => s.executeCombo);
+  const proceedFromResult = useBattleStore((s) => s.proceedFromResult);
 
-export function ComboBar({ chain, comboResult, playerL1 = "en" }: Props) {
-  if (chain.length === 0 && !comboResult) return null;
+  if (chain.length === 0) return null;
+
+  const showCombo  = phase === "combo" && comboResult;
+  const allSent    = useBattleStore.getState().party.every((k) => k.sentThisTurn);
 
   return (
-    <div className="pointer-events-none w-full px-3">
-      <div className="rounded-xl border-2 border-[#4A3F55] bg-[#FFF6E5]/90 px-3 py-2 shadow-sm">
-        <div className="flex items-center gap-1.5">
-          {chain.map((token, i) => (
-            <div
-              key={`${token.id}-${i}`}
-              className="flex h-6 w-6 items-center justify-center rounded-full border border-[#4A3F55] text-[10px]"
-              style={{ background: ELEMENT_COLOR[token.element] ?? "#FFF6E5" }}
-              title={token.id}
-            >
-              {ELEMENT_SYMBOL[token.element] ?? "?"}
-            </div>
-          ))}
-
-          {chain.length > 0 && (
-            <span className="ml-1 text-[9px] font-semibold text-[#6B5F78]">
-              ×{chain.length === 1 ? "1.0" :
-                chain.length === 2 ? "1.5" :
-                chain.length === 3 ? "2.0" :
-                chain.length === 4 ? "2.8" :
-                chain.length === 5 ? "3.5" : "4.5"}
-            </span>
-          )}
-        </div>
-
-        {comboResult && (
-          <p className={`mt-1 text-[9px] font-semibold ${comboResult.valid ? "text-[#4E7D5E]" : "text-[#C9A27E]"}`}>
-            {comboResult.valid
-              ? `${COMBO_LABEL[playerL1] ?? COMBO_LABEL["en"]}${comboResult.multiplier}!`
-              : comboResult.reason?.replace(/_/g, " ")}
-          </p>
-        )}
+    <div
+      style={{
+        background: "rgba(13,13,26,0.90)",
+        border: "2px solid #4a6fa5",
+        borderRadius: 4,
+        padding: "8px 12px",
+        fontFamily: "'Chrono', monospace",
+        color: "#e8dcc8",
+        fontSize: 11,
+        pointerEvents: "auto",
+      }}
+    >
+      <div style={{ fontSize: 9, color: "#ffd700", letterSpacing: 2, marginBottom: 6, textTransform: "uppercase" }}>
+        Sentence Chain
       </div>
+      <div style={{ display: "flex", gap: 6, flexWrap: "wrap", marginBottom: 6 }}>
+        {chain.map((tok, i) => (
+          <span
+            key={i}
+            style={{
+              padding: "2px 7px",
+              border: `1px solid ${ELEMENT_COLOR[tok.element] ?? "#4a6fa5"}`,
+              borderRadius: 3,
+              color: ELEMENT_COLOR[tok.element] ?? "#e8dcc8",
+              fontSize: 12,
+            }}
+          >
+            {tok.written}
+          </span>
+        ))}
+      </div>
+
+      {showCombo && (
+        <div style={{ marginTop: 4 }}>
+          {comboResult.valid && comboResult.multiplier > 1 ? (
+            <div style={{ color: "#ffd700", fontWeight: "bold", fontSize: 13 }}>
+              ✦ COMBO ×{comboResult.multiplier.toFixed(1)}
+            </div>
+          ) : (
+            <div style={{ color: "#9188a0", fontSize: 11 }}>
+              {comboResult.reason ?? "Incomplete combo"}
+            </div>
+          )}
+          <button
+            onClick={proceedFromResult}
+            style={{
+              marginTop: 6,
+              background: "#1a1e32",
+              border: "1px solid #4a6fa5",
+              borderRadius: 3,
+              color: "#e8dcc8",
+              fontSize: 10,
+              padding: "4px 14px",
+              cursor: "pointer",
+              fontFamily: "inherit",
+            }}
+          >
+            Next ▶
+          </button>
+        </div>
+      )}
+
+      {!showCombo && allSent && phase === "command" && (
+        <button
+          onClick={executeCombo}
+          style={{
+            background: "#2a1e32",
+            border: "1px solid #ffd700",
+            borderRadius: 3,
+            color: "#ffd700",
+            fontSize: 10,
+            padding: "3px 12px",
+            cursor: "pointer",
+            fontFamily: "inherit",
+          }}
+        >
+          ✦ Fire Combo
+        </button>
+      )}
     </div>
   );
 }

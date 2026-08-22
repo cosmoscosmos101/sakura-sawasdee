@@ -1,0 +1,258 @@
+[
+  {
+    "id": "ja_counter_01",
+    "lang": "ja",
+    "written": "匹",
+    "reading": "ひき",
+    "romanization": "hiki",
+    "meaning": { "th": "ตัว (นับสัตว์เล็ก เช่น แมว ปลา กระต่าย)", "en": "counter for small animals (cats, fish, rabbits)" },
+    "pos": "counter",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["counter", "grammar", "animal"],
+    "frequency": 600,
+    "audio": "voice/ja/counter_01.mp3",
+    "examples": [
+      {
+        "sentence": "猫が三匹います。",
+        "reading": "ねこがさんびきいます。",
+        "translation": { "th": "มีแมวสามตัว", "en": "There are three cats." },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Hikino",
+      "sprite": "kotodama/counter_01.png",
+      "description": { "en": "A small tabby-shaped spirit that multiplies when copied. Count them carefully — they wriggle and refuse to stay still." },
+      "rarity": "uncommon",
+      "habitat": ["shopping_street", "shrine", "sakura_path"],
+      "evolveCondition": { "type": "review_streak", "value": 7 }
+    },
+    "mnemonic": { "en": "匹 = a cloth (匚) wrapping around a small animal — imagine a small creature curled inside a wrap." }
+  },
+  {
+    "id": "ja_counter_02",
+    "lang": "ja",
+    "written": "枚",
+    "reading": "まい",
+    "romanization": "mai",
+    "meaning": { "th": "แผ่น (นับของแบน เช่น กระดาษ จาน ตั๋ว)", "en": "counter for flat things (paper, plates, tickets)" },
+    "pos": "counter",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["counter", "grammar"],
+    "frequency": 550,
+    "audio": "voice/ja/counter_02.mp3",
+    "examples": [
+      {
+        "sentence": "かみが五枚あります。",
+        "reading": "かみがごまいあります。",
+        "translation": { "th": "มีกระดาษห้าแผ่น", "en": "There are five sheets of paper." },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Mairu",
+      "sprite": "kotodama/counter_02.png",
+      "description": { "en": "A perfectly flat, paper-thin spirit. It can slide under doors and fold itself into origami cranes when it wants to impress someone." },
+      "rarity": "uncommon",
+      "habitat": ["hanami_academy", "shopping_street"],
+      "evolveCondition": { "type": "review_streak", "value": 7 }
+    },
+    "mnemonic": { "en": "枚 = tree (木) + tap (攴) — tapping a flat board to count pieces." }
+  },
+  {
+    "id": "ja_counter_03",
+    "lang": "ja",
+    "written": "本",
+    "reading": "ほん",
+    "romanization": "hon",
+    "meaning": { "th": "เล่ม / ขวด / กิ่ง (นับของทรงกระบอกหรือแท่ง เช่น ดินสอ ขวด ต้นไม้)", "en": "counter for long thin objects (pencils, bottles, trees)" },
+    "pos": "counter",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["counter", "grammar", "daily"],
+    "frequency": 450,
+    "audio": "voice/ja/counter_03.mp3",
+    "examples": [
+      {
+        "sentence": "えんぴつが二本あります。",
+        "reading": "えんぴつがにほんあります。",
+        "translation": { "th": "มีดินสอสองแท่ง", "en": "There are two pencils." },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Honne",
+      "sprite": "kotodama/counter_03.png",
+      "description": { "en": "A slender spirit shaped like a single bamboo pole. It stands perfectly upright and refuses to lean, even in strong wind." },
+      "rarity": "uncommon",
+      "habitat": ["hanami_academy", "shrine", "autumn_hill"],
+      "evolveCondition": { "type": "review_streak", "value": 7 }
+    },
+    "mnemonic": { "en": "本 = tree (木) with a mark at the root — the base of a long trunk, counting things that stand up straight." }
+  },
+  {
+    "id": "ja_counter_04",
+    "lang": "ja",
+    "written": "台",
+    "reading": "だい",
+    "romanization": "dai",
+    "meaning": { "th": "เครื่อง / คัน (นับเครื่องจักร รถ คอมพิวเตอร์)", "en": "counter for machines and vehicles (cars, computers, TVs)" },
+    "pos": "counter",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["counter", "grammar", "machine"],
+    "frequency": 520,
+    "audio": "voice/ja/counter_04.mp3",
+    "examples": [
+      {
+        "sentence": "じてんしゃが一台あります。",
+        "reading": "じてんしゃがいちだいあります。",
+        "translation": { "th": "มีจักรยานหนึ่งคัน", "en": "There is one bicycle." },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Dairu",
+      "sprite": "kotodama/counter_04.png",
+      "description": { "en": "A boxy spirit that rattles when it moves. It counts machinery by touching each one with a tiny mechanical arm and emitting a soft ping." },
+      "rarity": "uncommon",
+      "habitat": ["shopping_street", "sakura_station"],
+      "evolveCondition": { "type": "review_streak", "value": 7 }
+    },
+    "mnemonic": { "en": "台 = mouth (厶) on a platform — a machine sitting on its base, ready to be counted." }
+  },
+  {
+    "id": "ja_counter_05",
+    "lang": "ja",
+    "written": "冊",
+    "reading": "さつ",
+    "romanization": "satsu",
+    "meaning": { "th": "เล่ม (นับหนังสือ นิตยสาร)", "en": "counter for bound books and notebooks" },
+    "pos": "counter",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["counter", "grammar", "study"],
+    "frequency": 580,
+    "audio": "voice/ja/counter_05.mp3",
+    "examples": [
+      {
+        "sentence": "ほんが十冊あります。",
+        "reading": "ほんがじゅっさつあります。",
+        "translation": { "th": "มีหนังสือสิบเล่ม", "en": "There are ten books." },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Satsurin",
+      "sprite": "kotodama/counter_05.png",
+      "description": { "en": "A bookworm-shaped spirit wrapped in stitched pages. It lives in libraries and hums quietly while reading, absorbing words through its paper skin." },
+      "rarity": "uncommon",
+      "habitat": ["hanami_academy", "shopping_street"],
+      "evolveCondition": { "type": "combo_count", "value": 15 }
+    },
+    "mnemonic": { "en": "冊 = two wooden tablets (冂) tied together with a cord — ancient books were wooden slats tied in a bundle." }
+  },
+  {
+    "id": "ja_counter_06",
+    "lang": "ja",
+    "written": "杯",
+    "reading": "はい",
+    "romanization": "hai",
+    "meaning": { "th": "แก้ว / ถ้วย (นับของในภาชนะ เช่น น้ำหนึ่งแก้ว ราเมนหนึ่งชาม)", "en": "counter for cups, bowls, and glasses of liquid" },
+    "pos": "counter",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["counter", "grammar", "drink"],
+    "frequency": 640,
+    "audio": "voice/ja/counter_06.mp3",
+    "examples": [
+      {
+        "sentence": "お茶を一杯どうぞ。",
+        "reading": "おちゃをいっぱいどうぞ。",
+        "translation": { "th": "ดื่มชาสักแก้วนะ", "en": "Please have a cup of tea." },
+        "context": "shrine"
+      }
+    ],
+    "kotodama": {
+      "name": "Hairu",
+      "sprite": "kotodama/counter_06.png",
+      "description": { "en": "A round cup-shaped spirit that fills itself with the feelings of whoever holds it. Offer it warmth and it returns warmth; offer it cold water and it refreshes you." },
+      "rarity": "uncommon",
+      "habitat": ["shrine", "hanami_academy", "festival_grounds"],
+      "evolveCondition": { "type": "review_streak", "value": 7 }
+    },
+    "mnemonic": { "en": "杯 = tree/wood (木) + lacking (不) — a wooden cup that is not full yet, waiting to be filled." }
+  },
+  {
+    "id": "ja_counter_07",
+    "lang": "ja",
+    "written": "個",
+    "reading": "こ",
+    "romanization": "ko",
+    "meaning": { "th": "ชิ้น / อัน / ลูก (นับของชิ้นเล็ก ๆ ที่กลม เช่น ลูกอม แอปเปิ้ล)", "en": "counter for small round objects (candies, apples, eggs)" },
+    "pos": "counter",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["counter", "grammar", "daily"],
+    "frequency": 500,
+    "audio": "voice/ja/counter_07.mp3",
+    "examples": [
+      {
+        "sentence": "りんごを三個ください。",
+        "reading": "りんごをみっこください。",
+        "translation": { "th": "ขอแอปเปิ้ลสามลูกครับ", "en": "Please give me three apples." },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Korin",
+      "sprite": "kotodama/counter_07.png",
+      "description": { "en": "A small, perfectly spherical spirit that bounces. It collects other round things and carries them in a tiny mesh bag slung over one arm." },
+      "rarity": "uncommon",
+      "habitat": ["fresh_market", "shopping_street", "festival_grounds"],
+      "evolveCondition": { "type": "review_streak", "value": 7 }
+    },
+    "mnemonic": { "en": "個 = person (亻) + solid (固) — a solid, compact individual thing being counted." }
+  },
+  {
+    "id": "ja_counter_08",
+    "lang": "ja",
+    "written": "人",
+    "reading": "にん / り",
+    "romanization": "nin / ri",
+    "meaning": { "th": "คน (นับคน — 1 คน=ひとり, 2 คน=ふたり, 3 คนขึ้นไป=〜にん)", "en": "counter for people (1=hitori, 2=futari, 3+=~nin)" },
+    "pos": "counter",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["counter", "grammar", "people"],
+    "frequency": 95,
+    "audio": "voice/ja/counter_08.mp3",
+    "examples": [
+      {
+        "sentence": "友達が四人います。",
+        "reading": "ともだちがよにんいます。",
+        "translation": { "th": "มีเพื่อนสี่คน", "en": "I have four friends." },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Ninin",
+      "sprite": "kotodama/counter_08.png",
+      "description": { "en": "A spirit that appears in pairs — you can never find just one Ninin. They hold hands and count everyone around them in whispered chants." },
+      "rarity": "uncommon",
+      "habitat": ["hanami_academy", "sakura_path", "festival_grounds"],
+      "evolveCondition": { "type": "combo_count", "value": 15 }
+    },
+    "mnemonic": { "en": "人 = a person leaning forward — just one person standing, but count enough of them together and it becomes a crowd." }
+  }
+]

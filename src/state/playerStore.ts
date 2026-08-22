@@ -5,7 +5,7 @@ export type LocaleCode = "th" | "en" | "ja";
 
 export interface LocalePair {
   /** The player's native language — UI and explanations use this. */
-  l1: LocaleCode;
+  l1: Extract<LocaleCode, "th" | "en">;
   /** The language being learned — NPCs speak this. */
   l2: Extract<LocaleCode, "ja" | "th">;
 }

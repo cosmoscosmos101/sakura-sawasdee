@@ -1,0 +1,281 @@
+[
+  {
+    "id": "ja_kana_ne",
+    "lang": "ja",
+    "written": "ね",
+    "reading": "ね",
+    "romanization": "ne",
+    "meaning": { "th": "เสียง เนะ (อักษรฮิรางานะ)", "en": "ne (hiragana character)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_ne.mp3",
+    "examples": [
+      {
+        "sentence": "ねこ (neko = cat)",
+        "reading": "ねこ",
+        "translation": { "th": "แมว → เนะ-โคะ", "en": "cat → ne-ko" },
+        "context": "sakura_path"
+      }
+    ],
+    "kotodama": {
+      "name": "Nekone",
+      "sprite": "kotodama/nekone.png",
+      "description": { "en": "A curled, sleeping spirit. Its looping tail folds beneath its body — it naps through the morning and only stirs when it hears the word 'neko'." },
+      "rarity": "common",
+      "habitat": ["sakura_path", "hanami_academy"]
+    },
+    "mnemonic": { "en": "ね looks like a cat curled up asleep — the loop is the body, the tail sweeps out at the bottom." }
+  },
+  {
+    "id": "ja_kana_no",
+    "lang": "ja",
+    "written": "の",
+    "reading": "の",
+    "romanization": "no",
+    "meaning": { "th": "เสียง โนะ (อักษรฮิรางานะ / อนุภาค แสดงความเป็นเจ้าของ)", "en": "no (hiragana — also the possessive particle)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character", "particle"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_no.mp3",
+    "examples": [
+      {
+        "sentence": "わたしのほん (watashi no hon = my book)",
+        "reading": "わたしのほん",
+        "translation": { "th": "หนังสือของฉัน → วะ-ตะ-ชิ-โนะ-ฮอน", "en": "my book → wa-ta-shi no hon" },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Nori",
+      "sprite": "kotodama/nori.png",
+      "description": { "en": "A perfectly round, swirling spirit. It connects things — spinning between two words to show that one belongs to the other, like the particle の does in grammar." },
+      "rarity": "common",
+      "habitat": ["hanami_academy", "shopping_street"]
+    },
+    "mnemonic": { "en": "の is a perfect spiral — like a whirlpool connecting one thing to another." }
+  },
+  {
+    "id": "ja_kana_hi",
+    "lang": "ja",
+    "written": "ひ",
+    "reading": "ひ",
+    "romanization": "hi",
+    "meaning": { "th": "เสียง ฮิ (อักษรฮิรางานะ)", "en": "hi (hiragana character)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_hi.mp3",
+    "examples": [
+      {
+        "sentence": "ひまわり (himawari = sunflower)",
+        "reading": "ひまわり",
+        "translation": { "th": "ดอกทานตะวัน → ฮิ-มะ-วะ-ริ", "en": "sunflower → hi-ma-wa-ri" },
+        "context": "sakura_path"
+      }
+    ],
+    "kotodama": {
+      "name": "Hihi",
+      "sprite": "kotodama/hihi.png",
+      "description": { "en": "A bright spirit that always faces the sun. It bounces up when it hears 'hi' — the sound of hello, fire, and sunlight all in one." },
+      "rarity": "common",
+      "habitat": ["sakura_path", "festival_grounds"]
+    },
+    "mnemonic": { "en": "ひ looks like a person kneeling in the sun — arms out, face tilted up, saying 'hi!'." }
+  },
+  {
+    "id": "ja_kana_fu",
+    "lang": "ja",
+    "written": "ふ",
+    "reading": "ふ",
+    "romanization": "fu",
+    "meaning": { "th": "เสียง ฟุ (อักษรฮิรางานะ)", "en": "fu (hiragana character)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_fu.mp3",
+    "examples": [
+      {
+        "sentence": "ふゆ (fuyu = winter)",
+        "reading": "ふゆ",
+        "translation": { "th": "ฤดูหนาว → ฟุ-ยุ", "en": "winter → fu-yu" },
+        "context": "winter_courtyard"
+      }
+    ],
+    "kotodama": {
+      "name": "Fufu",
+      "sprite": "kotodama/fufu.png",
+      "description": { "en": "A puffed-up spirit that loves cold weather. Its four little strokes fan out like breath visible on a freezing day — it lives in winter_courtyard year-round." },
+      "rarity": "uncommon",
+      "habitat": ["winter_courtyard", "shrine"]
+    },
+    "mnemonic": { "en": "ふ looks like a puffer fish — or breath puffing out in cold air (fu!) on a winter morning." }
+  },
+  {
+    "id": "ja_kana_he",
+    "lang": "ja",
+    "written": "へ",
+    "reading": "へ",
+    "romanization": "he",
+    "meaning": { "th": "เสียง เฮะ (อักษรฮิรางานะ / ใช้เป็นอนุภาคทิศทาง)", "en": "he (hiragana — also used as direction particle e)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_he.mp3",
+    "examples": [
+      {
+        "sentence": "がっこうへ いきます (gakkou e ikimasu = I go to school)",
+        "reading": "がっこうへいきます",
+        "translation": { "th": "ไปโรงเรียน → กัก-โค-เฮะ-อิ-คิ-มะ-สุ", "en": "I go to school → gak-ko-u he i-ki-ma-su" },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Heya",
+      "sprite": "kotodama/heya.png",
+      "description": { "en": "A pointed spirit shaped like a mountain peak. It always points somewhere — directing others like an arrow toward a destination." },
+      "rarity": "common",
+      "habitat": ["sakura_station", "hanami_academy"]
+    },
+    "mnemonic": { "en": "へ looks like a mountain peak — or an arrow pointing toward where you're headed." }
+  },
+  {
+    "id": "ja_kana_ho",
+    "lang": "ja",
+    "written": "ほ",
+    "reading": "ほ",
+    "romanization": "ho",
+    "meaning": { "th": "เสียง โฮะ (อักษรฮิรางานะ)", "en": "ho (hiragana character)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_ho.mp3",
+    "examples": [
+      {
+        "sentence": "ほん (hon = book)",
+        "reading": "ほん",
+        "translation": { "th": "หนังสือ → โฮะ-น", "en": "book → ho-n" },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Hoho",
+      "sprite": "kotodama/hoho.png",
+      "description": { "en": "A bookish spirit that's slightly more complex than the others — it has more strokes than most. It lives in the library and quietly recites every book it's ever read." },
+      "rarity": "common",
+      "habitat": ["hanami_academy", "shrine"]
+    },
+    "mnemonic": { "en": "ほ looks like は with an extra stroke — like a bookmarked page that got one more annotation." }
+  },
+  {
+    "id": "ja_kana_ma",
+    "lang": "ja",
+    "written": "ま",
+    "reading": "ま",
+    "romanization": "ma",
+    "meaning": { "th": "เสียง มะ (อักษรฮิรางานะ)", "en": "ma (hiragana character)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_ma.mp3",
+    "examples": [
+      {
+        "sentence": "まど (mado = window)",
+        "reading": "まど",
+        "translation": { "th": "หน้าต่าง → มะ-โดะ", "en": "window → ma-do" },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Mame",
+      "sprite": "kotodama/mame.png",
+      "description": { "en": "A square spirit that loves framing things. It peeks through windows — the two strokes across its middle look like a window frame dividing the view into quadrants." },
+      "rarity": "common",
+      "habitat": ["hanami_academy", "shopping_street"]
+    },
+    "mnemonic": { "en": "ま looks like a window frame — two horizontal bars crossed by a vertical post." }
+  },
+  {
+    "id": "ja_kana_mu",
+    "lang": "ja",
+    "written": "む",
+    "reading": "む",
+    "romanization": "mu",
+    "meaning": { "th": "เสียง มุ (อักษรฮิรางานะ)", "en": "mu (hiragana character)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_mu.mp3",
+    "examples": [
+      {
+        "sentence": "むし (mushi = insect / bug)",
+        "reading": "むし",
+        "translation": { "th": "แมลง → มุ-ชิ", "en": "insect → mu-shi" },
+        "context": "sakura_path"
+      }
+    ],
+    "kotodama": {
+      "name": "Mushi",
+      "sprite": "kotodama/mushi.png",
+      "description": { "en": "A wriggling spirit that coils and loops like a caterpillar. It makes a quiet 'mu' sound when it bumps into other Kotodama." },
+      "rarity": "common",
+      "habitat": ["sakura_path", "autumn_hill"]
+    },
+    "mnemonic": { "en": "む looks like a caterpillar coiling up — the loop is its body, the tip is its little head." }
+  },
+  {
+    "id": "ja_kana_me",
+    "lang": "ja",
+    "written": "め",
+    "reading": "め",
+    "romanization": "me",
+    "meaning": { "th": "เสียง เมะ (อักษรฮิรางานะ)", "en": "me (hiragana character)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_me.mp3",
+    "examples": [
+      {
+        "sentence": "めがね (megane = glasses)",
+        "reading": "めがね",
+        "translation": { "th": "แว่นตา → เมะ-กะ-เนะ", "en": "glasses → me-ga-ne" },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Meme",
+      "sprite": "kotodama/meme.png",
+      "description": { "en": "A wide-eyed spirit that notices everything. Its looping shape IS an eye — め literally means 'eye' in its old form, and this spirit never blinks." },
+      "rarity": "common",
+      "habitat": ["hanami_academy", "shrine"]
+    },
+    "mnemonic": { "en": "め looks like an eye — the loop is the iris, the tail is the eyelid draped over it." }
+  }
+]

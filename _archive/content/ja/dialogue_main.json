@@ -1,0 +1,105 @@
+[
+  {
+    "id": "yuki_01",
+    "speakerNpcId": "yuki",
+    "speakerName": { "th": "ยูกิเซนเซ", "en": "Yuki-sensei" },
+    "lines": [
+      {
+        "l2": "はじめまして。",
+        "reading": "はじめまして。",
+        "translation": { "th": "ยินดีที่ได้รู้จัก", "en": "Nice to meet you." }
+      },
+      {
+        "l2": "わたしは ゆきせんせい です。",
+        "reading": "わたしは ゆきせんせい です。",
+        "translation": { "th": "ฉันชื่อ ยูกิ เซนเซ", "en": "My name is Yuki-sensei." },
+        "newWordIds": ["ja_n5_watashi", "ja_n5_sensei"]
+      },
+      {
+        "l2": "ここは はなみがくえん です。",
+        "reading": "ここは はなみがくえん です。",
+        "translation": { "th": "ที่นี่คือ โรงเรียนฮานามิ", "en": "This is Hanami Academy." },
+        "newWordIds": ["ja_n5_koko"]
+      }
+    ],
+    "choices": [
+      {
+        "label": { "th": "ยินดีที่ได้รู้จักเช่นกัน!", "en": "Nice to meet you too!" },
+        "l2Response": "はじめまして！",
+        "nextId": "yuki_02_friendly"
+      },
+      {
+        "label": { "th": "...ขอโทษ ฉันยังเรียนอยู่", "en": "...Sorry, I'm still learning." },
+        "l2Response": "...",
+        "nextId": "yuki_02_shy"
+      }
+    ]
+  },
+  {
+    "id": "yuki_02_friendly",
+    "speakerNpcId": "yuki",
+    "speakerName": { "th": "ยูกิเซนเซ", "en": "Yuki-sensei" },
+    "lines": [
+      {
+        "l2": "すごい！ にほんごが じょうずですね。",
+        "reading": "すごい！ にほんごが じょうずですね。",
+        "translation": { "th": "เก่งมาก! ภาษาญี่ปุ่นของคุณดีมาก", "en": "Wonderful! Your Japanese is great." }
+      },
+      {
+        "l2": "いっしょに べんきょう しましょう！",
+        "reading": "いっしょに べんきょう しましょう！",
+        "translation": { "th": "มาเรียนด้วยกันเถอะ!", "en": "Let's study together!" }
+      }
+    ],
+    "endsDialogue": true
+  },
+  {
+    "id": "yuki_02_shy",
+    "speakerNpcId": "yuki",
+    "speakerName": { "th": "ยูกิเซนเซ", "en": "Yuki-sensei" },
+    "lines": [
+      {
+        "l2": "だいじょうぶ ですよ。ゆっくり いきましょう。",
+        "reading": "だいじょうぶ ですよ。ゆっくり いきましょう。",
+        "translation": {
+          "th": "ไม่เป็นไรค่ะ มาค่อยๆ เรียนด้วยกันนะ",
+          "en": "That's okay. Let's go slowly together."
+        }
+      },
+      {
+        "l2": "まちがえても いいです。それが まなびです。",
+        "reading": "まちがえても いいです。それが まなびです。",
+        "translation": {
+          "th": "ผิดได้นะคะ นั่นคือการเรียนรู้",
+          "en": "It's fine to make mistakes. That is learning."
+        }
+      }
+    ],
+    "endsDialogue": true
+  },
+  {
+    "id": "hana_01",
+    "speakerNpcId": "hana",
+    "speakerName": { "th": "ฮานะ", "en": "Hana" },
+    "lines": [
+      {
+        "l2": "あ、こんにちは！ あなたは あたらしい がくせい？",
+        "reading": "あ、こんにちは！ あなたは あたらしい がくせい？",
+        "translation": {
+          "th": "อ๊ะ สวัสดี! คุณเป็นนักเรียนใหม่เหรอ?",
+          "en": "Oh, hello! Are you a new student?"
+        },
+        "newWordIds": ["ja_n5_atarashii", "ja_n5_gakusei"]
+      },
+      {
+        "l2": "はなみがくえんへ ようこそ！",
+        "reading": "はなみがくえんへ ようこそ！",
+        "translation": {
+          "th": "ยินดีต้อนรับสู่ โรงเรียนฮานามิ!",
+          "en": "Welcome to Hanami Academy!"
+        }
+      }
+    ],
+    "endsDialogue": true
+  }
+]

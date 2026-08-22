@@ -1,0 +1,281 @@
+[
+  {
+    "id": "ja_n5_0071",
+    "lang": "ja",
+    "written": "電車",
+    "reading": "でんしゃ",
+    "romanization": "densha",
+    "meaning": { "th": "รถไฟ (ฟ้า / ไฟฟ้า)", "en": "electric train; train" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 4,
+    "tags": ["noun", "transport", "daily"],
+    "frequency": 240,
+    "audio": "voice/ja/n5_0071.mp3",
+    "examples": [
+      {
+        "sentence": "でんしゃでがっこうにいきます。",
+        "reading": "でんしゃでがっこうにいきます。",
+        "translation": { "th": "ไปโรงเรียนโดยรถไฟ", "en": "I go to school by train." },
+        "context": "sakura_station"
+      }
+    ],
+    "kotodama": {
+      "name": "Densha",
+      "sprite": "kotodama/n5_0071.png",
+      "description": { "en": "A sleek spirit shaped like a bullet train that always arrives on time. It emits a gentle electric hum and never, ever misses its stop." },
+      "rarity": "uncommon",
+      "habitat": ["sakura_station"],
+      "evolveCondition": { "type": "review_streak", "value": 7 }
+    }
+  },
+  {
+    "id": "ja_n5_0072",
+    "lang": "ja",
+    "written": "バス",
+    "reading": "バス",
+    "romanization": "basu",
+    "meaning": { "th": "รถเมล์ / รถบัส", "en": "bus" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 4,
+    "tags": ["noun", "transport", "katakana_word"],
+    "frequency": 210,
+    "audio": "voice/ja/n5_0072.mp3",
+    "examples": [
+      {
+        "sentence": "バスのじかんをしらべましょう。",
+        "reading": "バスのじかんをしらべましょう。",
+        "translation": { "th": "ลองดูตารางเวลารถเมล์กัน", "en": "Let's check the bus timetable." },
+        "context": "sakura_station"
+      }
+    ],
+    "kotodama": {
+      "name": "Basu",
+      "sprite": "kotodama/n5_0072.png",
+      "description": { "en": "A round spirit with a cheerful destination sign on its forehead. It always waits a little extra second for stragglers." },
+      "rarity": "common",
+      "habitat": ["sakura_station", "shopping_street"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  },
+  {
+    "id": "ja_n5_0073",
+    "lang": "ja",
+    "written": "自転車",
+    "reading": "じてんしゃ",
+    "romanization": "jitensha",
+    "meaning": { "th": "จักรยาน", "en": "bicycle" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 4,
+    "tags": ["noun", "transport"],
+    "frequency": 195,
+    "audio": "voice/ja/n5_0073.mp3",
+    "examples": [
+      {
+        "sentence": "じてんしゃでこうえんにいこう！",
+        "reading": "じてんしゃでこうえんにいこう！",
+        "translation": { "th": "ไปสวนสาธารณะด้วยจักรยานกัน!", "en": "Let's go to the park by bicycle!" },
+        "context": "cherry_blossom_park"
+      }
+    ],
+    "kotodama": {
+      "name": "Jitenshu",
+      "sprite": "kotodama/n5_0073.png",
+      "description": { "en": "A breezy spirit on two spinning wheels. Its bell rings whenever it passes something beautiful — which is constantly, because it finds beauty everywhere." },
+      "rarity": "common",
+      "habitat": ["cherry_blossom_park", "sakura_path"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  },
+  {
+    "id": "ja_n5_0074",
+    "lang": "ja",
+    "written": "一",
+    "reading": "いち",
+    "romanization": "ichi",
+    "meaning": { "th": "หนึ่ง (1)", "en": "one (1)" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 4,
+    "tags": ["noun", "number"],
+    "frequency": 300,
+    "audio": "voice/ja/n5_0074.mp3",
+    "examples": [
+      {
+        "sentence": "ひとつのりんごをたべました。",
+        "reading": "ひとつのりんごをたべました。",
+        "translation": { "th": "กินแอปเปิ้ลหนึ่งลูก", "en": "I ate one apple." },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Ichiru",
+      "sprite": "kotodama/n5_0074.png",
+      "description": { "en": "The simplest of number spirits — a single vertical stroke. It stands perfectly upright and is the origin of all other numbers." },
+      "rarity": "common",
+      "habitat": ["hanami_academy", "shopping_street"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  },
+  {
+    "id": "ja_n5_0075",
+    "lang": "ja",
+    "written": "二",
+    "reading": "に",
+    "romanization": "ni",
+    "meaning": { "th": "สอง (2)", "en": "two (2)" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 4,
+    "tags": ["noun", "number"],
+    "frequency": 290,
+    "audio": "voice/ja/n5_0075.mp3",
+    "examples": [
+      {
+        "sentence": "ふたつのいすがあります。",
+        "reading": "ふたつのいすがあります。",
+        "translation": { "th": "มีเก้าอี้สองตัว", "en": "There are two chairs." },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Niru",
+      "sprite": "kotodama/n5_0075.png",
+      "description": { "en": "A balanced spirit made of two parallel strokes. It is never alone — wherever one appears, the other is always close by." },
+      "rarity": "common",
+      "habitat": ["hanami_academy"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  },
+  {
+    "id": "ja_n5_0076",
+    "lang": "ja",
+    "written": "三",
+    "reading": "さん",
+    "romanization": "san",
+    "meaning": { "th": "สาม (3)", "en": "three (3)" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 4,
+    "tags": ["noun", "number"],
+    "frequency": 280,
+    "audio": "voice/ja/n5_0076.mp3",
+    "examples": [
+      {
+        "sentence": "さんびきのねこがいます。",
+        "reading": "さんびきのねこがいます。",
+        "translation": { "th": "มีแมวสามตัว", "en": "There are three cats." },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Sanru",
+      "sprite": "kotodama/n5_0076.png",
+      "description": { "en": "A cheerful spirit of three stripes that loves triangles and trios. It always arranges things in groups of three before it feels satisfied." },
+      "rarity": "common",
+      "habitat": ["shopping_street", "cherry_blossom_park"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  },
+  {
+    "id": "ja_n5_0077",
+    "lang": "ja",
+    "written": "百",
+    "reading": "ひゃく",
+    "romanization": "hyaku",
+    "meaning": { "th": "ร้อย (100)", "en": "one hundred (100)" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 4,
+    "tags": ["noun", "number"],
+    "frequency": 250,
+    "audio": "voice/ja/n5_0077.mp3",
+    "examples": [
+      {
+        "sentence": "このりんごはひゃくえんです。",
+        "reading": "このりんごはひゃくえんです。",
+        "translation": { "th": "แอปเปิ้ลนี้ราคาร้อยเยน", "en": "This apple is 100 yen." },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Hyakuru",
+      "sprite": "kotodama/n5_0077.png",
+      "description": { "en": "A proud spirit that stands exactly one hundred times taller than its single-digit cousins. It counts things very fast — always to exactly 100." },
+      "rarity": "uncommon",
+      "habitat": ["shopping_street"],
+      "evolveCondition": { "type": "combo_count", "value": 10 }
+    }
+  },
+  {
+    "id": "ja_n5_0078",
+    "lang": "ja",
+    "written": "千",
+    "reading": "せん",
+    "romanization": "sen",
+    "meaning": { "th": "พัน (1000)", "en": "one thousand (1000)" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 4,
+    "tags": ["noun", "number"],
+    "frequency": 245,
+    "audio": "voice/ja/n5_0078.mp3",
+    "examples": [
+      {
+        "sentence": "せんえんさつをもっています。",
+        "reading": "せんえんさつをもっています。",
+        "translation": { "th": "มีธนบัตรพันเยน", "en": "I have a 1000-yen note." },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Senru",
+      "sprite": "kotodama/n5_0078.png",
+      "description": { "en": "A grand spirit with a thousand tiny lights orbiting it. People say that if you count each light one by one, you forget what you were worried about." },
+      "rarity": "uncommon",
+      "habitat": ["shopping_street", "sakura_station"],
+      "evolveCondition": { "type": "combo_count", "value": 10 }
+    }
+  },
+  {
+    "id": "ja_n5_0079",
+    "lang": "ja",
+    "written": "円",
+    "reading": "えん",
+    "romanization": "en",
+    "meaning": { "th": "เยน (สกุลเงินญี่ปุ่น)", "en": "yen (Japanese currency)" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 4,
+    "tags": ["noun", "money", "daily"],
+    "frequency": 260,
+    "audio": "voice/ja/n5_0079.mp3",
+    "examples": [
+      {
+        "sentence": "ぜんぶでいくらですか？—ごひゃくえんです。",
+        "reading": "ぜんぶでいくらですか？—ごひゃくえんです。",
+        "translation": { "th": "ทั้งหมดเท่าไหร่? — ห้าร้อยเยน", "en": "How much is everything? — 500 yen." },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Ennru",
+      "sprite": "kotodama/n5_0079.png",
+      "description": { "en": "A round golden spirit that jingles when it moves. It appears at markets and shops, drawn to the sound of a transaction done fairly." },
+      "rarity": "common",
+      "habitat": ["shopping_street", "festival_grounds"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  }
+]

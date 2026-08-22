@@ -1,0 +1,281 @@
+[
+  {
+    "id": "ja_n5_0062",
+    "lang": "ja",
+    "written": "学校",
+    "reading": "がっこう",
+    "romanization": "gakkou",
+    "meaning": { "th": "โรงเรียน", "en": "school" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["noun", "place", "school"],
+    "frequency": 250,
+    "audio": "voice/ja/n5_0062.mp3",
+    "examples": [
+      {
+        "sentence": "がっこうはたのしいですか？",
+        "reading": "がっこうはたのしいですか？",
+        "translation": { "th": "โรงเรียนสนุกไหม?", "en": "Is school fun?" },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Gakkoru",
+      "sprite": "kotodama/n5_0062.png",
+      "description": { "en": "A spirit shaped like a small building with a bell tower. It rings its bell every morning without fail and waits patiently for students to arrive." },
+      "rarity": "common",
+      "habitat": ["hanami_academy"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  },
+  {
+    "id": "ja_n5_0063",
+    "lang": "ja",
+    "written": "うち",
+    "reading": "うち",
+    "romanization": "uchi",
+    "meaning": { "th": "บ้าน (ของตัวเอง / ใกล้ชิด)", "en": "home; my house; our place (casual/intimate)" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["noun", "place", "daily"],
+    "frequency": 235,
+    "audio": "voice/ja/n5_0063.mp3",
+    "examples": [
+      {
+        "sentence": "うちにかえりたいな。",
+        "reading": "うちにかえりたいな。",
+        "translation": { "th": "อยากกลับบ้านจังเลย", "en": "I want to go home." },
+        "context": "sakura_station"
+      }
+    ],
+    "kotodama": {
+      "name": "Uchiru",
+      "sprite": "kotodama/n5_0063.png",
+      "description": { "en": "A cosy spirit that smells like warm rice and clean laundry. It never goes too far and always leaves the light on." },
+      "rarity": "common",
+      "habitat": ["sakura_station", "cherry_blossom_park"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  },
+  {
+    "id": "ja_n5_0064",
+    "lang": "ja",
+    "written": "駅",
+    "reading": "えき",
+    "romanization": "eki",
+    "meaning": { "th": "สถานี (รถไฟ)", "en": "train station" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["noun", "place", "transport"],
+    "frequency": 240,
+    "audio": "voice/ja/n5_0064.mp3",
+    "examples": [
+      {
+        "sentence": "えきまでいっしょにいきましょう。",
+        "reading": "えきまでいっしょにいきましょう。",
+        "translation": { "th": "ไปสถานีด้วยกันเถอะ", "en": "Let's go to the station together." },
+        "context": "sakura_station"
+      }
+    ],
+    "kotodama": {
+      "name": "Ekiru",
+      "sprite": "kotodama/n5_0064.png",
+      "description": { "en": "A spirit with tiny train tracks running up its arms. It knows every departure time and never misses a connection." },
+      "rarity": "uncommon",
+      "habitat": ["sakura_station"],
+      "evolveCondition": { "type": "combo_count", "value": 10 }
+    }
+  },
+  {
+    "id": "ja_n5_0065",
+    "lang": "ja",
+    "written": "レストラン",
+    "reading": "レストラン",
+    "romanization": "resutoran",
+    "meaning": { "th": "ร้านอาหาร", "en": "restaurant" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["noun", "place", "food", "katakana_word"],
+    "frequency": 200,
+    "audio": "voice/ja/n5_0065.mp3",
+    "examples": [
+      {
+        "sentence": "きょうはレストランでたべましょう。",
+        "reading": "きょうはレストランでたべましょう。",
+        "translation": { "th": "วันนี้ไปกินที่ร้านอาหารกันเถอะ", "en": "Let's eat at a restaurant today." },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Resutora",
+      "sprite": "kotodama/n5_0065.png",
+      "description": { "en": "A plump spirit that always carries a menu and smells of a different cuisine each day. It cannot decide on a favourite dish." },
+      "rarity": "common",
+      "habitat": ["shopping_street", "festival_grounds"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  },
+  {
+    "id": "ja_n5_0066",
+    "lang": "ja",
+    "written": "病院",
+    "reading": "びょういん",
+    "romanization": "byouin",
+    "meaning": { "th": "โรงพยาบาล", "en": "hospital; clinic" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["noun", "place"],
+    "frequency": 185,
+    "audio": "voice/ja/n5_0066.mp3",
+    "examples": [
+      {
+        "sentence": "びょういんはどこですか？",
+        "reading": "びょういんはどこですか？",
+        "translation": { "th": "โรงพยาบาลอยู่ที่ไหน?", "en": "Where is the hospital?" },
+        "context": "sakura_station"
+      }
+    ],
+    "kotodama": {
+      "name": "Byouin",
+      "sprite": "kotodama/n5_0066.png",
+      "description": { "en": "A calm white spirit that radiates a gentle healing glow. It never panics and somehow makes everything feel less serious just by being present." },
+      "rarity": "common",
+      "habitat": ["sakura_station", "shopping_street"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  },
+  {
+    "id": "ja_n5_0067",
+    "lang": "ja",
+    "written": "公園",
+    "reading": "こうえん",
+    "romanization": "kouen",
+    "meaning": { "th": "สวนสาธารณะ", "en": "park; public garden" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["noun", "place", "outdoor"],
+    "frequency": 195,
+    "audio": "voice/ja/n5_0067.mp3",
+    "examples": [
+      {
+        "sentence": "こうえんでさくらをみましょう。",
+        "reading": "こうえんでさくらをみましょう。",
+        "translation": { "th": "ไปดูดอกซากุระในสวนสาธารณะกัน", "en": "Let's go look at the cherry blossoms in the park." },
+        "context": "cherry_blossom_park"
+      }
+    ],
+    "kotodama": {
+      "name": "Kouen",
+      "sprite": "kotodama/n5_0067.png",
+      "description": { "en": "A breezy spirit with leaves in its hair and a little fountain at its feet. It blooms brightest in spring and becomes quieter in winter." },
+      "rarity": "common",
+      "habitat": ["cherry_blossom_park"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  },
+  {
+    "id": "ja_n5_0068",
+    "lang": "ja",
+    "written": "図書館",
+    "reading": "としょかん",
+    "romanization": "toshokan",
+    "meaning": { "th": "ห้องสมุด", "en": "library" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["noun", "place", "school"],
+    "frequency": 175,
+    "audio": "voice/ja/n5_0068.mp3",
+    "examples": [
+      {
+        "sentence": "としょかんでしずかにべんきょうしています。",
+        "reading": "としょかんでしずかにべんきょうしています。",
+        "translation": { "th": "กำลังเรียนอย่างเงียบๆ ในห้องสมุด", "en": "I am studying quietly in the library." },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Toshokan",
+      "sprite": "kotodama/n5_0068.png",
+      "description": { "en": "A hushed spirit surrounded by floating books. It communicates entirely in whispers and looks vaguely annoyed by loud noises." },
+      "rarity": "uncommon",
+      "habitat": ["hanami_academy"],
+      "evolveCondition": { "type": "review_streak", "value": 7 }
+    }
+  },
+  {
+    "id": "ja_n5_0069",
+    "lang": "ja",
+    "written": "スーパー",
+    "reading": "スーパー",
+    "romanization": "suupaa",
+    "meaning": { "th": "ซูเปอร์มาร์เก็ต", "en": "supermarket" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["noun", "place", "food", "katakana_word"],
+    "frequency": 190,
+    "audio": "voice/ja/n5_0069.mp3",
+    "examples": [
+      {
+        "sentence": "スーパーでやさいをかいました。",
+        "reading": "スーパーでやさいをかいました。",
+        "translation": { "th": "ซื้อผักที่ซูเปอร์มาร์เก็ต", "en": "I bought vegetables at the supermarket." },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Suupara",
+      "sprite": "kotodama/n5_0069.png",
+      "description": { "en": "A cheerful spirit shaped like a shopping cart. Its wheels squeak slightly and it always knows which aisle has the best discount." },
+      "rarity": "common",
+      "habitat": ["shopping_street", "fresh_market"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  },
+  {
+    "id": "ja_n5_0070",
+    "lang": "ja",
+    "written": "トイレ",
+    "reading": "トイレ",
+    "romanization": "toire",
+    "meaning": { "th": "ห้องน้ำ / ห้องสุขา", "en": "restroom; toilet; bathroom" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["noun", "place", "daily", "katakana_word"],
+    "frequency": 215,
+    "audio": "voice/ja/n5_0070.mp3",
+    "examples": [
+      {
+        "sentence": "すみません、トイレはどこですか？",
+        "reading": "すみません、トイレはどこですか？",
+        "translation": { "th": "ขอโทษนะคะ ห้องน้ำอยู่ที่ไหน?", "en": "Excuse me, where is the restroom?" },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Toireru",
+      "sprite": "kotodama/n5_0070.png",
+      "description": { "en": "A very practical spirit that appears in every building without fail. It points the way when you need it most and is oddly proud of this essential role." },
+      "rarity": "common",
+      "habitat": ["shopping_street", "sakura_station", "hanami_academy"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  }
+]

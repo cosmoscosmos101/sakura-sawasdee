@@ -1,9 +1,7 @@
 import Phaser from "phaser";
-import { PALETTE } from "./palette";
 import { BootScene } from "./scenes/BootScene";
 import { WorldScene } from "./scenes/WorldScene";
 import { BattleScene } from "./scenes/BattleScene";
-import { KaraokeScene } from "./scenes/KaraokeScene";
 
 /** Base render resolution. Everything is authored against this. See CLAUDE.md §5. */
 export const GAME_WIDTH = 480;
@@ -20,7 +18,7 @@ export function createGameConfig(parent: HTMLElement): Phaser.Types.Core.GameCon
     parent,
     width: GAME_WIDTH,
     height: GAME_HEIGHT,
-    backgroundColor: PALETTE.MINT_2,
+    backgroundColor: "#0d0d1a",
 
     // Crisp pixels, no smoothing. Non-negotiable for the art direction.
     pixelArt: true,
@@ -47,7 +45,7 @@ export function createGameConfig(parent: HTMLElement): Phaser.Types.Core.GameCon
       touch: true,
     },
 
-    scene: [BootScene, WorldScene, BattleScene, KaraokeScene],
+    scene: [BootScene, WorldScene, BattleScene],
   };
 }
 

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "ja_n5_0042",
+    "lang": "ja",
+    "written": "猫",
+    "reading": "ねこ",
+    "romanization": "neko",
+    "meaning": { "th": "แมว", "en": "cat" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["animal", "daily", "pet"],
+    "frequency": 812,
+    "audio": "voice/ja/n5_0042.mp3",
+    "pitchAccent": 1,
+    "particleAffinity": ["が", "を", "は"],
+    "counterWord": "匹",
+    "examples": [
+      {
+        "sentence": "猫が好きです。",
+        "reading": "ねこがすきです。",
+        "translation": { "th": "ชอบแมวครับ", "en": "I like cats." },
+        "audio": "voice/ja/ex_n5_0042_1.mp3",
+        "context": "school"
+      }
+    ],
+    "kotodama": {
+      "name": "Nekoko",
+      "sprite": "kotodama/nekoko.png",
+      "spriteEvolved": "kotodama/nekomaru.png",
+      "description": {
+        "en": "A sleepy kitten that naps on the school roof. Its tail curls into the shape of 猫.",
+        "th": "ลูกแมวขี้เซาที่ชอบนอนบนหลังคาโรงเรียน หางของมันโค้งเป็นรูปตัวอักษร 猫"
+      },
+      "rarity": "common",
+      "habitat": ["hanami_academy", "shopping_street", "sakura_path"],
+      "evolveCondition": { "type": "combo_count", "value": 20 }
+    },
+    "mnemonic": {
+      "en": "犭(beast radical) + 苗(seedling) → the small creature hiding among the seedlings",
+      "th": "犭(สัตว์) + 苗(ต้นกล้า) → สัตว์ตัวเล็กที่แอบซ่อนอยู่ในไร่ต้นกล้า"
+    }
+  },
+  {
+    "id": "ja_n5_0101",
+    "lang": "ja",
+    "written": "を",
+    "reading": "を",
+    "romanization": "wo",
+    "meaning": { "th": "คำช่วยชี้กรรม", "en": "direct object particle" },
+    "pos": "particle",
+    "element": "echo",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["grammar", "particle", "core"],
+    "frequency": 12,
+    "audio": "voice/ja/n5_0101.mp3",
+    "examples": [
+      {
+        "sentence": "すしを食べます。",
+        "reading": "すしをたべます。",
+        "translation": { "th": "กินซูชิครับ", "en": "I eat sushi." },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Womaru",
+      "sprite": "kotodama/womaru.png",
+      "description": {
+        "en": "A small lavender arrow-spirit. It never acts alone — it only points at what a verb is about to do.",
+        "th": "วิญญาณลูกศรสีม่วงอ่อน มันไม่เคยทำอะไรลำพัง มันแค่ชี้ว่ากริยากำลังจะทำอะไร"
+      },
+      "rarity": "common",
+      "habitat": ["hanami_academy", "shopping_street"]
+    }
+  },
+  {
+    "id": "ja_n5_0203",
+    "lang": "ja",
+    "written": "食べます",
+    "reading": "たべます",
+    "romanization": "tabemasu",
+    "meaning": { "th": "กิน", "en": "to eat (polite)" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["food", "daily", "core"],
+    "frequency": 156,
+    "audio": "voice/ja/n5_0203.mp3",
+    "pitchAccent": 2,
+    "conjugationGroup": "ichidan",
+    "particleAffinity": ["を"],
+    "examples": [
+      {
+        "sentence": "ラーメンを食べます。",
+        "reading": "ラーメンをたべます。",
+        "translation": { "th": "กินราเมงครับ", "en": "I eat ramen." },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Tabekko",
+      "sprite": "kotodama/tabekko.png",
+      "description": {
+        "en": "A round golden spirit with an enormous appetite and a permanently full cheek pouch.",
+        "th": "วิญญาณกลมสีทองที่หิวตลอดเวลา แก้มตุ่ยอยู่เสมอ"
+      },
+      "rarity": "common",
+      "habitat": ["shopping_street", "hanami_academy", "festival_grounds"]
+    }
+  }
+]

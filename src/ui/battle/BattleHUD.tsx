@@ -1,56 +1,75 @@
-import type { LocaleCode } from "../../state/playerStore";
+import { useBattleStore } from "../../state/battleStore";
 
-interface Props {
-  enemyHp: number;
-  enemyMaxHp: number;
-  playerHp: number;
-  playerMaxHp: number;
-  playerL1: LocaleCode;
-}
+const BAR_W = 120;
 
-const LABELS: Record<LocaleCode, { enemy: string; you: string }> = {
-  th: { enemy: "หมอกคำ", you: "คุณ" },
-  en: { enemy: "Fog Word", you: "You" },
-  ja: { enemy: "霧の言葉", you: "あなた" },
-};
-
-function HpBar({ current, max, color }: { current: number; max: number; color: string }) {
-  const pct = max > 0 ? Math.max(0, current / max) * 100 : 0;
+function HpBar({ current, max }: { current: number; max: number }) {
+  const pct = max > 0 ? current / max : 0;
+  const color = pct > 0.5 ? "#4dff4d" : pct > 0.25 ? "#ffdd57" : "#ff4040";
   return (
-    <div className="h-2.5 w-full rounded-full border border-[#4A3F55] bg-[#F5E3C8]">
+    <div
+      style={{ width: BAR_W, height: 6, background: "#1a1a2e", border: "1px solid #4a6fa5", borderRadius: 3 }}
+    >
       <div
-        className="h-full rounded-full transition-all duration-300"
-        style={{ width: `${pct}%`, background: color }}
+        style={{
+          width: `${Math.max(0, pct * 100)}%`,
+          height: "100%",
+          background: color,
+          borderRadius: 3,
+          transition: "width 0.25s ease",
+        }}
       />
     </div>
   );
 }
 
-export function BattleHUD({ enemyHp, enemyMaxHp, playerHp, playerMaxHp, playerL1 }: Props) {
-  const labels = LABELS[playerL1] ?? LABELS.en;
+export function BattleHUD() {
+  const playerHp    = useBattleStore((s) => s.playerHp);
+  const playerMaxHp = useBattleStore((s) => s.playerMaxHp);
+  const enemyHp     = useBattleStore((s) => s.enemyHp);
+  const enemyMaxHp  = useBattleStore((s) => s.enemyMaxHp);
+  const enemyId     = useBattleStore((s) => s.enemyId);
 
   return (
-    <div className="pointer-events-none flex w-full items-start justify-between px-3 pt-3">
-      {/* Enemy HP */}
-      <div className="w-36 rounded-xl border-2 border-[#4A3F55] bg-[#FFF6E5]/90 px-3 py-2 shadow-sm">
-        <p className="text-[9px] font-semibold text-[#6B5F78]">{labels.enemy}</p>
-        <div className="mt-1">
-          <HpBar current={enemyHp} max={enemyMaxHp} color="#F7A8C4" />
+    <div
+      style={{
+        position: "absolute",
+        top: 8,
+        right: 8,
+        padding: "8px 12px",
+        background: "rgba(13,13,26,0.88)",
+        border: "2px solid #4a6fa5",
+        borderRadius: 4,
+        display: "flex",
+        flexDirection: "column",
+        gap: 6,
+        minWidth: 160,
+        fontFamily: "'Chrono', monospace",
+        color: "#e8dcc8",
+        fontSize: 11,
+      }}
+    >
+      {/* Enemy */}
+      <div>
+        <div style={{ color: "#ff8888", marginBottom: 2, textTransform: "uppercase", fontSize: 9, letterSpacing: 1 }}>
+          {enemyId.replace("-", " ")}
         </div>
-        <p className="mt-0.5 text-right text-[8px] text-[#9188A0]">
-          {enemyHp} / {enemyMaxHp}
-        </p>
+        <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
+          <HpBar current={enemyHp} max={enemyMaxHp} />
+          <span style={{ fontSize: 10, color: "#aaa" }}>{enemyHp}/{enemyMaxHp}</span>
+        </div>
       </div>
 
-      {/* Player HP */}
-      <div className="w-36 rounded-xl border-2 border-[#4A3F55] bg-[#FFF6E5]/90 px-3 py-2 shadow-sm">
-        <p className="text-[9px] font-semibold text-[#6B5F78]">{labels.you}</p>
-        <div className="mt-1">
-          <HpBar current={playerHp} max={playerMaxHp} color="#7FC4E0" />
+      <div style={{ borderTop: "1px solid #2a3f5f" }} />
+
+      {/* Player */}
+      <div>
+        <div style={{ color: "#6ab4ff", marginBottom: 2, textTransform: "uppercase", fontSize: 9, letterSpacing: 1 }}>
+          CRONO
         </div>
-        <p className="mt-0.5 text-right text-[8px] text-[#9188A0]">
-          {playerHp} / {playerMaxHp}
-        </p>
+        <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
+          <HpBar current={playerHp} max={playerMaxHp} />
+          <span style={{ fontSize: 10, color: "#aaa" }}>{playerHp}/{playerMaxHp}</span>
+        </div>
       </div>
     </div>
   );

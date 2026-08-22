@@ -1,0 +1,288 @@
+[
+  {
+    "id": "ja_n5_0035",
+    "lang": "ja",
+    "written": "大きい",
+    "reading": "おおきい",
+    "romanization": "ookii",
+    "meaning": { "th": "ใหญ่", "en": "big; large" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["adjective", "i-adj", "daily", "size"],
+    "frequency": 140,
+    "audio": "voice/ja/n5_0035.mp3",
+    "examples": [
+      {
+        "sentence": "あの木は大きいです。",
+        "reading": "あのきはおおきいです。",
+        "translation": { "th": "ต้นไม้ต้นนั้นใหญ่", "en": "That tree is big." },
+        "context": "autumn_hill"
+      }
+    ],
+    "kotodama": {
+      "name": "Okiru",
+      "sprite": "kotodama/n5_0035.png",
+      "description": { "en": "A puffed-up spirit that expands when excited. It can grow large enough to shade an entire picnic — then shrink back to palm-size with a sigh." },
+      "rarity": "common",
+      "habitat": ["autumn_hill", "shrine", "sakura_path"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "大 = a person (大) with arms stretched wide — as big as they can reach." }
+  },
+  {
+    "id": "ja_n5_0036",
+    "lang": "ja",
+    "written": "小さい",
+    "reading": "ちいさい",
+    "romanization": "chiisai",
+    "meaning": { "th": "เล็ก", "en": "small; little" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["adjective", "i-adj", "daily", "size"],
+    "frequency": 145,
+    "audio": "voice/ja/n5_0036.mp3",
+    "examples": [
+      {
+        "sentence": "ねこは小さいです。",
+        "reading": "ねこはちいさいです。",
+        "translation": { "th": "แมวตัวเล็ก", "en": "The cat is small." },
+        "context": "sakura_path"
+      }
+    ],
+    "kotodama": {
+      "name": "Chiiru",
+      "sprite": "kotodama/n5_0036.png",
+      "description": { "en": "A tiny spirit barely the size of a raindrop. It hides in teacups and between book pages, making itself even smaller whenever it feels shy." },
+      "rarity": "common",
+      "habitat": ["sakura_path", "hanami_academy", "shrine"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "小 = three tiny dots scattered — small things spreading out in different directions, easy to miss." }
+  },
+  {
+    "id": "ja_n5_0037",
+    "lang": "ja",
+    "written": "新しい",
+    "reading": "あたらしい",
+    "romanization": "atarashii",
+    "meaning": { "th": "ใหม่", "en": "new" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["adjective", "i-adj", "daily"],
+    "frequency": 160,
+    "audio": "voice/ja/n5_0037.mp3",
+    "examples": [
+      {
+        "sentence": "あたらしいほんを買いました。",
+        "reading": "あたらしいほんをかいました。",
+        "translation": { "th": "ซื้อหนังสือเล่มใหม่", "en": "I bought a new book." },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Atarin",
+      "sprite": "kotodama/n5_0037.png",
+      "description": { "en": "A freshly-minted spirit still gleaming from the press. Everything it touches feels crisp and unwrapped, like the first page of a brand-new notebook." },
+      "rarity": "common",
+      "habitat": ["shopping_street", "sakura_station", "hanami_academy"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "新 = axe (斤) cutting into a tree (木) — freshly cut timber, brand new material straight from the forest." }
+  },
+  {
+    "id": "ja_n5_0038",
+    "lang": "ja",
+    "written": "古い",
+    "reading": "ふるい",
+    "romanization": "furui",
+    "meaning": { "th": "เก่า", "en": "old; ancient" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["adjective", "i-adj", "daily"],
+    "frequency": 190,
+    "audio": "voice/ja/n5_0038.mp3",
+    "examples": [
+      {
+        "sentence": "このほんは古いです。",
+        "reading": "このほんはふるいです。",
+        "translation": { "th": "หนังสือเล่มนี้เก่า", "en": "This book is old." },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Furumo",
+      "sprite": "kotodama/n5_0038.png",
+      "description": { "en": "A weathered spirit covered in faded ink and the smell of aged paper. It has seen every era of Hanami-chō and remembers words that everyone else has forgotten." },
+      "rarity": "uncommon",
+      "habitat": ["shrine", "hanami_academy", "autumn_hill"],
+      "evolveCondition": { "type": "review_streak", "value": 7 }
+    },
+    "mnemonic": { "en": "古 = ten (十) over mouth (口) — ten mouths passing a story down through the generations, making it old." }
+  },
+  {
+    "id": "ja_n5_0039",
+    "lang": "ja",
+    "written": "おいしい",
+    "reading": "おいしい",
+    "romanization": "oishii",
+    "meaning": { "th": "อร่อย", "en": "delicious; tasty" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["adjective", "i-adj", "food", "daily"],
+    "frequency": 170,
+    "audio": "voice/ja/n5_0039.mp3",
+    "examples": [
+      {
+        "sentence": "このラーメンはおいしいです！",
+        "reading": "このラーメンはおいしいです！",
+        "translation": { "th": "ราเมนนี้อร่อยมาก!", "en": "This ramen is delicious!" },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Oishi",
+      "sprite": "kotodama/n5_0039.png",
+      "description": { "en": "A warm, round spirit that smells of fresh cooking. When it appears, nearby Kotodama lean in with wide eyes. It is impossible not to smile when Oishi is around." },
+      "rarity": "common",
+      "habitat": ["shopping_street", "festival_grounds", "fresh_market"],
+      "evolveCondition": { "type": "combo_count", "value": 10 }
+    }
+  },
+  {
+    "id": "ja_n5_0040",
+    "lang": "ja",
+    "written": "高い",
+    "reading": "たかい",
+    "romanization": "takai",
+    "meaning": { "th": "แพง / สูง", "en": "expensive; tall; high" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["adjective", "i-adj", "daily", "price"],
+    "frequency": 135,
+    "audio": "voice/ja/n5_0040.mp3",
+    "examples": [
+      {
+        "sentence": "このかばんは高いです。",
+        "reading": "このかばんはたかいです。",
+        "translation": { "th": "กระเป๋าใบนี้แพง", "en": "This bag is expensive." },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Takari",
+      "sprite": "kotodama/n5_0040.png",
+      "description": { "en": "A lofty spirit perched on the tallest shelf in every shop. It guards the rare and valuable items and only comes down when someone shows genuine curiosity." },
+      "rarity": "uncommon",
+      "habitat": ["shopping_street", "autumn_hill", "shrine"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "高 = a tall building (亠) on a platform — something elevated, whether in height or price." }
+  },
+  {
+    "id": "ja_n5_0041",
+    "lang": "ja",
+    "written": "安い",
+    "reading": "やすい",
+    "romanization": "yasui",
+    "meaning": { "th": "ถูก (ราคา)", "en": "cheap; inexpensive" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["adjective", "i-adj", "daily", "price"],
+    "frequency": 180,
+    "audio": "voice/ja/n5_0041.mp3",
+    "examples": [
+      {
+        "sentence": "このりんごは安いです。",
+        "reading": "このりんごはやすいです。",
+        "translation": { "th": "แอปเปิ้ลลูกนี้ราคาถูก", "en": "This apple is cheap." },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Yasiru",
+      "sprite": "kotodama/n5_0041.png",
+      "description": { "en": "A cheerful bargain-hunter spirit that glows brighter whenever it finds something affordable. Market vendors know that when Yasiru appears, good deals are nearby." },
+      "rarity": "common",
+      "habitat": ["fresh_market", "shopping_street", "festival_grounds"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "安 = woman (女) under a roof (宀) — a sense of peace and ease, something that costs little worry." }
+  },
+  {
+    "id": "ja_n5_0042",
+    "lang": "ja",
+    "written": "きれい",
+    "reading": "きれい",
+    "romanization": "kirei",
+    "meaning": { "th": "สวย / สะอาด", "en": "pretty; beautiful; clean" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["adjective", "na-adj", "daily", "appearance"],
+    "frequency": 150,
+    "audio": "voice/ja/n5_0042.mp3",
+    "examples": [
+      {
+        "sentence": "さくらはきれいです。",
+        "reading": "さくらはきれいです。",
+        "translation": { "th": "ดอกซากุระสวยงาม", "en": "The cherry blossoms are beautiful." },
+        "context": "sakura_path"
+      }
+    ],
+    "kotodama": {
+      "name": "Kirei",
+      "sprite": "kotodama/n5_0042.png",
+      "description": { "en": "A translucent spirit with soft pastel edges, like a soap bubble that never pops. It drifts toward beauty instinctively and leaves things slightly cleaner wherever it rests." },
+      "rarity": "common",
+      "habitat": ["sakura_path", "shrine", "winter_courtyard"],
+      "evolveCondition": { "type": "combo_count", "value": 10 }
+    }
+  },
+  {
+    "id": "ja_n5_0043",
+    "lang": "ja",
+    "written": "好き",
+    "reading": "すき",
+    "romanization": "suki",
+    "meaning": { "th": "ชอบ / รัก", "en": "liked; favourite; love (for things/people)" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["adjective", "na-adj", "daily", "emotion"],
+    "frequency": 125,
+    "audio": "voice/ja/n5_0043.mp3",
+    "examples": [
+      {
+        "sentence": "わたしはさかなが好きです。",
+        "reading": "わたしはさかながすきです。",
+        "translation": { "th": "ฉันชอบปลา", "en": "I like fish." },
+        "context": "shrine"
+      }
+    ],
+    "kotodama": {
+      "name": "Sukiru",
+      "sprite": "kotodama/n5_0043.png",
+      "description": { "en": "A heart-shaped spirit that blushes when near anything its owner loves. Its warmth is gentle and steady — not a fierce flame, but a soft, lasting glow." },
+      "rarity": "common",
+      "habitat": ["shrine", "sakura_path", "hanami_academy"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "好 = woman (女) + child (子) — a mother's fondness for her child, the root of liking anything." }
+  }
+]

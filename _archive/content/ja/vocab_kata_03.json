@@ -1,0 +1,290 @@
+[
+  {
+    "id": "ja_kata_te",
+    "lang": "ja",
+    "written": "テ",
+    "reading": "テ",
+    "romanization": "te",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 'te'", "en": "katakana for 'te' — used in foreign loanwords" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "t_row"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_te.mp3",
+    "examples": [
+      {
+        "sentence": "テレビ (terebi) — television",
+        "reading": "テレビ",
+        "translation": { "th": "โทรทัศน์ — テ เริ่มต้น!", "en": "Television — テ starts it!" },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Tene",
+      "sprite": "kotodama/kata_te.png",
+      "description": { "en": "A broadcast spirit shaped like テ. It radiates signals in all directions and knows every TV show ever made." },
+      "rarity": "common",
+      "habitat": ["shopping_street"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "テ looks like a telephone pole with a crossbar and antenna — TElephony, TElévision." }
+  },
+  {
+    "id": "ja_kata_to",
+    "lang": "ja",
+    "written": "ト",
+    "reading": "ト",
+    "romanization": "to",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 'to'", "en": "katakana for 'to' — used in foreign loanwords" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "t_row"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_to.mp3",
+    "examples": [
+      {
+        "sentence": "トマト (tomato) — tomato",
+        "reading": "トマト",
+        "translation": { "th": "มะเขือเทศ — ト ขนาบทั้งสองข้าง!", "en": "Tomato — ト wraps around both ends!" },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Toru",
+      "sprite": "kotodama/kata_to.png",
+      "description": { "en": "A stout spirit shaped like ト — a totem post with a single foothold. It stands firm and never falls." },
+      "rarity": "common",
+      "habitat": ["fresh_market", "shopping_street"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "ト is a TOtem pole with one step cut into it — climb TO the top!" }
+  },
+  {
+    "id": "ja_kata_na",
+    "lang": "ja",
+    "written": "ナ",
+    "reading": "ナ",
+    "romanization": "na",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 'na'", "en": "katakana for 'na' — used in foreign loanwords" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "n_row"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_na.mp3",
+    "examples": [
+      {
+        "sentence": "ナイフ (naifu) — knife",
+        "reading": "ナイフ",
+        "translation": { "th": "มีด — ナ เริ่มต้น!", "en": "Knife — ナ starts it!" },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Naru",
+      "sprite": "kotodama/kata_na.png",
+      "description": { "en": "A cross-shaped spirit shaped like ナ. It crosses paths with everything and carries a tiny cutting edge wherever it goes." },
+      "rarity": "common",
+      "habitat": ["fresh_market", "shopping_street"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "ナ is a NAil — a vertical post crossed by a single horizontal line, driven straight in." }
+  },
+  {
+    "id": "ja_kata_ni",
+    "lang": "ja",
+    "written": "ニ",
+    "reading": "ニ",
+    "romanization": "ni",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 'ni'", "en": "katakana for 'ni' — used in foreign loanwords" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "n_row"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_ni.mp3",
+    "examples": [
+      {
+        "sentence": "ニュース (nyuusu) — news",
+        "reading": "ニュース",
+        "translation": { "th": "ข่าว — ニ เริ่มต้น!", "en": "News — ニ starts it!" },
+        "context": "sakura_station"
+      }
+    ],
+    "kotodama": {
+      "name": "Niru",
+      "sprite": "kotodama/kata_ni.png",
+      "description": { "en": "A double-lined spirit shaped like ニ. It always comes in twos — two headlines, two viewpoints, two stories." },
+      "rarity": "common",
+      "habitat": ["sakura_station", "shopping_street"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "ニ is simply the number 2 — and NI means 2 in Japanese! Perfect memory hook." }
+  },
+  {
+    "id": "ja_kata_nu",
+    "lang": "ja",
+    "written": "ヌ",
+    "reading": "ヌ",
+    "romanization": "nu",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 'nu'", "en": "katakana for 'nu' — used in foreign loanwords" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "n_row"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_nu.mp3",
+    "examples": [
+      {
+        "sentence": "ヌードル (nuudoru) — noodle",
+        "reading": "ヌードル",
+        "translation": { "th": "บะหมี่ — ヌ เริ่มต้น!", "en": "Noodle — ヌ starts it!" },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Nunu",
+      "sprite": "kotodama/kata_nu.png",
+      "description": { "en": "A twisty spirit shaped like ヌ. It coils like a noodle and slurps through narrow gaps with surprising speed." },
+      "rarity": "common",
+      "habitat": ["fresh_market"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "ヌ looks like hiragana ぬ with the loops pulled straight — a NUdge of a noodle." }
+  },
+  {
+    "id": "ja_kata_ne",
+    "lang": "ja",
+    "written": "ネ",
+    "reading": "ネ",
+    "romanization": "ne",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 'ne'", "en": "katakana for 'ne' — used in foreign loanwords" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "n_row"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_ne.mp3",
+    "examples": [
+      {
+        "sentence": "ネクタイ (nekutai) — necktie",
+        "reading": "ネクタイ",
+        "translation": { "th": "เน็กไท — ネ เริ่มต้น!", "en": "Necktie — ネ starts it!" },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Nene",
+      "sprite": "kotodama/kata_ne.png",
+      "description": { "en": "A smartly dressed spirit shaped like ネ. It always appears with a perfectly tied necktie and impeccable posture." },
+      "rarity": "common",
+      "habitat": ["shopping_street", "airport"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "ネ looks like a person wearing a NEcktie — the knot sits right at the centre." }
+  },
+  {
+    "id": "ja_kata_no",
+    "lang": "ja",
+    "written": "ノ",
+    "reading": "ノ",
+    "romanization": "no",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 'no'", "en": "katakana for 'no' — used in foreign loanwords" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "n_row"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_no.mp3",
+    "examples": [
+      {
+        "sentence": "ノート (nooto) — notebook",
+        "reading": "ノート",
+        "translation": { "th": "สมุดโน้ต — ノ เริ่มต้น!", "en": "Notebook — ノ starts it!" },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Noru",
+      "sprite": "kotodama/kata_no.png",
+      "description": { "en": "A single-stroke spirit shaped like ノ. It is the simplest katakana and the first stroke in many others — a quiet backbone." },
+      "rarity": "common",
+      "habitat": ["hanami_academy", "shopping_street"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "ノ is a single diagonal slash — the universal 'NO' / prohibition mark, or a pen stroke in a NOtebook." }
+  },
+  {
+    "id": "ja_kata_ha",
+    "lang": "ja",
+    "written": "ハ",
+    "reading": "ハ",
+    "romanization": "ha",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 'ha'", "en": "katakana for 'ha' — used in foreign loanwords" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "h_row"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_ha.mp3",
+    "examples": [
+      {
+        "sentence": "ハンバーガー (hanbaagaa) — hamburger",
+        "reading": "ハンバーガー",
+        "translation": { "th": "แฮมเบอร์เกอร์ — ハ เริ่มต้น!", "en": "Hamburger — ハ starts it!" },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Haru",
+      "sprite": "kotodama/kata_ha.png",
+      "description": { "en": "A wide-open spirit shaped like ハ — two arms spread in a HA! of delight. It loves sharing food and meeting new people." },
+      "rarity": "common",
+      "habitat": ["shopping_street"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "ハ is two arms spread wide — HA! a HAmppy greeting with open arms." }
+  },
+  {
+    "id": "ja_kata_hi",
+    "lang": "ja",
+    "written": "ヒ",
+    "reading": "ヒ",
+    "romanization": "hi",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 'hi'", "en": "katakana for 'hi' — used in foreign loanwords" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "h_row"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_hi.mp3",
+    "examples": [
+      {
+        "sentence": "ヒント (hinto) — hint",
+        "reading": "ヒント",
+        "translation": { "th": "คำใบ้ — ヒ เริ่มต้น!", "en": "Hint — ヒ starts it!" },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Hiru",
+      "sprite": "kotodama/kata_hi.png",
+      "description": { "en": "A helpful spirit shaped like ヒ. It whispers hints and nudges you in the right direction when you're stuck." },
+      "rarity": "common",
+      "habitat": ["hanami_academy", "shopping_street"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "ヒ looks like the letter F going right — a HInt that you're almost there, just reverse direction." }
+  }
+]

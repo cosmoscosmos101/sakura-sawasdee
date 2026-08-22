@@ -1,0 +1,283 @@
+[
+  {
+    "id": "ja_n5_0017",
+    "lang": "ja",
+    "written": "ごはん",
+    "reading": "ごはん",
+    "romanization": "gohan",
+    "meaning": { "th": "ข้าว / มื้ออาหาร", "en": "rice; meal" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["food", "daily", "meal"],
+    "frequency": 210,
+    "audio": "voice/ja/n5_0017.mp3",
+    "examples": [
+      {
+        "sentence": "ごはんを食べます。",
+        "reading": "ごはんをたべます。",
+        "translation": { "th": "ฉันกินข้าว", "en": "I eat a meal." },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Gorin",
+      "sprite": "kotodama/n5_0017.png",
+      "description": { "en": "A plump round spirit shaped like a bowl of rice. Every grain on its body glows warm white. It never starts a journey on an empty stomach." },
+      "rarity": "common",
+      "habitat": ["shopping_street", "fresh_market", "festival_grounds"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  },
+  {
+    "id": "ja_n5_0018",
+    "lang": "ja",
+    "written": "パン",
+    "reading": "パン",
+    "romanization": "pan",
+    "meaning": { "th": "ขนมปัง", "en": "bread" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["food", "daily", "katakana"],
+    "frequency": 480,
+    "audio": "voice/ja/n5_0018.mp3",
+    "examples": [
+      {
+        "sentence": "パンを買います。",
+        "reading": "パンをかいます。",
+        "translation": { "th": "ฉันซื้อขนมปัง", "en": "I buy bread." },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Panpo",
+      "sprite": "kotodama/n5_0018.png",
+      "description": { "en": "A fluffy loaf spirit with a golden crust and a soft, pillowy interior. It floats gently through bakeries, trailing the smell of fresh bread." },
+      "rarity": "common",
+      "habitat": ["shopping_street", "fresh_market"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  },
+  {
+    "id": "ja_n5_0019",
+    "lang": "ja",
+    "written": "水",
+    "reading": "みず",
+    "romanization": "mizu",
+    "meaning": { "th": "น้ำ", "en": "water" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["nature", "daily", "drink"],
+    "frequency": 185,
+    "audio": "voice/ja/n5_0019.mp3",
+    "examples": [
+      {
+        "sentence": "水を飲みます。",
+        "reading": "みずをのみます。",
+        "translation": { "th": "ฉันดื่มน้ำ", "en": "I drink water." },
+        "context": "sakura_path"
+      }
+    ],
+    "kotodama": {
+      "name": "Mizuru",
+      "sprite": "kotodama/n5_0019.png",
+      "description": { "en": "A translucent droplet spirit whose body ripples like a calm pond. It rests at riversides and purifies murky pools just by floating nearby." },
+      "rarity": "common",
+      "habitat": ["sakura_path", "shrine", "winter_courtyard"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "水 shows three water drops flowing from a central stream — picture a river bending left with droplets flying off." }
+  },
+  {
+    "id": "ja_n5_0020",
+    "lang": "ja",
+    "written": "お茶",
+    "reading": "おちゃ",
+    "romanization": "ocha",
+    "meaning": { "th": "ชา (มักหมายถึงชาเขียว)", "en": "tea (usually green tea)" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["drink", "daily", "culture"],
+    "frequency": 290,
+    "audio": "voice/ja/n5_0020.mp3",
+    "examples": [
+      {
+        "sentence": "お茶が好きです。",
+        "reading": "おちゃがすきです。",
+        "translation": { "th": "ฉันชอบชา", "en": "I like tea." },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Ocharin",
+      "sprite": "kotodama/n5_0020.png",
+      "description": { "en": "A misty steam spirit that drifts from the top of a warm teacup. Its breath smells of roasted green leaves and it calms anyone who inhales it." },
+      "rarity": "common",
+      "habitat": ["hanami_academy", "shrine", "shopping_street"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "茶 = wood radical + two hands cradling leaves — someone gathering tea leaves from a bush." }
+  },
+  {
+    "id": "ja_n5_0021",
+    "lang": "ja",
+    "written": "たまご",
+    "reading": "たまご",
+    "romanization": "tamago",
+    "meaning": { "th": "ไข่", "en": "egg" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["food", "daily"],
+    "frequency": 390,
+    "audio": "voice/ja/n5_0021.mp3",
+    "examples": [
+      {
+        "sentence": "たまごが三つあります。",
+        "reading": "たまごがみっつあります。",
+        "translation": { "th": "มีไข่สามฟอง", "en": "There are three eggs." },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Tamagoko",
+      "sprite": "kotodama/n5_0021.png",
+      "description": { "en": "A pale cream oval spirit with a gentle wobble. Something seems to be growing inside — it hums softly when held close to the ear." },
+      "rarity": "common",
+      "habitat": ["fresh_market", "shopping_street"],
+      "evolveCondition": { "type": "combo_count", "value": 10 }
+    }
+  },
+  {
+    "id": "ja_n5_0022",
+    "lang": "ja",
+    "written": "さかな",
+    "reading": "さかな",
+    "romanization": "sakana",
+    "meaning": { "th": "ปลา", "en": "fish" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["food", "animal", "daily"],
+    "frequency": 350,
+    "audio": "voice/ja/n5_0022.mp3",
+    "examples": [
+      {
+        "sentence": "さかなが好きですか？",
+        "reading": "さかながすきですか？",
+        "translation": { "th": "ชอบปลาไหม？", "en": "Do you like fish?" },
+        "context": "festival_grounds"
+      }
+    ],
+    "kotodama": {
+      "name": "Sakanyu",
+      "sprite": "kotodama/n5_0022.png",
+      "description": { "en": "A shimmering silver spirit shaped like a small fish. Its scales flash different colours depending on the light, and it leaps between maps like a stream." },
+      "rarity": "common",
+      "habitat": ["festival_grounds", "shrine", "sakura_path"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  },
+  {
+    "id": "ja_n5_0023",
+    "lang": "ja",
+    "written": "にく",
+    "reading": "にく",
+    "romanization": "niku",
+    "meaning": { "th": "เนื้อ", "en": "meat" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["food", "daily"],
+    "frequency": 420,
+    "audio": "voice/ja/n5_0023.mp3",
+    "examples": [
+      {
+        "sentence": "にくが食べたいです。",
+        "reading": "にくがたべたいです。",
+        "translation": { "th": "อยากกินเนื้อ", "en": "I want to eat meat." },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Nikuru",
+      "sprite": "kotodama/n5_0023.png",
+      "description": { "en": "A warm, round, rosy spirit that steams gently. It smells of a perfectly seasoned broth and draws hungry travellers from far away." },
+      "rarity": "common",
+      "habitat": ["shopping_street", "festival_grounds"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  },
+  {
+    "id": "ja_n5_0024",
+    "lang": "ja",
+    "written": "やさい",
+    "reading": "やさい",
+    "romanization": "yasai",
+    "meaning": { "th": "ผัก", "en": "vegetable(s)" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["food", "daily", "nature"],
+    "frequency": 410,
+    "audio": "voice/ja/n5_0024.mp3",
+    "examples": [
+      {
+        "sentence": "やさいを食べてください。",
+        "reading": "やさいをたべてください。",
+        "translation": { "th": "กรุณากินผักด้วย", "en": "Please eat your vegetables." },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Yasarin",
+      "sprite": "kotodama/n5_0024.png",
+      "description": { "en": "A bouncy green spirit shaped like a mixed bundle of vegetables. Leaves sprout from its head and it always smells of the morning market." },
+      "rarity": "common",
+      "habitat": ["shopping_street", "fresh_market", "autumn_hill"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  },
+  {
+    "id": "ja_n5_0025",
+    "lang": "ja",
+    "written": "くだもの",
+    "reading": "くだもの",
+    "romanization": "kudamono",
+    "meaning": { "th": "ผลไม้", "en": "fruit" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["food", "daily", "nature"],
+    "frequency": 380,
+    "audio": "voice/ja/n5_0025.mp3",
+    "examples": [
+      {
+        "sentence": "くだものが好きです。",
+        "reading": "くだものがすきです。",
+        "translation": { "th": "ชอบผลไม้", "en": "I like fruit." },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Kudarin",
+      "sprite": "kotodama/n5_0025.png",
+      "description": { "en": "A cheerful, colourful spirit with a different fruit growing from each side of its round body. It tastes faintly sweet no matter where you are." },
+      "rarity": "common",
+      "habitat": ["fresh_market", "shopping_street", "festival_grounds"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  }
+]

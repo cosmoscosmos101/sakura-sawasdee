@@ -1,0 +1,126 @@
+[
+  {
+    "id": "ja_kana_shi",
+    "lang": "ja",
+    "written": "し",
+    "reading": "し",
+    "romanization": "shi",
+    "meaning": { "th": "เสียง ชิ (อักษรฮิรางานะ)", "en": "shi (hiragana character)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_shi.mp3",
+    "examples": [
+      {
+        "sentence": "しろ (shiro = white / castle)",
+        "reading": "しろ",
+        "translation": { "th": "สีขาว/ปราสาท → ชิ-โระ", "en": "white / castle → shi-ro" },
+        "context": "shrine"
+      }
+    ],
+    "kotodama": {
+      "name": "Shishi",
+      "sprite": "kotodama/shishi.png",
+      "description": { "en": "A swooping spirit with a curved tail, like a fish hook. It dives down and snaps upward — always catching the syllable 'shi' in mid-air." },
+      "rarity": "common",
+      "habitat": ["shrine", "sakura_path"]
+    },
+    "mnemonic": { "en": "し looks like a fish hook — it curves down and snaps up at the end." }
+  },
+  {
+    "id": "ja_kana_nu",
+    "lang": "ja",
+    "written": "ぬ",
+    "reading": "ぬ",
+    "romanization": "nu",
+    "meaning": { "th": "เสียง นุ (อักษรฮิรางานะ)", "en": "nu (hiragana character)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_nu.mp3",
+    "examples": [
+      {
+        "sentence": "ぬいぐるみ (nuigurumi = stuffed toy)",
+        "reading": "ぬいぐるみ",
+        "translation": { "th": "ตุ๊กตาผ้า → นุ-อิ-กุ-รุ-มิ", "en": "stuffed toy → nu-i-gu-ru-mi" },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Nunu",
+      "sprite": "kotodama/nunu.png",
+      "description": { "en": "A fluffy, looping spirit with a tangled tail. It wraps itself around things it likes — always warm, always soft, always leaving a little loop behind." },
+      "rarity": "common",
+      "habitat": ["shopping_street", "hanami_academy"]
+    },
+    "mnemonic": { "en": "ぬ looks like thread looping over itself — imagine sewing a stuffed toy." }
+  },
+  {
+    "id": "ja_kana_mo",
+    "lang": "ja",
+    "written": "も",
+    "reading": "も",
+    "romanization": "mo",
+    "meaning": { "th": "เสียง โมะ (อักษรฮิรางานะ)", "en": "mo (hiragana character)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_mo.mp3",
+    "examples": [
+      {
+        "sentence": "もり (mori = forest)",
+        "reading": "もり",
+        "translation": { "th": "ป่า → โมะ-ริ", "en": "forest → mo-ri" },
+        "context": "autumn_hill"
+      }
+    ],
+    "kotodama": {
+      "name": "Mofu",
+      "sprite": "kotodama/mofu.png",
+      "description": { "en": "A fluffy spirit that collects things wherever it goes. The two horizontal bars across its body are like branches — and it always has something hooked on them." },
+      "rarity": "common",
+      "habitat": ["autumn_hill", "shrine"]
+    },
+    "mnemonic": { "en": "も looks like a fishhook with two catches — it's always picking something up as it passes." }
+  },
+  {
+    "id": "ja_kana_wo",
+    "lang": "ja",
+    "written": "を",
+    "reading": "を",
+    "romanization": "wo",
+    "meaning": { "th": "เสียง โวะ (อนุภาคกรรม ในภาษาญี่ปุ่น)", "en": "wo (object-marking particle in Japanese)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character", "particle"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_wo.mp3",
+    "examples": [
+      {
+        "sentence": "ほんをよむ (hon wo yomu = to read a book)",
+        "reading": "ほんをよむ",
+        "translation": { "th": "อ่านหนังสือ → ฮอน-โวะ-โยะ-มุ", "en": "to read a book → hon wo yo-mu" },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Wone",
+      "sprite": "kotodama/wone.png",
+      "description": { "en": "A rare, looping spirit that exists only to connect. を is almost never used as a sound — it lives between words, marking what the action is directed at." },
+      "rarity": "uncommon",
+      "habitat": ["hanami_academy", "shrine"]
+    },
+    "mnemonic": { "en": "を has a wide circle with a tail — like a lasso reaching out to grab the object of an action." }
+  }
+]

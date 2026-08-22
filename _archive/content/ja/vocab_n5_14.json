@@ -1,0 +1,471 @@
+[
+  {
+    "id": "ja_n5_0116",
+    "lang": "ja",
+    "written": "天気",
+    "reading": "てんき",
+    "romanization": "tenki",
+    "meaning": {
+      "th": "อากาศ / สภาพอากาศ",
+      "en": "weather; atmospheric conditions"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 6,
+    "tags": [
+      "noun",
+      "weather",
+      "daily",
+      "nature"
+    ],
+    "frequency": 90,
+    "audio": "voice/ja/n5_0116.mp3",
+    "examples": [
+      {
+        "sentence": "今日の天気はいいです。",
+        "reading": "きょうのてんきはいいです。",
+        "translation": {
+          "th": "อากาศวันนี้ดีมาก",
+          "en": "Today's weather is fine."
+        },
+        "context": "sakura_path"
+      }
+    ],
+    "kotodama": {
+      "name": "Tenkicloud",
+      "sprite": "kotodama/n5_0116.png",
+      "description": {
+        "en": "A shape-shifting spirit that mirrors the current weather. On sunny days it glows golden; on rainy days it turns blue and drips gently."
+      },
+      "rarity": "common",
+      "habitat": [
+        "sakura_path",
+        "autumn_hill",
+        "shrine"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    },
+    "mnemonic": {
+      "en": "天気 = 天 (heaven/sky) + 気 (energy/spirit) — the energy of the sky."
+    }
+  },
+  {
+    "id": "ja_n5_0117",
+    "lang": "ja",
+    "written": "雨",
+    "reading": "あめ",
+    "romanization": "ame",
+    "meaning": {
+      "th": "ฝน",
+      "en": "rain"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 6,
+    "tags": [
+      "noun",
+      "weather",
+      "nature",
+      "daily"
+    ],
+    "frequency": 82,
+    "audio": "voice/ja/n5_0117.mp3",
+    "examples": [
+      {
+        "sentence": "今日は雨です。",
+        "reading": "きょうはあめです。",
+        "translation": {
+          "th": "วันนี้ฝนตก",
+          "en": "It is raining today."
+        },
+        "context": "sakura_path"
+      }
+    ],
+    "kotodama": {
+      "name": "Amerain",
+      "sprite": "kotodama/n5_0117.png",
+      "description": {
+        "en": "A droplet-shaped spirit with a translucent blue body. It softly taps on surfaces and makes tiny rings wherever it lands."
+      },
+      "rarity": "common",
+      "habitat": [
+        "sakura_path",
+        "shrine",
+        "autumn_hill"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    },
+    "mnemonic": {
+      "en": "雨 = the kanji shows a cloud (upper box) with four drops falling from it."
+    }
+  },
+  {
+    "id": "ja_n5_0118",
+    "lang": "ja",
+    "written": "雪",
+    "reading": "ゆき",
+    "romanization": "yuki",
+    "meaning": {
+      "th": "หิมะ",
+      "en": "snow"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 6,
+    "tags": [
+      "noun",
+      "weather",
+      "nature",
+      "winter"
+    ],
+    "frequency": 142,
+    "audio": "voice/ja/n5_0118.mp3",
+    "examples": [
+      {
+        "sentence": "富士山は雪が多いです。",
+        "reading": "ふじさんはゆきがおおいです。",
+        "translation": {
+          "th": "ภูเขาฟูจิมีหิมะเยอะ",
+          "en": "Mt Fuji has a lot of snow."
+        },
+        "context": "winter_courtyard"
+      }
+    ],
+    "kotodama": {
+      "name": "Yukisnow",
+      "sprite": "kotodama/n5_0118.png",
+      "description": {
+        "en": "A six-sided snowflake spirit that drifts in slow spirals. It never lands twice in the same spot and melts instantly when touched."
+      },
+      "rarity": "common",
+      "habitat": [
+        "winter_courtyard",
+        "shrine",
+        "sakura_path"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    },
+    "mnemonic": {
+      "en": "雪 = 雨 (rain) + ヨ (a broom sweeping) — rain that must be swept away."
+    }
+  },
+  {
+    "id": "ja_n5_0119",
+    "lang": "ja",
+    "written": "暑い",
+    "reading": "あつい",
+    "romanization": "atsui",
+    "meaning": {
+      "th": "ร้อน (อากาศ)",
+      "en": "hot (weather); sweltering"
+    },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "N5",
+    "chapter": 6,
+    "tags": [
+      "adjective",
+      "i-adj",
+      "weather",
+      "daily"
+    ],
+    "frequency": 145,
+    "audio": "voice/ja/n5_0119.mp3",
+    "examples": [
+      {
+        "sentence": "今日は暑いですね。",
+        "reading": "きょうはあついですね。",
+        "translation": {
+          "th": "วันนี้ร้อนจริงๆ",
+          "en": "It is hot today, isn't it?"
+        },
+        "context": "festival_grounds"
+      }
+    ],
+    "kotodama": {
+      "name": "Atsuihot",
+      "sprite": "kotodama/n5_0119.png",
+      "description": {
+        "en": "A pulsing amber spark that radiates dry warmth. It grows brightest in summer and dims to a gentle ember in winter."
+      },
+      "rarity": "common",
+      "habitat": [
+        "festival_grounds",
+        "shopping_street",
+        "sakura_path"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    }
+  },
+  {
+    "id": "ja_n5_0120",
+    "lang": "ja",
+    "written": "寒い",
+    "reading": "さむい",
+    "romanization": "samui",
+    "meaning": {
+      "th": "หนาว (อากาศ)",
+      "en": "cold (weather); chilly"
+    },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "N5",
+    "chapter": 6,
+    "tags": [
+      "adjective",
+      "i-adj",
+      "weather",
+      "daily"
+    ],
+    "frequency": 148,
+    "audio": "voice/ja/n5_0120.mp3",
+    "examples": [
+      {
+        "sentence": "冬は寒いです。",
+        "reading": "ふゆはさむいです。",
+        "translation": {
+          "th": "ฤดูหนาวหนาวมาก",
+          "en": "Winter is cold."
+        },
+        "context": "winter_courtyard"
+      }
+    ],
+    "kotodama": {
+      "name": "Samuicold",
+      "sprite": "kotodama/n5_0120.png",
+      "description": {
+        "en": "A shivering icy spark wrapped in a tiny knitted scarf. It exhales frost and leaves snowflake prints on windows."
+      },
+      "rarity": "common",
+      "habitat": [
+        "winter_courtyard",
+        "shrine",
+        "sakura_path"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    }
+  },
+  {
+    "id": "ja_n5_0121",
+    "lang": "ja",
+    "written": "難しい",
+    "reading": "むずかしい",
+    "romanization": "muzukashii",
+    "meaning": {
+      "th": "ยาก / ลำบาก",
+      "en": "difficult; hard"
+    },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "N5",
+    "chapter": 6,
+    "tags": [
+      "adjective",
+      "i-adj",
+      "learning",
+      "daily"
+    ],
+    "frequency": 160,
+    "audio": "voice/ja/n5_0121.mp3",
+    "examples": [
+      {
+        "sentence": "この問題は難しいです。",
+        "reading": "このもんだいはむずかしいです。",
+        "translation": {
+          "th": "โจทย์นี้ยากมาก",
+          "en": "This problem is difficult."
+        },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Muzufrown",
+      "sprite": "kotodama/n5_0121.png",
+      "description": {
+        "en": "A furrowed-brow spark that tangles itself into knots when presented with a hard question. It slowly unravels and glows once the answer clicks."
+      },
+      "rarity": "common",
+      "habitat": [
+        "hanami_academy",
+        "shrine",
+        "autumn_hill"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    }
+  },
+  {
+    "id": "ja_n5_0122",
+    "lang": "ja",
+    "written": "やさしい",
+    "reading": "やさしい",
+    "romanization": "yasashii",
+    "meaning": {
+      "th": "ง่าย / ใจดี",
+      "en": "easy; simple; kind; gentle"
+    },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "N5",
+    "chapter": 6,
+    "tags": [
+      "adjective",
+      "i-adj",
+      "learning",
+      "personality",
+      "daily"
+    ],
+    "frequency": 135,
+    "audio": "voice/ja/n5_0122.mp3",
+    "examples": [
+      {
+        "sentence": "この本はやさしいです。",
+        "reading": "このほんはやさしいです。",
+        "translation": {
+          "th": "หนังสือเล่มนี้ง่ายมาก",
+          "en": "This book is easy."
+        },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Yasashisoft",
+      "sprite": "kotodama/n5_0122.png",
+      "description": {
+        "en": "A gentle pastel spark that drifts toward anyone struggling and offers a quiet, warm nudge of encouragement."
+      },
+      "rarity": "common",
+      "habitat": [
+        "hanami_academy",
+        "sakura_path",
+        "shrine"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    }
+  },
+  {
+    "id": "ja_n5_0123",
+    "lang": "ja",
+    "written": "面白い",
+    "reading": "おもしろい",
+    "romanization": "omoshiroi",
+    "meaning": {
+      "th": "น่าสนใจ / ตลก",
+      "en": "interesting; funny; amusing"
+    },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "N5",
+    "chapter": 6,
+    "tags": [
+      "adjective",
+      "i-adj",
+      "emotion",
+      "daily"
+    ],
+    "frequency": 140,
+    "audio": "voice/ja/n5_0123.mp3",
+    "examples": [
+      {
+        "sentence": "この映画は面白いです。",
+        "reading": "このえいがはおもしろいです。",
+        "translation": {
+          "th": "หนังเรื่องนี้สนุกมาก",
+          "en": "This movie is interesting."
+        },
+        "context": "festival_grounds"
+      }
+    ],
+    "kotodama": {
+      "name": "Omoshirolaugh",
+      "sprite": "kotodama/n5_0123.png",
+      "description": {
+        "en": "A jester-capped spark that somersaults mid-air and leaves everyone grinning."
+      },
+      "rarity": "common",
+      "habitat": [
+        "festival_grounds",
+        "hanami_academy",
+        "shopping_street"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    }
+  },
+  {
+    "id": "ja_n5_0124",
+    "lang": "ja",
+    "written": "楽しい",
+    "reading": "たのしい",
+    "romanization": "tanoshii",
+    "meaning": {
+      "th": "สนุก / มีความสุข",
+      "en": "fun; enjoyable; pleasant"
+    },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "N5",
+    "chapter": 6,
+    "tags": [
+      "adjective",
+      "i-adj",
+      "emotion",
+      "daily"
+    ],
+    "frequency": 125,
+    "audio": "voice/ja/n5_0124.mp3",
+    "examples": [
+      {
+        "sentence": "パーティーは楽しかったです。",
+        "reading": "パーティーはたのしかったです。",
+        "translation": {
+          "th": "งานปาร์ตี้สนุกมาก",
+          "en": "The party was fun."
+        },
+        "context": "festival_grounds"
+      }
+    ],
+    "kotodama": {
+      "name": "Tanoshifun",
+      "sprite": "kotodama/n5_0124.png",
+      "description": {
+        "en": "A twirling spark that hums little tunes. It multiplies whenever it detects a group enjoying themselves together."
+      },
+      "rarity": "common",
+      "habitat": [
+        "festival_grounds",
+        "sakura_path",
+        "hanami_academy"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    }
+  }
+]

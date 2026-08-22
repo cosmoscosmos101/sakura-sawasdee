@@ -1,0 +1,281 @@
+[
+  {
+    "id": "ja_n5_0089",
+    "lang": "ja",
+    "written": "服",
+    "reading": "ふく",
+    "romanization": "fuku",
+    "meaning": { "th": "เสื้อผ้า / ชุด", "en": "clothes; clothing; garment" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 5,
+    "tags": ["noun", "clothing"],
+    "frequency": 205,
+    "audio": "voice/ja/n5_0089.mp3",
+    "examples": [
+      {
+        "sentence": "あたらしいふくをかいました。",
+        "reading": "あたらしいふくをかいました。",
+        "translation": { "th": "ซื้อเสื้อผ้าใหม่", "en": "I bought new clothes." },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Fukuru",
+      "sprite": "kotodama/n5_0089.png",
+      "description": { "en": "A spirit that changes its outfit with every season. It seems to have an inexhaustible wardrobe and is never caught wearing the same thing twice." },
+      "rarity": "common",
+      "habitat": ["shopping_street"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  },
+  {
+    "id": "ja_n5_0090",
+    "lang": "ja",
+    "written": "シャツ",
+    "reading": "シャツ",
+    "romanization": "shatsu",
+    "meaning": { "th": "เสื้อ (เชิ้ต / ทีเชิ้ต)", "en": "shirt; T-shirt" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 5,
+    "tags": ["noun", "clothing", "katakana_word"],
+    "frequency": 185,
+    "audio": "voice/ja/n5_0090.mp3",
+    "examples": [
+      {
+        "sentence": "しろいシャツがすきです。",
+        "reading": "しろいシャツがすきです。",
+        "translation": { "th": "ชอบเสื้อสีขาว", "en": "I like white shirts." },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Shatsu",
+      "sprite": "kotodama/n5_0090.png",
+      "description": { "en": "A spirit with a perfectly pressed collar. It is always clean, always crisp, and makes a soft ironing-board sound when you compliment it." },
+      "rarity": "common",
+      "habitat": ["shopping_street", "hanami_academy"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  },
+  {
+    "id": "ja_n5_0091",
+    "lang": "ja",
+    "written": "赤",
+    "reading": "あか",
+    "romanization": "aka",
+    "meaning": { "th": "สีแดง", "en": "red (as a noun: the colour red)" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 5,
+    "tags": ["noun", "colour"],
+    "frequency": 220,
+    "audio": "voice/ja/n5_0091.mp3",
+    "examples": [
+      {
+        "sentence": "あかいかさをもってきてください。",
+        "reading": "あかいかさをもってきてください。",
+        "translation": { "th": "เอาร่มสีแดงมาด้วยนะ", "en": "Please bring the red umbrella." },
+        "context": "sakura_station"
+      }
+    ],
+    "kotodama": {
+      "name": "Akaru",
+      "sprite": "kotodama/n5_0091.png",
+      "description": { "en": "A vivid spirit that radiates a deep rose-red light. It is impossible to miss in a crowd and pulses brighter when emotion runs high." },
+      "rarity": "common",
+      "habitat": ["shopping_street", "festival_grounds"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  },
+  {
+    "id": "ja_n5_0092",
+    "lang": "ja",
+    "written": "青",
+    "reading": "あお",
+    "romanization": "ao",
+    "meaning": { "th": "สีน้ำเงิน / สีฟ้า / สีเขียว (แสงไฟจราจร)", "en": "blue; (also) green (in traffic lights and some natural contexts)" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 5,
+    "tags": ["noun", "colour"],
+    "frequency": 215,
+    "audio": "voice/ja/n5_0092.mp3",
+    "examples": [
+      {
+        "sentence": "そらがあおくてきれいですね。",
+        "reading": "そらがあおくてきれいですね。",
+        "translation": { "th": "ท้องฟ้าสีฟ้าสวยมากนะ", "en": "The sky is beautifully blue, isn't it?" },
+        "context": "cherry_blossom_park"
+      }
+    ],
+    "kotodama": {
+      "name": "Aoru",
+      "sprite": "kotodama/n5_0092.png",
+      "description": { "en": "A calm, expansive spirit the colour of a clear sky or the sea on a still morning. It feels like open space and takes a long breath to fully understand." },
+      "rarity": "common",
+      "habitat": ["cherry_blossom_park", "sakura_path"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  },
+  {
+    "id": "ja_n5_0093",
+    "lang": "ja",
+    "written": "白",
+    "reading": "しろ",
+    "romanization": "shiro",
+    "meaning": { "th": "สีขาว", "en": "white" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 5,
+    "tags": ["noun", "colour"],
+    "frequency": 210,
+    "audio": "voice/ja/n5_0093.mp3",
+    "examples": [
+      {
+        "sentence": "しろいゆきがつもっています。",
+        "reading": "しろいゆきがつもっています。",
+        "translation": { "th": "หิมะขาวพอกอยู่", "en": "White snow has piled up." },
+        "context": "winter_courtyard"
+      }
+    ],
+    "kotodama": {
+      "name": "Shiroru",
+      "sprite": "kotodama/n5_0093.png",
+      "description": { "en": "A pure, cloudlike spirit that leaves no footprints. It appears in winter, hovers near the freshest snowdrifts, and never gets dirty." },
+      "rarity": "common",
+      "habitat": ["winter_courtyard"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  },
+  {
+    "id": "ja_n5_0094",
+    "lang": "ja",
+    "written": "黒",
+    "reading": "くろ",
+    "romanization": "kuro",
+    "meaning": { "th": "สีดำ", "en": "black" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 5,
+    "tags": ["noun", "colour"],
+    "frequency": 205,
+    "audio": "voice/ja/n5_0094.mp3",
+    "examples": [
+      {
+        "sentence": "くろいねこがこちらをみています。",
+        "reading": "くろいねこがこちらをみています。",
+        "translation": { "th": "แมวดำกำลังมองมาทางเรา", "en": "A black cat is looking this way." },
+        "context": "shrine"
+      }
+    ],
+    "kotodama": {
+      "name": "Kuroru",
+      "sprite": "kotodama/n5_0094.png",
+      "description": { "en": "A sleek, elegant spirit that absorbs all light around it. It is not menacing — it is simply very still and very sure of itself." },
+      "rarity": "common",
+      "habitat": ["shrine", "autumn_hill"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  },
+  {
+    "id": "ja_n5_0095",
+    "lang": "ja",
+    "written": "黄色",
+    "reading": "きいろ",
+    "romanization": "kiiro",
+    "meaning": { "th": "สีเหลือง", "en": "yellow" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 5,
+    "tags": ["noun", "colour"],
+    "frequency": 195,
+    "audio": "voice/ja/n5_0095.mp3",
+    "examples": [
+      {
+        "sentence": "きいろいちょうちょがとんでいます。",
+        "reading": "きいろいちょうちょがとんでいます。",
+        "translation": { "th": "ผีเสื้อสีเหลืองกำลังบินอยู่", "en": "A yellow butterfly is flying." },
+        "context": "cherry_blossom_park"
+      }
+    ],
+    "kotodama": {
+      "name": "Kiiro",
+      "sprite": "kotodama/n5_0095.png",
+      "description": { "en": "A bright, cheerful spirit the colour of ripe citrus. It flutters like a butterfly and leaves tiny golden sparks wherever it lands." },
+      "rarity": "common",
+      "habitat": ["cherry_blossom_park", "festival_grounds"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  },
+  {
+    "id": "ja_n5_0096",
+    "lang": "ja",
+    "written": "緑",
+    "reading": "みどり",
+    "romanization": "midori",
+    "meaning": { "th": "สีเขียว (พืช / ใบไม้)", "en": "green (plant/leaf green)" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 5,
+    "tags": ["noun", "colour"],
+    "frequency": 200,
+    "audio": "voice/ja/n5_0096.mp3",
+    "examples": [
+      {
+        "sentence": "みどりのきがたくさんあってきれいですね。",
+        "reading": "みどりのきがたくさんあってきれいですね。",
+        "translation": { "th": "มีต้นไม้สีเขียวเยอะมาก สวยดีนะ", "en": "There are so many green trees — it's beautiful, isn't it?" },
+        "context": "sakura_path"
+      }
+    ],
+    "kotodama": {
+      "name": "Midoru",
+      "sprite": "kotodama/n5_0096.png",
+      "description": { "en": "A forest-green spirit that grows a tiny new leaf each time someone says it correctly. Old Midoru is covered in leaves." },
+      "rarity": "common",
+      "habitat": ["sakura_path", "cherry_blossom_park", "autumn_hill"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  },
+  {
+    "id": "ja_n5_0097",
+    "lang": "ja",
+    "written": "かわいい",
+    "reading": "かわいい",
+    "romanization": "kawaii",
+    "meaning": { "th": "น่ารัก / น่าหมั่นไส้ (ในแบบน่ารัก)", "en": "cute; adorable; sweet" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "N5",
+    "chapter": 5,
+    "tags": ["adjective", "i-adj", "appearance", "daily"],
+    "frequency": 310,
+    "audio": "voice/ja/n5_0097.mp3",
+    "examples": [
+      {
+        "sentence": "そのネコはとてもかわいいですね！",
+        "reading": "そのネコはとてもかわいいですね！",
+        "translation": { "th": "แมวตัวนั้นน่ารักมากเลยนะ!", "en": "That cat is so cute!" },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Kawaii",
+      "sprite": "kotodama/n5_0097.png",
+      "description": { "en": "Arguably the most powerful word spirit in the Japanese pool. It arrived with a tiny bow and immediately made every other Kotodama slightly more endearing by proximity." },
+      "rarity": "uncommon",
+      "habitat": ["shopping_street", "festival_grounds", "cherry_blossom_park"],
+      "evolveCondition": { "type": "combo_count", "value": 10 }
+    }
+  }
+]

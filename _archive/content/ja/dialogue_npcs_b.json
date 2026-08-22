@@ -1,0 +1,97 @@
+[
+  {
+    "id": "tanaka_01",
+    "speakerNpcId": "teacher_tanaka",
+    "speakerName": { "th": "อาจารย์ทานากะ", "en": "Teacher Tanaka" },
+    "lines": [
+      {
+        "l2": "おはようございます！きょうも べんきょうを がんばりましょう。",
+        "reading": "おはようございます！きょうも べんきょうを がんばりましょう。",
+        "translation": { "th": "สวัสดีตอนเช้า! วันนี้ก็สู้กับการเรียนด้วยนะ", "en": "Good morning! Let's work hard at studying today too." }
+      },
+      {
+        "l2": "ことばを まいにち つかうと、かならず じょうずに なります。",
+        "reading": "ことばを まいにち つかうと、かならず じょうずに なります。",
+        "translation": { "th": "ถ้าใช้ภาษาทุกวัน ก็ต้องเก่งขึ้นแน่นอน", "en": "If you use words every day, you will definitely improve." },
+        "newWordIds": ["ja_n5_0051"]
+      }
+    ],
+    "choices": [
+      {
+        "label": { "th": "ขอบคุณครับ/ค่ะ!", "en": "Thank you!" },
+        "l2Response": "ありがとうございます、たなかせんせい！",
+        "nextId": "tanaka_02"
+      }
+    ]
+  },
+  {
+    "id": "tanaka_02",
+    "speakerNpcId": "teacher_tanaka",
+    "speakerName": { "th": "อาจารย์ทานากะ", "en": "Teacher Tanaka" },
+    "lines": [
+      {
+        "l2": "がんばって！はなみがくえんは きみを おうえんしているよ。",
+        "reading": "がんばって！はなみがくえんは きみを おうえんしているよ。",
+        "translation": { "th": "สู้เลย! โรงเรียนฮานามิเชียร์คุณอยู่นะ", "en": "Keep going! Hanami Academy is cheering you on." }
+      }
+    ],
+    "endsDialogue": true
+  },
+  {
+    "id": "yuki_01",
+    "speakerNpcId": "student_yuki",
+    "speakerName": { "th": "ยูกิ", "en": "Yuki" },
+    "lines": [
+      {
+        "l2": "ねえ、タイから きたの？すごい！",
+        "reading": "ねえ、タイから きたの？すごい！",
+        "translation": { "th": "เฮ้ มาจากไทยเหรอ? เจ๋งเลย!", "en": "Hey, did you come from Thailand? That's amazing!" }
+      },
+      {
+        "l2": "タイごも おしえて！わたしも べんきょうしたい。",
+        "reading": "タイごも おしえて！わたしも べんきょうしたい。",
+        "translation": { "th": "สอนภาษาไทยให้ฉันด้วยนะ! อยากเรียนบ้าง", "en": "Teach me Thai too! I want to learn." }
+      }
+    ],
+    "choices": [
+      {
+        "label": { "th": "แน่นอน! สวัสดี แปลว่า 'สวัสดี'", "en": "Sure! สวัสดี means hello." },
+        "l2Response": "もちろん！「สวัสดี（サワディー）」は「こんにちは」だよ！",
+        "nextId": "yuki_02"
+      }
+    ]
+  },
+  {
+    "id": "yuki_02",
+    "speakerNpcId": "student_yuki",
+    "speakerName": { "th": "ยูกิ", "en": "Yuki" },
+    "lines": [
+      {
+        "l2": "サワディー！おぼえた！ありがとう、ともだち！",
+        "reading": "サワディー！おぼえた！ありがとう、ともだち！",
+        "translation": { "th": "สวัสดี! จำได้แล้ว! ขอบคุณนะ เพื่อน!", "en": "Sawasdee! I remembered it! Thank you, friend!" },
+        "newWordIds": ["ja_n5_0057"]
+      }
+    ],
+    "endsDialogue": true
+  },
+  {
+    "id": "librarian_01",
+    "speakerNpcId": "librarian",
+    "speakerName": { "th": "บรรณารักษ์", "en": "Librarian" },
+    "lines": [
+      {
+        "l2": "しずかに おねがいします。ここは としょかんです。",
+        "reading": "しずかに おねがいします。ここは としょかんです。",
+        "translation": { "th": "กรุณาเงียบด้วยนะคะ ที่นี่คือห้องสมุด", "en": "Please be quiet. This is the library." },
+        "newWordIds": ["ja_n5_0068"]
+      },
+      {
+        "l2": "ほんを よむと、ことばが どんどん ふえますよ。",
+        "reading": "ほんを よむと、ことばが どんどん ふえますよ。",
+        "translation": { "th": "ถ้าอ่านหนังสือ คำศัพท์ก็จะเพิ่มขึ้นเรื่อยๆ นะคะ", "en": "If you read books, your vocabulary will grow and grow." }
+      }
+    ],
+    "endsDialogue": true
+  }
+]

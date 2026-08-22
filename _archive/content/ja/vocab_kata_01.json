@@ -1,0 +1,290 @@
+[
+  {
+    "id": "ja_kata_a",
+    "lang": "ja",
+    "written": "ア",
+    "reading": "ア",
+    "romanization": "a",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 'a'", "en": "katakana for 'a' — used in foreign loanwords" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "vowel"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_a.mp3",
+    "examples": [
+      {
+        "sentence": "アイスクリーム (aisukuriimu) — ice cream",
+        "reading": "アイスクリーム",
+        "translation": { "th": "ไอศกรีม — ア เริ่มต้นคำนี้!", "en": "Ice cream — ア kicks it off!" },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Aru",
+      "sprite": "kotodama/kata_a.png",
+      "description": { "en": "A crisp angular spirit shaped like ア. It haunts shops selling imported goods and gets excited whenever it hears a foreign word." },
+      "rarity": "common",
+      "habitat": ["shopping_street", "airport"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "ア looks like an archer drawing a bow — angular and decisive, just like katakana." }
+  },
+  {
+    "id": "ja_kata_i",
+    "lang": "ja",
+    "written": "イ",
+    "reading": "イ",
+    "romanization": "i",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 'i'", "en": "katakana for 'i' — used in foreign loanwords" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "vowel"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_i.mp3",
+    "examples": [
+      {
+        "sentence": "インターネット (intaanetto) — internet",
+        "reading": "インターネット",
+        "translation": { "th": "อินเทอร์เน็ต — イ เริ่มต้น!", "en": "Internet — イ starts it!" },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Ini",
+      "sprite": "kotodama/kata_i.png",
+      "description": { "en": "A tall, slender spirit shaped like イ. It stands perfectly still but its thoughts move at the speed of the internet." },
+      "rarity": "common",
+      "habitat": ["shopping_street", "airport"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "イ looks like two people leaning together — EEk, they're touching! (イ = ee sound)" }
+  },
+  {
+    "id": "ja_kata_u",
+    "lang": "ja",
+    "written": "ウ",
+    "reading": "ウ",
+    "romanization": "u",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 'u'", "en": "katakana for 'u' — used in foreign loanwords" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "vowel"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_u.mp3",
+    "examples": [
+      {
+        "sentence": "ウーロン茶 (uuron-cha) — oolong tea",
+        "reading": "ウーロンちゃ",
+        "translation": { "th": "ชาอู่หลง — ウ เริ่มต้น!", "en": "Oolong tea — ウ starts it!" },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Unu",
+      "sprite": "kotodama/kata_u.png",
+      "description": { "en": "A spirit shaped like ウ with a tiny crown. It makes a low 'ooh' hum and smells faintly of tea." },
+      "rarity": "common",
+      "habitat": ["shopping_street", "fresh_market"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "ウ has a small crown like a U — it's royally OOlong." }
+  },
+  {
+    "id": "ja_kata_e",
+    "lang": "ja",
+    "written": "エ",
+    "reading": "エ",
+    "romanization": "e",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 'e'", "en": "katakana for 'e' — used in foreign loanwords" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "vowel"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_e.mp3",
+    "examples": [
+      {
+        "sentence": "エレベーター (erebeetaa) — elevator",
+        "reading": "エレベーター",
+        "translation": { "th": "ลิฟต์ — エ เริ่มต้น!", "en": "Elevator — エ starts it!" },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Ene",
+      "sprite": "kotodama/kata_e.png",
+      "description": { "en": "A spirit shaped like エ — a perfectly balanced I-beam. It loves tall buildings and moving platforms." },
+      "rarity": "common",
+      "habitat": ["shopping_street", "airport"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "エ looks like an I-beam (the steel shape) — an Elevator shaft's cross-section." }
+  },
+  {
+    "id": "ja_kata_o",
+    "lang": "ja",
+    "written": "オ",
+    "reading": "オ",
+    "romanization": "o",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 'o'", "en": "katakana for 'o' — used in foreign loanwords" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "vowel"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_o.mp3",
+    "examples": [
+      {
+        "sentence": "オレンジ (orenji) — orange",
+        "reading": "オレンジ",
+        "translation": { "th": "ส้ม — オ เริ่มต้น!", "en": "Orange — オ starts it!" },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Ono",
+      "sprite": "kotodama/kata_o.png",
+      "description": { "en": "A spirit shaped like オ with its extra horizontal stroke. It shouts 'OH!' whenever it meets a new loanword." },
+      "rarity": "common",
+      "habitat": ["shopping_street", "fresh_market"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "オ = エ (E/I-beam) with an extra arm reaching out — it's an Over-achiever: OH!" }
+  },
+  {
+    "id": "ja_kata_ka",
+    "lang": "ja",
+    "written": "カ",
+    "reading": "カ",
+    "romanization": "ka",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 'ka'", "en": "katakana for 'ka' — used in foreign loanwords" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "k_row"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_ka.mp3",
+    "examples": [
+      {
+        "sentence": "カメラ (kamera) — camera",
+        "reading": "カメラ",
+        "translation": { "th": "กล้องถ่ายรูป — カ เริ่มต้น!", "en": "Camera — カ starts it!" },
+        "context": "sakura_path"
+      }
+    ],
+    "kotodama": {
+      "name": "Kara",
+      "sprite": "kotodama/kata_ka.png",
+      "description": { "en": "A sharp-edged spirit shaped like カ. It always has a lens-like gleam in its eye, as if ready to photograph the world." },
+      "rarity": "common",
+      "habitat": ["shopping_street", "sakura_path"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "カ is like hiragana か with the lower curve cut off — straightened into a KA-rate chop." }
+  },
+  {
+    "id": "ja_kata_ki",
+    "lang": "ja",
+    "written": "キ",
+    "reading": "キ",
+    "romanization": "ki",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 'ki'", "en": "katakana for 'ki' — used in foreign loanwords" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "k_row"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_ki.mp3",
+    "examples": [
+      {
+        "sentence": "キロ (kiro) — kilogram / kilometre",
+        "reading": "キロ",
+        "translation": { "th": "กิโลกรัม/กิโลเมตร — キ เริ่มต้น!", "en": "Kilo — キ starts it!" },
+        "context": "fresh_market"
+      }
+    ],
+    "kotodama": {
+      "name": "Kiru",
+      "sprite": "kotodama/kata_ki.png",
+      "description": { "en": "A spirit with three crossing strokes like キ. It measures things obsessively and always knows the exact weight and distance." },
+      "rarity": "common",
+      "habitat": ["shopping_street", "fresh_market"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "キ looks like a KEY on its side — three prongs of the key blade = KI." }
+  },
+  {
+    "id": "ja_kata_ku",
+    "lang": "ja",
+    "written": "ク",
+    "reading": "ク",
+    "romanization": "ku",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 'ku'", "en": "katakana for 'ku' — used in foreign loanwords" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "k_row"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_ku.mp3",
+    "examples": [
+      {
+        "sentence": "クッキー (kukkii) — cookie",
+        "reading": "クッキー",
+        "translation": { "th": "คุกกี้ — ク เริ่มต้น!", "en": "Cookie — ク starts it!" },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Kuru",
+      "sprite": "kotodama/kata_ku.png",
+      "description": { "en": "A hooked spirit shaped like ク. It swoops around corners and always smells like freshly baked cookies." },
+      "rarity": "common",
+      "habitat": ["shopping_street"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "ク is a CROOKed beak — the sharp KU-rvature of a bird's bill." }
+  },
+  {
+    "id": "ja_kata_ke",
+    "lang": "ja",
+    "written": "ケ",
+    "reading": "ケ",
+    "romanization": "ke",
+    "meaning": { "th": "อักษรคาตากานะ เสียง 'ke'", "en": "katakana for 'ke' — used in foreign loanwords" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["katakana", "k_row"],
+    "frequency": 9999,
+    "audio": "voice/ja/kata_ke.mp3",
+    "examples": [
+      {
+        "sentence": "ケーキ (keeki) — cake",
+        "reading": "ケーキ",
+        "translation": { "th": "เค้ก — ケ เริ่มต้น!", "en": "Cake — ケ starts it!" },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Kene",
+      "sprite": "kotodama/kata_ke.png",
+      "description": { "en": "A layered spirit shaped like ケ. It appears near bakeries and always carries a tiny fondant decoration." },
+      "rarity": "common",
+      "habitat": ["shopping_street"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "ケ looks like a fence post with a cross-arm — a KEttle hanging on a hook." }
+  }
+]

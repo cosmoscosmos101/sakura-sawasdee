@@ -1,0 +1,480 @@
+[
+  {
+    "id": "ja_n5_0107",
+    "lang": "ja",
+    "written": "来る",
+    "reading": "くる",
+    "romanization": "kuru",
+    "meaning": {
+      "th": "มา",
+      "en": "to come; to arrive"
+    },
+    "pos": "verb",
+    "element": "spark",
+    "level": "N5",
+    "chapter": 5,
+    "tags": [
+      "verb",
+      "irregular",
+      "motion",
+      "daily",
+      "core"
+    ],
+    "frequency": 28,
+    "audio": "voice/ja/n5_0107.mp3",
+    "examples": [
+      {
+        "sentence": "友達が来ます。",
+        "reading": "ともだちがきます。",
+        "translation": {
+          "th": "เพื่อนจะมา",
+          "en": "My friend is coming."
+        },
+        "context": "sakura_station"
+      }
+    ],
+    "kotodama": {
+      "name": "Kurucome",
+      "sprite": "kotodama/n5_0107.png",
+      "description": {
+        "en": "A welcoming spark that rushes toward you with arms wide open. It always arrives just when you need company."
+      },
+      "rarity": "common",
+      "habitat": [
+        "sakura_station",
+        "shrine",
+        "shopping_street"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    }
+  },
+  {
+    "id": "ja_n5_0108",
+    "lang": "ja",
+    "written": "起きる",
+    "reading": "おきる",
+    "romanization": "okiru",
+    "meaning": {
+      "th": "ตื่นนอน / ลุกขึ้น",
+      "en": "to wake up; to get up; to rise"
+    },
+    "pos": "verb",
+    "element": "spark",
+    "level": "N5",
+    "chapter": 5,
+    "tags": [
+      "verb",
+      "ichidan",
+      "daily",
+      "morning"
+    ],
+    "frequency": 95,
+    "audio": "voice/ja/n5_0108.mp3",
+    "examples": [
+      {
+        "sentence": "毎朝六時に起きます。",
+        "reading": "まいあさろくじにおきます。",
+        "translation": {
+          "th": "ตื่นนอนหกโมงเช้าทุกวัน",
+          "en": "I wake up at six every morning."
+        },
+        "context": "shrine"
+      }
+    ],
+    "kotodama": {
+      "name": "Okiru",
+      "sprite": "kotodama/n5_0108.png",
+      "description": {
+        "en": "A dawn-coloured spark that bursts upward like a sunrise. It spreads warm light and chases away the fog of sleep."
+      },
+      "rarity": "common",
+      "habitat": [
+        "shrine",
+        "sakura_path",
+        "hanami_academy"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    },
+    "mnemonic": {
+      "en": "起 = 走 (run/rise) + 己 (self) — the self rising up to run into the day."
+    }
+  },
+  {
+    "id": "ja_n5_0109",
+    "lang": "ja",
+    "written": "寝る",
+    "reading": "ねる",
+    "romanization": "neru",
+    "meaning": {
+      "th": "นอนหลับ",
+      "en": "to sleep; to go to bed; to lie down"
+    },
+    "pos": "verb",
+    "element": "spark",
+    "level": "N5",
+    "chapter": 5,
+    "tags": [
+      "verb",
+      "ichidan",
+      "daily",
+      "rest"
+    ],
+    "frequency": 88,
+    "audio": "voice/ja/n5_0109.mp3",
+    "examples": [
+      {
+        "sentence": "十時に寝ます。",
+        "reading": "じゅうじにねます。",
+        "translation": {
+          "th": "นอนหลับตอนสี่ทุ่ม",
+          "en": "I go to bed at ten o'clock."
+        },
+        "context": "winter_courtyard"
+      }
+    ],
+    "kotodama": {
+      "name": "Nerusleep",
+      "sprite": "kotodama/n5_0109.png",
+      "description": {
+        "en": "A drowsy, moonlight-coloured spark that drifts in lazy spirals. It hums a lullaby and dims slowly until it disappears into dreams."
+      },
+      "rarity": "common",
+      "habitat": [
+        "winter_courtyard",
+        "shrine",
+        "sakura_path"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    },
+    "mnemonic": {
+      "en": "寝 = 宀 (roof/shelter) + 人 (person) + 爿 (bed frame) — a person lying under a roof."
+    }
+  },
+  {
+    "id": "ja_n5_0110",
+    "lang": "ja",
+    "written": "帰る",
+    "reading": "かえる",
+    "romanization": "kaeru",
+    "meaning": {
+      "th": "กลับบ้าน / กลับไป",
+      "en": "to return; to go back; to go home"
+    },
+    "pos": "verb",
+    "element": "spark",
+    "level": "N5",
+    "chapter": 5,
+    "tags": [
+      "verb",
+      "godan",
+      "motion",
+      "daily"
+    ],
+    "frequency": 72,
+    "audio": "voice/ja/n5_0110.mp3",
+    "examples": [
+      {
+        "sentence": "家に帰ります。",
+        "reading": "いえにかえります。",
+        "translation": {
+          "th": "กลับบ้าน",
+          "en": "I return home."
+        },
+        "context": "sakura_station"
+      }
+    ],
+    "kotodama": {
+      "name": "Kaerureturn",
+      "sprite": "kotodama/n5_0110.png",
+      "description": {
+        "en": "A boomerang-shaped spark that always loops back to its starting point. It carries the warm glow of home wherever it travels."
+      },
+      "rarity": "common",
+      "habitat": [
+        "sakura_station",
+        "sakura_path",
+        "shrine"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    },
+    "mnemonic": {
+      "en": "帰 = 刀 (blade/cut) + 巾 (cloth) + 止 (stop) — arriving and stopping, like cutting the journey short."
+    }
+  },
+  {
+    "id": "ja_n5_0111",
+    "lang": "ja",
+    "written": "待つ",
+    "reading": "まつ",
+    "romanization": "matsu",
+    "meaning": {
+      "th": "รอ / คอย",
+      "en": "to wait; to await"
+    },
+    "pos": "verb",
+    "element": "spark",
+    "level": "N5",
+    "chapter": 5,
+    "tags": [
+      "verb",
+      "godan",
+      "daily",
+      "action"
+    ],
+    "frequency": 105,
+    "audio": "voice/ja/n5_0111.mp3",
+    "examples": [
+      {
+        "sentence": "ここで待ってください。",
+        "reading": "ここでまってください。",
+        "translation": {
+          "th": "กรุณารอที่นี่",
+          "en": "Please wait here."
+        },
+        "context": "sakura_station"
+      }
+    ],
+    "kotodama": {
+      "name": "Matsuwait",
+      "sprite": "kotodama/n5_0111.png",
+      "description": {
+        "en": "A patient, hovering spark that barely moves. It pulses slowly and grows calmer the longer it waits — never anxious, always ready."
+      },
+      "rarity": "common",
+      "habitat": [
+        "sakura_station",
+        "shrine",
+        "shopping_street"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    },
+    "mnemonic": {
+      "en": "待 = 彳 (small steps) + 寺 (temple) — pausing like a pilgrim outside a temple gate."
+    }
+  },
+  {
+    "id": "ja_n5_0112",
+    "lang": "ja",
+    "written": "会う",
+    "reading": "あう",
+    "romanization": "au",
+    "meaning": {
+      "th": "พบ / เจอ",
+      "en": "to meet; to encounter; to see someone"
+    },
+    "pos": "verb",
+    "element": "spark",
+    "level": "N5",
+    "chapter": 5,
+    "tags": [
+      "verb",
+      "godan",
+      "social",
+      "daily"
+    ],
+    "frequency": 82,
+    "audio": "voice/ja/n5_0112.mp3",
+    "examples": [
+      {
+        "sentence": "駅で先生に会いました。",
+        "reading": "えきでせんせいにあいました。",
+        "translation": {
+          "th": "เจอครูที่สถานี",
+          "en": "I met my teacher at the station."
+        },
+        "context": "sakura_station"
+      }
+    ],
+    "kotodama": {
+      "name": "Aumeet",
+      "sprite": "kotodama/n5_0112.png",
+      "description": {
+        "en": "Two sparks that orbit each other joyfully. Whenever they meet a third spark, all three merge briefly into a warm glow."
+      },
+      "rarity": "common",
+      "habitat": [
+        "sakura_station",
+        "sakura_path",
+        "festival_grounds"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    }
+  },
+  {
+    "id": "ja_n5_0113",
+    "lang": "ja",
+    "written": "使う",
+    "reading": "つかう",
+    "romanization": "tsukau",
+    "meaning": {
+      "th": "ใช้ / นำมาใช้",
+      "en": "to use; to make use of"
+    },
+    "pos": "verb",
+    "element": "spark",
+    "level": "N5",
+    "chapter": 5,
+    "tags": [
+      "verb",
+      "godan",
+      "daily",
+      "action"
+    ],
+    "frequency": 118,
+    "audio": "voice/ja/n5_0113.mp3",
+    "examples": [
+      {
+        "sentence": "辞書を使ってもいいですか。",
+        "reading": "じしょをつかってもいいですか。",
+        "translation": {
+          "th": "ใช้พจนานุกรมได้ไหม",
+          "en": "May I use a dictionary?"
+        },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Tsukauuse",
+      "sprite": "kotodama/n5_0113.png",
+      "description": {
+        "en": "A Swiss-Army-knife-shaped spark with tiny folding tools. It snaps open and buzzes whenever it finds a purpose."
+      },
+      "rarity": "common",
+      "habitat": [
+        "hanami_academy",
+        "shopping_street",
+        "shrine"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    }
+  },
+  {
+    "id": "ja_n5_0114",
+    "lang": "ja",
+    "written": "知る",
+    "reading": "しる",
+    "romanization": "shiru",
+    "meaning": {
+      "th": "รู้ / รู้จัก",
+      "en": "to know; to be aware of; to find out"
+    },
+    "pos": "verb",
+    "element": "spark",
+    "level": "N5",
+    "chapter": 5,
+    "tags": [
+      "verb",
+      "godan",
+      "knowledge",
+      "daily"
+    ],
+    "frequency": 65,
+    "audio": "voice/ja/n5_0114.mp3",
+    "examples": [
+      {
+        "sentence": "あなたの名前を知っています。",
+        "reading": "あなたのなまえをしっています。",
+        "translation": {
+          "th": "รู้จักชื่อของคุณ",
+          "en": "I know your name."
+        },
+        "context": "shrine"
+      }
+    ],
+    "kotodama": {
+      "name": "Shiruknow",
+      "sprite": "kotodama/n5_0114.png",
+      "description": {
+        "en": "A glowing library card–shaped spirit. It reveals a tiny shimmer every time you learn something new and never forgets what it has stored."
+      },
+      "rarity": "common",
+      "habitat": [
+        "shrine",
+        "hanami_academy",
+        "sakura_path"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    },
+    "mnemonic": {
+      "en": "知 = 矢 (arrow) + 口 (mouth) — knowledge is an arrow that hits the mark when spoken."
+    }
+  },
+  {
+    "id": "ja_n5_0115",
+    "lang": "ja",
+    "written": "思う",
+    "reading": "おもう",
+    "romanization": "omou",
+    "meaning": {
+      "th": "คิด / รู้สึก / เชื่อ",
+      "en": "to think; to feel; to believe"
+    },
+    "pos": "verb",
+    "element": "spark",
+    "level": "N5",
+    "chapter": 5,
+    "tags": [
+      "verb",
+      "godan",
+      "thought",
+      "daily"
+    ],
+    "frequency": 52,
+    "audio": "voice/ja/n5_0115.mp3",
+    "examples": [
+      {
+        "sentence": "彼はやさしいと思います。",
+        "reading": "かれはやさしいとおもいます。",
+        "translation": {
+          "th": "คิดว่าเขาใจดี",
+          "en": "I think he is kind."
+        },
+        "context": "autumn_hill"
+      }
+    ],
+    "kotodama": {
+      "name": "Omoothink",
+      "sprite": "kotodama/n5_0115.png",
+      "description": {
+        "en": "A thought-bubble spark that drifts overhead and fills with tiny pictures of whatever you are pondering."
+      },
+      "rarity": "common",
+      "habitat": [
+        "autumn_hill",
+        "shrine",
+        "hanami_academy"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    },
+    "mnemonic": {
+      "en": "思 = 田 (field) + 心 (heart/mind) — a field of thoughts cultivated in the heart."
+    }
+  }
+]

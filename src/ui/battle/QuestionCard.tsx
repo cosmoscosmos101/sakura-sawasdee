@@ -1,129 +1,133 @@
-import { useEffect, useRef, useState } from "react";
-import { motion } from "framer-motion";
-import type { Question } from "../../learning/questionGenerator";
+import { useState, useEffect, useRef } from "react";
+import { useBattleStore } from "../../state/battleStore";
 
-interface Props {
-  question: Question;
-  onAnswer: (choiceIndex: number, timingMs: number) => void;
+const CARD: React.CSSProperties = {
+  background: "rgba(10,10,22,0.97)",
+  border: "2px solid #4a6fa5",
+  borderRadius: 4,
+  padding: "12px 16px",
+  fontFamily: "'Chrono', monospace",
+  color: "#e8dcc8",
+  minWidth: 280,
+  maxWidth: 340,
+  pointerEvents: "auto",
+};
+
+const CHOICE_BASE: React.CSSProperties = {
+  display: "flex",
+  alignItems: "center",
+  gap: 8,
+  padding: "7px 10px",
+  margin: "3px 0",
+  border: "1px solid #2a3f5f",
+  borderRadius: 3,
+  cursor: "pointer",
+  fontSize: 13,
+  transition: "background 0.1s, border-color 0.1s",
+};
+
+function choiceStyle(selected: boolean, correct: boolean | null, hovered: boolean): React.CSSProperties {
+  if (selected && correct === true)  return { ...CHOICE_BASE, border: "1px solid #4dff4d", background: "rgba(77,255,77,0.12)" };
+  if (selected && correct === false) return { ...CHOICE_BASE, border: "1px solid #ff4040", background: "rgba(255,64,64,0.12)" };
+  if (hovered)                       return { ...CHOICE_BASE, border: "1px solid #4a6fa5", background: "rgba(74,111,165,0.2)" };
+  return CHOICE_BASE;
 }
 
-/** Timing thresholds in ms for the coloured timing bar. */
-const CRITICAL_MS = 3000;
-const NORMAL_MAX_MS = 8000;
-
-export function QuestionCard({ question, onAnswer }: Props) {
-  const [chosen, setChosen] = useState<number | null>(null);
-  const startRef = useRef(Date.now());
-
-  // Reset when the question changes
-  useEffect(() => {
-    setChosen(null);
-    startRef.current = Date.now();
-  }, [question.vocabId, question.type]);
-
-  // Keyboard shortcuts: 1–4
-  useEffect(() => {
-    const handler = (e: KeyboardEvent) => {
-      const idx = ["1", "2", "3", "4"].indexOf(e.key);
-      if (idx !== -1 && chosen === null) pick(idx);
-    };
-    window.addEventListener("keydown", handler);
-    return () => window.removeEventListener("keydown", handler);
-  });
-
-  function pick(idx: number) {
-    if (chosen !== null) return;
-    setChosen(idx);
-    const elapsed = Date.now() - startRef.current;
-    // Small delay so the player sees the highlighted choice before advancing
-    setTimeout(() => onAnswer(idx, elapsed), 350);
-  }
-
+/** Shrinking timer bar — green → yellow → red as time runs out */
+function TimerBar({ elapsed, limit }: { elapsed: number; limit: number }) {
+  const pct  = Math.max(0, 1 - elapsed / limit);
+  const color = pct > 0.55 ? "#4dff4d" : pct > 0.28 ? "#ffdd57" : "#ff4040";
   return (
-    <motion.div
-      key={`${question.vocabId}-${question.type}`}
-      initial={{ opacity: 0, y: 14 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.18, ease: "easeOut" }}
-      className="pointer-events-auto mx-auto w-full max-w-[360px]"
-    >
-      <div className="rounded-2xl border-[3px] border-[#4A3F55] bg-[#FFF6E5] shadow-lg">
-        {/* Timing bar */}
-        <TimingBar timeLimitMs={question.timeLimitMs} />
-
-        {/* Prompt */}
-        <div className="px-5 py-3 text-center">
-          <p
-            className="text-[22px] leading-tight text-[#4A3F55]"
-            style={{ fontFamily: "var(--font-jp)" }}
-          >
-            {question.prompt}
-          </p>
-          {question.promptSub && (
-            <p className="mt-0.5 text-[11px] text-[#9188A0]" style={{ fontFamily: "var(--font-jp)" }}>
-              {question.promptSub}
-            </p>
-          )}
-        </div>
-
-        {/* Options */}
-        <div className="grid grid-cols-2 gap-2 px-4 pb-4">
-          {question.options.map((opt, i) => {
-            const isChosen = chosen === i;
-            const isCorrect = i === question.correctIndex;
-            const revealed = chosen !== null;
-
-            let bg = "bg-[#FFF0F5] hover:bg-[#FFD9E8]";
-            let border = "border-[#4A3F55]";
-            if (revealed && isCorrect) { bg = "bg-[#C8F2E0]"; border = "border-[#4E7D5E]"; }
-            else if (revealed && isChosen && !isCorrect) { bg = "bg-[#F5E3C8]"; border = "border-[#C9A27E]"; }
-
-            return (
-              <button
-                key={i}
-                onClick={() => pick(i)}
-                disabled={chosen !== null}
-                className={`rounded-xl border-2 ${border} ${bg} px-2 py-2.5 text-[11px] leading-tight text-[#4A3F55] transition-colors`}
-              >
-                <span className="mr-1.5 text-[9px] text-[#9188A0]">{i + 1}.</span>
-                {opt.text}
-              </button>
-            );
-          })}
-        </div>
-      </div>
-    </motion.div>
-  );
-}
-
-function TimingBar({ timeLimitMs }: { timeLimitMs: number }) {
-  const [pct, setPct] = useState(100);
-  const rafRef = useRef<number>(0);
-  const startRef = useRef(Date.now());
-
-  useEffect(() => {
-    startRef.current = Date.now();
-    function tick() {
-      const elapsed = Date.now() - startRef.current;
-      const remaining = Math.max(0, 1 - elapsed / timeLimitMs) * 100;
-      setPct(remaining);
-      if (remaining > 0) rafRef.current = requestAnimationFrame(tick);
-    }
-    rafRef.current = requestAnimationFrame(tick);
-    return () => cancelAnimationFrame(rafRef.current);
-  }, [timeLimitMs]);
-
-  const elapsed = (100 - pct) / 100 * timeLimitMs;
-  const color =
-    elapsed < CRITICAL_MS ? "#FFE08A" :
-    elapsed < NORMAL_MAX_MS ? "#F7A8C4" : "#A9A3B8";
-
-  return (
-    <div className="h-1.5 w-full rounded-t-xl bg-[#F5E3C8]">
-      <div
-        className="h-full rounded-tl-xl transition-none"
-        style={{ width: `${pct}%`, background: color }}
-      />
+    <div style={{ width: "100%", height: 3, background: "#1a1a2e", borderRadius: 2, marginBottom: 10 }}>
+      <div style={{ width: `${pct * 100}%`, height: "100%", background: color, borderRadius: 2, transition: "width 0.08s linear, background 0.3s" }} />
     </div>
   );
+}
+
+export function QuestionCard() {
+  const phase             = useBattleStore((s) => s.phase);
+  const question          = useBattleStore((s) => s.currentQuestion);
+  const submitAnswer      = useBattleStore((s) => s.submitAnswer);
+  const lastResult        = useBattleStore((s) => s.lastResult);
+  const proceedFromResult = useBattleStore((s) => s.proceedFromResult);
+
+  const [selected,  setSelected]  = useState<number | null>(null);
+  const [revealed,  setRevealed]  = useState(false);
+  const [hovered,   setHovered]   = useState<number | null>(null);
+  const [elapsed,   setElapsed]   = useState(0);
+  const startRef  = useRef(Date.now());
+  const timerRef  = useRef<ReturnType<typeof setInterval> | null>(null);
+
+  useEffect(() => {
+    if (phase === "question") {
+      setSelected(null); setRevealed(false); setElapsed(0);
+      startRef.current = Date.now();
+      timerRef.current = setInterval(() => setElapsed(Date.now() - startRef.current), 80);
+    } else {
+      if (timerRef.current) { clearInterval(timerRef.current); timerRef.current = null; }
+    }
+    return () => { if (timerRef.current) clearInterval(timerRef.current); };
+  }, [phase, question]);
+
+  if (phase === "question" && question) {
+    const limit = question.timeLimitMs ?? 12000;
+    const choose = (i: number) => {
+      if (selected !== null) return;
+      setSelected(i); setRevealed(true);
+      if (timerRef.current) { clearInterval(timerRef.current); timerRef.current = null; }
+      submitAnswer(i, Date.now() - startRef.current);
+    };
+
+    return (
+      <div style={CARD}>
+        <TimerBar elapsed={elapsed} limit={limit} />
+        <div style={{ fontSize: 9, color: "#ffd700", letterSpacing: 2, marginBottom: 6, textTransform: "uppercase" }}>
+          {question.type.replace(/_/g, " ")}
+        </div>
+        <div style={{ fontSize: 17, marginBottom: 10, color: "#ffffff", lineHeight: 1.3 }}>
+          {question.prompt}
+        </div>
+        {question.promptSub && (
+          <div style={{ fontSize: 11, color: "#9188a0", marginBottom: 8 }}>{question.promptSub}</div>
+        )}
+        {question.options.map((opt, i) => (
+          <div
+            key={i}
+            style={choiceStyle(selected === i, revealed ? i === question.correctIndex : null, hovered === i)}
+            onMouseEnter={() => setHovered(i)}
+            onMouseLeave={() => setHovered(null)}
+            onClick={() => choose(i)}
+          >
+            {hovered === i && selected === null && (
+              <img src="/ct-assets/sprites/cursor.png" alt="" style={{ width: 10, imageRendering: "pixelated" }} />
+            )}
+            <span>{opt.text}</span>
+          </div>
+        ))}
+      </div>
+    );
+  }
+
+  if (phase === "result" && lastResult) {
+    const tierColor = lastResult.timingTier === "critical" ? "#ffd700" : lastResult.timingTier === "slow" ? "#9188a0" : "#e8dcc8";
+    return (
+      <div style={{ ...CARD, textAlign: "center" }}>
+        <div style={{ fontSize: 26, marginBottom: 4 }}>{lastResult.correct ? "✓" : "✗"}</div>
+        <div style={{ color: lastResult.correct ? "#4dff4d" : "#ff4040", fontSize: 14, marginBottom: 3 }}>
+          {lastResult.correct ? `+${lastResult.damage} damage` : "Miss!"}
+        </div>
+        <div style={{ fontSize: 10, color: tierColor, marginBottom: 12, letterSpacing: 1 }}>
+          {lastResult.timingTier.toUpperCase()}
+        </div>
+        <button
+          onClick={proceedFromResult}
+          style={{ background: "#1a1e32", border: "1px solid #4a6fa5", borderRadius: 3, color: "#e8dcc8", fontSize: 11, padding: "5px 18px", cursor: "pointer", fontFamily: "inherit" }}
+        >
+          Continue ▶
+        </button>
+      </div>
+    );
+  }
+
+  return null;
 }

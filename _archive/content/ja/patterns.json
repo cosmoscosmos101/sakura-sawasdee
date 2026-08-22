@@ -1,0 +1,141 @@
+[
+  {
+    "id": "ja_verb_alone",
+    "lang": "ja", "level": "N5",
+    "description": "Verb alone — 食べます",
+    "sequence": [
+      { "role": "verb", "pos": ["verb"], "optional": false }
+    ],
+    "semanticChecks": [], "exampleGood": "食べます", "exampleBad": ""
+  },
+  {
+    "id": "ja_phrase",
+    "lang": "ja", "level": "N5",
+    "description": "Set phrase — おはようございます",
+    "sequence": [
+      { "role": "phrase", "pos": ["phrase"], "optional": false }
+    ],
+    "semanticChecks": [], "exampleGood": "おはようございます", "exampleBad": ""
+  },
+  {
+    "id": "ja_adj_noun",
+    "lang": "ja", "level": "N5",
+    "description": "Adjective + Noun — おいしいすし",
+    "sequence": [
+      { "role": "modifier", "pos": ["adjective", "adverb"], "optional": false },
+      { "role": "head",     "pos": ["noun"],                "optional": false }
+    ],
+    "semanticChecks": [], "exampleGood": "おいしいすし", "exampleBad": ""
+  },
+  {
+    "id": "ja_adj_adj_noun",
+    "lang": "ja", "level": "N5",
+    "description": "Adj + Adj + Noun — 大きい赤いりんご",
+    "sequence": [
+      { "role": "mod1", "pos": ["adjective", "adverb"], "optional": false },
+      { "role": "mod2", "pos": ["adjective", "adverb"], "optional": true  },
+      { "role": "head", "pos": ["noun"],                "optional": false }
+    ],
+    "semanticChecks": [], "exampleGood": "大きい赤いりんご", "exampleBad": ""
+  },
+  {
+    "id": "ja_noun_verb",
+    "lang": "ja", "level": "N5",
+    "description": "Noun + Verb (casual) — 犬走る",
+    "sequence": [
+      { "role": "subject", "pos": ["noun"], "optional": false },
+      { "role": "verb",    "pos": ["verb"], "optional": false }
+    ],
+    "semanticChecks": [], "exampleGood": "犬走る", "exampleBad": ""
+  },
+  {
+    "id": "ja_topic_adj",
+    "lang": "ja", "level": "N5",
+    "description": "Topic + は + Adjective — これは大きい",
+    "sequence": [
+      { "role": "topic",     "pos": ["noun", "adverb"],    "optional": true  },
+      { "role": "wa",        "literal": "は",              "optional": true  },
+      { "role": "predicate", "pos": ["adjective", "adverb"], "optional": false }
+    ],
+    "semanticChecks": [], "exampleGood": "これは大きい", "exampleBad": ""
+  },
+  {
+    "id": "ja_topic_verb",
+    "lang": "ja", "level": "N5",
+    "description": "Topic + は + Verb — 私は食べます",
+    "sequence": [
+      { "role": "topic", "pos": ["noun", "adverb"], "optional": true  },
+      { "role": "wa",    "literal": "は",           "optional": true  },
+      { "role": "verb",  "pos": ["verb"],            "optional": false }
+    ],
+    "semanticChecks": [], "exampleGood": "私は食べます", "exampleBad": ""
+  },
+  {
+    "id": "ja_topic_object_verb",
+    "lang": "ja", "level": "N5",
+    "description": "Topic + は + Object + を + Verb — 私はすしを食べます",
+    "sequence": [
+      { "role": "topic",  "pos": ["noun", "adverb"], "optional": true  },
+      { "role": "wa",     "literal": "は",           "optional": true  },
+      { "role": "object", "pos": ["noun"],           "optional": true  },
+      { "role": "wo",     "literal": "を",           "optional": true  },
+      { "role": "verb",   "pos": ["verb"],           "optional": false }
+    ],
+    "semanticChecks": ["animacy_subject"],
+    "exampleGood": "私はすしを食べます",
+    "exampleBad": "すしは猫を食べます"
+  },
+  {
+    "id": "ja_topic_location_verb",
+    "lang": "ja", "level": "N5",
+    "description": "Topic + は + Location + に/で + Verb — 私は公園に行きます",
+    "sequence": [
+      { "role": "topic",    "pos": ["noun", "adverb"], "optional": true  },
+      { "role": "wa",       "literal": "は",           "optional": true  },
+      { "role": "location", "pos": ["noun"],           "optional": true  },
+      { "role": "ni",       "literal": "に",           "optional": true  },
+      { "role": "de",       "literal": "で",           "optional": true  },
+      { "role": "verb",     "pos": ["verb"],           "optional": false }
+    ],
+    "semanticChecks": [], "exampleGood": "私は公園に行きます", "exampleBad": ""
+  },
+  {
+    "id": "ja_noun_location_verb",
+    "lang": "ja", "level": "N5",
+    "description": "Noun + に/で + Verb — 公園に行きます",
+    "sequence": [
+      { "role": "location", "pos": ["noun"], "optional": false },
+      { "role": "ni",       "literal": "に", "optional": true  },
+      { "role": "de",       "literal": "で", "optional": true  },
+      { "role": "verb",     "pos": ["verb"], "optional": false }
+    ],
+    "semanticChecks": [], "exampleGood": "公園に行きます", "exampleBad": ""
+  },
+  {
+    "id": "ja_topic_indirect_verb",
+    "lang": "ja", "level": "N5",
+    "description": "Topic + は + Indirect + に + Object + を + Verb — 私は友達に本をあげます",
+    "sequence": [
+      { "role": "topic",    "pos": ["noun", "adverb"], "optional": true  },
+      { "role": "wa",       "literal": "は",           "optional": true  },
+      { "role": "indirect", "pos": ["noun"],           "optional": true  },
+      { "role": "ni",       "literal": "に",           "optional": true  },
+      { "role": "object",   "pos": ["noun"],           "optional": true  },
+      { "role": "wo",       "literal": "を",           "optional": true  },
+      { "role": "verb",     "pos": ["verb"],           "optional": false }
+    ],
+    "semanticChecks": [], "exampleGood": "私は友達に本をあげます", "exampleBad": ""
+  },
+  {
+    "id": "ja_adj_noun_verb",
+    "lang": "ja", "level": "N5",
+    "description": "Adj + Noun + を + Verb — おいしいすしを食べます",
+    "sequence": [
+      { "role": "modifier", "pos": ["adjective", "adverb"], "optional": true  },
+      { "role": "object",   "pos": ["noun"],                "optional": true  },
+      { "role": "wo",       "literal": "を",               "optional": true  },
+      { "role": "verb",     "pos": ["verb"],                "optional": false }
+    ],
+    "semanticChecks": [], "exampleGood": "おいしいすしを食べます", "exampleBad": ""
+  }
+]

@@ -1,0 +1,281 @@
+[
+  {
+    "id": "ja_kana_su",
+    "lang": "ja",
+    "written": "す",
+    "reading": "す",
+    "romanization": "su",
+    "meaning": { "th": "เสียง สุ (อักษรฮิรางานะ)", "en": "su (hiragana character)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_su.mp3",
+    "examples": [
+      {
+        "sentence": "すし (sushi)",
+        "reading": "すし",
+        "translation": { "th": "ซูชิ → สุ-ชิ", "en": "sushi → su-shi" },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Supin",
+      "sprite": "kotodama/supin.png",
+      "description": { "en": "A spinning spirit with a little tail. It twirls like a top and leaves a spiral trail — enthusiastic about everything." },
+      "rarity": "common",
+      "habitat": ["shopping_street", "festival_grounds"]
+    },
+    "mnemonic": { "en": "す looks like a spinning top with a tail curling out — it's always in motion." }
+  },
+  {
+    "id": "ja_kana_se",
+    "lang": "ja",
+    "written": "せ",
+    "reading": "せ",
+    "romanization": "se",
+    "meaning": { "th": "เสียง เสะ (อักษรฮิรางานะ)", "en": "se (hiragana character)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_se.mp3",
+    "examples": [
+      {
+        "sentence": "せんせい (sensei = teacher)",
+        "reading": "せんせい",
+        "translation": { "th": "ครู → เส-น-เส-อิ", "en": "teacher → se-n-se-i" },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Sesei",
+      "sprite": "kotodama/sesei.png",
+      "description": { "en": "A dignified spirit that bows politely whenever it introduces itself. It reminds everyone of a patient teacher who never rushes." },
+      "rarity": "common",
+      "habitat": ["hanami_academy"]
+    },
+    "mnemonic": { "en": "せ looks like a person kneeling and bowing respectfully — a student greeting their sensei." }
+  },
+  {
+    "id": "ja_kana_so",
+    "lang": "ja",
+    "written": "そ",
+    "reading": "そ",
+    "romanization": "so",
+    "meaning": { "th": "เสียง โซะ (อักษรฮิรางานะ)", "en": "so (hiragana character)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_so.mp3",
+    "examples": [
+      {
+        "sentence": "そら (sora = sky)",
+        "reading": "そら",
+        "translation": { "th": "ท้องฟ้า → โซะ-ระ", "en": "sky → so-ra" },
+        "context": "sakura_path"
+      }
+    ],
+    "kotodama": {
+      "name": "Sorasou",
+      "sprite": "kotodama/sorasou.png",
+      "description": { "en": "A drifting spirit that floats above the clouds. Its two sweeping strokes look like wind currents — it hums a continuous 'sooo' as it rises." },
+      "rarity": "common",
+      "habitat": ["sakura_path", "autumn_hill"]
+    },
+    "mnemonic": { "en": "そ looks like two wind currents flowing together — a gentle breeze moving through the sky." }
+  },
+  {
+    "id": "ja_kana_ta",
+    "lang": "ja",
+    "written": "た",
+    "reading": "た",
+    "romanization": "ta",
+    "meaning": { "th": "เสียง ตะ (อักษรฮิรางานะ)", "en": "ta (hiragana character)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_ta.mp3",
+    "examples": [
+      {
+        "sentence": "たき (taki = waterfall)",
+        "reading": "たき",
+        "translation": { "th": "น้ำตก → ตะ-คิ", "en": "waterfall → ta-ki" },
+        "context": "sakura_path"
+      }
+    ],
+    "kotodama": {
+      "name": "Taki",
+      "sprite": "kotodama/taki.png",
+      "description": { "en": "An energetic spirit shaped like a person in mid-stride. It moves in bursts, then pauses — like water cascading down in surges." },
+      "rarity": "common",
+      "habitat": ["sakura_path", "shrine"]
+    },
+    "mnemonic": { "en": "た looks like a person walking purposefully, arms swinging — someone on their way to see a taki (waterfall)." }
+  },
+  {
+    "id": "ja_kana_chi",
+    "lang": "ja",
+    "written": "ち",
+    "reading": "ち",
+    "romanization": "chi",
+    "meaning": { "th": "เสียง จิ (อักษรฮิรางานะ)", "en": "chi (hiragana character)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_chi.mp3",
+    "examples": [
+      {
+        "sentence": "ちず (chizu = map)",
+        "reading": "ちず",
+        "translation": { "th": "แผนที่ → จิ-ซุ", "en": "map → chi-zu" },
+        "context": "sakura_station"
+      }
+    ],
+    "kotodama": {
+      "name": "Chichi",
+      "sprite": "kotodama/chichi.png",
+      "description": { "en": "A curious, swirling spirit that always seems to be circling a point on a map. It explores every corner before deciding which way to go." },
+      "rarity": "common",
+      "habitat": ["sakura_station", "sakura_path"]
+    },
+    "mnemonic": { "en": "ち looks like a swirling question mark — someone turning in circles trying to read a map." }
+  },
+  {
+    "id": "ja_kana_tsu",
+    "lang": "ja",
+    "written": "つ",
+    "reading": "つ",
+    "romanization": "tsu",
+    "meaning": { "th": "เสียง สึ (อักษรฮิรางานะ)", "en": "tsu (hiragana character)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_tsu.mp3",
+    "examples": [
+      {
+        "sentence": "つき (tsuki = moon)",
+        "reading": "つき",
+        "translation": { "th": "ดวงจันทร์ → สึ-คิ", "en": "moon → tsu-ki" },
+        "context": "festival_grounds"
+      }
+    ],
+    "kotodama": {
+      "name": "Tsukine",
+      "sprite": "kotodama/tsukine.png",
+      "description": { "en": "A crescent-shaped spirit that only appears at night. Its smooth curved form glows softly, reflecting the moon it adores." },
+      "rarity": "uncommon",
+      "habitat": ["festival_grounds", "shrine"]
+    },
+    "mnemonic": { "en": "つ is a perfect crescent — the same shape as the tsuki (moon) it represents." }
+  },
+  {
+    "id": "ja_kana_te",
+    "lang": "ja",
+    "written": "て",
+    "reading": "て",
+    "romanization": "te",
+    "meaning": { "th": "เสียง เตะ (อักษรฮิรางานะ)", "en": "te (hiragana character)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_te.mp3",
+    "examples": [
+      {
+        "sentence": "てがみ (tegami = letter / mail)",
+        "reading": "てがみ",
+        "translation": { "th": "จดหมาย → เตะ-กะ-มิ", "en": "letter → te-ga-mi" },
+        "context": "sakura_station"
+      }
+    ],
+    "kotodama": {
+      "name": "Teten",
+      "sprite": "kotodama/teten.png",
+      "description": { "en": "A spirit that writes tiny letters and delivers them at sunrise. The hook at the end of its stroke is like a pen lifting from the page." },
+      "rarity": "common",
+      "habitat": ["sakura_station", "hanami_academy"]
+    },
+    "mnemonic": { "en": "て looks like a hand holding a pen — the bottom hook is the pen lifting after the final stroke." }
+  },
+  {
+    "id": "ja_kana_to",
+    "lang": "ja",
+    "written": "と",
+    "reading": "と",
+    "romanization": "to",
+    "meaning": { "th": "เสียง โตะ (อักษรฮิรางานะ)", "en": "to (hiragana character)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_to.mp3",
+    "examples": [
+      {
+        "sentence": "とり (tori = bird)",
+        "reading": "とり",
+        "translation": { "th": "นก → โตะ-ริ", "en": "bird → to-ri" },
+        "context": "sakura_path"
+      }
+    ],
+    "kotodama": {
+      "name": "Tobi",
+      "sprite": "kotodama/tobi.png",
+      "description": { "en": "A light spirit perched like a bird on a thin branch. The small horizontal stroke is the branch; the curve below is its body, always ready to take flight." },
+      "rarity": "common",
+      "habitat": ["sakura_path", "autumn_hill"]
+    },
+    "mnemonic": { "en": "と looks like a bird perched on a branch — the short bar is the branch, the curve is the bird's body." }
+  },
+  {
+    "id": "ja_kana_ni",
+    "lang": "ja",
+    "written": "に",
+    "reading": "に",
+    "romanization": "ni",
+    "meaning": { "th": "เสียง นิ (อักษรฮิรางานะ)", "en": "ni (hiragana character)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_ni.mp3",
+    "examples": [
+      {
+        "sentence": "にわ (niwa = garden)",
+        "reading": "にわ",
+        "translation": { "th": "สวน → นิ-วะ", "en": "garden → ni-wa" },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Niwa",
+      "sprite": "kotodama/niwa.png",
+      "description": { "en": "A tidy spirit that keeps gardens in perfect order. Its three clean strokes are like the fence posts around a well-kept niwa." },
+      "rarity": "common",
+      "habitat": ["hanami_academy", "shrine"]
+    },
+    "mnemonic": { "en": "に looks like two upright posts and a connecting bar — the gate to a garden." }
+  }
+]

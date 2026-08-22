@@ -1,226 +1,248 @@
 import Phaser from "phaser";
-import { PALETTE, hex } from "../palette";
-import { GAME_WIDTH, GAME_HEIGHT } from "../config";
 import { eventBus } from "../../state/eventBus";
+import { useBattleStore } from "../../state/battleStore";
+import { GAME_WIDTH, GAME_HEIGHT } from "../config";
 
-interface BattleInitData {
-  enemyId: string;
-  locationId: string;
+const ENEMY_X  = 120;  const ENEMY_Y  = 110;
+const CHRONO_X = 340;  const CHRONO_Y = 140;
+
+function randomBg(): string { return `battle-bg-${Math.ceil(Math.random() * 7)}`; }
+
+function enemySprite(enemyId: string): string {
+  if (enemyId.includes("magus")) return "magus";
+  // Each enemy id maps to a consistent monster sprite (1, 2, or 3)
+  const n = (enemyId.charCodeAt(enemyId.length - 1) % 3) + 1;
+  return `monster-${n}`;
 }
 
-/**
- * Phaser battle scene — visuals only.
- *
- * All game logic lives in battleStore (Zustand) and React UI.
- * This scene only renders and animates. It subscribes to battle:effect
- * events and plays the corresponding animations.
- *
- * Lifecycle:
- *   WorldScene detects encounter → scene.launch("BattleScene", data) + scene.sleep()
- *   BattleScene starts, React BattleOverlay appears
- *   battle:end event → BattleScene fades out → WorldScene wakes
- */
 export class BattleScene extends Phaser.Scene {
-  private enemySprite!: Phaser.GameObjects.Sprite;
-  private partySprites: Phaser.GameObjects.Sprite[] = [];
-  private damageText?: Phaser.GameObjects.Text;
-  private offEffect?: () => void;
-  private offBattleEnd?: () => void;
-  private enemyFloatTween?: Phaser.Tweens.Tween;
+  private bg!:        Phaser.GameObjects.Image;
+  private enemySpr!:  Phaser.GameObjects.Image;
+  private chronoSpr!: Phaser.GameObjects.Image;
+  private bgm?: Phaser.Sound.BaseSound;
+  private offEffect!: () => void;
+  private offEnd!:    () => void;
+  private offEnemy!:  () => void;
+  private unsubStore!: () => void;
 
-  constructor() {
-    super({ key: "BattleScene" });
-  }
+  constructor() { super({ key: "BattleScene" }); }
 
-  init(_data: BattleInitData): void {
-    // data available if needed for future location-specific backdrops
-  }
+  create() {
+    this.bg = this.add.image(GAME_WIDTH / 2, GAME_HEIGHT / 2, randomBg())
+      .setDisplaySize(GAME_WIDTH, GAME_HEIGHT);
 
-  create(): void {
-    this.drawBackdrop();
-    this.spawnEnemy();
-    this.spawnParty();
-    this.bindEvents();
-  }
+    const { enemyId, bossGimmick } = useBattleStore.getState();
+    this.enemySpr  = this.add.image(ENEMY_X,  ENEMY_Y,  enemySprite(enemyId)).setDepth(5);
+    this.chronoSpr = this.add.image(CHRONO_X, CHRONO_Y, "crono-idle-left").setDepth(5).setFlipX(true);
 
-  // ── Background ──────────────────────────────────────────────────────────
+    const bgmKey = bossGimmick ? "bgm-boss" : "bgm-battle";
+    this.bgm = this.sound.get(bgmKey) ?? this.sound.add(bgmKey, { loop: true, volume: 0.45 });
+    if (!this.bgm.isPlaying) this.bgm.play();
 
-  private drawBackdrop(): void {
-    const g = this.add.graphics();
+    this.cameras.main.flash(200, 255, 255, 255);
 
-    // Sky gradient (top half)
-    const skyTop = Number.parseInt(PALETTE.SKY_DAWN.slice(1), 16);
-    const skyBot = Number.parseInt(PALETTE.SAKURA_2.slice(1), 16);
-    for (let y = 0; y < GAME_HEIGHT * 0.55; y++) {
-      const t = y / (GAME_HEIGHT * 0.55);
-      const r = Math.round(((skyTop >> 16) & 0xff) * (1 - t) + ((skyBot >> 16) & 0xff) * t);
-      const gr = Math.round(((skyTop >> 8) & 0xff) * (1 - t) + ((skyBot >> 8) & 0xff) * t);
-      const b = Math.round((skyTop & 0xff) * (1 - t) + (skyBot & 0xff) * t);
-      g.fillStyle((r << 16) | (gr << 8) | b, 1);
-      g.fillRect(0, y, GAME_WIDTH, 1);
-    }
-
-    // Ground band
-    g.fillStyle(Number.parseInt(PALETTE.LEAF_1.slice(1), 16), 1);
-    g.fillRect(0, Math.round(GAME_HEIGHT * 0.55), GAME_WIDTH, Math.round(GAME_HEIGHT * 0.15));
-    g.fillStyle(Number.parseInt(PALETTE.LEAF_2.slice(1), 16), 1);
-    g.fillRect(0, Math.round(GAME_HEIGHT * 0.7), GAME_WIDTH, Math.round(GAME_HEIGHT * 0.3));
-
-    // Atmospheric fog at horizon
-    g.fillStyle(Number.parseInt(PALETTE.FOG_1.slice(1), 16), 0.35);
-    g.fillRect(0, Math.round(GAME_HEIGHT * 0.48), GAME_WIDTH, Math.round(GAME_HEIGHT * 0.12));
-
-    g.setDepth(0);
-
-    // Silhouette sakura trees (left and right)
-    this.drawSilhouetteTrees(g);
-  }
-
-  private drawSilhouetteTrees(g: Phaser.GameObjects.Graphics): void {
-    const treeColor = Number.parseInt(PALETTE.SAKURA_4.slice(1), 16);
-    const trunkColor = Number.parseInt(PALETTE.BRANCH_1.slice(1), 16);
-
-    const trees = [
-      { x: 30, ground: Math.round(GAME_HEIGHT * 0.7) },
-      { x: GAME_WIDTH - 30, ground: Math.round(GAME_HEIGHT * 0.7) },
-    ];
-    for (const { x, ground } of trees) {
-      g.fillStyle(trunkColor, 1);
-      g.fillRect(x - 3, ground - 40, 6, 40);
-      g.fillStyle(treeColor, 0.7);
-      g.fillCircle(x, ground - 50, 28);
-      g.fillStyle(Number.parseInt(PALETTE.SAKURA_2.slice(1), 16), 0.5);
-      g.fillCircle(x - 8, ground - 62, 18);
-    }
-  }
-
-  // ── Sprites ─────────────────────────────────────────────────────────────
-
-  private spawnEnemy(): void {
-    this.enemySprite = this.add.sprite(
-      GAME_WIDTH / 2, Math.round(GAME_HEIGHT * 0.38), "px_fog_enemy",
-    );
-    this.enemySprite
-      .setScale(2)
-      .setOrigin(0.5, 1)
-      .setDepth(10)
-      .setAlpha(0);
-
-    this.tweens.add({
-      targets: this.enemySprite,
-      alpha: 1,
-      duration: 400,
-      ease: "Sine.easeOut",
-    });
-
-    this.enemyFloatTween = this.tweens.add({
-      targets: this.enemySprite,
-      y: this.enemySprite.y - 6,
-      duration: 1800,
-      yoyo: true,
-      repeat: -1,
-      ease: "Sine.easeInOut",
-      delay: 400,
-    });
-  }
-
-  private spawnParty(): void {
-    const slotXs = [60, 130, 200, 270] as const;
-    const y = GAME_HEIGHT - 18;
-    for (const x of slotXs) {
-      const s = this.add.sprite(x, y, "px_kotodama")
-        .setScale(1.2)
-        .setOrigin(0.5, 1)
-        .setDepth(10);
-      this.partySprites.push(s);
-    }
-  }
-
-  // ── Event handlers ───────────────────────────────────────────────────────
-
-  private bindEvents(): void {
-    this.offEffect = eventBus.on("battle:effect", ({ type, amount }) => {
-      switch (type) {
-        case "damage":
-        case "critical": this.playDamageEffect(amount ?? 0, type === "critical"); break;
-        case "miss":     this.playMissEffect(); break;
-        case "combo":    this.playComboEffect(amount ?? 0); break;
-        default: break;
-      }
-    });
-
-    this.offBattleEnd = eventBus.on("battle:end", () => {
-      this.cameras.main.fadeOut(400, 0, 0, 0);
-      this.cameras.main.once("camerafadeoutcomplete", () => {
+    // ── Event bus listeners ────────────────────────────────────────────────
+    this.offEffect = eventBus.on("battle:effect", ({ type, amount }) => this.playEffect(type, amount ?? 0));
+    this.offEnemy  = eventBus.on("battle:enemy_action", () => this.enemyAttackAnim());
+    this.offEnd    = eventBus.on("battle:end", ({ won }) => {
+      this.stopBgm();
+      const delay = won ? 600 : 700;
+      if (won) this.cameras.main.flash(400, 255, 255, 200);
+      else     this.cameras.main.fade(600, 0, 0, 0);
+      this.time.delayedCall(delay, () => {
         this.scene.wake("WorldScene");
-        this.scene.stop();
+        this.scene.sleep("BattleScene");
       });
     });
-  }
 
-  private playDamageEffect(amount: number, critical: boolean): void {
-    // Enemy flash red-pink
-    this.tweens.add({
-      targets: this.enemySprite,
-      alpha: 0.3,
-      duration: 80,
-      yoyo: true,
-      repeat: 2,
+    // ── Store subscription — track HP changes for Chrono hit anim ─────────
+    this.unsubStore = useBattleStore.subscribe((state, prev) => {
+      if (!this.scene.isActive("BattleScene")) return;
+      if (state.playerHp < prev.playerHp) {
+        this.chronoTakesHit(prev.playerHp - state.playerHp);
+      }
+      if (state.phase !== prev.phase) this.onPhaseChange(state.phase, state.enemyId);
     });
-    // Gentle screen shake (Pillar 1: always gentle)
-    this.cameras.main.shake(120, critical ? 0.007 : 0.004);
 
-    if (amount > 0) this.showDamageNumber(amount, critical);
-  }
+    // ── Wake: refresh sprites/bg/bgm for the NEW battle ───────────────────
+    this.events.on(Phaser.Scenes.Events.WAKE, this.onWake, this);
 
-  private playMissEffect(): void {
-    if (this.damageText) this.damageText.destroy();
-    this.damageText = this.add.text(
-      GAME_WIDTH / 2 - 16, Math.round(GAME_HEIGHT * 0.28), "...",
-      { fontSize: "10px", color: PALETTE.INK_SOFT },
-    ).setDepth(50);
-    this.tweens.add({
-      targets: this.damageText,
-      y: this.damageText.y - 12,
-      alpha: 0,
-      duration: 700,
-      onComplete: () => this.damageText?.destroy(),
+    this.events.once(Phaser.Scenes.Events.SHUTDOWN, () => {
+      this.offEffect(); this.offEnemy(); this.offEnd();
+      this.unsubStore();
+      this.events.off(Phaser.Scenes.Events.WAKE, this.onWake, this);
     });
   }
 
-  private playComboEffect(amount: number): void {
-    this.cameras.main.shake(200, 0.008);
-    // Rainbow flash across enemy
-    const flash = this.add.graphics().setDepth(20);
-    flash.fillStyle(hex("GOLD_1"), 0.6);
-    flash.fillRect(0, 0, GAME_WIDTH, Math.round(GAME_HEIGHT * 0.7));
-    this.tweens.add({ targets: flash, alpha: 0, duration: 300, onComplete: () => flash.destroy() });
-    if (amount > 0) this.showDamageNumber(amount, true);
+  /** Called every time the scene wakes after the first battle. */
+  private onWake() {
+    const { enemyId, bossGimmick } = useBattleStore.getState();
+
+    // Fresh random background
+    this.bg.setTexture(randomBg());
+
+    // Correct enemy sprite for THIS battle — prevents mixing up opponents
+    this.enemySpr.setTexture(enemySprite(enemyId)).setPosition(ENEMY_X, ENEMY_Y);
+    this.chronoSpr.setTexture("crono-idle-left").setPosition(CHRONO_X, CHRONO_Y);
+    this.chronoSpr.clearTint();
+    this.enemySpr.clearTint();
+
+    // Swap to appropriate BGM
+    const bgmKey = bossGimmick ? "bgm-boss" : "bgm-battle";
+    if (this.bgm?.isPlaying) this.bgm.stop();
+    this.bgm = this.sound.get(bgmKey) ?? this.sound.add(bgmKey, { loop: true, volume: 0.45 });
+    if (!this.bgm.isPlaying) this.bgm.play();
+
+    this.cameras.main.flash(200, 255, 255, 255);
   }
 
-  private showDamageNumber(amount: number, critical: boolean): void {
-    this.damageText?.destroy();
-    const color = critical ? PALETTE.GOLD_1 : PALETTE.SAKURA_3;
-    this.damageText = this.add.text(
-      GAME_WIDTH / 2 - 10, Math.round(GAME_HEIGHT * 0.22),
-      critical ? `${amount}!!` : `${amount}`,
-      { fontSize: critical ? "14px" : "10px", color },
-    ).setDepth(50);
+  // ── Phase / sprite sync ────────────────────────────────────────────────
+  private onPhaseChange(phase: string, enemyId: string) {
+    if (!this.scene.isActive("BattleScene")) return;
+    if (phase === "idle") { this.stopBgm(); return; }
+    const sprKey = enemySprite(enemyId);
+    if (this.enemySpr.texture.key !== sprKey) this.enemySpr.setTexture(sprKey);
+  }
+
+  // ── VFX dispatcher ────────────────────────────────────────────────────
+  private playEffect(type: "damage" | "critical" | "miss" | "combo" | "heal", amount = 0) {
+    switch (type) {
+      case "critical":
+        this.cameras.main.shake(200, 0.014);
+        this.hitStop(90);
+        this.slashFX(ENEMY_X, ENEMY_Y, true);
+        this.time.delayedCall(90, () => {
+          this.flashSprite(this.enemySpr, 0xffffff);
+          this.enemyBounce();
+          this.spawnDamageNumber(ENEMY_X, ENEMY_Y - 20, amount, true);
+        });
+        this.attackAnim();
+        break;
+      case "damage":
+        this.cameras.main.shake(90, 0.007);
+        this.hitStop(60);
+        this.slashFX(ENEMY_X, ENEMY_Y, false);
+        this.time.delayedCall(60, () => {
+          this.flashSprite(this.enemySpr, 0xffffff);
+          this.enemyBounce();
+          this.spawnDamageNumber(ENEMY_X, ENEMY_Y - 20, amount, false);
+        });
+        this.attackAnim();
+        break;
+      case "miss":
+        this.enemySpr.setTint(0xaaaaaa);
+        this.time.delayedCall(100, () => this.enemySpr.clearTint());
+        this.tweens.add({ targets: this.enemySpr, x: ENEMY_X + 8, duration: 60, yoyo: true, repeat: 1 });
+        this.spawnMissText(ENEMY_X, ENEMY_Y - 20);
+        break;
+      case "combo":
+        this.cameras.main.flash(200, 255, 220, 100);
+        this.cameras.main.shake(320, 0.020);
+        this.hitStop(120);
+        this.slashFX(ENEMY_X, ENEMY_Y, true);
+        this.slashFX(ENEMY_X + 12, ENEMY_Y + 12, true);
+        this.time.delayedCall(120, () => {
+          this.flashSprite(this.enemySpr, 0xffd700);
+          this.enemyBounce();
+          this.spawnDamageNumber(ENEMY_X, ENEMY_Y - 26, amount, true);
+        });
+        this.chronoSpr.setTexture("crono-ataque-back");
+        this.time.delayedCall(500, () => this.chronoSpr.setTexture("crono-idle-left"));
+        break;
+      case "heal":
+        this.flashSprite(this.chronoSpr, 0x44ff88);
+        this.spawnDamageNumber(CHRONO_X, CHRONO_Y - 20, amount, false, "#44ff88");
+        break;
+    }
+  }
+
+  // ── Enemy attacks Chrono ───────────────────────────────────────────────
+  private enemyAttackAnim() {
+    const origX = this.enemySpr.x;
     this.tweens.add({
-      targets: this.damageText,
-      y: this.damageText.y - 18,
-      alpha: 0,
-      duration: 900,
-      ease: "Sine.easeOut",
-      onComplete: () => this.damageText?.destroy(),
+      targets: this.enemySpr, x: origX + 50,
+      duration: 120, ease: "Power2.easeIn",
+      onComplete: () => {
+        this.enemySpr.x = origX;
+        this.impactSpark(CHRONO_X - 20, CHRONO_Y, 0xff4444);
+      },
     });
   }
 
-  // ── Cleanup ──────────────────────────────────────────────────────────────
+  private chronoTakesHit(damage: number) {
+    this.flashSprite(this.chronoSpr, 0xff6666);
+    this.cameras.main.shake(70, 0.006);
+    this.spawnDamageNumber(CHRONO_X, CHRONO_Y - 20, damage, false, "#ff6666");
+    this.tweens.add({ targets: this.chronoSpr, x: CHRONO_X + 12, duration: 80, yoyo: true });
+  }
 
-  shutdown(): void {
-    this.offEffect?.();
-    this.offBattleEnd?.();
-    this.enemyFloatTween?.stop();
+  // ── Sub-animations ────────────────────────────────────────────────────
+  private attackAnim() {
+    this.tweens.add({ targets: this.chronoSpr, x: CHRONO_X - 55, duration: 110, yoyo: true, ease: "Power2" });
+    this.chronoSpr.setTexture("crono-ataque-1");
+    this.time.delayedCall(160, () => this.chronoSpr.setTexture("crono-ataque-2"));
+    this.time.delayedCall(310, () => this.chronoSpr.setTexture("crono-idle-left"));
+  }
+
+  private enemyBounce() {
+    this.tweens.add({ targets: this.enemySpr, x: ENEMY_X - 14, duration: 70, yoyo: true, ease: "Power2" });
+  }
+
+  // ── VFX primitives ────────────────────────────────────────────────────
+  private slashFX(cx: number, cy: number, crit: boolean) {
+    const g = this.add.graphics().setDepth(28);
+    const c = crit ? 0xffd700 : 0xffffff;
+    [[3, c, 1], [2, 0xffffff, 0.7], [1.5, 0xffcccc, 0.5]].forEach(([lw, col, a]) => {
+      g.lineStyle(lw as number, col as number, a as number);
+      g.beginPath(); g.moveTo(cx - 28, cy - 36); g.lineTo(cx + 36, cy + 16); g.strokePath();
+      g.beginPath(); g.moveTo(cx - 16, cy - 42); g.lineTo(cx + 28, cy + 10); g.strokePath();
+    });
+    this.tweens.add({ targets: g, alpha: 0, scaleX: 1.3, scaleY: 1.3, duration: 180, onComplete: () => g.destroy() });
+  }
+
+  private impactSpark(x: number, y: number, color: number) {
+    const g = this.add.graphics().setDepth(27);
+    g.fillStyle(color, 1);
+    for (let i = 0; i < 6; i++) {
+      const angle = (i / 6) * Math.PI * 2;
+      g.fillCircle(x + Math.cos(angle) * 8, y + Math.sin(angle) * 8, 2);
+    }
+    this.tweens.add({ targets: g, alpha: 0, scale: 1.6, duration: 220, onComplete: () => g.destroy() });
+  }
+
+  private spawnDamageNumber(x: number, y: number, amount: number, crit: boolean, color = "#ffffff") {
+    const text = this.add.text(x + Phaser.Math.Between(-8, 8), y, `${amount}`, {
+      fontSize: crit ? "20px" : "15px",
+      fontFamily: "'Chrono', monospace",
+      color, stroke: "#000000", strokeThickness: 3,
+    }).setDepth(30).setOrigin(0.5);
+    this.tweens.add({ targets: text, y: y - 44, alpha: 0, duration: 850, onComplete: () => text.destroy() });
+  }
+
+  private spawnMissText(x: number, y: number) {
+    const text = this.add.text(x, y, "MISS", {
+      fontSize: "13px", fontFamily: "'Chrono', monospace",
+      color: "#9188a0", stroke: "#000000", strokeThickness: 2,
+    }).setDepth(30).setOrigin(0.5);
+    this.tweens.add({ targets: text, y: y - 30, alpha: 0, duration: 700, onComplete: () => text.destroy() });
+  }
+
+  private hitStop(ms: number) {
+    this.tweens.pauseAll();
+    window.setTimeout(() => { if (this.scene.isActive("BattleScene")) this.tweens.resumeAll(); }, ms);
+  }
+
+  private flashSprite(sprite: Phaser.GameObjects.Image, color: number) {
+    sprite.setTint(color);
+    this.time.delayedCall(130, () => sprite.clearTint());
+  }
+
+  private stopBgm() {
+    if (!this.bgm?.isPlaying) return;
+    this.tweens.add({
+      targets: { vol: 0.45 }, vol: 0, duration: 500,
+      onUpdate: (_, t) => { (this.bgm as Phaser.Sound.WebAudioSound)?.setVolume(t.vol as number); },
+      onComplete: () => this.bgm?.stop(),
+    });
   }
 }

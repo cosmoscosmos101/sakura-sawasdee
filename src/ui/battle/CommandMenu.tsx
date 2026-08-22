@@ -1,74 +1,123 @@
-import type { BattleKotodama } from "../../state/battleStore";
-import type { LocaleCode } from "../../state/playerStore";
+import { useState, useEffect } from "react";
+import { useBattleStore } from "../../state/battleStore";
 
-interface Props {
-  party: BattleKotodama[];
-  playerL1: LocaleCode;
-  chainLength: number;
-  onSend: (index: number) => void;
-  onCombo: () => void;
-  onFlee: () => void;
+// Inject pulse keyframes once — cannot be expressed as an inline style object
+const PULSE_CSS = `
+@keyframes ck-slot-pulse {
+  0%, 100% { box-shadow: none; }
+  50%       { box-shadow: 0 0 0 2px rgba(74,111,165,0.55); }
+}`;
+function ensurePulseStyle() {
+  if (!document.getElementById("ck-pulse-style")) {
+    const s = document.createElement("style");
+    s.id = "ck-pulse-style";
+    s.textContent = PULSE_CSS;
+    document.head.appendChild(s);
+  }
 }
 
-const LABELS: Record<LocaleCode, {
-  send: string; combo: string; flee: string; sent: string;
-}> = {
-  th: { send: "ส่ง",  combo: "คอมโบ", flee: "หนี", sent: "แล้ว" },
-  en: { send: "Send", combo: "Combo!", flee: "Flee", sent: "sent" },
-  ja: { send: "だす",  combo: "コンボ！", flee: "にげる", sent: "済" },
+const PANEL_STYLE: React.CSSProperties = {
+  background: "rgba(13,13,26,0.92)",
+  border: "2px solid #4a6fa5",
+  borderRadius: 4,
+  padding: "10px 14px",
+  fontFamily: "'Chrono', monospace",
+  color: "#e8dcc8",
+  minWidth: 220,
 };
 
-const ELEMENT_COLOR: Record<string, string> = {
-  bloom: "#F7A8C4", spark: "#FFE08A", flow: "#7FC4E0",
-  echo: "#C9B8F0",  stone: "#C9A27E", light: "#FFF6E5",
-};
+const ITEM_STYLE = (active: boolean): React.CSSProperties => ({
+  display: "flex",
+  alignItems: "center",
+  gap: 8,
+  padding: "5px 6px",
+  borderRadius: 2,
+  cursor: "pointer",
+  background: active ? "rgba(74,111,165,0.35)" : "transparent",
+  fontSize: 12,
+  letterSpacing: 0.5,
+  transition: "background 0.1s",
+});
 
-export function CommandMenu({ party, playerL1, chainLength, onSend, onCombo, onFlee }: Props) {
-  const labels = LABELS[playerL1] ?? LABELS.en;
+export function CommandMenu() {
+  const party      = useBattleStore((s) => s.party);
+  const phase      = useBattleStore((s) => s.phase);
+  const sendKotodama = useBattleStore((s) => s.sendKotodama);
+  const flee         = useBattleStore((s) => s.flee);
+  const telegraph    = useBattleStore((s) => s.telegraphedAction);
+
+  const [hoveredIdx, setHoveredIdx] = useState<number | null>(null);
+
+  useEffect(() => { ensurePulseStyle(); }, []);
+
+  if (phase !== "command") return null;
 
   return (
-    <div className="pointer-events-auto w-full px-3 pb-3">
-      <div className="rounded-2xl border-[3px] border-[#4A3F55] bg-[#FFF6E5] p-3 shadow-lg">
-        {/* Kotodama party row */}
-        <div className="mb-2 grid grid-cols-4 gap-2">
-          {party.map((k, i) => {
-            const sent = k.sentThisTurn;
-            const element = k.vocabEntry.element;
-            return (
-              <button
-                key={k.vocabEntry.id}
-                onClick={() => onSend(i)}
-                disabled={sent}
-                className="flex flex-col items-center rounded-xl border-2 border-[#4A3F55] py-1.5 transition-colors"
-                style={{ background: sent ? "#F5E3C8" : ELEMENT_COLOR[element] ?? "#FFF0F5" }}
-              >
-                <span className="text-[14px]">
-                  {sent ? "✓" : "🌸"}
-                </span>
-                <span className="mt-0.5 text-[8px] leading-tight text-[#4A3F55]">
-                  {sent ? labels.sent : k.vocabEntry.reading}
-                </span>
-              </button>
-            );
-          })}
-        </div>
+    <div style={{ ...PANEL_STYLE, pointerEvents: "auto" }}>
+      <div style={{ color: "#ffd700", fontSize: 10, letterSpacing: 2, marginBottom: 8, textTransform: "uppercase" }}>
+        — Select Word —
+      </div>
 
-        {/* Action buttons */}
-        <div className="flex gap-2">
-          <button
-            onClick={onCombo}
-            disabled={chainLength < 2}
-            className="flex-1 rounded-xl border-2 border-[#4A3F55] bg-[#FFE08A] py-1.5 text-[11px] font-semibold text-[#4A3F55] transition-colors hover:bg-[#F2C879] disabled:cursor-not-allowed disabled:opacity-40"
+      {party.map((slot, i) => {
+        const sent = slot.sentThisTurn;
+        const pulsing = !sent && hoveredIdx !== i;
+        return (
+          <div
+            key={i}
+            style={{
+              ...ITEM_STYLE(hoveredIdx === i && !sent),
+              animation: pulsing ? "ck-slot-pulse 1.8s ease-in-out infinite" : "none",
+              animationDelay: `${i * 0.28}s`,
+            }}
+            onMouseEnter={() => setHoveredIdx(i)}
+            onMouseLeave={() => setHoveredIdx(null)}
+            onClick={() => !sent && sendKotodama(i)}
           >
-            {labels.combo}
-          </button>
-          <button
-            onClick={onFlee}
-            className="rounded-xl border-2 border-[#9188A0] bg-[#FFF6E5] px-3 py-1.5 text-[11px] text-[#9188A0] transition-colors hover:bg-[#F5E3C8]"
-          >
-            {labels.flee}
-          </button>
-        </div>
+            {/* CT cursor arrow */}
+            <img
+              src="/ct-assets/sprites/cursor.png"
+              alt=""
+              style={{
+                width: 12,
+                imageRendering: "pixelated",
+                opacity: hoveredIdx === i && !sent ? 1 : 0,
+                transition: "opacity 0.1s",
+              }}
+            />
+            <span style={{ color: sent ? "#555" : "#e8dcc8", flex: 1 }}>
+              {slot.vocabEntry.written}
+            </span>
+            <span style={{ fontSize: 10, color: "#6ab4ff" }}>
+              {slot.vocabEntry.element ?? ""}
+            </span>
+            {sent && (
+              <span style={{ fontSize: 9, color: "#888" }}>✓</span>
+            )}
+          </div>
+        );
+      })}
+
+      <div style={{ borderTop: "1px solid #2a3f5f", marginTop: 6, paddingTop: 6, display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+        <button
+          onClick={flee}
+          style={{
+            background: "none",
+            border: "1px solid #6b5f78",
+            borderRadius: 3,
+            color: "#9188a0",
+            fontSize: 10,
+            padding: "3px 10px",
+            cursor: "pointer",
+            fontFamily: "inherit",
+          }}
+        >
+          Flee
+        </button>
+        {telegraph && (
+          <div style={{ fontSize: 9, color: "#ff8888", maxWidth: 140, textAlign: "right" }}>
+            ⚠ {telegraph.telegraphKey}
+          </div>
+        )}
       </div>
     </div>
   );

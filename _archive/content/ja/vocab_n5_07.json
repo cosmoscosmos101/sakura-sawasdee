@@ -1,0 +1,281 @@
+[
+  {
+    "id": "ja_n5_0053",
+    "lang": "ja",
+    "written": "お母さん",
+    "reading": "おかあさん",
+    "romanization": "okaasan",
+    "meaning": { "th": "แม่ (พูดถึงแม่คนอื่น / เรียกแม่ตัวเอง)", "en": "mother (polite/neutral — used for others' mothers and to address your own)" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["noun", "family", "honorific"],
+    "frequency": 210,
+    "audio": "voice/ja/n5_0053.mp3",
+    "examples": [
+      {
+        "sentence": "おかあさんはいまうちにいますか？",
+        "reading": "おかあさんはいまうちにいますか？",
+        "translation": { "th": "แม่อยู่บ้านตอนนี้ไหม?", "en": "Is your mother home right now?" },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Kaasan",
+      "sprite": "kotodama/n5_0053.png",
+      "description": { "en": "A warm spirit that always radiates a gentle heat. It never raises its voice and somehow always knows where everyone is." },
+      "rarity": "common",
+      "habitat": ["hanami_academy", "shopping_street"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  },
+  {
+    "id": "ja_n5_0054",
+    "lang": "ja",
+    "written": "お父さん",
+    "reading": "おとうさん",
+    "romanization": "otousan",
+    "meaning": { "th": "พ่อ (พูดถึงพ่อคนอื่น / เรียกพ่อตัวเอง)", "en": "father (polite/neutral — used for others' fathers and to address your own)" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["noun", "family", "honorific"],
+    "frequency": 195,
+    "audio": "voice/ja/n5_0054.mp3",
+    "examples": [
+      {
+        "sentence": "おとうさんはなんのしごとをしていますか？",
+        "reading": "おとうさんはなんのしごとをしていますか？",
+        "translation": { "th": "พ่อทำงานอะไร?", "en": "What does your father do for work?" },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Tousan",
+      "sprite": "kotodama/n5_0054.png",
+      "description": { "en": "A steady, broad-shouldered spirit. It stands quietly in doorways and never leaves without saying goodbye." },
+      "rarity": "common",
+      "habitat": ["hanami_academy", "sakura_station"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  },
+  {
+    "id": "ja_n5_0055",
+    "lang": "ja",
+    "written": "お兄さん",
+    "reading": "おにいさん",
+    "romanization": "oniisan",
+    "meaning": { "th": "พี่ชาย (พูดถึงพี่ชายคนอื่น / เรียกพี่ชายตัวเอง)", "en": "older brother (polite/neutral)" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["noun", "family", "honorific"],
+    "frequency": 165,
+    "audio": "voice/ja/n5_0055.mp3",
+    "examples": [
+      {
+        "sentence": "おにいさんはだいがくせいですか？",
+        "reading": "おにいさんはだいがくせいですか？",
+        "translation": { "th": "พี่ชายเป็นนักศึกษามหาวิทยาลัยหรือเปล่า?", "en": "Is your older brother a university student?" },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Niisan",
+      "sprite": "kotodama/n5_0055.png",
+      "description": { "en": "A cool spirit that pretends not to care but secretly watches out for everyone smaller than it. It has a very practiced 'I wasn't worried' expression." },
+      "rarity": "common",
+      "habitat": ["hanami_academy", "cherry_blossom_park"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  },
+  {
+    "id": "ja_n5_0056",
+    "lang": "ja",
+    "written": "お姉さん",
+    "reading": "おねえさん",
+    "romanization": "oneesan",
+    "meaning": { "th": "พี่สาว (พูดถึงพี่สาวคนอื่น / เรียกพี่สาวตัวเอง)", "en": "older sister (polite/neutral)" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["noun", "family", "honorific"],
+    "frequency": 160,
+    "audio": "voice/ja/n5_0056.mp3",
+    "examples": [
+      {
+        "sentence": "おねえさんはりょうりがじょうずですね。",
+        "reading": "おねえさんはりょうりがじょうずですね。",
+        "translation": { "th": "พี่สาวทำอาหารเก่งมากนะ", "en": "Your older sister is a great cook, isn't she?" },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Neesan",
+      "sprite": "kotodama/n5_0056.png",
+      "description": { "en": "An elegant spirit that always smells faintly of jasmine. It knows exactly what everyone needs before they ask." },
+      "rarity": "common",
+      "habitat": ["shopping_street", "cherry_blossom_park"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  },
+  {
+    "id": "ja_n5_0057",
+    "lang": "ja",
+    "written": "友だち",
+    "reading": "ともだち",
+    "romanization": "tomodachi",
+    "meaning": { "th": "เพื่อน", "en": "friend" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["noun", "people", "daily"],
+    "frequency": 230,
+    "audio": "voice/ja/n5_0057.mp3",
+    "examples": [
+      {
+        "sentence": "ともだちといっしょにこうえんにいきました。",
+        "reading": "ともだちといっしょにこうえんにいきました。",
+        "translation": { "th": "ไปสวนสาธารณะกับเพื่อน", "en": "I went to the park with a friend." },
+        "context": "cherry_blossom_park"
+      }
+    ],
+    "kotodama": {
+      "name": "Tomodachi",
+      "sprite": "kotodama/n5_0057.png",
+      "description": { "en": "A spirit that never appears alone — there are always two of them, orbiting each other like small moons. If you catch one, you find the other nearby." },
+      "rarity": "uncommon",
+      "habitat": ["cherry_blossom_park", "hanami_academy", "shopping_street"],
+      "evolveCondition": { "type": "combo_count", "value": 10 }
+    }
+  },
+  {
+    "id": "ja_n5_0058",
+    "lang": "ja",
+    "written": "先生",
+    "reading": "せんせい",
+    "romanization": "sensei",
+    "meaning": { "th": "ครู / อาจารย์", "en": "teacher; professor; doctor (honorific title)" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["noun", "people", "school", "honorific"],
+    "frequency": 245,
+    "audio": "voice/ja/n5_0058.mp3",
+    "examples": [
+      {
+        "sentence": "せんせいはきょうしつにいらっしゃいます。",
+        "reading": "せんせいはきょうしつにいらっしゃいます。",
+        "translation": { "th": "อาจารย์อยู่ในห้องเรียน", "en": "The teacher is in the classroom." },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Sensei",
+      "sprite": "kotodama/n5_0058.png",
+      "description": { "en": "A wise spirit with tiny glasses and ink-stained fingers. It always has a question ready before you've finished thinking of an answer." },
+      "rarity": "uncommon",
+      "habitat": ["hanami_academy"],
+      "evolveCondition": { "type": "review_streak", "value": 7 }
+    }
+  },
+  {
+    "id": "ja_n5_0059",
+    "lang": "ja",
+    "written": "学生",
+    "reading": "がくせい",
+    "romanization": "gakusei",
+    "meaning": { "th": "นักเรียน / นักศึกษา", "en": "student" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["noun", "people", "school"],
+    "frequency": 220,
+    "audio": "voice/ja/n5_0059.mp3",
+    "examples": [
+      {
+        "sentence": "わたしはにほんごをまなんでいるがくせいです。",
+        "reading": "わたしはにほんごをまなんでいるがくせいです。",
+        "translation": { "th": "ฉันเป็นนักเรียนที่กำลังเรียนภาษาญี่ปุ่น", "en": "I am a student learning Japanese." },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Gakusei",
+      "sprite": "kotodama/n5_0059.png",
+      "description": { "en": "An eager spirit with a heavy backpack and wide eyes. It asks 'why?' about everything and takes notes even when no one told it to." },
+      "rarity": "common",
+      "habitat": ["hanami_academy", "cherry_blossom_park"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  },
+  {
+    "id": "ja_n5_0060",
+    "lang": "ja",
+    "written": "みんな",
+    "reading": "みんな",
+    "romanization": "minna",
+    "meaning": { "th": "ทุกคน / พวกเราทุกคน", "en": "everyone; all (friendly/casual)" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["noun", "people", "daily"],
+    "frequency": 185,
+    "audio": "voice/ja/n5_0060.mp3",
+    "examples": [
+      {
+        "sentence": "みんなでいっしょにうたいましょう！",
+        "reading": "みんなでいっしょにうたいましょう！",
+        "translation": { "th": "มาร้องเพลงด้วยกันทุกคนเลย!", "en": "Let's all sing together!" },
+        "context": "festival_grounds"
+      }
+    ],
+    "kotodama": {
+      "name": "Minna",
+      "sprite": "kotodama/n5_0060.png",
+      "description": { "en": "A spirit that splits into many identical copies the moment it's happy — which is most of the time. The copies hum the same melody in perfect harmony." },
+      "rarity": "uncommon",
+      "habitat": ["festival_grounds", "cherry_blossom_park", "hanami_academy"],
+      "evolveCondition": { "type": "combo_count", "value": 10 }
+    }
+  },
+  {
+    "id": "ja_n5_0061",
+    "lang": "ja",
+    "written": "人",
+    "reading": "ひと",
+    "romanization": "hito",
+    "meaning": { "th": "คน / บุคคล", "en": "person; people; human" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 3,
+    "tags": ["noun", "people", "daily"],
+    "frequency": 280,
+    "audio": "voice/ja/n5_0061.mp3",
+    "examples": [
+      {
+        "sentence": "あそこにすてきなひとがいますよ。",
+        "reading": "あそこにすてきなひとがいますよ。",
+        "translation": { "th": "ที่นั่นมีคนน่ารักอยู่นะ", "en": "There's a wonderful person over there." },
+        "context": "cherry_blossom_park"
+      }
+    ],
+    "kotodama": {
+      "name": "Hito",
+      "sprite": "kotodama/n5_0061.png",
+      "description": { "en": "The simplest of person spirits — just a small glowing outline shaped like a human figure. It can represent any of the millions of people who walk the world." },
+      "rarity": "common",
+      "habitat": ["cherry_blossom_park", "shopping_street", "sakura_station"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    }
+  }
+]

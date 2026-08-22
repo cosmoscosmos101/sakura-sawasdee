@@ -135,8 +135,19 @@ Multipliers: 2=×1.5, 3=×2.0, 4=×2.8, 5=×3.5, 6+=×4.5
 
 ## 11. Current status
 
-**Phase 0 scaffold is in place.** Boot scene → World scene renders at 480×270 with a
-React UI overlay and a working sakura particle system.
+**All 8 phases complete + Expansion Pack in progress.**
 
-Next up: **Phase 1, prompt P1.1** in `docs/02_Prompt_Pack.md` — real tilemap loading,
-grid movement with collision, and camera follow.
+**Shipped features:**
+- Phase 0–7: full game loop, SRS, Supabase social, PWA, Capacitor
+- X.1: Enemy turn system (8 fog effects, AI with cooldowns, telegraph visuals in Phaser)
+- X.5: Combo validator v2 — slot-role grammar patterns (12 JA + 10 TH), completeness = filled × coverage, threshold 0.70
+- S.3: Full defeat + victory state — SRS penalty on loss, XP + level gain on win, both idempotent
+- CT-inspired game feel: attack approach animation, encounter `!` exclamation, CommandMenu spring slide-up
+
+**Key architecture invariants (do not reverse):**
+- `battleStore.ts` uses the slice pattern — action files (`defeatActions.ts`, `victoryActions.ts`, `enemyTurnActions.ts`) call `useBattleStore.getState()/setState()` externally to keep all files ≤ 300 lines
+- Victory XP: `base = enemyMaxHp/2`, `bonus = base × (comboMultiplier − 1)`, `level = floor(totalExp/100) + 1`
+- Combo completeness = `filledRatio × coverageRatio` (product, not sum — penalises leftover tokens)
+- WorldScene uses `Phaser.Scenes.Events.WAKE` to reset `transitioning` after battle returns
+
+**Next up:** design next expansion feature.

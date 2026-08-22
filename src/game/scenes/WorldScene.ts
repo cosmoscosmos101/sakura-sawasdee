@@ -1,296 +1,271 @@
 import Phaser from "phaser";
-import { TILE_SIZE } from "../config";
-import { WeatherSystem } from "../systems/WeatherSystem";
-import { MovementSystem } from "../systems/MovementSystem";
-import { VirtualJoystick } from "../systems/VirtualJoystick";
-import { SeasonSystem } from "../systems/SeasonSystem";
-import { TimeSystem } from "../systems/TimeSystem";
-import { Player } from "../entities/Player";
-import { NPC } from "../entities/NPC";
 import { eventBus } from "../../state/eventBus";
+import { ALL_VOCAB } from "../../content/allVocab";
+import { useBattleStore } from "../../state/battleStore";
 import { usePlayerStore } from "../../state/playerStore";
-import { playSignReveal } from "./signReveal";
-import { emitMinigame, showHint } from "./minigameEmit";
-import { isPortalAllowed, portalBlockedMessage } from "../maps/timeGate";
-import type { DialogueNode } from "../../content/schema";
-import { JA_DIALOGUE, TH_DIALOGUE } from "../../content/dialogueLoader";
-import { JA_VOCAB, TH_VOCAB } from "../../content/allVocab";
-import { EncounterSystem } from "../systems/EncounterSystem";
-import { BossSystem } from "../systems/BossSystem";
-import { getMapDef } from "../maps/mapRegistry";
-import type { MapDef } from "../maps/mapDef";
+import { GAME_WIDTH, GAME_HEIGHT } from "../config";
+import { NpcSystem } from "../systems/NpcSystem";
 
-interface SceneData {
-  mapKey?: string;
-  startCol?: number;
-  startRow?: number;
-}
+type Dir = "front" | "back" | "left" | "right";
 
-/** Primary overworld scene. No React imports — talks to React via eventBus and Zustand. */
+const PLAYER_SPEED      = 90;
+const ENCOUNTER_STEPS   = 18;
+const ENCOUNTER_CHANCE  = 0.4;
+const ENCOUNTER_ENEMIES = ["fog-grunt", "fog-wisp", "fog-magus"];
+
+/**
+ * Obstacle zones derived from mapaFloresta.png.
+ * Format: [centreX, centreY, width, height] in game-canvas pixels.
+ * Enable DEV to see them as red overlays.
+ */
+const OBSTACLE_ZONES: [number, number, number, number][] = [
+  [240,  12, 480,  24],
+  [240, 263, 480,  14],
+  [  8, 135,  16, 270],
+  [472, 135,  16, 270],
+  [ 52,  35, 104,  70],
+  [210,  28, 150,  56],
+  [392,  24, 176,  48],
+  [ 28, 148,  56, 155],
+  [ 68, 218,  80,  80],
+  [344, 192, 108, 130],
+  [450, 170,  60, 200],
+  [ 78, 248, 156,  44],
+  [338, 252, 184,  36],
+];
+
 export class WorldScene extends Phaser.Scene {
-  private player!: Player;
-  private movement!: MovementSystem;
-  private weather!: WeatherSystem;
-  private season!: SeasonSystem;
-  private timeOfDay!: TimeSystem;
-  private encounters!: EncounterSystem;
-  private bosses!: BossSystem;
-  private joystick!: VirtualJoystick;
-  private npcs: NPC[] = [];
-  private dialogueNodes: DialogueNode[] = [];
-  private dialogueActive = false;
-  private signRevealed = false;
+  private player!: Phaser.Physics.Arcade.Image;
+  private keys!: {
+    up: Phaser.Input.Keyboard.Key; down: Phaser.Input.Keyboard.Key;
+    left: Phaser.Input.Keyboard.Key; right: Phaser.Input.Keyboard.Key;
+    w: Phaser.Input.Keyboard.Key; s: Phaser.Input.Keyboard.Key;
+    a: Phaser.Input.Keyboard.Key; d: Phaser.Input.Keyboard.Key;
+    e: Phaser.Input.Keyboard.Key;
+  };
+  private facing: Dir = "front";
+  private moving = false;
+  private stepCounter = 0;
+  private encounterExclaim: Phaser.GameObjects.Text | null = null;
   private transitioning = false;
-  private currentMapKey = "hanami_academy";
-  private mapDef!: MapDef;
-  private startCol: number | undefined = undefined;
-  private startRow: number | undefined = undefined;
-  private offDialogueOpen?: () => void;
-  private offDialogueClose?: () => void;
-  private cursors!: Phaser.Types.Input.Keyboard.CursorKeys;
-  private keys!: Record<
-    "W" | "A" | "S" | "D" | "SHIFT" | "SPACE" | "Z",
-    Phaser.Input.Keyboard.Key
-  >;
-  private fpsText?: Phaser.GameObjects.Text;
+  private walkFrame = 0;
+  private walkTimer = 0;
+  private bgm?: Phaser.Sound.BaseSound;
+  private obstacles!: Phaser.Physics.Arcade.StaticGroup;
+  private npcSystem!: NpcSystem;
 
-  constructor() {
-    super({ key: "WorldScene" });
-  }
+  constructor() { super({ key: "WorldScene" }); }
 
-  init(data?: SceneData): void {
-    this.currentMapKey = data?.mapKey ?? "test_map";
-    this.startCol = data?.startCol;
-    this.startRow = data?.startRow;
-    this.transitioning = false;
-    this.signRevealed = false;
-  }
+  create() {
+    const bg = this.add.image(GAME_WIDTH / 2, GAME_HEIGHT / 2, "map-forest");
+    bg.setScale(Math.max(GAME_WIDTH / bg.width, GAME_HEIGHT / bg.height));
 
-  preload(): void {
-    const def = getMapDef(this.currentMapKey);
-    this.cache.tilemap.add(def.key, { format: Phaser.Tilemaps.Formats.TILED_JSON, data: def.tiledJson });
-  }
+    this.add.rectangle(GAME_WIDTH / 2, GAME_HEIGHT / 2, GAME_WIDTH, GAME_HEIGHT, 0x000022, 0.25);
 
-  create(): void {
-    this.mapDef = getMapDef(this.currentMapKey);
-    this.npcs = [];
+    // ── Atmosphere: drifting petals (Design Pillar 3 — always moving) ────
+    this.createAtmosphere();
 
-    this.dialogueNodes = this.mapDef.worldId === "th" ? TH_DIALOGUE : JA_DIALOGUE;
+    // ── Obstacle collision zones ─────────────────────────────────────────
+    this.physics.world.setBounds(0, 0, GAME_WIDTH, GAME_HEIGHT);
+    this.obstacles = this.physics.add.staticGroup();
 
-    Player.createAnimations(this);
-    const map = this.buildTilemap();
-    const col = this.startCol ?? this.mapDef.playerStart.col;
-    const row = this.startRow ?? this.mapDef.playerStart.row;
-    this.player = new Player(this, col, row);
-
-    this.setupCamera(map);
-    this.setupInput();
-    this.spawnNPCs();
-
-    this.season = new SeasonSystem(this);
-    this.timeOfDay = new TimeSystem(this);
-    this.weather = new WeatherSystem(this);
-    this.weather.setWeather(this.mapDef.weatherType);
-    this.joystick = new VirtualJoystick(this);
-    this.spawnKotodama();
-    this.encounters = new EncounterSystem(this);
-    const vocabPool = this.mapDef.worldId === "th" ? TH_VOCAB : JA_VOCAB;
-    this.encounters.spawn(vocabPool, this.mapDef.cols, this.mapDef.rows);
-    this.bosses = new BossSystem(this.currentMapKey);
-
-    this.offDialogueOpen = eventBus.on("dialogue:open", () => { this.dialogueActive = true; });
-    this.offDialogueClose = eventBus.on("dialogue:close", () => { this.dialogueActive = false; });
-
-    if (import.meta.env.DEV) {
-      this.fpsText = this.add
-        .text(4, 4, "", { fontSize: "8px", color: "#4A3F55" })
-        .setScrollFactor(0)
-        .setDepth(2000);
+    const dbg = import.meta.env.DEV;
+    if (!this.textures.exists("_pixel")) {
+      const g = this.add.graphics({ x: -9999, y: -9999 });
+      g.fillStyle(0xffffff).fillRect(0, 0, 1, 1);
+      g.generateTexture("_pixel", 1, 1);
+      g.destroy();
     }
 
-    this.cameras.main.fadeIn(300);
-    eventBus.emit("map:change", { mapId: this.currentMapKey });
-  }
+    OBSTACLE_ZONES.forEach(([cx, cy, w, h]) => {
+      const sprite = this.obstacles.create(cx, cy, "_pixel") as Phaser.Physics.Arcade.Sprite;
+      sprite.setDisplaySize(w, h).setAlpha(dbg ? 0.25 : 0).setDepth(dbg ? 50 : 0);
+      if (dbg) sprite.setTint(0xff0000);
+      sprite.refreshBody();
+    });
 
-  // ── Tilemap ───────────────────────────────────────────────────────────────
+    // ── Player ──────────────────────────────────────────────────────────
+    this.player = this.physics.add.image(GAME_WIDTH / 2, GAME_HEIGHT / 2, "crono-idle-front");
+    this.player.setDepth(10).setCollideWorldBounds(true);
+    (this.player.body as Phaser.Physics.Arcade.Body).setSize(14, 20).setOffset(9, 22);
+    this.physics.add.collider(this.player, this.obstacles);
 
-  private buildTilemap(): Phaser.Tilemaps.Tilemap {
-    const map = this.make.tilemap({ key: this.currentMapKey });
-    const tileset = map.addTilesetImage(this.mapDef.tilesetName, "px_tileset");
-    if (!tileset) throw new Error(`Tileset "${this.mapDef.tilesetName}" not found`);
+    // ── NPCs ─────────────────────────────────────────────────────────────
+    this.npcSystem = new NpcSystem(this);
+    this.npcSystem.create();
 
-    const ground = map.createLayer("ground", tileset, 0, 0);
-    if (!ground) throw new Error("ground layer missing");
-    ground.setDepth(0);
-
-    const deco = map.createLayer("decoration", tileset, 0, 0);
-    if (!deco) throw new Error("decoration layer missing");
-    deco.setDepth(5);
-
-    const collisionRaw = map.createLayer("collision", tileset, 0, 0);
-    if (!collisionRaw) throw new Error("collision layer missing");
-    const collision = collisionRaw as Phaser.Tilemaps.TilemapLayer;
-    collision.setVisible(false).setDepth(0);
-    collision.setCollisionByExclusion([-1]);
-
-    const above = map.createLayer("above_player", tileset, 0, 0);
-    if (!above) throw new Error("above_player layer missing");
-    above.setDepth(20);
-
-    this.movement = new MovementSystem(collision, this.mapDef.cols, this.mapDef.rows);
-    return map;
-  }
-
-  private setupCamera(map: Phaser.Tilemaps.Tilemap): void {
-    this.cameras.main
-      .setBounds(0, 0, map.widthInPixels, map.heightInPixels)
-      .startFollow(this.player, true, 0.1, 0.1)
-      .setRoundPixels(true);
-  }
-
-  private setupInput(): void {
-    const kb = this.input.keyboard;
-    if (!kb) return;
-    this.cursors = kb.createCursorKeys();
+    // ── Keyboard ────────────────────────────────────────────────────────
+    const kb = this.input.keyboard!;
     this.keys = {
-      W: kb.addKey(Phaser.Input.Keyboard.KeyCodes.W),
-      A: kb.addKey(Phaser.Input.Keyboard.KeyCodes.A),
-      S: kb.addKey(Phaser.Input.Keyboard.KeyCodes.S),
-      D: kb.addKey(Phaser.Input.Keyboard.KeyCodes.D),
-      SHIFT: kb.addKey(Phaser.Input.Keyboard.KeyCodes.SHIFT),
-      SPACE: kb.addKey(Phaser.Input.Keyboard.KeyCodes.SPACE),
-      Z: kb.addKey(Phaser.Input.Keyboard.KeyCodes.Z),
+      up:    kb.addKey(Phaser.Input.Keyboard.KeyCodes.UP),
+      down:  kb.addKey(Phaser.Input.Keyboard.KeyCodes.DOWN),
+      left:  kb.addKey(Phaser.Input.Keyboard.KeyCodes.LEFT),
+      right: kb.addKey(Phaser.Input.Keyboard.KeyCodes.RIGHT),
+      w:     kb.addKey(Phaser.Input.Keyboard.KeyCodes.W),
+      s:     kb.addKey(Phaser.Input.Keyboard.KeyCodes.S),
+      a:     kb.addKey(Phaser.Input.Keyboard.KeyCodes.A),
+      d:     kb.addKey(Phaser.Input.Keyboard.KeyCodes.D),
+      e:     kb.addKey(Phaser.Input.Keyboard.KeyCodes.E),
     };
-  }
 
-  private spawnNPCs(): void {
-    this.npcs = this.mapDef.npcs.map((d) => new NPC(this, d.npcId, d.col, d.row, d.startId, d.hasQuest, d.minigameEvent));
-  }
+    // ── Scene events ─────────────────────────────────────────────────────
+    this.events.on(Phaser.Scenes.Events.WAKE, () => {
+      this.transitioning = false;
+      this.player.setTexture(`crono-idle-${this.facing}`);
+      (this.player.body as Phaser.Physics.Arcade.Body).setVelocity(0, 0);
+    });
 
-  private spawnKotodama(): void {
-    for (const [col, row] of this.mapDef.kotodamaSpots) {
-      const k = this.add.sprite(col * TILE_SIZE + TILE_SIZE / 2, (row + 1) * TILE_SIZE, "px_kotodama");
-      k.setDepth(8).setOrigin(0.5, 1);
-      this.tweens.add({ targets: k, y: k.y - 4, duration: 900, yoyo: true, repeat: -1 });
-    }
-  }
-
-  private checkKotodamaEncounter(): void {
-    if (this.dialogueActive) return;
-    const pCol = this.player.getCol();
-    const pRow = this.player.getRow();
-    const boss = this.bosses?.checkEncounter(pCol, pRow);
-    if (boss) { eventBus.emit("battle:start", { enemyId: boss.id, locationId: this.currentMapKey, bossGimmick: boss.gimmick, bossMaxHp: boss.maxHp }); this.scene.launch("BattleScene", { enemyId: boss.id, locationId: this.currentMapKey }); this.scene.sleep(); return; }
-    for (const [col, row] of this.mapDef.kotodamaSpots) {
-      if (pCol === col && pRow === row) {
-        eventBus.emit("battle:start", { enemyId: "fog_word_01", locationId: this.currentMapKey });
-        this.scene.launch("BattleScene", { enemyId: "fog_word_01", locationId: this.currentMapKey });
-        this.scene.sleep();
-        return;
-      }
-    }
-  }
-
-  // ── Update loop ──────────────────────────────────────────────────────────
-
-  update(time: number, delta: number): void {
-    this.weather.update(time, delta);
-    this.encounters.update(delta);
-    this.joystick.update();
-    this.handleInput();
-    if (this.fpsText) this.fpsText.setText(`${Math.round(this.game.loop.actualFps)} fps`);
-  }
-
-  private handleInput(): void {
-    if (!this.cursors) return;
-
-    const spaceJust = Phaser.Input.Keyboard.JustDown(this.keys.SPACE);
-    const zJust = Phaser.Input.Keyboard.JustDown(this.keys.Z);
-
-    if ((spaceJust || zJust) && !this.dialogueActive) {
-      this.tryInteract();
-    }
-    if (this.dialogueActive) return;
-
-    const running = this.keys.SHIFT.isDown;
-
-    if (this.joystick.isVisible()) {
-      const dir = this.joystick.getDirection();
-      if (dir !== "none") {
-        this.player.tryMoveDir(dir, running, this.movement);
-        this.syncPosition();
-        return;
-      }
-    }
-
-    let dx = 0;
-    let dy = 0;
-    if (this.cursors.left.isDown  || this.keys.A.isDown) dx = -1;
-    if (this.cursors.right.isDown || this.keys.D.isDown) dx =  1;
-    if (this.cursors.up.isDown    || this.keys.W.isDown) dy = -1;
-    if (this.cursors.down.isDown  || this.keys.S.isDown) dy =  1;
-    if (dx !== 0 && dy !== 0) dy = 0;
-
-    const tCol = this.player.getCol() + dx;
-    const tRow = this.player.getRow() + dy;
-    const npcBlocked = this.npcs.some((n) => n.isCollidingWith(tCol, tRow));
-    if (!npcBlocked) {
-      this.player.tryMove(dx, dy, running, this.movement);
-      if (dx !== 0 || dy !== 0) {
-        this.syncPosition();
-        this.checkKotodamaEncounter();
-        this.checkTriggerZones();
-      }
-    }
-  }
-
-  private syncPosition(): void {
-    usePlayerStore.getState().setWorldPosition(this.player.getCol(), this.player.getRow(), this.currentMapKey);
-  }
-
-  private checkTriggerZones(): void {
-    const col = this.player.getCol();
-    const row = this.player.getRow();
-    if (this.currentMapKey === "hanami_academy" && !this.signRevealed && col === 15 && row === 2) {
-      this.signRevealed = true;
-      playSignReveal(this);
-    }
-    for (const z of this.mapDef.triggerZones ?? []) {
-      if (col === z.col && row === z.row) { emitMinigame(z.event); return; }
-    }
-    if (!this.transitioning) this.checkPortals(col, row);
-  }
-
-  private checkPortals(col: number, row: number): void {
-    for (const p of this.mapDef.portals) {
-      if (col !== p.col || row !== p.row) continue;
-      if (!isPortalAllowed(p.targetMapKey)) { showHint(this, portalBlockedMessage(p.targetMapKey)); return; }
+    const offBattleEnd   = eventBus.on("battle:end", ({ won }) => {
+      if (won) this.scene.wake("WorldScene");
+    });
+    const offDialogueOpen = eventBus.on("dialogue:open", () => {
       this.transitioning = true;
-      this.cameras.main.fadeOut(300);
-      this.cameras.main.once("camerafadeoutcomplete", () => {
-        this.scene.restart({ mapKey: p.targetMapKey, startCol: p.targetCol, startRow: p.targetRow });
+      (this.player.body as Phaser.Physics.Arcade.Body).setVelocity(0, 0);
+      this.player.setTexture(`crono-idle-${this.facing}`);
+    });
+    const offDialogueClose = eventBus.on("dialogue:close", () => {
+      this.transitioning = false;
+    });
+
+    this.events.once(Phaser.Scenes.Events.SHUTDOWN, () => {
+      offBattleEnd(); offDialogueOpen(); offDialogueClose();
+      this.npcSystem.destroy();
+    });
+
+    eventBus.emit("map:change", { mapId: "forest" });
+    this.bgm = this.sound.add("bgm-overworld", { loop: true, volume: 0.4 });
+    this.bgm.play();
+  }
+
+  /** Floating petal particles — always-moving world element. */
+  private createAtmosphere() {
+    for (let i = 0; i < 10; i++) {
+      const x = Math.random() * GAME_WIDTH;
+      const y = Math.random() * GAME_HEIGHT;
+      const petal = this.add.rectangle(x, y, 2, 2, 0xffd9e8, 0.7).setDepth(3);
+      const dur   = 3200 + Math.random() * 2000;
+      this.tweens.add({
+        targets: petal,
+        x: x + (Math.random() - 0.5) * 50,
+        y: y - 90 - Math.random() * 40,
+        alpha: 0,
+        duration: dur,
+        delay: Math.random() * 3000,
+        repeat: -1,
+        ease: "Sine.easeIn",
+        onRepeat: () => {
+          petal.x = Math.random() * GAME_WIDTH;
+          petal.y = GAME_HEIGHT + 4;
+          petal.alpha = 0.7;
+        },
       });
-      return;
     }
   }
 
-  private tryInteract(): void {
-    const col = this.player.getCol(), row = this.player.getRow();
-    const npc = this.npcs.find((n) => n.isAdjacentTo(col, row));
-    if (!npc) return;
-    const ev = npc.getMinigameEvent();
-    if (ev) { emitMinigame(ev); return; }
-    eventBus.emit("dialogue:open", { npcId: npc.getNpcId(), nodes: this.dialogueNodes, startId: npc.getStartDialogueId() });
+  update(_time: number, delta: number) {
+    if (this.transitioning) return;
+
+    const up    = this.keys.up.isDown    || this.keys.w.isDown;
+    const down  = this.keys.down.isDown  || this.keys.s.isDown;
+    const left  = this.keys.left.isDown  || this.keys.a.isDown;
+    const right = this.keys.right.isDown || this.keys.d.isDown;
+
+    const dx = (right ? 1 : 0) - (left ? 1 : 0);
+    const dy = (down  ? 1 : 0) - (up   ? 1 : 0);
+    const prevMoving = this.moving;
+    this.moving = dx !== 0 || dy !== 0;
+
+    const body = this.player.body as Phaser.Physics.Arcade.Body;
+
+    if (this.moving) {
+      const len = Math.sqrt(dx * dx + dy * dy);
+      body.setVelocity((dx / len) * PLAYER_SPEED, (dy / len) * PLAYER_SPEED);
+
+      if      (dx > 0)  this.facing = "right";
+      else if (dx < 0)  this.facing = "left";
+      else if (dy < 0)  this.facing = "back";
+      else              this.facing = "front";
+
+      this.walkTimer += delta;
+      if (this.walkTimer >= 100) {
+        this.walkTimer = 0;
+        const frames = this.getWalkFrameKeys();
+        this.walkFrame = (this.walkFrame + 1) % frames.length;
+        this.player.setTexture(frames[this.walkFrame] ?? "crono-idle-front");
+      }
+
+      const dist = Math.sqrt(body.velocity.x ** 2 + body.velocity.y ** 2) * (delta / 1000);
+      this.stepCounter += dist;
+      if (this.stepCounter >= ENCOUNTER_STEPS && Math.random() < ENCOUNTER_CHANCE) {
+        this.stepCounter = 0;
+        this.triggerEncounter();
+      }
+    } else {
+      body.setVelocity(0, 0);
+      if (prevMoving) {
+        this.player.setTexture(`crono-idle-${this.facing}`);
+        this.walkFrame = 0;
+        this.walkTimer = 0;
+      }
+    }
+
+    // NPC proximity + E-key interaction
+    this.npcSystem.update(this.player.x, this.player.y);
+    if (Phaser.Input.Keyboard.JustDown(this.keys.e)) {
+      this.npcSystem.tryInteract();
+    }
   }
 
-  shutdown(): void {
-    this.offDialogueOpen?.();
-    this.offDialogueClose?.();
-    this.season?.destroy();
-    this.timeOfDay?.destroy();
-    this.encounters?.destroy();
-    this.bosses?.destroy();
-    this.weather?.destroy();
-    this.joystick?.destroy();
+  private getWalkFrameKeys(): string[] {
+    if (this.facing === "front") return Array.from({ length: 6 }, (_, i) => `crono-walk-front-${i + 1}`);
+    if (this.facing === "back")  return Array.from({ length: 6 }, (_, i) => `crono-walk-down-${i + 1}`);
+    if (this.facing === "left")  return Array.from({ length: 6 }, (_, i) => `crono-walk-left-${i + 1}`);
+    return Array.from({ length: 6 }, (_, i) => `crono-walk-right-${i + 1}`);
+  }
+
+  private triggerEncounter() {
+    if (this.transitioning) return;
+    this.transitioning = true;
+    (this.player.body as Phaser.Physics.Arcade.Body).setVelocity(0, 0);
+
+    this.encounterExclaim = this.add
+      .text(this.player.x, this.player.y - 30, "!", {
+        fontSize: "28px", color: "#ffd700", fontStyle: "bold",
+        stroke: "#1a1a2e", strokeThickness: 5,
+      }).setDepth(20);
+
+    if (this.sound.get("sfx-sword")) this.sound.play("sfx-sword", { volume: 0.6 });
+
+    this.tweens.add({
+      targets: this.encounterExclaim,
+      y: this.player.y - 52, alpha: 0, duration: 600, ease: "Power2",
+      onComplete: () => { this.encounterExclaim?.destroy(); this.startBattle(); },
+    });
+  }
+
+  private startBattle() {
+    const bgm = this.bgm;
+    if (bgm?.isPlaying) {
+      this.tweens.add({
+        targets: { vol: 0.4 }, vol: 0, duration: 400,
+        onUpdate: (_, t) => { if (bgm.isPlaying) (bgm as Phaser.Sound.WebAudioSound).setVolume(t.vol as number); },
+        onComplete: () => bgm.stop(),
+      });
+    }
+
+    const enemyId = ENCOUNTER_ENEMIES[Math.floor(Math.random() * ENCOUNTER_ENEMIES.length)] ?? "fog-grunt";
+    const { l1 } = usePlayerStore.getState().locale;
+    useBattleStore.getState().startBattle(enemyId, ALL_VOCAB, l1, null);
+    eventBus.emit("battle:start", { enemyId, locationId: "forest" });
+
+    this.cameras.main.flash(300, 255, 255, 255, false);
+    this.time.delayedCall(300, () => {
+      this.scene.sleep("WorldScene");
+      if (this.scene.isActive("BattleScene") || this.scene.isPaused("BattleScene")) {
+        this.scene.wake("BattleScene");
+      } else {
+        this.scene.launch("BattleScene");
+      }
+    });
   }
 }

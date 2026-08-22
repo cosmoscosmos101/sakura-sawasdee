@@ -1,0 +1,465 @@
+[
+  {
+    "id": "ja_n5_0098",
+    "lang": "ja",
+    "written": "私",
+    "reading": "わたし",
+    "romanization": "watashi",
+    "meaning": {
+      "th": "ฉัน / ผม (สุภาพ)",
+      "en": "I; me (polite)"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 5,
+    "tags": [
+      "pronoun",
+      "daily",
+      "core"
+    ],
+    "frequency": 30,
+    "audio": "voice/ja/n5_0098.mp3",
+    "examples": [
+      {
+        "sentence": "私は学生です。",
+        "reading": "わたしはがくせいです。",
+        "translation": {
+          "th": "ฉันเป็นนักเรียน",
+          "en": "I am a student."
+        },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Watashime",
+      "sprite": "kotodama/n5_0098.png",
+      "description": {
+        "en": "A small mirror-like spirit that always reflects the speaker. It floats close to your chest as if it belongs to you — because it does."
+      },
+      "rarity": "common",
+      "habitat": [
+        "hanami_academy",
+        "sakura_path",
+        "shrine"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    },
+    "mnemonic": {
+      "en": "私 = 禾 (grain stalk) + ム (private/me) — grain kept privately for oneself."
+    }
+  },
+  {
+    "id": "ja_n5_0099",
+    "lang": "ja",
+    "written": "あなた",
+    "reading": "あなた",
+    "romanization": "anata",
+    "meaning": {
+      "th": "คุณ (สุภาพ)",
+      "en": "you (polite); dear"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 5,
+    "tags": [
+      "pronoun",
+      "daily",
+      "core"
+    ],
+    "frequency": 42,
+    "audio": "voice/ja/n5_0099.mp3",
+    "examples": [
+      {
+        "sentence": "あなたの名前は何ですか。",
+        "reading": "あなたのなまえはなんですか。",
+        "translation": {
+          "th": "คุณชื่ออะไร",
+          "en": "What is your name?"
+        },
+        "context": "sakura_path"
+      }
+    ],
+    "kotodama": {
+      "name": "Anataglow",
+      "sprite": "kotodama/n5_0099.png",
+      "description": {
+        "en": "A warm-toned spark that always floats slightly ahead of you, facing toward another person. It flickers brighter when real conversation begins."
+      },
+      "rarity": "common",
+      "habitat": [
+        "sakura_path",
+        "shrine",
+        "hanami_academy"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    }
+  },
+  {
+    "id": "ja_n5_0100",
+    "lang": "ja",
+    "written": "彼",
+    "reading": "かれ",
+    "romanization": "kare",
+    "meaning": {
+      "th": "เขา (ผู้ชาย)",
+      "en": "he; him; boyfriend"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 5,
+    "tags": [
+      "pronoun",
+      "daily",
+      "person"
+    ],
+    "frequency": 58,
+    "audio": "voice/ja/n5_0100.mp3",
+    "examples": [
+      {
+        "sentence": "彼は背が高いです。",
+        "reading": "かれはせがたかいです。",
+        "translation": {
+          "th": "เขาตัวสูง",
+          "en": "He is tall."
+        },
+        "context": "sakura_path"
+      }
+    ],
+    "kotodama": {
+      "name": "Karehe",
+      "sprite": "kotodama/n5_0100.png",
+      "description": {
+        "en": "A blue-tinted spark that drifts just out of reach. It points in the direction of someone else and gives a shy wave."
+      },
+      "rarity": "common",
+      "habitat": [
+        "sakura_path",
+        "shrine",
+        "autumn_hill"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    },
+    "mnemonic": {
+      "en": "彼 = 彳 (step) + 皮 (skin/other) — 'that one over there.'"
+    }
+  },
+  {
+    "id": "ja_n5_0101",
+    "lang": "ja",
+    "written": "彼女",
+    "reading": "かのじょ",
+    "romanization": "kanojo",
+    "meaning": {
+      "th": "เธอ (ผู้หญิง) / แฟนสาว",
+      "en": "she; her; girlfriend"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 5,
+    "tags": [
+      "pronoun",
+      "daily",
+      "person"
+    ],
+    "frequency": 60,
+    "audio": "voice/ja/n5_0101.mp3",
+    "examples": [
+      {
+        "sentence": "彼女はとても親切です。",
+        "reading": "かのじょはとてもしんせつです。",
+        "translation": {
+          "th": "เธอใจดีมาก",
+          "en": "She is very kind."
+        },
+        "context": "sakura_path"
+      }
+    ],
+    "kotodama": {
+      "name": "Kanoloshe",
+      "sprite": "kotodama/n5_0101.png",
+      "description": {
+        "en": "A rose-pink spark that gracefully circles whoever it refers to. It leaves a faint floral scent in the air."
+      },
+      "rarity": "common",
+      "habitat": [
+        "sakura_path",
+        "hanami_academy",
+        "festival_grounds"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    }
+  },
+  {
+    "id": "ja_n5_0102",
+    "lang": "ja",
+    "written": "何",
+    "reading": "なに",
+    "romanization": "nani",
+    "meaning": {
+      "th": "อะไร / สิ่งไหน",
+      "en": "what; which thing"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 5,
+    "tags": [
+      "pronoun",
+      "question_word",
+      "daily",
+      "core"
+    ],
+    "frequency": 25,
+    "audio": "voice/ja/n5_0102.mp3",
+    "examples": [
+      {
+        "sentence": "これは何ですか。",
+        "reading": "これはなんですか。",
+        "translation": {
+          "th": "นี่คืออะไร",
+          "en": "What is this?"
+        },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Naniwhat",
+      "sprite": "kotodama/n5_0102.png",
+      "description": {
+        "en": "A bouncy question-mark-shaped spirit. It bobs up and down impatiently, waiting for an answer, and glows when one arrives."
+      },
+      "rarity": "common",
+      "habitat": [
+        "shopping_street",
+        "hanami_academy",
+        "shrine"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    },
+    "mnemonic": {
+      "en": "何 = 人 (person) + 可 (possible) — asking 'what is possible for a person?'"
+    }
+  },
+  {
+    "id": "ja_n5_0103",
+    "lang": "ja",
+    "written": "どこ",
+    "reading": "どこ",
+    "romanization": "doko",
+    "meaning": {
+      "th": "ที่ไหน",
+      "en": "where; which place"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 5,
+    "tags": [
+      "pronoun",
+      "question_word",
+      "daily",
+      "place"
+    ],
+    "frequency": 32,
+    "audio": "voice/ja/n5_0103.mp3",
+    "examples": [
+      {
+        "sentence": "トイレはどこですか。",
+        "reading": "トイレはどこですか。",
+        "translation": {
+          "th": "ห้องน้ำอยู่ที่ไหน",
+          "en": "Where is the restroom?"
+        },
+        "context": "sakura_station"
+      }
+    ],
+    "kotodama": {
+      "name": "Dokosearch",
+      "sprite": "kotodama/n5_0103.png",
+      "description": {
+        "en": "A compass-shaped spirit that spins wildly until it finds what it is looking for. Its needle always points toward the answer."
+      },
+      "rarity": "common",
+      "habitat": [
+        "sakura_station",
+        "shopping_street",
+        "shrine"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    }
+  },
+  {
+    "id": "ja_n5_0104",
+    "lang": "ja",
+    "written": "だれ",
+    "reading": "だれ",
+    "romanization": "dare",
+    "meaning": {
+      "th": "ใคร",
+      "en": "who; which person"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 5,
+    "tags": [
+      "pronoun",
+      "question_word",
+      "daily",
+      "person"
+    ],
+    "frequency": 38,
+    "audio": "voice/ja/n5_0104.mp3",
+    "examples": [
+      {
+        "sentence": "あの人はだれですか。",
+        "reading": "あのひとはだれですか。",
+        "translation": {
+          "th": "คนนั้นเป็นใคร",
+          "en": "Who is that person?"
+        },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Darewho",
+      "sprite": "kotodama/n5_0104.png",
+      "description": {
+        "en": "A silhouette-shaped spark with a fuzzy, unresolved outline. It sharpens into a clear shape the moment someone gives a name."
+      },
+      "rarity": "common",
+      "habitat": [
+        "hanami_academy",
+        "sakura_path",
+        "shrine"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    }
+  },
+  {
+    "id": "ja_n5_0105",
+    "lang": "ja",
+    "written": "いつ",
+    "reading": "いつ",
+    "romanization": "itsu",
+    "meaning": {
+      "th": "เมื่อไหร่ / เมื่อไร",
+      "en": "when; at what time"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 5,
+    "tags": [
+      "pronoun",
+      "question_word",
+      "daily",
+      "time"
+    ],
+    "frequency": 40,
+    "audio": "voice/ja/n5_0105.mp3",
+    "examples": [
+      {
+        "sentence": "テストはいつですか。",
+        "reading": "テストはいつですか。",
+        "translation": {
+          "th": "สอบเมื่อไหร่",
+          "en": "When is the test?"
+        },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Itsuwhen",
+      "sprite": "kotodama/n5_0105.png",
+      "description": {
+        "en": "A little clock-shaped spirit whose hands spin without stopping. It calms only when an appointment is made."
+      },
+      "rarity": "common",
+      "habitat": [
+        "hanami_academy",
+        "sakura_station",
+        "shrine"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    }
+  },
+  {
+    "id": "ja_n5_0106",
+    "lang": "ja",
+    "written": "どうして",
+    "reading": "どうして",
+    "romanization": "doushite",
+    "meaning": {
+      "th": "ทำไม / เพราะอะไร",
+      "en": "why; for what reason"
+    },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 5,
+    "tags": [
+      "pronoun",
+      "question_word",
+      "daily"
+    ],
+    "frequency": 50,
+    "audio": "voice/ja/n5_0106.mp3",
+    "examples": [
+      {
+        "sentence": "どうして泣いているの。",
+        "reading": "どうしてないているの。",
+        "translation": {
+          "th": "ทำไมถึงร้องไห้",
+          "en": "Why are you crying?"
+        },
+        "context": "autumn_hill"
+      }
+    ],
+    "kotodama": {
+      "name": "Doushitewhy",
+      "sprite": "kotodama/n5_0106.png",
+      "description": {
+        "en": "A puzzled spirit shaped like a raised eyebrow. It hovers in mid-air, tilting left and right, until someone explains."
+      },
+      "rarity": "uncommon",
+      "habitat": [
+        "autumn_hill",
+        "shrine",
+        "hanami_academy"
+      ],
+      "evolveCondition": {
+        "type": "review_streak",
+        "value": 5
+      }
+    }
+  }
+]

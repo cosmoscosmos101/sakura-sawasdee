@@ -1,0 +1,195 @@
+[
+  {
+    "id": "ja_n5_0001",
+    "lang": "ja",
+    "written": "猫",
+    "reading": "ねこ",
+    "romanization": "neko",
+    "meaning": { "th": "แมว", "en": "cat" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["animal", "daily"],
+    "frequency": 812,
+    "audio": "voice/ja/n5_0001.mp3",
+    "pitchAccent": 1,
+    "particleAffinity": ["が", "を", "は"],
+    "examples": [
+      {
+        "sentence": "猫が好きです。",
+        "reading": "ねこがすきです。",
+        "translation": { "th": "ฉันชอบแมว", "en": "I like cats." },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Nekoko",
+      "sprite": "kotodama/nekoko.png",
+      "description": { "en": "A sleepy round kitten that naps on sunny rooftops. Its tail curls into the shape of the kanji 猫." },
+      "rarity": "common",
+      "habitat": ["hanami_academy", "sakura_path"]
+    }
+  },
+  {
+    "id": "ja_n5_0002",
+    "lang": "ja",
+    "written": "犬",
+    "reading": "いぬ",
+    "romanization": "inu",
+    "meaning": { "th": "สุนัข", "en": "dog" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["animal", "daily"],
+    "frequency": 643,
+    "audio": "voice/ja/n5_0002.mp3",
+    "pitchAccent": 2,
+    "particleAffinity": ["が", "を", "は"],
+    "examples": [
+      {
+        "sentence": "犬がいます。",
+        "reading": "いぬがいます。",
+        "translation": { "th": "มีสุนัขอยู่", "en": "There is a dog." },
+        "context": "sakura_path"
+      }
+    ],
+    "kotodama": {
+      "name": "Wanwan",
+      "sprite": "kotodama/wanwan.png",
+      "description": { "en": "A bouncy puppy who never stops wagging its tail. The two strokes of 犬 are its happy ears." },
+      "rarity": "common",
+      "habitat": ["sakura_path", "shopping_street"]
+    }
+  },
+  {
+    "id": "ja_n5_0003",
+    "lang": "ja",
+    "written": "花",
+    "reading": "はな",
+    "romanization": "hana",
+    "meaning": { "th": "ดอกไม้", "en": "flower" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["nature", "daily"],
+    "frequency": 1204,
+    "audio": "voice/ja/n5_0003.mp3",
+    "pitchAccent": 1,
+    "particleAffinity": ["が", "を", "は", "の"],
+    "examples": [
+      {
+        "sentence": "花がきれいです。",
+        "reading": "はながきれいです。",
+        "translation": { "th": "ดอกไม้สวยมาก", "en": "The flowers are beautiful." },
+        "context": "sakura_path"
+      }
+    ],
+    "kotodama": {
+      "name": "Hanami",
+      "sprite": "kotodama/hanami.png",
+      "description": { "en": "A drifting petal spirit. Every time it spins, a tiny sakura blooms in the air beside it." },
+      "rarity": "common",
+      "habitat": ["sakura_path", "festival_grounds"]
+    }
+  },
+  {
+    "id": "ja_n5_0004",
+    "lang": "ja",
+    "written": "水",
+    "reading": "みず",
+    "romanization": "mizu",
+    "meaning": { "th": "น้ำ", "en": "water" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["nature", "daily"],
+    "frequency": 987,
+    "audio": "voice/ja/n5_0004.mp3",
+    "pitchAccent": 0,
+    "particleAffinity": ["が", "を", "は"],
+    "examples": [
+      {
+        "sentence": "水を飲みます。",
+        "reading": "みずをのみます。",
+        "translation": { "th": "ดื่มน้ำ", "en": "I drink water." },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Mizumi",
+      "sprite": "kotodama/mizumi.png",
+      "description": { "en": "A gentle droplet creature with a mirror-like surface. Its kanji 水 is visible in the ripples it leaves." },
+      "rarity": "common",
+      "habitat": ["sakura_path", "shrine"]
+    }
+  },
+  {
+    "id": "ja_n5_0005",
+    "lang": "ja",
+    "written": "食べる",
+    "reading": "たべる",
+    "romanization": "taberu",
+    "meaning": { "th": "กิน", "en": "to eat" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["action", "daily", "food"],
+    "frequency": 2341,
+    "audio": "voice/ja/n5_0005.mp3",
+    "pitchAccent": 2,
+    "conjugationGroup": "ichidan",
+    "particleAffinity": ["を"],
+    "examples": [
+      {
+        "sentence": "パンを食べます。",
+        "reading": "パンをたべます。",
+        "translation": { "th": "กินขนมปัง", "en": "I eat bread." },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Tabetchi",
+      "sprite": "kotodama/tabetchi.png",
+      "description": { "en": "A cheerful round spirit that always has something tasty in its tiny hands. It represents the joy of sharing a meal." },
+      "rarity": "uncommon",
+      "habitat": ["shopping_street", "festival_grounds"],
+      "evolveCondition": { "type": "combo_count", "value": 15 }
+    }
+  },
+  {
+    "id": "ja_n5_0006",
+    "lang": "ja",
+    "written": "きれい",
+    "reading": "きれい",
+    "romanization": "kirei",
+    "meaning": { "th": "สวยงาม", "en": "beautiful / clean" },
+    "pos": "adjective",
+    "element": "flow",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["description", "daily"],
+    "frequency": 1876,
+    "audio": "voice/ja/n5_0006.mp3",
+    "pitchAccent": 0,
+    "examples": [
+      {
+        "sentence": "空がきれいです。",
+        "reading": "そらがきれいです。",
+        "translation": { "th": "ท้องฟ้าสวยมาก", "en": "The sky is beautiful." },
+        "context": "sakura_path"
+      }
+    ],
+    "kotodama": {
+      "name": "Kireiko",
+      "sprite": "kotodama/kireiko.png",
+      "description": { "en": "A sparkling crystalline spirit. Wherever it floats, the air feels cleaner and colours look more vivid." },
+      "rarity": "uncommon",
+      "habitat": ["shrine", "sakura_path"]
+    }
+  }
+]

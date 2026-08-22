@@ -1,0 +1,281 @@
+[
+  {
+    "id": "ja_kana_a",
+    "lang": "ja",
+    "written": "あ",
+    "reading": "あ",
+    "romanization": "a",
+    "meaning": { "th": "เสียง อะ (อักษรฮิรางานะ)", "en": "a (hiragana character)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_a.mp3",
+    "examples": [
+      {
+        "sentence": "あめ (ame = rain)",
+        "reading": "あめ",
+        "translation": { "th": "ฝน → อะ-เมะ", "en": "rain → a-me" },
+        "context": "sakura_path"
+      }
+    ],
+    "kotodama": {
+      "name": "Ahane",
+      "sprite": "kotodama/ahane.png",
+      "description": { "en": "A soft, round spirit that carries the scent of rain. Its mouth is always wide open — ready to say 'ah!' at anything surprising." },
+      "rarity": "common",
+      "habitat": ["sakura_path", "hanami_academy"]
+    },
+    "mnemonic": { "en": "あ looks like a person opening their mouth wide in surprise, saying 'ah!'." }
+  },
+  {
+    "id": "ja_kana_i",
+    "lang": "ja",
+    "written": "い",
+    "reading": "い",
+    "romanization": "i",
+    "meaning": { "th": "เสียง อิ (อักษรฮิรางานะ)", "en": "i (hiragana character)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_i.mp3",
+    "examples": [
+      {
+        "sentence": "いぬ (inu = dog)",
+        "reading": "いぬ",
+        "translation": { "th": "สุนัข → อิ-นุ", "en": "dog → i-nu" },
+        "context": "sakura_path"
+      }
+    ],
+    "kotodama": {
+      "name": "Iidori",
+      "sprite": "kotodama/iidori.png",
+      "description": { "en": "A slender spirit that always travels in pairs — its two strokes can't bear to be separated. When reunited they chime 'ee!' in delight." },
+      "rarity": "common",
+      "habitat": ["sakura_path", "hanami_academy"]
+    },
+    "mnemonic": { "en": "い looks like two people standing side by side, facing each other and saying 'ee'." }
+  },
+  {
+    "id": "ja_kana_u",
+    "lang": "ja",
+    "written": "う",
+    "reading": "う",
+    "romanization": "u",
+    "meaning": { "th": "เสียง อุ (อักษรฮิรางานะ)", "en": "u (hiragana character)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_u.mp3",
+    "examples": [
+      {
+        "sentence": "うみ (umi = sea)",
+        "reading": "うみ",
+        "translation": { "th": "ทะเล → อุ-มิ", "en": "sea → u-mi" },
+        "context": "sakura_path"
+      }
+    ],
+    "kotodama": {
+      "name": "Uumi",
+      "sprite": "kotodama/uumi.png",
+      "description": { "en": "A breezy spirit that smells of the ocean. It rolls like a wave — its curved shape always facing forward." },
+      "rarity": "common",
+      "habitat": ["sakura_path", "sakura_station"]
+    },
+    "mnemonic": { "en": "う looks like lips pursed into an 'oo' shape — try saying 'u' in the mirror." }
+  },
+  {
+    "id": "ja_kana_o",
+    "lang": "ja",
+    "written": "お",
+    "reading": "お",
+    "romanization": "o",
+    "meaning": { "th": "เสียง โอ (อักษรฮิรางานะ)", "en": "o (hiragana character)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_o.mp3",
+    "examples": [
+      {
+        "sentence": "おかし (okashi = sweets)",
+        "reading": "おかし",
+        "translation": { "th": "ขนมหวาน → โอ-คะ-ชิ", "en": "sweets → o-ka-shi" },
+        "context": "shopping_street"
+      }
+    ],
+    "kotodama": {
+      "name": "Ohoki",
+      "sprite": "kotodama/ohoki.png",
+      "description": { "en": "A round spirit that loves sweets. It bounces gently and leaves tiny sparkle trails — its two-stroke shape looks like a coin dropping into a box." },
+      "rarity": "common",
+      "habitat": ["shopping_street", "hanami_academy"]
+    },
+    "mnemonic": { "en": "お has a circle and a hook — like an 'O' mouth held open, saying 'ohh!'." }
+  },
+  {
+    "id": "ja_kana_ka",
+    "lang": "ja",
+    "written": "か",
+    "reading": "か",
+    "romanization": "ka",
+    "meaning": { "th": "เสียง คะ (อักษรฮิรางานะ)", "en": "ka (hiragana character)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_ka.mp3",
+    "examples": [
+      {
+        "sentence": "かわ (kawa = river)",
+        "reading": "かわ",
+        "translation": { "th": "แม่น้ำ → คะ-วะ", "en": "river → ka-wa" },
+        "context": "sakura_path"
+      }
+    ],
+    "kotodama": {
+      "name": "Kakawa",
+      "sprite": "kotodama/kakawa.png",
+      "description": { "en": "A spirit that loves sitting by the river and watching it flow. Its vertical stroke is like a person, and the two shorter strokes are their arms resting on their knees." },
+      "rarity": "common",
+      "habitat": ["sakura_path", "sakura_station"]
+    },
+    "mnemonic": { "en": "か looks like someone sitting cross-legged by a river, at peace." }
+  },
+  {
+    "id": "ja_kana_ki",
+    "lang": "ja",
+    "written": "き",
+    "reading": "き",
+    "romanization": "ki",
+    "meaning": { "th": "เสียง คิ (อักษรฮิรางานะ)", "en": "ki (hiragana character)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_ki.mp3",
+    "examples": [
+      {
+        "sentence": "きっぷ (kippu = ticket)",
+        "reading": "きっぷ",
+        "translation": { "th": "ตั๋ว → คิ-ปปุ", "en": "ticket → ki-ppu" },
+        "context": "sakura_station"
+      }
+    ],
+    "kotodama": {
+      "name": "Kiki",
+      "sprite": "kotodama/kiki.png",
+      "description": { "en": "A lively spirit shaped like a tree with spreading branches. It collects tickets as leaves and flutters them when excited." },
+      "rarity": "common",
+      "habitat": ["sakura_station", "hanami_academy"]
+    },
+    "mnemonic": { "en": "き looks like a small tree with two branches spreading left and right — strong and rooted." }
+  },
+  {
+    "id": "ja_kana_ke",
+    "lang": "ja",
+    "written": "け",
+    "reading": "け",
+    "romanization": "ke",
+    "meaning": { "th": "เสียง เคะ (อักษรฮิรางานะ)", "en": "ke (hiragana character)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_ke.mp3",
+    "examples": [
+      {
+        "sentence": "けいたい (keitai = mobile phone)",
+        "reading": "けいたい",
+        "translation": { "th": "โทรศัพท์มือถือ → เค-อิ-ตะ-อิ", "en": "mobile phone → ke-i-ta-i" },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Keiro",
+      "sprite": "kotodama/keiro.png",
+      "description": { "en": "A tall spirit with a small antenna. It always seems to be holding something — a phone, a key, a scroll — ready to transmit a message." },
+      "rarity": "common",
+      "habitat": ["hanami_academy", "sakura_station"]
+    },
+    "mnemonic": { "en": "け looks like a tall person with a small hook at the top — like a key hanging on a hook." }
+  },
+  {
+    "id": "ja_kana_ko",
+    "lang": "ja",
+    "written": "こ",
+    "reading": "こ",
+    "romanization": "ko",
+    "meaning": { "th": "เสียง โคะ (อักษรฮิรางานะ)", "en": "ko (hiragana character)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_ko.mp3",
+    "examples": [
+      {
+        "sentence": "こうえん (kouen = park)",
+        "reading": "こうえん",
+        "translation": { "th": "สวนสาธารณะ → โค-อุ-เอ-น", "en": "park → ko-u-e-n" },
+        "context": "sakura_path"
+      }
+    ],
+    "kotodama": {
+      "name": "Koko",
+      "sprite": "kotodama/koko.png",
+      "description": { "en": "A tiny, compact spirit made of just two simple strokes. It's the simplest-looking of all hiragana, so it loves hanging out with beginners." },
+      "rarity": "common",
+      "habitat": ["hanami_academy", "sakura_path"]
+    },
+    "mnemonic": { "en": "こ is two stacked strokes — like a small pebble settled in a quiet corner." }
+  },
+  {
+    "id": "ja_kana_sa",
+    "lang": "ja",
+    "written": "さ",
+    "reading": "さ",
+    "romanization": "sa",
+    "meaning": { "th": "เสียง สะ (อักษรฮิรางานะ)", "en": "sa (hiragana character)" },
+    "pos": "character",
+    "element": "stone",
+    "level": "N5",
+    "chapter": 1,
+    "tags": ["hiragana", "character"],
+    "frequency": 9999,
+    "audio": "voice/ja/kana_sa.mp3",
+    "examples": [
+      {
+        "sentence": "さくら (sakura = cherry blossom)",
+        "reading": "さくら",
+        "translation": { "th": "ซากุระ/ดอกเชอร์รี่ → สะ-คุ-ระ", "en": "cherry blossom → sa-ku-ra" },
+        "context": "sakura_path"
+      }
+    ],
+    "kotodama": {
+      "name": "Sakiru",
+      "sprite": "kotodama/sakiru.png",
+      "description": { "en": "A spirit that drifts with sakura petals. Its crossed strokes look like two falling petals meeting mid-air — it's always at the sakura path at dawn." },
+      "rarity": "common",
+      "habitat": ["sakura_path", "hanami_academy"]
+    },
+    "mnemonic": { "en": "さ looks like two paths crossing — a crossroads where cherry petals gather." }
+  }
+]

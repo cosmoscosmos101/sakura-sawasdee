@@ -1,0 +1,162 @@
+[
+  {
+    "id": "ja_n5_0012",
+    "lang": "ja",
+    "written": "川",
+    "reading": "かわ",
+    "romanization": "kawa",
+    "meaning": { "th": "แม่น้ำ", "en": "river" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["nature", "water", "place"],
+    "frequency": 1400,
+    "audio": "voice/ja/kawa.mp3",
+    "examples": [
+      {
+        "sentence": "川が流れています。",
+        "reading": "かわがながれています。",
+        "translation": { "th": "แม่น้ำไหล", "en": "The river is flowing." },
+        "context": "sakura_garden"
+      }
+    ],
+    "kotodama": {
+      "name": "Kawari",
+      "sprite": "kotodama/kawari.png",
+      "description": { "en": "A fluid spirit that always moves, never staying still, leaving ripples behind." },
+      "rarity": "common",
+      "habitat": ["sakura_garden"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "川 shows three streams flowing downward — three parallel lines = river." }
+  },
+  {
+    "id": "ja_n5_0013",
+    "lang": "ja",
+    "written": "学校",
+    "reading": "がっこう",
+    "romanization": "gakkou",
+    "meaning": { "th": "โรงเรียน", "en": "school" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["place", "education"],
+    "frequency": 2000,
+    "audio": "voice/ja/gakkou.mp3",
+    "examples": [
+      {
+        "sentence": "学校は楽しいです。",
+        "reading": "がっこうはたのしいです。",
+        "translation": { "th": "โรงเรียนสนุก", "en": "School is fun." },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Gakko",
+      "sprite": "kotodama/gakko.png",
+      "description": { "en": "A studious spirit always found near desks. It glows when a new word is learned." },
+      "rarity": "common",
+      "habitat": ["hanami_academy"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "学 = learning + 校 = school. Together: 'learning school'." }
+  },
+  {
+    "id": "ja_n5_0014",
+    "lang": "ja",
+    "written": "先生",
+    "reading": "せんせい",
+    "romanization": "sensei",
+    "meaning": { "th": "ครู / อาจารย์", "en": "teacher" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["person", "education", "polite"],
+    "frequency": 2500,
+    "audio": "voice/ja/sensei.mp3",
+    "examples": [
+      {
+        "sentence": "先生はやさしいです。",
+        "reading": "せんせいはやさしいです。",
+        "translation": { "th": "คุณครูใจดี", "en": "The teacher is kind." },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Senseiho",
+      "sprite": "kotodama/senseiho.png",
+      "description": { "en": "A wise spirit that hovers near the chalkboard, whispering hints." },
+      "rarity": "uncommon",
+      "habitat": ["hanami_academy"],
+      "evolveCondition": { "type": "review_streak", "value": 7 }
+    },
+    "mnemonic": { "en": "先 (before) + 生 (born) — one who was born before you = teacher." }
+  },
+  {
+    "id": "ja_n5_0015",
+    "lang": "ja",
+    "written": "友達",
+    "reading": "ともだち",
+    "romanization": "tomodachi",
+    "meaning": { "th": "เพื่อน", "en": "friend" },
+    "pos": "noun",
+    "element": "bloom",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["person", "social"],
+    "frequency": 2200,
+    "audio": "voice/ja/tomodachi.mp3",
+    "examples": [
+      {
+        "sentence": "友達と遊びます。",
+        "reading": "ともだちとあそびます。",
+        "translation": { "th": "เล่นกับเพื่อน", "en": "I play with friends." },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Tomone",
+      "sprite": "kotodama/tomone.png",
+      "description": { "en": "A cheerful spirit that always appears in pairs — never seen alone." },
+      "rarity": "common",
+      "habitat": ["hanami_academy", "sakura_garden"],
+      "evolveCondition": { "type": "review_streak", "value": 5 }
+    },
+    "mnemonic": { "en": "友 (friend) + 達 (reach/arrive) — a friend who always arrives = true friend." }
+  },
+  {
+    "id": "ja_n5_0016",
+    "lang": "ja",
+    "written": "読む",
+    "reading": "よむ",
+    "romanization": "yomu",
+    "meaning": { "th": "อ่าน", "en": "to read" },
+    "pos": "verb",
+    "element": "spark",
+    "level": "N5",
+    "chapter": 2,
+    "tags": ["action", "literacy"],
+    "frequency": 1800,
+    "audio": "voice/ja/yomu.mp3",
+    "examples": [
+      {
+        "sentence": "本を読みます。",
+        "reading": "ほんをよみます。",
+        "translation": { "th": "อ่านหนังสือ", "en": "I read a book." },
+        "context": "hanami_academy"
+      }
+    ],
+    "kotodama": {
+      "name": "Yomune",
+      "sprite": "kotodama/yomune.png",
+      "description": { "en": "A thoughtful spirit that glows as it absorbs words from open pages." },
+      "rarity": "common",
+      "habitat": ["hanami_academy"],
+      "evolveCondition": { "type": "combo_count", "value": 10 }
+    },
+    "mnemonic": { "en": "読 has 言 (speech/words) on the left — words you read aloud." }
+  }
+]

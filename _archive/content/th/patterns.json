@@ -1,0 +1,113 @@
+[
+  {
+    "id": "th_verb_alone",
+    "lang": "th", "level": "A1",
+    "description": "Verb alone — กิน",
+    "sequence": [
+      { "role": "verb", "pos": ["verb"], "optional": false }
+    ],
+    "semanticChecks": [], "exampleGood": "กิน", "exampleBad": ""
+  },
+  {
+    "id": "th_phrase",
+    "lang": "th", "level": "A1",
+    "description": "Set phrase — สวัสดีครับ",
+    "sequence": [
+      { "role": "phrase", "pos": ["phrase"], "optional": false }
+    ],
+    "semanticChecks": [], "exampleGood": "สวัสดีครับ", "exampleBad": ""
+  },
+  {
+    "id": "th_noun_adj",
+    "lang": "th", "level": "A1",
+    "description": "Noun + Adjective (head-initial) — ข้าวอร่อย",
+    "sequence": [
+      { "role": "head",     "pos": ["noun"],      "optional": false },
+      { "role": "modifier", "pos": ["adjective"], "optional": false }
+    ],
+    "semanticChecks": [], "exampleGood": "ข้าวอร่อย", "exampleBad": ""
+  },
+  {
+    "id": "th_subj_verb",
+    "lang": "th", "level": "A1",
+    "description": "Subject + Verb — ฉันกิน",
+    "sequence": [
+      { "role": "subject", "pos": ["noun", "adverb"], "optional": false },
+      { "role": "verb",    "pos": ["verb"],           "optional": false }
+    ],
+    "semanticChecks": [], "exampleGood": "ฉันกิน", "exampleBad": ""
+  },
+  {
+    "id": "th_subj_adj",
+    "lang": "th", "level": "A1",
+    "description": "Subject + Adjective (zero copula) — ฉันสวย",
+    "sequence": [
+      { "role": "subject",   "pos": ["noun", "adverb"], "optional": false },
+      { "role": "predicate", "pos": ["adjective"],      "optional": false }
+    ],
+    "semanticChecks": [], "exampleGood": "ฉันสวย", "exampleBad": ""
+  },
+  {
+    "id": "th_subj_verb_obj",
+    "lang": "th", "level": "A1",
+    "description": "Subject + Verb + Object — ฉันกินข้าว",
+    "sequence": [
+      { "role": "subject", "pos": ["noun", "adverb"], "optional": true  },
+      { "role": "verb",    "pos": ["verb"],           "optional": false },
+      { "role": "object",  "pos": ["noun"],           "optional": true  }
+    ],
+    "semanticChecks": ["animacy_subject"],
+    "exampleGood": "ฉันกินข้าว",
+    "exampleBad": "ข้าวกินฉัน"
+  },
+  {
+    "id": "th_subj_neg_verb",
+    "lang": "th", "level": "A1",
+    "description": "Subject + ไม่ + Verb — ฉันไม่กิน",
+    "sequence": [
+      { "role": "subject", "pos": ["noun", "adverb"], "optional": true  },
+      { "role": "neg",     "literal": "ไม่",          "optional": false },
+      { "role": "verb",    "pos": ["verb"],           "optional": false }
+    ],
+    "semanticChecks": [], "exampleGood": "ฉันไม่กิน", "exampleBad": ""
+  },
+  {
+    "id": "th_subj_verb_place",
+    "lang": "th", "level": "A2",
+    "description": "Subject + Verb + ที่ + Place — ฉันไปที่ตลาด",
+    "sequence": [
+      { "role": "subject",  "pos": ["noun", "adverb"], "optional": true  },
+      { "role": "verb",     "pos": ["verb"],           "optional": false },
+      { "role": "thi",      "literal": "ที่",          "optional": true  },
+      { "role": "location", "pos": ["noun"],           "optional": true  }
+    ],
+    "semanticChecks": [], "exampleGood": "ฉันไปที่ตลาด", "exampleBad": ""
+  },
+  {
+    "id": "th_subj_verb_obj_place",
+    "lang": "th", "level": "A2",
+    "description": "Subject + Verb + Object + ที่ + Place — ฉันกินข้าวที่ตลาด",
+    "sequence": [
+      { "role": "subject",  "pos": ["noun", "adverb"], "optional": true  },
+      { "role": "verb",     "pos": ["verb"],           "optional": false },
+      { "role": "object",   "pos": ["noun"],           "optional": true  },
+      { "role": "thi",      "literal": "ที่",          "optional": true  },
+      { "role": "location", "pos": ["noun"],           "optional": true  }
+    ],
+    "semanticChecks": ["animacy_subject"],
+    "exampleGood": "ฉันกินข้าวที่ตลาด",
+    "exampleBad": ""
+  },
+  {
+    "id": "th_subj_verb_obj_polite",
+    "lang": "th", "level": "A2",
+    "description": "Subject + Verb + Object + Polite particle — ฉันกินข้าวครับ",
+    "sequence": [
+      { "role": "subject", "pos": ["noun", "adverb"], "optional": true  },
+      { "role": "verb",    "pos": ["verb"],           "optional": false },
+      { "role": "object",  "pos": ["noun"],           "optional": true  },
+      { "role": "polite",  "pos": ["particle"],       "optional": true  }
+    ],
+    "semanticChecks": [], "exampleGood": "ฉันกินข้าวครับ", "exampleBad": ""
+  }
+]
