@@ -6,7 +6,7 @@ import { GAME_WIDTH, GAME_HEIGHT } from "../config";
 const ENEMY_X  = 120;  const ENEMY_Y  = 110;
 const CHRONO_X = 340;  const CHRONO_Y = 140;
 
-function randomBg(): string { return `battle-bg-${Math.ceil(Math.random() * 7)}`; }
+function randomBg(): string { return "map-forest"; }
 
 function enemySprite(enemyId: string): string {
   if (enemyId.includes("magus")) return "magus";
