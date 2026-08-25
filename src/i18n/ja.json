@@ -117,5 +117,26 @@
   "defeat.exit": "マップに戻る",
 
   "victory.title": "霧が晴れた！",
-  "victory.xp": "+{{xp}} EXP"
+  "victory.xp": "+{{xp}} EXP",
+
+  "learn.gradual": "少しずつ表示",
+  "learn.reveal.tap": "タップで表示  · 長押しで次へ",
+  "learn.dialogue.adaptive": "やさしい日本語",
+  "learn.dialogue.max_l2": "最大日本語",
+  "learn.reading.auto": "各行で音声を再生",
+  "learn.reading.press": "Z で音声",
+  "learn.encounter.0": "霧は静か",
+  "learn.encounter.1": "霧は薄い",
+  "learn.encounter.2": "霧が動いている",
+  "learn.encounter.3": "霧は濃い",
+  "learn.encounter.4": "霧だらけ",
+  "learn.encounter.hint": "Q で霧を濃く  ·  Shift+Q で薄く",
+  "learn.settings.title": "学習",
+  "learn.skip": "まだわからない",
+  "learn.forgive": "打ち間違えた",
+  "learn.forgiven": "許された — 次にまた会おう。",
+  "learn.review.yours": "あなたの答え",
+  "learn.review.correct": "正解",
+  "learn.review.skipped": "またあとで戻ろう。",
+  "queue.sleepyHud": "庭で{{count}}体の言霊が眠たそう"
 }

@@ -66,12 +66,14 @@ export const NPC_DIALOGUE: Record<string, Partial<Record<"ja" | "th", DialogueNo
         speakerName: { th: "นักเดินทาง", en: "Traveler" },
         lines: [
           {
-            l2: "やあ！ にほんごを べんきょうしているの？",
-            reading: "やあ！日本語を勉強しているの？",
+            l2: "私も猫が好きだよ！",
+            reading: "わたしもねこがすきだよ！",
             translation: {
-              th: "หวัดดี! กำลังเรียนภาษาญี่ปุ่นอยู่เหรอ?",
-              en: "Hey! Are you studying Japanese?",
+              th: "ฉันก็ชอบแมวเหมือนกันนะ!",
+              en: "I like cats too!",
             },
+            tokenIds: ["ja_n5_0098", "ja_n5_0001", "ja_n5_0043"],
+            newWordIds: ["ja_n5_0098", "ja_n5_0001"],
           },
           {
             l2: "もじを おぼえると、てきに かてるよ！",
@@ -113,9 +115,11 @@ export const NPC_DIALOGUE: Record<string, Partial<Record<"ja" | "th", DialogueNo
         speakerName: { th: "เด็กน้อย", en: "Child" },
         lines: [
           {
-            l2: "ねえ、あなたは だれ？",
-            reading: "ねえ、あなたは誰？",
-            translation: { th: "เฮ้ แกเป็นใคร?", en: "Hey, who are you?" },
+            l2: "猫が好き？",
+            reading: "ねこがすき？",
+            translation: { th: "ชอบแมวไหม?", en: "Do you like cats?" },
+            tokenIds: ["ja_n5_0001", "ja_n5_0043"],
+            newWordIds: ["ja_n5_0001", "ja_n5_0043"],
           },
           {
             l2: "わたしは ことばまもりたい！",

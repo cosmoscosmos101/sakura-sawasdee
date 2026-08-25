@@ -26,6 +26,8 @@ export interface PlayerProfile {
   level?: number;
   /** Today's quest progress — treated as stale if date doesn't match today. */
   questProgress?: { date: string; progress: [number, number, number]; completed: [boolean, boolean, boolean] };
+  /** Vocab IDs the player has recalled correctly — drives adaptive dialogue. */
+  knownWordIds?: string[];
 }
 
 export interface KotodamaRecord {
@@ -60,6 +62,9 @@ export interface WorldState {
 }
 
 export type FontSize = "sm" | "md" | "lg";
+export type DialogueMode = "adaptive" | "max_l2";
+export type ReadingMode = "auto" | "press";
+export type EncounterRateIndex = 0 | 1 | 2 | 3 | 4;
 
 export interface Settings {
   id: 1; // singleton row
@@ -73,6 +78,14 @@ export interface Settings {
   colorblind: boolean;
   typewriterEffect: boolean;
   fontSize: FontSize;
+  /** Adaptive = L2 only when every token is known. max_l2 = always L2. */
+  dialogueMode: DialogueMode;
+  /** auto plays voice on each line; press waits for Z. */
+  readingMode: ReadingMode;
+  /** 0 = no random drills, 4 = every qualifying step. */
+  encounterRate: EncounterRateIndex;
+  /** HFS gradual reveal: L2 → reading → translation. */
+  gradualReveal: boolean;
 }
 
 // ── Defaults ─────────────────────────────────────────────────────────────────
@@ -89,6 +102,10 @@ export const DEFAULT_SETTINGS: Settings = {
   colorblind: false,
   typewriterEffect: true,
   fontSize: "md",
+  dialogueMode: "adaptive",
+  readingMode: "auto",
+  encounterRate: 2,
+  gradualReveal: true,
 };
 
 export const DEFAULT_WORLD_STATE: WorldState = {

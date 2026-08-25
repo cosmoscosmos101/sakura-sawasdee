@@ -127,6 +127,8 @@ export const DialogueLineSchema = z.object({
   audio: z.string().optional(),
   /** Vocab IDs that are new in this line — highlighted in LAVENDER_3. */
   newWordIds: z.array(z.string()).optional(),
+  /** Every teachable token in the line — used by the adaptive L2 gate. */
+  tokenIds: z.array(z.string()).optional(),
 });
 
 export const DialogueChoiceSchema = z.object({

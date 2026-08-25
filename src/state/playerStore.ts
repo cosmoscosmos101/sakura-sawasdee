@@ -1,5 +1,6 @@
 import { create } from "zustand";
 import { clampPoliteness } from "../learning/thai/politenessSystem";
+import { saveProfile } from "../data/db";
 
 export type LocaleCode = "th" | "en" | "ja";
 
@@ -29,6 +30,7 @@ interface PlayerState {
   setLocale: (locale: LocalePair) => void;
   setPlayerName: (name: string) => void;
   markWordKnown: (wordId: string) => void;
+  hydrateKnownWords: (ids: string[]) => void;
   addWinterWrap: () => void;
   setWorldPosition: (col: number, row: number, mapId?: string) => void;
   addPoliteness: (delta: number) => void;
@@ -52,10 +54,14 @@ export const usePlayerStore = create<PlayerState>((set) => ({
 
   markWordKnown: (wordId) =>
     set((state) => {
+      if (state.knownWordIds.has(wordId)) return state;
       const next = new Set(state.knownWordIds);
       next.add(wordId);
+      void saveProfile({ knownWordIds: [...next] });
       return { knownWordIds: next };
     }),
+
+  hydrateKnownWords: (ids) => set({ knownWordIds: new Set(ids) }),
 
   // Research indicates two freezes is the sweet spot; more forgiveness erodes the habit.
   addWinterWrap: () =>

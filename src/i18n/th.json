@@ -117,5 +117,26 @@
   "defeat.exit": "กลับไปที่แผนที่",
 
   "victory.title": "หมอกจางหายไป!",
-  "victory.xp": "+{{xp}} EXP"
+  "victory.xp": "+{{xp}} EXP",
+
+  "learn.gradual": "เปิดทีละชั้น",
+  "learn.reveal.tap": "แตะเพื่อเปิดชั้น  ·  กดค้างเพื่อข้าม",
+  "learn.dialogue.adaptive": "ญี่ปุ่นแบบอ่อนโยน",
+  "learn.dialogue.max_l2": "ญี่ปุ่นเต็มที่",
+  "learn.reading.auto": "เล่นเสียงทุกบรรทัด",
+  "learn.reading.press": "กด Z เพื่อฟัง",
+  "learn.encounter.0": "หมอกเงียบ",
+  "learn.encounter.1": "หมอกบาง",
+  "learn.encounter.2": "หมอกกำลังก่อ",
+  "learn.encounter.3": "หมอกหนา",
+  "learn.encounter.4": "หมอกทั่วป่า",
+  "learn.encounter.hint": "Q หมอกหนาขึ้น  ·  Shift+Q เบาลง",
+  "learn.settings.title": "การเรียน",
+  "learn.skip": "ยังไม่รู้",
+  "learn.forgive": "พลาดนิดหน่อย",
+  "learn.forgiven": "ให้อภัยแล้ว — ไว้ลองใหม่รอบหน้า",
+  "learn.review.yours": "คุณตอบ",
+  "learn.review.correct": "คำถูกคือ",
+  "learn.review.skipped": "เดี๋ยวกลับมาคำนี้กัน",
+  "queue.sleepyHud": "โคโตะดามะ {{count}} ตัวง่วงอยู่ในสวน"
 }

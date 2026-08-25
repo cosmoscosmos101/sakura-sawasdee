@@ -117,5 +117,26 @@
   "defeat.exit": "Return to Map",
 
   "victory.title": "The fog clears!",
-  "victory.xp": "+{{xp}} EXP"
+  "victory.xp": "+{{xp}} EXP",
+
+  "learn.gradual": "Reveal one layer at a time",
+  "learn.reveal.tap": "Tap to reveal  ·  hold to skip",
+  "learn.dialogue.adaptive": "Gentle Japanese",
+  "learn.dialogue.max_l2": "Max Japanese",
+  "learn.reading.auto": "Voice plays with each line",
+  "learn.reading.press": "Press Z to hear the line",
+  "learn.encounter.0": "Fog is quiet",
+  "learn.encounter.1": "Fog is thin",
+  "learn.encounter.2": "Fog is stirring",
+  "learn.encounter.3": "Fog is thick",
+  "learn.encounter.4": "Fog is everywhere",
+  "learn.encounter.hint": "Q denser fog  ·  Shift+Q calmer",
+  "learn.settings.title": "Learning",
+  "learn.skip": "Not yet",
+  "learn.forgive": "That was a slip",
+  "learn.forgiven": "Slip forgiven — try again next time.",
+  "learn.review.yours": "You said",
+  "learn.review.correct": "It was",
+  "learn.review.skipped": "We'll come back to this one.",
+  "queue.sleepyHud": "{{count}} Kotodama are sleepy in the garden"
 }

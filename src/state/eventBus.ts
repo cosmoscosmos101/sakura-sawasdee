@@ -19,6 +19,8 @@ export type GameEvents = {
   "map:change": { mapId: string };
   "boot:progress": { value: number };
   "boot:complete": undefined;
+  /** Short overworld status (encounter-rate changes, etc.). */
+  "hud:toast": { text: string };
   /** Tone Kitchen: Phaser emits when player enters Pa Somsri's kitchen zone. */
   "tone_kitchen:open": undefined;
   /** Karaoke: emitted by KaraokeScene when song starts. */

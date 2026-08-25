@@ -4,6 +4,7 @@ import { UIOverlay }  from "./ui/UIOverlay";
 import { startAutosave, loadProfile, saveProfile } from "./data/db";
 import { initAnalytics, recordSessionEnd } from "./data/analytics";
 import { usePlayerStore, type LocalePair } from "./state/playerStore";
+import { useSettingsStore } from "./state/settingsStore";
 import { useQuestStore } from "./state/questStore";
 import { updateStreak, toDateString } from "./learning/streakManager";
 
@@ -20,6 +21,7 @@ async function onSessionStart(): Promise<void> {
   const playDates = [...(profile?.playDates ?? [])];
   if (!playDates.includes(today)) playDates.push(today);
   await saveProfile({ streakDays: update.streakDays, winterWraps: update.winterWraps, playDates });
+  usePlayerStore.getState().hydrateKnownWords(profile?.knownWordIds ?? []);
 }
 
 const PATHS: Array<{ locale: LocalePair; label: string; sub: string }> = [
@@ -35,6 +37,7 @@ export default function App() {
   async function handleStart() {
     usePlayerStore.getState().setLocale(PATHS[selectedIdx]!.locale);
     setStarted(true);
+    await useSettingsStore.getState().hydrate();
     await onSessionStart();
     void useQuestStore.getState().init();
     initAnalytics(crypto.randomUUID());

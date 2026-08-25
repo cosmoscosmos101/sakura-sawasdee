@@ -5,33 +5,63 @@ import { useBattleStore } from "../../state/battleStore";
 import { usePlayerStore } from "../../state/playerStore";
 import { GAME_WIDTH, GAME_HEIGHT } from "../config";
 import { NpcSystem } from "../systems/NpcSystem";
+import { addSakuraPetals } from "../systems/Atmosphere";
+import { useSettingsStore } from "../../state/settingsStore";
+import { encounterChance } from "../../learning/vocabMastery";
+import { t } from "../../i18n/t";
 
 type Dir = "front" | "back" | "left" | "right";
 
 const PLAYER_SPEED      = 90;
 const ENCOUNTER_STEPS   = 18;
-const ENCOUNTER_CHANCE  = 0.4;
 const ENCOUNTER_ENEMIES = ["fog-grunt", "fog-wisp", "fog-magus"];
 
 /**
- * Obstacle zones derived from mapaFloresta.png.
+ * Obstacle zones derived from mapaFloresta.png (769×768).
+ * Scale = 0.624; visible strip = image rows 168-601 → game y 0-270.
+ * Conversion: game_x = image_x × 0.624, game_y = image_y × 0.624 − 105.
  * Format: [centreX, centreY, width, height] in game-canvas pixels.
- * Enable DEV to see them as red overlays.
+ * Set DEV=true to see red overlays.
  */
 const OBSTACLE_ZONES: [number, number, number, number][] = [
-  [240,  12, 480,  24],
-  [240, 263, 480,  14],
-  [  8, 135,  16, 270],
-  [472, 135,  16, 270],
-  [ 52,  35, 104,  70],
-  [210,  28, 150,  56],
-  [392,  24, 176,  48],
-  [ 28, 148,  56, 155],
-  [ 68, 218,  80,  80],
-  [344, 192, 108, 130],
-  [450, 170,  60, 200],
-  [ 78, 248, 156,  44],
-  [338, 252, 184,  36],
+  // ── World borders ─────────────────────────────────
+  [240,   4, 480,   8],   // top wall
+  [240, 267, 480,   8],   // bottom wall
+  [  4, 135,   8, 270],   // left wall
+  [476, 135,   8, 270],   // right wall
+
+  // ── Upper-left corner trees (image ~0-120, 168-310) ──
+  [ 37,  27,  75,  55],
+
+  // ── Upper-center tree cluster (image ~270-450, 168-290) ──
+  [224,  16, 112,  38],
+
+  // ── Upper-right corner trees (image ~610-769, 168-300) ──
+  [432,  28,  92,  56],
+
+  // ── Mid-left tree wall (image ~0-150, 300-490) ───────
+  [ 47, 121,  94, 118],
+
+  // ── Center-left tree (image ~120-260, 350-510) ───────
+  [118, 152,  87, 100],
+
+  // ── Large center tree (image ~310-520, 330-510) ──────
+  [262, 142, 130, 112],
+
+  // ── Mid-right tree wall (image ~550-769, 290-490) ────
+  [416, 126, 138, 124],
+
+  // ── Lower-left trees (image ~0-180, 490-601) ─────────
+  [ 56, 237, 112,  68],
+
+  // ── Lower-center-left tree (image ~160-310, 540-601) ─
+  [147, 253,  94,  38],
+
+  // ── Lower-center-right tree (image ~330-530, 510-601) ─
+  [269, 245, 124,  56],
+
+  // ── Lower-right trees (image ~570-769, 480-601) ──────
+  [419, 236, 124,  68],
 ];
 
 export class WorldScene extends Phaser.Scene {
@@ -42,6 +72,8 @@ export class WorldScene extends Phaser.Scene {
     w: Phaser.Input.Keyboard.Key; s: Phaser.Input.Keyboard.Key;
     a: Phaser.Input.Keyboard.Key; d: Phaser.Input.Keyboard.Key;
     e: Phaser.Input.Keyboard.Key;
+    q: Phaser.Input.Keyboard.Key;
+    shift: Phaser.Input.Keyboard.Key;
   };
   private facing: Dir = "front";
   private moving = false;
@@ -63,7 +95,7 @@ export class WorldScene extends Phaser.Scene {
     this.add.rectangle(GAME_WIDTH / 2, GAME_HEIGHT / 2, GAME_WIDTH, GAME_HEIGHT, 0x000022, 0.25);
 
     // ── Atmosphere: drifting petals (Design Pillar 3 — always moving) ────
-    this.createAtmosphere();
+    addSakuraPetals(this);
 
     // ── Obstacle collision zones ─────────────────────────────────────────
     this.physics.world.setBounds(0, 0, GAME_WIDTH, GAME_HEIGHT);
@@ -106,6 +138,8 @@ export class WorldScene extends Phaser.Scene {
       a:     kb.addKey(Phaser.Input.Keyboard.KeyCodes.A),
       d:     kb.addKey(Phaser.Input.Keyboard.KeyCodes.D),
       e:     kb.addKey(Phaser.Input.Keyboard.KeyCodes.E),
+      q:     kb.addKey(Phaser.Input.Keyboard.KeyCodes.Q),
+      shift: kb.addKey(Phaser.Input.Keyboard.KeyCodes.SHIFT),
     };
 
     // ── Scene events ─────────────────────────────────────────────────────
@@ -135,31 +169,6 @@ export class WorldScene extends Phaser.Scene {
     eventBus.emit("map:change", { mapId: "forest" });
     this.bgm = this.sound.add("bgm-overworld", { loop: true, volume: 0.4 });
     this.bgm.play();
-  }
-
-  /** Floating petal particles — always-moving world element. */
-  private createAtmosphere() {
-    for (let i = 0; i < 10; i++) {
-      const x = Math.random() * GAME_WIDTH;
-      const y = Math.random() * GAME_HEIGHT;
-      const petal = this.add.rectangle(x, y, 2, 2, 0xffd9e8, 0.7).setDepth(3);
-      const dur   = 3200 + Math.random() * 2000;
-      this.tweens.add({
-        targets: petal,
-        x: x + (Math.random() - 0.5) * 50,
-        y: y - 90 - Math.random() * 40,
-        alpha: 0,
-        duration: dur,
-        delay: Math.random() * 3000,
-        repeat: -1,
-        ease: "Sine.easeIn",
-        onRepeat: () => {
-          petal.x = Math.random() * GAME_WIDTH;
-          petal.y = GAME_HEIGHT + 4;
-          petal.alpha = 0.7;
-        },
-      });
-    }
   }
 
   update(_time: number, delta: number) {
@@ -196,7 +205,8 @@ export class WorldScene extends Phaser.Scene {
 
       const dist = Math.sqrt(body.velocity.x ** 2 + body.velocity.y ** 2) * (delta / 1000);
       this.stepCounter += dist;
-      if (this.stepCounter >= ENCOUNTER_STEPS && Math.random() < ENCOUNTER_CHANCE) {
+      const chance = encounterChance(useSettingsStore.getState().encounterRate);
+      if (chance > 0 && this.stepCounter >= ENCOUNTER_STEPS && Math.random() < chance) {
         this.stepCounter = 0;
         this.triggerEncounter();
       }
@@ -213,6 +223,11 @@ export class WorldScene extends Phaser.Scene {
     this.npcSystem.update(this.player.x, this.player.y);
     if (Phaser.Input.Keyboard.JustDown(this.keys.e)) {
       this.npcSystem.tryInteract();
+    }
+    if (Phaser.Input.Keyboard.JustDown(this.keys.q)) {
+      const delta: 1 | -1 = this.keys.shift.isDown ? -1 : 1;
+      const rate = useSettingsStore.getState().bumpEncounter(delta);
+      eventBus.emit("hud:toast", { text: t(`learn.encounter.${rate}`) });
     }
   }
 

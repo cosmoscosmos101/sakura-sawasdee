@@ -5,11 +5,23 @@ import { generateQuestion, questionTypeForEncounter } from "../learning/question
 import type { ComboToken, ComboResult } from "../learning/comboValidator";
 import { validateCombo } from "../learning/comboValidator";
 import { eventBus } from "./eventBus";
-import { db, type SrsCard, type AlbumEntry } from "../data/db";
+import { db, type AlbumEntry } from "../data/db";
 import { usePlayerStore } from "./playerStore";
-import { createCard, reviewCard as srsReview, type AnswerOutcome } from "../learning/srs";
+import { pickWeightedParty } from "../learning/vocabMastery";
 import type { EnemyAction, ActiveEffects } from "../learning/enemyActions";
 import { INITIAL_EFFECTS } from "../learning/enemyActions";
+import {
+  BASE_DAMAGE,
+  ENEMY_DAMAGE_PER_TURN,
+  ENEMY_MAX_HP,
+  PLAYER_MAX_HP,
+  WRONG_ANSWER_HP_LOSS,
+  timingTier,
+  timingMultiplier,
+  persistSrsReview,
+  queueIncorrectReview,
+  takePendingIncorrectReview,
+} from "./battleMath";
 
 export type BossGimmick = "katakana_only" | "counter_only" | "keigo_only";
 
@@ -34,6 +46,12 @@ export interface LastResult {
   damage: number;
   timingMs: number;
   timingTier: "critical" | "normal" | "slow";
+  skipped: boolean;
+  forgiven: boolean;
+  vocabId: string;
+  prompt: string;
+  chosenText: string;
+  correctText: string;
 }
 
 interface BattleState {
@@ -72,31 +90,6 @@ interface BattleState {
   endBattle(): void;
 }
 
-async function persistSrsReview(vocabId: string, outcome: AnswerOutcome): Promise<void> {
-  const existing = await db.srsCards.get(vocabId);
-  const card: SrsCard = existing ?? { ...createCard(vocabId), vocabId };
-  const updated = srsReview(card, outcome);
-  await db.srsCards.put({ ...updated, vocabId });
-}
-
-const BASE_DAMAGE = 10;
-const ENEMY_DAMAGE_PER_TURN = 4;
-const ENEMY_MAX_HP = 30;
-const PLAYER_MAX_HP = 40;
-const WRONG_ANSWER_HP_LOSS = 2; // 5% of 40
-
-function timingTier(ms: number): "critical" | "normal" | "slow" {
-  if (ms <= 3000) return "critical";
-  if (ms <= 8000) return "normal";
-  return "slow";
-}
-
-function timingMultiplier(tier: "critical" | "normal" | "slow"): number {
-  if (tier === "critical") return 2.0;
-  if (tier === "slow") return 0.7;
-  return 1.0;
-}
-
 export const useBattleStore = create<BattleState>((set, get) => ({
   phase: "idle",
   enemyId: "",
@@ -123,7 +116,8 @@ export const useBattleStore = create<BattleState>((set, get) => ({
 
   startBattle(enemyId, pool, l1, bossGimmick, bossMaxHp) {
     const enemyMax = bossMaxHp ?? ENEMY_MAX_HP;
-    const partyEntries = pool.slice(0, 4);
+    const known = usePlayerStore.getState().knownWordIds;
+    const partyEntries = pickWeightedParty(pool, 4, known, new Map());
     const party: BattleKotodama[] = partyEntries.map((e) => ({
       vocabEntry: e,
       encounterCount: 0,
@@ -160,8 +154,6 @@ export const useBattleStore = create<BattleState>((set, get) => ({
     if (phase !== "command") return;
     const slot = party.at(index);
     if (!slot || slot.sentThisTurn) return;
-
-    // Build a pool of all party vocab for distractor generation
     const vocabPool = party.map((k) => k.vocabEntry);
     const qType = bossGimmick === "katakana_only"
       ? "script_reading" as const
@@ -176,24 +168,26 @@ export const useBattleStore = create<BattleState>((set, get) => ({
     if (!currentQuestion) return;
 
     const correct = choiceIndex === currentQuestion.correctIndex;
-    if (correct) eventBus.emit("battle:correct_answer", { vocabId: currentQuestion.vocabId });
+    const skipped = choiceIndex < 0;
+    if (correct) {
+      eventBus.emit("battle:correct_answer", { vocabId: currentQuestion.vocabId });
+      usePlayerStore.getState().markWordKnown(currentQuestion.vocabId);
+    }
     const tier = timingTier(timingMs);
     const mult = timingMultiplier(tier);
     const damage = correct ? Math.round(BASE_DAMAGE * mult) : 0;
 
-    // Persist SRS review — fire and forget, does not block the UI
-    const srsOutcome: AnswerOutcome =
-      !correct ? "incorrect" :
-      tier === "critical" ? "critical" :
-      tier === "slow" ? "assisted" : "correct";
-    void persistSrsReview(currentQuestion.vocabId, srsOutcome);
+    if (correct) {
+      const srsOutcome = tier === "critical" ? "critical" : tier === "slow" ? "assisted" : "correct";
+      void persistSrsReview(currentQuestion.vocabId, srsOutcome);
+    } else {
+      queueIncorrectReview(currentQuestion.vocabId, "incorrect");
+    }
 
     const newEnemyHp = Math.max(0, enemyHp - damage);
-    const newPlayerHp = correct
-      ? Math.max(0, playerHp - ENEMY_DAMAGE_PER_TURN)
-      : Math.max(0, playerHp - ENEMY_DAMAGE_PER_TURN - WRONG_ANSWER_HP_LOSS);
+    const missPenalty = correct || skipped ? 0 : WRONG_ANSWER_HP_LOSS;
+    const newPlayerHp = Math.max(0, playerHp - ENEMY_DAMAGE_PER_TURN - missPenalty);
 
-    // Add to sentence chain
     const slot = party.at(activeIndex);
     const newChain: ComboToken[] = slot
       ? [
@@ -209,35 +203,39 @@ export const useBattleStore = create<BattleState>((set, get) => ({
         ]
       : chain;
 
-    // Mark Kotodama as sent this turn
     const newParty = party.map((k, i) =>
       i === activeIndex
         ? { ...k, sentThisTurn: true, encounterCount: k.encounterCount + 1 }
         : k,
     );
 
-    // Emit effect for Phaser to animate
     eventBus.emit("battle:effect", {
       type: correct ? (tier === "critical" ? "critical" : "damage") : "miss",
       amount: damage,
     });
 
-    const lastResult: LastResult = { correct, damage, timingMs, timingTier: tier };
+    const lastResult: LastResult = {
+      correct, damage, timingMs, timingTier: tier, skipped, forgiven: false,
+      vocabId: currentQuestion.vocabId, prompt: currentQuestion.prompt,
+      chosenText: skipped ? "" : (currentQuestion.options[choiceIndex]?.text ?? ""),
+      correctText: currentQuestion.options[currentQuestion.correctIndex]?.text ?? "",
+    };
 
-    // Check win/lose conditions
-    if (newEnemyHp === 0) {
-      set({ phase: "result", enemyHp: 0, playerHp: newPlayerHp, chain: newChain, party: newParty, lastResult, currentQuestion: null, l1 });
-      return;
-    }
-    if (newPlayerHp === 0) {
-      set({ phase: "result", playerHp: 0, enemyHp: newEnemyHp, chain: newChain, party: newParty, lastResult, currentQuestion: null, l1 });
-      return;
-    }
-
-    set({ phase: "result", enemyHp: newEnemyHp, playerHp: newPlayerHp, chain: newChain, party: newParty, lastResult, currentQuestion: null, l1 });
+    set({
+      phase: "result",
+      enemyHp: newEnemyHp,
+      playerHp: newPlayerHp,
+      chain: newChain,
+      party: newParty,
+      lastResult,
+      currentQuestion: null,
+      l1,
+    });
   },
 
   proceedFromResult() {
+    const pending = takePendingIncorrectReview();
+    if (pending) void persistSrsReview(pending.vocabId, pending.outcome);
     const { enemyHp, playerHp } = get();
     if (enemyHp === 0) { get().endBattle(); return; }
     if (playerHp === 0) { set({ phase: "defeat" }); return; }
@@ -252,7 +250,6 @@ export const useBattleStore = create<BattleState>((set, get) => ({
       return;
     }
 
-    // Determine the language from l1 — the L2 being learned
     const combLang = l1 === "th" ? "ja" : "th";
     const result = validateCombo(chain, combLang);
 
@@ -261,7 +258,6 @@ export const useBattleStore = create<BattleState>((set, get) => ({
       const newHp = Math.max(0, enemyHp - comboDamage);
       eventBus.emit("battle:effect", { type: "combo", amount: comboDamage });
       eventBus.emit("battle:combo_done", { multiplier: result.multiplier });
-      // Save to Sentence Album (fire-and-forget)
       const { party } = get();
       const wordById = new Map(party.map((k) => [k.vocabEntry.id, k.vocabEntry.written]));
       const sentence = chain.map((t) => wordById.get(t.id) ?? t.id).join("");
